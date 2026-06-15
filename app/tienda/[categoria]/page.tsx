@@ -139,9 +139,8 @@ export default async function CategoriaPage({ params }: Props) {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {catProducts.map((product) => (
-            <Link
+            <div
               key={product.slug}
-              href={`/tienda/${cat.slug}/${product.slug}`}
               className="border border-gray-100 rounded-xl p-5 hover:shadow-md hover:border-indigo-200 transition-all group"
             >
               {product.badge && (
@@ -162,20 +161,22 @@ export default async function CategoriaPage({ params }: Props) {
                 </div>
               </div>
               <div className="flex gap-2">
-                <span className="flex-1 text-center text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg py-2 transition-colors">
+                <Link
+                  href={`/tienda/${cat.slug}/${product.slug}`}
+                  className="flex-1 text-center text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg py-2 transition-colors"
+                >
                   Ver análisis →
-                </span>
+                </Link>
                 <a
                   href={amazonLink(product.asin)}
                   target="_blank"
                   rel="noopener noreferrer sponsored"
-                  onClick={(e) => e.stopPropagation()}
                   className="flex-1 text-center text-xs font-bold text-white bg-orange-500 hover:bg-orange-600 rounded-lg py-2 transition-colors"
                 >
                   Amazon →
                 </a>
               </div>
-            </Link>
+            </div>
           ))}
         </div>
 
