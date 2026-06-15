@@ -33,7 +33,7 @@ export const products: Product[] = [
   {
     slug: "apple-macbook-air-m3-13",
     name: "Apple MacBook Air M3 13\" 8GB 256GB",
-    asin: "B0CX22V2B8",
+    asin: "B0CX242NL1",
     category: "Portátiles",
     categorySlug: "portatiles",
     categoryName: "Portátiles para trabajo remoto",
@@ -125,7 +125,7 @@ export const products: Product[] = [
   {
     slug: "logitech-mx-master-3s",
     name: "Logitech MX Master 3S Ratón Inalámbrico",
-    asin: "B09HM94MBG",
+    asin: "B09HM94VDS",
     category: "Periféricos",
     categorySlug: "perifericos",
     categoryName: "Teclados y ratones",
@@ -180,7 +180,7 @@ export const products: Product[] = [
   {
     slug: "hyperx-solocast-microfono",
     name: "HyperX SoloCast Micrófono USB Condensador Cardioide",
-    asin: "B08HHZXJBL",
+    asin: "B08KFL3SFV",
     category: "Micrófonos",
     categorySlug: "microfonos",
     categoryName: "Micrófonos para podcast",
