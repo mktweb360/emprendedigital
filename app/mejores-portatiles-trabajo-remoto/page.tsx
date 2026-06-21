@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Apple MacBook Air M3 13\"", asin: "B0CX22V2B8", price: "€1.299", cpu: "Apple M3", ram: "8 GB", battery: "Hasta 18h", weight: "1,24 kg", stars: "4,8/5", best: "Mejor overall" },
+  { pos: 1, name: "Apple MacBook Air M3 13\"", asin: "B0CX242NL1", price: "€1.299", cpu: "Apple M3", ram: "8 GB", battery: "Hasta 18h", weight: "1,24 kg", stars: "4,8/5", best: "Mejor overall" },
   { pos: 2, name: "ASUS ZenBook 14 OLED UX3405", asin: "B0CQXVFR67", price: "€899", cpu: "Core Ultra 7", ram: "16 GB", battery: "Hasta 15h", weight: "1,39 kg", stars: "4,5/5", best: "Mejor pantalla" },
   { pos: 3, name: "Lenovo ThinkPad X1 Carbon Gen 12", asin: "B0CRTJ6K3M", price: "€1.599", cpu: "Core Ultra 5", ram: "16 GB", battery: "Hasta 16h", weight: "1,12 kg", stars: "4,6/5", best: "Para profesionales" },
   { pos: 4, name: "HP Pavilion Plus 14 OLED", asin: "B0C6FB9VBK", price: "€749", cpu: "Core i7-1255U", ram: "16 GB", battery: "Hasta 10h", weight: "1,46 kg", stars: "4,3/5", best: "Mejor calidad-precio" },

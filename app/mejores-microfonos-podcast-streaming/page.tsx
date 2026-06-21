@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 const products = [
   { pos: 1, name: "Blue Yeti USB", asin: "B00N1YPXW2", price: "€129,99", type: "Condensador USB", pattern: "4 patrones", frequency: "20Hz–20kHz", stars: "4,6/5", best: "Referencia del sector" },
-  { pos: 2, name: "HyperX SoloCast", asin: "B08HHZXJBL", price: "€49,99", type: "Condensador USB", pattern: "Cardioide", frequency: "20Hz–20kHz", stars: "4,5/5", best: "Mejor calidad-precio" },
+  { pos: 2, name: "HyperX SoloCast", asin: "B08KFL3SFV", price: "€49,99", type: "Condensador USB", pattern: "Cardioide", frequency: "20Hz–20kHz", stars: "4,5/5", best: "Mejor calidad-precio" },
   { pos: 3, name: "Rode NT-USB Mini", asin: "B085M7SSVS", price: "€99,00", type: "Condensador USB", pattern: "Cardioide", frequency: "20Hz–20kHz", stars: "4,4/5", best: "Mejor calidad sonido" },
   { pos: 4, name: "Razer Seiren Mini", asin: "B08HH3MXHQ", price: "€54,99", type: "Condensador USB", pattern: "Supercardioide", frequency: "20Hz–20kHz", stars: "4,3/5", best: "Más compacto" },
   { pos: 5, name: "Maono PM421", asin: "B09Q8QLPBR", price: "€39,99", type: "Condensador USB", pattern: "Cardioide", frequency: "30Hz–18kHz", stars: "4,2/5", best: "Mejor precio absoluto" },
