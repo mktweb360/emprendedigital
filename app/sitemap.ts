@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { categories, products } from "@/data/products";
+import { posts } from "@/data/posts";
 
 const BASE = "https://www.emprendedigital.es";
 
@@ -47,5 +48,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...articlePages, ...categoryPages, ...productPages];
+  const blogPages: MetadataRoute.Sitemap = posts.map((post) => ({
+    url: `${BASE}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...articlePages, ...categoryPages, ...productPages, ...blogPages];
 }

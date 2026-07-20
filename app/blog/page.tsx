@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { posts } from "@/data/posts";
 
 export const metadata: Metadata = {
   title: "Blog — Guías de compra y análisis de herramientas para emprendedores digitales",
@@ -13,7 +14,18 @@ export const metadata: Metadata = {
   },
 };
 
-const articles = [
+type ArticleCard = {
+  href: string;
+  icon: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  price: string | null;
+  category: string;
+};
+
+// Landing pages estáticas (una ruta propia por artículo).
+const staticArticles: ArticleCard[] = [
   {
     href: "/mejores-portatiles-trabajo-remoto",
     icon: "💻",
@@ -96,6 +108,26 @@ const articles = [
   },
 ];
 
+const postIcons: Record<string, string> = {
+  "Home Office": "🪑",
+  Productividad: "⚡",
+};
+
+// Artículos del motor de blog dinámico (data/posts.ts → /blog/[slug]).
+const blogPosts: ArticleCard[] = posts.map((p) => ({
+  href: `/blog/${p.slug}`,
+  icon: postIcons[p.category] ?? "📝",
+  title: p.title,
+  excerpt: p.excerpt,
+  date: p.date,
+  price: null,
+  category: p.category,
+}));
+
+const allArticles: ArticleCard[] = [...staticArticles, ...blogPosts].sort(
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+);
+
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -118,7 +150,7 @@ export default function BlogPage() {
           Guías de compra y análisis actualizados para emprendedores digitales en 2025
         </p>
         <div className="grid grid-cols-1 gap-6">
-          {articles.map((art) => (
+          {allArticles.map((art) => (
             <Link
               key={art.href}
               href={art.href}
@@ -130,9 +162,11 @@ export default function BlogPage() {
                   <span className="text-xs font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">
                     {art.category}
                   </span>
-                  <span className="text-xs text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full font-medium">
-                    {art.price}
-                  </span>
+                  {art.price && (
+                    <span className="text-xs text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full font-medium">
+                      {art.price}
+                    </span>
+                  )}
                 </div>
                 <h2 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors leading-snug">
                   {art.title}
