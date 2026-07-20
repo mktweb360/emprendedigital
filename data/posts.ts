@@ -19,6 +19,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "9 min",
     relatedProducts: ["sihoo-m57-silla-ergonomica", "hbada-silla-ergonomica-pro"],
+    relatedPosts: ["sihoo-m57-analisis-opinion", "dolor-espalda-trabajar-casa-soluciones", "home-office-setup-productivo-guia"],
   },
   {
     slug: "sihoo-m57-analisis-opinion",
@@ -29,6 +30,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "8 min",
     relatedProducts: ["sihoo-m57-silla-ergonomica", "hbada-silla-ergonomica-pro"],
+    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "escritorio-regulable-altura-home-office", "dolor-espalda-trabajar-casa-soluciones"],
   },
   {
     slug: "escritorio-regulable-altura-home-office",
@@ -39,6 +41,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "9 min",
     relatedProducts: ["flexispot-e7-pro-escritorio-ajustable", "flexispot-eg1-escritorio-ajustable"],
+    relatedPosts: ["flexispot-e7-pro-analisis-opinion", "home-office-setup-productivo-guia", "organizar-cables-home-office-guia"],
   },
   {
     slug: "flexispot-e7-pro-analisis-opinion",
@@ -49,6 +52,7 @@ export const posts: Post[] = [
     category: "Productividad",
     readTime: "8 min",
     relatedProducts: ["flexispot-e7-pro-escritorio-ajustable", "flexispot-eg1-escritorio-ajustable"],
+    relatedPosts: ["escritorio-regulable-altura-home-office", "home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
     slug: "home-office-setup-productivo-guia",
@@ -63,6 +67,7 @@ export const posts: Post[] = [
       "flexispot-e7-pro-escritorio-ajustable",
       "hbada-silla-ergonomica-pro",
     ],
+    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "escritorio-regulable-altura-home-office", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
     slug: "dolor-espalda-trabajar-casa-soluciones",
@@ -73,6 +78,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "8 min",
     relatedProducts: ["sihoo-m57-silla-ergonomica", "hbada-silla-ergonomica-pro"],
+    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "sihoo-m57-analisis-opinion", "home-office-setup-productivo-guia"],
   },
   {
     slug: "mejor-teclado-raton-trabajo-remoto",
@@ -83,6 +89,7 @@ export const posts: Post[] = [
     category: "Productividad",
     readTime: "8 min",
     relatedProducts: ["logitech-mx-keys-advanced-s", "logitech-mx-master-3s", "keychron-k2-pro-mecanico"],
+    relatedPosts: ["logitech-mx-keys-analisis-opinion", "setup-trabajo-remoto-productividad-maxima", "herramientas-productividad-trabajo-remoto-2025"],
   },
   {
     slug: "logitech-mx-keys-analisis-opinion",
@@ -93,6 +100,7 @@ export const posts: Post[] = [
     category: "Productividad",
     readTime: "7 min",
     relatedProducts: ["logitech-mx-keys-advanced-s", "keychron-k2-pro-mecanico"],
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "setup-trabajo-remoto-productividad-maxima", "herramientas-productividad-trabajo-remoto-2025"],
   },
   {
     slug: "setup-trabajo-remoto-productividad-maxima",
@@ -103,6 +111,7 @@ export const posts: Post[] = [
     category: "Productividad",
     readTime: "9 min",
     relatedProducts: ["logitech-mx-keys-advanced-s", "logitech-mx-master-3s"],
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "iluminacion-videollamadas-home-office", "productividad-trabajando-desde-casa-habitos"],
   },
   {
     slug: "herramientas-productividad-trabajo-remoto-2025",
@@ -113,6 +122,7 @@ export const posts: Post[] = [
     category: "Productividad",
     readTime: "8 min",
     relatedProducts: ["logitech-mx-keys-advanced-s", "logitech-mx-master-3s", "keychron-k2-pro-mecanico"],
+    relatedPosts: ["productividad-trabajando-desde-casa-habitos", "setup-trabajo-remoto-productividad-maxima", "trabajo-remoto-espana-guia-completa-2025"],
   },
   {
     slug: "mejores-auriculares-cancelacion-ruido-trabajo-2025",
@@ -123,6 +133,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "9 min",
     relatedProducts: ["sony-wh-1000xm5-auriculares", "jabra-evolve2-55-auriculares", "jbl-tune-510bt-auriculares"],
+    relatedPosts: ["sony-wh1000xm5-analisis-opinion", "mejor-webcam-videollamadas-trabajo-remoto", "productividad-trabajando-desde-casa-habitos"],
   },
   {
     slug: "mejor-webcam-videollamadas-trabajo-remoto",
@@ -133,6 +144,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "7 min",
     relatedProducts: ["logitech-c920-hd-pro-webcam", "logitech-brio-4k-webcam", "blue-yeti-usb-microfono"],
+    relatedPosts: ["iluminacion-videollamadas-home-office", "mejores-auriculares-cancelacion-ruido-trabajo-2025", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
     slug: "sony-wh1000xm5-analisis-opinion",
@@ -143,6 +155,7 @@ export const posts: Post[] = [
     category: "Productividad",
     readTime: "8 min",
     relatedProducts: ["sony-wh-1000xm5-auriculares", "jbl-tune-510bt-auriculares"],
+    relatedPosts: ["mejores-auriculares-cancelacion-ruido-trabajo-2025", "productividad-trabajando-desde-casa-habitos", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
     slug: "iluminacion-videollamadas-home-office",
@@ -153,6 +166,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "8 min",
     relatedProducts: ["elgato-key-light-air", "neewer-ring-light-18-pulgadas"],
+    relatedPosts: ["mejor-webcam-videollamadas-trabajo-remoto", "mejores-auriculares-cancelacion-ruido-trabajo-2025", "home-office-setup-productivo-guia"],
   },
   {
     slug: "organizar-cables-home-office-guia",
@@ -162,6 +176,7 @@ export const posts: Post[] = [
     date: "2025-07-17",
     category: "Home Office",
     readTime: "7 min",
+    relatedPosts: ["home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima", "escritorio-regulable-altura-home-office"],
   },
   {
     slug: "mejor-hosting-web-emprendedores-2025",
@@ -171,6 +186,7 @@ export const posts: Post[] = [
     date: "2025-07-18",
     category: "Emprender Online",
     readTime: "9 min",
+    relatedPosts: ["hosting-wordpress-comparativa-espana-2025", "como-empezar-negocio-online-desde-casa-2025", "herramientas-productividad-trabajo-remoto-2025"],
   },
   {
     slug: "como-empezar-negocio-online-desde-casa-2025",
@@ -181,6 +197,7 @@ export const posts: Post[] = [
     category: "Emprender Online",
     readTime: "10 min",
     relatedProducts: ["logitech-c920-hd-pro-webcam", "blue-yeti-usb-microfono", "rode-nt-usb-mini-microfono"],
+    relatedPosts: ["mejor-hosting-web-emprendedores-2025", "hosting-wordpress-comparativa-espana-2025", "trabajo-remoto-espana-guia-completa-2025"],
   },
   {
     slug: "trabajo-remoto-espana-guia-completa-2025",
@@ -190,6 +207,7 @@ export const posts: Post[] = [
     date: "2025-07-20",
     category: "Trabajo Remoto",
     readTime: "9 min",
+    relatedPosts: ["productividad-trabajando-desde-casa-habitos", "home-office-setup-productivo-guia", "herramientas-productividad-trabajo-remoto-2025"],
   },
   {
     slug: "productividad-trabajando-desde-casa-habitos",
@@ -200,6 +218,7 @@ export const posts: Post[] = [
     category: "Trabajo Remoto",
     readTime: "8 min",
     relatedProducts: ["logitech-mx-keys-advanced-s", "sony-wh-1000xm5-auriculares"],
+    relatedPosts: ["trabajo-remoto-espana-guia-completa-2025", "herramientas-productividad-trabajo-remoto-2025", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
     slug: "hosting-wordpress-comparativa-espana-2025",
@@ -209,6 +228,7 @@ export const posts: Post[] = [
     date: "2025-07-22",
     category: "Emprender Online",
     readTime: "9 min",
+    relatedPosts: ["mejor-hosting-web-emprendedores-2025", "como-empezar-negocio-online-desde-casa-2025", "herramientas-productividad-trabajo-remoto-2025"],
   },
 ];
 

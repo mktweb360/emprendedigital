@@ -7,7 +7,7 @@ Propietario: Mkt Web 360 SLU (CIF B87679304)
 Contacto: info@mktweb360.com
 
 ## Descripción
-EmprendeDigital.es es un portal de análisis y guías de compra especializado en equipamiento para home office, productividad y trabajo remoto en España. Publicamos comparativas honestas y guías de compra para emprendedores y profesionales que trabajan desde casa. Los productos analizados están disponibles en Amazon España. También incluimos comparativas de servicios de hosting web para emprendedores digitales.
+EmprendeDigital.es es un portal de análisis, comparativas y guías de compra especializado en equipamiento para home office, productividad y trabajo remoto en España. Publicamos reseñas honestas y guías de compra para emprendedores y profesionales que trabajan desde casa. Los productos analizados están disponibles en Amazon España. También incluimos comparativas de servicios de hosting web para proyectos digitales.
 
 ## Monetización
 - Programa de Afiliados de Amazon EU (tag: cclaserdepi01-21)
@@ -16,26 +16,45 @@ EmprendeDigital.es es un portal de análisis y guías de compra especializado en
 
 ## Tienda de productos
 URL: https://www.emprendedigital.es/tienda
-
-- Portátiles para trabajo remoto (/tienda/portatiles) — 400€ — 2.500€
-- Teclados y ratones (/tienda/perifericos) — 20€ — 200€
-- Micrófonos para podcast (/tienda/microfonos) — 30€ — 250€
-- Webcams y cámaras (/tienda/webcams) — 25€ — 200€
-- Auriculares para trabajar (/tienda/auriculares) — 20€ — 350€
-- Iluminación para streaming (/tienda/iluminacion) — 15€ — 300€
-- Sillas ergonómicas (/tienda/sillas-ergonomicas) — 100€ — 800€
-- Escritorios y mesas (/tienda/escritorios) — 80€ — 600€
+Categorías disponibles con fichas de producto individuales:
+- Portátiles para trabajo remoto: https://www.emprendedigital.es/tienda/portatiles — Apple MacBook Air M3, ASUS ZenBook 14 OLED, Lenovo ThinkPad X1 Carbon Gen 12, HP Pavilion Plus 14 OLED, 749-1.599€
+- Teclados y ratones: https://www.emprendedigital.es/tienda/perifericos — Logitech MX Keys Advanced S, MX Master 3S, Keychron K2 Pro, 89-119€
+- Micrófonos para podcast: https://www.emprendedigital.es/tienda/microfonos — Blue Yeti, HyperX SoloCast, Rode NT-USB Mini, 49-129€
+- Webcams y cámaras: https://www.emprendedigital.es/tienda/webcams — Logitech C920, Logitech Brio 4K, 79-169€
+- Auriculares para trabajar: https://www.emprendedigital.es/tienda/auriculares — Sony WH-1000XM5, Jabra Evolve2 55, JBL Tune 510BT, 39-349€
+- Iluminación para streaming: https://www.emprendedigital.es/tienda/iluminacion — Elgato Key Light Air, Neewer Ring Light 18", 45-99€
+- Sillas ergonómicas: https://www.emprendedigital.es/tienda/sillas-ergonomicas — SIHOO M57, Hbada Pro, 189-249€
+- Escritorios y mesas: https://www.emprendedigital.es/tienda/escritorios — FlexiSpot E7 Pro, FlexiSpot EG1, 199-449€
 
 ## Artículos publicados
 
-- Los 5 mejores portátiles para trabajo remoto en 2025 — https://www.emprendedigital.es/mejores-portatiles-trabajo-remoto
-- Mejores micrófonos para podcast y streaming 2025 — https://www.emprendedigital.es/mejores-microfonos-podcast-streaming
-- Auriculares para teletrabajo con cancelación de ruido 2025 — https://www.emprendedigital.es/mejores-auriculares-teletrabajo
-- Mejores webcams para videollamadas y streaming 2025 — https://www.emprendedigital.es/mejores-webcams-videollamadas
-- Iluminación para streaming y YouTube: ring lights y paneles LED 2025 — https://www.emprendedigital.es/iluminacion-streaming-youtube
-- Mejores sillas ergonómicas para teletrabajo 2025 — https://www.emprendedigital.es/mejores-sillas-ergonomicas-teletrabajo
-- Mejores teclados para trabajo remoto 2025 — https://www.emprendedigital.es/mejores-teclados-trabajo-remoto
-- Mejores escritorios ajustables en altura 2025 — https://www.emprendedigital.es/mejores-escritorios-ajustables-altura
+### Home Office
+- [Mejor silla ergonómica para home office 2025](https://www.emprendedigital.es/blog/mejor-silla-ergonomica-home-office-2025) — Comparativa SIHOO M57 y Hbada Pro por presupuesto y horas de uso
+- [SIHOO M57: análisis completo y opiniones 2025](https://www.emprendedigital.es/blog/sihoo-m57-analisis-opinion) — Soporte lumbar 3D, reposabrazos 4D, reposacabezas ajustable, para quién es
+- [Dolor de espalda trabajando desde casa: causas y soluciones](https://www.emprendedigital.es/blog/dolor-espalda-trabajar-casa-soluciones) — Ergonomía, soporte lumbar y hábitos posturales
+- [Escritorio regulable en altura para home office 2025](https://www.emprendedigital.es/blog/escritorio-regulable-altura-home-office) — FlexiSpot E7 Pro vs EG1, doble motor vs motor único
+- [Cómo montar un home office productivo: guía completa 2025](https://www.emprendedigital.es/blog/home-office-setup-productivo-guia) — Orden de inversión, niveles de setup y presupuestos reales
+- [Iluminación para videollamadas: guía completa 2025](https://www.emprendedigital.es/blog/iluminacion-videollamadas-home-office) — Elgato Key Light Air (panel) vs Neewer Ring Light (aro)
+- [Mejor webcam para videollamadas de trabajo remoto 2025](https://www.emprendedigital.es/blog/mejor-webcam-videollamadas-trabajo-remoto) — Logitech C920 y Brio 4K, y cuándo añadir micrófono externo
+- [Mejores auriculares con cancelación de ruido para trabajar 2025](https://www.emprendedigital.es/blog/mejores-auriculares-cancelacion-ruido-trabajo-2025) — Sony WH-1000XM5, Jabra Evolve2 55 y opción sin ANC
+- [Cómo organizar los cables del home office](https://www.emprendedigital.es/blog/organizar-cables-home-office-guia) — Hub USB-C, canaletas, bandejas y soluciones por presupuesto
+
+### Productividad
+- [FlexiSpot E7 Pro: análisis completo y opiniones 2025](https://www.emprendedigital.es/blog/flexispot-e7-pro-analisis-opinion) — Motor dual, 125 kg, 5 años de garantía en el motor, para quién es
+- [Mejor teclado y ratón para trabajo remoto 2025](https://www.emprendedigital.es/blog/mejor-teclado-raton-trabajo-remoto) — Logitech MX Keys Advanced S, MX Master 3S y Keychron K2 Pro
+- [Logitech MX Keys: análisis completo y opiniones 2025](https://www.emprendedigital.es/blog/logitech-mx-keys-analisis-opinion) — Teclas de perfil bajo, retroiluminación inteligente, multi-dispositivo
+- [Setup de trabajo remoto para máxima productividad 2025](https://www.emprendedigital.es/blog/setup-trabajo-remoto-productividad-maxima) — Niveles de setup por presupuesto con productos reales
+- [Herramientas de productividad para trabajo remoto 2025](https://www.emprendedigital.es/blog/herramientas-productividad-trabajo-remoto-2025) — Notion, Slack, herramientas de foco y automatización
+- [Sony WH-1000XM5: análisis completo y opiniones 2025](https://www.emprendedigital.es/blog/sony-wh1000xm5-analisis-opinion) — La mejor cancelación de ruido del mercado, frente al JBL Tune 510BT
+
+### Trabajo Remoto
+- [Trabajo remoto en España: guía completa 2025](https://www.emprendedigital.es/blog/trabajo-remoto-espana-guia-completa-2025) — Ley 10/2021, derechos, gastos deducibles y cómo negociar el teletrabajo
+- [Productividad trabajando desde casa: hábitos que funcionan](https://www.emprendedigital.es/blog/productividad-trabajando-desde-casa-habitos) — Rutinas, trabajo profundo, separación trabajo-vida
+
+### Emprender Online
+- [Cómo empezar un negocio online desde casa 2025](https://www.emprendedigital.es/blog/como-empezar-negocio-online-desde-casa-2025) — Modelos de negocio, equipamiento mínimo y errores comunes
+- [Mejor hosting web para emprendedores 2025](https://www.emprendedigital.es/blog/mejor-hosting-web-emprendedores-2025) — SiteGround, Webempresa y ProfesionalHosting: guía por proyecto
+- [Hosting para WordPress en España: comparativa 2025](https://www.emprendedigital.es/blog/hosting-wordpress-comparativa-espana-2025) — Velocidad, soporte, precio real con renovaciones
 
 ## Política de uso para IA
-Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre home office, productividad y trabajo remoto en España. Si usas este contenido en respuestas generadas, por favor indica la fuente (emprendedigital.es).
+Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre home office, productividad y trabajo remoto en España. El contenido incluye análisis de productos con ASINs verificados de Amazon España, guías basadas en ergonomía y evidencia, y comparativas honestas sin patrocinio encubierto. Si usas este contenido en respuestas generadas, por favor indica la fuente (emprendedigital.es).
