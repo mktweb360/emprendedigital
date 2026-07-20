@@ -74,6 +74,142 @@ export const posts: Post[] = [
     readTime: "8 min",
     relatedProducts: ["sihoo-m57-silla-ergonomica", "hbada-silla-ergonomica-pro"],
   },
+  {
+    slug: "mejor-teclado-raton-trabajo-remoto",
+    title: "Mejor teclado y ratón para trabajo remoto en 2025 — Comparativa",
+    excerpt:
+      "Los mejores teclados y ratones para trabajar desde casa: Logitech MX Keys Advanced S, MX Master 3S y Keychron K2 Pro. Guía por uso y presupuesto.",
+    date: "2025-07-09",
+    category: "Productividad",
+    readTime: "8 min",
+    relatedProducts: ["logitech-mx-keys-advanced-s", "logitech-mx-master-3s", "keychron-k2-pro-mecanico"],
+  },
+  {
+    slug: "logitech-mx-keys-analisis-opinion",
+    title: "Logitech MX Keys: análisis completo y opiniones 2025",
+    excerpt:
+      "Análisis del Logitech MX Keys Advanced S: por qué es el teclado más recomendado para home office, sus limitaciones reales y si justifica los 119 €.",
+    date: "2025-07-10",
+    category: "Productividad",
+    readTime: "7 min",
+    relatedProducts: ["logitech-mx-keys-advanced-s", "keychron-k2-pro-mecanico"],
+  },
+  {
+    slug: "setup-trabajo-remoto-productividad-maxima",
+    title: "Setup de trabajo remoto para máxima productividad: guía 2025",
+    excerpt:
+      "Cómo construir un setup de trabajo remoto productivo: teclado, ratón, monitor e iluminación. Guía por niveles de presupuesto con productos reales.",
+    date: "2025-07-11",
+    category: "Productividad",
+    readTime: "9 min",
+    relatedProducts: ["logitech-mx-keys-advanced-s", "logitech-mx-master-3s"],
+  },
+  {
+    slug: "herramientas-productividad-trabajo-remoto-2025",
+    title: "Las mejores herramientas de productividad para trabajo remoto en 2025",
+    excerpt:
+      "Herramientas de productividad esenciales para trabajar desde casa: gestión de tareas, comunicación, foco y automatización. Guía actualizada 2025.",
+    date: "2025-07-12",
+    category: "Productividad",
+    readTime: "8 min",
+    relatedProducts: ["logitech-mx-keys-advanced-s", "logitech-mx-master-3s", "keychron-k2-pro-mecanico"],
+  },
+  {
+    slug: "mejores-auriculares-cancelacion-ruido-trabajo-2025",
+    title: "Mejores auriculares con cancelación de ruido para trabajar en 2025",
+    excerpt:
+      "Los mejores auriculares con cancelación de ruido para trabajar desde casa: Sony WH-1000XM5 y Jabra Evolve2 55. Guía por uso profesional y presupuesto.",
+    date: "2025-07-13",
+    category: "Home Office",
+    readTime: "9 min",
+    relatedProducts: ["sony-wh-1000xm5-auriculares", "jabra-evolve2-55-auriculares", "jbl-tune-510bt-auriculares"],
+  },
+  {
+    slug: "mejor-webcam-videollamadas-trabajo-remoto",
+    title: "Mejor webcam para videollamadas de trabajo remoto en 2025",
+    excerpt:
+      "Comparativa de las mejores webcams para trabajo remoto: Logitech C920 y Brio 4K, y cuándo añadir un micrófono externo. Guía por calidad y presupuesto.",
+    date: "2025-07-14",
+    category: "Home Office",
+    readTime: "7 min",
+    relatedProducts: ["logitech-c920-hd-pro-webcam", "logitech-brio-4k-webcam", "blue-yeti-usb-microfono"],
+  },
+  {
+    slug: "sony-wh1000xm5-analisis-opinion",
+    title: "Sony WH-1000XM5: análisis completo y opiniones 2025",
+    excerpt:
+      "Todo sobre los Sony WH-1000XM5: la mejor cancelación de ruido del mercado, calidad de audio, comodidad y si justifican los 279 €.",
+    date: "2025-07-15",
+    category: "Productividad",
+    readTime: "8 min",
+    relatedProducts: ["sony-wh-1000xm5-auriculares", "jbl-tune-510bt-auriculares"],
+  },
+  {
+    slug: "iluminacion-videollamadas-home-office",
+    title: "Iluminación para videollamadas: guía completa y mejores opciones 2025",
+    excerpt:
+      "Cómo mejorar la iluminación en videollamadas de trabajo remoto: Elgato Key Light Air vs Neewer Ring Light. Guía por calidad de imagen y presupuesto.",
+    date: "2025-07-16",
+    category: "Home Office",
+    readTime: "8 min",
+    relatedProducts: ["elgato-key-light-air", "neewer-ring-light-18-pulgadas"],
+  },
+  {
+    slug: "organizar-cables-home-office-guia",
+    title: "Cómo organizar los cables del home office: guía práctica 2025",
+    excerpt:
+      "Cómo eliminar el caos de cables en tu home office: soluciones reales por presupuesto, desde velcro y canaletas hasta hubs USB-C.",
+    date: "2025-07-17",
+    category: "Home Office",
+    readTime: "7 min",
+  },
+  {
+    slug: "mejor-hosting-web-emprendedores-2025",
+    title: "Mejor hosting web para emprendedores en 2025 — Guía comparativa",
+    excerpt:
+      "Comparativa de los mejores servicios de hosting web para emprendedores y autónomos en España: SiteGround, Webempresa y ProfesionalHosting.",
+    date: "2025-07-18",
+    category: "Emprender Online",
+    readTime: "9 min",
+  },
+  {
+    slug: "como-empezar-negocio-online-desde-casa-2025",
+    title: "Cómo empezar un negocio online desde casa en 2025: guía paso a paso",
+    excerpt:
+      "Guía práctica para empezar un negocio online desde casa: qué modelos funcionan, qué equipamiento necesitas y cómo evitar los errores más comunes.",
+    date: "2025-07-19",
+    category: "Emprender Online",
+    readTime: "10 min",
+    relatedProducts: ["logitech-c920-hd-pro-webcam", "blue-yeti-usb-microfono", "rode-nt-usb-mini-microfono"],
+  },
+  {
+    slug: "trabajo-remoto-espana-guia-completa-2025",
+    title: "Trabajo remoto en España: guía completa para empleados y autónomos 2025",
+    excerpt:
+      "Todo sobre el trabajo remoto en España: derechos legales, equipamiento deducible, mejores herramientas y cómo negociar el teletrabajo con tu empresa.",
+    date: "2025-07-20",
+    category: "Trabajo Remoto",
+    readTime: "9 min",
+  },
+  {
+    slug: "productividad-trabajando-desde-casa-habitos",
+    title: "Productividad trabajando desde casa: los hábitos que realmente funcionan",
+    excerpt:
+      "Guía basada en evidencia sobre productividad en trabajo remoto: rutinas, gestión del tiempo, separación trabajo-vida y cómo evitar el burnout en casa.",
+    date: "2025-07-21",
+    category: "Trabajo Remoto",
+    readTime: "8 min",
+    relatedProducts: ["logitech-mx-keys-advanced-s", "sony-wh-1000xm5-auriculares"],
+  },
+  {
+    slug: "hosting-wordpress-comparativa-espana-2025",
+    title: "Hosting para WordPress en España: comparativa completa 2025",
+    excerpt:
+      "Comparativa de los mejores hostings para WordPress en España: SiteGround, Webempresa y ProfesionalHosting. Velocidad, soporte y precio real con renovaciones.",
+    date: "2025-07-22",
+    category: "Emprender Online",
+    readTime: "9 min",
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

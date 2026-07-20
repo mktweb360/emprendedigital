@@ -111,6 +111,8 @@ const staticArticles: ArticleCard[] = [
 const postIcons: Record<string, string> = {
   "Home Office": "🪑",
   Productividad: "⚡",
+  "Emprender Online": "🚀",
+  "Trabajo Remoto": "🏠",
 };
 
 // Artículos del motor de blog dinámico (data/posts.ts → /blog/[slug]).
