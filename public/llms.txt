@@ -1,0 +1,41 @@
+# EmprendeDigital.es — llms.txt
+
+## Sitio web
+URL: https://www.emprendedigital.es
+Idioma: Español
+Propietario: Mkt Web 360 SLU (CIF B87679304)
+Contacto: info@mktweb360.com
+
+## Descripción
+EmprendeDigital.es es un portal de análisis y guías de compra especializado en equipamiento para home office, productividad y trabajo remoto en España. Publicamos comparativas honestas y guías de compra para emprendedores y profesionales que trabajan desde casa. Los productos analizados están disponibles en Amazon España. También incluimos comparativas de servicios de hosting web para emprendedores digitales.
+
+## Monetización
+- Programa de Afiliados de Amazon EU (tag: cclaserdepi01-21)
+- Google AdSense (pub-6063067965030118)
+- Afiliados de hosting: SiteGround, Webempresa, ProfesionalHosting
+
+## Tienda de productos
+URL: https://www.emprendedigital.es/tienda
+
+- Portátiles para trabajo remoto (/tienda/portatiles) — 400€ — 2.500€
+- Teclados y ratones (/tienda/perifericos) — 20€ — 200€
+- Micrófonos para podcast (/tienda/microfonos) — 30€ — 250€
+- Webcams y cámaras (/tienda/webcams) — 25€ — 200€
+- Auriculares para trabajar (/tienda/auriculares) — 20€ — 350€
+- Iluminación para streaming (/tienda/iluminacion) — 15€ — 300€
+- Sillas ergonómicas (/tienda/sillas-ergonomicas) — 100€ — 800€
+- Escritorios y mesas (/tienda/escritorios) — 80€ — 600€
+
+## Artículos publicados
+
+- Los 5 mejores portátiles para trabajo remoto en 2025 — https://www.emprendedigital.es/mejores-portatiles-trabajo-remoto
+- Mejores micrófonos para podcast y streaming 2025 — https://www.emprendedigital.es/mejores-microfonos-podcast-streaming
+- Auriculares para teletrabajo con cancelación de ruido 2025 — https://www.emprendedigital.es/mejores-auriculares-teletrabajo
+- Mejores webcams para videollamadas y streaming 2025 — https://www.emprendedigital.es/mejores-webcams-videollamadas
+- Iluminación para streaming y YouTube: ring lights y paneles LED 2025 — https://www.emprendedigital.es/iluminacion-streaming-youtube
+- Mejores sillas ergonómicas para teletrabajo 2025 — https://www.emprendedigital.es/mejores-sillas-ergonomicas-teletrabajo
+- Mejores teclados para trabajo remoto 2025 — https://www.emprendedigital.es/mejores-teclados-trabajo-remoto
+- Mejores escritorios ajustables en altura 2025 — https://www.emprendedigital.es/mejores-escritorios-ajustables-altura
+
+## Política de uso para IA
+Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre home office, productividad y trabajo remoto en España. Si usas este contenido en respuestas generadas, por favor indica la fuente (emprendedigital.es).

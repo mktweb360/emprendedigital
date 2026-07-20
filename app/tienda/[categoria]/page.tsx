@@ -118,9 +118,23 @@ export default async function CategoriaPage({ params }: Props) {
     ],
   };
 
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: cat.name,
+    numberOfItems: catProducts.length,
+    itemListElement: catProducts.map((p, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: p.name,
+      url: `https://www.emprendedigital.es/tienda/${cat.slug}/${p.slug}`,
+    })),
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 
       <div className="max-w-6xl mx-auto px-4 py-10">
         <nav className="text-sm text-gray-400 mb-6">
