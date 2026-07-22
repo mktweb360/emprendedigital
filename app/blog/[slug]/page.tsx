@@ -5,6 +5,10 @@ import { posts, getPostBySlug } from "@/data/posts";
 import { getProductBySlug } from "@/data/products";
 import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
+import HostingBanner from "@/components/HostingBanner";
+
+// Categorías donde el hosting es una recomendación relevante para el lector.
+const HOSTING_BANNER_CATEGORIES = ["Emprender Online", "Trabajo Remoto"];
 
 export async function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -921,6 +925,7 @@ export default async function BlogPostPage({ params }: Props) {
   const content = articleContent[slug];
   const relatedProducts = post.relatedProducts?.map((s) => getProductBySlug(s)).filter(Boolean) ?? [];
   const relatedPosts = post.relatedPosts?.map((s) => getPostBySlug(s)).filter(Boolean) ?? [];
+  const showHostingBanner = HOSTING_BANNER_CATEGORIES.includes(post.category);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -1036,6 +1041,8 @@ export default async function BlogPostPage({ params }: Props) {
               <h2 className="text-lg font-extrabold text-gray-900 mb-3">Conclusión</h2>
               <p className="text-gray-700 leading-relaxed">{content.conclusion}</p>
             </section>
+
+            {showHostingBanner && <HostingBanner />}
           </article>
         )}
 
