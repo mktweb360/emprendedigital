@@ -30,7 +30,7 @@ export default function PoliticaCookiesPage() {
             <tr><th>Nombre</th><th>Finalidad</th><th>Duración</th></tr>
           </thead>
           <tbody>
-            <tr><td>emprendedigital_consent</td><td>Almacena las preferencias de consentimiento de cookies del usuario</td><td>1 año</td></tr>
+            <tr><td>emprendedigital_consent_v2</td><td>Almacena las preferencias de consentimiento de cookies del usuario</td><td>1 año</td></tr>
           </tbody>
         </table>
 
