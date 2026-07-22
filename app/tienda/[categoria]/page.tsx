@@ -147,7 +147,7 @@ export default async function CategoriaPage({ params }: Props) {
           <span className="text-5xl">{cat.icon}</span>
           <div>
             <h1 className="text-3xl font-extrabold text-gray-900">{cat.name}</h1>
-            <p className="text-gray-500 mt-1">{cat.description} · Rango de precio: {cat.priceRange}</p>
+            <p className="text-gray-500 mt-1">{cat.description}</p>
           </div>
         </div>
 

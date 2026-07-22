@@ -61,7 +61,7 @@ export default function TiendaPage() {
                 <span className="font-semibold text-gray-800 text-sm group-hover:text-indigo-600 transition-colors leading-tight">
                   {cat.name}
                 </span>
-                <span className="text-xs text-gray-400">{cat.priceRange}</span>
+                <span className="text-xs text-gray-400">Ver categoría</span>
               </Link>
             ))}
           </div>
