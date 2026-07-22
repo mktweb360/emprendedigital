@@ -1093,7 +1093,7 @@ export default async function BlogPostPage({ params }: Props) {
                       rel="nofollow sponsored noopener noreferrer"
                       className="inline-block mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
                     >
-                      Ver {ctaProduct.name} en Amazon · {ctaProduct.price}
+                      Ver {ctaProduct.name} en Amazon →
                     </a>
                   )}
                 </section>
@@ -1152,14 +1152,6 @@ export default async function BlogPostPage({ params }: Props) {
                     {p.name}
                   </h3>
                   <p className="text-xs text-gray-500 mb-3 leading-relaxed line-clamp-2">{p.shortDescription}</p>
-                  <div className="flex justify-between items-center mb-3">
-                    <span className="font-bold text-lg text-gray-900">{p.price}</span>
-                    <div className="flex items-center gap-1">
-                      <span className="text-yellow-400 text-sm">★</span>
-                      <span className="text-sm font-medium">{p.rating}</span>
-                      <span className="text-xs text-gray-400">({p.reviewCount})</span>
-                    </div>
-                  </div>
                   <div className="flex gap-2">
                     <Link
                       href={`/tienda/${p.categorySlug}/${p.slug}`}

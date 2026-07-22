@@ -164,11 +164,6 @@ export default function BlogPage() {
                   <span className="text-xs font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">
                     {art.category}
                   </span>
-                  {art.price && (
-                    <span className="text-xs text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full font-medium">
-                      {art.price}
-                    </span>
-                  )}
                 </div>
                 <h2 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors leading-snug">
                   {art.title}

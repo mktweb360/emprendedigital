@@ -92,7 +92,6 @@ export default function SillasPage() {
               <tr className="bg-indigo-600 text-white">
                 <th className="px-3 py-3 text-left">#</th>
                 <th className="px-3 py-3 text-left">Modelo</th>
-                <th className="px-3 py-3 text-left">Precio</th>
                 <th className="px-3 py-3 text-left">Lumbar</th>
                 <th className="px-3 py-3 text-left">Reposabrazos</th>
                 <th className="px-3 py-3 text-left">Reclinación</th>
@@ -106,7 +105,6 @@ export default function SillasPage() {
                 <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-indigo-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
-                  <td className="px-3 py-3 font-bold text-orange-600">{p.price}</td>
                   <td className="px-3 py-3 text-gray-600">{p.lumbar}</td>
                   <td className="px-3 py-3 text-gray-600">{p.armrests}</td>
                   <td className="px-3 py-3 text-gray-600">{p.recline}</td>

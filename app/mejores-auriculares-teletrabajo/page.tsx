@@ -92,7 +92,6 @@ export default function AucularesPage() {
               <tr className="bg-indigo-600 text-white">
                 <th className="px-3 py-3 text-left">#</th>
                 <th className="px-3 py-3 text-left">Modelo</th>
-                <th className="px-3 py-3 text-left">Precio</th>
                 <th className="px-3 py-3 text-left">ANC</th>
                 <th className="px-3 py-3 text-left">Batería</th>
                 <th className="px-3 py-3 text-left">Micrófono</th>
@@ -106,7 +105,6 @@ export default function AucularesPage() {
                 <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-indigo-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
-                  <td className="px-3 py-3 font-bold text-orange-600">{p.price}</td>
                   <td className="px-3 py-3 text-gray-600">{p.anc}</td>
                   <td className="px-3 py-3 text-gray-600">{p.battery}</td>
                   <td className="px-3 py-3 text-gray-600">{p.mic}</td>

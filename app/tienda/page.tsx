@@ -90,14 +90,6 @@ export default function TiendaPage() {
                   {product.name}
                 </h3>
                 <p className="text-xs text-gray-500 mb-3 leading-relaxed line-clamp-2">{product.shortDescription}</p>
-                <div className="flex justify-between items-center">
-                  <span className="font-bold text-lg text-gray-900">{product.price}</span>
-                  <div className="flex items-center gap-1">
-                    <span className="text-yellow-400 text-sm">★</span>
-                    <span className="text-sm font-medium text-gray-700">{product.rating}</span>
-                    <span className="text-xs text-gray-400">({product.reviewCount})</span>
-                  </div>
-                </div>
                 <div className="mt-3">
                   <span className="inline-block w-full text-center text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg py-2 transition-colors">
                     Ver análisis completo →

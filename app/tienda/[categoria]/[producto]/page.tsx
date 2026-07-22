@@ -69,26 +69,16 @@ export default async function ProductoPage({ params }: Props) {
     .filter((p) => p.slug !== product.slug)
     .slice(0, 3);
 
+  // Sin `offers` (precio) ni `aggregateRating`: precio y opiniones solo pueden
+  // mostrarse vía la API oficial de Amazon (Creators API). Emitir precio estático
+  // o ratings de Amazon incumple el Operating Agreement de Amazon y la política
+  // de datos estructurados de Google.
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.name,
     description: product.fullDescription,
-    offers: {
-      "@type": "Offer",
-      // priceMin 0 = precio no fijado en el catálogo. Se omite el campo antes
-      // que declarar un importe que no corresponde al del vendedor.
-      ...(product.priceMin > 0 ? { price: product.priceMin } : {}),
-      priceCurrency: "EUR",
-      availability: "https://schema.org/InStock",
-      url: amazonLink(product.asin),
-      seller: { "@type": "Organization", name: "Amazon.es" },
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: product.rating,
-      reviewCount: product.reviewCount,
-    },
+    sku: product.asin,
   };
 
   const breadcrumbSchema = {
@@ -139,19 +129,14 @@ export default async function ProductoPage({ params }: Props) {
           )}
         </div>
 
-        <h1 className="text-3xl font-extrabold text-gray-900 mb-3 leading-tight">{product.name}</h1>
-        <div className="flex items-center gap-3 mb-6">
-          <div className="flex text-yellow-400">{"★".repeat(Math.round(product.rating))}</div>
-          <span className="font-bold text-gray-900">{product.rating}/5</span>
-          <span className="text-gray-400 text-sm">({product.reviewCount} valoraciones)</span>
-        </div>
+        <h1 className="text-3xl font-extrabold text-gray-900 mb-6 leading-tight">{product.name}</h1>
 
         <AffiliateDisclosure />
 
         <div className="my-6 p-6 bg-indigo-50 border border-indigo-100 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
-            <div className="text-3xl font-extrabold text-gray-900">{product.price}</div>
-            <div className="text-sm text-gray-500 mt-1">Precio orientativo · Ver precio actualizado en Amazon</div>
+            <div className="text-lg font-bold text-gray-900">Disponible en Amazon España</div>
+            <div className="text-sm text-gray-500 mt-1">Consulta el precio actualizado y las opiniones en Amazon</div>
           </div>
           <a
             href={amazonLink(product.asin)}
@@ -267,7 +252,7 @@ export default async function ProductoPage({ params }: Props) {
                   <h3 className="font-bold text-sm text-gray-900 group-hover:text-indigo-600 transition-colors mb-1 leading-snug">
                     {p.name}
                   </h3>
-                  <p className="font-bold text-gray-800 text-sm">{p.price}</p>
+                  <span className="text-xs text-indigo-600 font-semibold">Ver análisis →</span>
                 </Link>
               ))}
             </div>

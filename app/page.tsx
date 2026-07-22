@@ -125,17 +125,6 @@ const breadcrumbSchema = {
   ],
 };
 
-function StarRating({ rating }: { rating: number }) {
-  return (
-    <div className="flex items-center gap-0.5">
-      {[1, 2, 3, 4, 5].map((s) => (
-        <span key={s} className={s <= Math.round(rating) ? "text-yellow-400" : "text-gray-300"}>★</span>
-      ))}
-      <span className="text-xs text-gray-500 ml-1">{rating.toFixed(1)}</span>
-    </div>
-  );
-}
-
 export default function HomePage() {
   const featuredProducts = getFeaturedProducts(4);
 
@@ -194,7 +183,7 @@ export default function HomePage() {
                 </h3>
                 <p className="text-sm text-gray-500 mb-3">{cat.desc}</p>
                 <span className="text-xs font-semibold text-indigo-600 bg-indigo-50 px-2 py-1 rounded-full">
-                  {cat.price}
+                  Ver productos →
                 </span>
               </Link>
             ))}
@@ -225,14 +214,12 @@ export default function HomePage() {
                 </div>
                 <h3 className="font-bold text-gray-900 text-sm leading-snug mb-2">{product.name}</h3>
                 <p className="text-xs text-gray-500 mb-3 flex-grow">{product.shortDescription}</p>
-                <StarRating rating={product.rating} />
-                <div className="mt-3 pt-3 border-t border-gray-50 flex items-center justify-between">
-                  <span className="font-extrabold text-gray-900">{product.price}</span>
+                <div className="mt-3 pt-3 border-t border-gray-50 flex items-center justify-end">
                   <Link
                     href={`/tienda/${product.categorySlug}/${product.slug}`}
                     className="text-xs font-semibold text-indigo-600 hover:text-indigo-700"
                   >
-                    Ver →
+                    Ver análisis →
                   </Link>
                 </div>
               </div>

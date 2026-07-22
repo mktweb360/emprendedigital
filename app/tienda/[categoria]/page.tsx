@@ -166,14 +166,6 @@ export default async function CategoriaPage({ params }: Props) {
                 {product.name}
               </h2>
               <p className="text-xs text-gray-500 mb-3 leading-relaxed line-clamp-2">{product.shortDescription}</p>
-              <div className="flex justify-between items-center mb-3">
-                <span className="font-bold text-lg text-gray-900">{product.price}</span>
-                <div className="flex items-center gap-1">
-                  <span className="text-yellow-400 text-sm">★</span>
-                  <span className="text-sm font-medium">{product.rating}</span>
-                  <span className="text-xs text-gray-400">({product.reviewCount})</span>
-                </div>
-              </div>
               <div className="flex gap-2">
                 <Link
                   href={`/tienda/${cat.slug}/${product.slug}`}
