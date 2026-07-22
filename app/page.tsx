@@ -72,6 +72,13 @@ const categories = [
     desc: "Alterna entre sentado y de pie para trabajar más saludable",
     price: "Desde 80€",
   },
+  {
+    href: "/tienda/monitores",
+    icon: "🖥️",
+    title: "Monitores",
+    desc: "Monitores 4K y Full HD para home office",
+    price: "Desde 180€",
+  },
 ];
 
 const articles = [

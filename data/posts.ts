@@ -67,7 +67,7 @@ export const posts: Post[] = [
       "flexispot-e7-pro-escritorio-ajustable",
       "hbada-silla-ergonomica-pro",
     ],
-    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "escritorio-regulable-altura-home-office", "setup-trabajo-remoto-productividad-maxima"],
+    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "escritorio-regulable-altura-home-office", "setup-trabajo-remoto-productividad-maxima", "mejor-monitor-home-office-2025"],
   },
   {
     slug: "dolor-espalda-trabajar-casa-soluciones",
@@ -89,7 +89,7 @@ export const posts: Post[] = [
     category: "Productividad",
     readTime: "8 min",
     relatedProducts: ["logitech-mx-keys-advanced-s", "logitech-mx-master-3s", "keychron-k2-pro-mecanico"],
-    relatedPosts: ["logitech-mx-keys-analisis-opinion", "setup-trabajo-remoto-productividad-maxima", "herramientas-productividad-trabajo-remoto-2025"],
+    relatedPosts: ["logitech-mx-keys-analisis-opinion", "setup-trabajo-remoto-productividad-maxima", "herramientas-productividad-trabajo-remoto-2025", "monitor-4k-vs-full-hd-trabajo-remoto"],
   },
   {
     slug: "logitech-mx-keys-analisis-opinion",
@@ -111,7 +111,7 @@ export const posts: Post[] = [
     category: "Productividad",
     readTime: "9 min",
     relatedProducts: ["logitech-mx-keys-advanced-s", "logitech-mx-master-3s"],
-    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "iluminacion-videollamadas-home-office", "productividad-trabajando-desde-casa-habitos"],
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "iluminacion-videollamadas-home-office", "productividad-trabajando-desde-casa-habitos", "mejor-monitor-home-office-2025"],
   },
   {
     slug: "herramientas-productividad-trabajo-remoto-2025",
