@@ -1,6 +1,7 @@
-// Banners de afiliado de SiteGround. Imágenes servidas desde siteground.com:
-// se usa <img> en lugar de next/image para no tener que declarar el dominio
-// remoto en next.config y porque el creativo ya viene al tamaño exacto.
+// Banners de afiliado de hosting (SiteGround + Webempresa). Imágenes servidas
+// desde dominios externos: se usa <img> en lugar de next/image para no tener
+// que declarar los dominios remotos en next.config y porque los creativos ya
+// vienen al tamaño exacto.
 export default function HostingBanner() {
   return (
     <div className="my-8 p-6 bg-gray-50 rounded-xl border border-gray-200">
@@ -16,12 +17,13 @@ export default function HostingBanner() {
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            alt="Anuncio - Hosting Web de SiteGround - Diseñado para una fácil administración web. Haz clic para saber más."
             src="https://siteground.com/static/affiliate/es_ES/NOPRICE/general_ES_general-hosting-square-light.jpg"
+            alt="Hosting Web SiteGround — 80% dto."
             width={250}
             height={250}
             loading="lazy"
-            className="max-w-full h-auto rounded-lg"
+            style={{ border: 0 }}
+            className="max-w-full h-auto"
           />
         </a>
         {/* SiteGround WordPress */}
@@ -32,12 +34,30 @@ export default function HostingBanner() {
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            alt="Anuncio - Alojamiento para WordPress de SiteGround - Potente, pero fácil de usar. Haz clic para aprender más."
             src="https://siteground.com/static/affiliate/es_ES/NOPRICE/general_ES_wordpress-square-blue.jpg"
+            alt="Hosting WordPress SiteGround — 80% dto."
             width={250}
             height={250}
             loading="lazy"
-            className="max-w-full h-auto rounded-lg"
+            style={{ border: 0 }}
+            className="max-w-full h-auto"
+          />
+        </a>
+        {/* Webempresa Soluciones IA */}
+        <a
+          href="https://clientes.webempresa.com/europa/gestion/aff.php?aff=7573&landing=soluciones-ia"
+          target="_blank"
+          rel="nofollow noopener noreferrer sponsored"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="https://afiliados.webempresa.eu/banner-afiliados-soluciones-ia-250x250px.gif"
+            alt="Soluciones IA — Webempresa"
+            width={250}
+            height={250}
+            loading="lazy"
+            style={{ border: 0 }}
+            className="max-w-full h-auto"
           />
         </a>
       </div>
