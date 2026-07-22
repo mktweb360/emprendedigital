@@ -76,7 +76,9 @@ export default async function ProductoPage({ params }: Props) {
     description: product.fullDescription,
     offers: {
       "@type": "Offer",
-      price: product.priceMin,
+      // priceMin 0 = precio no fijado en el catálogo. Se omite el campo antes
+      // que declarar un importe que no corresponde al del vendedor.
+      ...(product.priceMin > 0 ? { price: product.priceMin } : {}),
       priceCurrency: "EUR",
       availability: "https://schema.org/InStock",
       url: amazonLink(product.asin),

@@ -230,6 +230,28 @@ export const posts: Post[] = [
     readTime: "9 min",
     relatedPosts: ["mejor-hosting-web-emprendedores-2025", "como-empezar-negocio-online-desde-casa-2025", "herramientas-productividad-trabajo-remoto-2025"],
   },
+  {
+    slug: "mejor-monitor-home-office-2025",
+    title: "Mejor monitor para home office en 2025 — Comparativa completa",
+    excerpt:
+      "Los mejores monitores para trabajar desde casa en 2025: LG 4K, Dell USB-C y BenQ Eye-Care. Guía de compra por uso y presupuesto.",
+    date: "2025-08-01",
+    category: "Home Office",
+    readTime: "9 min",
+    relatedProducts: ["lg-27u730-monitor-4k", "dell-s2725qc-monitor-4k-usbc", "benq-gw2790-monitor-eye-care"],
+    relatedPosts: ["home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima", "mejor-teclado-raton-trabajo-remoto"],
+  },
+  {
+    slug: "monitor-4k-vs-full-hd-trabajo-remoto",
+    title: "Monitor 4K vs Full HD para trabajo remoto: cuál elegir en 2025",
+    excerpt:
+      "Diferencias reales entre monitor 4K y Full HD para trabajar desde casa: nitidez, espacio de trabajo, precio y cuándo vale la pena el salto a 4K.",
+    date: "2025-08-02",
+    category: "Productividad",
+    readTime: "7 min",
+    relatedProducts: ["lg-27u730-monitor-4k", "dell-s2725qc-monitor-4k-usbc", "benq-gw2790-monitor-eye-care"],
+    relatedPosts: ["mejor-monitor-home-office-2025", "home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima"],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

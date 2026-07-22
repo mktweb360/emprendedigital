@@ -26,6 +26,7 @@ export const categories = [
   { slug: "iluminacion", name: "Iluminación para streaming", description: "Paneles LED y ring lights para videollamadas y contenido", icon: "💡", priceRange: "15€ — 300€" },
   { slug: "sillas-ergonomicas", name: "Sillas ergonómicas", description: "Sillas de oficina ergonómicas para jornadas largas de trabajo", icon: "🪑", priceRange: "100€ — 800€" },
   { slug: "escritorios", name: "Escritorios y mesas", description: "Escritorios ajustables en altura y mesas de trabajo", icon: "🖥️", priceRange: "80€ — 600€" },
+  { slug: "monitores", name: "Monitores para Home Office", description: "Monitores 4K y QHD para trabajo remoto y home office. Con USB-C, Eye-Care y calibración profesional.", icon: "🖥️", priceRange: "180€ — 450€" },
 ];
 
 export const products: Product[] = [
@@ -417,6 +418,64 @@ export const products: Product[] = [
     cons: ["Un solo motor — algo menos estable que el E7 con carga alta", "Solo 2 alturas en memoria (sin pantalla LED completa)", "Tablero básico — muchos optan por comprar uno aparte"],
     specs: { "Rango de altura": "71 – 121 cm", "Capacidad": "70 kg", "Tablero": "120×60 cm", "Motores": "Un motor", "Memoria": "2 alturas", "Garantía": "3 años en motor" },
     badge: "Mejor precio",
+  },
+
+  // MONITORES
+  // priceMin: 0 = precio no fijado (se muestra "Consultar precio" y el schema
+  // de producto omite el campo price en lugar de declarar un importe falso).
+  {
+    slug: "lg-27u730-monitor-4k",
+    name: "LG 27U730A-B Monitor 4K 27\" — IPS, USB-C, Eye Care",
+    asin: "B0FKBRLWNW",
+    category: "Monitores",
+    categorySlug: "monitores",
+    categoryName: "Monitores para Home Office",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 4.4,
+    reviewCount: 120,
+    shortDescription: "Monitor 4K UHD 27\" IPS con USB-C, DisplayHDR, Eye Care y diseño sin bordes. Para trabajo remoto y diseño.",
+    fullDescription: "El LG 27U730A-B es un monitor 4K UHD de 27 pulgadas con panel IPS, pensado para quien pasa la jornada trabajando con texto. A 3840×2160 en 27\", la densidad de píxeles ronda los 163 PPI, de modo que el texto se ve perfectamente definido y la fatiga visual se reduce en jornadas largas. Incorpora conectividad USB-C, soporte DisplayHDR y la tecnología Eye Care de LG (filtro de luz azul y funcionamiento flicker-safe). El diseño sin bordes en tres lados lo hace especialmente adecuado para montajes de doble monitor.",
+    pros: ["Resolución 4K UHD en 27\": texto muy nítido", "Panel IPS con buenos ángulos de visión", "Conectividad USB-C", "Eye Care de LG: filtro de luz azul y flicker-safe", "Diseño sin bordes en tres lados"],
+    cons: ["Sin altavoces integrados", "60 Hz: suficiente para trabajo, justo para juego", "Precio superior al de un equivalente Full HD"],
+    specs: { "Tamaño": "27\"", "Resolución": "3840×2160 (4K UHD)", "Panel": "IPS", "Frecuencia": "60 Hz", "Conectividad": "USB-C", "Protección ocular": "LG Eye Care (flicker-safe + filtro luz azul)" },
+    badge: "Mejor nitidez 4K",
+  },
+  {
+    slug: "dell-s2725qc-monitor-4k-usbc",
+    name: "Dell S2725QC Monitor 4K 27\" Plus USB-C — 120Hz, altavoces",
+    asin: "B0F29RSLHP",
+    category: "Monitores",
+    categorySlug: "monitores",
+    categoryName: "Monitores para Home Office",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 4.5,
+    reviewCount: 89,
+    shortDescription: "Monitor 4K 27\" con USB-C, 120Hz, AMD FreeSync Premium, altavoces integrados y sRGB 99%. El mejor para home office.",
+    fullDescription: "El Dell S2725QC es el monitor más completo del catálogo para trabajo remoto: reúne resolución 4K, 120 Hz de frecuencia de actualización, conectividad USB-C y altavoces integrados en un solo equipo. El USB-C transporta vídeo y carga del portátil por un único cable, lo que elimina el cargador del escritorio. La cobertura sRGB del 99% lo hace apto para trabajo con color, y la certificación Comfortview Plus (TÜV) reduce la emisión de luz azul sin alterar la fidelidad cromática. AMD FreeSync Premium completa un perfil que sirve igual para la jornada de trabajo que para el ocio.",
+    pros: ["4K y 120 Hz en el mismo panel", "USB-C: vídeo y carga del portátil con un cable", "Altavoces integrados: no requiere audio externo", "sRGB 99% para trabajo con color", "Comfortview Plus con certificación TÜV"],
+    cons: ["Los altavoces integrados no sustituyen a unos buenos auriculares", "Aprovechar los 120 Hz exige un equipo capaz de moverlos a 4K", "Precio superior al de un 4K a 60 Hz sin USB-C"],
+    specs: { "Tamaño": "27\"", "Resolución": "3840×2160 (4K UHD)", "Panel": "IPS", "Frecuencia": "120 Hz", "Conectividad": "USB-C (vídeo + carga)", "Color": "sRGB 99%", "Audio": "Altavoces integrados", "Protección ocular": "Comfortview Plus (TÜV)", "Sincronización": "AMD FreeSync Premium" },
+    badge: "Mejor overall",
+  },
+  {
+    slug: "benq-gw2790-monitor-eye-care",
+    name: "BenQ GW2790 Monitor 27\" Eye-Care — FHD, Eyesafe, altavoces",
+    asin: "B0CQ2YLVJR",
+    category: "Monitores",
+    categorySlug: "monitores",
+    categoryName: "Monitores para Home Office",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 4.3,
+    reviewCount: 210,
+    shortDescription: "Monitor 27\" Full HD con certificación Eyesafe, filtro luz azul, altavoces integrados y panel IPS. Protección ocular certificada.",
+    fullDescription: "El BenQ GW2790 es la opción del catálogo para quien prioriza el confort visual por encima de la resolución máxima. Su argumento principal es la certificación Eyesafe, un estándar independiente que verifica el espectro de luz emitido por el panel, más exigente que un simple modo de luz azul por software. Suma brillo automático adaptativo, que ajusta la pantalla a la luz ambiente de la habitación, panel IPS y altavoces integrados. Al ser Full HD en 27\", la densidad de píxeles es de unos 82 PPI: menor nitidez de texto que un 4K, a cambio de un precio más contenido y de no exigir nada al equipo.",
+    pros: ["Certificación Eyesafe independiente", "Brillo automático adaptativo a la luz ambiente", "Panel IPS con altavoces integrados", "No exige un equipo potente para moverlo", "El más económico de la categoría"],
+    cons: ["Full HD en 27\": unos 82 PPI, el texto se ve granulado frente a un 4K", "Sin USB-C con carga", "Menos espacio de trabajo útil que un 4K escalado"],
+    specs: { "Tamaño": "27\"", "Resolución": "1920×1080 (Full HD)", "Panel": "IPS", "Frecuencia": "100 Hz", "Audio": "Altavoces integrados", "Protección ocular": "Eyesafe certificado + filtro de luz azul", "Brillo": "Automático adaptativo" },
+    badge: "Mejor protección ocular",
   },
 ];
 

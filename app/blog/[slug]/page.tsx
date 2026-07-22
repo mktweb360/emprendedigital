@@ -915,6 +915,97 @@ const articleContent: Record<string, {
       { q: "¿El dominio y el hosting deben estar en el mismo proveedor?", a: "No, y de hecho es más flexible tenerlos separados. Con el dominio en un registrador independiente, cambiar de hosting es simplemente cambiar los DNS, sin tener que transferir el dominio. Esto evita quedar atado a un proveedor por la incomodidad de mover el dominio." },
     ],
   },
+
+  "mejor-monitor-home-office-2025": {
+    intro: "El monitor es el elemento del home office que más horas miras. Una pantalla de calidad reduce la fatiga visual, mejora la postura y aumenta la productividad durante años. Esta guía compara tres opciones reales disponibles en Amazon España para distintos perfiles y presupuestos.",
+    sections: [
+      {
+        heading: "Los criterios que importan al elegir un monitor de trabajo",
+        body: "Resolución — QHD (2560x1440) o 4K (3840x2160) para pantallas de 27\". Full HD en 27\" se ve borroso en texto. Panel IPS — mejor color y ángulos de visión que VA o TN. Brillo mínimo 300 nits para uso con luz natural. USB-C con carga — un cable para vídeo y carga del portátil. Eye-Care certificado — filtro de luz azul y flicker-free para jornadas largas. Frecuencia de actualización — 60Hz suficiente para trabajo; 120Hz mejor si también juegas.",
+      },
+      {
+        heading: "LG 27U730A-B — el 4K para trabajo general",
+        body: "Panel IPS 4K UHD (3840x2160), tecnología Eye Care de LG con filtro de luz azul y flicker-safe, diseño sin bordes en tres lados. La opción para quien quiere la máxima nitidez de texto en un monitor de trabajo diario.",
+        productSlug: "lg-27u730-monitor-4k",
+      },
+      {
+        heading: "Dell S2725QC — el más completo para home office",
+        body: "4K a 120Hz con USB-C, AMD FreeSync Premium, sRGB 99%, altavoces integrados y Comfortview Plus (certificación TÜV para reducción de luz azul). El monitor con mejor relación de características para trabajo remoto intensivo: videoconferencias, diseño y productividad en un solo cable desde el portátil.",
+        productSlug: "dell-s2725qc-monitor-4k-usbc",
+      },
+      {
+        heading: "BenQ GW2790 — el mejor para protección ocular",
+        body: "Full HD 27\" con certificación Eyesafe (el estándar independiente más exigente en protección ocular), brillo automático adaptativo, altavoces integrados y panel IPS. Para quienes priorizan el confort visual en jornadas largas por encima de la resolución máxima.",
+        productSlug: "benq-gw2790-monitor-eye-care",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "LG 27U730A-B", "Dell S2725QC", "BenQ GW2790"],
+      rows: [
+        ["Resolución", "4K UHD", "4K UHD", "Full HD"],
+        ["Panel", "IPS", "IPS", "IPS"],
+        ["Frecuencia", "60Hz", "120Hz", "100Hz"],
+        ["USB-C carga", "Sí", "Sí", "No"],
+        ["Altavoces", "No", "Sí", "Sí"],
+        ["Eye-Care", "LG Eye Care", "Comfortview Plus TÜV", "Eyesafe certificado"],
+        ["Mejor para", "Texto y nitidez 4K", "Todo en uno home office", "Protección ocular máxima"],
+      ],
+    },
+    conclusion: "Para la mayoría de trabajadores remotos, el Dell S2725QC es la compra más completa: 4K, 120Hz, USB-C y altavoces integrados en un solo monitor. El LG es la opción si priorizas la nitidez 4K pura. El BenQ GW2790 es la elección correcta si las jornadas largas generan fatiga visual y priorizas la certificación de protección ocular independiente.",
+    faqs: [
+      { q: "¿Merece la pena el 4K en un monitor de 27 pulgadas para trabajar?", a: "Sí, especialmente para trabajo con texto, código o diseño. La diferencia de nitidez respecto a Full HD es claramente visible en 27\". Para videoconferencias o trabajo con aplicaciones, Full HD es suficiente pero 4K mejora la experiencia general." },
+      { q: "¿Necesito USB-C en el monitor si tengo un portátil moderno?", a: "Sí, es la feature que más comodidad aporta. Un cable USB-C transmite vídeo 4K y carga el portátil simultáneamente. Elimina el cargador del escritorio y reduce el caos de cables." },
+      { q: "¿Qué diferencia hay entre Flicker-Free y Eyesafe?", a: "Flicker-Free elimina el parpadeo del backlight LED. Eyesafe es una certificación independiente más completa que verifica que el espectro de luz emitido cumple estándares de salud ocular. BenQ GW2790 tiene ambas; es el más riguroso en protección ocular del catálogo." },
+      { q: "¿Puedo conectar un Mac con estos monitores?", a: "Sí. Los tres son compatibles con Mac vía USB-C o HDMI/DisplayPort. El Dell S2725QC con USB-C funciona especialmente bien con MacBook Pro y Air: un cable para vídeo y carga." },
+    ],
+  },
+
+  "monitor-4k-vs-full-hd-trabajo-remoto": {
+    intro: "La pregunta 4K vs Full HD para trabajo remoto tiene una respuesta más matizada de lo que sugiere el marketing. No siempre vale la pena pagar más por 4K — depende del tamaño de la pantalla, el tipo de trabajo y si el equipo que tienes puede mover 4K con fluidez.",
+    sections: [
+      {
+        heading: "Por qué el tamaño de pantalla cambia todo",
+        body: "La resolución sin contexto de tamaño no dice nada. Lo que importa es la densidad de píxeles (PPI). Full HD en 24\" tiene 92 PPI — aceptable. Full HD en 27\" tiene 82 PPI — ya se ve granulado el texto. 4K en 27\" tiene 163 PPI — nitidez excelente. La regla práctica: en 27\" o más, el 4K marca diferencia real. En 24\" o menos, Full HD es suficiente.",
+      },
+      {
+        heading: "Cuándo el 4K justifica el precio",
+        body: "El 4K vale la pena si: trabajas principalmente con texto (código, escritura, documentos) donde la nitidez impacta directamente en la fatiga visual. Haces diseño gráfico, edición de foto o vídeo donde la precisión de color y detalle es parte del trabajo. Tienes un portátil o sobremesa con GPU que puede mover 4K sin problemas (prácticamente cualquier Mac M1+ o PC con tarjeta dedicada desde 2020).",
+      },
+      {
+        heading: "Cuándo Full HD es suficiente",
+        body: "Full HD es suficiente si: el monitor tiene 24\" o menos, usas el monitor principalmente para videoconferencias y aplicaciones de gestión, o el presupuesto es el criterio principal. El BenQ GW2790 Full HD a menor precio con certificación Eyesafe es una elección legítima para quien prioriza el confort ocular sobre la resolución.",
+        productSlug: "benq-gw2790-monitor-eye-care",
+      },
+      {
+        heading: "El espacio de trabajo: la ventaja oculta del 4K",
+        body: "Más allá de la nitidez, el 4K en 27\" permite mostrar más contenido en pantalla simultáneamente. Con escala al 125-150%, una pantalla 4K de 27\" muestra el equivalente a 1,5-2 pantallas Full HD en el mismo espacio físico. Para programadores, diseñadores o quienes trabajan con múltiples ventanas, esta densidad de información es productividad real.",
+        productSlug: "dell-s2725qc-monitor-4k-usbc",
+      },
+      {
+        heading: "La recomendación para la mayoría",
+        body: "Para un home office de 27\", el salto a 4K vale la pena si el presupuesto lo permite. El Dell S2725QC con 4K a 120Hz y USB-C es el monitor que mejor resuelve todas las necesidades de trabajo remoto en un solo producto. Si el presupuesto es ajustado o el monitor es de 24\", el BenQ GW2790 Full HD con Eyesafe es la opción más inteligente.",
+        productSlug: "lg-27u730-monitor-4k",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "Full HD (1080p)", "4K UHD (2160p)"],
+      rows: [
+        ["PPI en 27\"", "82 PPI — aceptable", "163 PPI — excelente"],
+        ["Nitidez texto", "Visible granulado", "Texto perfectamente nítido"],
+        ["Espacio trabajo", "Estándar", "1,5-2x más contenido visible"],
+        ["Precio", "Menor", "Mayor (+30-60%)"],
+        ["Requiere GPU potente", "No", "Sí para 4K fluido"],
+        ["Vale la pena en 27\"", "Solo con presupuesto limitado", "Sí, claramente"],
+      ],
+    },
+    conclusion: "En 27\", el 4K es la elección correcta si el presupuesto lo permite. La diferencia en nitidez de texto es real y reduce la fatiga visual en jornadas largas. Si el presupuesto no llega al 4K, el BenQ GW2790 Full HD con Eyesafe es mejor opción que un 4K barato con mala protección ocular.",
+    faqs: [
+      { q: "¿Puede mi portátil mover un monitor 4K?", a: "Cualquier MacBook con chip M1 o superior sí. En Windows, cualquier portátil con tarjeta gráfica dedicada desde 2019-2020 también. Los portátiles de gama básica con gráficos integrados antiguos pueden tener limitaciones. Verifica que tu portátil tenga puerto USB-C con DisplayPort Alt Mode o HDMI 2.0." },
+      { q: "¿A qué escala hay que poner un monitor 4K en Windows?", a: "125% es el punto de equilibrio óptimo en 27\": el texto se ve nítido y el contenido cabe bien en pantalla. Al 100% todo se ve muy pequeño. Al 150% pierdes parte de la ventaja de espacio del 4K. En macOS la escala HiDPI es automática y transparente." },
+      { q: "¿Vale la pena pagar más por 120Hz en un monitor de trabajo?", a: "Para trabajo puro (texto, documentos, videoconferencias), 60Hz es suficiente. Si también usas el monitor para jugar o valoras el scrolling más suave, 120Hz marca una diferencia apreciable. El Dell S2725QC a 120Hz es especialmente fluido para trabajo y ocio combinados." },
+      { q: "¿Dos monitores Full HD o uno 4K?", a: "Depende del tipo de trabajo. Para programadores y analistas, dos monitores Full HD dan más espacio total. Para diseñadores y trabajo creativo donde la calidad de imagen importa, un 4K de calidad es preferible. Para trabajo de ofimática y videoconferencias, cualquiera de las dos opciones funciona bien." },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {
