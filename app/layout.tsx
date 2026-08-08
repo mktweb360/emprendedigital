@@ -31,9 +31,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@emprendedigital",
   },
-  alternates: {
-    canonical: SITE_URL,
-  },
   verification: {
     google: "mQ3vsd6JtXw_k52OlLUmIJuiE_4pfhubKPFvhsDMOPI",
   },
