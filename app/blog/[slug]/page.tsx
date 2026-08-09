@@ -1185,13 +1185,25 @@ export default async function BlogPostPage({ params }: Props) {
   const relatedPosts = post.relatedPosts?.map((s) => getPostBySlug(s)).filter(Boolean) ?? [];
   const showHostingBanner = HOSTING_BANNER_CATEGORIES.includes(post.category);
 
+  const AUTHOR = {
+    "@type": "Person",
+    name: "Laura Sánchez",
+    jobTitle: "Especialista en Productividad Digital",
+    url: "https://www.emprendedigital.es/sobre-nosotros",
+    description: "Especialista en productividad digital y herramientas de trabajo remoto con 7 años de experiencia asesorando a equipos distribuidos y emprendedores digitales.",
+    knowsAbout: ["productividad digital", "trabajo remoto", "herramientas SaaS", "ergonomía en oficina", "emprendimiento digital", "equipamiento para home office"],
+  };
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
-    author: { "@type": "Organization", name: "EmprendeDigital.es", url: "https://www.emprendedigital.es" },
+    author: AUTHOR,
+    speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
+    keywords: post.category,
+    about: { "@type": "Thing", name: post.category },
     publisher: {
       "@type": "Organization",
       name: "EmprendeDigital.es",
@@ -1248,6 +1260,12 @@ export default async function BlogPostPage({ params }: Props) {
             </time>
             <span>·</span>
             <span>{post.readTime} de lectura</span>
+            <span>·</span>
+            <span className="flex items-center gap-1 text-indigo-300">
+              <span>✍️</span>
+              <Link href="/sobre-nosotros" className="font-medium text-indigo-200 hover:underline">Laura Sánchez</Link>
+              <span className="text-indigo-400">— Productividad Digital</span>
+            </span>
           </div>
         </div>
       </section>
@@ -1263,6 +1281,10 @@ export default async function BlogPostPage({ params }: Props) {
 
         {content && (
           <article>
+            <div id="respuesta-directa" className="bg-indigo-50 border-l-4 border-indigo-500 rounded-r-xl px-5 py-4 mb-6">
+              <p className="text-xs font-bold text-indigo-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
+              <p className="text-gray-800 font-medium leading-relaxed">{post.excerpt}</p>
+            </div>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">{content.intro}</p>
 
             {content.sections.map((section) => {

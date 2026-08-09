@@ -68,6 +68,11 @@ const organizationSchema = {
   url: SITE_URL,
   logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
   taxID: "B87679304",
+  description: "Portal especializado en herramientas de productividad digital, equipamiento para home office y recursos para emprendedores. Comparativas y análisis con criterio profesional.",
+  foundingDate: "2024",
+  areaServed: { "@type": "Country", name: "España" },
+  knowsAbout: ["productividad digital", "trabajo remoto", "equipamiento home office", "sillas ergonómicas", "herramientas SaaS"],
+  sameAs: ["https://www.instagram.com/emprendedigital.es", "https://www.facebook.com/emprendedigital.es"],
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer service",
