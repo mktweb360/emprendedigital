@@ -41,6 +41,9 @@ const websiteSchema = {
   "@type": "WebSite",
   name: "Emprende Digital",
   url: SITE_URL,
+  description:
+    "Guías de compra y análisis de herramientas y equipamiento para emprendedores digitales y teletrabajadores.",
+  inLanguage: "es",
   potentialAction: {
     "@type": "SearchAction",
     target: `${SITE_URL}/blog?q={search_term_string}`,
@@ -51,9 +54,11 @@ const websiteSchema = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Mkt Web 360 SLU",
+  name: "Emprende Digital",
+  legalName: "Mkt Web 360 SLU",
   url: SITE_URL,
-  logo: `${SITE_URL}/logo.png`,
+  logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
+  taxID: "B87679304",
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer service",
@@ -87,7 +92,7 @@ export default function RootLayout({
     `,
           }}
         />
-        <meta name="google-adsense-account" content="ca-pub-6063067965030118" />
+        {/* AdSense is loaded conditionally by CookieBanner after consent */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
