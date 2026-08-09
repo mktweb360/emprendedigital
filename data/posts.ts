@@ -252,6 +252,52 @@ export const posts: Post[] = [
     relatedProducts: ["lg-27u730-monitor-4k", "dell-s2725qc-monitor-4k-usbc", "benq-gw2790-monitor-eye-care"],
     relatedPosts: ["mejor-monitor-home-office-2025", "home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima"],
   },
+
+  {
+    slug: "mejor-tablet-teletrabajo-2025",
+    title: "Mejor tablet para trabajar desde casa 2025: iPad vs Android vs Windows",
+    excerpt:
+      "Comparativa de las mejores tablets para teletrabajo en 2025: iPad Air M2, Galaxy Tab S9 FE y Surface Pro 9. Guía por ecosistema, uso y presupuesto.",
+    date: "2025-08-05",
+    category: "Productividad",
+    readTime: "9 min",
+    relatedPosts: [
+      "mejor-monitor-home-office-2025",
+      "home-office-setup-productivo-guia",
+      "herramientas-productividad-trabajo-remoto-2025",
+      "mejor-hub-usb-c-portatil-2025",
+    ],
+  },
+  {
+    slug: "herramientas-ia-productividad-2025",
+    title: "Las mejores herramientas de IA para trabajar y emprender en 2025",
+    excerpt:
+      "Guía práctica de las mejores herramientas de inteligencia artificial para autónomos y equipos pequeños en 2025: escritura, reuniones, diseño, automatización y ventas.",
+    date: "2025-08-06",
+    category: "Emprender Online",
+    readTime: "10 min",
+    relatedPosts: [
+      "herramientas-productividad-trabajo-remoto-2025",
+      "como-empezar-negocio-online-desde-casa-2025",
+      "productividad-trabajando-desde-casa-habitos",
+      "trabajo-remoto-espana-guia-completa-2025",
+    ],
+  },
+  {
+    slug: "mejor-hub-usb-c-portatil-2025",
+    title: "Mejor hub USB-C para portátil 2025: guía de compra y comparativa",
+    excerpt:
+      "Los mejores hubs USB-C para MacBook y portátiles Windows en 2025: qué puertos necesitas, diferencias con una docking station y los 5 modelos más recomendados.",
+    date: "2025-08-07",
+    category: "Home Office",
+    readTime: "8 min",
+    relatedPosts: [
+      "mejor-monitor-home-office-2025",
+      "home-office-setup-productivo-guia",
+      "mejor-tablet-teletrabajo-2025",
+      "setup-trabajo-remoto-productividad-maxima",
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

@@ -1006,6 +1006,173 @@ const articleContent: Record<string, {
       { q: "¿Dos monitores Full HD o uno 4K?", a: "Depende del tipo de trabajo. Para programadores y analistas, dos monitores Full HD dan más espacio total. Para diseñadores y trabajo creativo donde la calidad de imagen importa, un 4K de calidad es preferible. Para trabajo de ofimática y videoconferencias, cualquiera de las dos opciones funciona bien." },
     ],
   },
+
+  "mejor-tablet-teletrabajo-2025": {
+  intro:
+    "La tablet se ha convertido en un complemento indispensable del portátil para muchos trabajadores remotos. Para reuniones en movimiento, lectura de documentos, firma digital, anotaciones en PDF o un segundo monitor portátil, una buena tablet cambia la productividad. El problema es que el mercado ofrece cientos de opciones y no todas están pensadas para trabajar: muchas son tabletas de consumo que flaquean en multitarea exigente. Esta guía compara los tres ecosistemas principales —iPad, Android y Windows— y señala los cinco modelos que realmente valen la pena en 2025.",
+  sections: [
+    {
+      heading: "iPad vs Android vs Windows: cuál elegir según tu ecosistema",
+      body: "La elección del ecosistema es más importante que cualquier especificación de hardware, porque determina con qué apps, servicios y dispositivos funciona la tablet de forma fluida. El iPad ofrece la mejor integración con Mac: Sidecar la convierte en segundo monitor inalámbrico, Handoff pasa tareas entre dispositivos y las apps de iOS tienen una calidad y optimización generalmente superiores a sus equivalentes Android. Su principal limitación es el ecosistema cerrado y el precio elevado. Las tablets Android ofrecen mayor flexibilidad, más variedad de precio y se integran bien con servicios Google y con teléfonos Android; Microsoft 365 funciona correctamente en todas las opciones de gama media. Las tablets Windows —el caso del Surface Pro— son las más cercanas a un portátil real: corren Windows 11 completo, lo que significa acceso a cualquier programa de escritorio, incluyendo los que solo existen para Windows. Son la opción si necesitas software específico que no tiene versión móvil.",
+    },
+    {
+      heading: "Los 5 mejores modelos para trabajar en 2025",
+      body: "iPad Air M2 11 pulgadas (799-899 €): el equilibrio perfecto para la mayoría de profesionales. El chip M2 entrega una potencia real para edición de fotos, presentaciones y documentos complejos; es compatible con Apple Pencil de segunda generación y con el Magic Keyboard, y la pantalla Liquid Retina de 60 Hz es fiel al color y cómoda para leer documentos. Ideal para diseñadores, escritores y profesionales creativos que ya viven en el ecosistema Apple.\n\niPad Pro M4 11 pulgadas (1.099-1.199 €): para quienes necesitan máxima potencia —edición de vídeo en resolución alta, diseño en Procreate o CAD ligero—. Añade pantalla OLED, Apple Pencil Pro y una cámara frontal en el borde corto pensada para llamadas horizontales. Para la mayoría de usuarios de trabajo de oficina es overkill; justifica el precio solo si el trabajo creativo es el núcleo de tu actividad.\n\nSamsung Galaxy Tab S9 FE (499-549 €): la mejor tablet Android para trabajo. El modo DeX convierte la interfaz en escritorio con ventanas flotantes, Samsung Notes es uno de los mejores apps de toma de notas con S-Pen del mercado y viene incluido el S-Pen. Buena pantalla de 10,9 pulgadas y autonomía de dos días en uso moderado.\n\nMicrosoft Surface Pro 9 (1.099-1.299 €): Windows 11 completo en formato tablet. La elección correcta si necesitas programas específicos de Windows —software de contabilidad, herramientas CAD completas o entornos de desarrollo que no tienen versión iOS ni Android. El teclado se vende por separado.\n\nLenovo Tab P12 (349-399 €): la opción económica con pantalla grande. 12,7 pulgadas con resolución 3K y una batería de 10.200 mAh que aguanta jornadas completas. Para quien necesita una surface grande para documentos, email y videollamadas sin el precio de una tablet premium.",
+    },
+    {
+      heading: "Accesorios que multiplican la productividad",
+      body: "Una tablet sin teclado es media tablet para trabajar. El primero en añadir es siempre un teclado: magnético si prefieres la integración (Magic Keyboard para iPad, Book Cover Keyboard para Galaxy Tab) o Bluetooth si buscas compatibilidad universal. Un lápiz digital —Apple Pencil, S-Pen o lápiz compatible— cambia el flujo de trabajo para anotaciones en PDF, firmas digitales y cualquier tarea donde el ratón resulta poco preciso. Una funda con soporte de ángulo ajustable es imprescindible para trabajar sobre la mesa sin sostener la tablet con la mano. Y un hub USB-C de buena calidad permite conectar la tablet a un monitor externo, un ratón, teclado y carga simultánea: convierte la tablet en un mini ordenador de escritorio cuando estás en casa.",
+    },
+    {
+      heading: "Casos de uso: qué tablet para cada tipo de trabajo",
+      body: "Diseño gráfico e ilustración: iPad Pro M4 con Apple Pencil Pro. La combinación de pantalla OLED, latencia mínima del Pencil y apps como Procreate o Adobe Fresco no tiene rival en tablet. Gestión de email, documentos y calendario: cualquier iPad Air o Galaxy Tab S9 FE es más que suficiente; la potencia no es el cuello de botella aquí, lo es la calidad del teclado. Programación ligera y acceso a servidores vía SSH: iPad con una app como Blink Shell o Termius; para desarrollo más serio, el Surface Pro con VSCode nativo. Videollamadas y presentaciones en movimiento: cualquier tablet con buena cámara frontal funciona; el iPad destaca por la cámara centrada en el borde corto, pensada para orientación horizontal. Uso como segundo monitor portátil: iPad con Sidecar (solo con Mac), o cualquier tablet con la app Duet Display o Luna Display para PC y Mac.",
+    },
+  ],
+  comparison: {
+    headers: ["Modelo", "Precio", "Sistema", "Mejor para"],
+    rows: [
+      ["iPad Air M2 11\"", "799-899 €", "iPadOS", "Creativos y usuarios de Mac"],
+      ["iPad Pro M4 11\"", "1.099-1.199 €", "iPadOS", "Creación intensiva"],
+      ["Samsung Galaxy Tab S9 FE", "499-549 €", "Android + DeX", "Trabajo en Android y presupuesto medio"],
+      ["Microsoft Surface Pro 9", "1.099-1.299 €", "Windows 11", "Software exclusivo de Windows"],
+      ["Lenovo Tab P12", "349-399 €", "Android", "Pantalla grande y precio ajustado"],
+    ],
+  },
+  conclusion:
+    "Para la mayoría de trabajadores remotos que viven en el ecosistema Apple, el iPad Air M2 es la compra correcta: potencia real, Apple Pencil, integración con Mac y una pantalla excelente por 799 euros. Si prefieres Android o priorizas el precio, la Samsung Galaxy Tab S9 FE con modo DeX ofrece la mejor experiencia de productividad por debajo de 550 euros. Y si necesitas Windows completo sin renunciar a la portabilidad de una tablet, el Surface Pro 9 es la única opción real. La tablet por sí sola no reemplaza al portátil para trabajo técnico, pero para el resto de tareas —documentos, reuniones, anotaciones, lectura— lo complementa de forma notable.",
+  faqs: [
+    {
+      q: "¿Puede una tablet reemplazar al portátil para trabajar?",
+      a: "Depende del tipo de trabajo. Para gestión de email, documentos, videollamadas, presentaciones y lectura, un iPad con teclado o una tablet Android con DeX cubre el 80% de los casos. Para programación seria, trabajo con software CAD complejo, edición de vídeo en resolución alta o cualquier software exclusivo de Windows, el portátil sigue siendo necesario. La tablet funciona mejor como complemento que como sustitución.",
+    },
+    {
+      q: "¿iPad o Android para trabajo?",
+      a: "iPad si ya usas Mac y quieres la mejor integración (Sidecar, Handoff, AirDrop) y apps de mayor calidad en general; también si el diseño o la ilustración forman parte de tu trabajo. Android si prefieres flexibilidad, trabajas con servicios Google o si el precio es un criterio relevante. Las dos opciones corren Microsoft 365 correctamente, así que para trabajo de oficina estándar la diferencia práctica es menor de lo que parece en el papel.",
+    },
+    {
+      q: "¿Cuánta RAM necesita una tablet de trabajo?",
+      a: "Mínimo 6 GB para trabajo multitarea básico con tres o cuatro apps abiertas. 8 GB o más si trabajas con apps de edición o si tienes muchas pestañas del navegador abiertas a la vez. Los iPad no publican la RAM de forma oficial, pero el Air M2 lleva 8 GB y el Pro M4 lleva 16 GB, que son suficientes para cualquier tarea de productividad. En Android, evita modelos con menos de 6 GB para trabajo.",
+    },
+    {
+      q: "¿Merece la pena el Apple Pencil?",
+      a: "Sí, si anotas en PDF, firmas documentos, tomas notas a mano en reuniones o haces cualquier tarea creativa. Para trabajo puramente de teclado —email, documentos, código— el Apple Pencil no aporta nada relevante y se puede prescindir de él. El S-Pen de Samsung viene incluido con la Galaxy Tab S9 FE, así que ese coste ya está integrado.",
+    },
+  ],
+},
+  "herramientas-ia-productividad-2025": {
+  intro:
+    "La IA ya no es el futuro: es una ventaja competitiva presente. Los autónomos y equipos pequeños que integran inteligencia artificial en su flujo de trabajo producen más en menos tiempo, cometen menos errores repetitivos y pueden ofrecer servicios que antes requerían equipos más grandes. El problema es que hay cientos de herramientas y no todas aportan valor real: muchas son demos impresionantes que no encajan en el trabajo diario. Esta guía recoge las que realmente funcionan en 2025, organizadas por área de uso, con una valoración honesta de cuándo merece la pena pagar.",
+  sections: [
+    {
+      heading: "Escritura y contenido",
+      body: "Claude (anthropic.com): el mejor modelo para razonamiento complejo, análisis de documentos largos y redacción de largo aliento. Especialmente útil para revisar contratos, resumir informes y escribir contenido que requiere coherencia a lo largo de miles de palabras. Disponible con plan gratuito limitado y Pro a 20 $/mes.\n\nChatGPT-4o: el más versátil y con el ecosistema de plugins más amplio. Su modo de visión permite analizar capturas de pantalla, facturas o diseños; su integración con DALL·E 3 genera imágenes dentro del mismo chat. El plan Plus a 20 $/mes es el punto de entrada habitual para uso profesional.\n\nPerplexity AI: búsqueda web con síntesis en tiempo real. Reemplaza muchas búsquedas en Google para investigación porque da respuestas citadas y actualizadas, no solo una lista de enlaces. Plan gratuito suficiente para uso moderado.\n\nCopy.ai y Jasper: especializados en copy de marketing —anuncios, posts de redes sociales, emails de captación— en volumen. Útiles si produces contenido repetitivo de marketing a escala; innecesarios si tu volumen es bajo.",
+    },
+    {
+      heading: "Reuniones y transcripción",
+      body: "Otter.ai: transcripción automática de reuniones con integración directa con Zoom, Google Meet y Microsoft Teams. Genera resúmenes automáticos y permite buscar dentro de las transcripciones por palabra clave. Plan gratuito con 300 minutos al mes; el Pro (10 $/mes) añade búsqueda ilimitada y exportación.\n\nFireflies.ai: similar a Otter, con la ventaja de que su bot entra automáticamente a la reunión sin instalar nada en el ordenador. Genera resúmenes por bloques temáticos y permite añadir notas sobre la transcripción. Especialmente útil si el equipo usa varias plataformas de videollamada.\n\nNotion AI: si ya usas Notion como sistema de notas y gestión de proyectos, su IA integrada resume notas de reunión, redacta borradores a partir de puntos clave y organiza información existente. La integración es fluida y evita copiar y pegar entre herramientas.",
+    },
+    {
+      heading: "Diseño e imágenes",
+      body: "Midjourney: el mejor modelo para imagen artística y creativa. Produce resultados de alta calidad para ilustraciones, conceptos visuales y materiales de marketing que requieren un estilo visual definido. Funciona por Discord; plan básico desde 10 $/mes.\n\nDALL·E 3 (dentro de ChatGPT Plus): más accesible que Midjourney para quien ya paga ChatGPT Plus. Ideal para conceptos y prototipos visuales rápidos, aunque el control del estilo es más limitado que en Midjourney.\n\nCanva Magic Studio: la opción para diseñadores no técnicos que necesitan un resultado profesional rápido. Su IA genera fondos, elimina objetos, redimensiona diseños para distintas plataformas y sugiere paletas de color. El plan Pro (13 €/mes) desbloquea la mayoría de funciones de IA.\n\nRemove.bg: elimina fondos de fotografías en segundos con resultado profesional. Gratuito para uso ocasional; muy barato para uso intensivo.",
+    },
+    {
+      heading: "Automatización y flujo de trabajo",
+      body: "Zapier AI: automatiza tareas entre apps con descripción en lenguaje natural. Su constructor de flujos con IA permite crear automatizaciones complejas sin saber programar: conecta tu email con tu CRM, tu formulario de contacto con tu hoja de cálculo o tu tienda con tu sistema de facturación. Plan gratuito para flujos básicos; de pago desde 20 $/mes para automatizaciones avanzadas.\n\nMake (antes Integromat): más potente que Zapier para flujos complejos con lógica condicional y transformación de datos. Curva de aprendizaje algo mayor, pero más flexible y económico para volúmenes altos.\n\nn8n: alternativa open source para quien quiere control total y privacidad de los datos. Se instala en tu propio servidor; sin coste de licencia aunque requiere conocimientos técnicos básicos para la configuración inicial.",
+    },
+    {
+      heading: "IA para ventas y marketing",
+      body: "HubSpot AI: el CRM más utilizado entre pequeñas empresas ahora con IA integrada en varios módulos —redacción de emails de seguimiento, scoring de leads y sugerencias de contenido para el blog. La versión gratuita incluye funciones básicas; las de IA están en los planes de pago.\n\nInstantly.ai: outreach de email en frío con personalización generada por IA. Lee el perfil de LinkedIn del destinatario y personaliza el primer párrafo del email de forma automática, lo que mejora notablemente las tasas de apertura y respuesta. Útil para prospección B2B a escala.\n\nSurfer SEO: optimización de contenido con análisis de SERP y sugerencias basadas en lo que ya posiciona. Su editor indica en tiempo real qué términos faltan, qué longitud es adecuada y qué preguntas responde el contenido mejor posicionado. Imprescindible si el blog es un canal de captación.",
+    },
+    {
+      heading: "Cómo integrarlas sin perder el día",
+      body: "El error más común al adoptar IA es intentar integrar demasiadas herramientas a la vez. Tres principios prácticos para hacerlo bien. Primero, la regla del 70/30: usa IA para el 70% del trabajo repetitivo y reserva tu criterio para el 30% que requiere juicio, contexto de cliente o creatividad diferenciada. Segundo, empieza por una sola herramienta y domínala antes de añadir más. El ROI de conocer bien una herramienta supera al de usar cinco a medias —las funciones avanzadas son donde está el valor real, no en el uso básico. Tercero, mide el tiempo que ahorras. Si una herramienta de pago no te ahorra más de su coste mensual en tiempo facturable, cancélala sin culpa.",
+    },
+  ],
+  comparison: {
+    headers: ["Área", "Herramienta recomendada", "Precio orientativo", "Alternativa gratuita"],
+    rows: [
+      ["Escritura compleja", "Claude Pro", "20 $/mes", "Claude.ai (free tier)"],
+      ["Contenido marketing", "ChatGPT Plus", "20 $/mes", "ChatGPT-4o mini (gratis)"],
+      ["Investigación web", "Perplexity Pro", "20 $/mes", "Perplexity (gratis)"],
+      ["Transcripción reuniones", "Otter.ai Pro", "10 $/mes", "Otter.ai (300 min/mes gratis)"],
+      ["Imagen creativa", "Midjourney Basic", "10 $/mes", "DALL·E 3 (con ChatGPT Plus)"],
+      ["Automatización", "Zapier Starter", "20 $/mes", "Make (plan gratuito)"],
+      ["SEO contenido", "Surfer SEO", "69 $/mes", "Google Search Console"],
+    ],
+  },
+  conclusion:
+    "Un stack mínimo útil para autónomos podría ser Claude o ChatGPT Plus para escritura (20 $/mes), Otter.ai gratuito para transcripciones y Make en su plan gratuito para automatización: menos de 25 euros al mes para multiplicar la productividad en tres de las áreas más intensivas en tiempo. El stack completo con herramientas de diseño, SEO y ventas puede llegar a 100-200 €/mes, pero solo tiene sentido cuando el volumen de trabajo justifica cada línea del gasto. Empieza por lo que más tiempo te quita y añade herramientas solo cuando tengas claro cuánto tiempo te ahorran.",
+  faqs: [
+    {
+      q: "¿Cuánto cuesta integrar IA en el trabajo?",
+      a: "Desde 0 euros con las versiones gratuitas de Claude, ChatGPT-4o mini y Perplexity hasta 100-200 €/mes para un stack completo de escritura, transcripción, diseño y automatización. Para la mayoría de autónomos, 20-40 euros al mes en una o dos herramientas bien elegidas producen un retorno claro en tiempo ahorrado.",
+    },
+    {
+      q: "¿La IA reemplazará mi trabajo?",
+      a: "Los trabajadores que saben usar IA para producir más y mejor están desplazando a quienes no la usan — no al revés, todavía. Las tareas más expuestas son las repetitivas y las que se basan en síntesis de información disponible. Las que tienen menos riesgo son las que requieren contexto de relación (ventas, consultoría), criterio basado en experiencia propia y creatividad diferenciada. Aprender a usar estas herramientas ahora es una ventaja competitiva, no una amenaza.",
+    },
+    {
+      q: "¿Es seguro usar IA con datos de clientes?",
+      a: "Depende del proveedor y del plan. Las versiones gratuitas de la mayoría de herramientas usan los datos enviados para mejorar sus modelos, lo que las hace inadecuadas para información confidencial de clientes. Los planes de empresa de ChatGPT, Claude y otros ofrecen acuerdos de privacidad que excluyen el entrenamiento con tus datos. Como norma general: nunca subas datos sensibles sin anonimizarlos previamente y revisa la política de privacidad antes de integrar cualquier herramienta de IA en un flujo con información de clientes.",
+    },
+    {
+      q: "¿Qué herramienta de IA es mejor para escribir en español?",
+      a: "Claude y ChatGPT-4o tienen el mejor rendimiento en español de todos los modelos generalistas disponibles en 2025. Claude destaca en textos largos y coherentes; ChatGPT en versatilidad y velocidad. Perplexity es la mejor opción para investigación en español con fuentes citadas. Los modelos especializados en marketing como Jasper han mejorado en español pero siguen siendo inferiores a los modelos generalistas para contenido de calidad.",
+    },
+  ],
+},
+  "mejor-hub-usb-c-portatil-2025": {
+  intro:
+    "El hub USB-C es probablemente el accesorio con mejor retorno por euro de todo el home office. Un MacBook Air M3 sale de fábrica con dos puertos USB-C y un jack de auriculares: con un hub de ocho puertos bien elegido sumas HDMI 4K, tres USB-A, lector de tarjetas SD, ethernet gigabit y carga del portátil a la vez, todo en un dispositivo del tamaño de una baraja de cartas. El problema es que la oferta es enorme y la diferencia entre un hub bueno y uno malo no se ve en la ficha técnica: se nota en la estabilidad, en si mantiene el monitor a 4K sin parpadeos y en si carga el portátil de verdad a la potencia anunciada. Esta guía aclara qué comprar, para qué perfil y qué evitar.",
+  sections: [
+    {
+      heading: "Hub vs docking station: cuál necesitas",
+      body: "La diferencia práctica entre un hub y una docking station importa antes de buscar modelos. Un hub es compacto, sin fuente de alimentación propia y bus-powered: se alimenta del puerto del portátil, pesa menos de 200 gramos, cabe en una mochila y cuesta entre 30 y 90 euros. Ofrece 6 a 10 puertos y es suficiente para la mayoría de configuraciones de portátil con un monitor externo. Una docking station tiene fuente de alimentación propia, puede alimentar el portátil con 90-140 W y soportar dos o más monitores externos con total estabilidad. Cuesta entre 80 y 350 euros y está pensada para un escritorio fijo donde el portátil llega y se conecta a un solo cable. Para quien trabaja solo en casa, una docking de gama media es la inversión que elimina el cable-caos para siempre. Para quien trabaja también desde cafeterías, coworkings u oficinas del cliente, un hub portátil es imprescindible aunque tenga docking en casa.",
+    },
+    {
+      heading: "Los 5 mejores hubs USB-C en 2025",
+      body: "Anker 555 8-en-1 (55-65 €): el mejor equilibrio calidad-precio del mercado. Entrega 100 W de Power Delivery para cargar el portátil, salida HDMI 4K a 30 Hz, tres puertos USB-A 3.0, USB-C de datos, lector SD y lector microSD. El chip de Anker gestiona bien la distribución de energía sin inestabilidades. Recomendado para la mayoría de usuarios.\n\nCalDigit TS4 Thunderbolt 4 (199-249 €): la docking station de referencia para Mac. 18 puertos incluyendo dos salidas de vídeo para monitores 6K, tres puertos Thunderbolt 4, cinco USB-A, audio profesional y 98 W de carga. Para quien trabaja con un MacBook Pro y dos monitores en un escritorio fijo, es la inversión definitiva.\n\nBaseus 17-en-1 (79-89 €): el hub más completo en precio medio. Añade ethernet gigabit, puerto VGA para proyectores de empresa, dos HDMI y hasta 100 W de PD. Útil si necesitas muchos puertos distintos sin gastar en una docking. La gestión térmica es correcta aunque el cuerpo plástico acumula más calor que el aluminio.\n\nUgreen Revodok 7-en-1 (45-55 €): la opción compacta para viaje. Cuerpo de aluminio, un puerto HDMI 4K, dos USB-A 3.0, USB-C PD 100 W, lector SD y lector microSD. El tamaño es su principal ventaja: cabe en cualquier estuche de cable sin añadir peso notable.\n\nVAVA 8-en-1 (49-59 €): destaca por la estabilidad de conexión en uso intensivo. Cuerpo de aluminio, HDMI 4K 30 Hz, tres USB-A 3.0, USB-C PD 100 W, ethernet gigabit y lector SD. Usuarios de MacBook valoran especialmente que no genera problemas de kernel panic, un punto débil común en hubs de baja calidad.",
+    },
+    {
+      heading: "Qué puertos realmente necesitas",
+      body: "Antes de comprar conviene listar qué conectas. HDMI 4K es obligatorio si usas monitor externo: comprueba que sea HDMI 2.0 para 4K 60 Hz; los hubs más baratos solo soportan 4K a 30 Hz, que es aceptable para documentos pero incómodo para vídeo. USB-A x2 o x3 cubre ratón, teclado y un pendrive simultáneamente; si tienes muchos periféricos USB-A es el puerto que más se agota primero. USB-C con Power Delivery es esencial para cargar el portátil mientras usas el hub: verifica que la potencia sea suficiente, mínimo 60 W para portátiles ultraligeros y al menos 87 W para MacBook Pro de 14 o 16 pulgadas. El lector de tarjetas SD es imprescindible para fotógrafos y camarógrafos; si no usas cámaras es opcional. El ethernet gigabit es el puerto más infravalorado del hub: una conexión por cable estabiliza las videollamadas de una forma que el wifi no iguala en entornos con mucha interferencia.",
+    },
+    {
+      heading: "Compatibilidad: Thunderbolt 4, USB4 y USB 3.2",
+      body: "La confusión de estándares es uno de los motivos por los que la gente compra el hub equivocado. Los hubs genéricos USB 3.2 Gen 2 funcionan en cualquier portátil con puerto USB-C: Mac, Windows y Linux. No necesitan Thunderbolt en el portátil para operar, aunque no aprovechan la velocidad máxima de un puerto Thunderbolt 4. USB4 es el estándar más reciente y compatible con Thunderbolt 4 en velocidad de datos; los portátiles con USB4 soportan la mayoría de hubs del mercado sin problemas. Los hubs y docks Thunderbolt exclusivos —como el CalDigit TS4— requieren que el portátil tenga un puerto Thunderbolt 3 o 4 para funcionar al máximo rendimiento; en un USB-C genérico siguen funcionando pero limitan velocidad y número de monitores. Si no sabes qué puerto tiene tu portátil, búscalo en la ficha técnica: Thunderbolt 3 y 4 llevan el símbolo del rayo junto al puerto.",
+    },
+  ],
+  comparison: {
+    headers: ["Modelo", "Precio", "Puertos", "Mejor para"],
+    rows: [
+      ["Anker 555 8-en-1", "55-65 €", "8 (HDMI, 3xUSB-A, SD, PD)", "Mayoría de usuarios, mejor relación calidad-precio"],
+      ["CalDigit TS4 TB4", "199-249 €", "18 (2 monitores 6K, TB4, USB-A)", "Mac + 2 monitores en escritorio fijo"],
+      ["Baseus 17-en-1", "79-89 €", "17 (HDMI, VGA, ethernet, PD)", "Máximo número de puertos, viajes de empresa"],
+      ["Ugreen Revodok 7-en-1", "45-55 €", "7 (HDMI, 2xUSB-A, SD, PD)", "Viaje y movilidad, máxima portabilidad"],
+      ["VAVA 8-en-1", "49-59 €", "8 (HDMI, 3xUSB-A, ethernet, SD)", "Estabilidad y usuarios de MacBook"],
+    ],
+  },
+  conclusion:
+    "Para la mayoría de personas con un portátil y un monitor externo, el Anker 555 8-en-1 es la compra correcta: 100 W de carga, HDMI 4K, tres USB-A y lectores de tarjetas por menos de 65 euros. Si tienes un MacBook y trabajas siempre desde el mismo escritorio con dos monitores, la inversión en la CalDigit TS4 elimina todos los problemas de conexión de una vez. Para viajes frecuentes, el Ugreen Revodok aporta lo necesario en el menor tamaño posible. La clave antes de comprar: comprueba la potencia de carga que necesita tu portátil y si el hub que te interesa la alcanza; el resto de puertos son fáciles de comparar.",
+  faqs: [
+    {
+      q: "¿Un hub USB-C ralentiza el portátil?",
+      a: "Un hub de calidad no ralentiza el portátil de ninguna manera perceptible. Los hubs baratos de mala calidad pueden generar inestabilidad en la conexión —el monitor parpadea, el periférico se desconecta— porque el controlador USB interno gestiona mal la distribución de energía. La solución es no comprar el hub más barato de Amazon sin marca reconocida: marcas como Anker, Ugreen, Baseus o VAVA tienen un control de calidad suficiente para uso profesional.",
+    },
+    {
+      q: "¿Puedo conectar dos monitores con un hub USB-C?",
+      a: "Depende del hub y del portátil. Un hub USB-C genérico con DisplayLink puede alimentar dos monitores externos en cualquier portátil, aunque la aceleración de vídeo es por software y consume CPU. Un hub o dock Thunderbolt 4 soporta dos monitores con aceleración hardware, pero el portátil necesita un puerto Thunderbolt 3 o 4. Los Mac con chip M1 en adelante solo soportan un monitor externo nativo (excepto el Mac mini y los Mac Pro); para dos monitores en MacBook M1/M2/M3 se necesita DisplayLink o Thunderbolt.",
+    },
+    {
+      q: "¿El hub carga el portátil mientras lo uso?",
+      a: "Solo si el hub tiene un puerto USB-C con Power Delivery suficiente. Verifica dos cosas: que el hub anuncie PD (Power Delivery) y que la potencia en vatios sea igual o superior al cargador original de tu portátil. Para un MacBook Air M3 son necesarios al menos 67 W; para un MacBook Pro 14 o 16 pulgadas, mínimo 87 W. Si el hub entrega menos vatios de los que necesita el portátil, cargará pero más despacio de lo normal o incluso perderá batería en uso intensivo.",
+    },
+    {
+      q: "¿Mejor aluminio o plástico en el hub?",
+      a: "El aluminio disipa mejor el calor, que es el principal enemigo de la estabilidad en un hub bus-powered. Un hub de aluminio en uso intensivo (monitor 4K + carga + USB-A activos al mismo tiempo) se mantiene tibio; uno de plástico equivalente se calienta más. Para uso moderado la diferencia es mínima; para uso continuo de 8 horas o en climas cálidos, el aluminio es el material correcto.",
+    },
+  ],
+},
 };
 
 export default async function BlogPostPage({ params }: Props) {
