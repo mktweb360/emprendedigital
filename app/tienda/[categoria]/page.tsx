@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categories, getProductsByCategory } from "@/data/products";
-import { amazonLink } from "@/lib/amazon";
 const CATEGORY_IMAGES: Record<string, string> = {
   "sillas-ergonomicas": "/images/products/sillas-ergonomicas.jpg",
   "escritorios": "/images/products/escritorios.jpg",
@@ -170,9 +169,9 @@ export default async function CategoriaPage({ params }: Props) {
               {(() => {
                 const imgSrc = CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/sillas-ergonomicas.jpg";
                 return (
-                  <a href={amazonLink(product.asin)} target="_blank" rel="noopener noreferrer sponsored" className="block overflow-hidden bg-gray-50">
+                  <Link href={`/tienda/${product.categorySlug}/${product.slug}`} className="block overflow-hidden bg-gray-50">
                     <img src={imgSrc} alt={product.name} className="w-full h-44 object-cover hover:scale-105 transition-transform duration-300" loading="lazy" />
-                  </a>
+                  </Link>
                 );
               })()}
               <div className="p-5">
@@ -190,16 +189,8 @@ export default async function CategoriaPage({ params }: Props) {
                   href={`/tienda/${cat.slug}/${product.slug}`}
                   className="flex-1 text-center text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg py-2 transition-colors"
                 >
-                  Ver análisis →
+                  Ver análisis y precio →
                 </Link>
-                <a
-                  href={amazonLink(product.asin)}
-                  target="_blank"
-                  rel="noopener noreferrer sponsored"
-                  className="flex-1 text-center text-xs font-bold text-white bg-orange-500 hover:bg-orange-600 rounded-lg py-2 transition-colors"
-                >
-                  Amazon →
-                </a>
               </div>
               </div>
             </div>
