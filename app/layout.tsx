@@ -87,7 +87,7 @@ export default function RootLayout({
     `,
           }}
         />
-        {/* AdSense is loaded conditionally by CookieBanner after consent */}
+        <meta name="google-adsense-account" content="ca-pub-6063067965030118" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
