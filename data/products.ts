@@ -15,6 +15,7 @@ export type Product = {
   cons: string[];
   specs: Record<string, string>;
   badge?: string;
+  relatedPosts?: string[];
 };
 
 export const categories = [
@@ -48,6 +49,7 @@ export const products: Product[] = [
     cons: ["Solo 2 puertos USB-C (necesita adaptador para HDMI/USB-A)", "256 GB de base — recomendable subir a 512 GB", "Precio elevado respecto a la competencia Windows"],
     specs: { "Procesador": "Apple M3 (8C CPU + 10C GPU)", "RAM": "8 GB unificada", "Almacenamiento": "256 GB SSD NVMe", "Pantalla": "13,6\" Liquid Retina 2560×1664", "Batería": "Hasta 18h (Apple)", "Peso": "1,24 kg", "Puertos": "2× USB-C / MagSafe 3 / Jack 3,5mm" },
     badge: "Mejor overall",
+    relatedPosts: ["mejor-tablet-teletrabajo-2025", "home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
     slug: "asus-zenbook-14-oled-ux3405",
@@ -66,6 +68,7 @@ export const products: Product[] = [
     cons: ["No tiene lector de tarjetas SD", "La webcam integrada es solo 1080p sin obturador físico", "OLED puede acusar burn-in en uso intensivo a largo plazo"],
     specs: { "Procesador": "Intel Core Ultra 7 155H", "RAM": "16 GB LPDDR5X", "Almacenamiento": "512 GB SSD NVMe", "Pantalla": "14\" OLED 2880×1800 120Hz", "Batería": "Hasta 15h", "Peso": "1,39 kg", "Puertos": "2× USB-C Thunderbolt 4, 1× USB-A, 1× HDMI 2.1, Jack" },
     badge: "Mejor pantalla",
+    relatedPosts: ["mejor-tablet-teletrabajo-2025", "home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
     slug: "lenovo-thinkpad-x1-carbon-gen12",
@@ -84,6 +87,7 @@ export const products: Product[] = [
     cons: ["Precio premium elevado", "Sin pantalla OLED en la configuración base", "Sin lector de tarjetas SD"],
     specs: { "Procesador": "Intel Core Ultra 5 125U", "RAM": "16 GB LPDDR5", "Almacenamiento": "512 GB SSD NVMe", "Pantalla": "14\" IPS 1920×1200 60Hz", "Batería": "Hasta 16h", "Peso": "1,12 kg", "Certificación": "MIL-STD-810H" },
     badge: "Para profesionales",
+    relatedPosts: ["mejor-tablet-teletrabajo-2025", "trabajo-remoto-espana-guia-completa-2025", "home-office-setup-productivo-guia"],
   },
   {
     slug: "hp-pavilion-plus-14-oled",
@@ -102,6 +106,7 @@ export const products: Product[] = [
     cons: ["Autonomía algo inferior (8-10h reales)", "Peso de 1,46 kg, algo por encima de competidores", "Refresco de 60Hz (no 90/120Hz como otros OLED)"],
     specs: { "Procesador": "Intel Core i7-1255U", "RAM": "16 GB DDR4", "Almacenamiento": "512 GB SSD NVMe", "Pantalla": "14\" OLED 2880×1800 60Hz", "Batería": "Hasta 10h", "Peso": "1,46 kg", "Puertos": "2× USB-C, 2× USB-A, HDMI, microSD" },
     badge: "Mejor relación calidad-precio",
+    relatedPosts: ["mejor-tablet-teletrabajo-2025", "home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima"],
   },
 
   // PERIFÉRICOS
@@ -122,6 +127,7 @@ export const products: Product[] = [
     cons: ["No es mecánico (membrana premium)", "Precio elevado para un teclado de membrana", "No tiene teclado numérico en la versión compacta"],
     specs: { "Tipo": "Membrana premium", "Conexión": "Bluetooth / Logi Bolt USB", "Dispositivos": "Hasta 3 simultáneos", "Retroiluminación": "Sí (inteligente por proximidad)", "Batería": "Hasta 10 días (con luz) / 5 meses (sin luz)", "Compatible": "Windows / macOS / Linux / iOS / Android" },
     badge: "Más vendido",
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "logitech-mx-keys-analisis-opinion", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
     slug: "logitech-mx-master-3s",
@@ -140,6 +146,7 @@ export const products: Product[] = [
     cons: ["Precio elevado", "Talla única — puede ser grande para manos pequeñas", "Solo para diestros"],
     specs: { "Sensor": "8.000 DPI óptico", "Conexión": "Bluetooth / Logi Bolt", "Dispositivos": "Hasta 3", "Rueda": "MagSpeed electromagnética", "Batería": "70 días con carga completa", "Carga": "USB-C (1 min = 3h de uso)" },
     badge: "El mejor ratón",
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "setup-trabajo-remoto-productividad-maxima", "herramientas-productividad-trabajo-remoto-2025"],
   },
   {
     slug: "keychron-k2-pro-mecanico",
@@ -157,6 +164,7 @@ export const products: Product[] = [
     pros: ["Hot-swap: cambia switches sin soldar", "Formato 75% compacto pero funcional", "Compatible Windows y macOS de serie", "Bluetooth 3 dispositivos + cable USB-C", "RGB retroiluminación por tecla"],
     cons: ["Layout ANSI (teclas en inglés por defecto)", "Sin número numérico", "La batería dura menos con RGB activo"],
     specs: { "Tipo": "Mecánico (Gateron G Pro)", "Formato": "75% (84 teclas)", "Conexión": "Bluetooth 5.1 / USB-C", "Hot-swap": "Sí", "RGB": "Sí (por tecla)", "Compatible": "Windows / macOS" },
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "logitech-mx-keys-analisis-opinion", "herramientas-productividad-trabajo-remoto-2025"],
   },
 
   // MICRÓFONOS
@@ -177,6 +185,7 @@ export const products: Product[] = [
     cons: ["Tamaño considerable — ocupa espacio en el escritorio", "Sin conector XLR (solo USB)", "El soporte incluido no es el más estable"],
     specs: { "Tipo": "Condensador USB", "Patrones": "4 (cardioide, bidireccional, omni, estéreo)", "Conexión": "USB-A", "Frecuencia": "20 Hz – 20 kHz", "Resolución": "16-bit / 48 kHz", "Monitorización": "Sin latencia" },
     badge: "Referencia del sector",
+    relatedPosts: ["mejor-webcam-videollamadas-trabajo-remoto", "como-empezar-negocio-online-desde-casa-2025", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
     slug: "hyperx-solocast-microfono",
@@ -195,6 +204,7 @@ export const products: Product[] = [
     cons: ["Solo patrón cardioide (no versátil para entrevistas)", "Sin monitorización de auriculares", "Sin control de ganancia en el cuerpo"],
     specs: { "Tipo": "Condensador USB cardioide", "Conexión": "USB-C", "Frecuencia": "20 Hz – 20 kHz", "Resolución": "16-bit / 48 kHz", "Mute": "Tap-to-mute con LED", "Montura": "Rosca 3/8\" y 5/8\"" },
     badge: "Mejor relación calidad-precio",
+    relatedPosts: ["como-empezar-negocio-online-desde-casa-2025", "mejor-webcam-videollamadas-trabajo-remoto"],
   },
   {
     slug: "rode-nt-usb-mini-microfono",
@@ -212,6 +222,7 @@ export const products: Product[] = [
     pros: ["Calidad de audio Rode — premium en su gama", "Base magnética para posicionamiento flexible", "Control de ganancia y mezcla integrados", "Monitorización de auriculares sin latencia", "Compatibilidad con iPad (adaptador necesario)"],
     cons: ["Sin patrón polar ajustable (solo cardioide)", "El cable USB-C incluido es corto (apenas 30 cm)", "Sin botón de mute integrado"],
     specs: { "Tipo": "Condensador USB cardioide", "Conexión": "USB-C", "Frecuencia": "20 Hz – 20 kHz", "Ganancia": "Ajustable en el micrófono", "Monitorización": "Sin latencia (jack 3,5mm)", "Base": "Magnética ajustable" },
+    relatedPosts: ["como-empezar-negocio-online-desde-casa-2025", "mejor-webcam-videollamadas-trabajo-remoto"],
   },
 
   // WEBCAMS
@@ -232,6 +243,7 @@ export const products: Product[] = [
     cons: ["Máximo 30fps (no 60fps)", "Sin obturador de privacidad físico", "Los micrófonos captan algo de ruido ambiente"],
     specs: { "Resolución": "1080p Full HD", "FPS": "30fps (1080p)", "Micrófonos": "Dual estéreo con cancelación de ruido", "Campo visual": "78°", "Conexión": "USB-A", "Compatible": "Windows / macOS / Chrome OS" },
     badge: "Más vendida",
+    relatedPosts: ["mejor-webcam-videollamadas-trabajo-remoto", "como-empezar-negocio-online-desde-casa-2025", "iluminacion-videollamadas-home-office"],
   },
   {
     slug: "logitech-brio-4k-webcam",
@@ -249,6 +261,7 @@ export const products: Product[] = [
     pros: ["4K Ultra HD con HDR — imagen excepcional", "Campo visual ajustable (65°/78°/90°)", "Windows Hello para autenticación facial", "3 micrófonos con supresión de ruido", "Obturador de privacidad físico incluido"],
     cons: ["Precio muy elevado", "4K real solo con USB 3.0 (limitado a 1080p con USB 2.0)", "Requiere buena iluminación para aprovechar el 4K"],
     specs: { "Resolución": "4K Ultra HD (2160p)", "FPS": "30fps (4K) / 60fps (1080p)", "Micrófonos": "3 con supresión de ruido", "Campo visual": "65°/78°/90° ajustable", "Windows Hello": "Sí (IR)", "Privacidad": "Obturador físico" },
+    relatedPosts: ["mejor-webcam-videollamadas-trabajo-remoto", "iluminacion-videollamadas-home-office", "setup-trabajo-remoto-productividad-maxima"],
   },
 
   // AURICULARES
@@ -269,6 +282,7 @@ export const products: Product[] = [
     cons: ["No se pliegan planos (solo articulados)", "Precio elevado", "Sin conexión por cable activo (solo pasivo)"],
     specs: { "ANC": "8 micrófonos, 2 procesadores dedicados", "Batería": "30h con ANC / 40h sin ANC", "Carga": "USB-C, carga rápida 3min=3h", "Bluetooth": "5.2, multipoint (2 dispositivos)", "Códecs": "LDAC / AAC / SBC", "Peso": "250 g" },
     badge: "Los mejores ANC",
+    relatedPosts: ["mejores-auriculares-cancelacion-ruido-trabajo-2025", "sony-wh1000xm5-analisis-opinion", "productividad-trabajando-desde-casa-habitos"],
   },
   {
     slug: "jabra-evolve2-55-auriculares",
@@ -287,6 +301,7 @@ export const products: Product[] = [
     cons: ["Precio muy elevado", "Diseño menos cómodo para uso prolongado que Sony", "La app requiere registro"],
     specs: { "Micrófonos": "6 integrados en la diadema", "Batería": "36h con ANC", "Certificación": "Microsoft Teams / Zoom / Google Meet", "Carga": "USB-C + Qi inalámbrico", "Bluetooth": "5.0, multipoint", "ANC": "Avanzado ajustable" },
     badge: "Para profesionales",
+    relatedPosts: ["mejores-auriculares-cancelacion-ruido-trabajo-2025", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
     slug: "jbl-tune-510bt-auriculares",
@@ -305,6 +320,7 @@ export const products: Product[] = [
     cons: ["Sin ANC (no aíslan bien en entornos ruidosos)", "Sin carga rápida", "Micrófono básico — suficiente pero no profesional"],
     specs: { "Batería": "40h Bluetooth / 2h carga", "Bluetooth": "5.0, multipoint 2 dispositivos", "Controlador": "32mm Pure Bass", "Plegable": "Sí", "Peso": "160 g", "Carga": "USB-C" },
     badge: "Mejor precio",
+    relatedPosts: ["mejores-auriculares-cancelacion-ruido-trabajo-2025", "sony-wh1000xm5-analisis-opinion"],
   },
 
   // ILUMINACIÓN
@@ -325,6 +341,7 @@ export const products: Product[] = [
     cons: ["Precio elevado para iluminación básica", "Requiere conexión WiFi para el control por app", "Solo un foco — para iluminación completa necesitas dos"],
     specs: { "Potencia": "1.400 lúmenes", "Temperatura": "2.900 K – 7.000 K ajustable", "LEDs": "80 LEDs de alta densidad", "Control": "App + Stream Deck + Elgato Hub", "Conexión": "WiFi + alimentación por cable", "Calor": "Sin calentamiento" },
     badge: "Elección de streamers",
+    relatedPosts: ["iluminacion-videollamadas-home-office", "mejor-webcam-videollamadas-trabajo-remoto"],
   },
   {
     slug: "neewer-ring-light-18-pulgadas",
@@ -343,6 +360,7 @@ export const products: Product[] = [
     cons: ["Calidad de construcción ajustada al precio", "El trípode no es el más estable en superficies irregulares", "Sin control por app ni integración con software de streaming"],
     specs: { "Diámetro": "18 pulgadas (46 cm)", "Temperatura": "3.200 K – 5.500 K", "Brillo": "10 niveles", "Trípode": "Hasta 2 m ajustable", "Alimentación": "Cable con adaptador de pared", "Incluye": "Soporte móvil + adaptador hot shoe" },
     badge: "Mejor relación calidad-precio",
+    relatedPosts: ["iluminacion-videollamadas-home-office", "mejor-webcam-videollamadas-trabajo-remoto"],
   },
 
   // SILLAS ERGONÓMICAS
@@ -363,6 +381,7 @@ export const products: Product[] = [
     cons: ["El mecanismo de reclinación podría ser más suave", "El reposacabezas tarda en ajustarse correctamente", "Sin reposapies incluido"],
     specs: { "Respaldo": "Malla transpirable", "Soporte lumbar": "3D (altura + profundidad ajustable)", "Reposacabezas": "Ajustable en altura e inclinación", "Reposabrazos": "4D", "Capacidad": "150 kg", "Reclinación": "90°-135°" },
     badge: "Mejor calidad-precio",
+    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "sihoo-m57-analisis-opinion", "dolor-espalda-trabajar-casa-soluciones"],
   },
   {
     slug: "hbada-silla-ergonomica-pro",
@@ -380,6 +399,7 @@ export const products: Product[] = [
     pros: ["Reclinación hasta 155° — muy cómoda para descanso", "Reposabrazos plegables (prácticos para espacios pequeños)", "Precio muy accesible", "Malla transpirable en respaldo", "Soporte lumbar integrado en el respaldo"],
     cons: ["El soporte lumbar no es ajustable de forma independiente", "Capacidad máxima de 120 kg (inferior a competidores)", "Sin reposacabezas ajustable"],
     specs: { "Respaldo": "Malla transpirable", "Reclinación": "Hasta 155°", "Reposabrazos": "Plegables 2D", "Capacidad": "120 kg", "Altura asiento": "43-53 cm", "Material base": "Nylon reforzado" },
+    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "dolor-espalda-trabajar-casa-soluciones"],
   },
 
   // ESCRITORIOS
@@ -400,6 +420,7 @@ export const products: Product[] = [
     cons: ["Precio elevado", "Montaje requiere dos personas (estructura pesada)", "Sin gestión de cables incluida"],
     specs: { "Rango de altura": "58 – 123 cm", "Velocidad": "4 cm/s", "Capacidad": "125 kg", "Tablero": "140×70 cm melamina 18mm", "Motores": "Doble motor sincronizado", "Memoria": "4 alturas predefinidas", "Garantía": "5 años en motor" },
     badge: "Mejor escritorio ajustable",
+    relatedPosts: ["escritorio-regulable-altura-home-office", "flexispot-e7-pro-analisis-opinion", "home-office-setup-productivo-guia"],
   },
   {
     slug: "flexispot-eg1-escritorio-ajustable",
@@ -418,6 +439,7 @@ export const products: Product[] = [
     cons: ["Un solo motor — algo menos estable que el E7 con carga alta", "Solo 2 alturas en memoria (sin pantalla LED completa)", "Tablero básico — muchos optan por comprar uno aparte"],
     specs: { "Rango de altura": "71 – 121 cm", "Capacidad": "70 kg", "Tablero": "120×60 cm", "Motores": "Un motor", "Memoria": "2 alturas", "Garantía": "3 años en motor" },
     badge: "Mejor precio",
+    relatedPosts: ["escritorio-regulable-altura-home-office", "home-office-setup-productivo-guia"],
   },
 
   // MONITORES
@@ -440,6 +462,7 @@ export const products: Product[] = [
     cons: ["Sin altavoces integrados", "60 Hz: suficiente para trabajo, justo para juego", "Precio superior al de un equivalente Full HD"],
     specs: { "Tamaño": "27\"", "Resolución": "3840×2160 (4K UHD)", "Panel": "IPS", "Frecuencia": "60 Hz", "Conectividad": "USB-C", "Protección ocular": "LG Eye Care (flicker-safe + filtro luz azul)" },
     badge: "Mejor nitidez 4K",
+    relatedPosts: ["mejor-monitor-home-office-2025", "monitor-4k-vs-full-hd-trabajo-remoto", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
     slug: "dell-s2725qc-monitor-4k-usbc",
@@ -458,6 +481,7 @@ export const products: Product[] = [
     cons: ["Los altavoces integrados no sustituyen a unos buenos auriculares", "Aprovechar los 120 Hz exige un equipo capaz de moverlos a 4K", "Precio superior al de un 4K a 60 Hz sin USB-C"],
     specs: { "Tamaño": "27\"", "Resolución": "3840×2160 (4K UHD)", "Panel": "IPS", "Frecuencia": "120 Hz", "Conectividad": "USB-C (vídeo + carga)", "Color": "sRGB 99%", "Audio": "Altavoces integrados", "Protección ocular": "Comfortview Plus (TÜV)", "Sincronización": "AMD FreeSync Premium" },
     badge: "Mejor overall",
+    relatedPosts: ["mejor-monitor-home-office-2025", "monitor-4k-vs-full-hd-trabajo-remoto", "home-office-setup-productivo-guia"],
   },
   {
     slug: "benq-gw2790-monitor-eye-care",
@@ -476,6 +500,7 @@ export const products: Product[] = [
     cons: ["Full HD en 27\": unos 82 PPI, el texto se ve granulado frente a un 4K", "Sin USB-C con carga", "Menos espacio de trabajo útil que un 4K escalado"],
     specs: { "Tamaño": "27\"", "Resolución": "1920×1080 (Full HD)", "Panel": "IPS", "Frecuencia": "100 Hz", "Audio": "Altavoces integrados", "Protección ocular": "Eyesafe certificado + filtro de luz azul", "Brillo": "Automático adaptativo" },
     badge: "Mejor protección ocular",
+    relatedPosts: ["mejor-monitor-home-office-2025", "monitor-4k-vs-full-hd-trabajo-remoto"],
   },
 ];
 

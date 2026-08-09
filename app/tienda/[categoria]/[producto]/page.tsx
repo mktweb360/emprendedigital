@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { products, getProductsByCategory, getProductBySlug, categories } from "@/data/products";
 import { amazonLink } from "@/lib/amazon";
+import { getPostBySlug } from "@/data/posts";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 
@@ -68,6 +69,7 @@ export default async function ProductoPage({ params }: Props) {
   const related = getProductsByCategory(categoria)
     .filter((p) => p.slug !== product.slug)
     .slice(0, 3);
+  const relatedGuides = (product.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
 
   // Sin `offers` (precio) ni `aggregateRating`: precio y opiniones solo pueden
   // mostrarse vía la API oficial de Amazon (Creators API). Emitir precio estático
@@ -233,6 +235,28 @@ export default async function ProductoPage({ params }: Props) {
         )}
 
         <AffiliateDisclosure />
+
+        {relatedGuides.length > 0 && (
+          <div className="mt-8 mb-8">
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Guías relacionadas</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {relatedGuides.map((p) => p && (
+                <a
+                  key={p.slug}
+                  href={`/blog/${p.slug}`}
+                  className="flex items-start gap-3 bg-indigo-50 border border-indigo-100 rounded-2xl p-4 hover:bg-indigo-100 transition-colors group"
+                >
+                  <span className="text-indigo-600 text-xl shrink-0 mt-0.5">📖</span>
+                  <div>
+                    <span className="text-xs font-bold text-indigo-600 uppercase tracking-wide">{p.category}</span>
+                    <h3 className="font-bold text-gray-900 text-sm mt-0.5 leading-tight group-hover:text-indigo-700 transition-colors">{p.title}</h3>
+                    <span className="text-indigo-700 font-semibold text-xs mt-1 inline-block">Leer guía →</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
 
         {related.length > 0 && (
           <div className="mt-8">

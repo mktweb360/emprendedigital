@@ -1362,6 +1362,18 @@ export default async function BlogPostPage({ params }: Props) {
           </section>
         )}
 
+        {post.categoryCta && (
+          <div className="mt-10 rounded-2xl bg-indigo-50 border border-indigo-100 px-6 py-5 flex items-center justify-between gap-4">
+            <p className="text-indigo-800 font-semibold text-sm">¿Buscas el producto adecuado?</p>
+            <Link
+              href={post.categoryCta.href}
+              className="shrink-0 inline-flex items-center gap-1 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm px-5 py-2.5 rounded-xl transition-colors"
+            >
+              {post.categoryCta.text}
+            </Link>
+          </div>
+        )}
+
         {relatedPosts.length > 0 && (
           <section className="mb-10">
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">Artículos relacionados</h2>
