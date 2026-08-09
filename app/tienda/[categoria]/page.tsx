@@ -3,6 +3,16 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categories, getProductsByCategory } from "@/data/products";
 import { amazonLink } from "@/lib/amazon";
+const CATEGORY_IMAGES: Record<string, string> = {
+  "sillas-ergonomicas": "/images/products/sillas-ergonomicas.jpg",
+  "escritorios": "/images/products/escritorios.jpg",
+  "monitores": "/images/products/monitores.jpg",
+  "perifericos": "/images/products/perifericos.jpg",
+  "portatiles": "/images/products/portatiles.jpg",
+  "tablets-productividad": "/images/products/tablets-productividad.jpg",
+};
+
+
 
 type Props = { params: Promise<{ categoria: string }> };
 
@@ -155,8 +165,17 @@ export default async function CategoriaPage({ params }: Props) {
           {catProducts.map((product) => (
             <div
               key={product.slug}
-              className="border border-gray-100 rounded-xl p-5 hover:shadow-md hover:border-indigo-200 transition-all group"
+              className="border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:border-indigo-200 transition-all group"
             >
+              {(() => {
+                const imgSrc = CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/sillas-ergonomicas.jpg";
+                return (
+                  <a href={amazonLink(product.asin)} target="_blank" rel="noopener noreferrer sponsored" className="block overflow-hidden bg-gray-50">
+                    <img src={imgSrc} alt={product.name} className="w-full h-44 object-cover hover:scale-105 transition-transform duration-300" loading="lazy" />
+                  </a>
+                );
+              })()}
+              <div className="p-5">
               {product.badge && (
                 <span className="inline-block text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full mb-3">
                   {product.badge}
@@ -181,6 +200,7 @@ export default async function CategoriaPage({ params }: Props) {
                 >
                   Amazon →
                 </a>
+              </div>
               </div>
             </div>
           ))}

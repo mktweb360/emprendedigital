@@ -1255,6 +1255,12 @@ export default async function BlogPostPage({ params }: Props) {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
         {relatedProducts.length > 0 && <AffiliateDisclosure />}
 
+        {post.image && (
+          <div className="mb-8 -mx-4 sm:-mx-6 overflow-hidden rounded-xl">
+            <img src={post.image} alt={post.title} className="w-full h-56 sm:h-72 object-cover" loading="eager" />
+          </div>
+        )}
+
         {content && (
           <article>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">{content.intro}</p>
@@ -1391,14 +1397,17 @@ export default async function BlogPostPage({ params }: Props) {
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">Artículos relacionados</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {relatedPosts.map((p) => p && (
-                <Link
-                  key={p.slug}
-                  href={`/blog/${p.slug}`}
-                  className="block bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-400 hover:shadow-sm transition-all"
-                >
-                  <span className="inline-block text-xs font-semibold text-indigo-700 mb-1.5">{p.category}</span>
-                  <h3 className="font-bold text-gray-900 leading-snug mb-1">{p.title}</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed line-clamp-2">{p.excerpt}</p>
+                <Link key={p.slug} href={`/blog/${p.slug}`} className="block bg-white rounded-2xl border border-gray-100 hover:shadow-md transition-shadow overflow-hidden">
+                  {p.image && (
+                    <div className="h-36 overflow-hidden bg-gray-100">
+                      <img src={p.image} alt={p.title} className="w-full h-full object-cover" loading="lazy" />
+                    </div>
+                  )}
+                  <div className="p-5">
+                    <span className="inline-block text-xs font-semibold text-indigo-700 mb-1.5">{p.category}</span>
+                    <h3 className="font-bold text-gray-900 leading-snug mb-1">{p.title}</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed line-clamp-2">{p.excerpt}</p>
+                  </div>
                 </Link>
               ))}
             </div>

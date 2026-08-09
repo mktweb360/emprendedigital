@@ -22,6 +22,7 @@ type ArticleCard = {
   date: string;
   price: string | null;
   category: string;
+  image?: string;
 };
 
 // Landing pages estáticas (una ruta propia por artículo).
@@ -124,6 +125,7 @@ const blogPosts: ArticleCard[] = posts.map((p) => ({
   date: p.date,
   price: null,
   category: p.category,
+  image: p.image,
 }));
 
 const allArticles: ArticleCard[] = [...staticArticles, ...blogPosts].sort(
@@ -156,10 +158,16 @@ export default function BlogPage() {
             <Link
               key={art.href}
               href={art.href}
-              className="flex flex-col sm:flex-row gap-4 border border-gray-100 rounded-xl p-6 hover:shadow-md hover:border-indigo-200 transition-all group"
+              className="border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:border-indigo-200 transition-all group"
             >
-              <div className="text-5xl shrink-0">{art.icon}</div>
-              <div className="flex-1">
+              {art.image ? (
+                <div className="h-48 overflow-hidden bg-gray-100">
+                  <img src={art.image} alt={art.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                </div>
+              ) : (
+                <div className="px-6 pt-6 text-5xl">{art.icon}</div>
+              )}
+              <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-2">
                   <span className="text-xs font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">
                     {art.category}
@@ -169,12 +177,12 @@ export default function BlogPage() {
                   {art.title}
                 </h2>
                 <p className="text-sm text-gray-500 leading-relaxed mb-2">{art.excerpt}</p>
-                <time className="text-xs text-gray-400">{art.date}</time>
-              </div>
-              <div className="shrink-0 self-center">
-                <span className="text-indigo-600 font-semibold text-sm whitespace-nowrap">
-                  Leer →
-                </span>
+                <div className="flex items-center justify-between">
+                  <time className="text-xs text-gray-400">{art.date}</time>
+                  <span className="text-indigo-600 font-semibold text-sm whitespace-nowrap">
+                    Leer →
+                  </span>
+                </div>
               </div>
             </Link>
           ))}

@@ -8,11 +8,13 @@ export type Post = {
   relatedProducts?: string[];
   relatedPosts?: string[];
   categoryCta?: { href: string; text: string };
+  image?: string;
 };
 
 export const posts: Post[] = [
   {
     slug: "mejor-silla-ergonomica-home-office-2025",
+    image: "/images/blog/mejor-silla-ergonomica-home-office-2025.jpg",
     title: "Mejor silla ergonómica para home office en 2025 — Comparativa completa",
     excerpt:
       "Las mejores sillas ergonómicas para trabajar desde casa en 2025: SIHOO M57 y Hbada Pro comparadas. Guía de compra por presupuesto y horas de uso.",
@@ -25,6 +27,7 @@ export const posts: Post[] = [
   },
   {
     slug: "sihoo-m57-analisis-opinion",
+    image: "/images/blog/sihoo-m57-analisis-opinion.jpg",
     title: "SIHOO M57: análisis completo y opiniones 2025",
     excerpt:
       "Análisis detallado de la SIHOO M57: qué la diferencia de otras sillas ergonómicas, para quién es la inversión correcta y sus puntos débiles reales.",
@@ -37,6 +40,7 @@ export const posts: Post[] = [
   },
   {
     slug: "escritorio-regulable-altura-home-office",
+    image: "/images/blog/escritorio-regulable-altura-home-office.jpg",
     title: "Escritorio regulable en altura para home office: guía de compra 2025",
     excerpt:
       "Cómo elegir el mejor escritorio regulable en altura para trabajar desde casa: FlexiSpot E7 Pro vs FlexiSpot EG1. Comparativa por uso, presupuesto y espacio.",
@@ -49,6 +53,7 @@ export const posts: Post[] = [
   },
   {
     slug: "flexispot-e7-pro-analisis-opinion",
+    image: "/images/blog/flexispot-e7-pro-analisis-opinion.jpg",
     title: "FlexiSpot E7 Pro: análisis completo y opiniones 2025",
     excerpt:
       "Todo sobre el FlexiSpot E7 Pro: especificaciones reales, experiencia de uso, puntos débiles y si justifica ser el escritorio regulable de referencia.",
@@ -61,6 +66,7 @@ export const posts: Post[] = [
   },
   {
     slug: "home-office-setup-productivo-guia",
+    image: "/images/blog/home-office-setup-productivo-guia.jpg",
     title: "Cómo montar un home office productivo: guía completa 2025",
     excerpt:
       "Guía paso a paso para montar un home office productivo desde cero: qué equipamiento necesitas, en qué orden comprarlo y cómo optimizar el espacio.",
@@ -77,6 +83,7 @@ export const posts: Post[] = [
   },
   {
     slug: "dolor-espalda-trabajar-casa-soluciones",
+    image: "/images/blog/dolor-espalda-trabajar-casa-soluciones.jpg",
     title: "Dolor de espalda trabajando desde casa: causas y soluciones reales",
     excerpt:
       "Por qué aparece el dolor de espalda al trabajar desde casa y qué cambios de equipamiento y hábitos lo eliminan realmente. Guía basada en ergonomía.",
@@ -89,6 +96,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mejor-teclado-raton-trabajo-remoto",
+    image: "/images/blog/mejor-teclado-raton-trabajo-remoto.jpg",
     title: "Mejor teclado y ratón para trabajo remoto en 2025 — Comparativa",
     excerpt:
       "Los mejores teclados y ratones para trabajar desde casa: Logitech MX Keys Advanced S, MX Master 3S y Keychron K2 Pro. Guía por uso y presupuesto.",
@@ -101,6 +109,7 @@ export const posts: Post[] = [
   },
   {
     slug: "logitech-mx-keys-analisis-opinion",
+    image: "/images/blog/logitech-mx-keys-analisis-opinion.jpg",
     title: "Logitech MX Keys: análisis completo y opiniones 2025",
     excerpt:
       "Análisis del Logitech MX Keys Advanced S: por qué es el teclado más recomendado para home office, sus limitaciones reales y si justifica los 119 €.",
@@ -113,6 +122,7 @@ export const posts: Post[] = [
   },
   {
     slug: "setup-trabajo-remoto-productividad-maxima",
+    image: "/images/blog/setup-trabajo-remoto-productividad-maxima.jpg",
     title: "Setup de trabajo remoto para máxima productividad: guía 2025",
     excerpt:
       "Cómo construir un setup de trabajo remoto productivo: teclado, ratón, monitor e iluminación. Guía por niveles de presupuesto con productos reales.",
@@ -125,6 +135,7 @@ export const posts: Post[] = [
   },
   {
     slug: "herramientas-productividad-trabajo-remoto-2025",
+    image: "/images/blog/herramientas-productividad-trabajo-remoto-2025.jpg",
     title: "Las mejores herramientas de productividad para trabajo remoto en 2025",
     excerpt:
       "Herramientas de productividad esenciales para trabajar desde casa: gestión de tareas, comunicación, foco y automatización. Guía actualizada 2025.",
@@ -137,6 +148,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mejores-auriculares-cancelacion-ruido-trabajo-2025",
+    image: "/images/blog/mejores-auriculares-cancelacion-ruido-trabajo-2025.jpg",
     title: "Mejores auriculares con cancelación de ruido para trabajar en 2025",
     excerpt:
       "Los mejores auriculares con cancelación de ruido para trabajar desde casa: Sony WH-1000XM5 y Jabra Evolve2 55. Guía por uso profesional y presupuesto.",
@@ -149,6 +161,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mejor-webcam-videollamadas-trabajo-remoto",
+    image: "/images/blog/mejor-webcam-videollamadas-trabajo-remoto.jpg",
     title: "Mejor webcam para videollamadas de trabajo remoto en 2025",
     excerpt:
       "Comparativa de las mejores webcams para trabajo remoto: Logitech C920 y Brio 4K, y cuándo añadir un micrófono externo. Guía por calidad y presupuesto.",
@@ -161,6 +174,7 @@ export const posts: Post[] = [
   },
   {
     slug: "sony-wh1000xm5-analisis-opinion",
+    image: "/images/blog/sony-wh1000xm5-analisis-opinion.jpg",
     title: "Sony WH-1000XM5: análisis completo y opiniones 2025",
     excerpt:
       "Todo sobre los Sony WH-1000XM5: la mejor cancelación de ruido del mercado, calidad de audio, comodidad y si justifican los 279 €.",
@@ -173,6 +187,7 @@ export const posts: Post[] = [
   },
   {
     slug: "iluminacion-videollamadas-home-office",
+    image: "/images/blog/iluminacion-videollamadas-home-office.jpg",
     title: "Iluminación para videollamadas: guía completa y mejores opciones 2025",
     excerpt:
       "Cómo mejorar la iluminación en videollamadas de trabajo remoto: Elgato Key Light Air vs Neewer Ring Light. Guía por calidad de imagen y presupuesto.",
@@ -185,6 +200,7 @@ export const posts: Post[] = [
   },
   {
     slug: "organizar-cables-home-office-guia",
+    image: "/images/blog/organizar-cables-home-office-guia.jpg",
     title: "Cómo organizar los cables del home office: guía práctica 2025",
     excerpt:
       "Cómo eliminar el caos de cables en tu home office: soluciones reales por presupuesto, desde velcro y canaletas hasta hubs USB-C.",
@@ -195,6 +211,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mejor-hosting-web-emprendedores-2025",
+    image: "/images/blog/mejor-hosting-web-emprendedores-2025.jpg",
     title: "Mejor hosting web para emprendedores en 2025 — Guía comparativa",
     excerpt:
       "Comparativa de los mejores servicios de hosting web para emprendedores y autónomos en España: SiteGround, Webempresa y ProfesionalHosting.",
@@ -205,6 +222,7 @@ export const posts: Post[] = [
   },
   {
     slug: "como-empezar-negocio-online-desde-casa-2025",
+    image: "/images/blog/como-empezar-negocio-online-desde-casa-2025.jpg",
     title: "Cómo empezar un negocio online desde casa en 2025: guía paso a paso",
     excerpt:
       "Guía práctica para empezar un negocio online desde casa: qué modelos funcionan, qué equipamiento necesitas y cómo evitar los errores más comunes.",
@@ -217,6 +235,7 @@ export const posts: Post[] = [
   },
   {
     slug: "trabajo-remoto-espana-guia-completa-2025",
+    image: "/images/blog/trabajo-remoto-espana-guia-completa-2025.jpg",
     title: "Trabajo remoto en España: guía completa para empleados y autónomos 2025",
     excerpt:
       "Todo sobre el trabajo remoto en España: derechos legales, equipamiento deducible, mejores herramientas y cómo negociar el teletrabajo con tu empresa.",
@@ -227,6 +246,7 @@ export const posts: Post[] = [
   },
   {
     slug: "productividad-trabajando-desde-casa-habitos",
+    image: "/images/blog/productividad-trabajando-desde-casa-habitos.jpg",
     title: "Productividad trabajando desde casa: los hábitos que realmente funcionan",
     excerpt:
       "Guía basada en evidencia sobre productividad en trabajo remoto: rutinas, gestión del tiempo, separación trabajo-vida y cómo evitar el burnout en casa.",
@@ -239,6 +259,7 @@ export const posts: Post[] = [
   },
   {
     slug: "hosting-wordpress-comparativa-espana-2025",
+    image: "/images/blog/hosting-wordpress-comparativa-espana-2025.jpg",
     title: "Hosting para WordPress en España: comparativa completa 2025",
     excerpt:
       "Comparativa de los mejores hostings para WordPress en España: SiteGround, Webempresa y ProfesionalHosting. Velocidad, soporte y precio real con renovaciones.",
@@ -249,6 +270,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mejor-monitor-home-office-2025",
+    image: "/images/blog/mejor-monitor-home-office-2025.jpg",
     title: "Mejor monitor para home office en 2025 — Comparativa completa",
     excerpt:
       "Los mejores monitores para trabajar desde casa en 2025: LG 4K, Dell USB-C y BenQ Eye-Care. Guía de compra por uso y presupuesto.",
@@ -261,6 +283,7 @@ export const posts: Post[] = [
   },
   {
     slug: "monitor-4k-vs-full-hd-trabajo-remoto",
+    image: "/images/blog/monitor-4k-vs-full-hd-trabajo-remoto.jpg",
     title: "Monitor 4K vs Full HD para trabajo remoto: cuál elegir en 2025",
     excerpt:
       "Diferencias reales entre monitor 4K y Full HD para trabajar desde casa: nitidez, espacio de trabajo, precio y cuándo vale la pena el salto a 4K.",
@@ -273,6 +296,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mejor-tablet-teletrabajo-2025",
+    image: "/images/blog/mejor-tablet-teletrabajo-2025.jpg",
     title: "Mejor tablet para trabajar desde casa 2025: iPad vs Android vs Windows",
     excerpt:
       "Comparativa de las mejores tablets para teletrabajo en 2025: iPad Air M2, Galaxy Tab S9 FE y Surface Pro 9. Guía por ecosistema, uso y presupuesto.",
@@ -289,6 +313,7 @@ export const posts: Post[] = [
   },
   {
     slug: "herramientas-ia-productividad-2025",
+    image: "/images/blog/herramientas-ia-productividad-2025.jpg",
     title: "Las mejores herramientas de IA para trabajar y emprender en 2025",
     excerpt:
       "Guía práctica de las mejores herramientas de inteligencia artificial para autónomos y equipos pequeños en 2025: escritura, reuniones, diseño, automatización y ventas.",
@@ -304,6 +329,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mejor-hub-usb-c-portatil-2025",
+    image: "/images/blog/mejor-hub-usb-c-portatil-2025.jpg",
     title: "Mejor hub USB-C para portátil 2025: guía de compra y comparativa",
     excerpt:
       "Los mejores hubs USB-C para MacBook y portátiles Windows en 2025: qué puertos necesitas, diferencias con una docking station y los 5 modelos más recomendados.",
