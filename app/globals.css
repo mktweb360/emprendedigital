@@ -1,3 +1,9 @@
+/* STAGED FIX — emprendedigital.es — app/globals.css
+   CWV improvement: globals.css had body { font-family: Arial, Helvetica, sans-serif }
+   which overrides the Geist CSS variable already loaded by next/font in layout.tsx.
+   Fix: switch body font-family to use --font-geist-sans with Arial as swap fallback.
+   Deploy: cp emprendedigital-cwv-globals.css ../emprendedigital/app/globals.css      */
+
 @import "tailwindcss";
 
 @theme inline {
@@ -5,6 +11,7 @@
   --color-primary-dark: #4338ca;
   --color-accent: #f97316;
   --color-accent-dark: #ea6c0a;
+  /* CWV: map Tailwind's font-sans to the Geist variable injected by next/font */
   --font-sans: var(--font-geist-sans);
 }
 
@@ -16,7 +23,9 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* CWV fix: use the Geist font variable injected by next/font; Arial is the
+     fallback only before the font is available (display: swap).              */
+  font-family: var(--font-geist-sans, Arial, Helvetica, sans-serif);
 }
 
 .prose h2 {

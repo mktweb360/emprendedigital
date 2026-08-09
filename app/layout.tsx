@@ -1,3 +1,12 @@
+// STAGED FIX — emprendedigital.es — app/layout.tsx
+// CWV improvements applied on top of emprendedigital-schema-layout.tsx:
+//   1. Added rel="preconnect" + dns-prefetch to AdSense domains.
+//   2. Added google-adsense-account meta tag (was missing from live layout).
+//   3. Geist next/font already present (from schema-layout.tsx) — kept as-is.
+//   4. See emprendedigital-cwv-globals.css for the body font-family fix.
+// Deploy: cp emprendedigital-cwv-layout.tsx ../emprendedigital/app/layout.tsx
+//         cp emprendedigital-cwv-globals.css ../emprendedigital/app/globals.css
+
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Geist } from "next/font/google";
@@ -75,6 +84,12 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${geistSans.variable} h-full antialiased`}>
       <head>
+        {/* CWV: Preconnect to AdSense — opens TCP early so the script loads
+            faster the moment the user gives consent in the cookie banner.     */}
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
+
         <Script
           id="consent-mode-default"
           strategy="beforeInteractive"
@@ -92,16 +107,15 @@ export default function RootLayout({
     `,
           }}
         />
-        {/* AdSense is loaded conditionally by CookieBanner after consent */}
+        {/* AdSense site verification — ad script loaded conditionally by CookieBanner */}
+        <meta name="google-adsense-account" content="ca-pub-6063067965030118" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(organizationSchema),
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
       <body className="min-h-full flex flex-col bg-white">
