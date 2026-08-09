@@ -2,16 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categories, getProductsByCategory } from "@/data/products";
-const CATEGORY_IMAGES: Record<string, string> = {
-  "sillas-ergonomicas": "/images/products/sillas-ergonomicas.jpg",
-  "escritorios": "/images/products/escritorios.jpg",
-  "monitores": "/images/products/monitores.jpg",
-  "perifericos": "/images/products/perifericos.jpg",
-  "portatiles": "/images/products/portatiles.jpg",
-  "tablets-productividad": "/images/products/tablets-productividad.jpg",
-};
-
-
 
 type Props = { params: Promise<{ categoria: string }> };
 
@@ -117,6 +107,11 @@ export default async function CategoriaPage({ params }: Props) {
   const guide = buyingGuides[categoria];
   const related = relatedArticles[categoria] ?? [];
 
+  const categoriesWithCount = categories.map((c) => ({
+    ...c,
+    count: getProductsByCategory(c.slug).length,
+  }));
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -145,83 +140,165 @@ export default async function CategoriaPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 
-      <div className="max-w-6xl mx-auto px-4 py-10">
-        <nav className="text-sm text-gray-400 mb-6">
-          <Link href="/" className="hover:text-indigo-600">Inicio</Link>{" › "}
-          <Link href="/tienda" className="hover:text-indigo-600">Tienda</Link>{" › "}
-          <span className="text-gray-600">{cat.name}</span>
+      <div className="max-w-6xl mx-auto px-4 py-8">
+        {/* Breadcrumb */}
+        <nav className="text-xs text-gray-400 mb-5 flex items-center gap-1">
+          <Link href="/" className="hover:text-indigo-600 transition-colors">Inicio</Link>
+          <span>›</span>
+          <Link href="/tienda" className="hover:text-indigo-600 transition-colors">Tienda</Link>
+          <span>›</span>
+          <span className="text-gray-600 font-medium">{cat.name}</span>
         </nav>
 
-        <div className="flex items-center gap-4 mb-8">
-          <span className="text-5xl">{cat.icon}</span>
-          <div>
-            <h1 className="text-3xl font-extrabold text-gray-900">{cat.name}</h1>
-            <p className="text-gray-500 mt-1">{cat.description}</p>
+        {/* Mobile: category pills */}
+        <div className="md:hidden mb-5 overflow-x-auto pb-2">
+          <div className="flex gap-2 min-w-max">
+            {categoriesWithCount.map((c) => (
+              <Link
+                key={c.slug}
+                href={`/tienda/${c.slug}`}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs font-medium whitespace-nowrap transition-colors ${
+                  c.slug === categoria
+                    ? "bg-indigo-600 border-indigo-600 text-white"
+                    : "border-indigo-200 bg-indigo-50 text-indigo-700 hover:bg-indigo-100"
+                }`}
+              >
+                <span>{c.icon}</span>
+                <span>{c.name}</span>
+              </Link>
+            ))}
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {catProducts.map((product) => (
-            <div
-              key={product.slug}
-              className="border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:border-indigo-200 transition-all group"
-            >
-              {(() => {
-                const imgSrc = CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/sillas-ergonomicas.jpg";
-                return (
-                  <Link href={`/tienda/${product.categorySlug}/${product.slug}`} className="block overflow-hidden bg-gray-50">
-                    <img src={imgSrc} alt={product.name} className="w-full h-44 object-cover hover:scale-105 transition-transform duration-300" loading="lazy" />
-                  </Link>
-                );
-              })()}
-              <div className="p-5">
-              {product.badge && (
-                <span className="inline-block text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full mb-3">
-                  {product.badge}
-                </span>
-              )}
-              <h2 className="font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors leading-snug text-sm">
-                {product.name}
-              </h2>
-              <p className="text-xs text-gray-500 mb-3 leading-relaxed line-clamp-2">{product.shortDescription}</p>
-              <div className="flex gap-2">
-                <Link
-                  href={`/tienda/${cat.slug}/${product.slug}`}
-                  className="flex-1 text-center text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg py-2 transition-colors"
+        <div className="flex gap-8">
+          {/* Sidebar */}
+          <aside className="hidden md:block w-56 lg:w-64 flex-shrink-0">
+            <div className="sticky top-4">
+              <div className="bg-indigo-600 text-white text-xs font-semibold uppercase tracking-wider px-4 py-2.5 rounded-t-xl">
+                Categorías
+              </div>
+              <nav className="border border-indigo-100 rounded-b-xl overflow-hidden divide-y divide-gray-100 bg-white shadow-sm">
+                {categoriesWithCount.map((c) => {
+                  const isActive = c.slug === categoria;
+                  return (
+                    <Link
+                      key={c.slug}
+                      href={`/tienda/${c.slug}`}
+                      className={`flex items-center gap-2.5 px-4 py-2.5 transition-colors group ${
+                        isActive
+                          ? "bg-indigo-50 border-l-2 border-indigo-600"
+                          : "hover:bg-indigo-50 hover:text-indigo-700"
+                      }`}
+                    >
+                      <span className="text-lg leading-none">{c.icon}</span>
+                      <span
+                        className={`flex-1 text-xs font-medium leading-snug ${
+                          isActive ? "text-indigo-700 font-semibold" : "text-gray-700 group-hover:text-indigo-700"
+                        }`}
+                      >
+                        {c.name}
+                      </span>
+                      <span
+                        className={`text-xs rounded-full px-1.5 py-0.5 tabular-nums transition-colors ${
+                          isActive
+                            ? "bg-indigo-600 text-white"
+                            : "bg-gray-100 text-gray-400 group-hover:bg-indigo-100 group-hover:text-indigo-600"
+                        }`}
+                      >
+                        {c.count}
+                      </span>
+                    </Link>
+                  );
+                })}
+              </nav>
+            </div>
+          </aside>
+
+          {/* Main content */}
+          <main className="flex-1 min-w-0">
+            {/* Compact category header */}
+            <div className="flex items-start gap-3 mb-4">
+              <span className="text-3xl leading-none mt-0.5">{cat.icon}</span>
+              <div>
+                <h1 className="text-xl font-extrabold text-gray-900 leading-tight">{cat.name}</h1>
+                <p className="text-sm text-gray-500 mt-0.5">{cat.description}</p>
+              </div>
+            </div>
+
+            {/* Product count bar */}
+            <div className="flex items-center justify-between mb-4 pb-3 border-b border-gray-100">
+              <p className="text-xs text-gray-500">
+                <span className="font-semibold text-gray-700">{catProducts.length}</span>{" "}
+                {catProducts.length === 1 ? "producto analizado" : "productos analizados"}
+              </p>
+              <span className="text-xs text-gray-400">{cat.priceRange}</span>
+            </div>
+
+            {/* Product grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 mb-8">
+              {catProducts.map((product) => (
+                <div
+                  key={product.slug}
+                  className="border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:border-indigo-200 transition-all group flex flex-col"
                 >
-                  Ver análisis y precio →
-                </Link>
-              </div>
-              </div>
+                  <div className="p-4 flex flex-col flex-1">
+                    {product.badge && (
+                      <span className="inline-block self-start text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full mb-2">
+                        {product.badge}
+                      </span>
+                    )}
+                    <h2 className="font-bold text-gray-900 mb-1.5 group-hover:text-indigo-600 transition-colors leading-snug text-sm flex-1">
+                      {product.name}
+                    </h2>
+                    <p className="text-xs text-gray-500 mb-3 leading-relaxed line-clamp-2">{product.shortDescription}</p>
+                    <div className="flex items-center justify-between mt-auto">
+                      <span className="text-base font-bold text-gray-900">{product.price}</span>
+                      <Link
+                        href={`/tienda/${cat.slug}/${product.slug}`}
+                        className="text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg px-3 py-1.5 transition-colors"
+                      >
+                        Ver análisis →
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
+
+            {/* Buying guide */}
+            {guide && (
+              <div className="bg-indigo-50 rounded-2xl p-6 border border-indigo-100 mb-6">
+                <h2 className="text-base font-bold text-gray-900 mb-3">{guide.title}</h2>
+                <div className="space-y-2.5">
+                  {guide.paragraphs.map((p, i) => (
+                    <p key={i} className="text-gray-700 text-sm leading-relaxed">{p}</p>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Related articles */}
+            {related.length > 0 && (
+              <div className="p-5 bg-white border border-gray-100 rounded-xl mb-4">
+                <h3 className="font-bold text-gray-900 mb-2.5 text-sm">Guías de compra relacionadas</h3>
+                <ul className="space-y-1.5">
+                  {related.map((art) => (
+                    <li key={art.href}>
+                      <Link href={art.href} className="text-indigo-600 hover:underline text-sm">
+                        → {art.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Affiliate footnote */}
+            <p className="text-xs text-gray-400 mt-2 pl-3 border-l-2 border-gray-200">
+              Este sitio contiene enlaces de afiliado a Amazon.es. Si compras a través de ellos recibimos una pequeña comisión, sin coste adicional para ti.
+            </p>
+          </main>
         </div>
-
-        {guide && (
-          <div className="bg-indigo-50 rounded-2xl p-8 border border-indigo-100 mb-8">
-            <h2 className="text-xl font-bold text-gray-900 mb-4">{guide.title}</h2>
-            <div className="space-y-3">
-              {guide.paragraphs.map((p, i) => (
-                <p key={i} className="text-gray-700 text-sm leading-relaxed">{p}</p>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {related.length > 0 && (
-          <div className="p-6 bg-white border border-gray-100 rounded-xl">
-            <h3 className="font-bold text-gray-900 mb-3">Guías de compra relacionadas</h3>
-            <ul className="space-y-2">
-              {related.map((art) => (
-                <li key={art.href}>
-                  <Link href={art.href} className="text-indigo-600 hover:underline text-sm">
-                    → {art.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
       </div>
     </>
   );
