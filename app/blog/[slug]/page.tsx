@@ -1197,6 +1197,7 @@ export default async function BlogPostPage({ params }: Props) {
       name: "EmprendeDigital.es",
       logo: { "@type": "ImageObject", url: "https://www.emprendedigital.es/logo.png", width: 200, height: 200 },
     },
+    image: { "@type": "ImageObject", url: `https://www.emprendedigital.es/blog/${post.slug}/opengraph-image`, width: 1200, height: 630 },
   };
 
   // NOTA: desde 2023 Google restringe los rich results de FAQPage a webs
@@ -1213,10 +1214,21 @@ export default async function BlogPostPage({ params }: Props) {
     })),
   } : null;
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.emprendedigital.es" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.emprendedigital.es/blog" },
+      { "@type": "ListItem", position: 3, name: post.title, item: `https://www.emprendedigital.es/blog/${post.slug}` },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <section className="bg-gradient-to-br from-indigo-700 to-indigo-900 text-white py-14 px-4">
         <div className="max-w-3xl mx-auto">
