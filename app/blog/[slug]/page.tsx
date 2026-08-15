@@ -37,6 +37,7 @@ const articleContent: Record<string, {
   sections: ArticleSection[];
   comparison?: { headers: string[]; rows: string[][] };
   conclusion: string;
+  sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
   "mejor-silla-ergonomica-home-office-2025": {
@@ -430,6 +431,10 @@ const articleContent: Record<string, {
         ["Completo", "MX Keys + MX Master 3S + iluminación", "1.000 €+", "Trabajo remoto intensivo"],
       ],
     },
+    sources: [
+      { label: "INSST — Teletrabajo: criterios preventivos y buenas prácticas", url: "https://www.insst.es/documents/94886/96076/Teletrabajo+criterios+preventivos/d2aba06e-1b76-4b5d-b22a-5a1de05e2aa8" },
+      { label: "INE — Estadística de teletrabajo en España", url: "https://www.ine.es/ss/Satellite?L=es_ES&c=INEPublicacion_C&cid=1259951527343&p=1254735110672&pagename=ProductosYServicios%2FPYSLayout" },
+    ],
     conclusion: "No hay un setup universal, hay uno correcto para cada uso y presupuesto. El punto de equilibrio para la mayoría está en el nivel 2: una silla ergonómica, un buen monitor y uno de los dos periféricos premium de Logitech. El segundo periférico y la iluminación son la mejora siguiente, cuando el resto ya está resuelto y quieres pulir las últimas fricciones.",
     faqs: [
       { q: "¿Necesito dos monitores para ser productivo?", a: "Depende del trabajo. Para programar o analizar datos, dos monitores ayudan a tener varias fuentes a la vista. Para escritura, reuniones y trabajo enfocado, un monitor grande de calidad es suficiente e incluso mejor, porque distrae menos. No es una regla universal: depende de cuántas ventanas necesites ver a la vez." },
@@ -1342,6 +1347,12 @@ export default async function BlogPostPage({ params }: Props) {
               <h2 className="text-lg font-extrabold text-gray-900 mb-3">Conclusión</h2>
               <p className="text-gray-700 leading-relaxed">{content.conclusion}</p>
             </section>
+            {content.sources && content.sources.length > 0 && (
+              <div className="mt-2 mb-6 pt-3 border-t border-gray-100">
+                <p className="text-xs text-gray-400 font-medium mb-1">Referencias</p>
+                <ul className="space-y-0.5">{content.sources.map((src, i) => (<li key={i}><a href={src.url} target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">{src.label}</a></li>))}</ul>
+              </div>
+            )}
 
             {showHostingBanner && <HostingBanner />}
           </article>
