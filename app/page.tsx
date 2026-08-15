@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getFeaturedProducts } from "@/data/products";
+import HeroBackground from "@/components/HeroBackground";
 
 export const metadata: Metadata = {
   title: "Emprende Digital — Herramientas y equipamiento para emprendedores digitales",
@@ -136,8 +137,9 @@ export default function HomePage() {
       />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-indigo-600 to-indigo-800 text-white py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="relative overflow-hidden text-white py-24 px-4" style={{minHeight: "520px"}}>
+        <HeroBackground overlay="from-indigo-900/90 via-blue-800/80 to-indigo-900/85" />
+        <div className="relative z-10 max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
             Emprende Digital — Herramientas y equipamiento para emprendedores digitales
           </h1>

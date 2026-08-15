@@ -112,3 +112,13 @@ body {
 .btn-primary:hover {
   background-color: #ea6c0a;
 }
+
+/* Hero parallax animation */
+@keyframes heroPan {
+  0%   { transform: scale(1.15) translate(0%, 0%); }
+  100% { transform: scale(1.06) translate(-2%, 1.5%); }
+}
+.hero-bg-image {
+  animation: heroPan 22s ease-in-out infinite alternate-reverse;
+  will-change: transform;
+}
