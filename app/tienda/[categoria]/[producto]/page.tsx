@@ -135,7 +135,7 @@ export default async function ProductoPage({ params }: Props) {
 
         <div className="rounded-2xl overflow-hidden bg-gray-100 mb-6">
           <img
-            src={`/images/products/${product.categorySlug}.jpg`}
+            src={product.image ?? `/images/products/${product.categorySlug}.jpg`}
             alt={product.name}
             className="w-full h-64 object-cover"
             loading="eager"

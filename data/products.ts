@@ -15,6 +15,7 @@ export type Product = {
   cons: string[];
   specs: Record<string, string>;
   badge?: string;
+  image?: string;
   relatedPosts?: string[];
 };
 
