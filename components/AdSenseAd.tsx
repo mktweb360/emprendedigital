@@ -12,10 +12,12 @@ export default function AdSenseAd({
   slot,
   format = "auto",
   responsive = true,
+  className = "",
 }: {
   slot: string;
   format?: string;
   responsive?: boolean;
+  className?: string;
 }) {
   useEffect(() => {
     try {
@@ -26,7 +28,7 @@ export default function AdSenseAd({
   }, []);
 
   return (
-    <div className="my-6 flex justify-center">
+    <div className={`my-6 flex justify-center ${className}`}>
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
