@@ -241,6 +241,14 @@ export default async function CategoriaPage({ params }: Props) {
                   key={product.slug}
                   className="border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:border-indigo-200 transition-all group flex flex-col"
                 >
+                  <div className="h-36 w-full overflow-hidden bg-gray-50">
+                    <img
+                      src={product.image ?? `/images/products/${product.categorySlug}.jpg`}
+                      alt={product.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  </div>
                   <div className="p-4 flex flex-col flex-1">
                     {product.badge && (
                       <span className="inline-block self-start text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full mb-2">

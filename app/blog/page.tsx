@@ -148,26 +148,26 @@ export default function BlogPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <div className="max-w-5xl mx-auto px-4 py-12">
+      <div className="max-w-6xl mx-auto px-4 py-12">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-3">Blog</h1>
         <p className="text-lg text-gray-500 mb-10">
-          Guías de compra y análisis actualizados para emprendedores digitales en 2025
+          Guías de compra y análisis actualizados para emprendedores digitales
         </p>
-        <div className="grid grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {allArticles.map((art) => (
             <Link
               key={art.href}
               href={art.href}
-              className="border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:border-indigo-200 transition-all group"
+              className="border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:border-indigo-200 transition-all group flex flex-col"
             >
               {art.image ? (
-                <div className="h-48 overflow-hidden bg-gray-100">
+                <div className="h-40 overflow-hidden bg-gray-100">
                   <img src={art.image} alt={art.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                 </div>
               ) : (
-                <div className="px-6 pt-6 text-5xl">{art.icon}</div>
+                <div className="h-40 flex items-center justify-center bg-gray-50 text-5xl">{art.icon}</div>
               )}
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-1">
                 <div className="flex flex-wrap gap-2 mb-2">
                   <span className="text-xs font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">
                     {art.category}

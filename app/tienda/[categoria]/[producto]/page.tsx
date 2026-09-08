@@ -156,7 +156,7 @@ export default async function ProductoPage({ params }: Props) {
               rel="noopener noreferrer sponsored"
               className="btn-primary"
             >
-              🛒 Comprar en Amazon →
+              🛒 Ver oferta actualizada →
             </a>
             <p className="text-xs text-gray-400 text-center mt-1">Se abrirá Amazon.es · Enlace de afiliado</p>
           </div>
@@ -226,7 +226,7 @@ export default async function ProductoPage({ params }: Props) {
               rel="noopener noreferrer sponsored"
               className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors"
             >
-              🛒 Comprar en Amazon →
+              🛒 Ver oferta actualizada →
             </a>
             <p className="text-xs text-indigo-200 mt-1">Se abrirá Amazon.es · Enlace de afiliado</p>
           </div>

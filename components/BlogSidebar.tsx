@@ -18,7 +18,7 @@ export default function BlogSidebar({ ctaHref, ctaText }: {
           <p className="text-xs text-gray-400 uppercase tracking-wide text-center mb-3">Publicidad</p>
           <AdSenseAd
             slot="4567890123"
-            format="vertical"
+            format="rectangle"
             responsive={false}
             className="min-h-[250px]"
           />

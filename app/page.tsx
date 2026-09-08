@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getFeaturedProducts } from "@/data/products";
+import { categories, getFeaturedProducts, getProductsByCategory } from "@/data/products";
 import HeroBackground from "@/components/HeroBackground";
+import EmailCaptureSection from "@/components/EmailCaptureSection";
+import OffersSlider, { type OfferSlide } from "@/components/OffersSlider";
 
 export const metadata: Metadata = {
   title: "Emprende Digital — Herramientas y equipamiento para emprendedores digitales",
@@ -16,69 +18,31 @@ export const metadata: Metadata = {
   },
 };
 
-const categories = [
+// Ofertas destacadas del slider — productos reales del catálogo con imagen y badge verificados
+const offerSlides: OfferSlide[] = [
   {
-    href: "/mejores-portatiles-trabajo-remoto",
-    icon: "💻",
-    title: "Portátiles para trabajo remoto",
-    desc: "Los mejores portátiles para teletrabajar con rendimiento y autonomía",
-    price: "Desde 400€",
+    image: "/images/products/apple-macbook-air-m3-13.jpg",
+    badge: "Mejor overall",
+    title: "Apple MacBook Air M3 13\"",
+    subtitle: "8GB / 256GB — rendimiento y autonomía para teletrabajo",
+    price: "€1.299,00",
+    href: "/tienda/portatiles/apple-macbook-air-m3-13",
   },
   {
-    href: "/mejores-microfonos-podcast-streaming",
-    icon: "🎙️",
-    title: "Micrófonos para podcast",
-    desc: "Calidad de estudio en casa para podcast, streaming y videollamadas",
-    price: "Desde 30€",
+    image: "/images/products/logitech-mx-master-3s.jpg",
+    badge: "El mejor ratón",
+    title: "Logitech MX Master 3S",
+    subtitle: "Ratón inalámbrico de precisión para productividad diaria",
+    price: "€99,99",
+    href: "/tienda/perifericos/logitech-mx-master-3s",
   },
   {
-    href: "/mejores-auriculares-teletrabajo",
-    icon: "🎧",
-    title: "Auriculares para trabajar",
-    desc: "Con y sin cancelación de ruido para concentrarte y comunicarte mejor",
-    price: "Desde 20€",
-  },
-  {
-    href: "/mejores-webcams-videollamadas",
-    icon: "📷",
-    title: "Webcams para videollamadas",
-    desc: "Imagen profesional en todas tus reuniones de trabajo y streaming",
-    price: "Desde 25€",
-  },
-  {
-    href: "/iluminacion-streaming-youtube",
-    icon: "💡",
-    title: "Iluminación para streaming",
-    desc: "Ring lights y paneles LED para una imagen impecable en cámara",
-    price: "Desde 15€",
-  },
-  {
-    href: "/mejores-sillas-ergonomicas-teletrabajo",
-    icon: "🪑",
-    title: "Sillas ergonómicas",
-    desc: "Cuida tu espalda con las mejores sillas ergonómicas para tu oficina",
-    price: "Desde 100€",
-  },
-  {
-    href: "/mejores-teclados-trabajo-remoto",
-    icon: "⌨️",
-    title: "Teclados para trabajar",
-    desc: "Mecánicos o de membrana premium, inalámbricos y multidispositivo",
-    price: "Desde 20€",
-  },
-  {
-    href: "/mejores-escritorios-ajustables-altura",
-    icon: "🖥️",
-    title: "Escritorios ajustables",
-    desc: "Alterna entre sentado y de pie para trabajar más saludable",
-    price: "Desde 80€",
-  },
-  {
-    href: "/tienda/monitores",
-    icon: "🖥️",
-    title: "Monitores",
-    desc: "Monitores 4K y Full HD para home office",
-    price: "Desde 180€",
+    image: "/images/products/blue-yeti-usb-microfono.jpg",
+    badge: "Referencia del sector",
+    title: "Blue Yeti USB",
+    subtitle: "Micrófono de condensador para podcast y streaming",
+    price: "€129,99",
+    href: "/tienda/microfonos/blue-yeti-usb-microfono",
   },
 ];
 
@@ -128,6 +92,10 @@ const breadcrumbSchema = {
 
 export default function HomePage() {
   const featuredProducts = getFeaturedProducts(4);
+  const categoriesWithCount = categories.map((cat) => ({
+    ...cat,
+    count: getProductsByCategory(cat.slug).length,
+  }));
 
   return (
     <>
@@ -138,12 +106,12 @@ export default function HomePage() {
 
       {/* Hero */}
       <section className="relative overflow-hidden text-white py-24 px-4" style={{minHeight: "520px"}}>
-        <HeroBackground overlay="from-indigo-900/90 via-blue-800/80 to-indigo-900/85" />
+        <HeroBackground overlay="from-indigo-900/50 via-blue-800/35 to-indigo-900/45" />
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight [text-shadow:0_2px_12px_rgba(0,0,0,0.55)]">
             Emprende Digital — Herramientas y equipamiento para emprendedores digitales
           </h1>
-          <p className="text-xl md:text-2xl text-indigo-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-indigo-100 mb-8 max-w-2xl mx-auto [text-shadow:0_2px_10px_rgba(0,0,0,0.55)]">
             Comparativas honestas y guías de compra para montar tu oficina en casa y crear contenido de calidad.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -163,32 +131,48 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Categories */}
+      {/* Categorías + Ofertas destacadas */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-4">
-            Categorías destacadas
+            Categorías y ofertas destacadas
           </h2>
           <p className="text-center text-gray-500 mb-10">
-            Elige tu categoría y encuentra el producto perfecto para tu setup
+            Elige tu categoría o descubre los productos mejor valorados del momento
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {categories.map((cat) => (
-              <Link
-                key={cat.href}
-                href={cat.href}
-                className="bg-white rounded-xl border border-gray-100 p-6 hover:shadow-lg hover:border-indigo-200 transition-all group"
-              >
-                <div className="text-4xl mb-3">{cat.icon}</div>
-                <h3 className="font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors">
-                  {cat.title}
-                </h3>
-                <p className="text-sm text-gray-500 mb-3">{cat.desc}</p>
-                <span className="text-xs font-semibold text-indigo-600 bg-indigo-50 px-2 py-1 rounded-full">
-                  Ver productos →
-                </span>
-              </Link>
-            ))}
+          <div className="flex flex-col md:flex-row gap-6 items-stretch">
+            {/* Menú vertical de categorías — 25% */}
+            <aside className="w-full md:w-1/4 flex-shrink-0">
+              <div className="bg-white rounded-xl border border-gray-100 overflow-hidden shadow-sm h-full">
+                <div className="bg-indigo-600 px-4 py-3">
+                  <span className="text-white font-semibold text-sm uppercase tracking-wide">
+                    Categorías
+                  </span>
+                </div>
+                <nav className="divide-y divide-gray-50">
+                  {categoriesWithCount.map((cat) => (
+                    <Link
+                      key={cat.slug}
+                      href={`/tienda/${cat.slug}`}
+                      className="flex items-center gap-3 px-4 py-3 hover:bg-indigo-50 hover:text-indigo-700 transition-colors group"
+                    >
+                      <span className="text-xl leading-none">{cat.icon}</span>
+                      <span className="flex-1 text-sm font-medium text-gray-700 group-hover:text-indigo-700 leading-tight">
+                        {cat.name}
+                      </span>
+                      <span className="text-xs text-gray-400 bg-gray-100 rounded-full px-1.5 py-0.5 group-hover:bg-indigo-100 group-hover:text-indigo-600 transition-colors">
+                        {cat.count}
+                      </span>
+                    </Link>
+                  ))}
+                </nav>
+              </div>
+            </aside>
+
+            {/* Slider de ofertas destacadas — 75% */}
+            <div className="w-full md:w-3/4">
+              <OffersSlider slides={offerSlides} intervalMs={4000} />
+            </div>
           </div>
         </div>
       </section>
@@ -280,6 +264,10 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
+      
+      {/* LEAD MAGNET — Captura de email */}
+      <EmailCaptureSection />
+
     </>
   );
 }

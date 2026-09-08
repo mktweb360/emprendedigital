@@ -10,7 +10,7 @@ declare global {
 
 export default function AdSenseAd({
   slot,
-  format = "auto",
+  format = "horizontal",
   responsive = true,
   className = "",
 }: {
@@ -28,7 +28,7 @@ export default function AdSenseAd({
   }, []);
 
   return (
-    <div className={`my-6 flex justify-center ${className}`}>
+    <div className={`my-6 flex justify-center max-h-[280px] overflow-hidden ${className}`}>
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}

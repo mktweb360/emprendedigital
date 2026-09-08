@@ -343,6 +343,44 @@ export const posts: Post[] = [
       "setup-trabajo-remoto-productividad-maxima",
     ],
   },
+  {
+    slug: "montar-estudio-podcast-streaming-casa-guia-2025",
+    image: "/images/blog/montar-estudio-podcast-streaming-casa-guia-2025.jpg",
+    title: "Cómo montar un mini estudio de podcast y streaming en casa: guía 2025",
+    excerpt:
+      "Guía práctica para montar un estudio casero de podcast y streaming: micrófono, iluminación y webcam por niveles de presupuesto, con criterios reales de calidad de audio y vídeo.",
+    date: "2026-08-23",
+    category: "Home Office",
+    readTime: "9 min",
+    relatedProducts: [
+      "shure-mv7-microfono-usb-xlr",
+      "elgato-key-light-mini-portatil",
+      "neewer-660-led-panel-bicolor",
+    ],
+    relatedPosts: [
+      "mejor-webcam-videollamadas-trabajo-remoto",
+      "iluminacion-videollamadas-home-office",
+      "mejores-auriculares-cancelacion-ruido-trabajo-2025",
+      "herramientas-productividad-trabajo-remoto-2025",
+    ],
+    categoryCta: { href: "/tienda/microfonos", text: "Ver micrófonos para podcast →" },
+  },
+  {
+    slug: "mejor-software-facturacion-autonomos-2026",
+    image: "/images/blog/mejor-software-facturacion-autonomos-2026.jpg",
+    title: "Mejor software de facturación para autónomos en 2026: guía comparativa y VeriFactu",
+    excerpt:
+      "Comparativa de software de facturación para autónomos en España en 2026: Holded, Quipu y Billin frente a los criterios que de verdad importan, con lo que hay que saber sobre la obligación VeriFactu.",
+    date: "2026-09-03",
+    category: "Emprender Online",
+    readTime: "9 min",
+    relatedPosts: [
+      "mejor-hosting-web-emprendedores-2025",
+      "como-empezar-negocio-online-desde-casa-2025",
+      "hosting-wordpress-comparativa-espana-2025",
+      "trabajo-remoto-espana-guia-completa-2025",
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Fragment } from "react";
 import { categories, getFeaturedProducts, getProductsByCategory } from "@/data/products";
+import AdSenseAd from "@/components/AdSenseAd";
 
 export const metadata: Metadata = {
   title: "Tienda — Herramientas y equipamiento para emprendedores digitales",
@@ -100,12 +102,27 @@ export default function TiendaPage() {
             <div className="mb-2">
               <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">Productos destacados</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
-                {featured.map((product) => (
+                {featured.map((product, i) => (
+                  <Fragment key={product.slug}>
+                  {i === 3 && (
+                    <div className="rounded-xl border border-gray-100 bg-gray-50 flex flex-col items-center justify-center p-3">
+                      <p className="text-[10px] text-gray-400 uppercase tracking-wide mb-2">Publicidad</p>
+                      <AdSenseAd slot="1357924680" format="rectangle" responsive={false} className="min-h-[250px]" />
+                    </div>
+                  )}
                   <Link
-                    key={product.slug}
                     href={`/tienda/${product.categorySlug}/${product.slug}`}
-                    className="border border-gray-100 rounded-xl p-4 hover:shadow-md hover:border-indigo-200 transition-all group flex flex-col"
+                    className="border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:border-indigo-200 transition-all group flex flex-col"
                   >
+                    <div className="h-36 w-full overflow-hidden bg-gray-50">
+                      <img
+                        src={product.image ?? `/images/products/${product.categorySlug}.jpg`}
+                        alt={product.name}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div className="p-4 flex flex-col flex-1">
                     <div className="flex justify-between items-start mb-2">
                       <span className="text-xs font-medium text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">
                         {product.categoryName}
@@ -126,7 +143,9 @@ export default function TiendaPage() {
                         Ver análisis →
                       </span>
                     </div>
+                    </div>
                   </Link>
+                  </Fragment>
                 ))}
               </div>
             </div>

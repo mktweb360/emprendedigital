@@ -1179,6 +1179,124 @@ const articleContent: Record<string, {
     },
   ],
 },
+  "montar-estudio-podcast-streaming-casa-guia-2025": {
+  intro:
+    "Cada vez más autónomos y pequeñas empresas graban podcasts, cursos online o contenido para LinkedIn y YouTube como parte de su estrategia de captación. El problema no suele ser el contenido, sino la ejecución técnica: un audio con eco o ruido de fondo, o una imagen mal iluminada, transmiten poca profesionalidad aunque el mensaje sea bueno. Montar un mini estudio casero decente no exige una sala insonorizada ni un presupuesto de miles de euros — exige acertar en tres decisiones concretas: micrófono, iluminación y cámara, en ese orden de prioridad. Esta guía explica qué comprar según tu nivel de exigencia y por qué el orden importa.",
+  sections: [
+    {
+      heading: "Antes de comprar nada: el espacio importa más que el equipo",
+      body: "El error más habitual es invertir en un micrófono caro y grabar en una habitación con paredes lisas y suelo duro, donde el sonido rebota y genera un eco perceptible incluso con un buen micrófono. Antes de gastar en equipo, revisa el espacio: una habitación con estanterías llenas de libros, cortinas gruesas, alfombra y algún mueble tapizado absorbe reflejos de forma notable y gratuita. Grabar dentro de un armario ropero (literalmente, con la ropa como aislante) es un truco real usado por profesionales cuando no hay presupuesto para paneles acústicos. Si después de optimizar el espacio el eco sigue siendo un problema, unos paneles acústicos autoadhesivos de espuma cuestan poco y resuelven la mayoría de casos domésticos antes de plantearse una reforma.",
+    },
+    {
+      heading: "Micrófono: por qué el dinámico gana la partida en una habitación no tratada",
+      body: "La diferencia entre un micrófono de condensador (como el Blue Yeti o el Rode NT-USB Mini) y uno dinámico como el Shure MV7 no es solo de precio: es de comportamiento acústico. Un condensador es más sensible y capta con más detalle, pero también capta más ruido de fondo y reverberación de la sala — por eso suena mejor en un estudio tratado acústicamente. Un dinámico como el MV7 es menos sensible por diseño, lo que en la práctica significa que rechaza mejor el ruido ambiente y el eco de una habitación normal siempre que se hable relativamente cerca del micrófono (10-15 cm). Para quien graba en un dormitorio o despacho sin tratamiento acústico, un dinámico bien configurado suena más profesional que un condensador de gama alta mal utilizado en el mismo espacio, y el MV7 añade la ventaja de poder pasar a XLR el día que se conecte a una mesa de mezclas.",
+      productSlug: "shure-mv7-microfono-usb-xlr",
+    },
+    {
+      heading: "Iluminación: fija de estudio o portátil, según cómo grabes",
+      body: "La regla básica de iluminación para vídeo es tener al menos una fuente de luz frontal-lateral suave, nunca la luz cenital del techo (genera sombras bajo los ojos) ni el contraluz de una ventana a la espalda (oscurece la cara). A partir de ahí, la elección depende del uso: quien graba siempre en el mismo sitio —una videollamada de venta, un curso grabado en el mismo rincón del despacho— se beneficia de un panel de mayor potencia y control fino de color, como el Neewer 660, con soporte de luz dedicado. Quien graba en distintos sitios de la casa o se lleva el portátil a una cafetería para una reunión importante necesita algo que se monte y desmonte en segundos y no dependa de un enchufe cercano: ahí es donde un panel portátil con batería como el Elgato Key Light Mini tiene sentido, aunque su potencia sea menor.",
+      productSlug: "neewer-660-led-panel-bicolor",
+    },
+    {
+      heading: "Webcam: cuándo el móvil no es suficiente",
+      body: "Para una videollamada puntual, el móvil apoyado en un soporte suele bastar. Para grabar contenido con regularidad —un podcast en vídeo, clases grabadas, entrevistas— el móvil deja de ser práctico: se calienta, ocupa el teléfono durante horas y su ángulo de cámara ancho distorsiona la cara en planos cercanos. Una webcam dedicada como la Logitech Brio 4K, ya analizada en la guía de mejores webcams del blog, resuelve esto con un campo visual ajustable y mejor comportamiento en contraluz. Si el presupuesto es ajustado, la Logitech C920 sigue siendo una opción sobresaliente en 1080p. La cámara es la última prioridad de las tres precisamente porque su impacto percibido es menor que el de un mal audio: un vídeo con imagen mediocre pero audio limpio se sigue viendo; un vídeo con imagen perfecta y audio con eco se abandona a los pocos segundos.",
+    },
+    {
+      heading: "El estudio por niveles de presupuesto",
+      body: "Nivel básico (equipo que ya tienes + inversión mínima): micrófono USB de entrada como el HyperX SoloCast, luz natural de una ventana lateral bien aprovechada y la webcam del portátil. Válido para empezar a grabar sin freno. Nivel intermedio: un micrófono condensador algo mejor (Rode NT-USB Mini), un panel de luz único —Elgato Key Light Mini si necesitas portabilidad, Neewer 660 si grabas siempre en el mismo sitio— y una webcam dedicada como la Logitech C920. Es el punto donde la mayoría de creadores de contenido serios deberían estar. Nivel profesional: Shure MV7 en modo USB con posibilidad de pasar a XLR más adelante, panel Neewer 660 como luz principal más un segundo punto de luz de relleno, y una webcam 4K como la Brio. La diferencia de calidad percibida entre nivel básico e intermedio es enorme; entre intermedio y profesional es más sutil y solo se justifica si el contenido es ya una fuente de ingresos.",
+    },
+  ],
+  comparison: {
+    headers: ["Criterio", "Elgato Key Light Mini", "Neewer 660 LED Panel"],
+    rows: [
+      ["Alimentación", "Batería recargable (portátil)", "Cable — sin batería"],
+      ["Potencia", "800 lúmenes", "660 LEDs, mayor superficie de luz"],
+      ["Control", "App + Stream Deck", "Pantalla LCD manual"],
+      ["Portabilidad", "Alta — se monta en segundos", "Media — requiere soporte de luz aparte"],
+      ["Mejor para", "Grabar en distintos sitios", "Punto fijo de grabación en casa"],
+    ],
+  },
+  conclusion:
+    "Un estudio casero decente no depende de un solo producto caro, sino de resolver bien las tres capas en orden: primero el espacio y el audio, después la luz, y en último lugar la cámara. Si solo puedes hacer una inversión ahora, que sea en el micrófono — es la que más se nota y la que menos se puede corregir después en edición. Nuestra recomendación editorial: para quien empieza a monetizar contenido en serio, el Shure MV7 más un panel de luz único (Key Light Mini si te mueves, Neewer 660 si grabas siempre en el mismo sitio) cubre la gran mayoría de necesidades de un creador o autónomo durante años, sin necesitar una sala insonorizada ni una inversión de estudio profesional.",
+  faqs: [
+    {
+      q: "¿Necesito un micrófono XLR o basta con USB?",
+      a: "Para empezar, USB es suficiente y más sencillo: se conecta directamente al ordenador sin interfaz de audio adicional. La ventaja de un micrófono como el Shure MV7, que ofrece ambas salidas, es que puedes empezar en USB y pasar a XLR el día que añadas una mesa de mezclas o grabes con varias personas a la vez, sin tener que comprar otro micrófono.",
+    },
+    {
+      q: "¿Cuánto cuesta montar un estudio casero decente?",
+      a: "Un nivel intermedio funcional —micrófono condensador de gama media, un panel de luz y una webcam dedicada— es una inversión moderada y accesible para un autónomo que ya facture con su contenido. El salto de mayor impacto percibido es del nivel básico (equipo que ya tienes) al intermedio; el salto al nivel profesional es más caro y con una mejora de calidad más sutil, solo justificable cuando el contenido genera ingresos recurrentes.",
+    },
+    {
+      q: "¿Cómo insonorizar una habitación sin hacer obra?",
+      a: "Con elementos textiles y de superficie: estanterías con libros, cortinas gruesas, alfombra, algún mueble tapizado y, si el eco persiste, paneles acústicos autoadhesivos de espuma en las paredes desnudas más cercanas al micrófono. No es insonorización real (no bloquea el ruido que entra de fuera) pero sí trata la reverberación interior, que es lo que más afecta a la calidad percibida de una grabación casera.",
+    },
+    {
+      q: "¿Puedo usar el móvil en vez de webcam?",
+      a: "Para videollamadas puntuales sí, y de hecho la cámara de un móvil de gama media-alta suele superar en calidad de sensor a muchas webcams. El problema es práctico: necesitas un soporte estable, el teléfono queda ocupado durante toda la grabación y se calienta con el uso prolongado. Para contenido regular, una webcam dedicada libera el móvil y simplifica la configuración cada vez que grabas.",
+    },
+  ],
+},
+  "mejor-software-facturacion-autonomos-2026": {
+    intro:
+      "Casi cualquier autónomo que empieza a facturar acaba haciéndolo primero en una plantilla de Excel o Word, y el cambio a un software dedicado suele llegar tarde: cuando ya ha habido un error en el IVA, una factura duplicada o una tarde perdida cuadrando cifras antes de la declaración trimestral. Elegir bien no es una cuestión de qué herramienta tiene más funciones, sino de cuál encaja con tu volumen real de facturación y con la obligación normativa que ya está en marcha: VeriFactu. Esta guía compara tres opciones representativas del mercado español y explica qué debe cumplir cualquier programa que elijas a partir de ahora.",
+    sections: [
+      {
+        heading: "Qué es VeriFactu y por qué condiciona la elección del software",
+        body: "VeriFactu es el sistema derivado de la Ley Antifraude que obliga a los programas de facturación a garantizar que los registros no puedan alterarse, borrarse ni manipularse una vez creados: cada factura genera un registro encadenado con las anteriores, con huella digital, de forma que cualquier modificación posterior queda rastreada. No es un impuesto nuevo ni un trámite adicional para el autónomo — es un requisito técnico que el software debe cumplir. El calendario se ha movido ya una vez: la obligación para empresas entró en vigor el 1 de enero de 2026, y la de autónomos, inicialmente prevista para julio de 2026, se ha aplazado a julio de 2027 según la información disponible a fecha de esta guía. Dicho esto, elegir ya un programa compatible con VeriFactu evita una migración forzada más adelante y es, a estas alturas, un criterio de compra tan importante como el precio.",
+      },
+      {
+        heading: "Holded: la opción más completa para quien factura con volumen",
+        body: "Holded se ha posicionado como un ERP ligero más que como un simple facturador: además de emitir facturas, gestiona presupuestos, gastos, proyectos, inventario y contabilidad conectada con el asesor. Es la opción más adecuada cuando el negocio ya no es solo el autónomo facturando servicios, sino que hay algo de inventario, varios flujos de ingresos o la previsión de contratar en los próximos meses. La curva de aprendizaje es mayor que la de un facturador simple, y ese es precisamente el motivo por el que no conviene para quien solo necesita emitir cuatro o cinco facturas al mes.",
+      },
+      {
+        heading: "Quipu: el equilibrio para el autónomo que también lleva su contabilidad",
+        body: "Quipu está pensado específicamente para autónomos y pequeñas empresas que quieren automatizar no solo la factura sino también el trimestre fiscal: categoriza gastos automáticamente, calcula las retenciones y estimaciones de IVA e IRPF, y genera los modelos que después el gestor presenta (o que el propio autónomo presenta si lleva su contabilidad sin asesor). Su punto fuerte es la conexión bancaria para importar movimientos y conciliar gastos sin introducirlos a mano. Para quien todavía no tiene gestor y quiere ganar visibilidad fiscal sin comprar un ERP completo, es el punto intermedio más razonable del mercado.",
+      },
+      {
+        heading: "Billin: la opción más sencilla para quien solo necesita facturar",
+        body: "Billin resuelve el caso de uso más básico y común: emitir facturas con buena presencia, series numeradas correctamente, aplicar retenciones e IVA sin errores, y poco más. No sustituye a un gestor ni pretende llevar la contabilidad completa, pero para un autónomo que solo necesita facturar de forma correcta y legal —freelancers, consultores, creadores de contenido que facturan a pocas marcas al mes— es la opción con menor fricción y menor coste. La contrapartida es que, si el negocio crece, es probable que en algún momento haga falta migrar a una herramienta con más funciones como Quipu u Holded.",
+      },
+      {
+        heading: "Cómo elegir según tu situación real",
+        body: "El criterio no debería ser cuál programa \"suena mejor\", sino tres preguntas concretas: ¿cuántas facturas emites al mes? Por debajo de diez, un facturador simple tipo Billin es suficiente. ¿Llevas tú mismo la contabilidad o tienes gestor? Si llevas tú la parte fiscal, una herramienta con cálculo automático de modelos como Quipu ahorra errores reales. ¿Tu negocio incluye algo más que servicios facturados uno a uno —inventario, proyectos, varios flujos de ingresos—? Ahí Holded empieza a justificar su curva de aprendizaje. Y en cualquiera de los tres casos, confirma directamente en la web del proveedor que el plan que vas a contratar ya es compatible con VeriFactu antes de dar de alta tu primera factura, porque las condiciones y calendarios de adaptación cambian con cierta frecuencia.",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "Billin", "Quipu", "Holded"],
+      rows: [
+        ["Perfil de usuario", "Autónomo con pocas facturas/mes", "Autónomo que lleva su fiscalidad", "Negocio con inventario o proyectos"],
+        ["Cálculo automático de IVA/IRPF", "Básico", "Sí, con modelos trimestrales", "Sí, integrado en contabilidad"],
+        ["Conexión bancaria", "Limitada", "Sí, conciliación automática", "Sí"],
+        ["Gestión de proyectos/inventario", "No", "No", "Sí"],
+        ["Curva de aprendizaje", "Baja", "Media", "Media-alta"],
+      ],
+    },
+    conclusion:
+      "No existe un \"mejor\" software de facturación en abstracto — existe el que encaja con tu volumen y con cuánta parte de la fiscalidad llevas tú mismo. Nuestra valoración editorial: para empezar sin gestor y con pocas facturas, Billin minimiza la fricción; en cuanto la fiscalidad se complica o quieres dejar de depender solo del gestor para entender tus números, Quipu es la inversión que más se nota en tranquilidad; y Holded solo se justifica cuando el negocio ya no es un autónomo facturando horas, sino algo con inventario o varios proyectos en marcha. Sea cual sea tu elección, verifica la compatibilidad VeriFactu del plan concreto que vas a contratar antes de darte de alta, porque el calendario de esta obligación ya se ha movido una vez y conviene no depender de un programa que se quede corto cuando llegue la fecha definitiva.",
+    sources: [
+      { label: "VeriFactu: obligaciones y calendario 2026-2027 (autónomos y empresas)", url: "https://www.autonomosyemprendedor.es/articulo/autonomos/nuevos-plazos-verifactu-2027-que-autonomos-van-tener-que-cambiar-programas-facturacion/20251230143941047321.html" },
+      { label: "Agencia Tributaria — Sistemas informáticos de facturación (Ley Antifraude)", url: "https://www.agenciatributaria.es" },
+    ],
+    faqs: [
+      {
+        q: "¿Es obligatorio VeriFactu para autónomos en 2026?",
+        a: "Según la información disponible a fecha de esta guía, la obligación para empresas rige desde el 1 de enero de 2026, y la de autónomos se ha aplazado de julio de 2026 a julio de 2027. El calendario ya se ha movido una vez, así que conviene verificar la fecha vigente en el momento de leer esto y no dar por definitivo ningún plazo sin confirmarlo en una fuente oficial actualizada.",
+      },
+      {
+        q: "¿Puedo seguir facturando con una plantilla de Excel?",
+        a: "Legalmente, mientras no factures con un programa informático, no aplican las obligaciones técnicas de VeriFactu — pero una plantilla manual no calcula retenciones ni modelos trimestrales, no numera series de forma segura y multiplica el riesgo de error humano según crece el volumen de facturas. Es una opción solo defendible para el arranque con muy pocas facturas al mes.",
+      },
+      {
+        q: "¿Qué pasa si cambio de software de facturación a mitad de año?",
+        a: "La mayoría de programas permiten exportar el histórico de facturas en formatos estándar (PDF, CSV, a veces XML), pero conviene revisar antes de contratar cómo gestiona cada proveedor la numeración de series si migras a mitad de ejercicio fiscal, para no duplicar ni saltar números de factura.",
+      },
+      {
+        q: "¿Necesito un gestor si uso uno de estos programas?",
+        a: "No es obligatorio, pero depende de tu perfil fiscal: si tu actividad es sencilla (un solo régimen, sin empleados, sin IVA intracomunitario), herramientas como Quipu permiten presentar los modelos trimestrales sin gestor. Si tu situación fiscal es más compleja, el software ayuda a organizar los datos, pero no sustituye el criterio de un asesor.",
+      },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {
