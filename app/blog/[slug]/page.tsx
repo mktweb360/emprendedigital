@@ -41,91 +41,91 @@ const articleContent: Record<string, {
   faqs: Array<{ q: string; a: string }>;
 }> = {
   "mejor-silla-ergonomica-home-office-2025": {
-    intro: "Pasar 8 horas al día en una silla de mala calidad acaba generando dolor lumbar, cervical y una productividad mermada que no compensa el ahorro inicial. Esta guía compara las dos mejores sillas ergonómicas del catálogo para home office —la SIHOO M57 y la Hbada Pro— en dos rangos de precio distintos, para que elijas según tus horas de uso y tu presupuesto.",
+    intro: "Pasar 8 horas al día en una silla de mala calidad acaba generando dolor lumbar, cervical y una productividad mermada que no compensa el ahorro inicial. Esta guía compara las dos mejores sillas ergonómicas del catálogo para home office —la HOLLUDLE y la Ticova— en dos rangos de precio distintos, para que elijas según tus horas de uso y tu presupuesto.",
     sections: [
       {
         heading: "Los 5 criterios que definen una silla ergonómica real",
         body: "Antes de mirar marcas conviene tener claros los cinco criterios que separan una silla ergonómica de una silla de oficina con marketing. Primero, soporte lumbar que acompañe la curvatura de la columna, mejor si es ajustable y no un simple cojín fijo. Segundo, altura del asiento regulable en un rango amplio (de unos 40 a 52 cm) para adaptar los pies al suelo. Tercero, reposabrazos ajustables en varios ejes, no fijos. Cuarto, un respaldo que reclina y acompaña el movimiento en lugar de mantenerte rígido a 90°. Y quinto, materiales transpirables si vas a pasar muchas horas sentado. No todas las sillas cumplen los cinco, y saber cuáles priorizas es lo que decide la compra.",
       },
       {
-        heading: "SIHOO M57: para quien pasa 8+ horas sentado",
-        body: "La SIHOO M57 es la opción más completa del catálogo y la que mejor cumple los cinco criterios. Su soporte lumbar 3D se ajusta en altura y en profundidad, de modo que se adapta a la curvatura real de tu espalda en lugar de imponer una postura. Los reposabrazos 4D se mueven en altura, profundidad, anchura y ángulo, algo determinante para colocar los antebrazos a la altura correcta del teclado. Suma reposacabezas ajustable, respaldo de malla transpirable, reclinación de 90° a 135° y una capacidad de 150 kg, la más alta del catálogo. A favor: el lumbar 3D, los reposabrazos 4D y la transpirabilidad. En contra: el mecanismo de reclinación podría ser más suave y el reposacabezas cuesta ajustarlo al principio.",
+        heading: "HOLLUDLE: para quien pasa 8+ horas sentado",
+        body: "La HOLLUDLE es la opción más completa del catálogo y la que mejor cumple los cinco criterios. Su respaldo adaptativo de alto respaldo acompaña el movimiento del cuerpo en lugar de imponer una postura rígida, en vez de depender de un mecanismo lumbar independiente. Los reposabrazos 4D se mueven en altura, profundidad, anchura y ángulo, algo determinante para colocar los antebrazos a la altura correcta del teclado. Suma profundidad de asiento ajustable —para adaptar el respaldo a la longitud de tus piernas— y reposacabezas 2D regulable. A favor: el respaldo adaptativo, los reposabrazos 4D y la profundidad de asiento ajustable. En contra: el mecanismo de reclinación podría ser más suave, el montaje requiere cierto tiempo y no incluye reposapiés.",
         productSlug: "sihoo-m57-silla-ergonomica",
       },
       {
-        heading: "Hbada Pro: el equilibrio calidad-precio",
-        body: "La Hbada Pro es una de las sillas ergonómicas más vendidas en Amazon España por debajo de los 200 euros, y su argumento es la comodidad para reclinarse. Su respaldo de malla transpirable llega hasta 155° de reclinación, más que la SIHOO M57, lo que la hace especialmente cómoda para las pausas. Incluye soporte lumbar integrado en el respaldo y reposabrazos plegables, prácticos para guardar la silla bajo la mesa. Soporta 120 kg. A favor: la reclinación de 155°, los reposabrazos plegables y el precio de 189 euros. En contra: el soporte lumbar no se ajusta de forma independiente y no tiene reposacabezas regulable, así que si buscas máxima personalización postural se queda por detrás de la SIHOO.",
+        heading: "Ticova: el equilibrio calidad-precio",
+        body: "La Ticova es una de las sillas ergonómicas más vendidas en Amazon España por debajo de los 150 euros, y su argumento es la comodidad para reclinarse. Su respaldo alto de malla transpirable llega hasta 130° de reclinación, con soporte lumbar ajustable y reposabrazos 3D, prácticos para el día a día sin necesitar el ajuste de profundidad de un modelo 4D. Pesa 18 kg. A favor: la reclinación hasta 130°, los reposabrazos 3D y el precio de 149,99 euros. En contra: el soporte lumbar no es tan avanzado como en la gama superior, la base es de plástico y no tiene reposacabezas ajustable en profundidad, así que si buscas máxima personalización postural se queda por detrás de la HOLLUDLE.",
         productSlug: "hbada-silla-ergonomica-pro",
       },
       {
         heading: "¿Cuál elegir según tu perfil?",
-        body: "Si trabajas más de seis horas diarias y quieres configurar la silla a tu morfología exacta —lumbar ajustable de verdad, reposabrazos 4D y reposacabezas—, la SIHOO M57 es la compra correcta y los 60 euros extra se amortizan en confort a lo largo de los años. Si tus jornadas son más cortas, valoras poder reclinarte a 155° para las pausas y no necesitas ni reposacabezas ni ajuste lumbar independiente, la Hbada Pro entrega casi toda la comodidad por menos dinero. Un criterio práctico: cuanto más tiempo pases sentado y más específica sea tu postura, más valor tiene la capacidad de ajuste de la SIHOO.",
+        body: "Si trabajas más de seis horas diarias y quieres configurar la silla a tu morfología exacta —reposabrazos 4D, profundidad de asiento ajustable y reposacabezas—, la HOLLUDLE es la compra correcta y los 60 euros extra se amortizan en confort a lo largo de los años. Si tus jornadas son más cortas, valoras poder reclinarte hasta 130° para las pausas y no necesitas ni reposacabezas en profundidad ni reposabrazos 4D, la Ticova entrega casi toda la comodidad por menos dinero. Un criterio práctico: cuanto más tiempo pases sentado y más específica sea tu postura, más valor tiene la capacidad de ajuste de la HOLLUDLE.",
       },
     ],
     comparison: {
-      headers: ["Criterio", "SIHOO M57", "Hbada Pro"],
+      headers: ["Criterio", "HOLLUDLE", "Ticova"],
       rows: [
-        ["Precio", "249,00 €", "189,00 €"],
-        ["Soporte lumbar", "3D ajustable (altura y profundidad)", "Integrado, no independiente"],
-        ["Reposabrazos", "4D", "Plegables 2D"],
-        ["Reposacabezas", "Ajustable", "No"],
-        ["Reclinación", "90°-135°", "Hasta 155°"],
-        ["Capacidad máx.", "150 kg", "120 kg"],
+        ["Precio", "209,99 €", "149,99 €"],
+        ["Respaldo", "Adaptativo, alto respaldo", "Malla, alto respaldo"],
+        ["Reposabrazos", "4D", "3D"],
+        ["Profundidad de asiento", "Ajustable", "No especificada"],
+        ["Reposacabezas", "2D regulable", "No ajustable en profundidad"],
+        ["Reclinación", "No especificada por el fabricante", "Hasta 130°"],
+        ["Valoración", "4,4 (3.647 reseñas)", "4,5 (1.986 reseñas)"],
         ["Mejor para", "Jornadas largas y personalización", "Equilibrio y reclinado cómodo"],
       ],
     },
-    conclusion: "Para jornadas de más de seis horas diarias, la SIHOO M57 se amortiza en salud y productividad gracias a su lumbar 3D y sus reposabrazos 4D: es la silla que puedes configurar a tu espalda. Si buscas una silla cómoda para reclinarte, priorizas el precio y no necesitas reposacabezas ni ajuste lumbar independiente, la Hbada Pro a 189 euros es la compra más inteligente. Ninguna de las dos sustituye a las pausas activas cada hora, pero ambas eliminan el dolor postural que provoca una silla mala.",
+    conclusion: "Para jornadas de más de seis horas diarias, la HOLLUDLE se amortiza en salud y productividad gracias a su respaldo adaptativo y sus reposabrazos 4D: es la silla que mejor puedes configurar a tu cuerpo. Si buscas una silla cómoda para reclinarte, priorizas el precio y no necesitas el ajuste de profundidad de asiento, la Ticova a 149,99 euros es la compra más inteligente. Ninguna de las dos sustituye a las pausas activas cada hora, pero ambas eliminan el dolor postural que provoca una silla mala.",
     faqs: [
-      { q: "¿Vale la pena gastar más de 200€ en una silla de oficina?", a: "Si trabajas desde casa más de seis horas diarias, sí. El coste diario de una silla de 249 euros usada durante cinco años es inferior al de un café. El coste de una consulta de fisioterapia por dolor lumbar crónico multiplica ese gasto varias veces, así que la silla correcta es una de las inversiones con mejor retorno de un home office." },
+      { q: "¿Vale la pena gastar más de 200€ en una silla de oficina?", a: "Si trabajas desde casa más de seis horas diarias, sí. El coste diario de una silla de 209,99 euros usada durante cinco años es inferior al de un café. El coste de una consulta de fisioterapia por dolor lumbar crónico multiplica ese gasto varias veces, así que la silla correcta es una de las inversiones con mejor retorno de un home office." },
       { q: "¿Cuánto dura una silla ergonómica de calidad?", a: "Con uso doméstico normal (un usuario, 8 horas al día), entre 8 y 15 años. En las sillas de malla, el tejido suele degradarse antes que la estructura metálica. La garantía es un buen indicador de calidad: una garantía muy corta en una silla cara es una señal de alerta sobre la confianza del propio fabricante en su producto." },
       { q: "¿Es mejor la silla de malla o la de tela?", a: "Para climas cálidos o personas que sudan mucho, la malla es más transpirable y mantiene la espalda fresca en verano. Para climas fríos, la tela o el cuero resultan más cómodos en invierno. Como contrapartida, la malla tiene menor vida útil que un buen tapizado de tela o cuero de calidad. Las dos sillas de esta guía son de malla, la opción más habitual en España." },
-      { q: "¿Se puede montar una silla ergonómica sin ayuda?", a: "Sí, la mayoría se monta en 20-40 minutos siguiendo las instrucciones, y tanto la SIHOO M57 como la Hbada Pro incluyen herramientas y manual. Conviene tener cerca a alguien para sostener el respaldo durante el momento de fijarlo al asiento, aunque no es imprescindible." },
+      { q: "¿Se puede montar una silla ergonómica sin ayuda?", a: "Sí, la mayoría se monta en 20-40 minutos siguiendo las instrucciones, y tanto la HOLLUDLE como la Ticova incluyen herramientas y manual. Conviene tener cerca a alguien para sostener el respaldo durante el momento de fijarlo al asiento, aunque no es imprescindible." },
     ],
   },
 
   "sihoo-m57-analisis-opinion": {
-    intro: "La SIHOO M57 es una de las sillas ergonómicas más vendidas del segmento de precio medio en Amazon España. Su precio de 249 euros la sitúa en el territorio donde la competencia es seria. Esta guía analiza si lo que ofrece justifica ese precio frente a alternativas más asequibles como la Hbada Pro, y para quién es realmente la inversión correcta.",
+    intro: "La HOLLUDLE es una de las sillas ergonómicas más vendidas del segmento de precio medio en Amazon España. Su precio de 209,99 euros la sitúa en el territorio donde la competencia es seria. Esta guía analiza si lo que ofrece justifica ese precio frente a alternativas más asequibles como la Ticova, y para quién es realmente la inversión correcta.",
     sections: [
       {
-        heading: "Los ajustes de la SIHOO M57: qué significan en la práctica",
-        body: "La ergonomía real de una silla se mide por lo que puedes ajustar, y aquí la M57 va sobrada para su precio. El soporte lumbar 3D se regula en altura y en profundidad, de forma que apoya la zona lumbar donde tu columna lo necesita y no donde el fabricante decidió. Los reposabrazos 4D se mueven en altura, profundidad, anchura y ángulo, lo que permite colocar los antebrazos exactamente a la altura del teclado y descargar los hombros. El reposacabezas se ajusta en altura e inclinación, y la reclinación va de 90° a 135° con bloqueo. Para una persona de estatura fuera del rango medio, esta capacidad de ajuste es especialmente valiosa: la silla se adapta a ti, no al revés.",
+        heading: "Los ajustes de la HOLLUDLE: qué significan en la práctica",
+        body: "La ergonomía real de una silla se mide por lo que puedes ajustar, y aquí la HOLLUDLE va sobrada para su precio. Su respaldo adaptativo de alto respaldo acompaña el movimiento del cuerpo y ofrece apoyo a la zona lumbar sin depender de un mecanismo independiente. Los reposabrazos 4D se mueven en altura, profundidad, anchura y ángulo, lo que permite colocar los antebrazos exactamente a la altura del teclado y descargar los hombros. La profundidad de asiento es ajustable, para adaptar el respaldo a la longitud de tus piernas, y el reposacabezas 2D se regula en altura e inclinación. Para una persona de estatura fuera del rango medio, esta capacidad de ajuste es especialmente valiosa: la silla se adapta a ti, no al revés.",
       },
       {
         heading: "Lo que más valoran los usuarios",
-        body: "Con una valoración media de 4,4 sobre más de 2.800 reseñas, los puntos que más se repiten son tres. El primero, el soporte lumbar 3D que se adapta a la curvatura real de la columna en lugar de ser un cojín que se desplaza. El segundo, la transpirabilidad de la malla, que mantiene la espalda fresca en jornadas largas de verano. Y el tercero, la capacidad de 150 kg, la más alta del catálogo, que aporta sensación de solidez y cubre a la práctica totalidad de usuarios. La relación entre lo que ofrece y su precio es el argumento que la ha convertido en superventas.",
+        body: "Con una valoración media de 4,4 sobre más de 3.600 reseñas, los puntos que más se repiten son tres. El primero, el respaldo adaptativo que acompaña la curvatura real de la columna en lugar de imponer una postura rígida. El segundo, los reposabrazos 4D, que permiten un ajuste muy fino de la posición de los brazos. Y el tercero, la profundidad de asiento ajustable, que hace que la silla se adapte bien tanto a personas de piernas cortas como largas. La relación entre lo que ofrece y su precio es el argumento que la ha convertido en superventas.",
       },
       {
         heading: "Los puntos débiles reales",
-        body: "Ninguna silla es perfecta, y la M57 tiene tres peros honestos. El mecanismo de reclinación podría ser más suave: el paso entre posiciones se nota algo brusco comparado con sillas premium de más del doble de precio. El reposacabezas cuesta ajustarlo correctamente las primeras veces hasta encontrar el punto que encaja con tu cuello. Y no incluye reposapiés, algo que en esta gama de precio tampoco es habitual pero conviene saber. Ninguno de estos puntos es determinante para su función principal, pero son los detalles donde se nota que no es una silla de 500 euros.",
+        body: "Ninguna silla es perfecta, y la HOLLUDLE tiene tres peros honestos. El mecanismo de reclinación podría ser más suave: el paso entre posiciones se nota algo brusco comparado con sillas premium de más del doble de precio. El montaje requiere cierto tiempo, más del que cabría esperar a primera vista. Y no incluye reposapiés, algo que en esta gama de precio tampoco es habitual pero conviene saber. Ninguno de estos puntos es determinante para su función principal, pero son los detalles donde se nota que no es una silla de 500 euros.",
       },
       {
-        heading: "Para quién es la SIHOO M57",
-        body: "La SIHOO M57 es la compra correcta si trabajas siete o más horas al día, quieres un soporte lumbar que se ajuste de verdad a tu espalda y valoras tener reposacabezas y reposabrazos 4D. También si vas a usar la silla durante cinco años o más y quieres amortizarla bien: su capacidad de ajuste la hace adecuada para distintas personas y morfologías a lo largo del tiempo.",
+        heading: "Para quién es la HOLLUDLE",
+        body: "La HOLLUDLE es la compra correcta si trabajas siete o más horas al día, quieres un respaldo que acompañe el movimiento de tu espalda y valoras tener reposacabezas y reposabrazos 4D. También si vas a usar la silla durante varios años y quieres amortizarla bien: su capacidad de ajuste la hace adecuada para distintas personas y morfologías a lo largo del tiempo.",
         productSlug: "sihoo-m57-silla-ergonomica",
       },
       {
-        heading: "Cuándo la Hbada Pro es suficiente",
-        body: "Si tus jornadas son de cuatro a seis horas, tu presupuesto máximo ronda los 190 euros o priorizas poder reclinarte a 155° sobre el ajuste lumbar independiente, la Hbada Pro cubre lo esencial por 60 euros menos. Ofrece soporte lumbar integrado, reposabrazos plegables y una malla transpirable igual de fresca. Renuncias al reposacabezas ajustable y al lumbar 3D, pero para muchos usuarios sin patología postural previa eso no marca la diferencia en el día a día.",
+        heading: "Cuándo la Ticova es suficiente",
+        body: "Si tus jornadas son de cuatro a seis horas, tu presupuesto máximo ronda los 150 euros o priorizas poder reclinarte hasta 130° sobre el ajuste de profundidad de asiento, la Ticova cubre lo esencial por 60 euros menos. Ofrece soporte lumbar ajustable, reposabrazos 3D y una malla transpirable igual de fresca. Renuncias al reposacabezas ajustable en profundidad y a los reposabrazos 4D, pero para muchos usuarios sin patología postural previa eso no marca la diferencia en el día a día.",
         productSlug: "hbada-silla-ergonomica-pro",
       },
     ],
     comparison: {
-      headers: ["Aspecto", "SIHOO M57", "Hbada Pro"],
+      headers: ["Aspecto", "HOLLUDLE", "Ticova"],
       rows: [
-        ["Precio", "249,00 €", "189,00 €"],
-        ["Soporte lumbar", "3D ajustable", "Integrado"],
-        ["Reposacabezas", "Ajustable", "No"],
-        ["Reposabrazos", "4D", "Plegables 2D"],
-        ["Reclinación", "90°-135°", "Hasta 155°"],
-        ["Capacidad", "150 kg", "120 kg"],
-        ["Valoración", "4,4 (2.800 reseñas)", "4,2 (4.500 reseñas)"],
+        ["Precio", "209,99 €", "149,99 €"],
+        ["Respaldo", "Adaptativo, alto respaldo", "Malla, alto respaldo"],
+        ["Reposacabezas", "2D regulable", "No ajustable en profundidad"],
+        ["Reposabrazos", "4D", "3D"],
+        ["Reclinación", "No especificada por el fabricante", "Hasta 130°"],
+        ["Valoración", "4,4 (3.647 reseñas)", "4,5 (1.986 reseñas)"],
       ],
     },
-    conclusion: "La SIHOO M57 justifica su precio si la vas a usar muchas horas al día durante años y quieres un lumbar que se ajuste a tu espalda, además de reposacabezas y reposabrazos 4D. Si tus jornadas son más cortas o priorizas reclinarte cómodamente sobre la personalización, la Hbada Pro entrega gran parte del valor por 60 euros menos. En su rango de precio, la M57 es una de las sillas ergonómicas más equilibradas del mercado español.",
+    conclusion: "La HOLLUDLE justifica su precio si la vas a usar muchas horas al día durante años y quieres un respaldo que acompañe tu espalda, además de reposacabezas y reposabrazos 4D. Si tus jornadas son más cortas o priorizas reclinarte cómodamente sobre la personalización, la Ticova entrega gran parte del valor por 60 euros menos. En su rango de precio, la HOLLUDLE es una de las sillas ergonómicas más equilibradas del mercado español.",
     faqs: [
-      { q: "¿La SIHOO M57 aguanta personas altas?", a: "Sí. El reposacabezas ajustable en altura y la reclinación regulable la hacen adecuada para personas altas, y su capacidad máxima de 150 kg —la más alta del catálogo— cubre a la mayoría de usuarios con margen de sobra." },
+      { q: "¿La HOLLUDLE aguanta personas altas?", a: "Sí. El reposacabezas ajustable en altura y la profundidad de asiento regulable la hacen adecuada para personas altas, ya que permiten adaptar la silla a distintas proporciones corporales." },
       { q: "¿Viene con instrucciones claras para el montaje?", a: "Incluye manual con ilustraciones que permiten el montaje en 20-40 minutos sin conocimientos previos. Conviene tener cerca a alguien para sostener el respaldo en el momento de fijarlo al asiento, aunque no es imprescindible hacerlo entre dos personas." },
-      { q: "¿Es la SIHOO M57 buena para el dolor de espalda?", a: "Para el dolor lumbar por mala postura al sentarse, su soporte lumbar 3D ajustable ayuda de forma notable porque apoya la columna donde lo necesita. Para dolor con una causa estructural diagnosticada (hernia, escoliosis), es parte de la solución pero no la única: consulta con tu fisioterapeuta antes de comprar cualquier silla." },
+      { q: "¿Es la HOLLUDLE buena para el dolor de espalda?", a: "Para el dolor lumbar por mala postura al sentarse, su respaldo adaptativo ayuda de forma notable porque acompaña el movimiento de la columna. Para dolor con una causa estructural diagnosticada (hernia, escoliosis), es parte de la solución pero no la única: consulta con tu fisioterapeuta antes de comprar cualquier silla." },
       { q: "¿Se puede devolver si no resulta cómoda?", a: "A través de Amazon España, sí, dentro de los primeros 30 días. Es la forma más segura de probarla en tu propio puesto de trabajo con garantía de devolución si no se adapta a ti." },
     ],
   },
@@ -232,12 +232,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "El home office intermedio",
-        body: "El siguiente escalón es donde la mayoría de trabajadores remotos están cómodos sin haberse gastado de más. Aquí la pieza central es una buena silla ergonómica: la Hbada Pro, por 189 euros, ofrece malla transpirable, reclinación hasta 155° y reposabrazos plegables, más que suficiente para una jornada estándar. Súmale un monitor de 27 pulgadas QHD, un teclado y un ratón inalámbricos y una webcam decente, y tienes un presupuesto total en el entorno de 600 a 900 euros para un puesto que cubre casi todo sin fricciones.",
+        body: "El siguiente escalón es donde la mayoría de trabajadores remotos están cómodos sin haberse gastado de más. Aquí la pieza central es una buena silla ergonómica: la Ticova, por 149,99 euros, ofrece malla transpirable, reclinación hasta 130° y reposabrazos 3D, más que suficiente para una jornada estándar. Súmale un monitor de 27 pulgadas QHD, un teclado y un ratón inalámbricos y una webcam decente, y tienes un presupuesto total en el entorno de 600 a 900 euros para un puesto que cubre casi todo sin fricciones.",
         productSlug: "hbada-silla-ergonomica-pro",
       },
       {
         heading: "El home office completo",
-        body: "El nivel completo elimina prácticamente todas las fricciones físicas del trabajo remoto. La silla sube a la SIHOO M57 (249 euros), con lumbar 3D ajustable, reposacabezas y reposabrazos 4D para jornadas largas y máxima personalización. A partir de ahí, añades doble monitor o un ultrawide, un teclado y un ratón premium tipo Logitech MX, y una buena iluminación frontal para las videollamadas. Es el setup de quien trabaja desde casa a tiempo completo y quiere que el equipamiento no sea nunca el cuello de botella.",
+        body: "El nivel completo elimina prácticamente todas las fricciones físicas del trabajo remoto. La silla sube a la HOLLUDLE (209,99 euros), con respaldo adaptativo, reposacabezas y reposabrazos 4D para jornadas largas y máxima personalización. A partir de ahí, añades doble monitor o un ultrawide, un teclado y un ratón premium tipo Logitech MX, y una buena iluminación frontal para las videollamadas. Es el setup de quien trabaja desde casa a tiempo completo y quiere que el equipamiento no sea nunca el cuello de botella.",
         productSlug: "sihoo-m57-silla-ergonomica",
       },
       {
@@ -250,8 +250,8 @@ const articleContent: Record<string, {
       headers: ["Nivel", "Equipamiento clave", "Presupuesto aprox.", "Para quién"],
       rows: [
         ["Mínimo viable", "Silla básica + monitor + teclado y ratón", "300-500 €", "Empezar con lo esencial"],
-        ["Intermedio", "Hbada Pro + monitor QHD + periféricos", "600-900 €", "La mayoría de trabajadores remotos"],
-        ["Completo", "SIHOO M57 + FlexiSpot E7 Pro + todo", "1.200-2.000 €", "Trabajo remoto a tiempo completo"],
+        ["Intermedio", "Ticova + monitor QHD + periféricos", "600-900 €", "La mayoría de trabajadores remotos"],
+        ["Completo", "HOLLUDLE + FlexiSpot E7 Pro + todo", "1.200-2.000 €", "Trabajo remoto a tiempo completo"],
       ],
     },
     conclusion: "No montes el home office completo desde el principio. Empieza por la silla y el monitor, trabaja así dos o tres meses, identifica qué te molesta más y añade lo siguiente. El equipamiento que realmente necesitas se hace obvio cuando llevas tiempo trabajando desde casa, y ese enfoque progresivo evita gastar en cosas que luego no usas.",
@@ -272,12 +272,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "La solución más impactante: la silla correcta",
-        body: "El soporte lumbar ajustable es el elemento individual más importante para prevenir el dolor de espalda. No un cojín que se desplaza y pierde firmeza, sino un soporte que sigue la curvatura real de la columna. La SIHOO M57, con su lumbar 3D ajustable en altura y profundidad, permite configurarlo exactamente a la morfología de cada persona, de modo que la zona lumbar queda apoyada donde tu espalda lo necesita. Sumado a los reposabrazos 4D, que descargan los hombros, es la solución que más problemas posturales resuelve de un solo cambio.",
+        body: "Un buen soporte lumbar es el elemento individual más importante para prevenir el dolor de espalda. No un cojín que se desplaza y pierde firmeza, sino un respaldo que acompaña la curvatura real de la columna. La HOLLUDLE, con su respaldo adaptativo, acompaña el movimiento del cuerpo en lugar de imponer una postura rígida, de modo que la zona lumbar queda apoyada de forma más natural. Sumado a los reposabrazos 4D y a la profundidad de asiento ajustable, que descargan los hombros y adaptan la silla a la longitud de tus piernas, es la solución que más problemas posturales resuelve de un solo cambio.",
         productSlug: "sihoo-m57-silla-ergonomica",
       },
       {
         heading: "La solución intermedia",
-        body: "Si no necesitas la máxima personalización, la Hbada Pro cubre lo esencial por 189 euros: incluye soporte lumbar integrado en el respaldo y reclinación hasta 155°, que ayuda a variar la postura a lo largo del día. Para la mayoría de personas sin patología estructural previa, pasar de una silla blanda sin apoyo a una silla con lumbar y malla transpirable es suficiente para eliminar el dolor postural. No ajusta el lumbar de forma independiente como la SIHOO, pero para un uso moderado la diferencia es menor.",
+        body: "Si no necesitas la máxima personalización, la Ticova cubre lo esencial por 149,99 euros: incluye soporte lumbar ajustable y reclinación hasta 130°, que ayuda a variar la postura a lo largo del día. Para la mayoría de personas sin patología estructural previa, pasar de una silla blanda sin apoyo a una silla con lumbar y malla transpirable es suficiente para eliminar el dolor postural. No ofrece la profundidad de asiento ajustable ni los reposabrazos 4D de la HOLLUDLE, pero para un uso moderado la diferencia es menor.",
         productSlug: "hbada-silla-ergonomica-pro",
       },
       {
@@ -292,7 +292,7 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Causa", "Síntoma", "Solución"],
       rows: [
-        ["Silla sin soporte lumbar", "Dolor lumbar crónico", "Silla ergonómica con lumbar ajustable (p. ej. SIHOO M57)"],
+        ["Silla sin soporte lumbar", "Dolor lumbar crónico", "Silla ergonómica con respaldo adaptativo (p. ej. HOLLUDLE)"],
         ["Monitor demasiado bajo", "Dolor cervical y occipital", "Elevar el monitor a la altura de los ojos"],
         ["Reposabrazos incorrectos", "Tensión en hombros y muñecas", "Reposabrazos 4D a la altura del codo"],
         ["Ausencia de pausas", "Fatiga muscular generalizada", "Pausas activas cada 45-60 minutos"],
@@ -302,21 +302,21 @@ const articleContent: Record<string, {
     faqs: [
       { q: "¿Una silla ergonómica cura el dolor de espalda?", a: "No lo cura: lo previene y lo alivia. Si el dolor tiene una causa estructural (hernia, escoliosis diagnosticada), una silla ergonómica es parte de la solución pero no la única. Siempre consulta con un médico o fisioterapeuta si el dolor es intenso o persistente, porque el equipamiento no sustituye a un diagnóstico." },
       { q: "¿Es mejor sentarse recto o reclinado?", a: "Sentarse ligeramente reclinado, en torno a 100-110°, reduce más la presión sobre los discos intervertebrales que la postura totalmente recta a 90°. Pero la clave real no es una postura perfecta única, sino variar de posición a lo largo del día: la mejor postura es siempre la siguiente, no una sola mantenida durante horas." },
-      { q: "¿Sirve un cojín lumbar de memoria de forma?", a: "Es mejor que nada, pero inferior a un soporte lumbar integrado en la silla que se ajusta a tu morfología. Los cojines externos tienden a desplazarse con el movimiento y a perder firmeza con el tiempo, mientras que un lumbar como el de la SIHOO M57 mantiene el apoyo fijo en el punto que has configurado." },
+      { q: "¿Sirve un cojín lumbar de memoria de forma?", a: "Es mejor que nada, pero inferior a un respaldo integrado en la silla que se ajusta a tu morfología. Los cojines externos tienden a desplazarse con el movimiento y a perder firmeza con el tiempo, mientras que un respaldo adaptativo como el de la HOLLUDLE acompaña el movimiento del cuerpo de forma constante." },
       { q: "¿Cuánto tiempo tarda en notarse la mejoría con una silla ergonómica?", a: "La mayoría de usuarios notan una reducción del dolor en una a tres semanas. La adaptación a la nueva postura tarda unos días, así que es normal sentir algo de incomodidad al principio si venías de una silla muy blanda: el cuerpo necesita acostumbrarse a un apoyo que trabaja de otra manera." },
     ],
   },
 
   "mejor-teclado-raton-trabajo-remoto": {
-    intro: "El teclado y el ratón son los dos periféricos con más horas de contacto físico en un home office. Una mala elección genera fatiga en manos, muñecas y hombros. Esta guía compara los tres periféricos del catálogo —el teclado Logitech MX Keys Advanced S, el ratón MX Master 3S y el teclado mecánico Keychron K2 Pro— para distintos perfiles de trabajo.",
+    intro: "El teclado y el ratón son los dos periféricos con más horas de contacto físico en un home office. Una mala elección genera fatiga en manos, muñecas y hombros. Esta guía compara los tres periféricos del catálogo —el teclado Logitech MX Keys S, el ratón MX Master 3S y el teclado mecánico Keychron V6 MAX— para distintos perfiles de trabajo.",
     sections: [
       {
         heading: "Membrana premium vs mecánico: qué elegir para trabajar",
-        body: "La primera decisión es el tipo de teclado. Una membrana premium como la del MX Keys usa teclas de perfil bajo con recorrido corto: es silenciosa y cómoda para escritura prolongada, con una sensación parecida a la de un buen portátil. Un mecánico como el Keychron K2 Pro ofrece feedback táctil preciso, es muy duradero y personalizable (puedes cambiar los switches), a cambio de algo más de ruido y altura. La elección depende de si priorizas silencio y comodidad para jornadas largas, o feedback y durabilidad para escribir y programar.",
+        body: "La primera decisión es el tipo de teclado. Una membrana premium como la del MX Keys usa teclas de perfil bajo con recorrido corto: es silenciosa y cómoda para escritura prolongada, con una sensación parecida a la de un buen portátil. Un mecánico como el Keychron V6 MAX ofrece feedback táctil preciso, es programable con firmware QMK/VIA y admite triple conexión (2,4GHz, Bluetooth y USB-C), a cambio de algo más de ruido y altura. La elección depende de si priorizas silencio y comodidad para jornadas largas, o feedback y personalización avanzada para escribir y programar.",
       },
       {
-        heading: "Logitech MX Keys Advanced S: el teclado de referencia",
-        body: "El MX Keys Advanced S es el estándar de facto en teclados de membrana premium para oficina. Sus teclas esféricas de perfil bajo dan una escritura precisa y poco fatigosa, la retroiluminación inteligente se activa por proximidad y ahorra batería, y la conexión a tres dispositivos (Bluetooth o receptor Logi Bolt) permite pasar del portátil de trabajo al ordenador personal con un botón. Incluye teclado numérico completo y se recarga por USB-C. Es la opción para quien escribe muchas horas y trabaja con varios equipos.",
+        heading: "Logitech MX Keys S: el teclado de referencia",
+        body: "El MX Keys S es el estándar de facto en teclados de membrana premium para oficina. Sus teclas esféricas de perfil bajo dan una escritura precisa y poco fatigosa, la retroiluminación inteligente se activa por proximidad y ahorra batería, y la conexión por Bluetooth o receptor Logi Bolt permite pasar del portátil de trabajo al ordenador personal con un botón. Es compatible con Windows, macOS, Linux y Chrome OS, y se recarga por USB-C. Es la opción para quien escribe muchas horas y trabaja con varios equipos.",
         productSlug: "logitech-mx-keys-advanced-s",
       },
       {
@@ -325,41 +325,41 @@ const articleContent: Record<string, {
         productSlug: "logitech-mx-master-3s",
       },
       {
-        heading: "Keychron K2 Pro: la alternativa mecánica",
-        body: "El Keychron K2 Pro es un teclado mecánico compacto en formato 75% (con flechas y teclas de función, sin bloque numérico). Su gran baza es el soporte hot-swap: puedes cambiar los switches sin soldar, para ajustar el tacto y el sonido a tu gusto. Conecta por Bluetooth a tres dispositivos o por cable USB-C, tiene retroiluminación RGB por tecla y es compatible con Windows y macOS. Para quien prefiere el feedback y el sonido de un mecánico sin renunciar a la conectividad inalámbrica, es la elección.",
+        heading: "Keychron V6 MAX: la alternativa mecánica",
+        body: "El Keychron V6 MAX es un teclado mecánico inalámbrico programable con firmware QMK/VIA, lo que permite personalizar cada tecla y macro a tu gusto. Conecta por 2,4GHz, Bluetooth o cable USB-C, tiene distribución QWERTY en español de fábrica y es compatible con Mac, Windows y Linux. Está disponible con distintos interruptores Gateron Jupiter según la sensación táctil que prefieras. Para quien prefiere el feedback y el sonido de un mecánico sin renunciar a la conectividad inalámbrica ni a la programabilidad, es la elección.",
         productSlug: "keychron-k2-pro-mecanico",
       },
       {
         heading: "¿Cuál elegir según tu perfil?",
-        body: "Si tu trabajo es sobre todo escritura de oficina y videollamadas, el MX Keys Advanced S es el teclado más cómodo. Si pasas muchas horas navegando, en hojas de cálculo o diseñando, el MX Master 3S es la mejora con más impacto. Y si programas o simplemente prefieres el tacto de un mecánico, el Keychron K2 Pro es tu teclado. La combinación MX Keys + MX Master 3S es el estándar de productividad en el ecosistema Logitech; el Keychron es la vía mecánica para quien la prefiere.",
+        body: "Si tu trabajo es sobre todo escritura de oficina y videollamadas, el MX Keys S es el teclado más cómodo. Si pasas muchas horas navegando, en hojas de cálculo o diseñando, el MX Master 3S es la mejora con más impacto. Y si programas o simplemente prefieres el tacto de un mecánico programable, el Keychron V6 MAX es tu teclado. La combinación MX Keys + MX Master 3S es el estándar de productividad en el ecosistema Logitech; el Keychron es la vía mecánica para quien la prefiere.",
       },
     ],
     comparison: {
-      headers: ["Criterio", "MX Keys Advanced S", "MX Master 3S", "Keychron K2 Pro"],
+      headers: ["Criterio", "MX Keys S", "MX Master 3S", "Keychron V6 MAX"],
       rows: [
-        ["Precio", "119,99 €", "99,99 €", "89,99 €"],
+        ["Precio", "92,20 €", "99,99 €", "139,99 €"],
         ["Tipo", "Teclado membrana premium", "Ratón", "Teclado mecánico"],
-        ["Conexión", "Bluetooth + Logi Bolt", "Bluetooth + Logi Bolt", "Bluetooth + USB-C"],
-        ["Multi-dispositivo", "3 equipos", "3 equipos", "3 equipos"],
+        ["Conexión", "Bluetooth + Logi Bolt", "Bluetooth + Logi Bolt", "2,4GHz + Bluetooth + USB-C"],
+        ["Programable", "No", "—", "Sí (QMK/VIA)"],
         ["Recarga", "USB-C", "USB-C", "USB-C"],
-        ["Mejor para", "Escritura cómoda", "Trabajo con ratón exigente", "Feedback mecánico"],
+        ["Mejor para", "Escritura cómoda", "Trabajo con ratón exigente", "Feedback mecánico y personalización"],
       ],
     },
-    conclusion: "Para un home office completo, la combinación MX Keys Advanced S + MX Master 3S es el estándar de productividad por excelencia. Si prefieres la respuesta táctil de un teclado mecánico, el Keychron K2 Pro a 89,99 € es la alternativa, con la ventaja del hot-swap para personalizar los switches con el tiempo. La elección del teclado se reduce a silencio y comodidad frente a feedback y durabilidad.",
+    conclusion: "Para un home office completo, la combinación MX Keys S + MX Master 3S es el estándar de productividad por excelencia. Si prefieres la respuesta táctil de un teclado mecánico, el Keychron V6 MAX a 139,99 € es la alternativa, con la ventaja de la programabilidad QMK/VIA y la triple conexión para saltar entre dispositivos. La elección del teclado se reduce a silencio y comodidad frente a feedback y personalización.",
     faqs: [
-      { q: "¿Merece la pena el MX Keys frente a un teclado mecánico?", a: "Para escritura de oficina intensiva, las teclas de tijera del MX Keys son más silenciosas y de menor recorrido, lo que reduce la fatiga en jornadas largas. Para quien prefiere el feedback táctil, un mecánico como el Keychron K2 Pro puede ser mejor. Es una cuestión de preferencia personal, no de calidad: ambos son teclados de gama alta." },
+      { q: "¿Merece la pena el MX Keys frente a un teclado mecánico?", a: "Para escritura de oficina intensiva, las teclas de perfil bajo del MX Keys son más silenciosas y de menor recorrido, lo que reduce la fatiga en jornadas largas. Para quien prefiere el feedback táctil, un mecánico como el Keychron V6 MAX puede ser mejor. Es una cuestión de preferencia personal, no de calidad: ambos son teclados de gama alta." },
       { q: "¿El MX Master 3S funciona en cualquier superficie?", a: "Sí, su sensor de 8.000 DPI funciona en prácticamente cualquier superficie, incluido el cristal. No necesita alfombrilla, aunque usar una mejora ligeramente la precisión y la durabilidad del sensor a largo plazo." },
-      { q: "¿Qué es el hot-swap del Keychron K2 Pro?", a: "Es la posibilidad de cambiar los switches (el mecanismo bajo cada tecla) sin soldar, simplemente extrayéndolos y colocando otros. Permite probar switches más suaves o más silenciosos con el tiempo sin tener que comprar otro teclado, algo que un mecánico convencional no ofrece." },
+      { q: "¿Qué significa que el Keychron V6 MAX sea programable con QMK/VIA?", a: "Significa que puedes reasignar cada tecla y crear macros directamente desde el software VIA, sin instalar drivers adicionales. Permite adaptar la distribución y las funciones del teclado a tu flujo de trabajo, algo que un teclado de membrana convencional no ofrece." },
       { q: "¿Cuánto dura la batería del MX Keys?", a: "Con la retroiluminación activada, unos 10 días; con ella desactivada, hasta 5 meses. Se recarga por USB-C, y un minuto de carga proporciona varias horas de uso de emergencia, así que en la práctica nunca te deja tirado." },
     ],
   },
 
   "logitech-mx-keys-analisis-opinion": {
-    intro: "El Logitech MX Keys Advanced S lleva años siendo el teclado inalámbrico más recomendado para trabajo remoto. Su combinación de teclas de perfil bajo de alta calidad, retroiluminación inteligente y conexión multi-dispositivo lo ha consolidado como referencia. Esta guía analiza si a 119,99 € sigue siendo la mejor opción o si un mecánico como el Keychron K2 Pro se le acerca.",
+    intro: "El Logitech MX Keys S lleva años siendo el teclado inalámbrico más recomendado para trabajo remoto. Su combinación de teclas de perfil bajo de alta calidad, retroiluminación inteligente y conexión multi-dispositivo lo ha consolidado como referencia. Esta guía analiza si a 92,20 € sigue siendo la mejor opción o si un mecánico como el Keychron V6 MAX se le acerca.",
     sections: [
       {
         heading: "Las teclas de perfil bajo: por qué gustan tanto",
-        body: "El recorrido corto y estable, junto con las teclas de forma esférica que se adaptan a la yema del dedo, producen una escritura precisa y poco fatigosa. A diferencia de las membranas baratas, donde las teclas se hunden de forma irregular, el MX Keys tiene una respuesta consistente en cada pulsación. Con una valoración de 4,6 sobre 3.200 reseñas, muchos usuarios lo describen como la mejor experiencia de escritura que han tenido en un teclado que no es mecánico.",
+        body: "El recorrido corto y estable, junto con las teclas de forma esférica que se adaptan a la yema del dedo, producen una escritura precisa y poco fatigosa. A diferencia de las membranas baratas, donde las teclas se hunden de forma irregular, el MX Keys tiene una respuesta consistente en cada pulsación. Con una valoración de 4,6 sobre más de 600 reseñas, muchos usuarios lo describen como la mejor experiencia de escritura que han tenido en un teclado que no es mecánico.",
       },
       {
         heading: "Retroiluminación inteligente: cómoda y discreta",
@@ -367,33 +367,33 @@ const articleContent: Record<string, {
       },
       {
         heading: "Multi-dispositivo: la función más útil del día a día",
-        body: "Cambiar entre el portátil del trabajo, el ordenador personal y el iPad con un solo botón, sin reemparejar, es lo que más valoran quienes trabajan con varios equipos. Con el receptor Logi Bolt funciona también en equipos sin Bluetooth, y el teclado numérico completo lo hace cómodo para quien trabaja con cifras. Es un teclado pensado para el escritorio fijo de quien no quiere tener dos teclados en la mesa.",
+        body: "Cambiar entre el portátil del trabajo, el ordenador personal y el iPad con un solo botón, sin reemparejar, es lo que más valoran quienes trabajan con varios equipos. Con el receptor Logi Bolt funciona también en equipos sin Bluetooth, y su compatibilidad con Windows, macOS, Linux y Chrome OS lo hace cómodo para quien alterna entre plataformas. Es un teclado pensado para el escritorio fijo de quien no quiere tener dos teclados en la mesa.",
         productSlug: "logitech-mx-keys-advanced-s",
       },
       {
-        heading: "MX Keys vs Keychron K2 Pro: membrana o mecánico",
-        body: "El Keychron K2 Pro a 89,99 € es un mecánico compacto en formato 75% con hot-swap y RGB por tecla. Si prefieres el feedback táctil y el sonido de un mecánico, y no te importa prescindir del teclado numérico, es la alternativa. El MX Keys gana en silencio, en comodidad para escritura prolongada y en el numpad; el Keychron gana en feedback, en personalización de switches y en durabilidad. Son dos filosofías distintas, ambas de calidad.",
+        heading: "MX Keys vs Keychron V6 MAX: membrana o mecánico",
+        body: "El Keychron V6 MAX a 139,99 € es un mecánico inalámbrico programable con firmware QMK/VIA y triple conexión (2,4GHz, Bluetooth y USB-C). Si prefieres el feedback táctil y el sonido de un mecánico, y quieres poder personalizar cada tecla y macro, es la alternativa. El MX Keys gana en silencio y en comodidad para escritura prolongada; el Keychron gana en feedback, en programabilidad y en opciones de conexión. Son dos filosofías distintas, ambas de calidad.",
         productSlug: "keychron-k2-pro-mecanico",
       },
     ],
     comparison: {
-      headers: ["Característica", "MX Keys Advanced S", "Keychron K2 Pro"],
+      headers: ["Característica", "MX Keys S", "Keychron V6 MAX"],
       rows: [
-        ["Precio", "119,99 €", "89,99 €"],
-        ["Tipo", "Membrana premium (tijera)", "Mecánico (Gateron)"],
-        ["Retroiluminación", "Inteligente por proximidad", "RGB por tecla"],
-        ["Teclado numérico", "Sí (completo)", "No (formato 75%)"],
-        ["Conexión", "Bluetooth + Logi Bolt", "Bluetooth + USB-C"],
+        ["Precio", "92,20 €", "139,99 €"],
+        ["Tipo", "Membrana premium (perfil bajo)", "Mecánico (Gateron Jupiter)"],
+        ["Retroiluminación", "Inteligente por proximidad", "Sí"],
+        ["Programable", "No", "Sí (QMK/VIA)"],
+        ["Conexión", "Bluetooth + Logi Bolt", "2,4GHz + Bluetooth + USB-C"],
         ["Recarga", "USB-C", "USB-C"],
-        ["Mejor para", "Escritura silenciosa y numpad", "Feedback y personalización"],
+        ["Mejor para", "Escritura silenciosa", "Feedback y personalización"],
       ],
     },
-    conclusion: "El MX Keys Advanced S justifica su precio si escribes mucho y valoras el silencio y la comodidad: es el teclado que menos cansa tras ocho horas de uso. Si prefieres el feedback y el sonido de un mecánico, y puedes prescindir del teclado numérico, el Keychron K2 Pro es la alternativa correcta por 30 euros menos. Ninguno es mejor en abstracto: depende de cómo escribas.",
+    conclusion: "El MX Keys S justifica su precio si escribes mucho y valoras el silencio y la comodidad: es el teclado que menos cansa tras ocho horas de uso. Si prefieres el feedback y el sonido de un mecánico, y quieres poder programar cada tecla, el Keychron V6 MAX es la alternativa correcta, con la ventaja de la triple conexión. Ninguno es mejor en abstracto: depende de cómo escribas.",
     faqs: [
       { q: "¿El MX Keys es compatible con Mac?", a: "Sí. Funciona perfectamente con macOS, y Logitech ofrece una versión con las teclas rotuladas para el layout de Mac. La versión estándar también funciona, con la nomenclatura de Windows en las teclas modificadoras, sin ninguna limitación funcional." },
-      { q: "¿Tiene teclado numérico?", a: "Sí, el MX Keys Advanced S incluye teclado numérico completo en el lado derecho, una ventaja para quien trabaja mucho con cifras u hojas de cálculo frente a teclados compactos como el Keychron K2 Pro, que renuncian al numpad para ganar espacio." },
+      { q: "¿Tiene teclado numérico?", a: "La versión estándar del MX Keys S incluye teclado numérico completo en el lado derecho, una ventaja para quien trabaja mucho con cifras u hojas de cálculo frente a teclados más compactos como el Keychron V6 MAX." },
       { q: "¿Se puede usar el MX Keys con cable?", a: "No, es exclusivamente inalámbrico (Bluetooth o receptor Logi Bolt). El puerto USB-C sirve solo para la carga, no para el uso cableado. Si necesitas conexión por cable obligatoria, este no es tu teclado." },
-      { q: "¿El MX Keys funciona en Linux?", a: "Sí, con el receptor Logi Bolt funciona en Linux sin problema para escribir. Algunas funciones avanzadas del software Logi Options+ pueden no estar disponibles según la distribución, pero las teclas y la conexión multi-dispositivo operan con normalidad." },
+      { q: "¿El MX Keys funciona en Linux?", a: "Sí, es compatible con Linux de fábrica y, con el receptor Logi Bolt, funciona sin problema para escribir. Algunas funciones avanzadas del software Logi Options+ pueden no estar disponibles según la distribución, pero las teclas y la conexión multi-dispositivo operan con normalidad." },
     ],
   },
 
@@ -406,7 +406,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "El teclado que reduce la fatiga",
-        body: "En un setup de productividad, el teclado es el periférico con más horas de contacto. El MX Keys Advanced S, con sus teclas de perfil bajo y su conexión a tres dispositivos, reduce la fatiga en jornadas largas y permite pasar del portátil de trabajo al ordenador personal con un botón. Su retroiluminación inteligente y el teclado numérico completo lo hacen especialmente cómodo para el escritorio fijo del trabajo remoto.",
+        body: "En un setup de productividad, el teclado es el periférico con más horas de contacto. El MX Keys S, con sus teclas de perfil bajo y su conexión por Bluetooth o Logi Bolt, reduce la fatiga en jornadas largas y permite pasar del portátil de trabajo al ordenador personal con un botón. Su retroiluminación inteligente lo hace especialmente cómodo para el escritorio fijo del trabajo remoto.",
         productSlug: "logitech-mx-keys-advanced-s",
       },
       {
@@ -461,7 +461,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "El hardware que potencia el software",
-        body: "Un teclado cómodo hace que pasar horas en Notion o escribiendo en Slack canse menos. El MX Keys Advanced S, con sus teclas de perfil bajo y su retroiluminación inteligente, es el complemento natural de cualquier flujo de trabajo digital; y si prefieres el feedback táctil, un mecánico como el Keychron K2 Pro cumple el mismo papel. El mejor software se aprovecha mejor sobre un hardware que no te cansa.",
+        body: "Un teclado cómodo hace que pasar horas en Notion o escribiendo en Slack canse menos. El MX Keys S, con sus teclas de perfil bajo y su retroiluminación inteligente, es el complemento natural de cualquier flujo de trabajo digital; y si prefieres el feedback táctil, un mecánico como el Keychron V6 MAX cumple el mismo papel. El mejor software se aprovecha mejor sobre un hardware que no te cansa.",
         productSlug: "logitech-mx-keys-advanced-s",
       },
       {
@@ -488,11 +488,11 @@ const articleContent: Record<string, {
   },
 
   "mejores-auriculares-cancelacion-ruido-trabajo-2025": {
-    intro: "La cancelación de ruido activa (ANC) es la tecnología de home office con mayor impacto en la concentración: elimina el ruido del entorno —tráfico, obras, familia— y crea artificialmente el silencio que muchas oficinas en casa no tienen. Esta guía compara los dos auriculares con ANC del catálogo, el Sony WH-1000XM5 y el Jabra Evolve2 55, y cuándo basta una opción más económica sin cancelación.",
+    intro: "La cancelación de ruido activa (ANC) es la tecnología de home office con mayor impacto en la concentración: elimina el ruido del entorno —tráfico, obras, familia— y crea artificialmente el silencio que muchas oficinas en casa no tienen. Esta guía compara los dos auriculares con ANC del catálogo, el Sony WH-1000XM5 y el Jabra Evolve2 65, y cuándo basta una opción más económica sin cancelación.",
     sections: [
       {
         heading: "ANC para música vs ANC para reuniones: la diferencia clave",
-        body: "No todos los auriculares con cancelación buscan lo mismo. Los de consumo general, como el Sony WH-1000XM5, priorizan la experiencia musical y una cancelación muy agresiva. Los profesionales, como el Jabra Evolve2 55, priorizan la calidad de la llamada: micrófonos afinados para la voz, certificación para plataformas de reuniones y discreción visual. Ambos cancelan ruido, pero están optimizados para usos distintos, y elegir el afinado para tu uso importa más que el número de micrófonos.",
+        body: "No todos los auriculares con cancelación buscan lo mismo. Los de consumo general, como el Sony WH-1000XM5, priorizan la experiencia musical y una cancelación muy agresiva. Los profesionales, como el Jabra Evolve2 65, priorizan la calidad de la llamada: micrófonos afinados para la voz, certificación para plataformas de reuniones y discreción visual. Ambos cancelan ruido, pero están optimizados para usos distintos, y elegir el afinado para tu uso importa más que el número de micrófonos.",
       },
       {
         heading: "Sony WH-1000XM5: la mejor cancelación",
@@ -500,41 +500,41 @@ const articleContent: Record<string, {
         productSlug: "sony-wh-1000xm5-auriculares",
       },
       {
-        heading: "Jabra Evolve2 55: el profesional certificado",
-        body: "El Jabra Evolve2 55 está diseñado para comunicaciones empresariales. Certificado para Microsoft Teams, Zoom y Google Meet, monta seis micrófonos que captan la voz con gran claridad y filtran el ruido de fondo. Suma 36 horas de batería, carga por USB-C y por base Qi inalámbrica, y cancelación ajustable. Es la opción para quien hace muchas reuniones de vídeo al día y necesita que su voz suene profesional y que su interlocutor le entienda sin esfuerzo.",
+        heading: "Jabra Evolve2 65: el profesional certificado",
+        body: "El Jabra Evolve2 65 está diseñado para comunicaciones empresariales. Certificado para las principales plataformas de comunicaciones unificadas, capta la voz con claridad y filtra el ruido de fondo gracias a su cancelación de ruido activa. Incluye adaptador Bluetooth USB-C y batería de larga duración pensada para jornadas completas de videollamadas. Es la opción para quien hace muchas reuniones de vídeo al día y necesita que su voz suene profesional y que su interlocutor le entienda sin esfuerzo.",
         productSlug: "jabra-evolve2-55-auriculares",
       },
       {
         heading: "Cuándo basta una opción sin ANC",
-        body: "Si tu entorno de trabajo ya es relativamente silencioso o tu presupuesto es ajustado, un auricular como el JBL Tune 510BT (40 horas de batería, plegable, sonido Pure Bass, 39,99 €) cumple para música y llamadas básicas. Eso sí, conviene tener claro que no tiene cancelación activa: solo aísla de forma pasiva por la almohadilla. Si tu objetivo real es bloquear el ruido del entorno, no es la herramienta; para el resto de usos, ofrece mucho por su precio.",
+        body: "Si tu entorno de trabajo ya es relativamente silencioso o tu presupuesto es ajustado, un auricular como el JBL Tune 520BT (hasta 57 horas de batería, plegable, sonido Pure Bass, 39,99 €) cumple para música y llamadas básicas. Eso sí, conviene tener claro que no tiene cancelación activa: solo aísla de forma pasiva por la almohadilla. Si tu objetivo real es bloquear el ruido del entorno, no es la herramienta; para el resto de usos, ofrece mucho por su precio.",
       },
       {
         heading: "¿Cuál elegir según tu perfil?",
-        body: "Si buscas concentración y también escuchas música, el Sony WH-1000XM5 es la mejor opción. Si haces muchas reuniones profesionales y la calidad de tu voz importa, el Jabra Evolve2 55 lo justifica. Y si tu entorno es tranquilo o el presupuesto manda, el JBL Tune 510BT cubre música y llamadas por una fracción del precio, aceptando que no cancela ruido de forma activa.",
+        body: "Si buscas concentración y también escuchas música, el Sony WH-1000XM5 es la mejor opción. Si haces muchas reuniones profesionales y la calidad de tu voz importa, el Jabra Evolve2 65 lo justifica. Y si tu entorno es tranquilo o el presupuesto manda, el JBL Tune 520BT cubre música y llamadas por una fracción del precio, aceptando que no cancela ruido de forma activa.",
       },
     ],
     comparison: {
-      headers: ["Criterio", "Sony WH-1000XM5", "Jabra Evolve2 55", "JBL Tune 510BT"],
+      headers: ["Criterio", "Sony WH-1000XM5", "Jabra Evolve2 65", "JBL Tune 520BT"],
       rows: [
-        ["Precio", "279,00 €", "349,00 €", "39,99 €"],
+        ["Precio", "279,00 €", "180,99 €", "39,99 €"],
         ["Cancelación (ANC)", "Líder del sector", "Profesional (reuniones)", "No (aislamiento pasivo)"],
-        ["Batería", "30 h", "36 h", "40 h"],
-        ["Micrófonos", "8 (ANC) + voz", "6 (certificados)", "Básico"],
-        ["Certificación", "Hi-Res LDAC", "Teams, Zoom, Meet", "—"],
+        ["Batería", "30 h", "Larga duración", "Hasta 57 h"],
+        ["Valoración", "4,3 (20.672 reseñas)", "4,3 (2.032 reseñas)", "4,7 (11.993 reseñas)"],
+        ["Certificación", "Hi-Res LDAC", "Plataformas UC", "—"],
         ["Mejor para", "Concentración y música", "Reuniones profesionales", "Presupuesto y entorno tranquilo"],
       ],
     },
-    conclusion: "Para concentración y música, el Sony WH-1000XM5 es la mejor opción del segmento de consumo. Para reuniones profesionales donde la voz importa, el Jabra Evolve2 55 justifica su precio con sus micrófonos certificados. Y si tu entorno ya es tranquilo o el presupuesto es ajustado, el JBL Tune 510BT cumple para música y llamadas, siempre recordando que no cancela ruido de forma activa.",
+    conclusion: "Para concentración y música, el Sony WH-1000XM5 es la mejor opción del segmento de consumo. Para reuniones profesionales donde la voz importa, el Jabra Evolve2 65 justifica su precio con su certificación para plataformas UC. Y si tu entorno ya es tranquilo o el presupuesto es ajustado, el JBL Tune 520BT cumple para música y llamadas, siempre recordando que no cancela ruido de forma activa.",
     faqs: [
       { q: "¿La cancelación de ruido daña el oído?", a: "No. La ANC no emite un sonido dañino: genera una onda inversa que cancela el ruido externo. Algunas personas notan una ligera sensación de presión al principio, que desaparece con la adaptación. No hay ningún riesgo para la audición por usar la cancelación activa." },
-      { q: "¿Se puede usar el Sony XM5 en reuniones de trabajo?", a: "Sí. Su micrófono con beamforming funciona bien en llamadas; no es tan profesional como el del Jabra Evolve2 55, pero es perfectamente válido para reuniones de Teams o Zoom en un entorno relativamente silencioso. Si haces reuniones todo el día en un entorno ruidoso, el Jabra es superior." },
+      { q: "¿Se puede usar el Sony XM5 en reuniones de trabajo?", a: "Sí. Su micrófono con beamforming funciona bien en llamadas; no es tan profesional como el del Jabra Evolve2 65, pero es perfectamente válido para reuniones de Teams o Zoom en un entorno relativamente silencioso. Si haces reuniones todo el día en un entorno ruidoso, el Jabra es superior." },
       { q: "¿La ANC funciona con el ruido del teclado?", a: "La cancelación activa es muy efectiva con ruidos continuos (tráfico, aire acondicionado, rumor de fondo). Con ruidos impulsivos, como un teclado mecánico o una voz cercana, es menos efectiva; ahí el aislamiento pasivo de las almohadillas complementa a la ANC para reducir esos sonidos puntuales." },
-      { q: "¿Cuánto dura la batería con la cancelación activada?", a: "El Sony XM5 declara 30 horas con ANC; el Jabra Evolve2 55, 36 horas; y el JBL Tune 510BT llega a 40 horas, pero sin cancelación activa. En todos los casos, desactivar la ANC (cuando la tienen) aumenta la autonomía de forma notable." },
+      { q: "¿Cuánto dura la batería con la cancelación activada?", a: "El Sony XM5 declara 30 horas con ANC; el Jabra Evolve2 65 ofrece una batería de larga duración pensada para jornadas completas; y el JBL Tune 520BT, sin cancelación activa, llega hasta 57 horas. En todos los casos, desactivar la ANC (cuando la tienen) aumenta la autonomía de forma notable." },
     ],
   },
 
   "mejor-webcam-videollamadas-trabajo-remoto": {
-    intro: "La cámara integrada del portátil produce una imagen mediocre que comunica descuido en reuniones profesionales. Una webcam externa mejora drásticamente la percepción visual sin una gran inversión. Esta guía analiza la Logitech C920 como referencia, la Brio 4K como opción premium y cuándo tiene sentido añadir un micrófono externo.",
+    intro: "La cámara integrada del portátil produce una imagen mediocre que comunica descuido en reuniones profesionales. Una webcam externa mejora drásticamente la percepción visual sin una gran inversión. Esta guía analiza la Logitech C920 como referencia, la MX Brio 4K como opción premium y cuándo tiene sentido añadir un micrófono externo.",
     sections: [
       {
         heading: "Por qué la cámara del portátil no basta",
@@ -546,13 +546,13 @@ const articleContent: Record<string, {
         productSlug: "logitech-c920-hd-pro-webcam",
       },
       {
-        heading: "Logitech Brio 4K: el salto a la gama alta",
-        body: "Si haces streaming, grabas vídeo o quieres autenticación facial con Windows Hello, la Logitech Brio da un salto claro: resolución 4K con HDR, campo de visión ajustable (65°, 78° o 90°), obturador de privacidad físico y tres micrófonos con supresión de ruido. Para una videollamada de trabajo estándar es más de lo necesario, pero para producción de contenido o para quien quiere la mejor imagen posible, justifica la diferencia de precio frente a la C920.",
+        heading: "Logitech MX Brio 4K: el salto a la gama alta",
+        body: "Si haces streaming, grabas vídeo o simplemente quieres la mejor imagen posible en videollamada, la Logitech MX Brio da un salto claro: resolución Ultra HD 4K con hasta 1080p a 60 FPS, y certificación oficial para Microsoft Teams, Zoom y Google Meet. Para una videollamada de trabajo estándar es más de lo necesario, pero para producción de contenido o para quien quiere que su imagen destaque en cada reunión, justifica la diferencia de precio frente a la C920.",
         productSlug: "logitech-brio-4k-webcam",
       },
       {
         heading: "Cuándo añadir un micrófono externo",
-        body: "El micrófono integrado de la C920 es funcional, pero capta el ruido ambiente. Si tienes reuniones importantes frecuentes, una habitación con eco o haces formación y podcasting, un micrófono USB como el Blue Yeti mejora drásticamente la calidad de audio percibida, con cuatro patrones de captación y monitorización sin latencia. Si buscas algo más compacto y direccional, el Rode NT-USB Mini es una alternativa más económica que capta menos ambiente.",
+        body: "El micrófono integrado de la C920 es funcional, pero capta el ruido ambiente. Si tienes reuniones importantes frecuentes, una habitación con eco o haces formación y podcasting, un micrófono USB como el Blue Yeti mejora drásticamente la calidad de audio percibida, con cuatro patrones de captación y monitorización sin latencia. Si buscas algo más compacto con software de mezcla propio, el Elgato Wave:3 es una alternativa con antipop integrado y control de ganancia capacitivo.",
         productSlug: "blue-yeti-usb-microfono",
       },
     ],
@@ -560,21 +560,21 @@ const articleContent: Record<string, {
       headers: ["Producto", "Uso principal", "Precio", "Cuándo elegirlo"],
       rows: [
         ["Logitech C920", "Reuniones y videollamadas", "79,99 €", "Primera webcam externa"],
-        ["Logitech Brio 4K", "Streaming y grabación en 4K", "169,99 €", "Producción de contenido"],
+        ["Logitech MX Brio 4K", "Streaming y grabación en 4K", "159,99 €", "Producción de contenido"],
         ["Blue Yeti", "Audio profesional en reuniones y podcast", "129,99 €", "Cuando el audio importa mucho"],
       ],
     },
-    conclusion: "La Logitech C920 es la primera compra correcta para cualquier trabajador remoto que no tenga webcam externa. Si produces contenido o necesitas 4K y Windows Hello, la Brio justifica el salto. Y una vez resuelta la imagen, el mayor impacto siguiente viene del audio: un micrófono USB como el Blue Yeti —o el Rode NT-USB Mini, más asequible— eleva la calidad percibida en reuniones importantes.",
+    conclusion: "La Logitech C920 es la primera compra correcta para cualquier trabajador remoto que no tenga webcam externa. Si produces contenido o necesitas 4K y certificación para las principales plataformas de videollamada, la MX Brio justifica el salto. Y una vez resuelta la imagen, el mayor impacto siguiente viene del audio: un micrófono USB como el Blue Yeti —o el Elgato Wave:3, con su software de mezcla Wave Link— eleva la calidad percibida en reuniones importantes.",
     faqs: [
       { q: "¿La C920 funciona sin drivers en Mac?", a: "Sí, es plug-and-play en macOS: no requiere software para funcionar. La aplicación Logitech Capture es opcional y solo sirve para ajustes avanzados como el encuadre o la exposición manual." },
-      { q: "¿1080p es suficiente o necesito 4K?", a: "Para videollamadas de trabajo (Teams, Zoom, Meet), 1080p es más que suficiente, porque las plataformas comprimen el vídeo de todas formas. El 4K de la Brio aporta sobre todo en grabación y streaming, donde el archivo final conserva la resolución, no en la videollamada en sí." },
-      { q: "¿El Blue Yeti es demasiado sensible en una habitación con eco?", a: "Es un micrófono de condensador muy sensible que capta bien el ambiente, así que en habitaciones con eco puede necesitar un tratamiento acústico básico (alfombra, cortinas). Si buscas algo más sencillo y direccional que capte menos ambiente, el Rode NT-USB Mini o el HyperX SoloCast son mejores para ese caso." },
+      { q: "¿1080p es suficiente o necesito 4K?", a: "Para videollamadas de trabajo (Teams, Zoom, Meet), 1080p es más que suficiente, porque las plataformas comprimen el vídeo de todas formas. El 4K de la MX Brio aporta sobre todo en grabación y streaming, donde el archivo final conserva la resolución, no en la videollamada en sí." },
+      { q: "¿El Blue Yeti es demasiado sensible en una habitación con eco?", a: "Es un micrófono de condensador muy sensible que capta bien el ambiente, así que en habitaciones con eco puede necesitar un tratamiento acústico básico (alfombra, cortinas). Si buscas algo más sencillo con mezcla de audio integrada, el Elgato Wave:3 o el HyperX SoloCast son mejores para ese caso." },
       { q: "¿Se pueden usar la webcam y el micrófono a la vez?", a: "Sí, son dispositivos USB independientes. Puedes seleccionar la webcam para el vídeo y el micrófono USB para el audio en la configuración de Zoom, Teams o cualquier otra plataforma, sin conflicto entre ambos." },
     ],
   },
 
   "sony-wh1000xm5-analisis-opinion": {
-    intro: "Los Sony WH-1000XM5 son los auriculares con cancelación de ruido más recomendados del segmento de consumo. Su ANC lidera las comparativas técnicas desde su lanzamiento. Esta guía analiza qué hay detrás de esa reputación, cuáles son sus limitaciones reales y cuándo un auricular mucho más económico como el JBL Tune 510BT es suficiente.",
+    intro: "Los Sony WH-1000XM5 son los auriculares con cancelación de ruido más recomendados del segmento de consumo. Su ANC lidera las comparativas técnicas desde su lanzamiento. Esta guía analiza qué hay detrás de esa reputación, cuáles son sus limitaciones reales y cuándo un auricular mucho más económico como el JBL Tune 520BT es suficiente.",
     sections: [
       {
         heading: "La cancelación de ruido: por qué es la mejor",
@@ -589,8 +589,8 @@ const articleContent: Record<string, {
         body: "No se pliegan, a diferencia de la generación anterior (XM4), lo que hace el estuche más voluminoso y menos práctico para quien viaja mucho. Y como cualquier auricular, la cancelación es menos efectiva con ruidos impulsivos que con ruidos continuos. Ninguna de estas limitaciones es determinante para un uso de escritorio, pero conviene conocerlas antes de comprar si tu caso es la movilidad frecuente.",
       },
       {
-        heading: "Sony XM5 vs JBL Tune 510BT: la diferencia real",
-        body: "El JBL Tune 510BT, a 39,99 €, no tiene cancelación activa, pero ofrece 40 horas de batería, es plegable y suena sorprendentemente bien para su precio gracias al sonido Pure Bass. Para un home office silencioso donde no necesitas cancelar ruido, cumple de sobra para música y llamadas. Los XM5 justifican el salto de precio cuando el entorno es ruidoso o cuando también escuchas música con calidad y valoras la diferencia de audio.",
+        heading: "Sony XM5 vs JBL Tune 520BT: la diferencia real",
+        body: "El JBL Tune 520BT, a 39,99 €, no tiene cancelación activa, pero ofrece hasta 57 horas de batería, es plegable y suena sorprendentemente bien para su precio gracias al sonido Pure Bass. Para un home office silencioso donde no necesitas cancelar ruido, cumple de sobra para música y llamadas. Los XM5 justifican el salto de precio cuando el entorno es ruidoso o cuando también escuchas música con calidad y valoras la diferencia de audio.",
         productSlug: "jbl-tune-510bt-auriculares",
       },
       {
@@ -600,20 +600,21 @@ const articleContent: Record<string, {
       },
     ],
     comparison: {
-      headers: ["Característica", "Sony WH-1000XM5", "JBL Tune 510BT"],
+      headers: ["Característica", "Sony WH-1000XM5", "JBL Tune 520BT"],
       rows: [
         ["Precio", "279,00 €", "39,99 €"],
         ["Cancelación (ANC)", "Líder del sector", "No (pasiva)"],
-        ["Batería", "30 h", "40 h"],
+        ["Batería", "30 h", "Hasta 57 h"],
         ["Plegable", "No", "Sí"],
         ["Audio", "Hi-Res LDAC", "Pure Bass estándar"],
         ["Carga rápida", "3 min = 3 h", "No"],
+        ["Valoración", "4,3 (20.672 reseñas)", "4,7 (11.993 reseñas)"],
         ["Mejor para", "Ruido intenso y música", "Presupuesto y entorno tranquilo"],
       ],
     },
-    conclusion: "Los Sony XM5 son los mejores auriculares de consumo con cancelación de ruido, y su precio se justifica si trabajas en entornos ruidosos y valoras la calidad de audio. Para un home office tranquilo con presupuesto ajustado, el JBL Tune 510BT cubre música y llamadas por una fracción del precio, aceptando que no cancela ruido de forma activa. La elección depende de cuánto ruido tengas que combatir.",
+    conclusion: "Los Sony XM5 son los mejores auriculares de consumo con cancelación de ruido, y su precio se justifica si trabajas en entornos ruidosos y valoras la calidad de audio. Para un home office tranquilo con presupuesto ajustado, el JBL Tune 520BT cubre música y llamadas por una fracción del precio, aceptando que no cancela ruido de forma activa. La elección depende de cuánto ruido tengas que combatir.",
     faqs: [
-      { q: "¿Los XM5 sirven para llamadas de trabajo?", a: "Sí. El micrófono con beamforming funciona bien en llamadas; no es tan profesional como el de un auricular certificado como el Jabra Evolve2 55, pero para reuniones de Teams o Zoom en un entorno relativamente silencioso la calidad es buena y suficiente." },
+      { q: "¿Los XM5 sirven para llamadas de trabajo?", a: "Sí. El micrófono con beamforming funciona bien en llamadas; no es tan profesional como el de un auricular certificado como el Jabra Evolve2 65, pero para reuniones de Teams o Zoom en un entorno relativamente silencioso la calidad es buena y suficiente." },
       { q: "¿Tienen modo transparencia?", a: "Sí. El modo transparencia permite escuchar el entorno sin quitártelos, útil para una conversación puntual, un anuncio en transporte o para estar atento a lo que ocurre alrededor sin interrumpir lo que estás escuchando." },
       { q: "¿Se pueden usar con cable?", a: "Sí, incluyen un cable de 3,5 mm para uso cableado cuando se agota la batería, y también funcionan con cable estando apagados. Es una red de seguridad útil para jornadas largas o viajes en los que no puedes cargarlos." },
       { q: "¿Cuánto tardan en cargar?", a: "La carga completa lleva unas 3,5 horas por USB-C, y con solo 3 minutos de carga proporcionan unas 3 horas de uso gracias a la carga rápida. En la práctica, un pequeño enchufe a mediodía basta para llegar al final del día." },
@@ -621,7 +622,7 @@ const articleContent: Record<string, {
   },
 
   "iluminacion-videollamadas-home-office": {
-    intro: "La iluminación es el factor que más mejora la imagen en una videollamada, por encima de la calidad de la webcam. Con una cámara básica y buena luz, la imagen supera a la de una cámara premium mal iluminada. Esta guía explica cómo iluminar el home office y compara las dos soluciones del catálogo: el panel Elgato Key Light Air y el aro de luz Neewer.",
+    intro: "La iluminación es el factor que más mejora la imagen en una videollamada, por encima de la calidad de la webcam. Con una cámara básica y buena luz, la imagen supera a la de una cámara premium mal iluminada. Esta guía explica cómo iluminar el home office y compara las dos soluciones del catálogo: el panel Elgato Key Light Air y el aro de luz NEEWER RP18B Pro.",
     sections: [
       {
         heading: "La regla básica de iluminación",
@@ -629,7 +630,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Panel vs aro de luz: cuál elegir",
-        body: "El panel LED, como el Elgato Key Light Air, da una luz amplia y uniforme, ideal fija sobre el escritorio y discreta en reuniones. El aro de luz, como el Neewer, rodea la cámara y produce una iluminación frontal envolvente con un característico reflejo circular en los ojos; es más versátil y portátil, y suele incluir trípode. Para videollamadas de trabajo serias, el panel resulta más discreto; para creación de contenido y grabación con el móvil, el aro es más flexible.",
+        body: "El panel LED, como el Elgato Key Light Air, da una luz amplia y uniforme, ideal fija sobre el escritorio y discreta en reuniones. El aro de luz, como el NEEWER RP18B Pro, rodea la cámara y produce una iluminación frontal envolvente con un característico reflejo circular en los ojos; es más versátil y portátil, y suele incluir soporte para móvil. Para videollamadas de trabajo serias, el panel resulta más discreto; para creación de contenido y grabación con el móvil, el aro es más flexible.",
       },
       {
         heading: "Elgato Key Light Air: la más práctica para home office",
@@ -637,28 +638,28 @@ const articleContent: Record<string, {
         productSlug: "elgato-key-light-air",
       },
       {
-        heading: "Neewer Ring Light 18\": el mejor precio-versatilidad",
-        body: "El aro de luz Neewer de 18\" (46 cm) ofrece temperatura ajustable de 3.200 a 5.500 K, 10 niveles de brillo, y trípode de hasta 2 metros y soporte para móvil incluidos, todo por 45,99 €. Es la opción para quien quiere una luz de vídeo versátil y completa sin gastar cerca de 100 euros, especialmente si además graba con el móvil o quiere poder moverla. A cambio, la construcción es más ajustada al precio y no tiene control por app.",
+        heading: "NEEWER RP18B Pro 18\": potencia y control por app",
+        body: "El aro de luz NEEWER RP18B Pro de 18\" ofrece 45W de potencia con temperatura ajustable de 2.900 a 7.000 K y un TLCI de 98 para una reproducción de color muy fiel, además de control por app y obturador remoto incluidos, todo por 150,19 €. Es la opción para quien quiere una luz de vídeo potente y de color preciso, especialmente si además graba con el móvil y quiere manejar la luz sin tocarla. A cambio, su precio es superior al de generaciones anteriores del mismo aro.",
         productSlug: "neewer-ring-light-18-pulgadas",
       },
       {
         heading: "¿Cuál elegir según tu uso?",
-        body: "Si tu prioridad son las videollamadas de trabajo y valoras controlar la luz desde el ordenador, el Elgato Key Light Air es la elección más práctica y discreta. Si buscas el mejor precio, grabas con el móvil o quieres un setup portátil con trípode, el Neewer Ring Light ofrece mucho por 45,99 €. Ambos mejoran tu imagen bastante más que cambiar de webcam.",
+        body: "Si tu prioridad son las videollamadas de trabajo y valoras controlar la luz desde el ordenador, el Elgato Key Light Air es la elección más práctica y discreta. Si buscas una luz de vídeo potente y de color muy fiel, grabas con el móvil o quieres control por app y obturador remoto, el NEEWER RP18B Pro ofrece mucho por su precio. Ambos mejoran tu imagen bastante más que cambiar de webcam.",
       },
     ],
     comparison: {
-      headers: ["Criterio", "Elgato Key Light Air", "Neewer Ring Light 18\""],
+      headers: ["Criterio", "Elgato Key Light Air", "NEEWER RP18B Pro 18\""],
       rows: [
-        ["Precio", "99,99 €", "45,99 €"],
+        ["Precio", "99,99 €", "150,19 €"],
         ["Tipo", "Panel LED", "Aro de luz"],
-        ["Potencia / tamaño", "1.400 lúmenes, 80 LEDs", "Aro de 46 cm"],
-        ["Temperatura de color", "2.900-7.000 K", "3.200-5.500 K"],
-        ["Control", "App + Stream Deck", "Manual (10 niveles)"],
-        ["Trípode", "No incluido", "Incluido (hasta 2 m)"],
-        ["Mejor para", "Videollamadas y control por app", "Precio y versatilidad"],
+        ["Potencia / tamaño", "1.400 lúmenes, 80 LEDs", "45W, aro de 18 pulgadas"],
+        ["Temperatura de color", "2.900-7.000 K", "2.900-7.000 K"],
+        ["TLCI", "No especificado", "98"],
+        ["Control", "App + Stream Deck", "App + obturador remoto"],
+        ["Mejor para", "Videollamadas y control por app", "Precisión de color y grabación con móvil"],
       ],
     },
-    conclusion: "Para videollamadas de trabajo, el Elgato Key Light Air es la opción más práctica por su control desde el ordenador y su luz de panel discreta. Para quien busca el mejor precio y una solución versátil con trípode incluido, el Neewer Ring Light por 45,99 € es difícil de superar. Ambos mejoran tu imagen mucho más que cualquier cambio de webcam.",
+    conclusion: "Para videollamadas de trabajo, el Elgato Key Light Air es la opción más práctica por su control desde el ordenador y su luz de panel discreta. Para quien busca una luz de vídeo potente con un TLCI muy alto y control por app y obturador remoto, el NEEWER RP18B Pro por 150,19 € es difícil de superar. Ambos mejoran tu imagen mucho más que cualquier cambio de webcam.",
     faqs: [
       { q: "¿Un aro de luz funciona bien para videollamadas de trabajo?", a: "Funciona, pero produce un reflejo circular en los ojos que en un contexto profesional puede parecer poco natural. Un panel como el Elgato da una luz más difusa y discreta; el aro luce más en creación de contenido y en grabación con el móvil, donde ese reflejo es parte del acabado buscado." },
       { q: "¿Necesito dos luces para videollamadas?", a: "Para un setup básico de videollamadas, una sola fuente de luz frontal es suficiente. El esquema de dos luces (una principal más fuerte y una de relleno más suave) da resultados más equilibrados, pero es más complejo de montar y rara vez necesario para reuniones de trabajo." },
@@ -767,8 +768,8 @@ const articleContent: Record<string, {
         productSlug: "blue-yeti-usb-microfono",
       },
       {
-        heading: "Para audio direccional y sencillo",
-        body: "Si grabas solo tu voz y quieres captar menos ruido ambiente sin complicarte, el Rode NT-USB Mini (cardioide, base magnética, 99 €) es más manejable que el Blue Yeti y ocupa menos espacio en el escritorio. Es una gran opción para quien empieza a crear contenido y prefiere un micrófono directo y sin ajustes, con la calidad de sonido característica de Rode.",
+        heading: "Para audio con mezcla integrada",
+        body: "Si grabas tu voz y quieres poder mezclarla con el audio del sistema sin complicarte con hardware adicional, el Elgato Wave:3 (cardioide, software Wave Link, 99,99 €) es una alternativa muy valorada al Blue Yeti que ocupa un espacio similar en el escritorio. Es una gran opción para quien empieza a crear contenido y quiere control de ganancia capacitivo y un antipop de doble capa integrado sin accesorios extra.",
         productSlug: "rode-nt-usb-mini-microfono",
       },
       {
@@ -1179,122 +1180,162 @@ const articleContent: Record<string, {
     },
   ],
 },
-  "montar-estudio-podcast-streaming-casa-guia-2025": {
-  intro:
-    "Cada vez más autónomos y pequeñas empresas graban podcasts, cursos online o contenido para LinkedIn y YouTube como parte de su estrategia de captación. El problema no suele ser el contenido, sino la ejecución técnica: un audio con eco o ruido de fondo, o una imagen mal iluminada, transmiten poca profesionalidad aunque el mensaje sea bueno. Montar un mini estudio casero decente no exige una sala insonorizada ni un presupuesto de miles de euros — exige acertar en tres decisiones concretas: micrófono, iluminación y cámara, en ese orden de prioridad. Esta guía explica qué comprar según tu nivel de exigencia y por qué el orden importa.",
-  sections: [
-    {
-      heading: "Antes de comprar nada: el espacio importa más que el equipo",
-      body: "El error más habitual es invertir en un micrófono caro y grabar en una habitación con paredes lisas y suelo duro, donde el sonido rebota y genera un eco perceptible incluso con un buen micrófono. Antes de gastar en equipo, revisa el espacio: una habitación con estanterías llenas de libros, cortinas gruesas, alfombra y algún mueble tapizado absorbe reflejos de forma notable y gratuita. Grabar dentro de un armario ropero (literalmente, con la ropa como aislante) es un truco real usado por profesionales cuando no hay presupuesto para paneles acústicos. Si después de optimizar el espacio el eco sigue siendo un problema, unos paneles acústicos autoadhesivos de espuma cuestan poco y resuelven la mayoría de casos domésticos antes de plantearse una reforma.",
-    },
-    {
-      heading: "Micrófono: por qué el dinámico gana la partida en una habitación no tratada",
-      body: "La diferencia entre un micrófono de condensador (como el Blue Yeti o el Rode NT-USB Mini) y uno dinámico como el Shure MV7 no es solo de precio: es de comportamiento acústico. Un condensador es más sensible y capta con más detalle, pero también capta más ruido de fondo y reverberación de la sala — por eso suena mejor en un estudio tratado acústicamente. Un dinámico como el MV7 es menos sensible por diseño, lo que en la práctica significa que rechaza mejor el ruido ambiente y el eco de una habitación normal siempre que se hable relativamente cerca del micrófono (10-15 cm). Para quien graba en un dormitorio o despacho sin tratamiento acústico, un dinámico bien configurado suena más profesional que un condensador de gama alta mal utilizado en el mismo espacio, y el MV7 añade la ventaja de poder pasar a XLR el día que se conecte a una mesa de mezclas.",
-      productSlug: "shure-mv7-microfono-usb-xlr",
-    },
-    {
-      heading: "Iluminación: fija de estudio o portátil, según cómo grabes",
-      body: "La regla básica de iluminación para vídeo es tener al menos una fuente de luz frontal-lateral suave, nunca la luz cenital del techo (genera sombras bajo los ojos) ni el contraluz de una ventana a la espalda (oscurece la cara). A partir de ahí, la elección depende del uso: quien graba siempre en el mismo sitio —una videollamada de venta, un curso grabado en el mismo rincón del despacho— se beneficia de un panel de mayor potencia y control fino de color, como el Neewer 660, con soporte de luz dedicado. Quien graba en distintos sitios de la casa o se lleva el portátil a una cafetería para una reunión importante necesita algo que se monte y desmonte en segundos y no dependa de un enchufe cercano: ahí es donde un panel portátil con batería como el Elgato Key Light Mini tiene sentido, aunque su potencia sea menor.",
-      productSlug: "neewer-660-led-panel-bicolor",
-    },
-    {
-      heading: "Webcam: cuándo el móvil no es suficiente",
-      body: "Para una videollamada puntual, el móvil apoyado en un soporte suele bastar. Para grabar contenido con regularidad —un podcast en vídeo, clases grabadas, entrevistas— el móvil deja de ser práctico: se calienta, ocupa el teléfono durante horas y su ángulo de cámara ancho distorsiona la cara en planos cercanos. Una webcam dedicada como la Logitech Brio 4K, ya analizada en la guía de mejores webcams del blog, resuelve esto con un campo visual ajustable y mejor comportamiento en contraluz. Si el presupuesto es ajustado, la Logitech C920 sigue siendo una opción sobresaliente en 1080p. La cámara es la última prioridad de las tres precisamente porque su impacto percibido es menor que el de un mal audio: un vídeo con imagen mediocre pero audio limpio se sigue viendo; un vídeo con imagen perfecta y audio con eco se abandona a los pocos segundos.",
-    },
-    {
-      heading: "El estudio por niveles de presupuesto",
-      body: "Nivel básico (equipo que ya tienes + inversión mínima): micrófono USB de entrada como el HyperX SoloCast, luz natural de una ventana lateral bien aprovechada y la webcam del portátil. Válido para empezar a grabar sin freno. Nivel intermedio: un micrófono condensador algo mejor (Rode NT-USB Mini), un panel de luz único —Elgato Key Light Mini si necesitas portabilidad, Neewer 660 si grabas siempre en el mismo sitio— y una webcam dedicada como la Logitech C920. Es el punto donde la mayoría de creadores de contenido serios deberían estar. Nivel profesional: Shure MV7 en modo USB con posibilidad de pasar a XLR más adelante, panel Neewer 660 como luz principal más un segundo punto de luz de relleno, y una webcam 4K como la Brio. La diferencia de calidad percibida entre nivel básico e intermedio es enorme; entre intermedio y profesional es más sutil y solo se justifica si el contenido es ya una fuente de ingresos.",
-    },
-  ],
-  comparison: {
-    headers: ["Criterio", "Elgato Key Light Mini", "Neewer 660 LED Panel"],
-    rows: [
-      ["Alimentación", "Batería recargable (portátil)", "Cable — sin batería"],
-      ["Potencia", "800 lúmenes", "660 LEDs, mayor superficie de luz"],
-      ["Control", "App + Stream Deck", "Pantalla LCD manual"],
-      ["Portabilidad", "Alta — se monta en segundos", "Media — requiere soporte de luz aparte"],
-      ["Mejor para", "Grabar en distintos sitios", "Punto fijo de grabación en casa"],
-    ],
-  },
-  conclusion:
-    "Un estudio casero decente no depende de un solo producto caro, sino de resolver bien las tres capas en orden: primero el espacio y el audio, después la luz, y en último lugar la cámara. Si solo puedes hacer una inversión ahora, que sea en el micrófono — es la que más se nota y la que menos se puede corregir después en edición. Nuestra recomendación editorial: para quien empieza a monetizar contenido en serio, el Shure MV7 más un panel de luz único (Key Light Mini si te mueves, Neewer 660 si grabas siempre en el mismo sitio) cubre la gran mayoría de necesidades de un creador o autónomo durante años, sin necesitar una sala insonorizada ni una inversión de estudio profesional.",
-  faqs: [
-    {
-      q: "¿Necesito un micrófono XLR o basta con USB?",
-      a: "Para empezar, USB es suficiente y más sencillo: se conecta directamente al ordenador sin interfaz de audio adicional. La ventaja de un micrófono como el Shure MV7, que ofrece ambas salidas, es que puedes empezar en USB y pasar a XLR el día que añadas una mesa de mezclas o grabes con varias personas a la vez, sin tener que comprar otro micrófono.",
-    },
-    {
-      q: "¿Cuánto cuesta montar un estudio casero decente?",
-      a: "Un nivel intermedio funcional —micrófono condensador de gama media, un panel de luz y una webcam dedicada— es una inversión moderada y accesible para un autónomo que ya facture con su contenido. El salto de mayor impacto percibido es del nivel básico (equipo que ya tienes) al intermedio; el salto al nivel profesional es más caro y con una mejora de calidad más sutil, solo justificable cuando el contenido genera ingresos recurrentes.",
-    },
-    {
-      q: "¿Cómo insonorizar una habitación sin hacer obra?",
-      a: "Con elementos textiles y de superficie: estanterías con libros, cortinas gruesas, alfombra, algún mueble tapizado y, si el eco persiste, paneles acústicos autoadhesivos de espuma en las paredes desnudas más cercanas al micrófono. No es insonorización real (no bloquea el ruido que entra de fuera) pero sí trata la reverberación interior, que es lo que más afecta a la calidad percibida de una grabación casera.",
-    },
-    {
-      q: "¿Puedo usar el móvil en vez de webcam?",
-      a: "Para videollamadas puntuales sí, y de hecho la cámara de un móvil de gama media-alta suele superar en calidad de sensor a muchas webcams. El problema es práctico: necesitas un soporte estable, el teléfono queda ocupado durante toda la grabación y se calienta con el uso prolongado. Para contenido regular, una webcam dedicada libera el móvil y simplifica la configuración cada vez que grabas.",
-    },
-  ],
-},
-  "mejor-software-facturacion-autonomos-2026": {
-    intro:
-      "Casi cualquier autónomo que empieza a facturar acaba haciéndolo primero en una plantilla de Excel o Word, y el cambio a un software dedicado suele llegar tarde: cuando ya ha habido un error en el IVA, una factura duplicada o una tarde perdida cuadrando cifras antes de la declaración trimestral. Elegir bien no es una cuestión de qué herramienta tiene más funciones, sino de cuál encaja con tu volumen real de facturación y con la obligación normativa que ya está en marcha: VeriFactu. Esta guía compara tres opciones representativas del mercado español y explica qué debe cumplir cualquier programa que elijas a partir de ahora.",
+
+  "hjh-office-ergohuman-slim-gen2-analisis": {
+    intro: "La familia Ergohuman es una referencia histórica en sillas ergonómicas de gama alta, y la hjh OFFICE Ergohuman Slim GEN2 es la evolución más reciente de ese diseño original. Con un precio cercano a los 800€, se sitúa en la franja premium del catálogo. Este análisis revisa qué ofrece realmente, para quién tiene sentido esa inversión y cómo se compara con la Secretlab Titan EVO, la otra opción de gama alta del catálogo.",
     sections: [
       {
-        heading: "Qué es VeriFactu y por qué condiciona la elección del software",
-        body: "VeriFactu es el sistema derivado de la Ley Antifraude que obliga a los programas de facturación a garantizar que los registros no puedan alterarse, borrarse ni manipularse una vez creados: cada factura genera un registro encadenado con las anteriores, con huella digital, de forma que cualquier modificación posterior queda rastreada. No es un impuesto nuevo ni un trámite adicional para el autónomo — es un requisito técnico que el software debe cumplir. El calendario se ha movido ya una vez: la obligación para empresas entró en vigor el 1 de enero de 2026, y la de autónomos, inicialmente prevista para julio de 2026, se ha aplazado a julio de 2027 según la información disponible a fecha de esta guía. Dicho esto, elegir ya un programa compatible con VeriFactu evita una migración forzada más adelante y es, a estas alturas, un criterio de compra tan importante como el precio.",
+        heading: "El diseño Ergohuman original, actualizado",
+        body: "La Ergohuman es una de las sillas de oficina más copiadas del mercado, y con razón: su filosofía de diseño prioriza el soporte lumbar flexible que acompaña el movimiento de la espalda en lugar de fijarla en una única posición. La versión Slim GEN2 de hjh OFFICE mantiene esa filosofía en un formato algo más compacto que las versiones clásicas, con respaldo de malla transpirable que evita la sudoración en jornadas largas.",
+        productSlug: "ergohuman-plus-silla-malla",
       },
       {
-        heading: "Holded: la opción más completa para quien factura con volumen",
-        body: "Holded se ha posicionado como un ERP ligero más que como un simple facturador: además de emitir facturas, gestiona presupuestos, gastos, proyectos, inventario y contabilidad conectada con el asesor. Es la opción más adecuada cuando el negocio ya no es solo el autónomo facturando servicios, sino que hay algo de inventario, varios flujos de ingresos o la previsión de contratar en los próximos meses. La curva de aprendizaje es mayor que la de un facturador simple, y ese es precisamente el motivo por el que no conviene para quien solo necesita emitir cuatro o cinco facturas al mes.",
+        heading: "¿Para quién tiene sentido pagar casi 800€?",
+        body: "Una silla de esta gama de precio solo se justifica si vas a pasar muchas horas sentado durante varios años y quieres el soporte lumbar más avanzado disponible sin llegar a un sillón de oficina corporativo de 1.500€. Si tu jornada es de menos de 5-6 horas diarias, o llevas poco tiempo en teletrabajo y no sabes aún qué tipo de ajuste necesitas, hay opciones del catálogo bastante más económicas (como la HOLLUDLE o la Ticova) que cubren la mayoría de necesidades ergonómicas básicas por una fracción del precio.",
       },
       {
-        heading: "Quipu: el equilibrio para el autónomo que también lleva su contabilidad",
-        body: "Quipu está pensado específicamente para autónomos y pequeñas empresas que quieren automatizar no solo la factura sino también el trimestre fiscal: categoriza gastos automáticamente, calcula las retenciones y estimaciones de IVA e IRPF, y genera los modelos que después el gestor presenta (o que el propio autónomo presenta si lleva su contabilidad sin asesor). Su punto fuerte es la conexión bancaria para importar movimientos y conciliar gastos sin introducirlos a mano. Para quien todavía no tiene gestor y quiere ganar visibilidad fiscal sin comprar un ERP completo, es el punto intermedio más razonable del mercado.",
-      },
-      {
-        heading: "Billin: la opción más sencilla para quien solo necesita facturar",
-        body: "Billin resuelve el caso de uso más básico y común: emitir facturas con buena presencia, series numeradas correctamente, aplicar retenciones e IVA sin errores, y poco más. No sustituye a un gestor ni pretende llevar la contabilidad completa, pero para un autónomo que solo necesita facturar de forma correcta y legal —freelancers, consultores, creadores de contenido que facturan a pocas marcas al mes— es la opción con menor fricción y menor coste. La contrapartida es que, si el negocio crece, es probable que en algún momento haga falta migrar a una herramienta con más funciones como Quipu u Holded.",
-      },
-      {
-        heading: "Cómo elegir según tu situación real",
-        body: "El criterio no debería ser cuál programa \"suena mejor\", sino tres preguntas concretas: ¿cuántas facturas emites al mes? Por debajo de diez, un facturador simple tipo Billin es suficiente. ¿Llevas tú mismo la contabilidad o tienes gestor? Si llevas tú la parte fiscal, una herramienta con cálculo automático de modelos como Quipu ahorra errores reales. ¿Tu negocio incluye algo más que servicios facturados uno a uno —inventario, proyectos, varios flujos de ingresos—? Ahí Holded empieza a justificar su curva de aprendizaje. Y en cualquiera de los tres casos, confirma directamente en la web del proveedor que el plan que vas a contratar ya es compatible con VeriFactu antes de dar de alta tu primera factura, porque las condiciones y calendarios de adaptación cambian con cierta frecuencia.",
+        heading: "Ergohuman Slim GEN2 vs Secretlab Titan EVO",
+        body: "Ambas son la gama alta del catálogo, pero con filosofías distintas. La Secretlab Titan EVO viene del mundo gaming y prioriza tapizado resistente, cojín cervical magnético y una estética más orientada a streaming. La Ergohuman Slim GEN2 viene del mundo del mobiliario de oficina profesional y prioriza el soporte lumbar flexible y la malla transpirable. Si buscas una silla que combine con un despacho tradicional, la Ergohuman encaja mejor; si te da igual la estética y priorizas la robustez del tapizado, la Titan EVO es la alternativa.",
+        productSlug: "secretlab-titan-evo-2022-silla",
       },
     ],
     comparison: {
-      headers: ["Criterio", "Billin", "Quipu", "Holded"],
+      headers: ["Criterio", "hjh OFFICE Ergohuman Slim GEN2", "Secretlab Titan EVO"],
       rows: [
-        ["Perfil de usuario", "Autónomo con pocas facturas/mes", "Autónomo que lleva su fiscalidad", "Negocio con inventario o proyectos"],
-        ["Cálculo automático de IVA/IRPF", "Básico", "Sí, con modelos trimestrales", "Sí, integrado en contabilidad"],
-        ["Conexión bancaria", "Limitada", "Sí, conciliación automática", "Sí"],
-        ["Gestión de proyectos/inventario", "No", "No", "Sí"],
-        ["Curva de aprendizaje", "Baja", "Media", "Media-alta"],
+        ["Precio", "789,90 €", "659,00 €"],
+        ["Origen del diseño", "Mobiliario de oficina profesional", "Sillas gaming"],
+        ["Respaldo", "Malla transpirable", "Tejido"],
+        ["Lumbar", "Flexible, adaptativo", "Integrado"],
+        ["Estética", "Oficina tradicional", "Gaming/streaming"],
       ],
     },
-    conclusion:
-      "No existe un \"mejor\" software de facturación en abstracto — existe el que encaja con tu volumen y con cuánta parte de la fiscalidad llevas tú mismo. Nuestra valoración editorial: para empezar sin gestor y con pocas facturas, Billin minimiza la fricción; en cuanto la fiscalidad se complica o quieres dejar de depender solo del gestor para entender tus números, Quipu es la inversión que más se nota en tranquilidad; y Holded solo se justifica cuando el negocio ya no es un autónomo facturando horas, sino algo con inventario o varios proyectos en marcha. Sea cual sea tu elección, verifica la compatibilidad VeriFactu del plan concreto que vas a contratar antes de darte de alta, porque el calendario de esta obligación ya se ha movido una vez y conviene no depender de un programa que se quede corto cuando llegue la fecha definitiva.",
-    sources: [
-      { label: "VeriFactu: obligaciones y calendario 2026-2027 (autónomos y empresas)", url: "https://www.autonomosyemprendedor.es/articulo/autonomos/nuevos-plazos-verifactu-2027-que-autonomos-van-tener-que-cambiar-programas-facturacion/20251230143941047321.html" },
-      { label: "Agencia Tributaria — Sistemas informáticos de facturación (Ley Antifraude)", url: "https://www.agenciatributaria.es" },
-    ],
+    conclusion: "La hjh OFFICE Ergohuman Slim GEN2 es una inversión que solo se justifica para quien pasa muchas horas sentado, valora el diseño Ergohuman clásico y quiere que su silla combine con un despacho tradicional antes que con un setup gaming. Para la mayoría de teletrabajadores, una opción de gama media del catálogo cubre las necesidades ergonómicas básicas por bastante menos dinero; esta silla es para quien ya sabe que necesita ese nivel de ajuste y está dispuesto a pagarlo.",
+    sources: [{ label: "Ficha de producto en Amazon.es", url: "https://www.amazon.es/dp/B0C7H87W7X" }],
     faqs: [
+      { q: "¿Qué significa que el soporte lumbar sea 'flexible' en vez de fijo?", a: "Un soporte lumbar fijo mantiene siempre la misma forma y posición. Uno flexible, como el de la familia Ergohuman, se adapta y cede ligeramente con el movimiento de la espalda al inclinarse o recolocarse, en lugar de imponer una única postura rígida durante toda la jornada." },
+      { q: "¿Merece la pena frente a una silla de 200€?", a: "Depende de tus horas de uso y de si ya has identificado necesidades ergonómicas específicas. Para una jornada de 8 horas diarias durante varios años, el coste diario de una silla de 800€ es muy bajo comparado con el de una consulta de fisioterapia. Para uso más ocasional, una silla de gama media cubre de sobra las necesidades básicas." },
+      { q: "¿Por qué el color de este modelo es verde?", a: "El ASIN verificado de este listado en Amazon.es corresponde a la variante en malla verde. Si prefieres otro color, comprueba en la ficha de producto si hjh OFFICE ofrece otras variantes disponibles en el momento de tu compra." },
+    ],
+  },
+
+  "baseus-docking-station-12en1-analisis": {
+    intro: "La mayoría de hubs USB-C del mercado, incluidos los UGREEN y Anker de este mismo catálogo, sacan una única señal de vídeo por HDMI. El Baseus 12 en 1 es distinto: permite conectar dos monitores externos simultáneos —uno por HDMI y otro por DisplayPort— ambos a 4K60Hz, desde un único cable USB-C. Este análisis revisa si esa característica compensa su rating algo más bajo que la competencia UGREEN/Anker.",
+    sections: [
       {
-        q: "¿Es obligatorio VeriFactu para autónomos en 2026?",
-        a: "Según la información disponible a fecha de esta guía, la obligación para empresas rige desde el 1 de enero de 2026, y la de autónomos se ha aplazado de julio de 2026 a julio de 2027. El calendario ya se ha movido una vez, así que conviene verificar la fecha vigente en el momento de leer esto y no dar por definitivo ningún plazo sin confirmarlo en una fuente oficial actualizada.",
+        heading: "La característica que lo diferencia: doble salida de vídeo",
+        body: "Para quien trabaja con un setup de dos monitores externos desde un portátil, la alternativa habitual sin el Baseus es usar dos hubs distintos o un dock más caro con Thunderbolt. El Baseus 12 en 1 resuelve esto con un único cable: HDMI y DisplayPort simultáneos, ambos a 4K y 60Hz, algo que ni la UGREEN Revodok Pro 210 ni los hubs Anker de este catálogo ofrecen en su gama de precio.",
+        productSlug: "baseus-docking-station-12en1",
       },
       {
-        q: "¿Puedo seguir facturando con una plantilla de Excel?",
-        a: "Legalmente, mientras no factures con un programa informático, no aplican las obligaciones técnicas de VeriFactu — pero una plantilla manual no calcula retenciones ni modelos trimestrales, no numera series de forma segura y multiplica el riesgo de error humano según crece el volumen de facturas. Es una opción solo defendible para el arranque con muy pocas facturas al mes.",
+        heading: "¿Por qué su valoración es algo inferior?",
+        body: "Con 4,1 estrellas sobre 859 valoraciones, el Baseus puntúa algo por debajo de la UGREEN Revodok Pro 210 (4,4/3.823) o el Anker 565 (4,3/2.613). Esto no significa que sea un mal producto: Baseus es una marca establecida y fiable, pero UGREEN y Anker llevan más tiempo puliendo sus hubs multipuerto y tienen una base de usuarios mayor. Si la doble salida de vídeo no es una necesidad real para tu setup, UGREEN o Anker son la opción más segura por su historial más largo.",
+        productSlug: "ugreen-revodok-hub-usbc-10en1",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "Baseus 12 en 1", "UGREEN Revodok Pro 210"],
+      rows: [
+        ["Precio", "89,99 €", "37,99 €"],
+        ["Salidas de vídeo", "2× HDMI+DP a 4K60Hz simultáneos", "2× HDMI 4K60Hz o 1× 8K30Hz"],
+        ["Carga PD", "100W", "100W"],
+        ["Ethernet", "Gigabit", "Gigabit"],
+        ["Rating Amazon.es", "4,1 (859)", "4,4 (3.823)"],
+      ],
+    },
+    conclusion: "El Baseus 12 en 1 es la única opción de este catálogo con salida simultánea de dos monitores externos a 4K60Hz desde un solo cable, una función real de productividad para quien trabaja con doble pantalla. Si necesitas exactamente eso, justifica su precio. Si tu setup es de un solo monitor externo, la UGREEN Revodok Pro 210 ofrece prestaciones muy similares por menos de la mitad de precio y con más valoraciones respaldándola.",
+    faqs: [
+      { q: "¿Necesito una tarjeta gráfica potente para dos monitores 4K60Hz?", a: "No especialmente para tareas de oficina: la mayoría de gráficos integrados modernos (Intel Iris Xe, AMD Radeon integrada, Apple M-series) soportan dos salidas 4K60Hz sin problema. Para edición de vídeo pesada o gaming en ambos monitores sí conviene una gráfica dedicada, pero para hojas de cálculo, navegación y videollamadas no es necesario." },
+      { q: "¿El HDMI y el DisplayPort funcionan a la vez o hay que elegir uno?", a: "Según la ficha de producto, ambas salidas funcionan simultáneamente a 4K60Hz, permitiendo un setup real de doble monitor desde un único cable USB-C al portátil." },
+      { q: "¿Es compatible con MacBook?", a: "Sí, el fabricante indica compatibilidad con MacBook, Dell, HP, Surface y Steam Deck, aunque conviene recordar que los Mac con chip M1 solo soportan de forma nativa un monitor externo adicional salvo que uses software adicional tipo DisplayLink; los M2 Pro/Max y superiores sí soportan múltiples monitores externos nativamente." },
+    ],
+  },
+
+  "soundcore-space-one-analisis": {
+    intro: "Los Sony WH-1000XM5 son los auriculares de referencia del catálogo, pero a más de 279€ no están al alcance de todos los presupuestos. Los Soundcore Space One, de la marca de accesorios de Anker, cuestan una fracción de ese precio y prometen ANC adaptativa y audio de alta resolución. Este análisis compara ambos para saber si la diferencia de precio se nota realmente en el uso diario.",
+    sections: [
+      {
+        heading: "ANC adaptativa: la característica que sorprende en su rango de precio",
+        body: "A diferencia de un ANC de intensidad fija, la cancelación adaptativa de los Space One ajusta automáticamente el nivel de cancelación según el ruido del entorno: más agresiva en un vuelo o una calle ruidosa, más suave en una oficina tranquila donde una cancelación excesiva puede generar sensación de presión en los oídos. Es una función que hasta hace poco solo se encontraba en auriculares de gama alta como los propios Sony.",
+        productSlug: "soundcore-space-one-auriculares",
       },
       {
-        q: "¿Qué pasa si cambio de software de facturación a mitad de año?",
-        a: "La mayoría de programas permiten exportar el histórico de facturas en formatos estándar (PDF, CSV, a veces XML), pero conviene revisar antes de contratar cómo gestiona cada proveedor la numeración de series si migras a mitad de ejercicio fiscal, para no duplicar ni saltar números de factura.",
+        heading: "Dónde sí se nota la diferencia con el Sony XM5",
+        body: "El ANC de los Sony WH-1000XM5, con sus 8 micrófonos y 2 procesadores dedicados, sigue siendo superior en entornos muy ruidosos y constantes (avión, tráfico denso). La calidad de construcción y de los materiales también es perceptiblemente superior en el Sony. Y el micrófono de llamadas del XM5 está más pulido para videollamadas profesionales. Si tu prioridad es la cancelación de ruido al máximo nivel posible y el presupuesto no es un problema, el Sony sigue siendo la referencia.",
+        productSlug: "sony-wh-1000xm5-auriculares",
       },
       {
-        q: "¿Necesito un gestor si uso uno de estos programas?",
-        a: "No es obligatorio, pero depende de tu perfil fiscal: si tu actividad es sencilla (un solo régimen, sin empleados, sin IVA intracomunitario), herramientas como Quipu permiten presentar los modelos trimestrales sin gestor. Si tu situación fiscal es más compleja, el software ayuda a organizar los datos, pero no sustituye el criterio de un asesor.",
+        heading: "¿Para quién son suficientes los Soundcore?",
+        body: "Si tu entorno de trabajo es una oficina en casa razonablemente tranquila, unos vecinos ocasionales o el ruido de una cafetería, la ANC adaptativa de los Space One cubre de sobra esas necesidades. Con códec LDAC para audio de alta resolución y hasta 40 horas de batería, ofrecen una experiencia muy cercana a la de auriculares mucho más caros para el uso diario de música y concentración, aunque sin la certificación profesional para plataformas de videollamadas que sí tiene un Jabra.",
       },
+    ],
+    comparison: {
+      headers: ["Criterio", "Soundcore Space One", "Sony WH-1000XM5"],
+      rows: [
+        ["Precio", "75,99 €", "Consultar precio (temporalmente sin stock)"],
+        ["ANC", "Adaptativa", "8 micrófonos, líder del mercado"],
+        ["Batería", "Hasta 40h", "Hasta 30h con ANC"],
+        ["Códec", "LDAC", "LDAC / AAC / SBC"],
+        ["Rating Amazon.es", "4,6 (15.966)", "4,3 (20.672)"],
+      ],
+    },
+    conclusion: "Los Soundcore Space One no son un Sony WH-1000XM5, pero tampoco cuestan lo mismo: por menos de un tercio del precio, ofrecen ANC adaptativa, audio LDAC y más autonomía, cubriendo de sobra las necesidades de concentración de la mayoría de teletrabajadores. El Sony sigue siendo superior en entornos muy ruidosos y en calidad de construcción, pero para un home office estándar, los Soundcore son la compra con mejor relación calidad-precio del catálogo en esta categoría.",
+    faqs: [
+      { q: "¿Qué significa ANC 'adaptativa'?", a: "Que el nivel de cancelación de ruido se ajusta automáticamente según el ruido detectado en el entorno, en lugar de aplicar siempre la misma intensidad fija. Esto evita la sensación de presión en los oídos que puede generar un ANC muy agresivo en entornos ya silenciosos." },
+      { q: "¿Sirven para videollamadas de trabajo?", a: "El micrófono es correcto para llamadas ocasionales, pero no tienen la certificación oficial para plataformas UC (Teams, Zoom) que sí tiene un Jabra Evolve2. Para uso mixto de música, concentración y videollamadas ocasionales cumplen bien; para uso profesional intensivo de videollamadas, un headset certificado es más fiable." },
+      { q: "¿Qué es el códec LDAC?", a: "Un códec de audio Bluetooth de alta resolución desarrollado por Sony que transmite más datos que el SBC estándar, resultando en mejor calidad de sonido cuando el dispositivo emisor (típicamente Android) también lo soporta. En iPhone no está disponible por limitaciones del propio sistema." },
+    ],
+  },
+
+  "mejor-microfono-usb-podcast-streaming-2026": {
+    intro: "El micrófono integrado de un portátil o de unos auriculares con cable es el cuello de botella más ignorado de cualquier videollamada, podcast o directo de streaming: por muy buena que sea la cámara o la conexión, un audio mediocre transmite falta de profesionalidad de forma inmediata. La buena noticia es que dar el salto a un micrófono USB dedicado no exige interfaz de audio ni cableado XLR: los cuatro modelos de este catálogo se conectan directamente al ordenador y funcionan en minutos. Esta guía los compara para que elijas según tu presupuesto y el uso que le vayas a dar — reuniones de trabajo, podcast o streaming.",
+    sections: [
+      {
+        heading: "USB o XLR: por qué el USB gana para la mayoría de casos",
+        body: "Un micrófono XLR exige una interfaz de audio o una mesa de mezclas para conectarse al ordenador, un paso extra en coste y en configuración que solo se justifica en estudios de grabación o producciones con varios micrófonos simultáneos. Un micrófono USB de condensador, en cambio, integra su propio conversor analógico-digital y se conecta directamente a un puerto USB-A o USB-C: plug & play, sin drivers en la mayoría de casos, y con una calidad que hace apenas dos años solo se conseguía con equipo XLR. Para reuniones de trabajo, podcast, streaming o creación de contenido en solitario, el USB es hoy la opción con mejor relación entre calidad, coste y sencillez.",
+      },
+      {
+        heading: "Blue Yeti: el más versátil, con 4 patrones polares",
+        body: "El Blue Yeti es el micrófono USB más reconocible del mercado, y lo es por una razón concreta: sus tres cápsulas de condensador ofrecen cuatro patrones polares seleccionables —cardioide, bidireccional, omnidireccional y estéreo— algo que ningún otro modelo de este catálogo iguala. Eso lo hace igual de válido para grabar una voz en solitario que para una entrevista cara a cara (bidireccional) o para captar ambiente en una sala (omnidireccional). El control de ganancia y de silencio está integrado en el propio cuerpo del micrófono, y permite monitorizar el audio en tiempo real sin latencia conectando unos auriculares directamente a él. A favor: la versatilidad de los 4 patrones y el control físico sin necesidad de software. En contra: es el modelo más voluminoso de los cuatro, no lleva conector XLR y su soporte de mesa incluido no es el más estable para mover el micrófono con frecuencia.",
+        productSlug: "blue-yeti-usb-microfono",
+      },
+      {
+        heading: "Elgato Wave:3: el más completo para streaming y podcast serio",
+        body: "El Elgato Wave:3 apunta a un usuario más exigente: streamers y creadores de podcast que quieren mezclar en directo el audio del micrófono con el del sistema (música, notificaciones, otros participantes de una llamada) sin hardware adicional. Su software Wave Link resuelve eso desde el propio ordenador, y el antipop de doble capa integrado en la rejilla reduce los sonidos explosivos de las consonantes oclusivas sin necesidad de comprar una pantalla antipop aparte. El control de ganancia es capacitivo, por lo que no genera el ruido de clic de un potenciómetro físico al tocarlo en mitad de una grabación. Nota de catálogo: este modelo aparece bajo la referencia interna \"rode-nt-usb-mini\" pero el producto real, verificado contra Amazon.es, es el Elgato Wave:3 — se mantiene por tratarse del mismo ASIN y categoría de producto correctos, y queda señalado para revisión de nomenclatura.",
+        productSlug: "rode-nt-usb-mini-microfono",
+      },
+      {
+        heading: "HyperX SoloCast: el mejor equilibrio precio-calidad para reuniones",
+        body: "Si el uso principal es profesional —reuniones de Teams o Zoom, llamadas de venta, clases online— y no necesitas mezclar audio ni cambiar de patrón polar, el HyperX SoloCast cubre lo esencial de sobra por 49,99 €. Su patrón cardioide capta bien la voz de quien habla y rechaza razonablemente el ruido de fondo, y el botón tap-to-mute con LED de estado es un detalle muy práctico en reuniones: silenciar y activar el micrófono sin buscar el icono en la pantalla. Es compatible con PC, Mac, PS4 y PS5. A favor: precio, simplicidad y el tap-to-mute físico. En contra: solo tiene un patrón polar, por lo que no sirve para grabar entrevistas cara a cara, y no permite monitorizar el audio con auriculares conectados al propio micrófono.",
+        productSlug: "hyperx-solocast-microfono",
+      },
+      {
+        heading: "FIFINE: la puerta de entrada más económica",
+        body: "Por debajo de los 25 €, el FIFINE es la opción para quien solo quiere dejar de sonar mal en videollamadas sin hacer una inversión relevante. Su cápsula de condensador con patrón cardioide y carcasa metálica ofrece una calidad notable para su precio, muy por encima de cualquier micrófono integrado de portátil o de un auricular con cable. Es plug & play sin drivers, aunque carece de control de ganancia en el propio cuerpo y de monitorización de auriculares, y su calidad de captación queda claramente por debajo de los otros tres modelos en entornos con algo de ruido de fondo. Es el punto de entrada correcto para probar si mejorar el audio marca una diferencia real en tu día a día antes de invertir más.",
+        productSlug: "fifine-microfono-usb-condensador",
+      },
+      {
+        heading: "¿Cuál elegir según tu uso?",
+        body: "Para reuniones de trabajo diarias sin más pretensiones, el HyperX SoloCast es la compra más sensata: resuelve el problema con un botón de silencio físico y sin curva de aprendizaje. Para quien empieza un podcast o un canal y quiere margen de mejora sin gastar mucho, el FIFINE permite probar el formato con una inversión mínima. Para streaming y podcast con producción más cuidada —mezcla de audio en directo, antipop integrado—, el Elgato Wave:3 es el que más se nota en la calidad final. Y si vas a grabar entrevistas presenciales o necesitas la máxima flexibilidad de patrones polares, el Blue Yeti es el único de los cuatro que lo permite.",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "Blue Yeti", "Elgato Wave:3", "HyperX SoloCast", "FIFINE"],
+      rows: [
+        ["Precio", "129,99 €", "99,99 €", "49,99 €", "24,22 €"],
+        ["Patrones polares", "4 (cardioide, bidir., omni, estéreo)", "1 (cardioide)", "1 (cardioide)", "1 (cardioide)"],
+        ["Monitorización auriculares", "Sí, sin latencia", "Vía software Wave Link", "No", "No"],
+        ["Control de ganancia", "Físico, en el cuerpo", "Capacitivo", "No", "No"],
+        ["Mute físico", "Sí", "No (vía software)", "Sí, tap-to-mute con LED", "No"],
+        ["Valoración Amazon.es", "4,6 (8.900 reseñas)", "4,7 (9.481 reseñas)", "4,5 (4.200 reseñas)", "4,6 (4.307 reseñas)"],
+        ["Mejor para", "Versatilidad y entrevistas", "Streaming y podcast con mezcla", "Reuniones de trabajo diarias", "Empezar con presupuesto mínimo"],
+      ],
+    },
+    conclusion: "No existe un único \"mejor micrófono USB\": existe el más adecuado para lo que vas a grabar. Para reuniones de trabajo, el HyperX SoloCast resuelve el problema sin complicaciones. Para dar los primeros pasos en podcast o contenido con la mínima inversión, el FIFINE cumple. Para producción de streaming o podcast más cuidada, el Elgato Wave:3 añade herramientas que se notan en el resultado final. Y si necesitas grabar entrevistas o distintos formatos de audio, el Blue Yeti es el único con la versatilidad de patrones polares para hacerlo bien. En los cuatro casos, el salto de calidad frente al micrófono integrado de cualquier portátil es inmediato y se nota desde la primera grabación.",
+    faqs: [
+      { q: "¿Un micrófono USB es mejor que los auriculares con micrófono para videollamadas?", a: "Sí, de forma notable. Un micrófono de condensador USB colocado cerca de la boca capta la voz con mucha más claridad y menos ruido de fondo que el micrófono integrado de unos auriculares o de un portátil, que suele estar diseñado para llamadas telefónicas básicas, no para una calidad de audio profesional." },
+      { q: "¿Se puede usar un micrófono USB con el móvil o la tablet?", a: "Depende del modelo y del conector del dispositivo. Los micrófonos con salida USB-C pueden conectarse directamente a móviles Android con USB-C compatibles con audio USB; en iPhone suele requerir un adaptador Lightning o USB-C a USB según el modelo. Conviene comprobar la compatibilidad específica del dispositivo antes de dar por hecho que funcionará." },
+      { q: "¿Qué patrón polar necesito para grabar una entrevista cara a cara?", a: "El patrón bidireccional (también llamado figura en 8) capta el sonido de dos direcciones opuestas y rechaza el de los laterales, ideal para dos personas sentadas frente a frente compartiendo micrófono. De los cuatro modelos de esta guía, solo el Blue Yeti ofrece ese patrón; el resto son cardioide fijo, pensado para una sola voz." },
+      { q: "¿Compensa un micrófono XLR frente a uno USB para empezar?", a: "Para empezar, no. Un micrófono XLR exige comprar además una interfaz de audio o una mesa de mezclas, lo que duplica o triplica la inversión inicial y añade una curva de aprendizaje. Tiene sentido dar el salto a XLR más adelante si vas a grabar con varios micrófonos a la vez o necesitas el máximo control de la señal, pero no es el punto de partida recomendable." },
     ],
   },
 };
@@ -1310,11 +1351,10 @@ export default async function BlogPostPage({ params }: Props) {
   const showHostingBanner = HOSTING_BANNER_CATEGORIES.includes(post.category);
 
   const AUTHOR = {
-    "@type": "Person",
-    name: "Laura Sánchez",
-    jobTitle: "Especialista en Productividad Digital",
+    "@type": "Organization",
+    name: "Equipo Editorial de Emprende Digital",
     url: "https://www.emprendedigital.es/sobre-nosotros",
-    description: "Especialista en productividad digital y herramientas de trabajo remoto con 7 años de experiencia asesorando a equipos distribuidos y emprendedores digitales.",
+    description: "Equipo editorial de Emprende Digital (Mkt Web 360 SLU). Comparamos especificaciones, precios y opiniones verificadas antes de recomendar productos, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["productividad digital", "trabajo remoto", "herramientas SaaS", "ergonomía en oficina", "emprendimiento digital", "equipamiento para home office"],
   };
 

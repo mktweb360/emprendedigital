@@ -20,6 +20,45 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: "/tienda/perifericos/keychron-k2-teclado-mecanico",
+        destination: "/tienda/perifericos/keychron-k2-pro-mecanico",
+        permanent: true,
+      },
+      {
+        source: "/tienda/perifericos/logitech-mx-master-3s-raton",
+        destination: "/tienda/perifericos/logitech-mx-master-3s",
+        permanent: true,
+      },
+      {
+        source: "/tienda/monitores/lg-27gn850-ultragear-27-monitor",
+        destination: "/tienda/monitores/dell-s2725qc-monitor-4k-usbc",
+        permanent: true,
+      },
+      {
+        source: "/tienda/webcams/logitech-c920-webcam-hd",
+        destination: "/tienda/webcams/logitech-brio-4k-webcam",
+        permanent: true,
+      },
+      {
+        source: "/blog/hosting-web-empresas-espana-comparativa",
+        destination: "/blog/hosting-wordpress-comparativa-espana-2025",
+        permanent: true,
+      },
+      {
+        source: "/tienda/monitores-home-office",
+        destination: "/tienda/monitores",
+        permanent: true,
+      },
+      {
+        source: "/blog/productividad-trabajo-remoto-herramientas-ia",
+        destination: "/blog/herramientas-ia-productividad-2025",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

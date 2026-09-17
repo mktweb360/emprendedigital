@@ -4,18 +4,17 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Sobre Nosotros — Emprende Digital",
   description:
-    "Laura Sánchez, especialista en productividad digital y trabajo remoto con 7 años de experiencia. Conoce quién hay detrás de Emprende Digital, cómo evaluamos los productos y nuestra política de afiliación.",
+    "Somos el equipo editorial de Emprende Digital. Conoce cómo investigamos y comparamos herramientas de productividad y equipamiento para home office, y nuestra política de afiliación.",
   alternates: { canonical: "https://www.emprendedigital.es/sobre-nosotros" },
 };
 
 const personSchema = {
   "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Laura Sánchez",
-  jobTitle: "Especialista en Productividad Digital",
+  "@type": "Organization",
+  name: "Equipo Editorial de Emprende Digital",
   url: "https://www.emprendedigital.es/sobre-nosotros",
   description:
-    "Especialista en productividad digital y herramientas de trabajo remoto con 7 años de experiencia asesorando a equipos distribuidos y emprendedores digitales.",
+    "Equipo editorial de Emprende Digital (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas de compradores antes de recomendar herramientas de productividad y equipamiento para home office, con apoyo de IA en investigación y redacción bajo revisión editorial.",
   knowsAbout: [
     "productividad digital",
     "trabajo remoto",
@@ -24,16 +23,10 @@ const personSchema = {
     "emprendimiento digital",
     "equipamiento para home office",
   ],
-  worksFor: {
+  parentOrganization: {
     "@type": "Organization",
     name: "Emprende Digital",
     url: "https://www.emprendedigital.es",
-  },
-  hasOccupation: {
-    "@type": "Occupation",
-    name: "Especialista en Productividad Digital",
-    description:
-      "Análisis y evaluación de herramientas de productividad digital, equipamiento para home office y soluciones SaaS para equipos distribuidos.",
   },
 };
 
@@ -68,11 +61,6 @@ const orgSchema = {
     contactType: "customer service",
     email: "info@emprendedigital.es",
     availableLanguage: "Spanish",
-  },
-  employee: {
-    "@type": "Person",
-    name: "Laura Sánchez",
-    jobTitle: "Especialista en Productividad Digital",
   },
 };
 
@@ -142,17 +130,17 @@ export default function SobreNosotrosPage() {
           <div className="flex flex-col sm:flex-row items-start gap-6 bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
             {/* Avatar */}
             <div className="shrink-0 w-20 h-20 rounded-full bg-indigo-600 flex items-center justify-center text-white text-2xl font-extrabold select-none">
-              LS
+              ED
             </div>
             <div className="flex-1">
-              <h2 className="text-xl font-extrabold text-gray-900 mb-0.5">Laura Sánchez</h2>
+              <h2 className="text-xl font-extrabold text-gray-900 mb-0.5">Equipo Editorial de Emprende Digital</h2>
               <p className="text-sm font-semibold text-indigo-600 mb-3">
-                Especialista en Productividad Digital y Trabajo Remoto
+                Mkt Web 360 SLU
               </p>
               <p className="text-gray-700 text-sm leading-relaxed mb-4">
-                Con más de 7 años asesorando a equipos distribuidos y emprendedores digitales, he probado, analizado y
-                descartado cientos de herramientas y equipos. Mi trabajo en Emprende Digital es simple: ahorrarte
-                tiempo y dinero con recomendaciones honestas basadas en uso real, no en fichas técnicas.
+                Comparamos especificaciones técnicas, precios y opiniones verificadas de compradores antes de recomendar
+                cualquier herramienta o equipo. Usamos IA como apoyo en la investigación y redacción, siempre con
+                revisión editorial antes de publicar: nunca inventamos datos de producto ni experiencias de uso.
               </p>
               <div className="flex flex-wrap gap-2">
                 {expertiseAreas.map((area) => (
