@@ -97,7 +97,7 @@ export default function AucularesPage() {
                 <th className="px-3 py-3 text-left">Micrófono</th>
                 <th className="px-3 py-3 text-left">Peso</th>
                 <th className="px-3 py-3 text-left">Valoración</th>
-                <th className="px-3 py-3 text-left">Ver en Amazon</th>
+                <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
             <tbody>

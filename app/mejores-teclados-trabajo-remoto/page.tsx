@@ -82,7 +82,7 @@ export default function TecladosPage() {
 
         <div className="prose">
           <p>Pasamos miles de horas al año escribiendo. Un buen teclado mejora la comodidad, reduce la fatiga de las muñecas y, si es mecánico, puede hacer la experiencia de escritura genuinamente placentera. La elección entre mecánico y membrana, inalámbrico o con cable, y el layout correcto depende de cómo y dónde trabajas.</p>
-          <p>Hemos analizado los <strong>5 mejores teclados para trabajo remoto</strong> disponibles en Amazon España en 2025.</p>
+          <p>Hemos analizado los <strong>5 mejores teclados para trabajo remoto</strong> disponibles en el mercado en 2025.</p>
           <h2>Tabla comparativa — Los mejores teclados para teletrabajo 2025</h2>
         </div>
 
@@ -97,7 +97,7 @@ export default function TecladosPage() {
                 <th className="px-3 py-3 text-left">Layout</th>
                 <th className="px-3 py-3 text-left">Conectividad</th>
                 <th className="px-3 py-3 text-left">Valoración</th>
-                <th className="px-3 py-3 text-left">Ver en Amazon</th>
+                <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
             <tbody>

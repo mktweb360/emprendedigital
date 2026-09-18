@@ -97,7 +97,7 @@ export default function SillasPage() {
                 <th className="px-3 py-3 text-left">Reclinación</th>
                 <th className="px-3 py-3 text-left">Material</th>
                 <th className="px-3 py-3 text-left">Valoración</th>
-                <th className="px-3 py-3 text-left">Ver en Amazon</th>
+                <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
             <tbody>

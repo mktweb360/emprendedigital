@@ -93,7 +93,7 @@ export default function PortatilesPage() {
             El portátil es la herramienta más importante de cualquier teletrabajador o emprendedor digital. En 2025, la oferta es más amplia y competitiva que nunca: desde portátiles Windows con procesadores Intel Core Ultra e IA integrada hasta los MacBook con chip M3, que han redefinido lo que es posible en términos de rendimiento y autonomía.
           </p>
           <p>
-            Hemos analizado los <strong>5 mejores portátiles para trabajo remoto</strong> disponibles en Amazon España en 2025, evaluando rendimiento real, autonomía de batería, calidad de pantalla, comodidad de teclado y relación calidad-precio. Nuestra selección cubre un rango desde los 749€ hasta los 1.599€.
+            Hemos analizado los <strong>5 mejores portátiles para trabajo remoto</strong> disponibles en el mercado en 2025, evaluando rendimiento real, autonomía de batería, calidad de pantalla, comodidad de teclado y relación calidad-precio. Nuestra selección cubre un rango desde los 749€ hasta los 1.599€.
           </p>
           <h2>Tabla comparativa — Los mejores portátiles para teletrabajo 2025</h2>
         </div>
@@ -109,7 +109,7 @@ export default function PortatilesPage() {
                 <th className="px-3 py-3 text-left">Batería</th>
                 <th className="px-3 py-3 text-left">Peso</th>
                 <th className="px-3 py-3 text-left">Valoración</th>
-                <th className="px-3 py-3 text-left">Ver en Amazon</th>
+                <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
             <tbody>

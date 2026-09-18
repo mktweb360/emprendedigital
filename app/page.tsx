@@ -274,7 +274,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">¿Por qué confiar en nosotros?</h2>
           <p className="text-gray-600 mb-6 leading-relaxed">
-            En <strong>Emprende Digital</strong> analizamos cada producto con criterio y honestidad. Comparamos especificaciones, leemos cientos de reseñas reales y probamos los equipos para darte las recomendaciones más útiles antes de comprar. No publicamos contenido patrocinado: nuestros ingresos provienen de comisiones de afiliado de Amazon, lo que no afecta a nuestras valoraciones.
+            En <strong>Emprende Digital</strong> analizamos cada producto con criterio y honestidad. Comparamos especificaciones, leemos cientos de reseñas reales y probamos los equipos para darte las recomendaciones más útiles antes de comprar. No publicamos contenido patrocinado: nuestros ingresos provienen de comisiones de afiliado, lo que no afecta a nuestras valoraciones.
           </p>
           <Link href="/sobre-nosotros" className="text-indigo-600 font-semibold hover:underline">
             Saber más sobre nosotros →

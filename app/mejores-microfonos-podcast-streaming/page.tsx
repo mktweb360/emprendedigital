@@ -93,7 +93,7 @@ export default function MicrofonosPage() {
             El micrófono es la inversión que más impacto tiene en la percepción de calidad de tu podcast, canal de YouTube o streaming. Un vídeo con mala imagen puede tolerarse, pero un audio deficiente hace que los oyentes abandonen inmediatamente. La buena noticia: con 50-130€ ya tienes acceso a micrófonos USB que superan la calidad de grabación de muchos estudios profesionales de los años 90.
           </p>
           <p>
-            Hemos analizado los <strong>5 mejores micrófonos USB para podcast y streaming</strong> disponibles en Amazon España en 2025, evaluando calidad de audio, facilidad de uso, versatilidad y relación calidad-precio.
+            Hemos analizado los <strong>5 mejores micrófonos USB para podcast y streaming</strong> disponibles en el mercado en 2025, evaluando calidad de audio, facilidad de uso, versatilidad y relación calidad-precio.
           </p>
           <h2>Tabla comparativa — Los mejores micrófonos para podcast 2025</h2>
         </div>
@@ -108,7 +108,7 @@ export default function MicrofonosPage() {
                 <th className="px-3 py-3 text-left">Patrón</th>
                 <th className="px-3 py-3 text-left">Frecuencia</th>
                 <th className="px-3 py-3 text-left">Valoración</th>
-                <th className="px-3 py-3 text-left">Ver en Amazon</th>
+                <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
             <tbody>

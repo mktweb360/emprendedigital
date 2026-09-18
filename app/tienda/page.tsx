@@ -5,7 +5,7 @@ import { categories, getFeaturedProducts, getProductsByCategory } from "@/data/p
 export const metadata: Metadata = {
   title: "Tienda — Herramientas y equipamiento para emprendedores digitales",
   description:
-    "Explora nuestra selección de portátiles, micrófonos, webcams, auriculares, sillas ergonómicas y más. Análisis detallados y los mejores precios en Amazon.",
+    "Explora nuestra selección de portátiles, micrófonos, webcams, auriculares, sillas ergonómicas y más. Análisis detallados y los mejores precios del mercado.",
   alternates: { canonical: "https://www.emprendedigital.es/tienda" },
   openGraph: {
     title: "Tienda — Herramientas para emprendedores digitales | Emprende Digital",
@@ -93,7 +93,7 @@ export default function TiendaPage() {
             <div className="mb-6">
               <h1 className="text-2xl font-extrabold text-gray-900 mb-1">Tienda</h1>
               <p className="text-sm text-gray-500">
-                Todo el equipamiento para tu home office: analizamos y seleccionamos los mejores productos disponibles en Amazon España.
+                Todo el equipamiento para tu home office: analizamos y seleccionamos los mejores productos disponibles online.
               </p>
             </div>
 
@@ -132,7 +132,7 @@ export default function TiendaPage() {
             </div>
 
             <p className="text-xs text-gray-400 mt-6 pl-3 border-l-2 border-gray-200">
-              Este sitio contiene enlaces de afiliado a Amazon.es. Si compras a través de ellos recibimos una pequeña comisión, sin coste adicional para ti.
+              Este sitio contiene enlaces de afiliado. Si compras a través de ellos recibimos una pequeña comisión, sin coste adicional para ti.
             </p>
           </main>
         </div>

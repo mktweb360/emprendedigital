@@ -82,7 +82,7 @@ export default function IluminacionPage() {
 
         <div className="prose">
           <p>La iluminación es la variable que más diferencia a un creador de contenido amateur de uno con aspecto profesional. Una buena webcam mal iluminada produce una imagen granulada y poco atractiva; una webcam básica bien iluminada produce una imagen limpia y profesional. La inversión en iluminación tiene el mayor retorno visual por euro gastado de todo el equipamiento de home office.</p>
-          <p>Hemos analizado las <strong>5 mejores soluciones de iluminación para streaming, YouTube y videollamadas</strong> disponibles en Amazon España en 2025.</p>
+          <p>Hemos analizado las <strong>5 mejores soluciones de iluminación para streaming, YouTube y videollamadas</strong> disponibles en el mercado en 2025.</p>
           <h2>Tabla comparativa — La mejor iluminación para streaming 2025</h2>
         </div>
 
@@ -97,7 +97,7 @@ export default function IluminacionPage() {
                 <th className="px-3 py-3 text-left">Temperatura</th>
                 <th className="px-3 py-3 text-left">Control</th>
                 <th className="px-3 py-3 text-left">Valoración</th>
-                <th className="px-3 py-3 text-left">Ver en Amazon</th>
+                <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
             <tbody>

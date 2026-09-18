@@ -82,7 +82,7 @@ export default function WebcamsPage() {
 
         <div className="prose">
           <p>La cámara integrada en los portátiles suele ofrecer una resolución decepcionante y una imagen granulada en condiciones de baja luz, lo que proyecta una imagen poco profesional en videollamadas de trabajo. Una webcam externa de calidad transforma completamente tu presencia en pantalla y señala profesionalidad.</p>
-          <p>Hemos analizado las <strong>5 mejores webcams para videollamadas y streaming</strong> disponibles en Amazon España en 2025.</p>
+          <p>Hemos analizado las <strong>5 mejores webcams para videollamadas y streaming</strong> disponibles en el mercado en 2025.</p>
           <h2>Tabla comparativa — Las mejores webcams 2025</h2>
         </div>
 
@@ -97,7 +97,7 @@ export default function WebcamsPage() {
                 <th className="px-3 py-3 text-left">Micrófono</th>
                 <th className="px-3 py-3 text-left">Autofoco</th>
                 <th className="px-3 py-3 text-left">Valoración</th>
-                <th className="px-3 py-3 text-left">Ver en Amazon</th>
+                <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
             <tbody>

@@ -82,7 +82,7 @@ export default function EscritoriosPage() {
 
         <div className="prose">
           <p>Los escritorios ajustables en altura —o standing desks— han pasado de ser un artículo de lujo de Silicon Valley a una inversión accesible para cualquier teletrabajador en 2025. Por menos de 250€ ya puedes tener un escritorio eléctrico de calidad que te permita alternar entre sentado y de pie durante la jornada laboral, con beneficios reales para la salud y la productividad.</p>
-          <p>Hemos analizado los <strong>5 mejores escritorios ajustables en altura</strong> disponibles en Amazon España en 2025.</p>
+          <p>Hemos analizado los <strong>5 mejores escritorios ajustables en altura</strong> disponibles en el mercado en 2025.</p>
           <h2>Tabla comparativa — Los mejores standing desks 2025</h2>
         </div>
 
@@ -97,7 +97,7 @@ export default function EscritoriosPage() {
                 <th className="px-3 py-3 text-left">Carga máx.</th>
                 <th className="px-3 py-3 text-left">Memoria</th>
                 <th className="px-3 py-3 text-left">Valoración</th>
-                <th className="px-3 py-3 text-left">Ver en Amazon</th>
+                <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
             <tbody>
