@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return {};
   return {
     title: `${product.name} — Análisis y opiniones 2025`,
-    description: `Análisis completo del ${product.name}: especificaciones, pros, contras, precio en Amazon y comparativa con alternativas. ¿Vale la pena en 2025?`,
+    description: `Análisis completo del ${product.name}: especificaciones, pros, contras, precio y comparativa con alternativas. ¿Vale la pena en 2025?`,
     alternates: { canonical: `https://www.emprendedigital.es/tienda/${product.categorySlug}/${product.slug}` },
   };
 }
@@ -146,8 +146,8 @@ export default async function ProductoPage({ params }: Props) {
 
         <div className="my-6 p-6 bg-indigo-50 border border-indigo-100 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
-            <div className="text-lg font-bold text-gray-900">Disponible en Amazon España</div>
-            <div className="text-sm text-gray-500 mt-1">Consulta el precio actualizado y las opiniones en Amazon</div>
+            <div className="text-lg font-bold text-gray-900">Disponible ahora</div>
+            <div className="text-sm text-gray-500 mt-1">Consulta el precio actualizado y las opiniones</div>
           </div>
           <div className="flex flex-col items-center shrink-0">
             <a
@@ -156,9 +156,9 @@ export default async function ProductoPage({ params }: Props) {
               rel="noopener noreferrer sponsored"
               className="btn-primary"
             >
-              🛒 Comprar en Amazon →
+              🛒 Comprar ahora →
             </a>
-            <p className="text-xs text-gray-400 text-center mt-1">Se abrirá Amazon.es · Enlace de afiliado</p>
+            <p className="text-xs text-gray-400 text-center mt-1">Se abrirá Enlace de afiliado</p>
           </div>
         </div>
 
@@ -216,8 +216,8 @@ export default async function ProductoPage({ params }: Props) {
         <div className="my-6 p-6 bg-indigo-600 text-white rounded-2xl">
           <h3 className="text-xl font-bold mb-2">¿Lo compramos?</h3>
           <p className="text-indigo-100 text-sm mb-4">
-            El {product.name} es {product.shortDescription.toLowerCase()} Disponible en Amazon España con entrega
-            rápida Prime.
+            El {product.name} es {product.shortDescription.toLowerCase()} Disponible con entrega
+            rápida.
           </p>
           <div className="flex flex-col items-start gap-1">
             <a
@@ -226,9 +226,9 @@ export default async function ProductoPage({ params }: Props) {
               rel="noopener noreferrer sponsored"
               className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors"
             >
-              🛒 Comprar en Amazon →
+              🛒 Comprar ahora →
             </a>
-            <p className="text-xs text-indigo-200 mt-1">Se abrirá Amazon.es · Enlace de afiliado</p>
+            <p className="text-xs text-indigo-200 mt-1">Se abrirá Enlace de afiliado</p>
           </div>
         </div>
 
