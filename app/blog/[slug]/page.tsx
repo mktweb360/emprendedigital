@@ -54,7 +54,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Ticova: el equilibrio calidad-precio",
-        body: "La Ticova es una de las sillas ergonómicas más vendidas en Amazon España por debajo de los 150 euros, y su argumento es la comodidad para reclinarse. Su respaldo alto de malla transpirable llega hasta 130° de reclinación, con soporte lumbar ajustable y reposabrazos 3D, prácticos para el día a día sin necesitar el ajuste de profundidad de un modelo 4D. Pesa 18 kg. A favor: la reclinación hasta 130°, los reposabrazos 3D y el precio de 149,99 euros. En contra: el soporte lumbar no es tan avanzado como en la gama superior, la base es de plástico y no tiene reposacabezas ajustable en profundidad, así que si buscas máxima personalización postural se queda por detrás de la HOLLUDLE.",
+        body: "La Ticova es una de las sillas ergonómicas más vendidas por debajo de los 150 euros, y su argumento es la comodidad para reclinarse. Su respaldo alto de malla transpirable llega hasta 130° de reclinación, con soporte lumbar ajustable y reposabrazos 3D, prácticos para el día a día sin necesitar el ajuste de profundidad de un modelo 4D. Pesa 18 kg. A favor: la reclinación hasta 130°, los reposabrazos 3D y el precio de 149,99 euros. En contra: el soporte lumbar no es tan avanzado como en la gama superior, la base es de plástico y no tiene reposacabezas ajustable en profundidad, así que si buscas máxima personalización postural se queda por detrás de la HOLLUDLE.",
         productSlug: "hbada-silla-ergonomica-pro",
       },
       {
@@ -85,7 +85,7 @@ const articleContent: Record<string, {
   },
 
   "sihoo-m57-analisis-opinion": {
-    intro: "La HOLLUDLE es una de las sillas ergonómicas más vendidas del segmento de precio medio en Amazon España. Su precio de 209,99 euros la sitúa en el territorio donde la competencia es seria. Esta guía analiza si lo que ofrece justifica ese precio frente a alternativas más asequibles como la Ticova, y para quién es realmente la inversión correcta.",
+    intro: "La HOLLUDLE es una de las sillas ergonómicas más vendidas del segmento de precio medio. Su precio de 209,99 euros la sitúa en el territorio donde la competencia es seria. Esta guía analiza si lo que ofrece justifica ese precio frente a alternativas más asequibles como la Ticova, y para quién es realmente la inversión correcta.",
     sections: [
       {
         heading: "Los ajustes de la HOLLUDLE: qué significan en la práctica",
@@ -126,7 +126,7 @@ const articleContent: Record<string, {
       { q: "¿La HOLLUDLE aguanta personas altas?", a: "Sí. El reposacabezas ajustable en altura y la profundidad de asiento regulable la hacen adecuada para personas altas, ya que permiten adaptar la silla a distintas proporciones corporales." },
       { q: "¿Viene con instrucciones claras para el montaje?", a: "Incluye manual con ilustraciones que permiten el montaje en 20-40 minutos sin conocimientos previos. Conviene tener cerca a alguien para sostener el respaldo en el momento de fijarlo al asiento, aunque no es imprescindible hacerlo entre dos personas." },
       { q: "¿Es la HOLLUDLE buena para el dolor de espalda?", a: "Para el dolor lumbar por mala postura al sentarse, su respaldo adaptativo ayuda de forma notable porque acompaña el movimiento de la columna. Para dolor con una causa estructural diagnosticada (hernia, escoliosis), es parte de la solución pero no la única: consulta con tu fisioterapeuta antes de comprar cualquier silla." },
-      { q: "¿Se puede devolver si no resulta cómoda?", a: "A través de Amazon España, sí, dentro de los primeros 30 días. Es la forma más segura de probarla en tu propio puesto de trabajo con garantía de devolución si no se adapta a ti." },
+      { q: "¿Se puede devolver si no resulta cómoda?", a: "Sí, a través de nuestro enlace de compra, dentro de los primeros 30 días. Es la forma más segura de probarla en tu propio puesto de trabajo con garantía de devolución si no se adapta a ti." },
     ],
   },
 
@@ -924,7 +924,7 @@ const articleContent: Record<string, {
   },
 
   "mejor-monitor-home-office-2025": {
-    intro: "El monitor es el elemento del home office que más horas miras. Una pantalla de calidad reduce la fatiga visual, mejora la postura y aumenta la productividad durante años. Esta guía compara tres opciones reales disponibles en Amazon España para distintos perfiles y presupuestos.",
+    intro: "El monitor es el elemento del home office que más horas miras. Una pantalla de calidad reduce la fatiga visual, mejora la postura y aumenta la productividad durante años. Esta guía compara tres opciones reales disponibles online para distintos perfiles y presupuestos.",
     sections: [
       {
         heading: "Los criterios que importan al elegir un monitor de trabajo",
@@ -1164,7 +1164,7 @@ const articleContent: Record<string, {
   faqs: [
     {
       q: "¿Un hub USB-C ralentiza el portátil?",
-      a: "Un hub de calidad no ralentiza el portátil de ninguna manera perceptible. Los hubs baratos de mala calidad pueden generar inestabilidad en la conexión —el monitor parpadea, el periférico se desconecta— porque el controlador USB interno gestiona mal la distribución de energía. La solución es no comprar el hub más barato de Amazon sin marca reconocida: marcas como Anker, Ugreen, Baseus o VAVA tienen un control de calidad suficiente para uso profesional.",
+      a: "Un hub de calidad no ralentiza el portátil de ninguna manera perceptible. Los hubs baratos de mala calidad pueden generar inestabilidad en la conexión —el monitor parpadea, el periférico se desconecta— porque el controlador USB interno gestiona mal la distribución de energía. La solución es no comprar el hub más barato del mercado sin marca reconocida: marcas como Anker, Ugreen, Baseus o VAVA tienen un control de calidad suficiente para uso profesional.",
     },
     {
       q: "¿Puedo conectar dos monitores con un hub USB-C?",
@@ -1210,11 +1210,11 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "La hjh OFFICE Ergohuman Slim GEN2 es una inversión que solo se justifica para quien pasa muchas horas sentado, valora el diseño Ergohuman clásico y quiere que su silla combine con un despacho tradicional antes que con un setup gaming. Para la mayoría de teletrabajadores, una opción de gama media del catálogo cubre las necesidades ergonómicas básicas por bastante menos dinero; esta silla es para quien ya sabe que necesita ese nivel de ajuste y está dispuesto a pagarlo.",
-    sources: [{ label: "Ficha de producto en Amazon.es", url: "https://www.amazon.es/dp/B0C7H87W7X" }],
+    sources: [{ label: "Ficha de producto", url: "https://www.amazon.es/dp/B0C7H87W7X" }],
     faqs: [
       { q: "¿Qué significa que el soporte lumbar sea 'flexible' en vez de fijo?", a: "Un soporte lumbar fijo mantiene siempre la misma forma y posición. Uno flexible, como el de la familia Ergohuman, se adapta y cede ligeramente con el movimiento de la espalda al inclinarse o recolocarse, en lugar de imponer una única postura rígida durante toda la jornada." },
       { q: "¿Merece la pena frente a una silla de 200€?", a: "Depende de tus horas de uso y de si ya has identificado necesidades ergonómicas específicas. Para una jornada de 8 horas diarias durante varios años, el coste diario de una silla de 800€ es muy bajo comparado con el de una consulta de fisioterapia. Para uso más ocasional, una silla de gama media cubre de sobra las necesidades básicas." },
-      { q: "¿Por qué el color de este modelo es verde?", a: "El ASIN verificado de este listado en Amazon.es corresponde a la variante en malla verde. Si prefieres otro color, comprueba en la ficha de producto si hjh OFFICE ofrece otras variantes disponibles en el momento de tu compra." },
+      { q: "¿Por qué el color de este modelo es verde?", a: "El ASIN verificado de este listado corresponde a la variante en malla verde. Si prefieres otro color, comprueba en la ficha de producto si hjh OFFICE ofrece otras variantes disponibles en el momento de tu compra." },
     ],
   },
 
@@ -1239,7 +1239,7 @@ const articleContent: Record<string, {
         ["Salidas de vídeo", "2× HDMI+DP a 4K60Hz simultáneos", "2× HDMI 4K60Hz o 1× 8K30Hz"],
         ["Carga PD", "100W", "100W"],
         ["Ethernet", "Gigabit", "Gigabit"],
-        ["Rating Amazon.es", "4,1 (859)", "4,4 (3.823)"],
+        ["Valoración", "4,1 (859)", "4,4 (3.823)"],
       ],
     },
     conclusion: "El Baseus 12 en 1 es la única opción de este catálogo con salida simultánea de dos monitores externos a 4K60Hz desde un solo cable, una función real de productividad para quien trabaja con doble pantalla. Si necesitas exactamente eso, justifica su precio. Si tu setup es de un solo monitor externo, la UGREEN Revodok Pro 210 ofrece prestaciones muy similares por menos de la mitad de precio y con más valoraciones respaldándola.",
@@ -1275,7 +1275,7 @@ const articleContent: Record<string, {
         ["ANC", "Adaptativa", "8 micrófonos, líder del mercado"],
         ["Batería", "Hasta 40h", "Hasta 30h con ANC"],
         ["Códec", "LDAC", "LDAC / AAC / SBC"],
-        ["Rating Amazon.es", "4,6 (15.966)", "4,3 (20.672)"],
+        ["Valoración", "4,6 (15.966)", "4,3 (20.672)"],
       ],
     },
     conclusion: "Los Soundcore Space One no son un Sony WH-1000XM5, pero tampoco cuestan lo mismo: por menos de un tercio del precio, ofrecen ANC adaptativa, audio LDAC y más autonomía, cubriendo de sobra las necesidades de concentración de la mayoría de teletrabajadores. El Sony sigue siendo superior en entornos muy ruidosos y en calidad de construcción, pero para un home office estándar, los Soundcore son la compra con mejor relación calidad-precio del catálogo en esta categoría.",
@@ -1300,7 +1300,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Elgato Wave:3: el más completo para streaming y podcast serio",
-        body: "El Elgato Wave:3 apunta a un usuario más exigente: streamers y creadores de podcast que quieren mezclar en directo el audio del micrófono con el del sistema (música, notificaciones, otros participantes de una llamada) sin hardware adicional. Su software Wave Link resuelve eso desde el propio ordenador, y el antipop de doble capa integrado en la rejilla reduce los sonidos explosivos de las consonantes oclusivas sin necesidad de comprar una pantalla antipop aparte. El control de ganancia es capacitivo, por lo que no genera el ruido de clic de un potenciómetro físico al tocarlo en mitad de una grabación. Nota de catálogo: este modelo aparece bajo la referencia interna \"rode-nt-usb-mini\" pero el producto real, verificado contra Amazon.es, es el Elgato Wave:3 — se mantiene por tratarse del mismo ASIN y categoría de producto correctos, y queda señalado para revisión de nomenclatura.",
+        body: "El Elgato Wave:3 apunta a un usuario más exigente: streamers y creadores de podcast que quieren mezclar en directo el audio del micrófono con el del sistema (música, notificaciones, otros participantes de una llamada) sin hardware adicional. Su software Wave Link resuelve eso desde el propio ordenador, y el antipop de doble capa integrado en la rejilla reduce los sonidos explosivos de las consonantes oclusivas sin necesidad de comprar una pantalla antipop aparte. El control de ganancia es capacitivo, por lo que no genera el ruido de clic de un potenciómetro físico al tocarlo en mitad de una grabación. Nota de catálogo: este modelo aparece bajo la referencia interna \"rode-nt-usb-mini\" pero el producto real, verificado en la ficha del fabricante, es el Elgato Wave:3 — se mantiene por tratarse del mismo ASIN y categoría de producto correctos, y queda señalado para revisión de nomenclatura.",
         productSlug: "rode-nt-usb-mini-microfono",
       },
       {
@@ -1326,7 +1326,7 @@ const articleContent: Record<string, {
         ["Monitorización auriculares", "Sí, sin latencia", "Vía software Wave Link", "No", "No"],
         ["Control de ganancia", "Físico, en el cuerpo", "Capacitivo", "No", "No"],
         ["Mute físico", "Sí", "No (vía software)", "Sí, tap-to-mute con LED", "No"],
-        ["Valoración Amazon.es", "4,6 (8.900 reseñas)", "4,7 (9.481 reseñas)", "4,5 (4.200 reseñas)", "4,6 (4.307 reseñas)"],
+        ["Valoración", "4,6 (8.900 reseñas)", "4,7 (9.481 reseñas)", "4,5 (4.200 reseñas)", "4,6 (4.307 reseñas)"],
         ["Mejor para", "Versatilidad y entrevistas", "Streaming y podcast con mezcla", "Reuniones de trabajo diarias", "Empezar con presupuesto mínimo"],
       ],
     },
