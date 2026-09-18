@@ -77,7 +77,7 @@ const evaluationCriteria = [
   {
     title: "Investigación de mercado",
     description:
-      "Identificamos los productos más relevantes en cada categoría: los más vendidos en Amazon España, los mejor valorados por usuarios reales y las novedades más destacadas de cada temporada.",
+      "Identificamos los productos más relevantes en cada categoría: los más vendidos, los mejor valorados por usuarios reales y las novedades más destacadas de cada temporada.",
   },
   {
     title: "Criterios objetivos y verificables",
@@ -196,10 +196,10 @@ export default function SobreNosotrosPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-4">
             <p className="text-sm font-bold text-amber-900 mb-2">⚠️ Divulgación de afiliados</p>
             <p className="text-amber-900 text-sm leading-relaxed">
-              Emprende Digital participa en el Programa de Afiliados de Amazon EU. Cuando haces clic en un enlace
+              Emprende Digital participa en programas de afiliación con distintos partners comerciales. Cuando haces clic en un enlace
               marcado y compras el producto, recibimos una pequeña comisión <strong>sin coste adicional para ti</strong>:
-              el precio es exactamente el mismo que si fueras directamente a Amazon. Estas comisiones nos permiten
-              mantener el sitio y seguir produciendo análisis de calidad de forma gratuita.
+              el precio es exactamente el mismo que si compraras directamente. Estas comisiones nos permiten
+              mantener el sitio y seguir produciendo análisis de calidad de forma gratuita. Más información en nuestra política de privacidad.
             </p>
           </div>
           <p className="text-gray-700 text-sm leading-relaxed">

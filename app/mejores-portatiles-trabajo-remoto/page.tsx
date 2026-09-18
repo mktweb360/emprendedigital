@@ -157,7 +157,7 @@ export default function PortatilesPage() {
           </ul>
           <div className="not-prose my-4">
             <a href={amazonLink("B0CX22V2B8")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver MacBook Air M3 en Amazon →
+              Ver MacBook Air M3 →
             </a>
           </div>
 
@@ -178,7 +178,7 @@ export default function PortatilesPage() {
           </ul>
           <div className="not-prose my-4">
             <a href={amazonLink("B0CQXVFR67")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver ASUS ZenBook 14 OLED en Amazon →
+              Ver ASUS ZenBook 14 OLED →
             </a>
           </div>
 

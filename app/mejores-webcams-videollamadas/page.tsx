@@ -129,7 +129,7 @@ export default function WebcamsPage() {
           <h3>1. Logitech C920 HD Pro — La más vendida del mundo (★★★★½)</h3>
           <p>La <strong>Logitech C920</strong> es la referencia absoluta en webcams desde hace años. 1080p 30fps con doble micrófono estéreo y corrección automática de luz HD. Compatible con todas las plataformas y sin necesidad de instalar drivers. La elección más segura para la mayoría de teletrabajadores.</p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B006A2Q81M")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">Ver Logitech C920 en Amazon →</a>
+            <a href={amazonLink("B006A2Q81M")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">Ver Logitech C920 →</a>
           </div>
 
           <h3>2. Logitech Brio 4K — La mejor calidad de imagen (★★★★½)</h3>

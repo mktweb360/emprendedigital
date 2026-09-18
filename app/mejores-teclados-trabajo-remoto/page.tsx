@@ -131,7 +131,7 @@ export default function TecladosPage() {
           <p>El <strong>Logitech MX Keys Advanced S</strong> es el teclado de referencia para profesionales que valoran la comodidad y la productividad: teclas esféricas que abrazan los dedos, retroiluminación con sensor de presencia, conexión simultánea a 3 dispositivos y compatibilidad con el software Logi Options+ para personalización completa de atajos.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B0B2R5VP5V")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Logitech MX Keys S en Amazon →
+              Ver Logitech MX Keys S →
             </a>
           </div>
 
@@ -139,7 +139,7 @@ export default function TecladosPage() {
           <p>El <strong>Keychron K2 Pro</strong> es el mecánico más recomendado para trabajo remoto: layout 75% compacto con teclado de función y flechas, disponible con switches Hot-Swap (puedes cambiar los switches sin soldar), retroiluminación RGB y conexión Bluetooth/USB. Disponible en switches Red (silenciosos), Brown (táctiles) o Blue (auditivos).</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B0BKLNBPPH")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Keychron K2 Pro en Amazon →
+              Ver Keychron K2 Pro →
             </a>
           </div>
 

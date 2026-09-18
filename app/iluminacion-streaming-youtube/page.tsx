@@ -131,7 +131,7 @@ export default function IluminacionPage() {
           <p>El <strong>Elgato Key Light Air</strong> es el estándar de la industria para streamers profesionales por una razón: control total por WiFi desde la app de Elgato (Mac/Windows) o mediante atajo de teclado Stream Deck. Puedes ajustar brillo (0-100%) y temperatura de color (2900-7000K) sin levantarte del sitio durante una transmisión. Los 38W de LED de alta densidad ofrecen una luz uniforme y suave que elimina sombras duras.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B082QHRZFW")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Elgato Key Light Air en Amazon →
+              Ver Elgato Key Light Air →
             </a>
           </div>
 
@@ -139,7 +139,7 @@ export default function IluminacionPage() {
           <p>El <strong>Neewer Ring Light 18&quot;</strong> es el favorito de YouTubers, maquilladores e influencers. Su gran diámetro (46 cm) proporciona una luz envolvente muy favorecedora, con el característico reflejo circular en los ojos que da un aspecto vivo y atractivo. Control manual de brillo y temperatura. Incluye soporte de pie telescópico y soporte para móvil. La relación calidad-precio es imbatible.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B01N3ONOQY")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Neewer Ring Light 18&quot; en Amazon →
+              Ver Neewer Ring Light 18&quot; →
             </a>
           </div>
 

@@ -148,7 +148,7 @@ export default function MicrofonosPage() {
           </ul>
           <div className="not-prose my-4">
             <a href={amazonLink("B00N1YPXW2")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Blue Yeti en Amazon →
+              Ver Blue Yeti →
             </a>
           </div>
 
@@ -158,7 +158,7 @@ export default function MicrofonosPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B08HHZXJBL")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver HyperX SoloCast en Amazon →
+              Ver HyperX SoloCast →
             </a>
           </div>
 

@@ -131,7 +131,7 @@ export default function EscritoriosPage() {
           <p>El <strong>FlexiSpot E7 Pro</strong> es el escritorio ajustable de referencia en la gama premium accesible. Doble motor con capacidad de 125 kg, sistema anti-colisión, 4 posiciones de memoria programables y una estabilidad excepcional incluso al máximo de altura. Las patas reforzadas con perfil ovalado son más rígidas que las cuadradas de modelos más económicos. Si tienes múltiples monitores y equipamiento pesado, el E7 Pro es el modelo correcto.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B08C6JFNHQ")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver FlexiSpot E7 Pro en Amazon →
+              Ver FlexiSpot E7 Pro →
             </a>
           </div>
 
@@ -139,7 +139,7 @@ export default function EscritoriosPage() {
           <p>El <strong>FlexiSpot EG1</strong> es el punto de entrada más recomendable en escritorios ajustables eléctricos: motor único silencioso, rango de 71 a 121 cm y carga de 70 kg —suficiente para un setup básico—. Sin memoria de posiciones, pero el panel de control es sencillo e intuitivo. Para quienes empiezan con un único monitor y equipamiento ligero, es la inversión más inteligente.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B08GQ2TXFC")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver FlexiSpot EG1 en Amazon →
+              Ver FlexiSpot EG1 →
             </a>
           </div>
 

@@ -131,7 +131,7 @@ export default function SillasPage() {
           <p>El <strong>SIHOO M57</strong> ha redefinido lo que se puede esperar por menos de 250€ en una silla ergonómica. Soporte lumbar tridimensional ajustable en profundidad, altura e inclinación; reposabrazos 4D completamente configurables; respaldo de malla transpirable que sigue los movimientos del cuerpo. En ensayos comparativos independientes, el SIHOO M57 se acerca a la ergonomía de sillas de el doble y el triple de precio.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B09MZDSJXQ")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver SIHOO M57 en Amazon →
+              Ver SIHOO M57 →
             </a>
           </div>
 
@@ -139,7 +139,7 @@ export default function SillasPage() {
           <p>La <strong>Hbada Pro</strong> es la opción para quienes tienen un presupuesto más ajustado pero no quieren renunciar a soporte lumbar ajustable y respaldo de malla. No tiene la versatilidad de los reposabrazos del SIHOO, pero para un primer upgrade desde una silla sin ergonomía es un salto importante.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B085ZPCBMQ")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Hbada Pro en Amazon →
+              Ver Hbada Pro →
             </a>
           </div>
 

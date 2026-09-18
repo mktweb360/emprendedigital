@@ -130,7 +130,7 @@ export default function AucularesPage() {
           <h3>1. Sony WH-1000XM5 — El mejor ANC del mercado (★★★★★)</h3>
           <p>Los <strong>Sony WH-1000XM5</strong> siguen siendo la referencia en cancelación de ruido para uso personal en 2025. Sus 8 micrófonos y dos procesadores dedicados bloquean de forma efectiva los ruidos constantes de oficina, tráfico, ventilación y conversaciones de fondo. El modo Speak-to-Chat es especialmente útil: pausa automáticamente la música cuando empiezas a hablar con alguien. La batería de 30 horas con ANC activo es más que suficiente para varios días de teletrabajo.</p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B09XS7JWHH")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">Ver Sony WH-1000XM5 en Amazon →</a>
+            <a href={amazonLink("B09XS7JWHH")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">Ver Sony WH-1000XM5 →</a>
           </div>
 
           <h3>2. Jabra Evolve2 55 — Para comunicaciones profesionales (★★★★½)</h3>

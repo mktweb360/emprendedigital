@@ -1466,7 +1466,7 @@ export default async function BlogPostPage({ params }: Props) {
                       rel="nofollow sponsored noopener noreferrer"
                       className="inline-block mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
                     >
-                      Ver {ctaProduct.name} en Amazon →
+                      Ver {ctaProduct.name} →
                     </a>
                   )}
                 </section>
@@ -1544,7 +1544,7 @@ export default async function BlogPostPage({ params }: Props) {
                       rel="noopener noreferrer sponsored"
                       className="flex-1 text-center text-xs font-bold text-white bg-orange-500 hover:bg-orange-600 rounded-lg py-2 transition-colors"
                     >
-                      Amazon →
+                      Ver precio →
                     </a>
                   </div>
                 </div>

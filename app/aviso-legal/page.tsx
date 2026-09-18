@@ -46,20 +46,12 @@ export default function AvisoLegalPage() {
           información directamente en los sitios de venta antes de realizar cualquier compra.
         </p>
 
-        <h2>5. Programa de afiliados de Amazon</h2>
+        <h2>5. Programa de afiliados</h2>
         <p>
-          Emprende Digital participa en el Programa de Afiliados de Amazon EU. Los enlaces a productos de Amazon
-          incluidos en este sitio son enlaces de afiliado, lo que significa que podemos recibir una comisión si
-          realizas una compra tras hacer clic en dichos enlaces. El precio final para el comprador no varía. Puedes
-          obtener más información sobre el programa de afiliados de Amazon en{" "}
-          <a
-            href="https://afiliados.amazon.es"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-indigo-600 hover:underline"
-          >
-            afiliados.amazon.es
-          </a>.
+          Emprende Digital participa en programas de afiliación con distintos partners comerciales. Los enlaces a
+          productos incluidos en este sitio son enlaces de afiliado, lo que significa que podemos recibir una comisión si
+          realizas una compra tras hacer clic en dichos enlaces. El precio final para el comprador no varía. Consulta el
+          detalle de los programas de afiliación en los que participamos en nuestra política de privacidad.
         </p>
 
         <h2>6. Ley aplicable y jurisdicción</h2>

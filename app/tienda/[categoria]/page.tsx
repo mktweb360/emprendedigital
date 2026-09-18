@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!cat) return {};
   return {
     title: `${cat.name} — Guía de compra y comparativa 2025`,
-    description: `Los mejores ${cat.name.toLowerCase()} para emprendedores digitales y teletrabajadores. Análisis, comparativas y los mejores precios en Amazon.`,
+    description: `Los mejores ${cat.name.toLowerCase()} para emprendedores digitales y teletrabajadores. Análisis, comparativas y los mejores precios del mercado.`,
     alternates: { canonical: `https://www.emprendedigital.es/tienda/${cat.slug}` },
   };
 }
@@ -295,7 +295,7 @@ export default async function CategoriaPage({ params }: Props) {
 
             {/* Affiliate footnote */}
             <p className="text-xs text-gray-400 mt-2 pl-3 border-l-2 border-gray-200">
-              Este sitio contiene enlaces de afiliado a Amazon.es. Si compras a través de ellos recibimos una pequeña comisión, sin coste adicional para ti.
+              Este sitio contiene enlaces de afiliado. Si compras a través de ellos recibimos una pequeña comisión, sin coste adicional para ti.
             </p>
           </main>
         </div>
