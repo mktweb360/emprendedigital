@@ -229,7 +229,7 @@ export const posts: Post[] = [
     date: "2025-07-19",
     category: "Emprender Online",
     readTime: "10 min",
-    relatedProducts: ["logitech-c920-hd-pro-webcam", "blue-yeti-usb-microfono", "rode-nt-usb-mini-microfono"],
+    relatedProducts: ["logitech-c920-hd-pro-webcam", "blue-yeti-usb-microfono", "elgato-wave3-microfono-condensador-usb"],
     relatedPosts: ["mejor-hosting-web-emprendedores-2025", "hosting-wordpress-comparativa-espana-2025", "trabajo-remoto-espana-guia-completa-2025"],
     categoryCta: { href: "/tienda/webcams", text: "Ver equipamiento para negocio online →" },
   },
@@ -336,12 +336,14 @@ export const posts: Post[] = [
     date: "2025-08-07",
     category: "Home Office",
     readTime: "8 min",
+    relatedProducts: ["ugreen-revodok-hub-usbc-10en1", "ugreen-revodok-107-hub-7en1-ethernet", "baseus-docking-station-12en1"],
     relatedPosts: [
       "mejor-monitor-home-office-2025",
       "home-office-setup-productivo-guia",
       "mejor-tablet-teletrabajo-2025",
       "setup-trabajo-remoto-productividad-maxima",
     ],
+    categoryCta: { href: "/tienda/hubs-docking", text: "Ver hubs y docking stations →" },
   },
   {
     slug: "hjh-office-ergohuman-slim-gen2-analisis",
@@ -393,7 +395,7 @@ export const posts: Post[] = [
     readTime: "9 min",
     relatedProducts: [
       "blue-yeti-usb-microfono",
-      "rode-nt-usb-mini-microfono",
+      "elgato-wave3-microfono-condensador-usb",
       "hyperx-solocast-microfono",
       "fifine-microfono-usb-condensador",
     ],

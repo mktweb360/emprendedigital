@@ -218,7 +218,7 @@ export const products: Product[] = [
     relatedPosts: ["como-empezar-negocio-online-desde-casa-2025", "mejor-webcam-videollamadas-trabajo-remoto"],
   },
   {
-    slug: "rode-nt-usb-mini-microfono",
+    slug: "elgato-wave3-microfono-condensador-usb",
     name: "Elgato Wave:3 Micrófono Condensador USB Premium",
     asin: "B088HHWC47",
     image: "/images/products/rode-nt-usb-mini-microfono.jpg",

@@ -57,6 +57,11 @@ const nextConfig: NextConfig = {
         destination: "/blog/herramientas-ia-productividad-2025",
         permanent: true,
       },
+      {
+        source: "/tienda/microfonos/rode-nt-usb-mini-microfono",
+        destination: "/tienda/microfonos/elgato-wave3-microfono-condensador-usb",
+        permanent: true,
+      },
     ];
   },
 };
