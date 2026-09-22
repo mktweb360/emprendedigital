@@ -84,52 +84,6 @@ const articleContent: Record<string, {
     ],
   },
 
-  "sihoo-m57-analisis-opinion": {
-    intro: "La HOLLUDLE es una de las sillas ergonómicas más vendidas del segmento de precio medio. Su precio de 209,99 euros la sitúa en el territorio donde la competencia es seria. Esta guía analiza si lo que ofrece justifica ese precio frente a alternativas más asequibles como la Ticova, y para quién es realmente la inversión correcta.",
-    sections: [
-      {
-        heading: "Los ajustes de la HOLLUDLE: qué significan en la práctica",
-        body: "La ergonomía real de una silla se mide por lo que puedes ajustar, y aquí la HOLLUDLE va sobrada para su precio. Su respaldo adaptativo de alto respaldo acompaña el movimiento del cuerpo y ofrece apoyo a la zona lumbar sin depender de un mecanismo independiente. Los reposabrazos 4D se mueven en altura, profundidad, anchura y ángulo, lo que permite colocar los antebrazos exactamente a la altura del teclado y descargar los hombros. La profundidad de asiento es ajustable, para adaptar el respaldo a la longitud de tus piernas, y el reposacabezas 2D se regula en altura e inclinación. Para una persona de estatura fuera del rango medio, esta capacidad de ajuste es especialmente valiosa: la silla se adapta a ti, no al revés.",
-      },
-      {
-        heading: "Lo que más valoran los usuarios",
-        body: "Con una valoración media de 4,4 sobre más de 3.600 reseñas, los puntos que más se repiten son tres. El primero, el respaldo adaptativo que acompaña la curvatura real de la columna en lugar de imponer una postura rígida. El segundo, los reposabrazos 4D, que permiten un ajuste muy fino de la posición de los brazos. Y el tercero, la profundidad de asiento ajustable, que hace que la silla se adapte bien tanto a personas de piernas cortas como largas. La relación entre lo que ofrece y su precio es el argumento que la ha convertido en superventas.",
-      },
-      {
-        heading: "Los puntos débiles reales",
-        body: "Ninguna silla es perfecta, y la HOLLUDLE tiene tres peros honestos. El mecanismo de reclinación podría ser más suave: el paso entre posiciones se nota algo brusco comparado con sillas premium de más del doble de precio. El montaje requiere cierto tiempo, más del que cabría esperar a primera vista. Y no incluye reposapiés, algo que en esta gama de precio tampoco es habitual pero conviene saber. Ninguno de estos puntos es determinante para su función principal, pero son los detalles donde se nota que no es una silla de 500 euros.",
-      },
-      {
-        heading: "Para quién es la HOLLUDLE",
-        body: "La HOLLUDLE es la compra correcta si trabajas siete o más horas al día, quieres un respaldo que acompañe el movimiento de tu espalda y valoras tener reposacabezas y reposabrazos 4D. También si vas a usar la silla durante varios años y quieres amortizarla bien: su capacidad de ajuste la hace adecuada para distintas personas y morfologías a lo largo del tiempo.",
-        productSlug: "sihoo-m57-silla-ergonomica",
-      },
-      {
-        heading: "Cuándo la Ticova es suficiente",
-        body: "Si tus jornadas son de cuatro a seis horas, tu presupuesto máximo ronda los 150 euros o priorizas poder reclinarte hasta 130° sobre el ajuste de profundidad de asiento, la Ticova cubre lo esencial por 60 euros menos. Ofrece soporte lumbar ajustable, reposabrazos 3D y una malla transpirable igual de fresca. Renuncias al reposacabezas ajustable en profundidad y a los reposabrazos 4D, pero para muchos usuarios sin patología postural previa eso no marca la diferencia en el día a día.",
-        productSlug: "hbada-silla-ergonomica-pro",
-      },
-    ],
-    comparison: {
-      headers: ["Aspecto", "HOLLUDLE", "Ticova"],
-      rows: [
-        ["Precio", "209,99 €", "149,99 €"],
-        ["Respaldo", "Adaptativo, alto respaldo", "Malla, alto respaldo"],
-        ["Reposacabezas", "2D regulable", "No ajustable en profundidad"],
-        ["Reposabrazos", "4D", "3D"],
-        ["Reclinación", "No especificada por el fabricante", "Hasta 130°"],
-        ["Valoración", "4,4 (3.647 reseñas)", "4,5 (1.986 reseñas)"],
-      ],
-    },
-    conclusion: "La HOLLUDLE justifica su precio si la vas a usar muchas horas al día durante años y quieres un respaldo que acompañe tu espalda, además de reposacabezas y reposabrazos 4D. Si tus jornadas son más cortas o priorizas reclinarte cómodamente sobre la personalización, la Ticova entrega gran parte del valor por 60 euros menos. En su rango de precio, la HOLLUDLE es una de las sillas ergonómicas más equilibradas del mercado español.",
-    faqs: [
-      { q: "¿La HOLLUDLE aguanta personas altas?", a: "Sí. El reposacabezas ajustable en altura y la profundidad de asiento regulable la hacen adecuada para personas altas, ya que permiten adaptar la silla a distintas proporciones corporales." },
-      { q: "¿Viene con instrucciones claras para el montaje?", a: "Incluye manual con ilustraciones que permiten el montaje en 20-40 minutos sin conocimientos previos. Conviene tener cerca a alguien para sostener el respaldo en el momento de fijarlo al asiento, aunque no es imprescindible hacerlo entre dos personas." },
-      { q: "¿Es la HOLLUDLE buena para el dolor de espalda?", a: "Para el dolor lumbar por mala postura al sentarse, su respaldo adaptativo ayuda de forma notable porque acompaña el movimiento de la columna. Para dolor con una causa estructural diagnosticada (hernia, escoliosis), es parte de la solución pero no la única: consulta con tu fisioterapeuta antes de comprar cualquier silla." },
-      { q: "¿Se puede devolver si no resulta cómoda?", a: "Sí, a través de nuestro enlace de compra, dentro de los primeros 30 días. Es la forma más segura de probarla en tu propio puesto de trabajo con garantía de devolución si no se adapta a ti." },
-    ],
-  },
-
   "escritorio-regulable-altura-home-office": {
     intro: "Alternar entre sentado y de pie durante la jornada reduce el dolor lumbar, mejora la energía por la tarde y aumenta el gasto calórico diario de forma pasiva. Un escritorio regulable es la inversión de productividad con mayor impacto por euro gastado en un home office. Esta guía compara los dos escritorios eléctricos del catálogo, el FlexiSpot E7 Pro y el FlexiSpot EG1, para que elijas según tu espacio, tu setup y tu presupuesto.",
     sections: [
@@ -170,52 +124,6 @@ const articleContent: Record<string, {
       { q: "¿Necesito una alfombrilla antifatiga con el escritorio de pie?", a: "Es muy recomendable si vas a estar de pie más de 30 minutos seguidos. Una alfombrilla antifatiga reduce de forma notable la fatiga en piernas y pies al trabajar de pie, porque favorece pequeños movimientos musculares que mejoran la circulación. Es un complemento barato que marca la diferencia en la comodidad del modo de pie." },
       { q: "¿El FlexiSpot E7 Pro hace mucho ruido al subir?", a: "El doble motor del E7 Pro es notablemente silencioso comparado con los escritorios de un solo pistón. En una oficina en casa el ruido es perfectamente tolerable y no interrumpe una videollamada, sobre todo teniendo en cuenta que el movimiento dura solo unos segundos." },
       { q: "¿Se puede montar el escritorio solo?", a: "Sí, aunque es más cómodo con ayuda para colocar el tablero, sobre todo el de 140×70 cm del E7 Pro. El montaje completo lleva entre 45 y 90 minutos según el modelo. FlexiSpot ofrece instrucciones en vídeo en su web para acompañar el manual." },
-    ],
-  },
-
-  "flexispot-e7-pro-analisis-opinion": {
-    intro: "El FlexiSpot E7 Pro es el escritorio regulable en altura más mencionado en guías de home office. Su combinación de doble motor, garantía de cinco años en el motor y 125 kg de carga lo ha convertido en el estándar de referencia del catálogo. Esta guía analiza qué hay detrás de esa reputación y cuándo tiene sentido comprarlo frente al EG1, su hermano de entrada.",
-    sections: [
-      {
-        heading: "Motor dual vs motor simple: por qué importa",
-        body: "Los escritorios con un solo motor son más lentos y transmiten más vibración a altura máxima. El E7 Pro usa dos motores sincronizados que suben y bajan el tablero de forma uniforme a 4 cm/s, con menos ruido y mayor estabilidad estructural cuando el escritorio está elevado con peso encima. La diferencia se aprecia sobre todo en dos situaciones: cuando cargas dos monitores y varios periféricos, y cuando trabajas de pie a la altura máxima. Ahí el doble motor evita el balanceo lateral que sí aparece en modelos más básicos.",
-      },
-      {
-        heading: "La garantía y la carga: qué cubren",
-        body: "El E7 Pro declara una garantía de cinco años en el motor y una capacidad de carga de 125 kg. Para una pieza de mobiliario que se usa a diario y que sube y baja miles de veces a lo largo de su vida, una garantía larga en el componente más caro de reparar —el motor— es un indicador real de la confianza del fabricante en su propio producto. Los 125 kg, por su parte, dan un margen amplio: un setup de home office exigente rara vez supera los 30-40 kg entre monitores, soporte y accesorios.",
-      },
-      {
-        heading: "Puntos débiles reales",
-        body: "El E7 Pro tiene tres peros honestos. El primero es el precio: 449 euros lo colocan en la gama alta doméstica. El segundo es el montaje: la estructura de doble motor es pesada y colocar el tablero de 140×70 cm es incómodo en solitario, así que conviene hacerlo entre dos personas. Y el tercero es que no incluye sistema de gestión de cables, algo que conviene planificar antes del montaje para que los cables no queden colgando ni se tensen al subir y bajar el tablero. Ninguno es determinante, pero son los detalles a tener en cuenta antes de comprar.",
-      },
-      {
-        heading: "Para quién es el FlexiSpot E7 Pro",
-        body: "El E7 Pro es la compra correcta si haces trabajo remoto de siete o más horas al día, tienes un setup con dos monitores o equipo pesado, y quieres un escritorio que dure entre cinco y diez años sin quedarse corto. Su doble motor, sus cuatro memorias de altura y su garantía larga están pensados precisamente para ese uso intensivo y prolongado.",
-        productSlug: "flexispot-e7-pro-escritorio-ajustable",
-      },
-      {
-        heading: "Cuándo el EG1 es suficiente",
-        body: "Si tu setup es de un solo monitor y cambias de postura una o dos veces al día, el motor único del EG1 cumple sin problema. A 199 euros es menos de la mitad del precio del E7 Pro, con un rango de alturas similar (71-121 cm) y compatibilidad con tableros de IKEA por si quieres personalizarlo. Renuncias a dos memorias de altura, a algo de estabilidad con carga alta y a dos años de garantía, pero para un uso ligero la diferencia práctica es pequeña.",
-        productSlug: "flexispot-eg1-escritorio-ajustable",
-      },
-    ],
-    comparison: {
-      headers: ["Característica", "FlexiSpot E7 Pro", "FlexiSpot EG1"],
-      rows: [
-        ["Precio", "449,00 €", "199,00 €"],
-        ["Motor", "Doble sincronizado", "Único"],
-        ["Velocidad de subida", "4 cm/s", "Estándar"],
-        ["Memoria de posiciones", "4", "2"],
-        ["Carga máx.", "125 kg", "70 kg"],
-        ["Garantía motor", "5 años", "3 años"],
-      ],
-    },
-    conclusion: "El FlexiSpot E7 Pro es la compra correcta si cambias de postura varias veces al día, tienes un setup pesado y quieres un escritorio que dure años sin quedarse corto. Si tu setup es ligero y cambias de altura de forma ocasional, el EG1 entrega el mismo concepto por menos de la mitad de precio. La pregunta que decide no es cuál es mejor sobre el papel, sino cuánto vas a exigirle al escritorio en tu día a día.",
-    faqs: [
-      { q: "¿El FlexiSpot E7 Pro incluye tablero?", a: "Sí, incluye un tablero de 140×70 cm en melamina de 18 mm. A diferencia de otras configuraciones de FlexiSpot que venden solo la estructura (patas y controlador), en este conjunto el tablero viene incluido, con espacio de sobra para dos monitores y accesorios." },
-      { q: "¿El E7 Pro es estable a altura máxima?", a: "A 123 cm con un equipo informático estándar la estabilidad es buena gracias al doble motor y a la estructura reforzada. Con cargas muy altas, cercanas a los 125 kg, conviene distribuir bien el peso sobre el tablero para minimizar cualquier oscilación." },
-      { q: "¿Cuánto tarda en subir y bajar?", a: "A una velocidad de 4 cm/s, recorrer todo el rango de altura lleva solo unos segundos. Además, la memoria de cuatro alturas permite pasar de la posición sentado a la de pie con una sola pulsación, sin tener que buscar la altura cada vez." },
-      { q: "¿Cuánto pesa el FlexiSpot E7 Pro?", a: "El conjunto es pesado, ya que suma la estructura de doble motor y el tablero de melamina. Por eso el montaje es más cómodo entre dos personas, sobre todo en el momento de dar la vuelta al escritorio ya montado. Tenlo en cuenta para el transporte hasta la habitación de destino." },
     ],
   },
 
@@ -351,49 +259,6 @@ const articleContent: Record<string, {
       { q: "¿El MX Master 3S funciona en cualquier superficie?", a: "Sí, su sensor de 8.000 DPI funciona en prácticamente cualquier superficie, incluido el cristal. No necesita alfombrilla, aunque usar una mejora ligeramente la precisión y la durabilidad del sensor a largo plazo." },
       { q: "¿Qué significa que el Keychron V6 MAX sea programable con QMK/VIA?", a: "Significa que puedes reasignar cada tecla y crear macros directamente desde el software VIA, sin instalar drivers adicionales. Permite adaptar la distribución y las funciones del teclado a tu flujo de trabajo, algo que un teclado de membrana convencional no ofrece." },
       { q: "¿Cuánto dura la batería del MX Keys?", a: "Con la retroiluminación activada, unos 10 días; con ella desactivada, hasta 5 meses. Se recarga por USB-C, y un minuto de carga proporciona varias horas de uso de emergencia, así que en la práctica nunca te deja tirado." },
-    ],
-  },
-
-  "logitech-mx-keys-analisis-opinion": {
-    intro: "El Logitech MX Keys S lleva años siendo el teclado inalámbrico más recomendado para trabajo remoto. Su combinación de teclas de perfil bajo de alta calidad, retroiluminación inteligente y conexión multi-dispositivo lo ha consolidado como referencia. Esta guía analiza si a 92,20 € sigue siendo la mejor opción o si un mecánico como el Keychron V6 MAX se le acerca.",
-    sections: [
-      {
-        heading: "Las teclas de perfil bajo: por qué gustan tanto",
-        body: "El recorrido corto y estable, junto con las teclas de forma esférica que se adaptan a la yema del dedo, producen una escritura precisa y poco fatigosa. A diferencia de las membranas baratas, donde las teclas se hunden de forma irregular, el MX Keys tiene una respuesta consistente en cada pulsación. Con una valoración de 4,6 sobre más de 600 reseñas, muchos usuarios lo describen como la mejor experiencia de escritura que han tenido en un teclado que no es mecánico.",
-      },
-      {
-        heading: "Retroiluminación inteligente: cómoda y discreta",
-        body: "El MX Keys detecta las manos que se aproximan y la luz ambiente, y activa la retroiluminación solo cuando vas a escribir. En entornos oscuros se agradece mucho, y además ahorra batería al no estar siempre encendida. Es uno de esos detalles que no parecen importantes en la ficha pero que mejoran el uso diario de forma real.",
-      },
-      {
-        heading: "Multi-dispositivo: la función más útil del día a día",
-        body: "Cambiar entre el portátil del trabajo, el ordenador personal y el iPad con un solo botón, sin reemparejar, es lo que más valoran quienes trabajan con varios equipos. Con el receptor Logi Bolt funciona también en equipos sin Bluetooth, y su compatibilidad con Windows, macOS, Linux y Chrome OS lo hace cómodo para quien alterna entre plataformas. Es un teclado pensado para el escritorio fijo de quien no quiere tener dos teclados en la mesa.",
-        productSlug: "logitech-mx-keys-advanced-s",
-      },
-      {
-        heading: "MX Keys vs Keychron V6 MAX: membrana o mecánico",
-        body: "El Keychron V6 MAX a 139,99 € es un mecánico inalámbrico programable con firmware QMK/VIA y triple conexión (2,4GHz, Bluetooth y USB-C). Si prefieres el feedback táctil y el sonido de un mecánico, y quieres poder personalizar cada tecla y macro, es la alternativa. El MX Keys gana en silencio y en comodidad para escritura prolongada; el Keychron gana en feedback, en programabilidad y en opciones de conexión. Son dos filosofías distintas, ambas de calidad.",
-        productSlug: "keychron-k2-pro-mecanico",
-      },
-    ],
-    comparison: {
-      headers: ["Característica", "MX Keys S", "Keychron V6 MAX"],
-      rows: [
-        ["Precio", "92,20 €", "139,99 €"],
-        ["Tipo", "Membrana premium (perfil bajo)", "Mecánico (Gateron Jupiter)"],
-        ["Retroiluminación", "Inteligente por proximidad", "Sí"],
-        ["Programable", "No", "Sí (QMK/VIA)"],
-        ["Conexión", "Bluetooth + Logi Bolt", "2,4GHz + Bluetooth + USB-C"],
-        ["Recarga", "USB-C", "USB-C"],
-        ["Mejor para", "Escritura silenciosa", "Feedback y personalización"],
-      ],
-    },
-    conclusion: "El MX Keys S justifica su precio si escribes mucho y valoras el silencio y la comodidad: es el teclado que menos cansa tras ocho horas de uso. Si prefieres el feedback y el sonido de un mecánico, y quieres poder programar cada tecla, el Keychron V6 MAX es la alternativa correcta, con la ventaja de la triple conexión. Ninguno es mejor en abstracto: depende de cómo escribas.",
-    faqs: [
-      { q: "¿El MX Keys es compatible con Mac?", a: "Sí. Funciona perfectamente con macOS, y Logitech ofrece una versión con las teclas rotuladas para el layout de Mac. La versión estándar también funciona, con la nomenclatura de Windows en las teclas modificadoras, sin ninguna limitación funcional." },
-      { q: "¿Tiene teclado numérico?", a: "La versión estándar del MX Keys S incluye teclado numérico completo en el lado derecho, una ventaja para quien trabaja mucho con cifras u hojas de cálculo frente a teclados más compactos como el Keychron V6 MAX." },
-      { q: "¿Se puede usar el MX Keys con cable?", a: "No, es exclusivamente inalámbrico (Bluetooth o receptor Logi Bolt). El puerto USB-C sirve solo para la carga, no para el uso cableado. Si necesitas conexión por cable obligatoria, este no es tu teclado." },
-      { q: "¿El MX Keys funciona en Linux?", a: "Sí, es compatible con Linux de fábrica y, con el receptor Logi Bolt, funciona sin problema para escribir. Algunas funciones avanzadas del software Logi Options+ pueden no estar disponibles según la distribución, pero las teclas y la conexión multi-dispositivo operan con normalidad." },
     ],
   },
 

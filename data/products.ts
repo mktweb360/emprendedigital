@@ -134,7 +134,7 @@ export const products: Product[] = [
     cons: ["No es mecánico (perfil bajo tipo membrana)", "No tiene teclado numérico en la versión compacta", "Precio elevado frente a alternativas genéricas"],
     specs: { "Tipo": "Perfil bajo premium", "Conexión": "Bluetooth / Logi Bolt USB", "Retroiluminación": "Sí (inteligente por proximidad)", "Compatible": "Windows / macOS / Linux / Chrome OS", "Color": "Grafito", "Recargable": "Sí, vía USB-C" },
     badge: "Más vendido",
-    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "logitech-mx-keys-analisis-opinion", "setup-trabajo-remoto-productividad-maxima"],
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "setup-trabajo-remoto-productividad-maxima", "herramientas-productividad-trabajo-remoto-2025"],
   },
   {
     slug: "logitech-mx-master-3s",
@@ -173,7 +173,7 @@ export const products: Product[] = [
     pros: ["Programable con firmware QMK/VIA", "Triple conexión: 2,4GHz / Bluetooth / USB-C", "Distribución QWERTY español de fábrica", "Compatible con Mac, Windows y Linux", "Varios interruptores Gateron Jupiter a elegir"],
     cons: ["Precio superior a teclados mecánicos básicos", "Todavía pocas valoraciones", "Sin teclado numérico en el formato compacto"],
     specs: { "Tipo": "Mecánico (Gateron Jupiter)", "Conexión": "2,4GHz / Bluetooth / USB-C", "Programable": "QMK/VIA", "Distribución": "QWERTY Español", "Compatible": "Windows / macOS / Linux" },
-    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "logitech-mx-keys-analisis-opinion", "herramientas-productividad-trabajo-remoto-2025"],
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "herramientas-productividad-trabajo-remoto-2025", "setup-trabajo-remoto-productividad-maxima"],
   },
 
   // MICRÓFONOS
@@ -461,7 +461,7 @@ export const products: Product[] = [
     cons: ["Precio elevado", "Montaje requiere dos personas (estructura pesada)", "Sin gestión de cables incluida"],
     specs: { "Rango de altura": "58 – 123 cm", "Velocidad": "4 cm/s", "Capacidad": "125 kg", "Tablero": "140×70 cm melamina 18mm", "Motores": "Doble motor sincronizado", "Memoria": "4 alturas predefinidas", "Garantía": "5 años en motor" },
     badge: "Mejor escritorio ajustable",
-    relatedPosts: ["escritorio-regulable-altura-home-office", "flexispot-e7-pro-analisis-opinion", "home-office-setup-productivo-guia"],
+    relatedPosts: ["escritorio-regulable-altura-home-office", "home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
     slug: "flexispot-eg1-escritorio-ajustable",

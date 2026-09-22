@@ -62,6 +62,21 @@ const nextConfig: NextConfig = {
         destination: "/tienda/microfonos/elgato-wave3-microfono-condensador-usb",
         permanent: true,
       },
+      {
+        source: "/blog/sihoo-m57-analisis-opinion",
+        destination: "/blog/mejor-silla-ergonomica-home-office-2025",
+        permanent: true,
+      },
+      {
+        source: "/blog/flexispot-e7-pro-analisis-opinion",
+        destination: "/blog/escritorio-regulable-altura-home-office",
+        permanent: true,
+      },
+      {
+        source: "/blog/logitech-mx-keys-analisis-opinion",
+        destination: "/blog/mejor-teclado-raton-trabajo-remoto",
+        permanent: true,
+      },
     ];
   },
 };
