@@ -5,13 +5,13 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 
 export const metadata: Metadata = {
-  title: "Iluminación para streaming y YouTube: ring lights y paneles LED 2025",
+  title: "Iluminación para streaming y YouTube: ring lights y paneles LED",
   description:
     "Elgato Key Light Air, Neewer Ring Light 18\" y más. Guía completa para iluminar correctamente tu espacio de grabación y videollamadas.",
   keywords: "iluminación streaming youtube, ring light para videollamadas, panel LED home studio, Elgato Key Light review",
   alternates: { canonical: "https://www.emprendedigital.es/iluminacion-streaming-youtube" },
   openGraph: {
-    title: "Iluminación para streaming y YouTube 2025",
+    title: "Iluminación para streaming y YouTube",
     description: "Ring lights y paneles LED para videollamadas, streaming y grabación de contenido.",
     url: "https://www.emprendedigital.es/iluminacion-streaming-youtube",
   },
@@ -35,7 +35,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Iluminación para streaming y YouTube: ring lights y paneles LED 2025",
+  headline: "Iluminación para streaming y YouTube: ring lights y paneles LED",
   datePublished: "2025-04-28",
   dateModified: "2025-06-01",
   author: { "@type": "Organization", name: "Emprende Digital" },
@@ -82,8 +82,8 @@ export default function IluminacionPage() {
 
         <div className="prose">
           <p>La iluminación es la variable que más diferencia a un creador de contenido amateur de uno con aspecto profesional. Una buena webcam mal iluminada produce una imagen granulada y poco atractiva; una webcam básica bien iluminada produce una imagen limpia y profesional. La inversión en iluminación tiene el mayor retorno visual por euro gastado de todo el equipamiento de home office.</p>
-          <p>Hemos analizado las <strong>5 mejores soluciones de iluminación para streaming, YouTube y videollamadas</strong> disponibles en el mercado en 2025.</p>
-          <h2>Tabla comparativa — La mejor iluminación para streaming 2025</h2>
+          <p>Hemos analizado las <strong>5 mejores soluciones de iluminación para streaming, YouTube y videollamadas</strong> disponibles en el mercado.</p>
+          <h2>Tabla comparativa — La mejor iluminación para streaming</h2>
         </div>
 
         <div className="overflow-x-auto my-6">
@@ -96,7 +96,6 @@ export default function IluminacionPage() {
                 <th className="px-3 py-3 text-left">Potencia</th>
                 <th className="px-3 py-3 text-left">Temperatura</th>
                 <th className="px-3 py-3 text-left">Control</th>
-                <th className="px-3 py-3 text-left">Valoración</th>
                 <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
@@ -109,7 +108,6 @@ export default function IluminacionPage() {
                   <td className="px-3 py-3 text-gray-600">{p.watts}</td>
                   <td className="px-3 py-3 text-gray-600">{p.color}</td>
                   <td className="px-3 py-3 text-gray-600">{p.control}</td>
-                  <td className="px-3 py-3 text-yellow-500 font-semibold">⭐ {p.stars}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
@@ -127,7 +125,7 @@ export default function IluminacionPage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>1. Elgato Key Light Air — La elección de los streamers profesionales (★★★★½)</h3>
+          <h3>1. Elgato Key Light Air — La elección de los streamers profesionales</h3>
           <p>El <strong>Elgato Key Light Air</strong> es el estándar de la industria para streamers profesionales por una razón: control total por WiFi desde la app de Elgato (Mac/Windows) o mediante atajo de teclado Stream Deck. Puedes ajustar brillo (0-100%) y temperatura de color (2900-7000K) sin levantarte del sitio durante una transmisión. Los 38W de LED de alta densidad ofrecen una luz uniforme y suave que elimina sombras duras.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B082QHRZFW")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
@@ -135,7 +133,7 @@ export default function IluminacionPage() {
             </a>
           </div>
 
-          <h3>2. Neewer Ring Light 18&quot; — La mejor relación calidad-precio (★★★★½)</h3>
+          <h3>2. Neewer Ring Light 18&quot; — La mejor relación calidad-precio</h3>
           <p>El <strong>Neewer Ring Light 18&quot;</strong> es el favorito de YouTubers, maquilladores e influencers. Su gran diámetro (46 cm) proporciona una luz envolvente muy favorecedora, con el característico reflejo circular en los ojos que da un aspecto vivo y atractivo. Control manual de brillo y temperatura. Incluye soporte de pie telescópico y soporte para móvil. La relación calidad-precio es imbatible.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B01N3ONOQY")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
@@ -143,13 +141,13 @@ export default function IluminacionPage() {
             </a>
           </div>
 
-          <h3>3. Elgato Key Light — El más potente (★★★★½)</h3>
+          <h3>3. Elgato Key Light — El más potente</h3>
           <p>El hermano mayor del Key Light Air: 80W de potencia frente a los 38W del Air. Ideal para habitaciones grandes o para quienes necesitan luz muy intensa para superar la luz natural de ventanas amplias. Las mismas ventajas de control WiFi y app, con el doble de potencia lumínica.</p>
 
-          <h3>4. Lume Cube Panel Mini — El más portátil (★★★★)</h3>
+          <h3>4. Lume Cube Panel Mini — El más portátil</h3>
           <p>El <strong>Lume Cube Panel Mini</strong> es una solución compacta que se monta directamente sobre la cámara o el monitor del portátil. Perfecto para nómadas digitales que necesitan iluminación portátil. Recargable por USB-C. Para videollamadas ocasionales fuera de casa es una solución práctica.</p>
 
-          <h3>5. Godox SL-60W LED — Para vídeo profesional (★★★★)</h3>
+          <h3>5. Godox SL-60W LED — Para vídeo profesional</h3>
           <p>El <strong>Godox SL-60W</strong> es una luz fresnel LED de estudio, silenciosa (sin ventilador ruidoso) y potente. Temperatura de color fija a 5600K (luz de día). Para quienes producen contenido de vídeo serio en un espacio dedicado, la calidad de luz de un fresnel es superior a la de un panel LED o ring light.</p>
 
           <h2>Preguntas frecuentes sobre iluminación para streaming</h2>
@@ -172,9 +170,9 @@ export default function IluminacionPage() {
         <div className="mt-8 p-6 bg-indigo-50 rounded-xl border border-indigo-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/mejores-webcams-videollamadas" className="text-indigo-600 hover:underline">→ Mejores webcams para videollamadas y streaming 2025</Link></li>
-            <li><Link href="/mejores-microfonos-podcast-streaming" className="text-indigo-600 hover:underline">→ Mejores micrófonos para podcast y streaming 2025</Link></li>
-            <li><Link href="/mejores-portatiles-trabajo-remoto" className="text-indigo-600 hover:underline">→ Los 5 mejores portátiles para trabajo remoto en 2025</Link></li>
+            <li><Link href="/mejores-webcams-videollamadas" className="text-indigo-600 hover:underline">→ Mejores webcams para videollamadas y streaming</Link></li>
+            <li><Link href="/mejores-microfonos-podcast-streaming" className="text-indigo-600 hover:underline">→ Mejores micrófonos para podcast y streaming</Link></li>
+            <li><Link href="/mejores-portatiles-trabajo-remoto" className="text-indigo-600 hover:underline">→ Los 5 mejores portátiles para trabajo remoto</Link></li>
           </ul>
         </div>
       </article>

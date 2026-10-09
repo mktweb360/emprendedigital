@@ -5,13 +5,13 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 
 export const metadata: Metadata = {
-  title: "Mejores escritorios ajustables en altura 2025 — Standing desks para teletrabajo",
+  title: "Mejores escritorios ajustables en altura — Standing desks para teletrabajo",
   description:
     "FlexiSpot E7 Pro, EG1, Autonomous SmartDesk y más. Guía completa para elegir el escritorio ajustable en altura perfecto para tu home office.",
   keywords: "mejores escritorios ajustables altura, standing desk teletrabajo, escritorio eléctrico altura, FlexiSpot E7 Pro review",
   alternates: { canonical: "https://www.emprendedigital.es/mejores-escritorios-ajustables-altura" },
   openGraph: {
-    title: "Mejores escritorios ajustables en altura 2025",
+    title: "Mejores escritorios ajustables en altura",
     description: "Guía de standing desks para home office: FlexiSpot, Autonomous y más.",
     url: "https://www.emprendedigital.es/mejores-escritorios-ajustables-altura",
   },
@@ -35,7 +35,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Mejores escritorios ajustables en altura 2025 — Standing desks para teletrabajo",
+  headline: "Mejores escritorios ajustables en altura — Standing desks para teletrabajo",
   datePublished: "2025-03-20",
   dateModified: "2025-06-01",
   author: { "@type": "Organization", name: "Emprende Digital" },
@@ -74,16 +74,16 @@ export default function EscritoriosPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Mejores escritorios ajustables en altura 2025 — Standing desks para teletrabajo
+          Mejores escritorios ajustables en altura — Standing desks para teletrabajo
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 20 marzo 2025 · 11 min lectura</p>
 
         <AffiliateDisclosure />
 
         <div className="prose">
-          <p>Los escritorios ajustables en altura —o standing desks— han pasado de ser un artículo de lujo de Silicon Valley a una inversión accesible para cualquier teletrabajador en 2025. Por menos de 250€ ya puedes tener un escritorio eléctrico de calidad que te permita alternar entre sentado y de pie durante la jornada laboral, con beneficios reales para la salud y la productividad.</p>
-          <p>Hemos analizado los <strong>5 mejores escritorios ajustables en altura</strong> disponibles en el mercado en 2025.</p>
-          <h2>Tabla comparativa — Los mejores standing desks 2025</h2>
+          <p>Los escritorios ajustables en altura —o standing desks— han pasado de ser un artículo de lujo de Silicon Valley a una inversión accesible para cualquier teletrabajador. Por menos de 250€ ya puedes tener un escritorio eléctrico de calidad que te permita alternar entre sentado y de pie durante la jornada laboral, con beneficios reales para la salud y la productividad.</p>
+          <p>Hemos analizado los <strong>5 mejores escritorios ajustables en altura</strong> disponibles en el mercado.</p>
+          <h2>Tabla comparativa — Los mejores standing desks</h2>
         </div>
 
         <div className="overflow-x-auto my-6">
@@ -96,7 +96,6 @@ export default function EscritoriosPage() {
                 <th className="px-3 py-3 text-left">Rango altura</th>
                 <th className="px-3 py-3 text-left">Carga máx.</th>
                 <th className="px-3 py-3 text-left">Memoria</th>
-                <th className="px-3 py-3 text-left">Valoración</th>
                 <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
@@ -109,7 +108,6 @@ export default function EscritoriosPage() {
                   <td className="px-3 py-3 text-gray-600">{p.range}</td>
                   <td className="px-3 py-3 text-gray-600">{p.weight}</td>
                   <td className="px-3 py-3 text-gray-600">{p.memory}</td>
-                  <td className="px-3 py-3 text-yellow-500 font-semibold">⭐ {p.stars}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
@@ -127,7 +125,7 @@ export default function EscritoriosPage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>1. FlexiSpot E7 Pro — El mejor para uso profesional intensivo (★★★★½)</h3>
+          <h3>1. FlexiSpot E7 Pro — El mejor para uso profesional intensivo</h3>
           <p>El <strong>FlexiSpot E7 Pro</strong> es el escritorio ajustable de referencia en la gama premium accesible. Doble motor con capacidad de 125 kg, sistema anti-colisión, 4 posiciones de memoria programables y una estabilidad excepcional incluso al máximo de altura. Las patas reforzadas con perfil ovalado son más rígidas que las cuadradas de modelos más económicos. Si tienes múltiples monitores y equipamiento pesado, el E7 Pro es el modelo correcto.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B08C6JFNHQ")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
@@ -135,7 +133,7 @@ export default function EscritoriosPage() {
             </a>
           </div>
 
-          <h3>2. FlexiSpot EG1 — La mejor opción económica (★★★★)</h3>
+          <h3>2. FlexiSpot EG1 — La mejor opción económica</h3>
           <p>El <strong>FlexiSpot EG1</strong> es el punto de entrada más recomendable en escritorios ajustables eléctricos: motor único silencioso, rango de 71 a 121 cm y carga de 70 kg —suficiente para un setup básico—. Sin memoria de posiciones, pero el panel de control es sencillo e intuitivo. Para quienes empiezan con un único monitor y equipamiento ligero, es la inversión más inteligente.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B08GQ2TXFC")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
@@ -143,13 +141,13 @@ export default function EscritoriosPage() {
             </a>
           </div>
 
-          <h3>3. IKEA Bekant Ajustable — La opción de confianza (★★★★)</h3>
+          <h3>3. IKEA Bekant Ajustable — La opción de confianza</h3>
           <p>El <strong>IKEA Bekant</strong> eléctrico combina la facilidad de montaje característica de IKEA con la fiabilidad de un motor simple. El tablero blanco de 160×80 cm es grande y práctico. Sin memoria de posiciones, lo que lo hace algo menos conveniente para quienes alternan posición frecuentemente.</p>
 
-          <h3>4. Autonomous SmartDesk Pro — Para setups muy cargados (★★★★)</h3>
+          <h3>4. Autonomous SmartDesk Pro — Para setups muy cargados</h3>
           <p>El <strong>Autonomous SmartDesk Pro</strong> soporta 130 kg de carga —el máximo del comparativo— con doble motor y 4 posiciones de memoria. Ideal para setups de triple monitor o con mucho equipamiento. El proceso de pedido y tiempos de entrega son algo más largos al tratarse de importación directa.</p>
 
-          <h3>5. FlexiSpot E5 — El gama media equilibrado (★★★★½)</h3>
+          <h3>5. FlexiSpot E5 — El gama media equilibrado</h3>
           <p>El <strong>FlexiSpot E5</strong> es el punto medio entre el E7 Pro y el EG1: doble motor, 100 kg de carga, 3 posiciones de memoria y certificación BIFMA. Para la mayoría de home offices con uno o dos monitores es el equilibrio perfecto entre prestaciones y precio.</p>
 
           <h2>Preguntas frecuentes sobre escritorios ajustables en altura</h2>
@@ -172,9 +170,9 @@ export default function EscritoriosPage() {
         <div className="mt-8 p-6 bg-indigo-50 rounded-xl border border-indigo-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/mejores-sillas-ergonomicas-teletrabajo" className="text-indigo-600 hover:underline">→ Mejores sillas ergonómicas para teletrabajo 2025</Link></li>
-            <li><Link href="/mejores-teclados-trabajo-remoto" className="text-indigo-600 hover:underline">→ Mejores teclados para trabajo remoto 2025</Link></li>
-            <li><Link href="/mejores-portatiles-trabajo-remoto" className="text-indigo-600 hover:underline">→ Los 5 mejores portátiles para trabajo remoto en 2025</Link></li>
+            <li><Link href="/mejores-sillas-ergonomicas-teletrabajo" className="text-indigo-600 hover:underline">→ Mejores sillas ergonómicas para teletrabajo</Link></li>
+            <li><Link href="/mejores-teclados-trabajo-remoto" className="text-indigo-600 hover:underline">→ Mejores teclados para trabajo remoto</Link></li>
+            <li><Link href="/mejores-portatiles-trabajo-remoto" className="text-indigo-600 hover:underline">→ Los 5 mejores portátiles para trabajo remoto</Link></li>
           </ul>
         </div>
       </article>

@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: `${product.name} — Análisis y opiniones 2025`,
+    title: { absolute: `${product.name}: análisis y opiniones` },
     description: `Análisis completo del ${product.name}: especificaciones, pros, contras, precio y comparativa con alternativas. ¿Vale la pena en 2025?`,
     alternates: { canonical: `https://www.emprendedigital.es/tienda/${product.categorySlug}/${product.slug}` },
   };
@@ -71,17 +71,8 @@ export default async function ProductoPage({ params }: Props) {
     .slice(0, 3);
   const relatedGuides = (product.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
 
-  // Sin `offers` (precio) ni `aggregateRating`: precio y opiniones solo pueden
-  // mostrarse vía la API oficial de Amazon (Creators API). Emitir precio estático
-  // o ratings de Amazon incumple el Operating Agreement de Amazon y la política
-  // de datos estructurados de Google.
-  const productSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: product.name,
-    description: product.fullDescription,
-    sku: product.asin,
-  };
+  // Sin schema Product: sin precio ni valoraciones (solo pueden mostrarse vía la API oficial de
+  // Amazon) Google lo considera un elemento no válido. Se mantienen Breadcrumb y FAQ.
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -107,9 +98,7 @@ export default async function ProductoPage({ params }: Props) {
     : null;
 
   return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+    <>      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
 
       <div className="max-w-4xl mx-auto px-4 py-10">

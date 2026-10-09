@@ -23,6 +23,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/blog/baseus-docking-station-12en1-analisis",
+        destination: "/blog/conectar-dos-monitores-portatil-guia",
+        permanent: true,
+      },
+      {
         source: "/tienda/perifericos/keychron-k2-teclado-mecanico",
         destination: "/tienda/perifericos/keychron-k2-pro-mecanico",
         permanent: true,

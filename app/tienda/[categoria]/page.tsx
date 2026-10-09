@@ -231,7 +231,6 @@ export default async function CategoriaPage({ params }: Props) {
                 <span className="font-semibold text-gray-700">{catProducts.length}</span>{" "}
                 {catProducts.length === 1 ? "producto analizado" : "productos analizados"}
               </p>
-              <span className="text-xs text-gray-400">{cat.priceRange}</span>
             </div>
 
             {/* Product grid */}
@@ -252,7 +251,7 @@ export default async function CategoriaPage({ params }: Props) {
                     </h2>
                     <p className="text-xs text-gray-500 mb-3 leading-relaxed line-clamp-2">{product.shortDescription}</p>
                     <div className="flex items-center justify-between mt-auto">
-                      <span className="text-base font-bold text-gray-900">{product.price}</span>
+                      <span className="text-xs text-gray-500">Ver precio actual</span>
                       <Link
                         href={`/tienda/${cat.slug}/${product.slug}`}
                         className="text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg px-3 py-1.5 transition-colors"

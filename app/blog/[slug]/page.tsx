@@ -54,12 +54,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "Ticova: el equilibrio calidad-precio",
-        body: "La Ticova es una de las sillas ergonómicas más vendidas por debajo de los 150 euros, y su argumento es la comodidad para reclinarse. Su respaldo alto de malla transpirable llega hasta 130° de reclinación, con soporte lumbar ajustable y reposabrazos 3D, prácticos para el día a día sin necesitar el ajuste de profundidad de un modelo 4D. Pesa 18 kg. A favor: la reclinación hasta 130°, los reposabrazos 3D y el precio de 149,99 euros. En contra: el soporte lumbar no es tan avanzado como en la gama superior, la base es de plástico y no tiene reposacabezas ajustable en profundidad, así que si buscas máxima personalización postural se queda por detrás de la HOLLUDLE.",
+        body: "La Ticova es una de las sillas ergonómicas más vendidas de gama de entrada, y su argumento es la comodidad para reclinarse. Su respaldo alto de malla transpirable llega hasta 130° de reclinación, con soporte lumbar ajustable y reposabrazos 3D, prácticos para el día a día sin necesitar el ajuste de profundidad de un modelo 4D. Pesa 18 kg. A favor: la reclinación hasta 130°, los reposabrazos 3D y su precio contenido. En contra: el soporte lumbar no es tan avanzado como en la gama superior, la base es de plástico y no tiene reposacabezas ajustable en profundidad, así que si buscas máxima personalización postural se queda por detrás de la HOLLUDLE.",
         productSlug: "hbada-silla-ergonomica-pro",
       },
       {
         heading: "¿Cuál elegir según tu perfil?",
-        body: "Si trabajas más de seis horas diarias y quieres configurar la silla a tu morfología exacta —reposabrazos 4D, profundidad de asiento ajustable y reposacabezas—, la HOLLUDLE es la compra correcta y los 60 euros extra se amortizan en confort a lo largo de los años. Si tus jornadas son más cortas, valoras poder reclinarte hasta 130° para las pausas y no necesitas ni reposacabezas en profundidad ni reposabrazos 4D, la Ticova entrega casi toda la comodidad por menos dinero. Un criterio práctico: cuanto más tiempo pases sentado y más específica sea tu postura, más valor tiene la capacidad de ajuste de la HOLLUDLE.",
+        body: "Si trabajas más de seis horas diarias y quieres configurar la silla a tu morfología exacta —reposabrazos 4D, profundidad de asiento ajustable y reposacabezas—, la HOLLUDLE es la compra correcta y la diferencia de precio se amortiza en confort a lo largo de los años. Si tus jornadas son más cortas, valoras poder reclinarte hasta 130° para las pausas y no necesitas ni reposacabezas en profundidad ni reposabrazos 4D, la Ticova entrega casi toda la comodidad por menos dinero. Un criterio práctico: cuanto más tiempo pases sentado y más específica sea tu postura, más valor tiene la capacidad de ajuste de la HOLLUDLE.",
       },
     ],
     comparison: {
@@ -73,9 +73,9 @@ const articleContent: Record<string, {
         ["Mejor para", "Jornadas largas y personalización", "Equilibrio y reclinado cómodo"],
       ],
     },
-    conclusion: "Para jornadas de más de seis horas diarias, la HOLLUDLE se amortiza en salud y productividad gracias a su respaldo adaptativo y sus reposabrazos 4D: es la silla que mejor puedes configurar a tu cuerpo. Si buscas una silla cómoda para reclinarte, priorizas el precio y no necesitas el ajuste de profundidad de asiento, la Ticova a 149,99 euros es la compra más inteligente. Ninguna de las dos sustituye a las pausas activas cada hora, pero ambas eliminan el dolor postural que provoca una silla mala.",
+    conclusion: "Para jornadas de más de seis horas diarias, la HOLLUDLE se amortiza en salud y productividad gracias a su respaldo adaptativo y sus reposabrazos 4D: es la silla que mejor puedes configurar a tu cuerpo. Si buscas una silla cómoda para reclinarte, priorizas el precio y no necesitas el ajuste de profundidad de asiento, la Ticova es la compra más inteligente. Ninguna de las dos sustituye a las pausas activas cada hora, pero ambas eliminan el dolor postural que provoca una silla mala.",
     faqs: [
-      { q: "¿Vale la pena gastar más de 200€ en una silla de oficina?", a: "Si trabajas desde casa más de seis horas diarias, sí. El coste diario de una silla de 209,99 euros usada durante cinco años es inferior al de un café. El coste de una consulta de fisioterapia por dolor lumbar crónico multiplica ese gasto varias veces, así que la silla correcta es una de las inversiones con mejor retorno de un home office." },
+      { q: "¿Vale la pena gastar más de 200€ en una silla de oficina?", a: "Si trabajas desde casa más de seis horas diarias, sí. El coste diario de una silla ergonómica de gama media usada durante cinco años es inferior al de un café. El coste de una consulta de fisioterapia por dolor lumbar crónico multiplica ese gasto varias veces, así que la silla correcta es una de las inversiones con mejor retorno de un home office." },
       { q: "¿Cuánto dura una silla ergonómica de calidad?", a: "Con uso doméstico normal (un usuario, 8 horas al día), entre 8 y 15 años. En las sillas de malla, el tejido suele degradarse antes que la estructura metálica. La garantía es un buen indicador de calidad: una garantía muy corta en una silla cara es una señal de alerta sobre la confianza del propio fabricante en su producto." },
       { q: "¿Es mejor la silla de malla o la de tela?", a: "Para climas cálidos o personas que sudan mucho, la malla es más transpirable y mantiene la espalda fresca en verano. Para climas fríos, la tela o el cuero resultan más cómodos en invierno. Como contrapartida, la malla tiene menor vida útil que un buen tapizado de tela o cuero de calidad. Las dos sillas de esta guía son de malla, la opción más habitual en España." },
       { q: "¿Se puede montar una silla ergonómica sin ayuda?", a: "Sí, la mayoría se monta en 20-40 minutos siguiendo las instrucciones, y tanto la HOLLUDLE como la Ticova incluyen herramientas y manual. Conviene tener cerca a alguien para sostener el respaldo durante el momento de fijarlo al asiento, aunque no es imprescindible." },
@@ -91,12 +91,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "FlexiSpot E7 Pro: el más completo",
-        body: "El E7 Pro es el escritorio ajustable de referencia del catálogo. Su doble motor sincronizado mueve el tablero a 4 cm/s en un rango de 58 a 123 cm, soporta 125 kg y guarda cuatro alturas en memoria, de modo que pasar de sentado a de pie es cuestión de pulsar un botón. Incluye tablero de 140×70 cm en melamina de 18 mm, espacio de sobra para dos monitores, teclado y accesorios, y la garantía del motor es de cinco años. A favor: estabilidad, carga, cuatro memorias y garantía larga. En contra: el precio de 449 euros, que el montaje requiere dos personas por el peso, y que no incluye sistema de gestión de cables.",
+        body: "El E7 Pro es el escritorio ajustable de referencia del catálogo. Su doble motor sincronizado mueve el tablero a 4 cm/s en un rango de 58 a 123 cm, soporta 125 kg y guarda cuatro alturas en memoria, de modo que pasar de sentado a de pie es cuestión de pulsar un botón. Incluye tablero de 140×70 cm en melamina de 18 mm, espacio de sobra para dos monitores, teclado y accesorios, y la garantía del motor es de cinco años. A favor: estabilidad, carga, cuatro memorias y garantía larga. En contra: su precio, que el montaje requiere dos personas por el peso, y que no incluye sistema de gestión de cables.",
         productSlug: "flexispot-e7-pro-escritorio-ajustable",
       },
       {
         heading: "FlexiSpot EG1: la entrada más económica",
-        body: "El EG1 es la puerta de entrada a los escritorios eléctricos: por 199 euros ofrece las ventajas de trabajar de pie sin la inversión del E7 Pro. Su motor único con detección de obstáculos regula la altura entre 71 y 121 cm, soporta 70 kg y guarda dos alturas en memoria. El tablero es de 120×60 cm, suficiente para un setup de un monitor, y es compatible con tableros de IKEA si más adelante quieres ampliarlo. La garantía del motor es de tres años. A favor: precio, marca reconocida y compatibilidad con tableros IKEA. En contra: con carga alta es algo menos estable que el E7 Pro, solo guarda dos memorias y el tablero es básico.",
+        body: "El EG1 es la puerta de entrada a los escritorios eléctricos: ofrece las ventajas de trabajar de pie sin la inversión del E7 Pro. Su motor único con detección de obstáculos regula la altura entre 71 y 121 cm, soporta 70 kg y guarda dos alturas en memoria. El tablero es de 120×60 cm, suficiente para un setup de un monitor, y es compatible con tableros de IKEA si más adelante quieres ampliarlo. La garantía del motor es de tres años. A favor: precio, marca reconocida y compatibilidad con tableros IKEA. En contra: con carga alta es algo menos estable que el E7 Pro, solo guarda dos memorias y el tablero es básico.",
         productSlug: "flexispot-eg1-escritorio-ajustable",
       },
       {
@@ -115,7 +115,7 @@ const articleContent: Record<string, {
         ["Garantía motor", "5 años", "3 años"],
       ],
     },
-    conclusion: "El FlexiSpot E7 Pro es el mejor escritorio regulable del catálogo para uso intensivo: doble motor, 125 kg de carga y cuatro memorias justifican su precio si lo vas a usar años con un setup exigente. El EG1 es la puerta de entrada correcta a 199 euros para quien tiene un setup ligero y quiere empezar a trabajar de pie sin la inversión del E7 Pro. Los dos cumplen el objetivo esencial: sacarte de la silla varias veces al día.",
+    conclusion: "El FlexiSpot E7 Pro es el mejor escritorio regulable del catálogo para uso intensivo: doble motor, 125 kg de carga y cuatro memorias justifican su precio si lo vas a usar años con un setup exigente. El EG1 es la puerta de entrada correcta para quien tiene un setup ligero y quiere empezar a trabajar de pie sin la inversión del E7 Pro. Los dos cumplen el objetivo esencial: sacarte de la silla varias veces al día.",
     faqs: [
       { q: "¿Cuánto tiempo al día hay que trabajar de pie?", a: "La recomendación general es alternar: unos 20-30 minutos de pie por cada hora sentado. Lo sensato es empezar con una o dos horas de pie al día e ir aumentando de forma progresiva. Estar de pie toda la jornada tampoco es ideal, porque genera su propia fatiga: la clave está en variar de postura, no en sustituir un extremo por otro." },
       { q: "¿Necesito una alfombrilla antifatiga con el escritorio de pie?", a: "Es muy recomendable si vas a estar de pie más de 30 minutos seguidos. Una alfombrilla antifatiga reduce de forma notable la fatiga en piernas y pies al trabajar de pie, porque favorece pequeños movimientos musculares que mejoran la circulación. Es un complemento barato que marca la diferencia en la comodidad del modo de pie." },
@@ -137,17 +137,17 @@ const articleContent: Record<string, {
       },
       {
         heading: "El home office intermedio",
-        body: "El siguiente escalón es donde la mayoría de trabajadores remotos están cómodos sin haberse gastado de más. Aquí la pieza central es una buena silla ergonómica: la Ticova, por 149,99 euros, ofrece malla transpirable, reclinación hasta 130° y reposabrazos 3D, más que suficiente para una jornada estándar. Súmale un monitor de 27 pulgadas QHD, un teclado y un ratón inalámbricos y una webcam decente, y tienes un presupuesto total en el entorno de 600 a 900 euros para un puesto que cubre casi todo sin fricciones.",
+        body: "El siguiente escalón es donde la mayoría de trabajadores remotos están cómodos sin haberse gastado de más. Aquí la pieza central es una buena silla ergonómica: la Ticova ofrece malla transpirable, reclinación hasta 130° y reposabrazos 3D, más que suficiente para una jornada estándar. Súmale un monitor de 27 pulgadas QHD, un teclado y un ratón inalámbricos y una webcam decente, y tienes un presupuesto total en el entorno de 600 a 900 euros para un puesto que cubre casi todo sin fricciones.",
         productSlug: "hbada-silla-ergonomica-pro",
       },
       {
         heading: "El home office completo",
-        body: "El nivel completo elimina prácticamente todas las fricciones físicas del trabajo remoto. La silla sube a la HOLLUDLE (209,99 euros), con respaldo adaptativo, reposacabezas y reposabrazos 4D para jornadas largas y máxima personalización. A partir de ahí, añades doble monitor o un ultrawide, un teclado y un ratón premium tipo Logitech MX, y una buena iluminación frontal para las videollamadas. Es el setup de quien trabaja desde casa a tiempo completo y quiere que el equipamiento no sea nunca el cuello de botella.",
+        body: "El nivel completo elimina prácticamente todas las fricciones físicas del trabajo remoto. La silla sube a la HOLLUDLE, con respaldo adaptativo, reposacabezas y reposabrazos 4D para jornadas largas y máxima personalización. A partir de ahí, añades doble monitor o un ultrawide, un teclado y un ratón premium tipo Logitech MX, y una buena iluminación frontal para las videollamadas. Es el setup de quien trabaja desde casa a tiempo completo y quiere que el equipamiento no sea nunca el cuello de botella.",
         productSlug: "sihoo-m57-silla-ergonomica",
       },
       {
         heading: "El escritorio que corona el setup",
-        body: "La última pieza del home office completo es el escritorio regulable en altura, la mejora postural con mayor impacto a largo plazo. El FlexiSpot E7 Pro, por 449 euros, permite alternar entre trabajar sentado y de pie con doble motor y cuatro memorias de altura, y su tablero de 140×70 cm da espacio para el doble monitor. Con él, el presupuesto total del setup completo se sitúa entre 1.200 y 2.000 euros, según el resto de componentes que elijas.",
+        body: "La última pieza del home office completo es el escritorio regulable en altura, la mejora postural con mayor impacto a largo plazo. El FlexiSpot E7 Pro permite alternar entre trabajar sentado y de pie con doble motor y cuatro memorias de altura, y su tablero de 140×70 cm da espacio para el doble monitor. Con él, el presupuesto total del setup completo se sitúa entre 1.200 y 2.000 euros, según el resto de componentes que elijas.",
         productSlug: "flexispot-e7-pro-escritorio-ajustable",
       },
     ],
@@ -182,7 +182,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "La solución intermedia",
-        body: "Si no necesitas la máxima personalización, la Ticova cubre lo esencial por 149,99 euros: incluye soporte lumbar ajustable y reclinación hasta 130°, que ayuda a variar la postura a lo largo del día. Para la mayoría de personas sin patología estructural previa, pasar de una silla blanda sin apoyo a una silla con lumbar y malla transpirable es suficiente para eliminar el dolor postural. No ofrece la profundidad de asiento ajustable ni los reposabrazos 4D de la HOLLUDLE, pero para un uso moderado la diferencia es menor.",
+        body: "Si no necesitas la máxima personalización, la Ticova cubre lo esencial: incluye soporte lumbar ajustable y reclinación hasta 130°, que ayuda a variar la postura a lo largo del día. Para la mayoría de personas sin patología estructural previa, pasar de una silla blanda sin apoyo a una silla con lumbar y malla transpirable es suficiente para eliminar el dolor postural. No ofrece la profundidad de asiento ajustable ni los reposabrazos 4D de la HOLLUDLE, pero para un uso moderado la diferencia es menor.",
         productSlug: "hbada-silla-ergonomica-pro",
       },
       {
@@ -249,7 +249,7 @@ const articleContent: Record<string, {
         ["Mejor para", "Escritura cómoda", "Trabajo con ratón exigente", "Feedback mecánico y personalización"],
       ],
     },
-    conclusion: "Para un home office completo, la combinación MX Keys S + MX Master 3S es el estándar de productividad por excelencia. Si prefieres la respuesta táctil de un teclado mecánico, el Keychron V6 MAX a 139,99 € es la alternativa, con la ventaja de la programabilidad QMK/VIA y la triple conexión para saltar entre dispositivos. La elección del teclado se reduce a silencio y comodidad frente a feedback y personalización.",
+    conclusion: "Para un home office completo, la combinación MX Keys S + MX Master 3S es el estándar de productividad por excelencia. Si prefieres la respuesta táctil de un teclado mecánico, el Keychron V6 MAX es la alternativa, con la ventaja de la programabilidad QMK/VIA y la triple conexión para saltar entre dispositivos. La elección del teclado se reduce a silencio y comodidad frente a feedback y personalización.",
     faqs: [
       { q: "¿Merece la pena el MX Keys frente a un teclado mecánico?", a: "Para escritura de oficina intensiva, las teclas de perfil bajo del MX Keys son más silenciosas y de menor recorrido, lo que reduce la fatiga en jornadas largas. Para quien prefiere el feedback táctil, un mecánico como el Keychron V6 MAX puede ser mejor. Es una cuestión de preferencia personal, no de calidad: ambos son teclados de gama alta." },
       { q: "¿El MX Master 3S funciona en cualquier superficie?", a: "Sí, su sensor de 8.000 DPI funciona en prácticamente cualquier superficie, incluido el cristal. No necesita alfombrilla, aunque usar una mejora ligeramente la precisión y la durabilidad del sensor a largo plazo." },
@@ -299,7 +299,7 @@ const articleContent: Record<string, {
     conclusion: "No hay un setup universal, hay uno correcto para cada uso y presupuesto. El punto de equilibrio para la mayoría está en el nivel 2: una silla ergonómica, un buen monitor y uno de los dos periféricos premium de Logitech. El segundo periférico y la iluminación son la mejora siguiente, cuando el resto ya está resuelto y quieres pulir las últimas fricciones.",
     faqs: [
       { q: "¿Necesito dos monitores para ser productivo?", a: "Depende del trabajo. Para programar o analizar datos, dos monitores ayudan a tener varias fuentes a la vista. Para escritura, reuniones y trabajo enfocado, un monitor grande de calidad es suficiente e incluso mejor, porque distrae menos. No es una regla universal: depende de cuántas ventanas necesites ver a la vez." },
-      { q: "¿Vale la pena un ratón ergonómico de 99 €?", a: "Si usas el ratón entre seis y ocho horas diarias, sí. El coste diario amortizado en tres años es mínimo, y la prevención de lesiones de muñeca tiene un valor muy superior. Es de las inversiones con mejor retorno en un puesto de trabajo remoto intensivo." },
+      { q: "¿Vale la pena un ratón ergonómico de gama alta?", a: "Si usas el ratón entre seis y ocho horas diarias, sí. El coste diario amortizado en tres años es mínimo, y la prevención de lesiones de muñeca tiene un valor muy superior. Es de las inversiones con mejor retorno en un puesto de trabajo remoto intensivo." },
       { q: "¿Qué altura debe tener el monitor?", a: "El borde superior de la pantalla debe quedar a la altura de los ojos o ligeramente por debajo. Un monitor demasiado bajo obliga a inclinar la cabeza hacia abajo y genera tensión cervical con el paso de las horas. Si tu monitor no sube lo suficiente, un soporte o un brazo articulado lo resuelven." },
       { q: "¿Por dónde empiezo si el presupuesto es limitado?", a: "Por la silla y el monitor. Son las dos piezas que más afectan a la salud y a la productividad. Los periféricos premium y la iluminación son mejoras reales, pero con retorno decreciente: tienen sentido una vez cubiertas las dos primeras prioridades." },
     ],
@@ -367,7 +367,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Cuándo basta una opción sin ANC",
-        body: "Si tu entorno de trabajo ya es relativamente silencioso o tu presupuesto es ajustado, un auricular como el JBL Tune 520BT (hasta 57 horas de batería, plegable, sonido Pure Bass, 39,99 €) cumple para música y llamadas básicas. Eso sí, conviene tener claro que no tiene cancelación activa: solo aísla de forma pasiva por la almohadilla. Si tu objetivo real es bloquear el ruido del entorno, no es la herramienta; para el resto de usos, ofrece mucho por su precio.",
+        body: "Si tu entorno de trabajo ya es relativamente silencioso o tu presupuesto es ajustado, un auricular como el JBL Tune 520BT (hasta 57 horas de batería, plegable, sonido Pure Bass) cumple para música y llamadas básicas. Eso sí, conviene tener claro que no tiene cancelación activa: solo aísla de forma pasiva por la almohadilla. Si tu objetivo real es bloquear el ruido del entorno, no es la herramienta; para el resto de usos, ofrece mucho por su precio.",
       },
       {
         heading: "¿Cuál elegir según tu perfil?",
@@ -416,11 +416,11 @@ const articleContent: Record<string, {
       },
     ],
     comparison: {
-      headers: ["Producto", "Uso principal", "Precio", "Cuándo elegirlo"],
+      headers: ["Producto", "Uso principal", "Cuándo elegirlo"],
       rows: [
-        ["Logitech C920", "Reuniones y videollamadas", "79,99 €", "Primera webcam externa"],
-        ["Logitech MX Brio 4K", "Streaming y grabación en 4K", "159,99 €", "Producción de contenido"],
-        ["Blue Yeti", "Audio profesional en reuniones y podcast", "129,99 €", "Cuando el audio importa mucho"],
+        ["Logitech C920", "Reuniones y videollamadas", "Primera webcam externa"],
+        ["Logitech MX Brio 4K", "Streaming y grabación en 4K", "Producción de contenido"],
+        ["Blue Yeti", "Audio profesional en reuniones y podcast", "Cuando el audio importa mucho"],
       ],
     },
     conclusion: "La Logitech C920 es la primera compra correcta para cualquier trabajador remoto que no tenga webcam externa. Si produces contenido o necesitas 4K y certificación para las principales plataformas de videollamada, la MX Brio justifica el salto. Y una vez resuelta la imagen, el mayor impacto siguiente viene del audio: un micrófono USB como el Blue Yeti —o el Elgato Wave:3, con su software de mezcla Wave Link— eleva la calidad percibida en reuniones importantes.",
@@ -449,7 +449,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Sony XM5 vs JBL Tune 520BT: la diferencia real",
-        body: "El JBL Tune 520BT, a 39,99 €, no tiene cancelación activa, pero ofrece hasta 57 horas de batería, es plegable y suena sorprendentemente bien para su precio gracias al sonido Pure Bass. Para un home office silencioso donde no necesitas cancelar ruido, cumple de sobra para música y llamadas. Los XM5 justifican el salto de precio cuando el entorno es ruidoso o cuando también escuchas música con calidad y valoras la diferencia de audio.",
+        body: "El JBL Tune 520BT no tiene cancelación activa, pero ofrece hasta 57 horas de batería, es plegable y suena sorprendentemente bien para su precio gracias al sonido Pure Bass. Para un home office silencioso donde no necesitas cancelar ruido, cumple de sobra para música y llamadas. Los XM5 justifican el salto de precio cuando el entorno es ruidoso o cuando también escuchas música con calidad y valoras la diferencia de audio.",
         productSlug: "jbl-tune-510bt-auriculares",
       },
       {
@@ -496,7 +496,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "NEEWER RP18B Pro 18\": potencia y control por app",
-        body: "El aro de luz NEEWER RP18B Pro de 18\" ofrece 45W de potencia con temperatura ajustable de 2.900 a 7.000 K y un TLCI de 98 para una reproducción de color muy fiel, además de control por app y obturador remoto incluidos, todo por 150,19 €. Es la opción para quien quiere una luz de vídeo potente y de color preciso, especialmente si además graba con el móvil y quiere manejar la luz sin tocarla. A cambio, su precio es superior al de generaciones anteriores del mismo aro.",
+        body: "El aro de luz NEEWER RP18B Pro de 18\" ofrece 45W de potencia con temperatura ajustable de 2.900 a 7.000 K y un TLCI de 98 para una reproducción de color muy fiel, además de control por app y obturador remoto incluidos. Es la opción para quien quiere una luz de vídeo potente y de color preciso, especialmente si además graba con el móvil y quiere manejar la luz sin tocarla. A cambio, su precio es superior al de generaciones anteriores del mismo aro.",
         productSlug: "neewer-ring-light-18-pulgadas",
       },
       {
@@ -515,7 +515,7 @@ const articleContent: Record<string, {
         ["Mejor para", "Videollamadas y control por app", "Precisión de color y grabación con móvil"],
       ],
     },
-    conclusion: "Para videollamadas de trabajo, el Elgato Key Light Air es la opción más práctica por su control desde el ordenador y su luz de panel discreta. Para quien busca una luz de vídeo potente con un TLCI muy alto y control por app y obturador remoto, el NEEWER RP18B Pro por 150,19 € es difícil de superar. Ambos mejoran tu imagen mucho más que cualquier cambio de webcam.",
+    conclusion: "Para videollamadas de trabajo, el Elgato Key Light Air es la opción más práctica por su control desde el ordenador y su luz de panel discreta. Para quien busca una luz de vídeo potente con un TLCI muy alto y control por app y obturador remoto, el NEEWER RP18B Pro es difícil de superar. Ambos mejoran tu imagen mucho más que cualquier cambio de webcam.",
     faqs: [
       { q: "¿Un aro de luz funciona bien para videollamadas de trabajo?", a: "Funciona, pero produce un reflejo circular en los ojos que en un contexto profesional puede parecer poco natural. Un panel como el Elgato da una luz más difusa y discreta; el aro luce más en creación de contenido y en grabación con el móvil, donde ese reflejo es parte del acabado buscado." },
       { q: "¿Necesito dos luces para videollamadas?", a: "Para un setup básico de videollamadas, una sola fuente de luz frontal es suficiente. El esquema de dos luces (una principal más fuerte y una de relleno más suave) da resultados más equilibrados, pero es más complejo de montar y rara vez necesario para reuniones de trabajo." },
@@ -625,7 +625,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Para audio con mezcla integrada",
-        body: "Si grabas tu voz y quieres poder mezclarla con el audio del sistema sin complicarte con hardware adicional, el Elgato Wave:3 (cardioide, software Wave Link, 99,99 €) es una alternativa muy valorada al Blue Yeti que ocupa un espacio similar en el escritorio. Es una gran opción para quien empieza a crear contenido y quiere control de ganancia capacitivo y un antipop de doble capa integrado sin accesorios extra.",
+        body: "Si grabas tu voz y quieres poder mezclarla con el audio del sistema sin complicarte con hardware adicional, el Elgato Wave:3 (cardioide, software Wave Link) es una alternativa muy valorada al Blue Yeti que ocupa un espacio similar en el escritorio. Es una gran opción para quien empieza a crear contenido y quiere control de ganancia capacitivo y un antipop de doble capa integrado sin accesorios extra.",
         productSlug: "elgato-wave3-microfono-condensador-usb",
       },
       {
@@ -880,7 +880,7 @@ const articleContent: Record<string, {
     },
     {
       heading: "Los 5 mejores modelos para trabajar en 2025",
-      body: "iPad Air M2 11 pulgadas (799-899 €): el equilibrio perfecto para la mayoría de profesionales. El chip M2 entrega una potencia real para edición de fotos, presentaciones y documentos complejos; es compatible con Apple Pencil de segunda generación y con el Magic Keyboard, y la pantalla Liquid Retina de 60 Hz es fiel al color y cómoda para leer documentos. Ideal para diseñadores, escritores y profesionales creativos que ya viven en el ecosistema Apple.\n\niPad Pro M4 11 pulgadas (1.099-1.199 €): para quienes necesitan máxima potencia —edición de vídeo en resolución alta, diseño en Procreate o CAD ligero—. Añade pantalla OLED, Apple Pencil Pro y una cámara frontal en el borde corto pensada para llamadas horizontales. Para la mayoría de usuarios de trabajo de oficina es overkill; justifica el precio solo si el trabajo creativo es el núcleo de tu actividad.\n\nSamsung Galaxy Tab S9 FE (499-549 €): la mejor tablet Android para trabajo. El modo DeX convierte la interfaz en escritorio con ventanas flotantes, Samsung Notes es uno de los mejores apps de toma de notas con S-Pen del mercado y viene incluido el S-Pen. Buena pantalla de 10,9 pulgadas y autonomía de dos días en uso moderado.\n\nMicrosoft Surface Pro 9 (1.099-1.299 €): Windows 11 completo en formato tablet. La elección correcta si necesitas programas específicos de Windows —software de contabilidad, herramientas CAD completas o entornos de desarrollo que no tienen versión iOS ni Android. El teclado se vende por separado.\n\nLenovo Tab P12 (349-399 €): la opción económica con pantalla grande. 12,7 pulgadas con resolución 3K y una batería de 10.200 mAh que aguanta jornadas completas. Para quien necesita una surface grande para documentos, email y videollamadas sin el precio de una tablet premium.",
+      body: "iPad Air M2 11 pulgadas: el equilibrio perfecto para la mayoría de profesionales. El chip M2 entrega una potencia real para edición de fotos, presentaciones y documentos complejos; es compatible con Apple Pencil de segunda generación y con el Magic Keyboard, y la pantalla Liquid Retina de 60 Hz es fiel al color y cómoda para leer documentos. Ideal para diseñadores, escritores y profesionales creativos que ya viven en el ecosistema Apple.\n\niPad Pro M4 11 pulgadas: para quienes necesitan máxima potencia —edición de vídeo en resolución alta, diseño en Procreate o CAD ligero—. Añade pantalla OLED, Apple Pencil Pro y una cámara frontal en el borde corto pensada para llamadas horizontales. Para la mayoría de usuarios de trabajo de oficina es overkill; justifica el precio solo si el trabajo creativo es el núcleo de tu actividad.\n\nSamsung Galaxy Tab S9 FE: la mejor tablet Android para trabajo. El modo DeX convierte la interfaz en escritorio con ventanas flotantes, Samsung Notes es uno de los mejores apps de toma de notas con S-Pen del mercado y viene incluido el S-Pen. Buena pantalla de 10,9 pulgadas y autonomía de dos días en uso moderado.\n\nMicrosoft Surface Pro 9: Windows 11 completo en formato tablet. La elección correcta si necesitas programas específicos de Windows —software de contabilidad, herramientas CAD completas o entornos de desarrollo que no tienen versión iOS ni Android. El teclado se vende por separado.\n\nLenovo Tab P12: la opción económica con pantalla grande. 12,7 pulgadas con resolución 3K y una batería de 10.200 mAh que aguanta jornadas completas. Para quien necesita una surface grande para documentos, email y videollamadas sin el precio de una tablet premium.",
     },
     {
       heading: "Accesorios que multiplican la productividad",
@@ -892,17 +892,17 @@ const articleContent: Record<string, {
     },
   ],
   comparison: {
-    headers: ["Modelo", "Precio", "Sistema", "Mejor para"],
+    headers: ["Modelo", "Sistema", "Mejor para"],
     rows: [
-      ["iPad Air M2 11\"", "799-899 €", "iPadOS", "Creativos y usuarios de Mac"],
-      ["iPad Pro M4 11\"", "1.099-1.199 €", "iPadOS", "Creación intensiva"],
-      ["Samsung Galaxy Tab S9 FE", "499-549 €", "Android + DeX", "Trabajo en Android y presupuesto medio"],
-      ["Microsoft Surface Pro 9", "1.099-1.299 €", "Windows 11", "Software exclusivo de Windows"],
-      ["Lenovo Tab P12", "349-399 €", "Android", "Pantalla grande y precio ajustado"],
+      ["iPad Air M2 11\"", "iPadOS", "Creativos y usuarios de Mac"],
+      ["iPad Pro M4 11\"", "iPadOS", "Creación intensiva"],
+      ["Samsung Galaxy Tab S9 FE", "Android + DeX", "Trabajo en Android y presupuesto medio"],
+      ["Microsoft Surface Pro 9", "Windows 11", "Software exclusivo de Windows"],
+      ["Lenovo Tab P12", "Android", "Pantalla grande y precio ajustado"],
     ],
   },
   conclusion:
-    "Para la mayoría de trabajadores remotos que viven en el ecosistema Apple, el iPad Air M2 es la compra correcta: potencia real, Apple Pencil, integración con Mac y una pantalla excelente por 799 euros. Si prefieres Android o priorizas el precio, la Samsung Galaxy Tab S9 FE con modo DeX ofrece la mejor experiencia de productividad por debajo de 550 euros. Y si necesitas Windows completo sin renunciar a la portabilidad de una tablet, el Surface Pro 9 es la única opción real. La tablet por sí sola no reemplaza al portátil para trabajo técnico, pero para el resto de tareas —documentos, reuniones, anotaciones, lectura— lo complementa de forma notable.",
+    "Para la mayoría de trabajadores remotos que viven en el ecosistema Apple, el iPad Air M2 es la compra correcta: potencia real, Apple Pencil, integración con Mac y una pantalla excelente. Si prefieres Android o priorizas el precio, la Samsung Galaxy Tab S9 FE con modo DeX ofrece la mejor experiencia de productividad en la gama media. Y si necesitas Windows completo sin renunciar a la portabilidad de una tablet, el Surface Pro 9 es la única opción real. La tablet por sí sola no reemplaza al portátil para trabajo técnico, pero para el resto de tareas —documentos, reuniones, anotaciones, lectura— lo complementa de forma notable.",
   faqs: [
     {
       q: "¿Puede una tablet reemplazar al portátil para trabajar?",
@@ -994,7 +994,7 @@ const articleContent: Record<string, {
     },
     {
       heading: "Los 5 mejores hubs USB-C en 2025",
-      body: "Anker 555 8-en-1 (55-65 €): el mejor equilibrio calidad-precio del mercado. Entrega 100 W de Power Delivery para cargar el portátil, salida HDMI 4K a 30 Hz, tres puertos USB-A 3.0, USB-C de datos, lector SD y lector microSD. El chip de Anker gestiona bien la distribución de energía sin inestabilidades. Recomendado para la mayoría de usuarios.\n\nCalDigit TS4 Thunderbolt 4 (199-249 €): la docking station de referencia para Mac. 18 puertos incluyendo dos salidas de vídeo para monitores 6K, tres puertos Thunderbolt 4, cinco USB-A, audio profesional y 98 W de carga. Para quien trabaja con un MacBook Pro y dos monitores en un escritorio fijo, es la inversión definitiva.\n\nBaseus 17-en-1 (79-89 €): el hub más completo en precio medio. Añade ethernet gigabit, puerto VGA para proyectores de empresa, dos HDMI y hasta 100 W de PD. Útil si necesitas muchos puertos distintos sin gastar en una docking. La gestión térmica es correcta aunque el cuerpo plástico acumula más calor que el aluminio.\n\nUgreen Revodok 7-en-1 (45-55 €): la opción compacta para viaje. Cuerpo de aluminio, un puerto HDMI 4K, dos USB-A 3.0, USB-C PD 100 W, lector SD y lector microSD. El tamaño es su principal ventaja: cabe en cualquier estuche de cable sin añadir peso notable.\n\nVAVA 8-en-1 (49-59 €): destaca por la estabilidad de conexión en uso intensivo. Cuerpo de aluminio, HDMI 4K 30 Hz, tres USB-A 3.0, USB-C PD 100 W, ethernet gigabit y lector SD. Usuarios de MacBook valoran especialmente que no genera problemas de kernel panic, un punto débil común en hubs de baja calidad.",
+      body: "Anker 555 8-en-1: el mejor equilibrio calidad-precio del mercado. Entrega 100 W de Power Delivery para cargar el portátil, salida HDMI 4K a 30 Hz, tres puertos USB-A 3.0, USB-C de datos, lector SD y lector microSD. El chip de Anker gestiona bien la distribución de energía sin inestabilidades. Recomendado para la mayoría de usuarios.\n\nCalDigit TS4 Thunderbolt 4: la docking station de referencia para Mac. 18 puertos incluyendo dos salidas de vídeo para monitores 6K, tres puertos Thunderbolt 4, cinco USB-A, audio profesional y 98 W de carga. Para quien trabaja con un MacBook Pro y dos monitores en un escritorio fijo, es la inversión definitiva.\n\nBaseus 17-en-1: el hub más completo en precio medio. Añade ethernet gigabit, puerto VGA para proyectores de empresa, dos HDMI y hasta 100 W de PD. Útil si necesitas muchos puertos distintos sin gastar en una docking. La gestión térmica es correcta aunque el cuerpo plástico acumula más calor que el aluminio.\n\nUgreen Revodok 7-en-1: la opción compacta para viaje. Cuerpo de aluminio, un puerto HDMI 4K, dos USB-A 3.0, USB-C PD 100 W, lector SD y lector microSD. El tamaño es su principal ventaja: cabe en cualquier estuche de cable sin añadir peso notable.\n\nVAVA 8-en-1: destaca por la estabilidad de conexión en uso intensivo. Cuerpo de aluminio, HDMI 4K 30 Hz, tres USB-A 3.0, USB-C PD 100 W, ethernet gigabit y lector SD. Usuarios de MacBook valoran especialmente que no genera problemas de kernel panic, un punto débil común en hubs de baja calidad.",
     },
     {
       heading: "Qué puertos realmente necesitas",
@@ -1006,17 +1006,17 @@ const articleContent: Record<string, {
     },
   ],
   comparison: {
-    headers: ["Modelo", "Precio", "Puertos", "Mejor para"],
+    headers: ["Modelo", "Puertos", "Mejor para"],
     rows: [
-      ["Anker 555 8-en-1", "55-65 €", "8 (HDMI, 3xUSB-A, SD, PD)", "Mayoría de usuarios, mejor relación calidad-precio"],
-      ["CalDigit TS4 TB4", "199-249 €", "18 (2 monitores 6K, TB4, USB-A)", "Mac + 2 monitores en escritorio fijo"],
-      ["Baseus 17-en-1", "79-89 €", "17 (HDMI, VGA, ethernet, PD)", "Máximo número de puertos, viajes de empresa"],
-      ["Ugreen Revodok 7-en-1", "45-55 €", "7 (HDMI, 2xUSB-A, SD, PD)", "Viaje y movilidad, máxima portabilidad"],
-      ["VAVA 8-en-1", "49-59 €", "8 (HDMI, 3xUSB-A, ethernet, SD)", "Estabilidad y usuarios de MacBook"],
+      ["Anker 555 8-en-1", "8 (HDMI, 3xUSB-A, SD, PD)", "Mayoría de usuarios, mejor relación calidad-precio"],
+      ["CalDigit TS4 TB4", "18 (2 monitores 6K, TB4, USB-A)", "Mac + 2 monitores en escritorio fijo"],
+      ["Baseus 17-en-1", "17 (HDMI, VGA, ethernet, PD)", "Máximo número de puertos, viajes de empresa"],
+      ["Ugreen Revodok 7-en-1", "7 (HDMI, 2xUSB-A, SD, PD)", "Viaje y movilidad, máxima portabilidad"],
+      ["VAVA 8-en-1", "8 (HDMI, 3xUSB-A, ethernet, SD)", "Estabilidad y usuarios de MacBook"],
     ],
   },
   conclusion:
-    "Para la mayoría de personas con un portátil y un monitor externo, el Anker 555 8-en-1 es la compra correcta: 100 W de carga, HDMI 4K, tres USB-A y lectores de tarjetas por menos de 65 euros. Si tienes un MacBook y trabajas siempre desde el mismo escritorio con dos monitores, la inversión en la CalDigit TS4 elimina todos los problemas de conexión de una vez. Para viajes frecuentes, el Ugreen Revodok aporta lo necesario en el menor tamaño posible. La clave antes de comprar: comprueba la potencia de carga que necesita tu portátil y si el hub que te interesa la alcanza; el resto de puertos son fáciles de comparar.",
+    "Para la mayoría de personas con un portátil y un monitor externo, el Anker 555 8-en-1 es la compra correcta: 100 W de carga, HDMI 4K, tres USB-A y lectores de tarjetas a un precio contenido. Si tienes un MacBook y trabajas siempre desde el mismo escritorio con dos monitores, la inversión en la CalDigit TS4 elimina todos los problemas de conexión de una vez. Para viajes frecuentes, el Ugreen Revodok aporta lo necesario en el menor tamaño posible. La clave antes de comprar: comprueba la potencia de carga que necesita tu portátil y si el hub que te interesa la alcanza; el resto de puertos son fáciles de comparar.",
   faqs: [
     {
       q: "¿Un hub USB-C ralentiza el portátil?",
@@ -1024,7 +1024,7 @@ const articleContent: Record<string, {
     },
     {
       q: "¿Puedo conectar dos monitores con un hub USB-C?",
-      a: "Depende del hub y del portátil. Un hub USB-C genérico con DisplayLink puede alimentar dos monitores externos en cualquier portátil, aunque la aceleración de vídeo es por software y consume CPU. Un hub o dock Thunderbolt 4 soporta dos monitores con aceleración hardware, pero el portátil necesita un puerto Thunderbolt 3 o 4. Los Mac con chip M1 en adelante solo soportan un monitor externo nativo (excepto el Mac mini y los Mac Pro); para dos monitores en MacBook M1/M2/M3 se necesita DisplayLink o Thunderbolt.",
+      a: "Depende del hub y del portátil. Un hub USB-C genérico con DisplayLink puede alimentar dos monitores externos en cualquier portátil, aunque la aceleración de vídeo es por software y consume CPU. Un hub o dock Thunderbolt 4 soporta dos monitores con aceleración hardware, pero el portátil necesita un puerto Thunderbolt 3 o 4. Según Apple, el MacBook Air con chip M1 o M2 admite un solo monitor externo; con M3 admite dos con la tapa cerrada, y con M4 dos con la tapa abierta. Un dock Thunderbolt no añade pantallas por encima de ese límite: para un segundo monitor en un M1 o M2 hace falta un dock DisplayLink. Los MacBook Pro con chips Pro o Max admiten más pantallas de forma nativa.",
     },
     {
       q: "¿El hub carga el portátil mientras lo uso?",
@@ -1038,7 +1038,7 @@ const articleContent: Record<string, {
 },
 
   "hjh-office-ergohuman-slim-gen2-analisis": {
-    intro: "La familia Ergohuman es una referencia histórica en sillas ergonómicas de gama alta, y la hjh OFFICE Ergohuman Slim GEN2 es la evolución más reciente de ese diseño original. Con un precio cercano a los 800€, se sitúa en la franja premium del catálogo. Este análisis revisa qué ofrece realmente, para quién tiene sentido esa inversión y cómo se compara con la Secretlab Titan EVO, la otra opción de gama alta del catálogo.",
+    intro: "La familia Ergohuman es una referencia histórica en sillas ergonómicas de gama alta, y la hjh OFFICE Ergohuman Slim GEN2 es la evolución más reciente de ese diseño original. Se sitúa en la franja premium del catálogo. Este análisis revisa qué ofrece realmente, para quién tiene sentido esa inversión y cómo se compara con la Secretlab Titan EVO, la otra opción de gama alta del catálogo.",
     sections: [
       {
         heading: "El diseño Ergohuman original, actualizado",
@@ -1046,7 +1046,7 @@ const articleContent: Record<string, {
         productSlug: "ergohuman-plus-silla-malla",
       },
       {
-        heading: "¿Para quién tiene sentido pagar casi 800€?",
+        heading: "¿Para quién tiene sentido una silla de esta gama?",
         body: "Una silla de esta gama de precio solo se justifica si vas a pasar muchas horas sentado durante varios años y quieres el soporte lumbar más avanzado disponible sin llegar a un sillón de oficina corporativo de 1.500€. Si tu jornada es de menos de 5-6 horas diarias, o llevas poco tiempo en teletrabajo y no sabes aún qué tipo de ajuste necesitas, hay opciones del catálogo bastante más económicas (como la HOLLUDLE o la Ticova) que cubren la mayoría de necesidades ergonómicas básicas por una fracción del precio.",
       },
       {
@@ -1068,43 +1068,13 @@ const articleContent: Record<string, {
     sources: [{ label: "Ficha de producto", url: "https://www.amazon.es/dp/B0C7H87W7X" }],
     faqs: [
       { q: "¿Qué significa que el soporte lumbar sea 'flexible' en vez de fijo?", a: "Un soporte lumbar fijo mantiene siempre la misma forma y posición. Uno flexible, como el de la familia Ergohuman, se adapta y cede ligeramente con el movimiento de la espalda al inclinarse o recolocarse, en lugar de imponer una única postura rígida durante toda la jornada." },
-      { q: "¿Merece la pena frente a una silla de 200€?", a: "Depende de tus horas de uso y de si ya has identificado necesidades ergonómicas específicas. Para una jornada de 8 horas diarias durante varios años, el coste diario de una silla de 800€ es muy bajo comparado con el de una consulta de fisioterapia. Para uso más ocasional, una silla de gama media cubre de sobra las necesidades básicas." },
+      { q: "¿Merece la pena frente a una silla de 200€?", a: "Depende de tus horas de uso y de si ya has identificado necesidades ergonómicas específicas. Para una jornada de 8 horas diarias durante varios años, el coste diario de una silla de gama alta es muy bajo comparado con el de una consulta de fisioterapia. Para uso más ocasional, una silla de gama media cubre de sobra las necesidades básicas." },
       { q: "¿Por qué el color de este modelo es verde?", a: "El ASIN verificado de este listado corresponde a la variante en malla verde. Si prefieres otro color, comprueba en la ficha de producto si hjh OFFICE ofrece otras variantes disponibles en el momento de tu compra." },
     ],
   },
 
-  "baseus-docking-station-12en1-analisis": {
-    intro: "La mayoría de hubs USB-C del mercado, incluidos los UGREEN y Anker de este mismo catálogo, sacan una única señal de vídeo por HDMI. El Baseus 12 en 1 es distinto: permite conectar dos monitores externos simultáneos —uno por HDMI y otro por DisplayPort— ambos a 4K60Hz, desde un único cable USB-C. Este análisis revisa si esa característica compensa su rating algo más bajo que la competencia UGREEN/Anker.",
-    sections: [
-      {
-        heading: "La característica que lo diferencia: doble salida de vídeo",
-        body: "Para quien trabaja con un setup de dos monitores externos desde un portátil, la alternativa habitual sin el Baseus es usar dos hubs distintos o un dock más caro con Thunderbolt. El Baseus 12 en 1 resuelve esto con un único cable: HDMI y DisplayPort simultáneos, ambos a 4K y 60Hz, algo que ni la UGREEN Revodok Pro 210 ni los hubs Anker de este catálogo ofrecen en su gama de precio.",
-        productSlug: "baseus-docking-station-12en1",
-      },
-      {
-        heading: "¿Por qué su valoración es algo inferior?",
-        body: "Con 4,1 estrellas sobre 859 valoraciones, el Baseus puntúa algo por debajo de la UGREEN Revodok Pro 210 (4,4/3.823) o el Anker 565 (4,3/2.613). Esto no significa que sea un mal producto: Baseus es una marca establecida y fiable, pero UGREEN y Anker llevan más tiempo puliendo sus hubs multipuerto y tienen una base de usuarios mayor. Si la doble salida de vídeo no es una necesidad real para tu setup, UGREEN o Anker son la opción más segura por su historial más largo.",
-        productSlug: "ugreen-revodok-hub-usbc-10en1",
-      },
-    ],
-    comparison: {
-      headers: ["Criterio", "Baseus 12 en 1", "UGREEN Revodok Pro 210"],
-      rows: [
-        ["Salidas de vídeo", "2× HDMI+DP a 4K60Hz simultáneos", "2× HDMI 4K60Hz o 1× 8K30Hz"],
-        ["Carga PD", "100W", "100W"],
-        ["Ethernet", "Gigabit", "Gigabit"],
-      ],
-    },
-    conclusion: "El Baseus 12 en 1 es la única opción de este catálogo con salida simultánea de dos monitores externos a 4K60Hz desde un solo cable, una función real de productividad para quien trabaja con doble pantalla. Si necesitas exactamente eso, justifica su precio. Si tu setup es de un solo monitor externo, la UGREEN Revodok Pro 210 ofrece prestaciones muy similares por menos de la mitad de precio y con más valoraciones respaldándola.",
-    faqs: [
-      { q: "¿Necesito una tarjeta gráfica potente para dos monitores 4K60Hz?", a: "No especialmente para tareas de oficina: la mayoría de gráficos integrados modernos (Intel Iris Xe, AMD Radeon integrada, Apple M-series) soportan dos salidas 4K60Hz sin problema. Para edición de vídeo pesada o gaming en ambos monitores sí conviene una gráfica dedicada, pero para hojas de cálculo, navegación y videollamadas no es necesario." },
-      { q: "¿El HDMI y el DisplayPort funcionan a la vez o hay que elegir uno?", a: "Según la ficha de producto, ambas salidas funcionan simultáneamente a 4K60Hz, permitiendo un setup real de doble monitor desde un único cable USB-C al portátil." },
-      { q: "¿Es compatible con MacBook?", a: "Sí, el fabricante indica compatibilidad con MacBook, Dell, HP, Surface y Steam Deck, aunque conviene recordar que los Mac con chip M1 solo soportan de forma nativa un monitor externo adicional salvo que uses software adicional tipo DisplayLink; los M2 Pro/Max y superiores sí soportan múltiples monitores externos nativamente." },
-    ],
-  },
-
   "soundcore-space-one-analisis": {
-    intro: "Los Sony WH-1000XM5 son los auriculares de referencia del catálogo, pero a más de 279€ no están al alcance de todos los presupuestos. Los Soundcore Space One, de la marca de accesorios de Anker, cuestan una fracción de ese precio y prometen ANC adaptativa y audio de alta resolución. Este análisis compara ambos para saber si la diferencia de precio se nota realmente en el uso diario.",
+    intro: "Los Sony WH-1000XM5 son los auriculares de referencia del catálogo, pero su precio no está al alcance de todos los presupuestos. Los Soundcore Space One, de la marca de accesorios de Anker, cuestan una fracción de ese precio y prometen ANC adaptativa y audio de alta resolución. Este análisis compara ambos para saber si la diferencia de precio se nota realmente en el uso diario.",
     sections: [
       {
         heading: "ANC adaptativa: la característica que sorprende en su rango de precio",
@@ -1156,12 +1126,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "HyperX SoloCast: el mejor equilibrio precio-calidad para reuniones",
-        body: "Si el uso principal es profesional —reuniones de Teams o Zoom, llamadas de venta, clases online— y no necesitas mezclar audio ni cambiar de patrón polar, el HyperX SoloCast cubre lo esencial de sobra por 49,99 €. Su patrón cardioide capta bien la voz de quien habla y rechaza razonablemente el ruido de fondo, y el botón tap-to-mute con LED de estado es un detalle muy práctico en reuniones: silenciar y activar el micrófono sin buscar el icono en la pantalla. Es compatible con PC, Mac, PS4 y PS5. A favor: precio, simplicidad y el tap-to-mute físico. En contra: solo tiene un patrón polar, por lo que no sirve para grabar entrevistas cara a cara, y no permite monitorizar el audio con auriculares conectados al propio micrófono.",
+        body: "Si el uso principal es profesional —reuniones de Teams o Zoom, llamadas de venta, clases online— y no necesitas mezclar audio ni cambiar de patrón polar, el HyperX SoloCast cubre lo esencial de sobra. Su patrón cardioide capta bien la voz de quien habla y rechaza razonablemente el ruido de fondo, y el botón tap-to-mute con LED de estado es un detalle muy práctico en reuniones: silenciar y activar el micrófono sin buscar el icono en la pantalla. Es compatible con PC, Mac, PS4 y PS5. A favor: precio, simplicidad y el tap-to-mute físico. En contra: solo tiene un patrón polar, por lo que no sirve para grabar entrevistas cara a cara, y no permite monitorizar el audio con auriculares conectados al propio micrófono.",
         productSlug: "hyperx-solocast-microfono",
       },
       {
         heading: "FIFINE: la puerta de entrada más económica",
-        body: "Por debajo de los 25 €, el FIFINE es la opción para quien solo quiere dejar de sonar mal en videollamadas sin hacer una inversión relevante. Su cápsula de condensador con patrón cardioide y carcasa metálica ofrece una calidad notable para su precio, muy por encima de cualquier micrófono integrado de portátil o de un auricular con cable. Es plug & play sin drivers, aunque carece de control de ganancia en el propio cuerpo y de monitorización de auriculares, y su calidad de captación queda claramente por debajo de los otros tres modelos en entornos con algo de ruido de fondo. Es el punto de entrada correcto para probar si mejorar el audio marca una diferencia real en tu día a día antes de invertir más.",
+        body: "En la gama más económica, el FIFINE es la opción para quien solo quiere dejar de sonar mal en videollamadas sin hacer una inversión relevante. Su cápsula de condensador con patrón cardioide y carcasa metálica ofrece una calidad notable para su precio, muy por encima de cualquier micrófono integrado de portátil o de un auricular con cable. Es plug & play sin drivers, aunque carece de control de ganancia en el propio cuerpo y de monitorización de auriculares, y su calidad de captación queda claramente por debajo de los otros tres modelos en entornos con algo de ruido de fondo. Es el punto de entrada correcto para probar si mejorar el audio marca una diferencia real en tu día a día antes de invertir más.",
         productSlug: "fifine-microfono-usb-condensador",
       },
       {
@@ -1258,6 +1228,10 @@ export default async function BlogPostPage({ params }: Props) {
   const content = articleContent[slug];
   const relatedProducts = post.relatedProducts?.map((s) => getProductBySlug(s)).filter(Boolean) ?? [];
   const relatedPosts = post.relatedPosts?.map((s) => getPostBySlug(s)).filter(Boolean) ?? [];
+  const relatedSlugs = new Set([post.slug, ...relatedPosts.map((p) => p!.slug)]);
+  const sameCategoryPosts = posts
+    .filter((p) => p.category === post.category && !relatedSlugs.has(p.slug))
+    .slice(0, 6);
   const showHostingBanner = HOSTING_BANNER_CATEGORIES.includes(post.category);
 
   const AUTHOR = {
@@ -1337,8 +1311,7 @@ export default async function BlogPostPage({ params }: Props) {
             <span>·</span>
             <span className="flex items-center gap-1 text-indigo-300">
               <span>✍️</span>
-              <Link href="/sobre-nosotros" className="font-medium text-indigo-200 hover:underline">Laura Sánchez</Link>
-              <span className="text-indigo-400">— Productividad Digital</span>
+              <Link href="/sobre-nosotros" className="font-medium text-indigo-200 hover:underline">Equipo Editorial de Emprende Digital</Link>
             </span>
           </div>
         </div>
@@ -1515,6 +1488,21 @@ export default async function BlogPostPage({ params }: Props) {
                 </Link>
               ))}
             </div>
+          </section>
+        )}
+
+        {sameCategoryPosts.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-lg font-extrabold text-gray-900 mb-4">Más guías de {post.category}</h2>
+            <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2">
+              {sameCategoryPosts.map((p) => (
+                <li key={p.slug}>
+                  <Link href={`/blog/${p.slug}`} className="text-sm text-indigo-700 hover:text-indigo-900 hover:underline">
+                    {p.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
 

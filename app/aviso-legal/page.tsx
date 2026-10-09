@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aviso Legal — Emprende Digital",
+  title: "Aviso Legal",
   description: "Aviso legal de Emprende Digital — Mkt Web 360 SLU (CIF B87679304).",
   alternates: { canonical: "https://www.emprendedigital.es/aviso-legal" },
 };

@@ -5,13 +5,13 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 
 export const metadata: Metadata = {
-  title: "Mejores teclados para trabajo remoto 2025 — Mecánicos y de membrana",
+  title: "Mejores teclados para trabajo remoto — Mecánicos y de membrana",
   description:
     "Logitech MX Keys, Keychron K2 Pro, Apple Magic Keyboard y más. Guía completa para elegir el teclado perfecto según tu forma de trabajar.",
   keywords: "mejores teclados trabajo remoto, teclado mecánico oficina, Logitech MX Keys review, teclado inalámbrico para teletrabajo",
   alternates: { canonical: "https://www.emprendedigital.es/mejores-teclados-trabajo-remoto" },
   openGraph: {
-    title: "Mejores teclados para trabajo remoto 2025",
+    title: "Mejores teclados para trabajo remoto",
     description: "Guía completa de teclados mecánicos y de membrana para teletrabajar.",
     url: "https://www.emprendedigital.es/mejores-teclados-trabajo-remoto",
   },
@@ -35,7 +35,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Mejores teclados para trabajo remoto 2025 — Mecánicos y de membrana",
+  headline: "Mejores teclados para trabajo remoto — Mecánicos y de membrana",
   datePublished: "2025-04-15",
   dateModified: "2025-06-01",
   author: { "@type": "Organization", name: "Emprende Digital" },
@@ -74,7 +74,7 @@ export default function TecladosPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Mejores teclados para trabajo remoto 2025 — Mecánicos y de membrana
+          Mejores teclados para trabajo remoto — Mecánicos y de membrana
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 abril 2025 · 10 min lectura</p>
 
@@ -82,8 +82,8 @@ export default function TecladosPage() {
 
         <div className="prose">
           <p>Pasamos miles de horas al año escribiendo. Un buen teclado mejora la comodidad, reduce la fatiga de las muñecas y, si es mecánico, puede hacer la experiencia de escritura genuinamente placentera. La elección entre mecánico y membrana, inalámbrico o con cable, y el layout correcto depende de cómo y dónde trabajas.</p>
-          <p>Hemos analizado los <strong>5 mejores teclados para trabajo remoto</strong> disponibles en el mercado en 2025.</p>
-          <h2>Tabla comparativa — Los mejores teclados para teletrabajo 2025</h2>
+          <p>Hemos analizado los <strong>5 mejores teclados para trabajo remoto</strong> disponibles en el mercado.</p>
+          <h2>Tabla comparativa — Los mejores teclados para teletrabajo</h2>
         </div>
 
         <div className="overflow-x-auto my-6">
@@ -96,7 +96,6 @@ export default function TecladosPage() {
                 <th className="px-3 py-3 text-left">Switches</th>
                 <th className="px-3 py-3 text-left">Layout</th>
                 <th className="px-3 py-3 text-left">Conectividad</th>
-                <th className="px-3 py-3 text-left">Valoración</th>
                 <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
@@ -109,7 +108,6 @@ export default function TecladosPage() {
                   <td className="px-3 py-3 text-gray-600">{p.switches}</td>
                   <td className="px-3 py-3 text-gray-600">{p.layout}</td>
                   <td className="px-3 py-3 text-gray-600">{p.connect}</td>
-                  <td className="px-3 py-3 text-yellow-500 font-semibold">⭐ {p.stars}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
@@ -127,7 +125,7 @@ export default function TecladosPage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>1. Logitech MX Keys Advanced S — El mejor para productividad (★★★★½)</h3>
+          <h3>1. Logitech MX Keys Advanced S — El mejor para productividad</h3>
           <p>El <strong>Logitech MX Keys Advanced S</strong> es el teclado de referencia para profesionales que valoran la comodidad y la productividad: teclas esféricas que abrazan los dedos, retroiluminación con sensor de presencia, conexión simultánea a 3 dispositivos y compatibilidad con el software Logi Options+ para personalización completa de atajos.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B0B2R5VP5V")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
@@ -135,7 +133,7 @@ export default function TecladosPage() {
             </a>
           </div>
 
-          <h3>2. Keychron K2 Pro — El mejor mecánico para trabajo (★★★★½)</h3>
+          <h3>2. Keychron K2 Pro — El mejor mecánico para trabajo</h3>
           <p>El <strong>Keychron K2 Pro</strong> es el mecánico más recomendado para trabajo remoto: layout 75% compacto con teclado de función y flechas, disponible con switches Hot-Swap (puedes cambiar los switches sin soldar), retroiluminación RGB y conexión Bluetooth/USB. Disponible en switches Red (silenciosos), Brown (táctiles) o Blue (auditivos).</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B0BKLNBPPH")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
@@ -143,13 +141,13 @@ export default function TecladosPage() {
             </a>
           </div>
 
-          <h3>3. Apple Magic Keyboard — El mejor para ecosistema Mac (★★★★½)</h3>
+          <h3>3. Apple Magic Keyboard — El mejor para ecosistema Mac</h3>
           <p>El <strong>Apple Magic Keyboard</strong> con Touch ID es la opción obvia para usuarios de Mac: integración perfecta con macOS, desbloqueo por huella digital, batería de un mes y el perfil ultrafino característico de Apple. Para usuarios de Windows no tiene ventajas particulares.</p>
 
-          <h3>4. Logitech K380 — El más versátil multidispositivo (★★★★½)</h3>
+          <h3>4. Logitech K380 — El más versátil multidispositivo</h3>
           <p>El <strong>Logitech K380</strong> se conecta a hasta 3 dispositivos Bluetooth simultáneamente y alterna entre ellos con un botón. Compacto, silencioso y con batería de 2 años. La opción perfecta para quienes trabajan con portátil + tablet + móvil y quieren usar el mismo teclado para todo.</p>
 
-          <h3>5. Microsoft Ergonomic Keyboard — Para prevenir lesiones (★★★★)</h3>
+          <h3>5. Microsoft Ergonomic Keyboard — Para prevenir lesiones</h3>
           <p>El <strong>Microsoft Ergonomic Keyboard</strong> tiene el diseño partido curvo que reduce la tensión en muñecas y antebrazos. Incluye reposamuñecas integrado. Si tienes molestias en las muñecas, este teclado (junto con el Microsoft Sculpt Ergonomic Mouse) puede aliviarlas significativamente.</p>
 
           <h2>Preguntas frecuentes sobre teclados para teletrabajo</h2>
@@ -172,9 +170,9 @@ export default function TecladosPage() {
         <div className="mt-8 p-6 bg-indigo-50 rounded-xl border border-indigo-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/mejores-portatiles-trabajo-remoto" className="text-indigo-600 hover:underline">→ Los 5 mejores portátiles para trabajo remoto en 2025</Link></li>
-            <li><Link href="/mejores-sillas-ergonomicas-teletrabajo" className="text-indigo-600 hover:underline">→ Mejores sillas ergonómicas para teletrabajo 2025</Link></li>
-            <li><Link href="/mejores-escritorios-ajustables-altura" className="text-indigo-600 hover:underline">→ Mejores escritorios ajustables en altura 2025</Link></li>
+            <li><Link href="/mejores-portatiles-trabajo-remoto" className="text-indigo-600 hover:underline">→ Los 5 mejores portátiles para trabajo remoto</Link></li>
+            <li><Link href="/mejores-sillas-ergonomicas-teletrabajo" className="text-indigo-600 hover:underline">→ Mejores sillas ergonómicas para teletrabajo</Link></li>
+            <li><Link href="/mejores-escritorios-ajustables-altura" className="text-indigo-600 hover:underline">→ Mejores escritorios ajustables en altura</Link></li>
           </ul>
         </div>
       </article>

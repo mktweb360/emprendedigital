@@ -121,7 +121,7 @@ export default function TiendaPage() {
                     </h3>
                     <p className="text-xs text-gray-500 mb-3 leading-relaxed line-clamp-2">{product.shortDescription}</p>
                     <div className="flex items-center justify-between mt-auto">
-                      <span className="text-base font-bold text-gray-900">{product.price}</span>
+                      <span className="text-xs text-gray-500">Ver precio actual</span>
                       <span className="text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg px-3 py-1.5 transition-colors">
                         Ver análisis →
                       </span>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de Cookies — Emprende Digital",
+  title: "Política de Cookies",
   description: "Política de cookies de Emprende Digital — qué cookies usamos y cómo gestionarlas.",
   alternates: { canonical: "https://www.emprendedigital.es/politica-de-cookies" },
 };

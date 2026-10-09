@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contacto — Emprende Digital",
+  title: "Contacto",
   description: "Contacta con el equipo de Emprende Digital para consultas, correcciones o colaboraciones.",
   alternates: { canonical: "https://www.emprendedigital.es/contacto" },
 };

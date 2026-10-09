@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de Privacidad — Emprende Digital",
+  title: "Política de Privacidad",
   description: "Política de privacidad de Emprende Digital — cómo recogemos, usamos y protegemos tus datos personales.",
   alternates: { canonical: "https://www.emprendedigital.es/politica-de-privacidad" },
 };

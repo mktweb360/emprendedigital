@@ -5,13 +5,13 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 
 export const metadata: Metadata = {
-  title: "Mejores sillas ergonómicas para teletrabajo 2025 — Guía completa",
+  title: "Mejores sillas ergonómicas para teletrabajo — Guía completa",
   description:
     "SIHOO M57, Hbada Pro, Herman Miller Aeron y más. Guía completa para elegir la silla ergonómica perfecta y cuidar tu espalda en jornadas largas de teletrabajo.",
   keywords: "mejores sillas ergonómicas teletrabajo, silla oficina espalda, silla ergonómica barata, Herman Miller vs alternativas",
   alternates: { canonical: "https://www.emprendedigital.es/mejores-sillas-ergonomicas-teletrabajo" },
   openGraph: {
-    title: "Mejores sillas ergonómicas para teletrabajo 2025",
+    title: "Mejores sillas ergonómicas para teletrabajo",
     description: "Guía completa para elegir la silla ergonómica perfecta para trabajo remoto.",
     url: "https://www.emprendedigital.es/mejores-sillas-ergonomicas-teletrabajo",
   },
@@ -35,7 +35,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Mejores sillas ergonómicas para teletrabajo 2025 — Guía completa",
+  headline: "Mejores sillas ergonómicas para teletrabajo — Guía completa",
   datePublished: "2025-06-01",
   dateModified: "2025-06-10",
   author: { "@type": "Organization", name: "Emprende Digital" },
@@ -74,7 +74,7 @@ export default function SillasPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Mejores sillas ergonómicas para teletrabajo 2025 — Guía completa
+          Mejores sillas ergonómicas para teletrabajo — Guía completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 1 junio 2025 · 12 min lectura</p>
 
@@ -82,8 +82,8 @@ export default function SillasPage() {
 
         <div className="prose">
           <p>La silla es la inversión más importante de tu puesto de teletrabajo después del portátil o el monitor. Pasas sentado entre 6 y 10 horas diarias, y una silla inadecuada no solo provoca dolor de espalda: afecta tu concentración, tu energía y tu productividad. En el largo plazo, los problemas posturales cuestan más en fisioterapia y bajas laborales que lo que cuesta una buena silla.</p>
-          <p>Hemos analizado las <strong>5 mejores sillas ergonómicas para teletrabajo</strong> disponibles en 2025, desde opciones asequibles hasta inversiones premium.</p>
-          <h2>Tabla comparativa — Mejores sillas ergonómicas 2025</h2>
+          <p>Hemos analizado las <strong>5 mejores sillas ergonómicas para teletrabajo</strong> disponibles, desde opciones asequibles hasta inversiones premium.</p>
+          <h2>Tabla comparativa — Mejores sillas ergonómicas</h2>
         </div>
 
         <div className="overflow-x-auto my-6">
@@ -96,7 +96,6 @@ export default function SillasPage() {
                 <th className="px-3 py-3 text-left">Reposabrazos</th>
                 <th className="px-3 py-3 text-left">Reclinación</th>
                 <th className="px-3 py-3 text-left">Material</th>
-                <th className="px-3 py-3 text-left">Valoración</th>
                 <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
@@ -109,7 +108,6 @@ export default function SillasPage() {
                   <td className="px-3 py-3 text-gray-600">{p.armrests}</td>
                   <td className="px-3 py-3 text-gray-600">{p.recline}</td>
                   <td className="px-3 py-3 text-gray-600">{p.material}</td>
-                  <td className="px-3 py-3 text-yellow-500 font-semibold">⭐ {p.stars}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
@@ -127,15 +125,15 @@ export default function SillasPage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>1. SIHOO M57 — Mejor relación calidad-precio del mercado (★★★★½)</h3>
-          <p>El <strong>SIHOO M57</strong> ha redefinido lo que se puede esperar por menos de 250€ en una silla ergonómica. Soporte lumbar tridimensional ajustable en profundidad, altura e inclinación; reposabrazos 4D completamente configurables; respaldo de malla transpirable que sigue los movimientos del cuerpo. En ensayos comparativos independientes, el SIHOO M57 se acerca a la ergonomía de sillas de el doble y el triple de precio.</p>
+          <h3>1. SIHOO M57 — Mejor relación calidad-precio del mercado</h3>
+          <p>El <strong>SIHOO M57</strong> ha redefinido lo que se puede esperar de una silla ergonómica de gama media. Soporte lumbar tridimensional ajustable en profundidad, altura e inclinación; reposabrazos 4D completamente configurables; respaldo de malla transpirable que sigue los movimientos del cuerpo. En ensayos comparativos independientes, el SIHOO M57 se acerca a la ergonomía de sillas de el doble y el triple de precio.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B09MZDSJXQ")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
               Ver SIHOO M57 →
             </a>
           </div>
 
-          <h3>2. Hbada Silla Ergonómica Pro — La más asequible con soporte lumbar (★★★★)</h3>
+          <h3>2. Hbada Silla Ergonómica Pro — La más asequible con soporte lumbar</h3>
           <p>La <strong>Hbada Pro</strong> es la opción para quienes tienen un presupuesto más ajustado pero no quieren renunciar a soporte lumbar ajustable y respaldo de malla. No tiene la versatilidad de los reposabrazos del SIHOO, pero para un primer upgrade desde una silla sin ergonomía es un salto importante.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B085ZPCBMQ")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
@@ -143,13 +141,13 @@ export default function SillasPage() {
             </a>
           </div>
 
-          <h3>3. Secretlab Titan Evo 2022 — Para gaming y trabajo (★★★★½)</h3>
+          <h3>3. Secretlab Titan Evo 2022 — Para gaming y trabajo</h3>
           <p>El <strong>Secretlab Titan</strong> es la mejor opción si alternan trabajo y gaming: soporte lumbar magnético ajustable, reposabrazos 4D, reclinación hasta 165° para descansar, y una construcción robusta con garantía de 5 años. El SoftWeave transpirable es más cómodo que el cuero sintético de las sillas gaming baratas.</p>
 
-          <h3>4. IKEA Markus — El clásico de confianza (★★★★)</h3>
+          <h3>4. IKEA Markus — El clásico de confianza</h3>
           <p>El <strong>IKEA Markus</strong> merece una mención por su combinación de precio accesible, disponibilidad inmediata, respaldo de malla y garantía de 10 años. Sin los ajustes avanzados de las opciones anteriores, es una opción sólida para quienes valoran la simplicidad y la fiabilidad de una marca establecida.</p>
 
-          <h3>5. Ergohuman ME7ERG — La inversión semi-profesional (★★★★½)</h3>
+          <h3>5. Ergohuman ME7ERG — La inversión semi-profesional</h3>
           <p>El <strong>Ergohuman ME7ERG</strong> está en el escalón previo a las sillas de clase profesional (Herman Miller, Steelcase). Malla de alta calidad, sistema de inclinación sincronizado que acompaña el movimiento del cuerpo, y reposacabezas ajustable. Para quienes buscan una silla de por vida sin llegar al precio de las marcas premium.</p>
 
           <h2>Preguntas frecuentes sobre sillas ergonómicas</h2>
@@ -172,9 +170,9 @@ export default function SillasPage() {
         <div className="mt-8 p-6 bg-indigo-50 rounded-xl border border-indigo-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/mejores-escritorios-ajustables-altura" className="text-indigo-600 hover:underline">→ Mejores escritorios ajustables en altura 2025</Link></li>
-            <li><Link href="/mejores-portatiles-trabajo-remoto" className="text-indigo-600 hover:underline">→ Los 5 mejores portátiles para trabajo remoto en 2025</Link></li>
-            <li><Link href="/mejores-teclados-trabajo-remoto" className="text-indigo-600 hover:underline">→ Mejores teclados para trabajo remoto 2025</Link></li>
+            <li><Link href="/mejores-escritorios-ajustables-altura" className="text-indigo-600 hover:underline">→ Mejores escritorios ajustables en altura</Link></li>
+            <li><Link href="/mejores-portatiles-trabajo-remoto" className="text-indigo-600 hover:underline">→ Los 5 mejores portátiles para trabajo remoto</Link></li>
+            <li><Link href="/mejores-teclados-trabajo-remoto" className="text-indigo-600 hover:underline">→ Mejores teclados para trabajo remoto</Link></li>
           </ul>
         </div>
       </article>

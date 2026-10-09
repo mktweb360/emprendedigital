@@ -5,13 +5,13 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 
 export const metadata: Metadata = {
-  title: "Mejores auriculares para teletrabajo con cancelación de ruido 2025",
+  title: "Mejores auriculares para teletrabajo con cancelación de ruido",
   description:
     "Sony WH-1000XM5, Jabra Evolve2 55, Bose QC45 y más. Guía completa para elegir los auriculares perfectos para trabajo remoto y videollamadas.",
   keywords: "mejores auriculares teletrabajo, auriculares cancelación de ruido trabajo, auriculares para videollamadas, Sony WH-1000XM5 vs Jabra",
   alternates: { canonical: "https://www.emprendedigital.es/mejores-auriculares-teletrabajo" },
   openGraph: {
-    title: "Mejores auriculares para teletrabajo 2025",
+    title: "Mejores auriculares para teletrabajo",
     description: "Guía completa de auriculares con ANC para trabajo remoto y videollamadas.",
     url: "https://www.emprendedigital.es/mejores-auriculares-teletrabajo",
   },
@@ -35,7 +35,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Mejores auriculares para teletrabajo con cancelación de ruido 2025",
+  headline: "Mejores auriculares para teletrabajo con cancelación de ruido",
   datePublished: "2025-06-05",
   dateModified: "2025-06-10",
   author: { "@type": "Organization", name: "Emprende Digital" },
@@ -82,8 +82,8 @@ export default function AucularesPage() {
 
         <div className="prose">
           <p>Los auriculares con cancelación activa de ruido (ANC) son el complemento más transformador para el teletrabajador: eliminan las distracciones del entorno, mejoran la concentración y garantizan que tus videollamadas suenen profesionales. En 2025 la calidad del ANC ha llegado a un nivel que habría parecido imposible hace apenas tres años.</p>
-          <p>Hemos analizado los <strong>5 mejores auriculares para trabajo remoto</strong> en 2025, desde opciones premium hasta soluciones económicas para cualquier presupuesto.</p>
-          <h2>Tabla comparativa — Los mejores auriculares para teletrabajo 2025</h2>
+          <p>Hemos analizado los <strong>5 mejores auriculares para trabajo remoto</strong>, desde opciones premium hasta soluciones económicas para cualquier presupuesto.</p>
+          <h2>Tabla comparativa — Los mejores auriculares para teletrabajo</h2>
         </div>
 
         <div className="overflow-x-auto my-6">
@@ -96,7 +96,6 @@ export default function AucularesPage() {
                 <th className="px-3 py-3 text-left">Batería</th>
                 <th className="px-3 py-3 text-left">Micrófono</th>
                 <th className="px-3 py-3 text-left">Peso</th>
-                <th className="px-3 py-3 text-left">Valoración</th>
                 <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
@@ -109,7 +108,6 @@ export default function AucularesPage() {
                   <td className="px-3 py-3 text-gray-600">{p.battery}</td>
                   <td className="px-3 py-3 text-gray-600">{p.mic}</td>
                   <td className="px-3 py-3 text-gray-600">{p.weight}</td>
-                  <td className="px-3 py-3 text-yellow-500 font-semibold">⭐ {p.stars}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
@@ -127,22 +125,22 @@ export default function AucularesPage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>1. Sony WH-1000XM5 — El mejor ANC del mercado (★★★★★)</h3>
-          <p>Los <strong>Sony WH-1000XM5</strong> siguen siendo la referencia en cancelación de ruido para uso personal en 2025. Sus 8 micrófonos y dos procesadores dedicados bloquean de forma efectiva los ruidos constantes de oficina, tráfico, ventilación y conversaciones de fondo. El modo Speak-to-Chat es especialmente útil: pausa automáticamente la música cuando empiezas a hablar con alguien. La batería de 30 horas con ANC activo es más que suficiente para varios días de teletrabajo.</p>
+          <h3>1. Sony WH-1000XM5 — El mejor ANC del mercado</h3>
+          <p>Los <strong>Sony WH-1000XM5</strong> siguen siendo la referencia en cancelación de ruido para uso personal. Sus 8 micrófonos y dos procesadores dedicados bloquean de forma efectiva los ruidos constantes de oficina, tráfico, ventilación y conversaciones de fondo. El modo Speak-to-Chat es especialmente útil: pausa automáticamente la música cuando empiezas a hablar con alguien. La batería de 30 horas con ANC activo es más que suficiente para varios días de teletrabajo.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B09XS7JWHH")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">Ver Sony WH-1000XM5 →</a>
           </div>
 
-          <h3>2. Jabra Evolve2 55 — Para comunicaciones profesionales (★★★★½)</h3>
+          <h3>2. Jabra Evolve2 55 — Para comunicaciones profesionales</h3>
           <p>Si tienes muchas videollamadas al día, los <strong>Jabra Evolve2 55</strong> son superiores a los Sony en calidad de micrófono: 6 micrófonos en la diadema con reducción de ruido de voz avanzada capturan tu voz con una claridad excepcional incluso en entornos ruidosos. Están certificados para Microsoft Teams, Zoom y Google Meet. Son más caros, pero si las reuniones son tu trabajo principal, la inversión está justificada.</p>
 
-          <h3>3. Bose QuietComfort 45 — Los más cómodos (★★★★½)</h3>
+          <h3>3. Bose QuietComfort 45 — Los más cómodos</h3>
           <p>Los <strong>Bose QC45</strong> son los auriculares más cómodos del comparativo: las almohadillas de espuma visco-elástica y el peso de solo 238 g los hacen casi imperceptibles incluso en jornadas de 8 horas. El ANC de Bose no es tan agresivo como el de Sony pero resulta más cómodo para uso prolongado: no produce el efecto de presión que algunos usuarios notan con el Sony.</p>
 
-          <h3>4. JBL Tune 510BT — La opción económica (★★★★)</h3>
-          <p>Los <strong>JBL Tune 510BT</strong> no tienen ANC, pero ofrecen 40 horas de batería y sonido Pure Bass de calidad por menos de 40€. Son la opción correcta para quienes trabajan en entornos silenciosos y no necesitan cancelación activa de ruido.</p>
+          <h3>4. JBL Tune 510BT — La opción económica</h3>
+          <p>Los <strong>JBL Tune 510BT</strong> no tienen ANC, pero ofrecen 40 horas de batería y sonido Pure Bass de calidad a un precio muy contenido. Son la opción correcta para quienes trabajan en entornos silenciosos y no necesitan cancelación activa de ruido.</p>
 
-          <h3>5. Logitech H390 USB — Para videollamadas puras (★★★★)</h3>
+          <h3>5. Logitech H390 USB — Para videollamadas puras</h3>
           <p>El <strong>Logitech H390</strong> es un headset con cable USB diseñado específicamente para videollamadas de trabajo. No tiene ANC ni gran calidad musical, pero el micrófono integrado con cancelación de ruido es muy bueno para su precio, el sonido en llamadas es nítido y la conexión USB garantiza compatibilidad total con cualquier ordenador sin configuración.</p>
 
           <h2>Preguntas frecuentes sobre auriculares para teletrabajo</h2>
@@ -165,9 +163,9 @@ export default function AucularesPage() {
         <div className="mt-8 p-6 bg-indigo-50 rounded-xl border border-indigo-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/mejores-microfonos-podcast-streaming" className="text-indigo-600 hover:underline">→ Mejores micrófonos para podcast y streaming 2025</Link></li>
-            <li><Link href="/mejores-webcams-videollamadas" className="text-indigo-600 hover:underline">→ Mejores webcams para videollamadas 2025</Link></li>
-            <li><Link href="/mejores-portatiles-trabajo-remoto" className="text-indigo-600 hover:underline">→ Los 5 mejores portátiles para trabajo remoto en 2025</Link></li>
+            <li><Link href="/mejores-microfonos-podcast-streaming" className="text-indigo-600 hover:underline">→ Mejores micrófonos para podcast y streaming</Link></li>
+            <li><Link href="/mejores-webcams-videollamadas" className="text-indigo-600 hover:underline">→ Mejores webcams para videollamadas</Link></li>
+            <li><Link href="/mejores-portatiles-trabajo-remoto" className="text-indigo-600 hover:underline">→ Los 5 mejores portátiles para trabajo remoto</Link></li>
           </ul>
         </div>
       </article>

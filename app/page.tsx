@@ -5,7 +5,7 @@ import HeroBackground from "@/components/HeroBackground";
 import EmailCaptureSection from "@/components/EmailCaptureSection";
 
 export const metadata: Metadata = {
-  title: "Emprende Digital — Herramientas y equipamiento para emprendedores digitales",
+  title: { absolute: "Emprende Digital — Herramientas y equipamiento para emprendedores digitales" },
   description:
     "Guías de compra, análisis y comparativas de herramientas y equipamiento para emprendedores digitales, creadores de contenido y teletrabajadores.",
   alternates: { canonical: "https://www.emprendedigital.es" },
@@ -86,28 +86,28 @@ const categories = [
 const articles = [
   {
     href: "/mejores-portatiles-trabajo-remoto",
-    title: "Los 5 mejores portátiles para trabajo remoto en 2025",
+    title: "Los 5 mejores portátiles para trabajo remoto",
     excerpt:
       "Comparativa completa: MacBook Air M3, ThinkPad X1 Carbon, ASUS ZenBook OLED y más. Elige según tu presupuesto y necesidades.",
     date: "2025-05-10",
   },
   {
     href: "/mejores-microfonos-podcast-streaming",
-    title: "Mejores micrófonos para podcast y streaming 2025",
+    title: "Mejores micrófonos para podcast y streaming",
     excerpt:
       "Blue Yeti, HyperX SoloCast, Rode NT-USB Mini y más. Guía completa para empezar a grabar con calidad profesional desde casa.",
     date: "2025-05-18",
   },
   {
     href: "/mejores-sillas-ergonomicas-teletrabajo",
-    title: "Mejores sillas ergonómicas para teletrabajo 2025",
+    title: "Mejores sillas ergonómicas para teletrabajo",
     excerpt:
       "Invierte en tu salud: guía de compra de sillas ergonómicas para jornadas largas de trabajo en casa.",
     date: "2025-06-01",
   },
   {
     href: "/mejores-auriculares-teletrabajo",
-    title: "Auriculares para teletrabajo con cancelación de ruido 2025",
+    title: "Auriculares para teletrabajo con cancelación de ruido",
     excerpt:
       "Sony WH-1000XM5, Jabra Evolve2 y más. Los mejores auriculares para concentrarte y comunicarte en trabajo remoto.",
     date: "2025-06-05",

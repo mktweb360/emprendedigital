@@ -5,7 +5,7 @@ import { posts } from "@/data/posts";
 export const metadata: Metadata = {
   title: "Blog — Guías de compra y análisis de herramientas para emprendedores digitales",
   description:
-    "Todos nuestros artículos sobre portátiles, micrófonos, webcams, auriculares, sillas ergonómicas y más. Comparativas y guías de compra actualizadas para 2025.",
+    "Todos nuestros artículos sobre portátiles, micrófonos, webcams, auriculares, sillas ergonómicas y más. Comparativas y guías de compra actualizadas.",
   alternates: { canonical: "https://www.emprendedigital.es/blog" },
   openGraph: {
     title: "Blog — Guías de compra para emprendedores digitales | Emprende Digital",
@@ -30,7 +30,7 @@ const staticArticles: ArticleCard[] = [
   {
     href: "/mejores-portatiles-trabajo-remoto",
     icon: "💻",
-    title: "Los 5 mejores portátiles para trabajo remoto en 2025 — Análisis y comparativa",
+    title: "Los 5 mejores portátiles para trabajo remoto — Análisis y comparativa",
     excerpt:
       "MacBook Air M3, ASUS ZenBook 14 OLED, Lenovo ThinkPad X1 Carbon y más. Elige el portátil perfecto según tu presupuesto y necesidades.",
     date: "2025-05-10",
@@ -40,7 +40,7 @@ const staticArticles: ArticleCard[] = [
   {
     href: "/mejores-microfonos-podcast-streaming",
     icon: "🎙️",
-    title: "Mejores micrófonos para podcast y streaming 2025 — Guía de compra",
+    title: "Mejores micrófonos para podcast y streaming — Guía de compra",
     excerpt:
       "Blue Yeti, HyperX SoloCast, Rode NT-USB Mini y más. Guía completa para empezar a grabar con calidad profesional desde casa.",
     date: "2025-05-18",
@@ -50,7 +50,7 @@ const staticArticles: ArticleCard[] = [
   {
     href: "/mejores-auriculares-teletrabajo",
     icon: "🎧",
-    title: "Auriculares para teletrabajo con cancelación de ruido 2025",
+    title: "Auriculares para teletrabajo con cancelación de ruido",
     excerpt:
       "Sony WH-1000XM5, Jabra Evolve2 55 y más. Los mejores auriculares para concentrarte y comunicarte en trabajo remoto.",
     date: "2025-06-05",
@@ -60,7 +60,7 @@ const staticArticles: ArticleCard[] = [
   {
     href: "/mejores-webcams-videollamadas",
     icon: "📷",
-    title: "Mejores webcams para videollamadas y streaming 2025 — Comparativa",
+    title: "Mejores webcams para videollamadas y streaming — Comparativa",
     excerpt:
       "Logitech C920, Brio 4K, Razer Kiyo Pro y más. Mejora tu imagen en Zoom, Teams y Meet con la webcam adecuada.",
     date: "2025-05-25",
@@ -70,7 +70,7 @@ const staticArticles: ArticleCard[] = [
   {
     href: "/iluminacion-streaming-youtube",
     icon: "💡",
-    title: "Iluminación para streaming y YouTube: ring lights y paneles LED 2025",
+    title: "Iluminación para streaming y YouTube: ring lights y paneles LED",
     excerpt:
       "Elgato Key Light Air, Neewer Ring Light y más. Cómo iluminar correctamente tu espacio para videollamadas y grabaciones de vídeo.",
     date: "2025-04-28",
@@ -80,7 +80,7 @@ const staticArticles: ArticleCard[] = [
   {
     href: "/mejores-sillas-ergonomicas-teletrabajo",
     icon: "🪑",
-    title: "Mejores sillas ergonómicas para teletrabajo 2025 — Guía completa",
+    title: "Mejores sillas ergonómicas para teletrabajo — Guía completa",
     excerpt:
       "SIHOO M57, Hbada Pro y más. Cómo elegir la silla ergonómica perfecta para cuidar tu espalda en jornadas largas.",
     date: "2025-06-01",
@@ -90,7 +90,7 @@ const staticArticles: ArticleCard[] = [
   {
     href: "/mejores-teclados-trabajo-remoto",
     icon: "⌨️",
-    title: "Mejores teclados para trabajo remoto 2025 — Mecánicos y de membrana",
+    title: "Mejores teclados para trabajo remoto — Mecánicos y de membrana",
     excerpt:
       "Logitech MX Keys, Keychron K2 Pro y más. Los mejores teclados para escribir horas sin fatiga y con precisión.",
     date: "2025-04-15",
@@ -100,7 +100,7 @@ const staticArticles: ArticleCard[] = [
   {
     href: "/mejores-escritorios-ajustables-altura",
     icon: "🖥️",
-    title: "Mejores escritorios ajustables en altura 2025 — Standing desks",
+    title: "Mejores escritorios ajustables en altura — Standing desks",
     excerpt:
       "FlexiSpot E7 Pro, EG1 y más. Por qué un escritorio ajustable mejora tu salud y productividad, y cuál elegir.",
     date: "2025-03-20",

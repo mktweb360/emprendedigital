@@ -5,13 +5,13 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 
 export const metadata: Metadata = {
-  title: "Mejores webcams para videollamadas y streaming 2025 — Comparativa",
+  title: "Mejores webcams para videollamadas y streaming — Comparativa",
   description:
     "Logitech C920, Brio 4K, Razer Kiyo Pro y más. Elige la webcam perfecta para Zoom, Teams y Google Meet según tu presupuesto.",
-  keywords: "mejores webcams videollamadas, webcam para Teams Zoom, Logitech C920 vs Brio, webcam streaming 2025",
+  keywords: "mejores webcams videollamadas, webcam para Teams Zoom, Logitech C920 vs Brio, webcam streaming",
   alternates: { canonical: "https://www.emprendedigital.es/mejores-webcams-videollamadas" },
   openGraph: {
-    title: "Mejores webcams para videollamadas y streaming 2025",
+    title: "Mejores webcams para videollamadas y streaming",
     description: "Comparativa completa de webcams para Zoom, Teams y streaming.",
     url: "https://www.emprendedigital.es/mejores-webcams-videollamadas",
   },
@@ -35,7 +35,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Mejores webcams para videollamadas y streaming 2025 — Comparativa",
+  headline: "Mejores webcams para videollamadas y streaming — Comparativa",
   datePublished: "2025-05-25",
   dateModified: "2025-06-01",
   author: { "@type": "Organization", name: "Emprende Digital" },
@@ -74,7 +74,7 @@ export default function WebcamsPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Mejores webcams para videollamadas y streaming 2025 — Comparativa
+          Mejores webcams para videollamadas y streaming — Comparativa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 25 mayo 2025 · 9 min lectura</p>
 
@@ -82,8 +82,8 @@ export default function WebcamsPage() {
 
         <div className="prose">
           <p>La cámara integrada en los portátiles suele ofrecer una resolución decepcionante y una imagen granulada en condiciones de baja luz, lo que proyecta una imagen poco profesional en videollamadas de trabajo. Una webcam externa de calidad transforma completamente tu presencia en pantalla y señala profesionalidad.</p>
-          <p>Hemos analizado las <strong>5 mejores webcams para videollamadas y streaming</strong> disponibles en el mercado en 2025.</p>
-          <h2>Tabla comparativa — Las mejores webcams 2025</h2>
+          <p>Hemos analizado las <strong>5 mejores webcams para videollamadas y streaming</strong> disponibles en el mercado.</p>
+          <h2>Tabla comparativa — Las mejores webcams</h2>
         </div>
 
         <div className="overflow-x-auto my-6">
@@ -96,7 +96,6 @@ export default function WebcamsPage() {
                 <th className="px-3 py-3 text-left">Campo visual</th>
                 <th className="px-3 py-3 text-left">Micrófono</th>
                 <th className="px-3 py-3 text-left">Autofoco</th>
-                <th className="px-3 py-3 text-left">Valoración</th>
                 <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
@@ -109,7 +108,6 @@ export default function WebcamsPage() {
                   <td className="px-3 py-3 text-gray-600">{p.fov}</td>
                   <td className="px-3 py-3 text-gray-600">{p.mic}</td>
                   <td className="px-3 py-3 text-gray-600">{p.autofocus}</td>
-                  <td className="px-3 py-3 text-yellow-500 font-semibold">⭐ {p.stars}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
@@ -126,22 +124,22 @@ export default function WebcamsPage() {
 
         <div className="prose">
           <h2>Análisis detallado</h2>
-          <h3>1. Logitech C920 HD Pro — La más vendida del mundo (★★★★½)</h3>
+          <h3>1. Logitech C920 HD Pro — La más vendida del mundo</h3>
           <p>La <strong>Logitech C920</strong> es la referencia absoluta en webcams desde hace años. 1080p 30fps con doble micrófono estéreo y corrección automática de luz HD. Compatible con todas las plataformas y sin necesidad de instalar drivers. La elección más segura para la mayoría de teletrabajadores.</p>
           <div className="not-prose my-4">
             <a href={amazonLink("B006A2Q81M")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">Ver Logitech C920 →</a>
           </div>
 
-          <h3>2. Logitech Brio 4K — La mejor calidad de imagen (★★★★½)</h3>
+          <h3>2. Logitech Brio 4K — La mejor calidad de imagen</h3>
           <p>La <strong>Logitech Brio</strong> es la webcam más completa del mercado: 4K con HDR, campo visual ajustable entre 65°, 78° y 90°, Windows Hello para autenticación facial y tres micrófonos con supresión de ruido. Para quienes hacen muchas videollamadas y quieren proyectar la mejor imagen posible.</p>
 
-          <h3>3. Razer Kiyo Pro — La mejor en condiciones de baja luz (★★★★)</h3>
+          <h3>3. Razer Kiyo Pro — La mejor en condiciones de baja luz</h3>
           <p>La <strong>Razer Kiyo Pro</strong> destaca por su sensor CMOS de apertura f/2.0, que capta más luz que la competencia y ofrece una imagen excelente en entornos poco iluminados. Ideal para quienes trabajan con poca luz natural o no quieren invertir en iluminación adicional.</p>
 
-          <h3>4. Microsoft LifeCam HD-3000 — La más económica (★★★★)</h3>
+          <h3>4. Microsoft LifeCam HD-3000 — La más económica</h3>
           <p>La <strong>Microsoft LifeCam HD-3000</strong> ofrece 720p a un precio imbatible. Sin autofoco y con solo un micrófono mono, sus limitaciones son evidentes, pero para quien solo necesita aparecer en videollamadas ocasionales es más que suficiente.</p>
 
-          <h3>5. Elgato Facecam — Para streamers exigentes (★★★★½)</h3>
+          <h3>5. Elgato Facecam — Para streamers exigentes</h3>
           <p>La <strong>Elgato Facecam</strong> está diseñada para streaming: 1080p 60fps con óptica Sony de foco fijo (sin motor de enfoque, lo que evita el efecto de búsqueda durante el stream). Sin micrófono integrado (asume que el streamer usa uno externo). Control total por app Elgato Camera Hub.</p>
 
           <h2>Preguntas frecuentes sobre webcams</h2>
@@ -165,7 +163,7 @@ export default function WebcamsPage() {
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
             <li><Link href="/iluminacion-streaming-youtube" className="text-indigo-600 hover:underline">→ Iluminación para streaming y YouTube: ring lights y paneles LED</Link></li>
-            <li><Link href="/mejores-microfonos-podcast-streaming" className="text-indigo-600 hover:underline">→ Mejores micrófonos para podcast y streaming 2025</Link></li>
+            <li><Link href="/mejores-microfonos-podcast-streaming" className="text-indigo-600 hover:underline">→ Mejores micrófonos para podcast y streaming</Link></li>
             <li><Link href="/mejores-auriculares-teletrabajo" className="text-indigo-600 hover:underline">→ Auriculares para teletrabajo con cancelación de ruido</Link></li>
           </ul>
         </div>
