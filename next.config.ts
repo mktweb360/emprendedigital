@@ -23,6 +23,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/blog/productividad-trabajo-remoto-herramientas",
+        destination: "/blog/herramientas-productividad-trabajo-remoto-2025",
+        permanent: true,
+      },
+      {
         source: "/blog/baseus-docking-station-12en1-analisis",
         destination: "/blog/conectar-dos-monitores-portatil-guia",
         permanent: true,
