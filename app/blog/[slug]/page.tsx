@@ -293,7 +293,7 @@ const articleContent: Record<string, {
       ],
     },
     sources: [
-      { label: "INSST — Teletrabajo: criterios preventivos y buenas prácticas", url: "https://www.insst.es/documents/94886/96076/Teletrabajo+criterios+preventivos/d2aba06e-1b76-4b5d-b22a-5a1de05e2aa8" },
+      { label: "INSST — NTP 1165: Teletrabajo, criterios para su integración en el sistema de gestión de la SST (2021)", url: "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/34-serie-ntp-numeros-1152-a-1168-ano-2021/ntp-1165-teletrabajo-criterios-para-su-integracion-en-el-sistema-de-gestion-de-la-sst-2021" },
       { label: "INE — Estadística de teletrabajo en España", url: "https://www.ine.es/ss/Satellite?L=es_ES&c=INEPublicacion_C&cid=1259951527343&p=1254735110672&pagename=ProductosYServicios%2FPYSLayout" },
     ],
     conclusion: "No hay un setup universal, hay uno correcto para cada uso y presupuesto. El punto de equilibrio para la mayoría está en el nivel 2: una silla ergonómica, un buen monitor y uno de los dos periféricos premium de Logitech. El segundo periférico y la iluminación son la mejora siguiente, cuando el resto ya está resuelto y quieres pulir las últimas fricciones.",
