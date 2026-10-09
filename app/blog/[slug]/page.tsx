@@ -65,13 +65,11 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "HOLLUDLE", "Ticova"],
       rows: [
-        ["Precio", "209,99 €", "149,99 €"],
         ["Respaldo", "Adaptativo, alto respaldo", "Malla, alto respaldo"],
         ["Reposabrazos", "4D", "3D"],
         ["Profundidad de asiento", "Ajustable", "No especificada"],
         ["Reposacabezas", "2D regulable", "No ajustable en profundidad"],
         ["Reclinación", "No especificada por el fabricante", "Hasta 130°"],
-        ["Valoración", "4,4 (3.647 reseñas)", "4,5 (1.986 reseñas)"],
         ["Mejor para", "Jornadas largas y personalización", "Equilibrio y reclinado cómodo"],
       ],
     },
@@ -109,7 +107,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "FlexiSpot E7 Pro", "FlexiSpot EG1"],
       rows: [
-        ["Precio", "449,00 €", "199,00 €"],
         ["Motor", "Doble sincronizado", "Único"],
         ["Rango de altura", "58-123 cm", "71-121 cm"],
         ["Carga máx.", "125 kg", "70 kg"],
@@ -245,7 +242,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "MX Keys S", "MX Master 3S", "Keychron V6 MAX"],
       rows: [
-        ["Precio", "92,20 €", "99,99 €", "139,99 €"],
         ["Tipo", "Teclado membrana premium", "Ratón", "Teclado mecánico"],
         ["Conexión", "Bluetooth + Logi Bolt", "Bluetooth + Logi Bolt", "2,4GHz + Bluetooth + USB-C"],
         ["Programable", "No", "—", "Sí (QMK/VIA)"],
@@ -381,10 +377,8 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "Sony WH-1000XM5", "Jabra Evolve2 65", "JBL Tune 520BT"],
       rows: [
-        ["Precio", "279,00 €", "180,99 €", "39,99 €"],
         ["Cancelación (ANC)", "Líder del sector", "Profesional (reuniones)", "No (aislamiento pasivo)"],
         ["Batería", "30 h", "Larga duración", "Hasta 57 h"],
-        ["Valoración", "4,3 (20.672 reseñas)", "4,3 (2.032 reseñas)", "4,7 (11.993 reseñas)"],
         ["Certificación", "Hi-Res LDAC", "Plataformas UC", "—"],
         ["Mejor para", "Concentración y música", "Reuniones profesionales", "Presupuesto y entorno tranquilo"],
       ],
@@ -467,13 +461,11 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Característica", "Sony WH-1000XM5", "JBL Tune 520BT"],
       rows: [
-        ["Precio", "279,00 €", "39,99 €"],
         ["Cancelación (ANC)", "Líder del sector", "No (pasiva)"],
         ["Batería", "30 h", "Hasta 57 h"],
         ["Plegable", "No", "Sí"],
         ["Audio", "Hi-Res LDAC", "Pure Bass estándar"],
         ["Carga rápida", "3 min = 3 h", "No"],
-        ["Valoración", "4,3 (20.672 reseñas)", "4,7 (11.993 reseñas)"],
         ["Mejor para", "Ruido intenso y música", "Presupuesto y entorno tranquilo"],
       ],
     },
@@ -515,7 +507,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "Elgato Key Light Air", "NEEWER RP18B Pro 18\""],
       rows: [
-        ["Precio", "99,99 €", "150,19 €"],
         ["Tipo", "Panel LED", "Aro de luz"],
         ["Potencia / tamaño", "1.400 lúmenes, 80 LEDs", "45W, aro de 18 pulgadas"],
         ["Temperatura de color", "2.900-7.000 K", "2.900-7.000 K"],
@@ -635,7 +626,7 @@ const articleContent: Record<string, {
       {
         heading: "Para audio con mezcla integrada",
         body: "Si grabas tu voz y quieres poder mezclarla con el audio del sistema sin complicarte con hardware adicional, el Elgato Wave:3 (cardioide, software Wave Link, 99,99 €) es una alternativa muy valorada al Blue Yeti que ocupa un espacio similar en el escritorio. Es una gran opción para quien empieza a crear contenido y quiere control de ganancia capacitivo y un antipop de doble capa integrado sin accesorios extra.",
-        productSlug: "rode-nt-usb-mini-microfono",
+        productSlug: "elgato-wave3-microfono-condensador-usb",
       },
       {
         heading: "Los errores más comunes al empezar",
@@ -1067,7 +1058,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "hjh OFFICE Ergohuman Slim GEN2", "Secretlab Titan EVO"],
       rows: [
-        ["Precio", "789,90 €", "659,00 €"],
         ["Origen del diseño", "Mobiliario de oficina profesional", "Sillas gaming"],
         ["Respaldo", "Malla transpirable", "Tejido"],
         ["Lumbar", "Flexible, adaptativo", "Integrado"],
@@ -1100,11 +1090,9 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "Baseus 12 en 1", "UGREEN Revodok Pro 210"],
       rows: [
-        ["Precio", "89,99 €", "37,99 €"],
         ["Salidas de vídeo", "2× HDMI+DP a 4K60Hz simultáneos", "2× HDMI 4K60Hz o 1× 8K30Hz"],
         ["Carga PD", "100W", "100W"],
         ["Ethernet", "Gigabit", "Gigabit"],
-        ["Valoración", "4,1 (859)", "4,4 (3.823)"],
       ],
     },
     conclusion: "El Baseus 12 en 1 es la única opción de este catálogo con salida simultánea de dos monitores externos a 4K60Hz desde un solo cable, una función real de productividad para quien trabaja con doble pantalla. Si necesitas exactamente eso, justifica su precio. Si tu setup es de un solo monitor externo, la UGREEN Revodok Pro 210 ofrece prestaciones muy similares por menos de la mitad de precio y con más valoraciones respaldándola.",
@@ -1136,11 +1124,9 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "Soundcore Space One", "Sony WH-1000XM5"],
       rows: [
-        ["Precio", "75,99 €", "Consultar precio (temporalmente sin stock)"],
         ["ANC", "Adaptativa", "8 micrófonos, líder del mercado"],
         ["Batería", "Hasta 40h", "Hasta 30h con ANC"],
         ["Códec", "LDAC", "LDAC / AAC / SBC"],
-        ["Valoración", "4,6 (15.966)", "4,3 (20.672)"],
       ],
     },
     conclusion: "Los Soundcore Space One no son un Sony WH-1000XM5, pero tampoco cuestan lo mismo: por menos de un tercio del precio, ofrecen ANC adaptativa, audio LDAC y más autonomía, cubriendo de sobra las necesidades de concentración de la mayoría de teletrabajadores. El Sony sigue siendo superior en entornos muy ruidosos y en calidad de construcción, pero para un home office estándar, los Soundcore son la compra con mejor relación calidad-precio del catálogo en esta categoría.",
@@ -1165,8 +1151,8 @@ const articleContent: Record<string, {
       },
       {
         heading: "Elgato Wave:3: el más completo para streaming y podcast serio",
-        body: "El Elgato Wave:3 apunta a un usuario más exigente: streamers y creadores de podcast que quieren mezclar en directo el audio del micrófono con el del sistema (música, notificaciones, otros participantes de una llamada) sin hardware adicional. Su software Wave Link resuelve eso desde el propio ordenador, y el antipop de doble capa integrado en la rejilla reduce los sonidos explosivos de las consonantes oclusivas sin necesidad de comprar una pantalla antipop aparte. El control de ganancia es capacitivo, por lo que no genera el ruido de clic de un potenciómetro físico al tocarlo en mitad de una grabación. Nota de catálogo: este modelo aparece bajo la referencia interna \"rode-nt-usb-mini\" pero el producto real, verificado en la ficha del fabricante, es el Elgato Wave:3 — se mantiene por tratarse del mismo ASIN y categoría de producto correctos, y queda señalado para revisión de nomenclatura.",
-        productSlug: "rode-nt-usb-mini-microfono",
+        body: "El Elgato Wave:3 apunta a un usuario más exigente: streamers y creadores de podcast que quieren mezclar en directo el audio del micrófono con el del sistema (música, notificaciones, otros participantes de una llamada) sin hardware adicional. Su software Wave Link resuelve eso desde el propio ordenador, y el antipop de doble capa integrado en la rejilla reduce los sonidos explosivos de las consonantes oclusivas sin necesidad de comprar una pantalla antipop aparte. El control de ganancia es capacitivo, por lo que no genera el ruido de clic de un potenciómetro físico al tocarlo en mitad de una grabación.",
+        productSlug: "elgato-wave3-microfono-condensador-usb",
       },
       {
         heading: "HyperX SoloCast: el mejor equilibrio precio-calidad para reuniones",
@@ -1186,12 +1172,10 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "Blue Yeti", "Elgato Wave:3", "HyperX SoloCast", "FIFINE"],
       rows: [
-        ["Precio", "129,99 €", "99,99 €", "49,99 €", "24,22 €"],
         ["Patrones polares", "4 (cardioide, bidir., omni, estéreo)", "1 (cardioide)", "1 (cardioide)", "1 (cardioide)"],
         ["Monitorización auriculares", "Sí, sin latencia", "Vía software Wave Link", "No", "No"],
         ["Control de ganancia", "Físico, en el cuerpo", "Capacitivo", "No", "No"],
         ["Mute físico", "Sí", "No (vía software)", "Sí, tap-to-mute con LED", "No"],
-        ["Valoración", "4,6 (8.900 reseñas)", "4,7 (9.481 reseñas)", "4,5 (4.200 reseñas)", "4,6 (4.307 reseñas)"],
         ["Mejor para", "Versatilidad y entrevistas", "Streaming y podcast con mezcla", "Reuniones de trabajo diarias", "Empezar con presupuesto mínimo"],
       ],
     },
@@ -1201,6 +1185,67 @@ const articleContent: Record<string, {
       { q: "¿Se puede usar un micrófono USB con el móvil o la tablet?", a: "Depende del modelo y del conector del dispositivo. Los micrófonos con salida USB-C pueden conectarse directamente a móviles Android con USB-C compatibles con audio USB; en iPhone suele requerir un adaptador Lightning o USB-C a USB según el modelo. Conviene comprobar la compatibilidad específica del dispositivo antes de dar por hecho que funcionará." },
       { q: "¿Qué patrón polar necesito para grabar una entrevista cara a cara?", a: "El patrón bidireccional (también llamado figura en 8) capta el sonido de dos direcciones opuestas y rechaza el de los laterales, ideal para dos personas sentadas frente a frente compartiendo micrófono. De los cuatro modelos de esta guía, solo el Blue Yeti ofrece ese patrón; el resto son cardioide fijo, pensado para una sola voz." },
       { q: "¿Compensa un micrófono XLR frente a uno USB para empezar?", a: "Para empezar, no. Un micrófono XLR exige comprar además una interfaz de audio o una mesa de mezclas, lo que duplica o triplica la inversión inicial y añade una curva de aprendizaje. Tiene sentido dar el salto a XLR más adelante si vas a grabar con varios micrófonos a la vez o necesitas el máximo control de la señal, pero no es el punto de partida recomendable." },
+    ],
+  },
+
+  "conectar-dos-monitores-portatil-guia": {
+    intro: "Pasar de una pantalla a tres —la del portátil más dos monitores— es uno de los cambios que más productividad aporta a un home office, y también uno de los que más compras equivocadas provoca: hubs con dos HDMI que en un Mac solo duplican la imagen, docks que anuncian 4K pero solo lo dan con una pantalla conectada, o portátiles que sencillamente no admiten más de un monitor externo. Esta guía explica qué decide si tu portátil puede manejar dos monitores, las cuatro formas reales de conectarlos y qué comprar en cada caso, tanto en Windows como en Mac.",
+    sections: [
+      {
+        heading: "Paso 1: comprueba cuántas pantallas admite tu portátil",
+        body: "El límite casi nunca lo pone el hub, sino el portátil. En Windows, lo primero es mirar el puerto USB-C: para sacar vídeo debe admitir DisplayPort Alt Mode (suele indicarse con el logotipo de DisplayPort) o ser Thunderbolt (el símbolo del rayo). Un USB-C solo de datos no saca imagen por sí mismo. Si el puerto es Thunderbolt 4, la propia certificación de Intel exige que admita dos pantallas 4K a 60 Hz, así que tienes la mitad del problema resuelta.\n\nEn Mac depende del chip. Los MacBook Air con M1 y M2 admiten de forma nativa un solo monitor externo. El MacBook Air con M3 admite dos, pero solo con la tapa cerrada, conectado a la corriente y con teclado y ratón externos, según el soporte técnico de Apple. Los MacBook Air con M4 y M5 ya admiten dos monitores externos con la tapa abierta, hasta 6K a 60 Hz o 4K a 144 Hz cada uno. Si tienes un MacBook Pro, consulta la tabla de Apple para tu modelo concreto: cambia entre chips base, Pro y Max.",
+      },
+      {
+        heading: "Las 4 formas reales de conectar dos monitores",
+        body: "1. Un monitor al HDMI del portátil y otro al USB-C o Thunderbolt. Es la opción más barata porque no necesita hub, siempre que el portátil tenga ambos puertos con salida de vídeo. Un monitor con entrada USB-C, como el Dell S2725QC, recibe vídeo y carga el portátil por el mismo cable.\n\n2. Un dock Thunderbolt. Transporta dos señales de vídeo independientes por un solo cable, con la aceleración gráfica del propio portátil. Es la solución más limpia y la más cara.\n\n3. Un hub USB-C con dos salidas de vídeo (tecnología MST). Funciona en escritorio extendido en Windows y ChromeOS, pero macOS no admite MST: en un Mac, las dos pantallas mostrarán la misma imagen.\n\n4. Un dock DisplayLink. Usa un chip y un controlador propios para generar las pantallas, por lo que funciona incluso en portátiles que no admiten más monitores de forma nativa, como un MacBook Air M1 o M2. A cambio, exige instalar software y consume algo de procesador.",
+        productSlug: "dell-s2725qc-monitor-4k-usbc",
+      },
+      {
+        heading: "Windows: la opción más sencilla y barata",
+        body: "Si tu portátil Windows tiene un USB-C con DisplayPort Alt Mode, un hub con dos HDMI basta para extender el escritorio a dos pantallas sin instalar nada. El Anker PowerExpand 8 en 1 es un buen ejemplo de lo que ofrece esta gama: dos HDMI, Ethernet gigabit, dos USB-A, lector SD y carga pasante de hasta 85 W. Su ficha es clara con el límite: 4K a 30 Hz con una sola pantalla, o dos pantallas a 1080p a 60 Hz. Para monitores Full HD es suficiente; si tus dos monitores son 4K y quieres 60 Hz en ambos, necesitas un dock Thunderbolt 4 o un hub que especifique expresamente 4K a 60 Hz en las dos salidas a la vez.",
+        productSlug: "anker-powerexpand-8en1-doble-hdmi",
+      },
+      {
+        heading: "Mac con chip Pro o Max: un dock Thunderbolt",
+        body: "Si tu Mac admite dos monitores de forma nativa, un dock Thunderbolt aprovecha esa capacidad sin software adicional y sin las limitaciones de DisplayLink. El CalDigit TS4 es la referencia de la categoría: 18 puertos, 98 W de carga, tres Thunderbolt 4, Ethernet de 2,5 Gb/s y lectores SD y microSD. Según su ficha, en Mac con M1 Pro o M1 Max admite dos pantallas 6K a 60 Hz, en Windows dos 4K a 60 Hz, y en el M1 original se queda en una sola pantalla. Es la compra correcta para un escritorio fijo en el que el portátil llega, se conecta a un único cable y lo tiene todo; para uso ocasional, su precio no se justifica.",
+        productSlug: "caldigit-ts4-thunderbolt-4-dock",
+      },
+      {
+        heading: "MacBook Air M1, M2 o M3 con la tapa abierta: DisplayLink",
+        body: "Es el caso más frecuente y el que más confusión genera. Si tu MacBook solo admite un monitor externo, la única forma de sumar un segundo es DisplayLink. El Baseus Nomos Air 12 en 1 está pensado para ello: dos HDMI, dos DisplayPort, USB-C y USB-A de 10 Gb/s, Ethernet gigabit y carga de 100 W. El fabricante avisa de que hay que instalar el controlador DisplayLink antes de extender la pantalla, y su título indica resolución 2K para las pantallas extendidas. Conviene conocer la contrapartida en macOS: DisplayLink necesita el permiso de grabación de pantalla, lo que desactiva en todo el sistema la reproducción de contenido protegido con HDCP. Para trabajar no supone ningún problema; para ver plataformas de streaming en esas pantallas, sí.",
+        productSlug: "baseus-nomos-air-displaylink-12en1",
+      },
+      {
+        heading: "Ojo con la letra pequeña: 4K en una pantalla no es 4K en dos",
+        body: "La trampa más habitual está en las fichas. Muchos hubs anuncian 4K a 60 Hz, pero esa cifra solo es cierta con una pantalla conectada: el Baseus 12 en 1, por ejemplo, especifica en su ficha que alcanza 4K a 60 Hz cuando se usa uno solo de sus tres puertos de vídeo. También influye el portátil: el Anker 555 da 4K a 60 Hz por HDMI en portátiles con DisplayPort 1.4, pero se queda en 4K a 30 Hz en los que tienen DisplayPort 1.2. Antes de comprar, busca en la ficha la configuración exacta que vas a usar: número de pantallas, resolución y frecuencia a la vez.",
+      },
+      {
+        heading: "Colócalos bien: la mitad de la mejora es ergonómica",
+        body: "La guía de puestos de trabajo con pantallas de la OSHA recomienda situar el monitor principal justo delante, a una distancia de entre 50 y 100 cm, con el borde superior a la altura de los ojos o ligeramente por debajo, y evitar pantallas situadas a más de 35 grados a cada lado. En la práctica, si usas los dos monitores por igual, colócalos juntos con la unión frente a ti; si uno es el principal, ponlo delante y el secundario a un lado, girado hacia ti. Así evitas pasar la jornada con el cuello girado.",
+      },
+    ],
+    comparison: {
+      headers: ["Método", "Windows", "Mac (Apple Silicon)", "Software extra", "Inversión"],
+      rows: [
+        ["HDMI del portátil + USB-C", "Sí, si el USB-C saca vídeo", "Solo en modelos con dos pantallas nativas", "No", "Ninguna o un cable"],
+        ["Dock Thunderbolt", "Sí (Thunderbolt 4: dos 4K a 60 Hz)", "Sí, hasta el límite del chip", "No", "Alta"],
+        ["Hub con dos salidas (MST)", "Sí, escritorio extendido", "No: duplica la imagen", "No", "Baja"],
+        ["Dock DisplayLink", "Sí", "Sí, incluso M1 y M2", "Controlador DisplayLink", "Media"],
+      ],
+    },
+    conclusion: "Antes de comprar nada, averigua cuántas pantallas admite tu portátil: esa cifra decide todo lo demás. En Windows con USB-C de vídeo, un hub con dos HDMI resuelve el problema por poco dinero si tus monitores son Full HD. Si tu Mac admite dos pantallas de forma nativa, un dock Thunderbolt como el CalDigit TS4 es la solución más limpia para un escritorio fijo. Y si tienes un MacBook Air que solo admite un monitor externo, DisplayLink es la única vía, con la contrapartida del contenido protegido. En todos los casos, desconfía de un 4K a 60 Hz que no especifique cuántas pantallas lo alcanzan a la vez.",
+    sources: [
+      { label: "Apple — Cuántas pantallas admite cada MacBook Air", url: "https://support.apple.com/es-es/122212" },
+      { label: "Apple — Dos monitores con MacBook Air y MacBook Pro con M3", url: "https://support.apple.com/es-es/117373" },
+      { label: "Plugable — MST en Windows, macOS y DisplayPort", url: "https://kb.plugable.com/understanding-mst-multi-display-setups-with-windows-macos-and-displayport" },
+      { label: "DisplayLink — Permiso de grabación de pantalla en macOS", url: "https://support.displaylink.com/knowledgebase/articles/2008685-macos-screen-recording-permission" },
+      { label: "OSHA — Computer Workstations eTool: Monitors", url: "https://www.osha.gov/etools/computer-workstations/components/monitors" },
+    ],
+    faqs: [
+      { q: "¿Puedo conectar dos monitores a un MacBook Air M1 o M2?", a: "No de forma nativa: estos modelos admiten un solo monitor externo. Para añadir un segundo hace falta un dock o adaptador DisplayLink, que genera la pantalla adicional mediante su propio chip y un controlador que hay que instalar en macOS." },
+      { q: "¿Por qué mi hub con dos HDMI muestra lo mismo en las dos pantallas del Mac?", a: "Porque ese hub usa MST (Multi-Stream Transport) para dividir una única señal de vídeo en dos, y macOS no admite MST para escritorio extendido: solo puede duplicar la imagen. En Windows, el mismo hub sí extiende el escritorio. En Mac, la alternativa es un dock Thunderbolt, si el chip admite dos pantallas, o un dock DisplayLink." },
+      { q: "¿Se puede ver Netflix o Disney+ en un monitor conectado por DisplayLink?", a: "En macOS, por lo general no. DisplayLink necesita el permiso de grabación de pantalla y, mientras está activo, el sistema desactiva la reproducción de contenido protegido con HDCP en todas las pantallas. Si necesitas ver contenido protegido, conéctalo a una salida nativa o a un dock Thunderbolt." },
+      { q: "¿Tienen que ser iguales los dos monitores?", a: "No es obligatorio: puedes combinar tamaños y resoluciones distintos. Aun así, dos monitores del mismo tamaño y resolución facilitan alinearlos a la misma altura y evitan que ventanas y texto cambien de tamaño al moverlos de una pantalla a otra." },
     ],
   },
 };

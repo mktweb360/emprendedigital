@@ -53,7 +53,7 @@ const orgSchema = {
     "herramientas SaaS",
   ],
   sameAs: [
-    "https://www.instagram.com/emprendedigital.es",
+    "https://www.instagram.com/empdedigitaloficial",
     "https://www.facebook.com/emprendedigital.es",
   ],
   contactPoint: {

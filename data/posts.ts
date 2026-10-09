@@ -367,6 +367,29 @@ export const posts: Post[] = [
     ],
     categoryCta: { href: "/tienda/microfonos", text: "Ver micrófonos →" },
   },
+  {
+    slug: "conectar-dos-monitores-portatil-guia",
+    image: "/images/blog/conectar-dos-monitores-portatil-guia.jpg",
+    title: "Cómo conectar dos monitores a un portátil: guía para Windows y Mac",
+    excerpt:
+      "Cómo conectar dos monitores a un portátil según tu sistema y tus puertos: HDMI + USB-C, dock Thunderbolt, hub MST o DisplayLink. Qué funciona en Windows, qué funciona en Mac y qué comprobar antes de comprar.",
+    date: "2026-09-29",
+    category: "Home Office",
+    readTime: "9 min",
+    relatedProducts: [
+      "caldigit-ts4-thunderbolt-4-dock",
+      "baseus-nomos-air-displaylink-12en1",
+      "anker-powerexpand-8en1-doble-hdmi",
+      "dell-s2725qc-monitor-4k-usbc",
+    ],
+    relatedPosts: [
+      "mejor-hub-usb-c-portatil-2025",
+      "mejor-monitor-home-office-2025",
+      "monitor-4k-vs-full-hd-trabajo-remoto",
+      "organizar-cables-home-office-guia",
+    ],
+    categoryCta: { href: "/tienda/hubs-docking", text: "Ver hubs y docking stations →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

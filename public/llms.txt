@@ -25,6 +25,7 @@ Categorías disponibles con fichas de producto individuales:
 - Iluminación para streaming: https://www.emprendedigital.es/tienda/iluminacion — Elgato Key Light Air, Neewer Ring Light 18", 45-99€
 - Sillas ergonómicas: https://www.emprendedigital.es/tienda/sillas-ergonomicas — SIHOO M57, Hbada Pro, 189-249€
 - Escritorios y mesas: https://www.emprendedigital.es/tienda/escritorios — FlexiSpot E7 Pro, FlexiSpot EG1, 199-449€
+- Hubs y docking stations: https://www.emprendedigital.es/tienda/hubs-docking — UGREEN Revodok, Anker 555, Anker 565, Anker PowerExpand, Baseus, CalDigit TS4 Thunderbolt 4
 
 ## Artículos publicados
 
@@ -37,6 +38,7 @@ Categorías disponibles con fichas de producto individuales:
 - [Mejor webcam para videollamadas de trabajo remoto 2025](https://www.emprendedigital.es/blog/mejor-webcam-videollamadas-trabajo-remoto) — Logitech C920 y Brio 4K, y cuándo añadir micrófono externo
 - [Mejores auriculares con cancelación de ruido para trabajar 2025](https://www.emprendedigital.es/blog/mejores-auriculares-cancelacion-ruido-trabajo-2025) — Sony WH-1000XM5, Jabra Evolve2 55 y opción sin ANC
 - [Cómo organizar los cables del home office](https://www.emprendedigital.es/blog/organizar-cables-home-office-guia) — Hub USB-C, canaletas, bandejas y soluciones por presupuesto
+- [Cómo conectar dos monitores a un portátil: guía para Windows y Mac](https://www.emprendedigital.es/blog/conectar-dos-monitores-portatil-guia) — HDMI + USB-C, dock Thunderbolt, hub MST o DisplayLink: qué funciona en cada sistema y qué comprobar antes de comprar
 
 ### Productividad
 - [Mejor teclado y ratón para trabajo remoto 2025](https://www.emprendedigital.es/blog/mejor-teclado-raton-trabajo-remoto) — Logitech MX Keys Advanced S, MX Master 3S y Keychron K2 Pro, incluye el análisis a fondo del MX Keys
