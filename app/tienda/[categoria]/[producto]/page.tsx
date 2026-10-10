@@ -156,7 +156,7 @@ export default async function ProductoPage({ params }: Props) {
           <p>{product.fullDescription}</p>
         </div>
 
-        <AdSenseAd slot="9999999999" />
+        <AdSenseAd placement="contenido" />
 
         <div className="grid sm:grid-cols-2 gap-6 my-8">
           <div className="p-5 bg-green-50 border border-green-100 rounded-xl">

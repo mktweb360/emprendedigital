@@ -7,6 +7,7 @@ import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import HostingBanner from "@/components/HostingBanner";
 import BlogSidebar from "@/components/BlogSidebar";
+import AdSenseAd from "@/components/AdSenseAd";
 
 // Categorías donde el hosting es una recomendación relevante para el lector.
 const HOSTING_BANNER_CATEGORIES = ["Emprender Online", "Trabajo Remoto"];
@@ -1318,7 +1319,7 @@ export default async function BlogPostPage({ params }: Props) {
       </section>
 
       <div className="max-w-6xl mx-auto px-4 py-10">
-      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10 lg:items-start">
+      <div className="lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 lg:items-start">
       <div>
         {relatedProducts.length > 0 && <AffiliateDisclosure />}
 
@@ -1399,6 +1400,7 @@ export default async function BlogPostPage({ params }: Props) {
           </article>
         )}
 
+        <AdSenseAd placement="contenido" />
         {relatedProducts.length > 0 && (
           <section className="mb-10">
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">Productos mencionados</h2>
