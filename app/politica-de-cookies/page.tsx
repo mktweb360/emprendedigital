@@ -30,7 +30,7 @@ export default function PoliticaCookiesPage() {
             <tr><th>Nombre</th><th>Finalidad</th><th>Duración</th></tr>
           </thead>
           <tbody>
-            <tr><td>emprendedigital_consent_v2</td><td>Almacena las preferencias de consentimiento de cookies del usuario</td><td>1 año</td></tr>
+            <tr><td><code>FCCDCF</code></td><td>Guarda tu decisión de consentimiento (plataforma de consentimiento de Google, estándar TCF del IAB)</td><td>13 meses</td></tr>
           </tbody>
         </table>
 
@@ -61,9 +61,7 @@ export default function PoliticaCookiesPage() {
         <p>Tienes varias opciones para gestionar tus preferencias de cookies:</p>
         <ul>
           <li>
-            <strong>Banner de cookies del sitio:</strong> Al entrar por primera vez en el sitio, puedes aceptar,
-            rechazar o personalizar las cookies mediante el banner de consentimiento. Puedes cambiar tu elección
-            borrando las cookies de tu navegador.
+            <strong>Mensaje de consentimiento:</strong> Al entrar en el sitio, la plataforma de consentimiento certificada de Google te permite aceptar, rechazar o personalizar las cookies. Puedes cambiar tu decisión en cualquier momento con el enlace «Preferencias de cookies» del pie de página.
           </li>
           <li>
             <strong>Configuración del navegador:</strong> Puedes bloquear o eliminar las cookies desde la
