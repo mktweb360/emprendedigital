@@ -13,7 +13,6 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import CookieBanner from "@/components/CookieBanner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -89,30 +88,21 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${geistSans.variable} h-full antialiased`}>
       <head>
-        {/* CWV: Preconnect to AdSense — opens TCP early so the script loads
-            faster the moment the user gives consent in the cookie banner.     */}
+        {/* CWV: preconexión a los dominios de AdSense */}
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
 
+        {/* AdSense: el script se carga siempre; el consentimiento (RGPD / TCF v2.2) lo gestiona el
+            mensaje certificado de Google configurado en AdSense > Privacidad y mensajes. */}
         <Script
-          id="consent-mode-default"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('consent', 'default', {
-        ad_storage: 'denied',
-        ad_user_data: 'denied',
-        ad_personalization: 'denied',
-        analytics_storage: 'denied',
-        wait_for_update: 500
-      });
-    `,
-          }}
+          id="adsense"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6063067965030118"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
         />
-        {/* AdSense site verification — ad script loaded conditionally by CookieBanner */}
+        {/* AdSense: verificación de la propiedad del sitio */}
         <meta name="google-adsense-account" content="ca-pub-6063067965030118" />
         <script
           type="application/ld+json"
@@ -127,7 +117,6 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
-        <CookieBanner />
       </body>
     </html>
   );
