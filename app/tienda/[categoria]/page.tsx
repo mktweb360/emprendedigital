@@ -88,14 +88,13 @@ const buyingGuides: Record<string, { title: string; paragraphs: string[] }> = {
 };
 
 const relatedArticles: Record<string, { title: string; href: string }[]> = {
-  portatiles: [{ title: "Los 5 mejores portátiles para trabajo remoto en 2025", href: "/mejores-portatiles-trabajo-remoto" }],
-  perifericos: [{ title: "Mejores teclados para trabajo remoto 2025", href: "/mejores-teclados-trabajo-remoto" }],
-  microfonos: [{ title: "Mejores micrófonos para podcast y streaming 2025", href: "/mejores-microfonos-podcast-streaming" }],
-  webcams: [{ title: "Mejores webcams para videollamadas y streaming 2025", href: "/mejores-webcams-videollamadas" }],
-  auriculares: [{ title: "Auriculares para teletrabajo con cancelación de ruido 2025", href: "/mejores-auriculares-teletrabajo" }],
-  iluminacion: [{ title: "Iluminación para streaming y YouTube: ring lights y paneles LED", href: "/iluminacion-streaming-youtube" }],
-  "sillas-ergonomicas": [{ title: "Mejores sillas ergonómicas para teletrabajo 2025", href: "/mejores-sillas-ergonomicas-teletrabajo" }],
-  escritorios: [{ title: "Mejores escritorios ajustables en altura 2025", href: "/mejores-escritorios-ajustables-altura" }],
+  perifericos: [{ title: "Mejor teclado y ratón para trabajo remoto — Comparativa", href: "/blog/mejor-teclado-raton-trabajo-remoto" }],
+  microfonos: [{ title: "Mejor micrófono USB para podcast, streaming y videollamadas en 2026", href: "/blog/mejor-microfono-usb-podcast-streaming-2026" }],
+  webcams: [{ title: "Mejor webcam para videollamadas de trabajo remoto", href: "/blog/mejor-webcam-videollamadas-trabajo-remoto" }],
+  auriculares: [{ title: "Mejores auriculares con cancelación de ruido para trabajar", href: "/blog/mejores-auriculares-cancelacion-ruido-trabajo-2025" }],
+  iluminacion: [{ title: "Iluminación para videollamadas: guía completa y mejores opciones", href: "/blog/iluminacion-videollamadas-home-office" }],
+  "sillas-ergonomicas": [{ title: "Mejor silla ergonómica para home office — Comparativa completa", href: "/blog/mejor-silla-ergonomica-home-office-2025" }],
+  escritorios: [{ title: "Escritorio regulable en altura para home office: guía de compra", href: "/blog/escritorio-regulable-altura-home-office" }],
 };
 
 export default async function CategoriaPage({ params }: Props) {

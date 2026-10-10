@@ -14,14 +14,14 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-3">Artículos</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/mejores-portatiles-trabajo-remoto" className="hover:text-indigo-400 transition-colors">Mejores portátiles trabajo remoto</Link></li>
-              <li><Link href="/mejores-microfonos-podcast-streaming" className="hover:text-indigo-400 transition-colors">Micrófonos para podcast y streaming</Link></li>
-              <li><Link href="/mejores-auriculares-teletrabajo" className="hover:text-indigo-400 transition-colors">Auriculares para teletrabajo</Link></li>
-              <li><Link href="/mejores-webcams-videollamadas" className="hover:text-indigo-400 transition-colors">Webcams para videollamadas</Link></li>
-              <li><Link href="/iluminacion-streaming-youtube" className="hover:text-indigo-400 transition-colors">Iluminación para streaming</Link></li>
-              <li><Link href="/mejores-sillas-ergonomicas-teletrabajo" className="hover:text-indigo-400 transition-colors">Sillas ergonómicas teletrabajo</Link></li>
-              <li><Link href="/mejores-teclados-trabajo-remoto" className="hover:text-indigo-400 transition-colors">Teclados para trabajo remoto</Link></li>
-              <li><Link href="/mejores-escritorios-ajustables-altura" className="hover:text-indigo-400 transition-colors">Escritorios ajustables en altura</Link></li>
+              <li><Link href="/tienda/portatiles" className="hover:text-indigo-400 transition-colors">Portátiles para trabajo remoto</Link></li>
+              <li><Link href="/blog/mejor-microfono-usb-podcast-streaming-2026" className="hover:text-indigo-400 transition-colors">Micrófonos para podcast y streaming</Link></li>
+              <li><Link href="/blog/mejores-auriculares-cancelacion-ruido-trabajo-2025" className="hover:text-indigo-400 transition-colors">Auriculares para teletrabajo</Link></li>
+              <li><Link href="/blog/mejor-webcam-videollamadas-trabajo-remoto" className="hover:text-indigo-400 transition-colors">Webcams para videollamadas</Link></li>
+              <li><Link href="/blog/iluminacion-videollamadas-home-office" className="hover:text-indigo-400 transition-colors">Iluminación para streaming</Link></li>
+              <li><Link href="/blog/mejor-silla-ergonomica-home-office-2025" className="hover:text-indigo-400 transition-colors">Sillas ergonómicas teletrabajo</Link></li>
+              <li><Link href="/blog/mejor-teclado-raton-trabajo-remoto" className="hover:text-indigo-400 transition-colors">Teclados para trabajo remoto</Link></li>
+              <li><Link href="/blog/escritorio-regulable-altura-home-office" className="hover:text-indigo-400 transition-colors">Escritorios ajustables en altura</Link></li>
             </ul>
           </div>
           <div>

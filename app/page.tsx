@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getFeaturedProducts } from "@/data/products";
+import { getPostBySlug } from "@/data/posts";
 import HeroBackground from "@/components/HeroBackground";
 import EmailCaptureSection from "@/components/EmailCaptureSection";
 
@@ -19,56 +20,56 @@ export const metadata: Metadata = {
 
 const categories = [
   {
-    href: "/mejores-portatiles-trabajo-remoto",
+    href: "/tienda/portatiles",
     icon: "💻",
     title: "Portátiles para trabajo remoto",
     desc: "Los mejores portátiles para teletrabajar con rendimiento y autonomía",
     price: "Desde 400€",
   },
   {
-    href: "/mejores-microfonos-podcast-streaming",
+    href: "/tienda/microfonos",
     icon: "🎙️",
     title: "Micrófonos para podcast",
     desc: "Calidad de estudio en casa para podcast, streaming y videollamadas",
     price: "Desde 30€",
   },
   {
-    href: "/mejores-auriculares-teletrabajo",
+    href: "/tienda/auriculares",
     icon: "🎧",
     title: "Auriculares para trabajar",
     desc: "Con y sin cancelación de ruido para concentrarte y comunicarte mejor",
     price: "Desde 20€",
   },
   {
-    href: "/mejores-webcams-videollamadas",
+    href: "/tienda/webcams",
     icon: "📷",
     title: "Webcams para videollamadas",
     desc: "Imagen profesional en todas tus reuniones de trabajo y streaming",
     price: "Desde 25€",
   },
   {
-    href: "/iluminacion-streaming-youtube",
+    href: "/tienda/iluminacion",
     icon: "💡",
     title: "Iluminación para streaming",
     desc: "Ring lights y paneles LED para una imagen impecable en cámara",
     price: "Desde 15€",
   },
   {
-    href: "/mejores-sillas-ergonomicas-teletrabajo",
+    href: "/tienda/sillas-ergonomicas",
     icon: "🪑",
     title: "Sillas ergonómicas",
     desc: "Cuida tu espalda con las mejores sillas ergonómicas para tu oficina",
     price: "Desde 100€",
   },
   {
-    href: "/mejores-teclados-trabajo-remoto",
+    href: "/tienda/perifericos",
     icon: "⌨️",
     title: "Teclados para trabajar",
     desc: "Mecánicos o de membrana premium, inalámbricos y multidispositivo",
     price: "Desde 20€",
   },
   {
-    href: "/mejores-escritorios-ajustables-altura",
+    href: "/tienda/escritorios",
     icon: "🖥️",
     title: "Escritorios ajustables",
     desc: "Alterna entre sentado y de pie para trabajar más saludable",
@@ -83,36 +84,17 @@ const categories = [
   },
 ];
 
-const articles = [
-  {
-    href: "/mejores-portatiles-trabajo-remoto",
-    title: "Los 5 mejores portátiles para trabajo remoto",
-    excerpt:
-      "Comparativa completa: MacBook Air M3, ThinkPad X1 Carbon, ASUS ZenBook OLED y más. Elige según tu presupuesto y necesidades.",
-    date: "2025-05-10",
-  },
-  {
-    href: "/mejores-microfonos-podcast-streaming",
-    title: "Mejores micrófonos para podcast y streaming",
-    excerpt:
-      "Blue Yeti, HyperX SoloCast, Rode NT-USB Mini y más. Guía completa para empezar a grabar con calidad profesional desde casa.",
-    date: "2025-05-18",
-  },
-  {
-    href: "/mejores-sillas-ergonomicas-teletrabajo",
-    title: "Mejores sillas ergonómicas para teletrabajo",
-    excerpt:
-      "Invierte en tu salud: guía de compra de sillas ergonómicas para jornadas largas de trabajo en casa.",
-    date: "2025-06-01",
-  },
-  {
-    href: "/mejores-auriculares-teletrabajo",
-    title: "Auriculares para teletrabajo con cancelación de ruido",
-    excerpt:
-      "Sony WH-1000XM5, Jabra Evolve2 y más. Los mejores auriculares para concentrarte y comunicarte en trabajo remoto.",
-    date: "2025-06-05",
-  },
+// Artículos destacados: se leen de data/posts.ts para que título, extracto y fecha estén siempre al día.
+const featuredSlugs = [
+  "conectar-dos-monitores-portatil-guia",
+  "mejor-microfono-usb-podcast-streaming-2026",
+  "mejor-silla-ergonomica-home-office-2025",
+  "mejores-auriculares-cancelacion-ruido-trabajo-2025",
 ];
+const articles = featuredSlugs
+  .map((slug) => getPostBySlug(slug))
+  .filter((p): p is NonNullable<typeof p> => Boolean(p))
+  .map((p) => ({ href: `/blog/${p.slug}`, title: p.title, excerpt: p.excerpt, date: p.date }));
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -155,10 +137,10 @@ export default function HomePage() {
               Ver todos los artículos
             </Link>
             <Link
-              href="/mejores-portatiles-trabajo-remoto"
+              href="/tienda/portatiles"
               className="px-8 py-3 bg-orange-500 text-white font-bold rounded-xl hover:bg-orange-600 transition-colors text-lg"
             >
-              Portátiles 2025 →
+              Ver portátiles →
             </Link>
           </div>
         </div>

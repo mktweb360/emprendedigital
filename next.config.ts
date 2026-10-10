@@ -23,6 +23,46 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/mejores-portatiles-trabajo-remoto",
+        destination: "/tienda/portatiles",
+        permanent: true,
+      },
+      {
+        source: "/mejores-microfonos-podcast-streaming",
+        destination: "/blog/mejor-microfono-usb-podcast-streaming-2026",
+        permanent: true,
+      },
+      {
+        source: "/mejores-auriculares-teletrabajo",
+        destination: "/blog/mejores-auriculares-cancelacion-ruido-trabajo-2025",
+        permanent: true,
+      },
+      {
+        source: "/mejores-webcams-videollamadas",
+        destination: "/blog/mejor-webcam-videollamadas-trabajo-remoto",
+        permanent: true,
+      },
+      {
+        source: "/iluminacion-streaming-youtube",
+        destination: "/blog/iluminacion-videollamadas-home-office",
+        permanent: true,
+      },
+      {
+        source: "/mejores-sillas-ergonomicas-teletrabajo",
+        destination: "/blog/mejor-silla-ergonomica-home-office-2025",
+        permanent: true,
+      },
+      {
+        source: "/mejores-escritorios-ajustables-altura",
+        destination: "/blog/escritorio-regulable-altura-home-office",
+        permanent: true,
+      },
+      {
+        source: "/mejores-teclados-trabajo-remoto",
+        destination: "/blog/mejor-teclado-raton-trabajo-remoto",
+        permanent: true,
+      },
+      {
         source: "/blog/productividad-trabajo-remoto-herramientas",
         destination: "/blog/herramientas-productividad-trabajo-remoto-2025",
         permanent: true,

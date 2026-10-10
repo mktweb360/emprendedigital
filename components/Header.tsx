@@ -3,10 +3,10 @@ import Link from "next/link";
 const navLinks = [
   { href: "/tienda", label: "Tienda" },
   { href: "/blog", label: "Blog" },
-  { href: "/mejores-portatiles-trabajo-remoto", label: "Portátiles" },
-  { href: "/mejores-microfonos-podcast-streaming", label: "Micrófonos" },
-  { href: "/mejores-auriculares-teletrabajo", label: "Auriculares" },
-  { href: "/mejores-sillas-ergonomicas-teletrabajo", label: "Sillas" },
+  { href: "/tienda/portatiles", label: "Portátiles" },
+  { href: "/tienda/microfonos", label: "Micrófonos" },
+  { href: "/tienda/auriculares", label: "Auriculares" },
+  { href: "/tienda/sillas-ergonomicas", label: "Sillas" },
   { href: "/sobre-nosotros", label: "Sobre nosotros" },
 ];
 

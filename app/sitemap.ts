@@ -4,16 +4,8 @@ import { posts } from "@/data/posts";
 
 const BASE = "https://www.emprendedigital.es";
 
-const staticArticles = [
-  "/mejores-portatiles-trabajo-remoto",
-  "/mejores-microfonos-podcast-streaming",
-  "/mejores-auriculares-teletrabajo",
-  "/mejores-webcams-videollamadas",
-  "/iluminacion-streaming-youtube",
-  "/mejores-sillas-ergonomicas-teletrabajo",
-  "/mejores-teclados-trabajo-remoto",
-  "/mejores-escritorios-ajustables-altura",
-];
+// Las landing pages estáticas antiguas se consolidaron en el blog con 301 (10/10/2026).
+const staticArticles: string[] = [];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
