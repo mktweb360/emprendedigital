@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cat = categories.find((c) => c.slug === categoria);
   if (!cat) return {};
   return {
-    title: `${cat.name} — Guía de compra y comparativa 2025`,
+    title: `${cat.name}: guía de compra y comparativa`,
     description: `Los mejores ${cat.name.toLowerCase()} para emprendedores digitales y teletrabajadores. Análisis, comparativas y los mejores precios del mercado.`,
     alternates: { canonical: `https://www.emprendedigital.es/tienda/${cat.slug}` },
   };

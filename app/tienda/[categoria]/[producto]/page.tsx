@@ -6,6 +6,7 @@ import { amazonLink } from "@/lib/amazon";
 import { getPostBySlug } from "@/data/posts";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
+import { productTitle, relatedInCategory } from "@/lib/seo";
 
 type Props = { params: Promise<{ categoria: string; producto: string }> };
 
@@ -18,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: `${product.name}: análisis y opiniones` },
+    title: { absolute: productTitle(product.name, "análisis y opiniones") },
     description: `Análisis completo del ${product.name}: especificaciones, pros, contras, precio y comparativa con alternativas. ¿Vale la pena en 2025?`,
     alternates: { canonical: `https://www.emprendedigital.es/tienda/${product.categorySlug}/${product.slug}` },
   };
@@ -66,9 +67,7 @@ export default async function ProductoPage({ params }: Props) {
 
   const cat = categories.find((c) => c.slug === categoria);
   const faqs = categoryFaqs[categoria] ?? [];
-  const related = getProductsByCategory(categoria)
-    .filter((p) => p.slug !== product.slug)
-    .slice(0, 3);
+  const related = relatedInCategory(getProductsByCategory(categoria), product.slug, 3);
   const relatedGuides = (product.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
 
   // Sin schema Product: sin precio ni valoraciones (solo pueden mostrarse vía la API oficial de

@@ -124,7 +124,7 @@ export default function HomePage() {
         <HeroBackground overlay="from-indigo-900/90 via-blue-800/80 to-indigo-900/85" />
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
-            Emprende Digital — Herramientas y equipamiento para emprendedores digitales
+            Herramientas y equipamiento para trabajar desde casa y emprender online
           </h1>
           <p className="text-xl md:text-2xl text-indigo-100 mb-8 max-w-2xl mx-auto">
             Comparativas honestas y guías de compra para montar tu oficina en casa y crear contenido de calidad.
