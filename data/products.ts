@@ -17,6 +17,8 @@ export type Product = {
   badge?: string;
   image?: string;
   relatedPosts?: string[];
+  /** Fecha en que se comprobó que no se puede comprar en Amazon.es: se oculta de la web. */
+  unavailable?: string;
 };
 
 export const categories = [
@@ -36,6 +38,7 @@ export const products: Product[] = [
   // PORTÁTILES
   {
     slug: "apple-macbook-air-m3-13",
+    unavailable: "2026-10-12",
     name: "Apple MacBook Air M3 13\" 8GB 256GB",
     asin: "B0CX242NL1",
     image: "/images/products/apple-macbook-air-m3-13.jpg",
@@ -76,6 +79,7 @@ export const products: Product[] = [
   },
   {
     slug: "lenovo-thinkpad-x1-carbon-gen12",
+    unavailable: "2026-10-12",
     name: "Lenovo Yoga Slim 7 Gen 10 Aura Edition 14\" OLED Intel Core Ultra 7 258V",
     asin: "B0GHZYPL69",
     image: "/images/products/lenovo-thinkpad-x1-carbon-gen12.jpg",
@@ -96,6 +100,7 @@ export const products: Product[] = [
   },
   {
     slug: "hp-pavilion-plus-14-oled",
+    unavailable: "2026-10-12",
     name: "ASUS Vivobook 15 F1504VA Intel Core 5 16GB 1TB",
     asin: "B0F99B78JN",
     image: "/images/products/hp-pavilion-plus-14-oled.jpg",
@@ -138,6 +143,7 @@ export const products: Product[] = [
   },
   {
     slug: "logitech-mx-master-3s",
+    unavailable: "2026-10-12",
     name: "Logitech MX Master 3S Ratón Inalámbrico",
     asin: "B09HM94VDS",
     image: "/images/products/logitech-mx-master-3s.jpg",
@@ -281,6 +287,7 @@ export const products: Product[] = [
   // AURICULARES
   {
     slug: "sony-wh-1000xm5-auriculares",
+    unavailable: "2026-10-12",
     name: "Sony WH-1000XM5 Auriculares Inalámbricos ANC 30h",
     asin: "B09XS7JWHH",
     image: "/images/products/sony-wh-1000xm5-auriculares.jpg",
@@ -444,6 +451,7 @@ export const products: Product[] = [
   // ESCRITORIOS
   {
     slug: "flexispot-e7-pro-escritorio-ajustable",
+    unavailable: "2026-10-12",
     name: "FlexiSpot E7 Pro Escritorio Eléctrico Ajustable en Altura 140×70cm",
     asin: "B08C6JFNHQ",
     image: "/images/products/flexispot-e7-pro-escritorio-ajustable.jpg",
@@ -464,6 +472,7 @@ export const products: Product[] = [
   },
   {
     slug: "flexispot-eg1-escritorio-ajustable",
+    unavailable: "2026-10-12",
     name: "FlexiSpot EG1 Escritorio Eléctrico Ajustable 120×60cm",
     asin: "B08GQ2TXFC",
     image: "/images/products/flexispot-eg1-escritorio-ajustable.jpg",
@@ -702,6 +711,7 @@ export const products: Product[] = [
   },
   {
     slug: "anker-powerexpand-13en1-docking",
+    unavailable: "2026-10-12",
     name: "Anker PowerExpand 13 en 1 Docking Station USB-C — 85W, 4K HDMI",
     asin: "B08GM4GRLL",
     image: "/images/products/anker-powerexpand-13en1-docking.jpg",
@@ -1001,7 +1011,7 @@ export const products: Product[] = [
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
-  return products.filter((p) => p.categorySlug === categorySlug);
+  return products.filter((p) => p.categorySlug === categorySlug && !p.unavailable);
 }
 
 export function getProductBySlug(slug: string): Product | undefined {
@@ -1009,5 +1019,5 @@ export function getProductBySlug(slug: string): Product | undefined {
 }
 
 export function getFeaturedProducts(n: number): Product[] {
-  return [...products].sort((a, b) => b.rating - a.rating).slice(0, n);
+  return products.filter((p) => !p.unavailable).sort((a, b) => b.rating - a.rating).slice(0, n);
 }
