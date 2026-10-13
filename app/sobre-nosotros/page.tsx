@@ -77,12 +77,12 @@ const evaluationCriteria = [
   {
     title: "Investigación de mercado",
     description:
-      "Identificamos los productos más relevantes en cada categoría: los más vendidos, los mejor valorados por usuarios reales y las novedades más destacadas de cada temporada.",
+      "Identificamos los productos más relevantes en cada categoría: los modelos de referencia, las alternativas por gama y las novedades más destacadas de cada temporada.",
   },
   {
     title: "Criterios objetivos y verificables",
     description:
-      "Evaluamos con métricas concretas: especificaciones técnicas verificadas, relación calidad-precio, valoraciones de compradores confirmados y comparativa directa con alternativas del mismo rango de precio.",
+      "Evaluamos con métricas concretas: especificaciones técnicas verificadas, relación calidad-gama, experiencia de uso documentada y comparativa directa con alternativas de la misma gama.",
   },
   {
     title: "Actualización continua",

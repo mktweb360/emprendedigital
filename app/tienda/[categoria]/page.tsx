@@ -73,7 +73,7 @@ const buyingGuides: Record<string, { title: string; paragraphs: string[] }> = {
     title: "¿Cómo elegir la silla ergonómica correcta?",
     paragraphs: [
       "Los ajustes imprescindibles: altura del asiento, profundidad del asiento, soporte lumbar ajustable en altura y profundidad, y reposabrazos ajustables. Sin estos ajustes, una silla no puede adaptarse a tu cuerpo.",
-      "Para uso intensivo (8+ horas/día), invierte al menos 200-250€. Por debajo de ese precio es difícil encontrar una silla con los ajustes ergonómicos necesarios para jornadas largas.",
+      "Para uso intensivo (8+ horas/día), apunta al menos a la gama media. En la gama de entrada es difícil encontrar una silla con todos los ajustes ergonómicos necesarios para jornadas largas.",
       "El respaldo de malla transpirable es la mejor opción en climas mediterráneos y habitaciones que se calientan. El tapizado de cuero es más cálido y premium en apariencia pero retiene más el calor.",
     ],
   },

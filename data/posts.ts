@@ -382,7 +382,7 @@ export const posts: Post[] = [
     slug: "soundcore-space-one-analisis",
     title: "Soundcore Space One: la alternativa económica a los Sony WH-1000XM5",
     excerpt:
-      "Análisis de los Soundcore Space One: ANC adaptativa, audio LDAC y 40h de batería por menos de un tercio del precio de un Sony WH-1000XM5. ¿Compensa la diferencia?",
+      "Análisis de los Soundcore Space One: ANC adaptativa, audio LDAC y 40h de batería en la gama media, como alternativa a los Sony WH-1000XM5. ¿Compensa la diferencia?",
     date: "2026-09-07",
     category: "Home Office",
     readTime: "6 min",

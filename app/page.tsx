@@ -24,63 +24,54 @@ const categories = [
     icon: "💻",
     title: "Portátiles para trabajo remoto",
     desc: "Los mejores portátiles para teletrabajar con rendimiento y autonomía",
-    price: "Desde 400€",
   },
   {
     href: "/tienda/microfonos",
     icon: "🎙️",
     title: "Micrófonos para podcast",
     desc: "Calidad de estudio en casa para podcast, streaming y videollamadas",
-    price: "Desde 30€",
   },
   {
     href: "/tienda/auriculares",
     icon: "🎧",
     title: "Auriculares para trabajar",
     desc: "Con y sin cancelación de ruido para concentrarte y comunicarte mejor",
-    price: "Desde 20€",
   },
   {
     href: "/tienda/webcams",
     icon: "📷",
     title: "Webcams para videollamadas",
     desc: "Imagen profesional en todas tus reuniones de trabajo y streaming",
-    price: "Desde 25€",
   },
   {
     href: "/tienda/iluminacion",
     icon: "💡",
     title: "Iluminación para streaming",
     desc: "Ring lights y paneles LED para una imagen impecable en cámara",
-    price: "Desde 15€",
   },
   {
     href: "/tienda/sillas-ergonomicas",
     icon: "🪑",
     title: "Sillas ergonómicas",
     desc: "Cuida tu espalda con las mejores sillas ergonómicas para tu oficina",
-    price: "Desde 100€",
   },
   {
     href: "/tienda/perifericos",
     icon: "⌨️",
     title: "Teclados para trabajar",
     desc: "Mecánicos o de membrana premium, inalámbricos y multidispositivo",
-    price: "Desde 20€",
   },
   {
     href: "/tienda/escritorios",
     icon: "🖥️",
     title: "Escritorios ajustables",
     desc: "Alterna entre sentado y de pie para trabajar más saludable",
-    price: "Desde 80€",
   },
   {
     href: "/tienda/monitores",
     icon: "🖥️",
     title: "Monitores",
     desc: "Monitores 4K y Full HD para home office",
-    price: "Desde 180€",
   },
 ];
 
@@ -185,7 +176,7 @@ export default function HomePage() {
               Ver todos →
             </Link>
           </div>
-          <p className="text-gray-500 mb-8">Los productos mejor valorados por nuestros lectores</p>
+          <p className="text-gray-500 mb-8">Una selección de nuestro equipo editorial</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {featuredProducts.map((product) => (
               <div key={product.slug} className="border border-gray-100 rounded-xl p-5 hover:shadow-md transition-all flex flex-col">
@@ -256,7 +247,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">¿Por qué confiar en nosotros?</h2>
           <p className="text-gray-600 mb-6 leading-relaxed">
-            En <strong>Emprende Digital</strong> analizamos cada producto con criterio y honestidad. Comparamos especificaciones, leemos cientos de reseñas reales y probamos los equipos para darte las recomendaciones más útiles antes de comprar. No publicamos contenido patrocinado: nuestros ingresos provienen de comisiones de afiliado, lo que no afecta a nuestras valoraciones.
+            En <strong>Emprende Digital</strong> analizamos cada producto con criterio y honestidad. Comparamos especificaciones y características para darte las recomendaciones más útiles antes de comprar. No publicamos contenido patrocinado: nuestros ingresos provienen de comisiones de afiliado, lo que no afecta a nuestras recomendaciones.
           </p>
           <Link href="/sobre-nosotros" className="text-indigo-600 font-semibold hover:underline">
             Saber más sobre nosotros →
