@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { posts, getPostBySlug } from "@/data/posts";
 import { getProductBySlug } from "@/data/products";
@@ -30,6 +31,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// Enlaces internos dentro del texto con la sintaxis [texto](/ruta). Solo se convierten
+// rutas internas (que empiezan por "/"); los textos sin esa sintaxis se muestran igual que antes.
+const INTERNAL_LINK = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+function withInternalLinks(text: string): ReactNode {
+  if (!text.includes("](/")) return text;
+  const out: ReactNode[] = [];
+  let last = 0;
+  for (const m of text.matchAll(INTERNAL_LINK)) {
+    const i = m.index ?? 0;
+    if (i > last) out.push(text.slice(last, i));
+    out.push(
+      <Link key={i} href={m[2]} className="text-indigo-700 font-semibold underline decoration-indigo-200 hover:decoration-indigo-700">
+        {m[1]}
+      </Link>
+    );
+    last = i + m[0].length;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}
+
 // productSlug (opcional) engancha un CTA de afiliado al final de la sección.
 type ArticleSection = { heading: string; body: string; productSlug?: string };
 
@@ -41,6 +63,149 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "black-friday-oficina-en-casa-que-comprar-2026": {
+    intro: "El Black Friday de 2026 cae el viernes 27 de noviembre y el Cyber Monday el lunes 30. Si trabajas desde casa, son buenas fechas para resolver de una vez lo que te molesta a diario: la espalda al final de la jornada, el cuello por un monitor demasiado bajo, el ruido o una imagen oscura en las videollamadas. El problema es que la presión de las ofertas empuja a comprar lo que está rebajado, no lo que necesitas. Esta guía va en el orden contrario: primero qué merece la pena mejorar, después qué mirar en cada producto y, por último, los errores que más devoluciones provocan.",
+    sections: [
+      {
+        heading: "Antes de mirar ofertas: haz la lista de lo que te duele",
+        body: "La mejor preparación para el Black Friday se hace la semana anterior. Apunta qué te molesta al trabajar y cuántas horas al día usas cada elemento del puesto: la silla y la mesa se usan toda la jornada; la webcam, solo en reuniones. El orden de compra debería seguir ese mismo criterio. Con la lista hecha, guarda los productos candidatos en una lista de deseos de Amazon y revisa sus fichas con calma antes del día 27: medidas, compatibilidad y quién lo vende y lo envía. Así, cuando llegue la oferta, solo tienes que decidir si el precio final te encaja, sin investigar con prisas. Si estás montando el puesto desde cero, empieza por nuestra [guía para montar un home office productivo](/blog/home-office-setup-productivo-guia).",
+      },
+      {
+        heading: "Silla ergonómica: la compra con más retorno si pasas muchas horas sentado",
+        body: "Si trabajas más de seis horas al día sentado, la silla es lo primero. Lo que marca la diferencia es poder ajustarla a tu cuerpo: altura, soporte lumbar, profundidad de asiento y reposabrazos. La HOLLUDLE reúne respaldo adaptativo, reposabrazos 4D, profundidad de asiento ajustable y reposacabezas 2D, y es la opción más completa del catálogo en gama media. La CLOUVOU es de malla transpirable, regula la profundidad del asiento, el lumbar y el reposacabezas, y soporta hasta 150 kg, aunque sus reposabrazos son 2D. Si buscas gama alta, la Secretlab Titan Evo lleva el lumbar integrado y ajustable en cuatro direcciones, pero exige elegir bien la talla según tu altura. Qué evitar: una silla sin soporte lumbar regulable ni profundidad de asiento si tus jornadas son largas. Tienes la comparativa completa en nuestra [guía de sillas ergonómicas](/blog/mejor-silla-ergonomica-home-office-2025) y todos los modelos en la [categoría de sillas](/tienda/sillas-ergonomicas).",
+        productSlug: "sihoo-m57-silla-ergonomica",
+      },
+      {
+        heading: "Escritorio elevable: cuándo compensa y qué comprobar",
+        body: "Un escritorio elevable te permite alternar entre trabajar sentado y de pie, y ajustar la mesa exactamente a tu altura, algo que una mesa fija no hace. Antes de comprar, revisa tres datos: el rango de altura, la carga máxima frente al peso real de tu equipo (monitores, brazo, portátil, altavoces) y si el tablero es de una pieza. El FLEXISPOT de 120 × 60 cm tiene tablero de una sola pieza, 4 memorias y un sistema anticolisión que detiene y hace retroceder la mesa si encuentra un obstáculo. Los ErGear van de 72 a 118 cm con 4 memorias y 80 kg de carga: el de 120 × 60 cm tiene el tablero de dos piezas con junta central, y el de 140 × 70 cm deja sitio para dos monitores. Más detalles en nuestra [guía de escritorios regulables](/blog/escritorio-regulable-altura-home-office).",
+        productSlug: "flexispot-escritorio-elevable-120x60-tablero-entero",
+      },
+      {
+        heading: "Monitor: nitidez de texto, USB-C y un soporte que suba y baje",
+        body: "Para trabajar con texto ocho horas al día, la resolución importa más que el tamaño. En 27 pulgadas, un 4K muestra el texto mucho más definido que un Full HD, y un QHD es el punto intermedio. El Dell S2725QC combina 4K, 120 Hz, altavoces y un USB-C que lleva imagen y carga al portátil con un solo cable. El Lenovo L27h-4A es QHD a 100 Hz, con USB-C, cuatro USB-A y un soporte que se inclina, gira, rota y regula en altura; conviene confirmar en su ficha la potencia de carga del USB-C si quieres usarlo como único cable. Una trampa habitual: no todos los USB-C de un monitor transmiten vídeo. El Dell UltraSharp U2724D, por ejemplo, tiene un USB-C de subida solo de datos. Si dudas entre resoluciones, lee [4K frente a Full HD para trabajar](/blog/monitor-4k-vs-full-hd-trabajo-remoto) y nuestra [comparativa de monitores](/blog/mejor-monitor-home-office-2025).",
+        productSlug: "dell-s2725qc-monitor-4k-usbc",
+      },
+      {
+        heading: "Brazo de monitor: poco gasto y mucho efecto en el cuello",
+        body: "Si tu monitor no sube lo suficiente, un brazo es probablemente la mejora más rentable de la lista. El Invision MX200 admite pantallas de 19 a 32 pulgadas con anclaje VESA 75 × 75 o 100 × 100 mm, se sujeta al borde de la mesa con abrazadera y permite subir, bajar, inclinar, girar, rotar y acercar la pantalla hasta dejar el borde superior a la altura de los ojos. Además libera el espacio de la peana. Antes de comprarlo, comprueba dos cosas: que tu monitor tenga anclaje VESA y que el borde de tu escritorio admita una abrazadera. Si sufres molestias en cuello o espalda, revisa también [las causas del dolor de espalda al trabajar en casa](/blog/dolor-espalda-trabajar-casa-soluciones).",
+        productSlug: "invision-mx200-brazo-monitor",
+      },
+      {
+        heading: "Teclado y ratón: lo que tocas todo el día",
+        body: "Son productos que se usan cada minuto de la jornada y que se aprovechan durante años. El Logitech MX Keys Mini es un teclado compacto sin bloque numérico, que deja más sitio al ratón, con retroiluminación que se enciende al acercar las manos, conexión a tres dispositivos y tecla para silenciar el micrófono; ojo, solo funciona por Bluetooth. El MX Master 4 mantiene la rueda MagSpeed y los clics silenciosos de la generación anterior y añade un panel háptico con accesos directos por aplicación; es solo para diestros. Si prefieres un teclado mecánico, el Keychron V6 MAX tiene distribución QWERTY en español y triple conexión. Qué evitar: un teclado con distribución US si escribes en español a diario y necesitas la ñ a mano. Más opciones en la [guía de teclados y ratones](/blog/mejor-teclado-raton-trabajo-remoto) y en la [categoría de periféricos](/tienda/perifericos).",
+        productSlug: "logitech-mx-keys-mini",
+      },
+      {
+        heading: "Iluminación: el escritorio y la cara son dos problemas distintos",
+        body: "Una barra de luz para monitor ilumina la mesa; una luz frontal ilumina tu cara en las videollamadas. No confundas una con otra. La Yeelight se coloca sobre el monitor, no refleja en la pantalla gracias a su óptica asimétrica, regula la temperatura de 2.700 a 6.500 K con un mando inalámbrico y es compatible con una webcam encima. Para la imagen en reuniones, la Logitech Litra Glow está pensada para un solo usuario en plano cercano y se controla por software, mientras que el Elgato Key Light Air es un panel más potente, con hasta 2.100 lúmenes, para quien graba contenido o quiere iluminar mejor la escena. Te lo explicamos con detalle en la [guía de iluminación para videollamadas](/blog/iluminacion-videollamadas-home-office).",
+        productSlug: "yeelight-barra-luz-monitor-mando",
+      },
+      {
+        heading: "Hub o dock: conectar el portátil con un solo cable",
+        body: "Si cada mañana conectas el portátil a monitor, red, cargador y periféricos, un hub o un dock te ahorra tiempo y cables. Lo primero es saber cuántos monitores vas a usar. Para uno, el Anker 555 da HDMI 4K a 60 Hz en portátiles con DisplayPort 1.4, Ethernet, lectores de tarjetas y carga pasante de hasta 85 W. Para un puesto con hasta tres pantallas, el UGREEN Revodok Pro 3121 ofrece dos HDMI 4K a 60 Hz y un DisplayPort 4K a 120 Hz, pero los MacBook con chip M base solo aprovechan una pantalla externa por USB-C. Qué evitar: comprar un hub con dos HDMI para un Mac esperando escritorio extendido; si usa MST, macOS duplicará la imagen. Lo detallamos en [cómo conectar dos monitores a un portátil](/blog/conectar-dos-monitores-portatil-guia) y en la [guía de hubs USB-C](/blog/mejor-hub-usb-c-portatil-2025); para el orden final del escritorio, mira [cómo organizar los cables](/blog/organizar-cables-home-office-guia).",
+        productSlug: "anker-555-hub-usbc-8en1",
+      },
+      {
+        heading: "Videollamadas: auriculares y webcam",
+        body: "Si pasas buena parte del día en reuniones, unos auriculares con buenos micrófonos mejoran tanto lo que oyes como lo que oyen los demás. Los Jabra Evolve2 55 pesan 130 g, tienen cancelación activa de ruido, dos micrófonos con supresión de ruido, certificación para Microsoft Teams y luz de ocupado; son supraaurales, así que aíslan menos que unos circumaurales. Si lo que buscas es concentración con música, mira la [guía de auriculares con cancelación de ruido](/blog/mejores-auriculares-cancelacion-ruido-trabajo-2025). En webcams, la UGREEN FineCam Lite graba en 4K a 30 fps con autoenfoque y tapa de privacidad, y la Logitech MX Brio suma 1080p a 60 fps y certificación para Teams, Zoom y Google Meet. Más opciones en la [guía de webcams](/blog/mejor-webcam-videollamadas-trabajo-remoto).",
+        productSlug: "jabra-evolve2-55-auriculares-inalambricos",
+      },
+      {
+        heading: "Qué evitar en Black Friday",
+        body: "Los errores más comunes se repiten cada año. Comprar algo solo porque lleva una etiqueta de descuento, sin que resuelva un problema de tu lista. No comprobar la compatibilidad: anclaje VESA del monitor, puertos y número de pantallas que admite tu portátil, o si tus programas funcionan en un portátil con Windows sobre ARM. No mirar quién vende y quién envía el producto, que afecta a los plazos de entrega y a cómo se gestiona una devolución. Y comprar lo más caro de cada categoría cuando un modelo intermedio cubre tu uso: los 120 Hz de un monitor 4K solo se aprovechan si tu ordenador puede moverlo a esa frecuencia. Si además estás buscando ideas para regalar, tienes nuestra [guía de regalos para quien teletrabaja](/blog/regalos-navidad-reyes-teletrabajo-2026).",
+      },
+    ],
+    comparison: {
+      headers: ["Necesidad", "Qué priorizar", "Opción del catálogo", "Error típico"],
+      rows: [
+        ["Dolor de espalda", "Lumbar y profundidad de asiento regulables", "HOLLUDLE / CLOUVOU", "Silla sin ajustes para jornadas largas"],
+        ["Alternar sentado y de pie", "Rango de altura y carga máxima", "FLEXISPOT 120 × 60 / ErGear", "No sumar el peso real del equipo"],
+        ["Texto poco nítido", "4K o QHD en 27\"", "Dell S2725QC / Lenovo L27h-4A", "Dar por hecho que el USB-C lleva vídeo"],
+        ["Cuello forzado", "Pantalla a la altura de los ojos", "Brazo Invision MX200", "Monitor sin anclaje VESA"],
+        ["Mesa oscura", "Luz sin reflejos en pantalla", "Yeelight", "Usarla para iluminar la cara"],
+        ["Demasiados cables", "Número de pantallas y carga", "Anker 555 / UGREEN Revodok Pro 3121", "Hub MST para escritorio extendido en Mac"],
+      ],
+    },
+    conclusion: "El Black Friday sale bien cuando llegas con la lista hecha. Si pasas muchas horas sentado, empieza por la silla y la altura del monitor, que es donde más se nota la mejora en el día a día. Después, lo que uses toda la jornada: teclado, ratón y, si te encaja, un escritorio elevable. Deja para el final lo que solo usas en reuniones. Prepara la lista antes del 27 de noviembre, comprueba compatibilidades y quién envía cada producto, y decide por lo que necesitas, no por el tamaño de la etiqueta de oferta. Tienes todo el equipamiento ordenado por categorías en la [tienda](/tienda).",
+    faqs: [
+      { q: "¿Cuándo es el Black Friday de 2026?", a: "El Black Friday de 2026 es el viernes 27 de noviembre y el Cyber Monday, el lunes 30 de noviembre. Muchas tiendas, Amazon incluida, suelen adelantar ofertas los días previos, así que conviene tener la lista preparada desde mediados de noviembre." },
+      { q: "¿Merece la pena esperar al Black Friday para comprar una silla ergonómica?", a: "Si ya tienes molestias de espalda trabajando, no compensa esperar semanas con dolor. Si tu silla actual es aceptable y la compra no corre prisa, preparar la elección con antelación y decidir en esas fechas es razonable. En ambos casos, lo importante es que la silla tenga los ajustes que necesitas: lumbar, profundidad de asiento y reposabrazos." },
+      { q: "¿Cómo sé si una oferta de Black Friday me interesa de verdad?", a: "Guarda los productos que te interesan en una lista de deseos unos días antes y fíjate en el precio que muestran. El día de la oferta, compara el precio final con lo que viste y pregúntate si el producto resuelve algo de tu lista. Revisa también quién lo vende y lo envía, porque cambia los plazos de entrega y la gestión de devoluciones." },
+      { q: "¿Qué es más importante para trabajar desde casa, el monitor o la silla?", a: "Si pasas muchas horas sentado, la silla, porque afecta a la postura durante toda la jornada. El monitor va justo después, y no solo por la resolución: colocarlo con el borde superior a la altura de los ojos es lo que evita forzar el cuello. Un brazo de monitor resuelve esto con poco gasto." },
+      { q: "¿Puedo devolver lo que compre en Black Friday si lo regalo en Navidad?", a: "Amazon suele ampliar el plazo de devolución de las compras hechas en la temporada navideña, pero las condiciones pueden cambiar cada año y varían si el producto lo vende un vendedor externo. Antes de comprar, consulta la política de devoluciones vigente en Amazon.es y el vendedor que aparece en la ficha." },
+    ],
+  },
+  "regalos-navidad-reyes-teletrabajo-2026": {
+    intro: "Regalar a alguien que trabaja desde casa tiene una ventaja: sabes en qué pasa ocho horas al día. Un buen regalo de Navidad o de Reyes para esa persona es algo que va a usar cada jornada y que resuelve una molestia concreta: la imagen oscura en las reuniones, el ruido de casa, el cuello cargado o un teclado incómodo. En esta guía tienes ideas ordenadas por perfil y por tamaño de regalo (un detalle, un regalo medio o uno grande para comprar entre varios), solo con productos que hemos revisado en nuestro catálogo.",
+    sections: [
+      {
+        heading: "Antes de elegir: tres preguntas que evitan el regalo que acaba en un cajón",
+        body: "Primero, ¿qué usa ya? Regalar un teclado a quien acaba de comprarse uno no tiene sentido; fíjate en su escritorio en la próxima videollamada o pregunta con disimulo. Segundo, ¿con qué equipo trabaja? Un Mac o un portátil Windows, cuántos puertos tiene y si usa monitor externo condicionan hubs, webcams y periféricos. Tercero, ¿es un regalo personal o de ajuste? Sillas y escritorios dependen de la altura y la forma de trabajar de cada uno, así que funcionan mejor como regalo conjunto en el que la persona elige el modelo. Si quieres una visión de conjunto del puesto, échale un vistazo a nuestro [setup de trabajo remoto](/blog/setup-trabajo-remoto-productividad-maxima).",
+      },
+      {
+        heading: "Para quien vive en videollamadas: una webcam que mejore la imagen",
+        body: "La cámara integrada de muchos portátiles se queda corta, y es un regalo que la persona nota desde la primera reunión. Como detalle, la UGREEN FineCam Lite graba en 4K a 30 fps, tiene autoenfoque, dos micrófonos con reducción de ruido y tapa de privacidad, y funciona sin controladores en Windows, macOS, Linux y Android. Como regalo medio, la Logitech MX Brio ofrece 1080p a 60 fps, tapa de privacidad física, conexión USB-C y certificación para Microsoft Teams, Zoom y Google Meet. Si no sabes qué sistema usa, la FineCam tiene la ventaja de funcionar sin controladores en los principales sistemas. Más modelos en la [guía de webcams para videollamadas](/blog/mejor-webcam-videollamadas-trabajo-remoto) y en la [categoría de webcams](/tienda/webcams).",
+        productSlug: "ugreen-finecam-lite-4k-webcam",
+      },
+      {
+        heading: "Luz para las reuniones: el detalle que más cambia la imagen",
+        body: "Una buena webcam con mala luz sigue dando una imagen pobre, y por eso una luz es de los regalos que mejor funcionan. La Logitech Litra Glow está pensada para videollamadas en plano cercano, con tecnología TrueSoft y soporte ajustable para monitor o trípode, y se controla por software sin tocar el dispositivo. El NEEWER NL-116AI es un panel de 9 pulgadas con temperatura y brillo regulables, batería integrada que también funciona enchufado por USB y mini trípode de escritorio. Los dos entran en la categoría de detalle. Si quieres entender por qué la luz importa tanto, lee la [guía de iluminación para videollamadas](/blog/iluminacion-videollamadas-home-office).",
+        productSlug: "logitech-litra-glow-luz-streaming",
+      },
+      {
+        heading: "Para concentrarse en una casa con ruido: auriculares",
+        body: "Niños, obras, vecinos o una pareja que también teletrabaja: el ruido es una de las quejas más repetidas de quien trabaja en casa. Como regalo grande, los Sony WH-1000XM6 tienen cancelación de ruido con procesador QN3 y 12 micrófonos, seis micrófonos con IA para llamadas, hasta 30 horas con cancelación activa, y se pliegan con estuche magnético. Como regalo medio, los Soundcore Space One ofrecen cancelación adaptativa, códec LDAC y hasta 40 horas de batería, aunque su micrófono no está pensado para llamadas profesionales. Si la persona se pasa el día en reuniones de Teams, los Jabra Evolve2 55 pesan 130 g, están certificados para Teams y tienen luz de ocupado. Los comparamos en la [guía de auriculares con cancelación de ruido](/blog/mejores-auriculares-cancelacion-ruido-trabajo-2025) y en el [análisis de los Soundcore Space One](/blog/soundcore-space-one-analisis).",
+        productSlug: "sony-wh-1000xm6-auriculares",
+      },
+      {
+        heading: "Teclado y ratón: el regalo que se usa todo el día",
+        body: "Es difícil equivocarse con un buen ratón. Como detalle, el Logitech Signature M650 tiene clics silenciosos, conexión por Bluetooth o receptor Logi Bolt y hasta 24 meses de autonomía con una pila AA. Como regalo medio, el MX Master 4 añade la rueda MagSpeed, rueda para el pulgar, un panel háptico con accesos directos por aplicación y conexión a tres dispositivos, aunque solo sirve para diestros y es grande para manos pequeñas. El teclado MX Keys Mini, compacto y con retroiluminación que se enciende al acercar las manos, completa la pareja. Si la persona escribe mucho, comprueba en la ficha la distribución del teclado antes de comprarlo. Más en la [guía de teclados y ratones](/blog/mejor-teclado-raton-trabajo-remoto).",
+        productSlug: "logitech-mx-master-4",
+      },
+      {
+        heading: "Ergonomía sin regalar una silla: brazo de monitor y luz de escritorio",
+        body: "Hay regalos de ergonomía que no dependen de la talla. El brazo de monitor Invision MX200 sube la pantalla hasta dejar el borde superior a la altura de los ojos, que es lo que evita forzar el cuello, y libera espacio en la mesa. Solo hay que comprobar que el monitor tenga anclaje VESA 75 o 100 y que la mesa admita una abrazadera. La barra de luz Yeelight se coloca sobre el monitor e ilumina el escritorio sin reflejos en la pantalla, con un mando inalámbrico para el brillo y la temperatura. Ambos son detalles útiles para quien trabaja con portátil sobre la mesa o con el monitor demasiado bajo. Si la persona tiene molestias, compártele [esta guía sobre el dolor de espalda al trabajar en casa](/blog/dolor-espalda-trabajar-casa-soluciones).",
+        productSlug: "invision-mx200-brazo-monitor",
+      },
+      {
+        heading: "Para quien emprende y graba contenido: un micrófono",
+        body: "Si la persona tiene un pódcast, graba formación o simplemente quiere sonar mejor que con el micrófono del portátil, un micrófono es un regalo muy agradecido. Como detalle, el FIFINE es un condensador USB cardioide con carcasa metálica que funciona sin drivers. Como regalo grande, el RØDE PodMic USB es un micrófono dinámico pensado para voz, se conecta por USB-C directamente al ordenador o por XLR a una interfaz, y tiene salida de auriculares sin latencia; es pesado, así que conviene que vaya con un brazo resistente. Los comparamos en la [guía de micrófonos USB](/blog/mejor-microfono-usb-podcast-streaming-2026) y tienes más modelos en la [categoría de micrófonos](/tienda/microfonos).",
+        productSlug: "rode-podmic-usb-microfono-xlr-usb",
+      },
+      {
+        heading: "Un regalo pequeño y práctico: un hub para el portátil",
+        body: "Muchos portátiles actuales tienen dos o tres puertos USB-C y poco más. El Anker 555 añade HDMI 4K a 60 Hz en portátiles con DisplayPort 1.4, Ethernet, dos USB-A, un USB-C de datos, lectores SD y microSD y carga pasante de hasta 85 W. Tiene una sola salida de vídeo, así que no sirve para dos monitores. Es un regalo útil para quien trabaja con portátil y monitor externo y está cansado de conectar y desconectar cables. Si la persona usa dos pantallas, mira antes [cómo conectar dos monitores a un portátil](/blog/conectar-dos-monitores-portatil-guia).",
+        productSlug: "anker-555-hub-usbc-8en1",
+      },
+      {
+        heading: "Regalo grande o entre varios: silla o escritorio elevable",
+        body: "Una silla ergonómica o un escritorio elevable son los regalos que más impacto tienen en el día a día de quien teletrabaja, y también los más personales. La HOLLUDLE, con reposabrazos 4D, profundidad de asiento ajustable y reposacabezas 2D, es la opción más completa de gama media del catálogo. El ErGear de 120 × 60 cm es un escritorio elevable de entrada, con altura de 72 a 118 cm y 4 memorias. Nuestra recomendación es regalar la idea y dejar que la persona elija el modelo y las medidas, porque la altura, el peso y el espacio disponible cambian la elección. Para ayudarle a decidir, tiene la [guía de sillas ergonómicas](/blog/mejor-silla-ergonomica-home-office-2025) y la de [escritorios regulables](/blog/escritorio-regulable-altura-home-office).",
+        productSlug: "sihoo-m57-silla-ergonomica",
+      },
+      {
+        heading: "Fechas, envío y devoluciones: Navidad, Reyes y Black Friday",
+        body: "Para Navidad (25 de diciembre) y Reyes (6 de enero), compra con margen: en diciembre los plazos de entrega pueden alargarse, sobre todo en productos que envía un vendedor externo en lugar de Amazon. Revisa en la ficha quién vende y quién envía cada artículo. Si quieres aprovechar el Black Friday (27 de noviembre) o el Cyber Monday (30 de noviembre) para adelantar los regalos, comprueba antes la política de devoluciones vigente: Amazon suele ampliar el plazo para las compras de la temporada navideña, pero las condiciones cambian y pueden ser distintas con vendedores externos. Si además estás pensando en mejorar tu propio puesto, tienes nuestra [guía de Black Friday para la oficina en casa](/blog/black-friday-oficina-en-casa-que-comprar-2026).",
+      },
+    ],
+    comparison: {
+      headers: ["Perfil", "Detalle", "Regalo medio", "Regalo grande"],
+      rows: [
+        ["Muchas videollamadas", "UGREEN FineCam Lite / Litra Glow", "Logitech MX Brio / Jabra Evolve2 55", "MX Brio + Litra Glow"],
+        ["Necesita concentrarse", "—", "Soundcore Space One", "Sony WH-1000XM6"],
+        ["Escribe todo el día", "Logitech Signature M650", "MX Master 4 / MX Keys Mini", "Pareja MX Keys Mini + MX Master 4"],
+        ["Cuello y vista cansados", "Brazo Invision MX200 / Yeelight", "Brazo + barra de luz", "Silla HOLLUDLE (entre varios)"],
+        ["Crea contenido", "FIFINE", "—", "RØDE PodMic USB"],
+        ["Trabaja con portátil", "Anker 555", "—", "Escritorio ErGear (entre varios)"],
+      ],
+    },
+    conclusion: "El mejor regalo para quien teletrabaja es el que resuelve una molestia que esa persona sufre a diario. Si no la conoces bien, apuesta por lo que no depende de la talla ni del equipo: una luz para videollamadas, un ratón silencioso o un brazo de monitor. Si conoces su escritorio, unos auriculares con cancelación de ruido o una webcam son regalos que se notan desde el primer día. Y si os juntáis varios, una buena silla o un escritorio elevable, mejor elegidos por la propia persona. Compra con margen antes del 25 de diciembre y del 6 de enero, y revisa quién envía cada producto. Tienes todo el catálogo ordenado en la [tienda](/tienda).",
+    faqs: [
+      { q: "¿Qué regalar a alguien que trabaja desde casa si no sé qué equipo tiene?", a: "Elige algo que no dependa del ordenador ni de la talla: una luz para videollamadas como la Logitech Litra Glow, una barra de luz para el monitor, un ratón como el Logitech Signature M650, que se conecta por Bluetooth o por receptor, o un brazo de monitor, comprobando antes que su pantalla tenga anclaje VESA." },
+      { q: "¿Es buena idea regalar una silla ergonómica?", a: "Sí, pero funciona mejor como regalo conjunto en el que la persona elige el modelo. La silla adecuada depende de la altura, el peso y las horas que pasa sentado, y no todas se ajustan igual. Si la compras tú, elige una con muchos ajustes, como profundidad de asiento y reposabrazos regulables, y comprueba la política de devoluciones." },
+      { q: "¿Cuándo comprar los regalos para que lleguen a tiempo para Navidad y Reyes?", a: "Con margen. En diciembre los plazos de entrega pueden alargarse, sobre todo si el producto lo envía un vendedor externo. Aprovechar el Black Friday (27 de noviembre) o el Cyber Monday (30 de noviembre) es una buena forma de adelantarse, siempre que revises antes las condiciones de devolución vigentes." },
+      { q: "¿Qué auriculares regalar para teletrabajar: cancelación de ruido o auriculares de oficina?", a: "Depende del uso. Para concentrarse con música en una casa ruidosa, unos auriculares con cancelación de ruido como los Sony WH-1000XM6 o los Soundcore Space One. Para quien pasa el día en reuniones de Teams, unos auriculares de oficina como los Jabra Evolve2 55, de 130 g, certificados para Teams y con luz de ocupado." },
+    ],
+  },
   "mejor-silla-ergonomica-home-office-2025": {
     intro: "Pasar 8 horas al día en una silla de mala calidad acaba generando dolor lumbar, cervical y una productividad mermada que no compensa el ahorro inicial. Esta guía compara las dos mejores sillas ergonómicas del catálogo para home office —la HOLLUDLE y la Ticova— en dos rangos de precio distintos, para que elijas según tus horas de uso y tu presupuesto.",
     sections: [
@@ -1335,7 +1500,7 @@ export default async function BlogPostPage({ params }: Props) {
               <p className="text-xs font-bold text-indigo-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
               <p className="text-gray-800 font-medium leading-relaxed">{post.excerpt}</p>
             </div>
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">{content.intro}</p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-8">{withInternalLinks(content.intro)}</p>
 
             {content.sections.map((section) => {
               const found = section.productSlug ? getProductBySlug(section.productSlug) : undefined;
@@ -1343,7 +1508,7 @@ export default async function BlogPostPage({ params }: Props) {
               return (
                 <section key={section.heading} className="mb-8">
                   <h2 className="text-xl font-extrabold text-gray-900 mb-3">{section.heading}</h2>
-                  <p className="text-gray-700 leading-relaxed">{section.body}</p>
+                  <p className="text-gray-700 leading-relaxed">{withInternalLinks(section.body)}</p>
                   {ctaProduct && (
                     <a
                       href={amazonLink(ctaProduct.asin)}
@@ -1388,7 +1553,7 @@ export default async function BlogPostPage({ params }: Props) {
 
             <section className="mb-8 bg-gray-50 border border-gray-200 rounded-xl p-5">
               <h2 className="text-lg font-extrabold text-gray-900 mb-3">Conclusión</h2>
-              <p className="text-gray-700 leading-relaxed">{content.conclusion}</p>
+              <p className="text-gray-700 leading-relaxed">{withInternalLinks(content.conclusion)}</p>
             </section>
             {content.sources && content.sources.length > 0 && (
               <div className="mt-2 mb-6 pt-3 border-t border-gray-100">
