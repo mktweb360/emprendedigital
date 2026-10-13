@@ -249,7 +249,7 @@ const articleContent: Record<string, {
   },
 
   "escritorio-regulable-altura-home-office": {
-    intro: "Alternar entre sentado y de pie durante la jornada reduce el dolor lumbar, mejora la energía por la tarde y aumenta el gasto calórico diario de forma pasiva. Un escritorio regulable es la inversión de productividad con mayor impacto por euro gastado en un home office. Esta guía compara los dos escritorios eléctricos del catálogo, el FlexiSpot E7 Pro y el FlexiSpot EG1, para que elijas según tu espacio, tu setup y tu presupuesto.",
+    intro: "Alternar entre sentado y de pie durante la jornada reduce el dolor lumbar, mejora la energía por la tarde y aumenta el gasto calórico diario de forma pasiva. Un escritorio regulable es la inversión de productividad con mejor relación entre coste y beneficio en un home office. Esta guía compara los dos escritorios eléctricos del catálogo, el FlexiSpot E7 Pro y el FlexiSpot EG1, para que elijas según tu espacio, tu setup y tu presupuesto.",
     sections: [
       {
         heading: "Doble motor vs motor único: cuál elegir",
@@ -1152,7 +1152,7 @@ const articleContent: Record<string, {
 },
   "mejor-hub-usb-c-portatil-2025": {
   intro:
-    "El hub USB-C es probablemente el accesorio con mejor retorno por euro de todo el home office. Un MacBook Air M3 sale de fábrica con dos puertos USB-C y un jack de auriculares: con un hub de ocho puertos bien elegido sumas HDMI 4K, tres USB-A, lector de tarjetas SD, ethernet gigabit y carga del portátil a la vez, todo en un dispositivo del tamaño de una baraja de cartas. El problema es que la oferta es enorme y la diferencia entre un hub bueno y uno malo no se ve en la ficha técnica: se nota en la estabilidad, en si mantiene el monitor a 4K sin parpadeos y en si carga el portátil de verdad a la potencia anunciada. Esta guía aclara qué comprar, para qué perfil y qué evitar.",
+    "El hub USB-C es probablemente el accesorio con mejor relación entre coste y beneficio de todo el home office. Un MacBook Air M3 sale de fábrica con dos puertos USB-C y un jack de auriculares: con un hub de ocho puertos bien elegido sumas HDMI 4K, tres USB-A, lector de tarjetas SD, ethernet gigabit y carga del portátil a la vez, todo en un dispositivo del tamaño de una baraja de cartas. El problema es que la oferta es enorme y la diferencia entre un hub bueno y uno malo no se ve en la ficha técnica: se nota en la estabilidad, en si mantiene el monitor a 4K sin parpadeos y en si carga el portátil de verdad a la potencia anunciada. Esta guía aclara qué comprar, para qué perfil y qué evitar.",
   sections: [
     {
       heading: "Hub vs docking station: cuál necesitas",

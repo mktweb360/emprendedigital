@@ -64,7 +64,7 @@ const buyingGuides: Record<string, { title: string; paragraphs: string[] }> = {
   iluminacion: {
     title: "¿Cómo iluminar correctamente tu espacio de trabajo?",
     paragraphs: [
-      "La iluminación es la inversión con mayor impacto visual por euro gastado. Una buena iluminación frontal transforma la calidad de tu imagen en videollamadas y grabaciones.",
+      "La iluminación es la mejora de imagen con mejor relación entre coste y beneficio. Una buena iluminación frontal transforma la calidad de tu imagen en videollamadas y grabaciones.",
       "La posición ideal para la luz principal es a 45° frente a ti, ligeramente por encima del nivel de los ojos. Esto crea una iluminación facial natural sin sombras duras.",
       "Para ajustar la temperatura de color: 5000-5500K para entornos con luz natural de día; 3000-3500K si hay predominancia de bombillas cálidas en la habitación.",
     ],

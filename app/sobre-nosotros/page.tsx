@@ -14,7 +14,7 @@ const personSchema = {
   name: "Equipo Editorial de Emprende Digital",
   url: "https://www.emprendedigital.es/sobre-nosotros",
   description:
-    "Equipo editorial de Emprende Digital (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas de compradores antes de recomendar herramientas de productividad y equipamiento para home office, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    "Equipo editorial de Emprende Digital (Mkt Web 360 SLU). Comparamos especificaciones técnicas y características antes de recomendar herramientas de productividad y equipamiento para home office, con apoyo de IA en investigación y redacción bajo revisión editorial.",
   knowsAbout: [
     "productividad digital",
     "trabajo remoto",
@@ -138,7 +138,7 @@ export default function SobreNosotrosPage() {
                 Mkt Web 360 SLU
               </p>
               <p className="text-gray-700 text-sm leading-relaxed mb-4">
-                Comparamos especificaciones técnicas, precios y opiniones verificadas de compradores antes de recomendar
+                Comparamos especificaciones técnicas y características antes de recomendar
                 cualquier herramienta o equipo. Usamos IA como apoyo en la investigación y redacción, siempre con
                 revisión editorial antes de publicar: nunca inventamos datos de producto ni experiencias de uso.
               </p>
