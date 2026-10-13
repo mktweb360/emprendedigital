@@ -1243,12 +1243,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "OmniBook 5: el más ligero de la comparativa",
-        body: "Si lo que más pesa en tu decisión es llevar el portátil a diario de un sitio a otro, el HP OmniBook 5 14 destaca por sus 1,29 kg y por la carga rápida, y su pantalla OLED cubre el 95 % del espacio de color DCI-P3. Las contrapartidas son las mismas de toda la gama Snapdragon X —comprobar la compatibilidad— más dos detalles de la ficha: el cargador de 65 W no viene en la caja y, al ser un modelo nuevo, todavía no tiene opiniones en Amazon.es, así que no hay un histórico de usuarios que consultar.",
+        body: "Si lo que más pesa en tu decisión es llevar el portátil a diario de un sitio a otro, el HP OmniBook 5 14 destaca por sus 1,29 kg y por la carga rápida, y su pantalla OLED cubre el 95 % del espacio de color DCI-P3. Las contrapartidas son las mismas de toda la gama Snapdragon X —comprobar la compatibilidad— más un detalle de la ficha: el cargador de 65 W no viene en la caja. Al ser un modelo nuevo, además, todavía hay poco recorrido de uso con el que contrastarlo.",
         productSlug: "hp-omnibook-5-14-oled-snapdragon",
       },
       {
         heading: "El camino Intel: la ruta de menor riesgo si dependes de software Windows específico",
-        body: "Si tu trabajo depende de un programa antiguo o muy específico, un portátil Windows con procesador x86 elimina la duda de compatibilidad. En el catálogo, el ASUS ZenBook 14 OLED UX3405CA monta un Intel Core Ultra 7 255H con gráficos Arc 140T, 16 GB de RAM, 512 GB de SSD y pantalla OLED WUXGA de 14 pulgadas. Es una vía razonable, aunque conviene contrastar su ficha y valoraciones en Amazon.es antes de decidir, porque el catálogo recoge pocas opiniones de este modelo. En cualquier pantalla OLED conviene además evitar dejar elementos estáticos fijos durante horas, por el riesgo de retención de imagen a largo plazo.",
+        body: "Si tu trabajo depende de un programa antiguo o muy específico, un portátil Windows con procesador x86 elimina la duda de compatibilidad. En el catálogo, el ASUS ZenBook 14 OLED UX3405CA monta un Intel Core Ultra 7 255H con gráficos Arc 140T, 16 GB de RAM, 512 GB de SSD y pantalla OLED WUXGA de 14 pulgadas. Es una vía razonable, aunque conviene revisar su ficha completa en Amazon.es antes de decidir. En cualquier pantalla OLED conviene además evitar dejar elementos estáticos fijos durante horas, por el riesgo de retención de imagen a largo plazo.",
       },
       {
         heading: "Lo que casi nadie comprueba: RAM, almacenamiento y puertos",
