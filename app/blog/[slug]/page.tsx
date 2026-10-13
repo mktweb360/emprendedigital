@@ -1219,6 +1219,63 @@ const articleContent: Record<string, {
       { q: "¿Tienen que ser iguales los dos monitores?", a: "No es obligatorio: puedes combinar tamaños y resoluciones distintos. Aun así, dos monitores del mismo tamaño y resolución facilitan alinearlos a la misma altura y evitan que ventanas y texto cambien de tamaño al moverlos de una pantalla a otra." },
     ],
   },
+  "mejor-portatil-trabajar-desde-casa-mac-windows-arm-2026": {
+    intro: "Elegir portátil para teletrabajar no va de buscar «el más potente», sino de decidir tres cosas en este orden: el sistema (macOS o Windows), la arquitectura (Apple Silicon, Intel o Windows sobre ARM) y la configuración mínima que no te va a limitar en tres años. Esta guía compara los cuatro portátiles recientes del catálogo —MacBook Air M5, MacBook Pro M5, ASUS Zenbook A14 con Snapdragon X y HP OmniBook 5 14 con Snapdragon X— más la alternativa Intel del catálogo, y explica qué comprobar antes de pagar, con especial atención a la compatibilidad del software en Windows sobre ARM, la duda que más compras equivocadas provoca.",
+    sections: [
+      {
+        heading: "Primero decide: ¿qué vas a hacer con él ocho horas al día?",
+        body: "Para ofimática, videollamadas, navegador con muchas pestañas y herramientas en la nube, cualquiera de los portátiles de esta guía sobra. La diferencia aparece en tres casos concretos. Si editas vídeo o foto, programas o trabajas con varias pantallas, interesa más potencia sostenida y más puertos. Si tu trabajo depende de un programa específico de Windows (contabilidad, ERP, software de un cliente), la compatibilidad pesa más que la potencia. Y si pasas el día entre reuniones y en movimiento, lo que más valor aporta es la autonomía y el peso. Identifica cuál es tu caso antes de seguir leyendo: casi toda la guía se resume en esa respuesta.",
+      },
+      {
+        heading: "MacBook Air M5: el equilibrio para la mayoría",
+        body: "Es la opción por defecto para quien trabaja sobre todo con aplicaciones web, documentos y videollamadas. La configuración del catálogo lleva chip M5 con CPU y GPU de 10 núcleos, 16 GB de memoria unificada y 1 TB de SSD. Apple anuncia hasta 18 horas de autonomía, no tiene ventilador (funciona en silencio) y monta una cámara de 12 MP con Encuadre Centrado, útil para videollamadas. A tener en cuenta: tiene solo dos puertos Thunderbolt 4 más MagSafe, así que si conectas monitor, red y periféricos necesitarás un hub, y esta configuración se entrega con cable pero sin adaptador de corriente. La memoria unificada no se amplía después, por lo que 16 GB es la cifra sensata para no quedarse corto.",
+        productSlug: "apple-macbook-air-m5-13",
+      },
+      {
+        heading: "MacBook Pro M5: cuando el portátil es tu herramienta de producción",
+        body: "El MacBook Pro de 14,2 pulgadas con chip M5 se justifica si editas vídeo o foto, programas o trabajas con varios monitores. Frente al Air suma ventilación activa para cargas sostenidas, pantalla Liquid Retina XDR (1.600 nits de brillo máximo y 1.000 sostenidos según su ficha), tres Thunderbolt 4, HDMI y lector de tarjetas SDXC: con esos puertos dependes mucho menos de un hub. Apple anuncia hasta 24 horas de autonomía. En contra, es más pesado y caro, y para trabajo de oficina el Air rinde igual de bien. Si tu uso es escribir, reunirte y navegar, este modelo es pagar por capacidad que no vas a usar.",
+        productSlug: "apple-macbook-pro-m5-14",
+      },
+      {
+        heading: "Windows sobre ARM: Zenbook A14 y OmniBook 5, y la pregunta de la compatibilidad",
+        body: "Los dos portátiles Windows con Snapdragon X del catálogo montan un procesador de arquitectura ARM, no Intel ni AMD. El ASUS Zenbook A14 OLED combina un Snapdragon X X1-26-100 de 8 núcleos, 16 GB de RAM LPDDR5x soldada, 1 TB de SSD y pantalla OLED de 14 pulgadas (1920 × 1200, 400 nits). El HP OmniBook 5 14 OLED lleva Snapdragon X, 16 GB de RAM y 512 GB de SSD, pesa 1,29 kg y HP anuncia hasta 34 horas de autonomía con carga rápida del 50 % en 30 minutos; su cargador de 65 W se vende aparte.\n\nLa pregunta clave es si tus programas funcionan. Según la documentación de Microsoft, Windows 11 sobre ARM emula aplicaciones x86 y x64 mediante Prism, sin instalar nada adicional, y está disponible en los dispositivos con Windows 11 24H2. La limitación es que la emulación solo cubre código en modo usuario: no admite controladores, y cualquier componente de kernel debe estar compilado para Arm64. En la práctica, conviene verificar antes de comprar todo aquello que instala controladores propios: VPN corporativas, antivirus, software de impresoras o de periféricos específicos. Pide al proveedor de cada herramienta crítica la confirmación expresa de que existe versión para Windows ARM.",
+        productSlug: "asus-zenbook-a14-oled-snapdragon",
+      },
+      {
+        heading: "OmniBook 5: el más ligero de la comparativa",
+        body: "Si lo que más pesa en tu decisión es llevar el portátil a diario de un sitio a otro, el HP OmniBook 5 14 destaca por sus 1,29 kg y por la carga rápida, y su pantalla OLED cubre el 95 % del espacio de color DCI-P3. Las contrapartidas son las mismas de toda la gama Snapdragon X —comprobar la compatibilidad— más dos detalles de la ficha: el cargador de 65 W no viene en la caja y, al ser un modelo nuevo, todavía no tiene opiniones en Amazon.es, así que no hay un histórico de usuarios que consultar.",
+        productSlug: "hp-omnibook-5-14-oled-snapdragon",
+      },
+      {
+        heading: "El camino Intel: la ruta de menor riesgo si dependes de software Windows específico",
+        body: "Si tu trabajo depende de un programa antiguo o muy específico, un portátil Windows con procesador x86 elimina la duda de compatibilidad. En el catálogo, el ASUS ZenBook 14 OLED UX3405CA monta un Intel Core Ultra 7 255H con gráficos Arc 140T, 16 GB de RAM, 512 GB de SSD y pantalla OLED WUXGA de 14 pulgadas. Es una vía razonable, aunque conviene contrastar su ficha y valoraciones en Amazon.es antes de decidir, porque el catálogo recoge pocas opiniones de este modelo. En cualquier pantalla OLED conviene además evitar dejar elementos estáticos fijos durante horas, por el riesgo de retención de imagen a largo plazo.",
+      },
+      {
+        heading: "Lo que casi nadie comprueba: RAM, almacenamiento y puertos",
+        body: "Tres comprobaciones evitan la mayoría de arrepentimientos. La RAM: 16 GB es el mínimo razonable hoy para trabajar con muchas pestañas, videollamadas y varias aplicaciones a la vez, y en los modelos de esta guía no se amplía después. El almacenamiento: 512 GB funciona si trabajas en la nube, pero se queda justo con vídeo, proyectos grandes o copias locales. Y los puertos: cuenta lo que vas a conectar a diario (monitor, red, cargador, periféricos) y compáralo con lo que ofrece el equipo. Un portátil con dos puertos obliga a comprar un hub; si vas a usar dos pantallas externas, revisa antes nuestra guía para conectar dos monitores a un portátil.",
+      },
+    ],
+    comparison: {
+      headers: ["Modelo", "Plataforma", "Memoria / SSD", "Autonomía anunciada", "Ideal para"],
+      rows: [
+        ["MacBook Air M5 13,6\"", "macOS · Apple M5", "16 GB / 1 TB", "Hasta 18 h (Apple)", "Trabajo general, reuniones y movilidad"],
+        ["MacBook Pro M5 14,2\"", "macOS · Apple M5", "16 GB / 1 TB", "Hasta 24 h (Apple)", "Vídeo, foto, programación y multipantalla"],
+        ["ASUS Zenbook A14 OLED", "Windows 11 · Snapdragon X", "16 GB / 1 TB", "No indicada en el catálogo", "Windows ligero con OLED y software compatible con ARM"],
+        ["HP OmniBook 5 14 OLED", "Windows 11 · Snapdragon X", "16 GB / 512 GB", "Hasta 34 h (HP)", "Máxima ligereza (1,29 kg)"],
+        ["ASUS ZenBook 14 OLED", "Windows 11 · Intel Core Ultra 7 255H", "16 GB / 512 GB", "No indicada en el catálogo", "Software Windows específico sin riesgo de compatibilidad"],
+      ],
+    },
+    conclusion: "Resumen práctico: si no dependes de un programa concreto de Windows, el MacBook Air M5 es la compra más equilibrada para teletrabajar; el MacBook Pro M5 solo compensa si tu trabajo exige potencia y puertos adicionales. Si necesitas Windows, los dos modelos con Snapdragon X ofrecen ligereza y autonomía, pero solo tras confirmar que tus herramientas críticas funcionan en ARM; si no puedes permitirte ese riesgo, la ruta Intel es la segura. Y sea cual sea tu elección, no bajes de 16 GB de RAM ni olvides contar los puertos: el hub o dock que necesites forma parte del presupuesto real.",
+    sources: [
+      { label: "Microsoft Learn — Emulación x86/x64 (Prism) en Windows sobre Arm", url: "https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation" },
+    ],
+    faqs: [
+      { q: "¿Cuánta RAM necesito para teletrabajar en 2026?", a: "16 GB es el mínimo razonable para trabajar con muchas pestañas, videollamadas y varias aplicaciones abiertas a la vez. Los portátiles de esta guía llevan la memoria soldada o unificada, por lo que no se puede ampliar después: conviene elegir bien la configuración en el momento de la compra." },
+      { q: "¿Un portátil con Snapdragon X ejecuta programas de Windows normales?", a: "Windows 11 sobre ARM emula aplicaciones x86 y x64 mediante Prism, sin instalar nada adicional. El límite es que la emulación no admite controladores: los programas que instalan componentes de kernel (algunas VPN, antivirus o software de periféricos) necesitan una versión nativa para Arm64. Verifica con el proveedor de tus herramientas críticas antes de comprar." },
+      { q: "¿MacBook Air o MacBook Pro para trabajar desde casa?", a: "Para ofimática, navegador, reuniones y herramientas en la nube basta el MacBook Air. El Pro compensa si editas vídeo o foto, programas o trabajas con varios monitores, porque añade ventilación activa, más puertos (HDMI, lector SD y tres Thunderbolt 4) y una pantalla más brillante." },
+      { q: "¿Necesito un hub si compro un MacBook Air?", a: "Probablemente sí si conectas monitor, red cableada y periféricos a la vez: el MacBook Air M5 ofrece dos puertos Thunderbolt 4 más MagSafe. Si vas a usar dos monitores externos, revisa antes qué admite tu modelo y qué tipo de dock necesitas." },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {

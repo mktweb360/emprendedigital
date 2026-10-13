@@ -374,6 +374,28 @@ export const posts: Post[] = [
     ],
     categoryCta: { href: "/tienda/hubs-docking", text: "Ver hubs y docking stations →" },
   },
+  {
+    slug: "mejor-portatil-trabajar-desde-casa-mac-windows-arm-2026",
+    title: "Mejor portátil para trabajar desde casa en 2026: Mac, Windows o Windows ARM",
+    excerpt:
+      "Qué portátil elegir para teletrabajar: MacBook Air M5, MacBook Pro M5, ASUS Zenbook A14 y HP OmniBook 5 con Snapdragon X, más la alternativa Intel. Cómo decidir según tu uso, qué comprobar de la compatibilidad en Windows sobre ARM y cuánta RAM necesitas.",
+    date: "2026-10-13",
+    category: "Home Office",
+    readTime: "9 min",
+    relatedProducts: [
+      "apple-macbook-air-m5-13",
+      "apple-macbook-pro-m5-14",
+      "asus-zenbook-a14-oled-snapdragon",
+      "hp-omnibook-5-14-oled-snapdragon",
+    ],
+    relatedPosts: [
+      "mejor-hub-usb-c-portatil-2025",
+      "conectar-dos-monitores-portatil-guia",
+      "mejor-monitor-home-office-2025",
+      "setup-trabajo-remoto-productividad-maxima",
+    ],
+    categoryCta: { href: "/tienda/portatiles", text: "Ver portátiles para trabajo remoto →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
