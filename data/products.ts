@@ -898,6 +898,7 @@ export const products: Product[] = [
   // no en scraping de Amazon.es. No publicar sin verificación individual previa (protocolo de catálogo).
   {
     slug: "razer-kiyo-pro-webcam-streaming",
+    unavailable: "2026-10-13",
     name: "Razer Kiyo Pro — Webcam Full HD 1080p60 con sensor adaptativo de luz",
     asin: "B08PKBZ428",
     category: "Webcams",
