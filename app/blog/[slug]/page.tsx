@@ -1231,7 +1231,7 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "La hjh OFFICE Ergohuman Slim GEN2 es una inversión que solo se justifica para quien pasa muchas horas sentado, valora el diseño Ergohuman clásico y quiere que su silla combine con un despacho tradicional antes que con un setup gaming. Para la mayoría de teletrabajadores, una opción de gama media del catálogo cubre las necesidades ergonómicas básicas por bastante menos dinero; esta silla es para quien ya sabe que necesita ese nivel de ajuste y está dispuesto a pagarlo.",
-    sources: [{ label: "Ficha de producto", url: "https://www.amazon.es/dp/B0C7H87W7X" }],
+    sources: [{ label: "Ficha de producto", url: amazonLink("B0C7H87W7X") }],
     faqs: [
       { q: "¿Qué significa que el soporte lumbar sea 'flexible' en vez de fijo?", a: "Un soporte lumbar fijo mantiene siempre la misma forma y posición. Uno flexible, como el de la familia Ergohuman, se adapta y cede ligeramente con el movimiento de la espalda al inclinarse o recolocarse, en lugar de imponer una única postura rígida durante toda la jornada." },
       { q: "¿Merece la pena frente a una silla de gama media?", a: "Depende de tus horas de uso y de si ya has identificado necesidades ergonómicas específicas. Para una jornada de 8 horas diarias durante varios años, el coste diario de una silla de gama alta es muy bajo comparado con el de una consulta de fisioterapia. Para uso más ocasional, una silla de gama media cubre de sobra las necesidades básicas." },
@@ -1558,7 +1558,7 @@ export default async function BlogPostPage({ params }: Props) {
             {content.sources && content.sources.length > 0 && (
               <div className="mt-2 mb-6 pt-3 border-t border-gray-100">
                 <p className="text-xs text-gray-400 font-medium mb-1">Referencias</p>
-                <ul className="space-y-0.5">{content.sources.map((src, i) => (<li key={i}><a href={src.url} target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">{src.label}</a></li>))}</ul>
+                <ul className="space-y-0.5">{content.sources.map((src, i) => (<li key={i}><a href={src.url} target="_blank" rel={src.url.includes("amazon.") ? "nofollow noopener noreferrer sponsored" : "noopener"} className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">{src.label}</a></li>))}</ul>
               </div>
             )}
 
