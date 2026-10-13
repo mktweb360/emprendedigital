@@ -64,7 +64,7 @@ const buyingGuides: Record<string, { title: string; paragraphs: string[] }> = {
   iluminacion: {
     title: "¿Cómo iluminar correctamente tu espacio de trabajo?",
     paragraphs: [
-      "La iluminación es la inversión con mayor impacto visual por euro gastado. Una buena iluminación frontal transforma la calidad de tu imagen en videollamadas y grabaciones.",
+      "La iluminación es la mejora de imagen con mejor relación entre coste y beneficio. Una buena iluminación frontal transforma la calidad de tu imagen en videollamadas y grabaciones.",
       "La posición ideal para la luz principal es a 45° frente a ti, ligeramente por encima del nivel de los ojos. Esto crea una iluminación facial natural sin sombras duras.",
       "Para ajustar la temperatura de color: 5000-5500K para entornos con luz natural de día; 3000-3500K si hay predominancia de bombillas cálidas en la habitación.",
     ],
@@ -73,7 +73,7 @@ const buyingGuides: Record<string, { title: string; paragraphs: string[] }> = {
     title: "¿Cómo elegir la silla ergonómica correcta?",
     paragraphs: [
       "Los ajustes imprescindibles: altura del asiento, profundidad del asiento, soporte lumbar ajustable en altura y profundidad, y reposabrazos ajustables. Sin estos ajustes, una silla no puede adaptarse a tu cuerpo.",
-      "Para uso intensivo (8+ horas/día), invierte al menos 200-250€. Por debajo de ese precio es difícil encontrar una silla con los ajustes ergonómicos necesarios para jornadas largas.",
+      "Para uso intensivo (8+ horas/día), apunta al menos a la gama media. En la gama de entrada es difícil encontrar una silla con todos los ajustes ergonómicos necesarios para jornadas largas.",
       "El respaldo de malla transpirable es la mejor opción en climas mediterráneos y habitaciones que se calientan. El tapizado de cuero es más cálido y premium en apariencia pero retiene más el calor.",
     ],
   },

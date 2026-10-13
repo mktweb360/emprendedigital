@@ -14,7 +14,7 @@ const personSchema = {
   name: "Equipo Editorial de Emprende Digital",
   url: "https://www.emprendedigital.es/sobre-nosotros",
   description:
-    "Equipo editorial de Emprende Digital (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas de compradores antes de recomendar herramientas de productividad y equipamiento para home office, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    "Equipo editorial de Emprende Digital (Mkt Web 360 SLU). Comparamos especificaciones técnicas y características antes de recomendar herramientas de productividad y equipamiento para home office, con apoyo de IA en investigación y redacción bajo revisión editorial.",
   knowsAbout: [
     "productividad digital",
     "trabajo remoto",
@@ -77,12 +77,12 @@ const evaluationCriteria = [
   {
     title: "Investigación de mercado",
     description:
-      "Identificamos los productos más relevantes en cada categoría: los más vendidos, los mejor valorados por usuarios reales y las novedades más destacadas de cada temporada.",
+      "Identificamos los productos más relevantes en cada categoría: los modelos de referencia, las alternativas por gama y las novedades más destacadas de cada temporada.",
   },
   {
     title: "Criterios objetivos y verificables",
     description:
-      "Evaluamos con métricas concretas: especificaciones técnicas verificadas, relación calidad-precio, valoraciones de compradores confirmados y comparativa directa con alternativas del mismo rango de precio.",
+      "Evaluamos con métricas concretas: especificaciones técnicas verificadas, relación calidad-gama, experiencia de uso documentada y comparativa directa con alternativas de la misma gama.",
   },
   {
     title: "Actualización continua",
@@ -138,7 +138,7 @@ export default function SobreNosotrosPage() {
                 Mkt Web 360 SLU
               </p>
               <p className="text-gray-700 text-sm leading-relaxed mb-4">
-                Comparamos especificaciones técnicas, precios y opiniones verificadas de compradores antes de recomendar
+                Comparamos especificaciones técnicas y características antes de recomendar
                 cualquier herramienta o equipo. Usamos IA como apoyo en la investigación y redacción, siempre con
                 revisión editorial antes de publicar: nunca inventamos datos de producto ni experiencias de uso.
               </p>

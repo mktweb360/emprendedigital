@@ -36,7 +36,7 @@ const categoryFaqs: Record<string, { q: string; a: string }[]> = {
   ],
   microfonos: [
     { q: "¿A qué distancia debo hablar al micrófono?", a: "Para micrófonos de condensador USB, la distancia ideal es de 15-25 cm, hablando directamente hacia la cápsula (no desde el lateral). Hablar demasiado cerca produce efecto de proximidad (voz muy grave y resonante); demasiado lejos capta más ruido de fondo." },
-    { q: "¿Necesito filtro anti-pop para un micrófono USB?", a: "Para podcast y streaming, sí recomendamos usar un filtro anti-pop: elimina los sonidos explosivos de las consonantes 'P' y 'B' que pueden resultar molestos para los oyentes. Los filtros básicos cuestan menos de 10€ y marcan una diferencia notable en grabaciones de voz." },
+    { q: "¿Necesito filtro anti-pop para un micrófono USB?", a: "Para podcast y streaming, sí recomendamos usar un filtro anti-pop: elimina los sonidos explosivos de las consonantes 'P' y 'B' que pueden resultar molestos para los oyentes. Los filtros básicos son de gama de entrada y marcan una diferencia notable en grabaciones de voz." },
   ],
   webcams: [
     { q: "¿Necesito drivers para instalar una webcam?", a: "La mayoría de webcams modernas (especialmente Logitech) son plug-and-play: se conectan por USB y el sistema operativo las reconoce automáticamente sin instalar drivers. Solo necesitas software adicional (como Logi Capture) si quieres acceder a funciones avanzadas de configuración." },
@@ -48,15 +48,15 @@ const categoryFaqs: Record<string, { q: string; a: string }[]> = {
   ],
   iluminacion: [
     { q: "¿Necesito una o dos luces para videollamadas?", a: "Con una sola luz frontal bien posicionada (a 45° frente a ti, ligeramente sobre el nivel de los ojos) consigues una imagen excelente para videollamadas. Una segunda luz de relleno más suave reduce las sombras del lado opuesto y da un resultado más profesional, pero no es necesaria para la mayoría." },
-    { q: "¿La ring light produce el reflejo en los ojos que veo en vídeos?", a: "Sí. El reflejo circular característico que ves en los ojos de muchos YouTubers e influencers es el reflejo de la ring light. Es muy valorado en contenido de lifestyle y maquillaje por su efecto 'ojos vivos'. Para videollamadas de trabajo es perfectamente válido aunque también algo reconocible como setup de creador." },
+    { q: "¿La ring light produce el reflejo en los ojos que veo en vídeos?", a: "Sí. El reflejo circular característico que ves en los ojos de muchos YouTubers e influencers es el reflejo de la ring light. Es muy apreciado en contenido de lifestyle y maquillaje por su efecto 'ojos vivos'. Para videollamadas de trabajo es perfectamente válido aunque también algo reconocible como setup de creador." },
   ],
   "sillas-ergonomicas": [
-    { q: "¿Cuánto tiempo dura una silla ergonómica de calidad?", a: "Una silla ergonómica de calidad (200€+) dura entre 8 y 15 años con uso normal. Los componentes que primero se deterioran son las almohadillas del asiento (se comprimen con el tiempo) y los pistones de gas (pueden perder presión). Marcas como Herman Miller, Steelcase, o Secretlab ofrecen garantías de 5-12 años." },
+    { q: "¿Cuánto tiempo dura una silla ergonómica de calidad?", a: "Una silla ergonómica de calidad (gama media o alta) dura entre 8 y 15 años con uso normal. Los componentes que primero se deterioran son las almohadillas del asiento (se comprimen con el tiempo) y los pistones de gas (pueden perder presión). Marcas como Herman Miller, Steelcase, o Secretlab ofrecen garantías de 5-12 años." },
     { q: "¿La silla ergonómica soluciona el dolor de espalda?", a: "Una buena silla ergonómica correctamente ajustada puede reducir significativamente el dolor de espalda causado por mala postura. Sin embargo, no es una solución mágica: también necesitas pausas regulares (levantarte cada 45-60 minutos), ejercicio y, si el dolor es persistente, consultar a un fisioterapeuta." },
   ],
   escritorios: [
     { q: "¿Cuánto tiempo al día debería trabajar de pie?", a: "La recomendación general es alternar entre sentado y de pie: 45-60 minutos sentado, 15-20 minutos de pie. Empezar por 1-2 horas de pie al día y aumentar gradualmente. Trabajar de pie todo el día tiene sus propios problemas (fatiga, várices). El objetivo es el movimiento regular, no maximizar el tiempo de pie." },
-    { q: "¿Necesito una alfombrilla antifatiga con el escritorio ajustable?", a: "Si vas a estar de pie más de 20-30 minutos seguidos, sí. Una alfombrilla antifatiga reduce la fatiga en pies y rodillas significativamente. Son especialmente importantes en suelos duros (parqué, baldosas). Las mejores cuestan entre 30 y 80€ y duran años." },
+    { q: "¿Necesito una alfombrilla antifatiga con el escritorio ajustable?", a: "Si vas a estar de pie más de 20-30 minutos seguidos, sí. Una alfombrilla antifatiga reduce la fatiga en pies y rodillas significativamente. Son especialmente importantes en suelos duros (parqué, baldosas). Las buenas son de gama de entrada o media y duran años." },
   ],
 };
 

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { posts, getPostBySlug } from "@/data/posts";
 import { getProductBySlug } from "@/data/products";
@@ -30,6 +31,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// Enlaces internos dentro del texto con la sintaxis [texto](/ruta). Solo se convierten
+// rutas internas (que empiezan por "/"); los textos sin esa sintaxis se muestran igual que antes.
+const INTERNAL_LINK = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+function withInternalLinks(text: string): ReactNode {
+  if (!text.includes("](/")) return text;
+  const out: ReactNode[] = [];
+  let last = 0;
+  for (const m of text.matchAll(INTERNAL_LINK)) {
+    const i = m.index ?? 0;
+    if (i > last) out.push(text.slice(last, i));
+    out.push(
+      <Link key={i} href={m[2]} className="text-indigo-700 font-semibold underline decoration-indigo-200 hover:decoration-indigo-700">
+        {m[1]}
+      </Link>
+    );
+    last = i + m[0].length;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}
+
 // productSlug (opcional) engancha un CTA de afiliado al final de la sección.
 type ArticleSection = { heading: string; body: string; productSlug?: string };
 
@@ -41,6 +63,149 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "black-friday-oficina-en-casa-que-comprar-2026": {
+    intro: "El Black Friday de 2026 cae el viernes 27 de noviembre y el Cyber Monday el lunes 30. Si trabajas desde casa, son buenas fechas para resolver de una vez lo que te molesta a diario: la espalda al final de la jornada, el cuello por un monitor demasiado bajo, el ruido o una imagen oscura en las videollamadas. El problema es que la presión de las ofertas empuja a comprar lo que está rebajado, no lo que necesitas. Esta guía va en el orden contrario: primero qué merece la pena mejorar, después qué mirar en cada producto y, por último, los errores que más devoluciones provocan.",
+    sections: [
+      {
+        heading: "Antes de mirar ofertas: haz la lista de lo que te duele",
+        body: "La mejor preparación para el Black Friday se hace la semana anterior. Apunta qué te molesta al trabajar y cuántas horas al día usas cada elemento del puesto: la silla y la mesa se usan toda la jornada; la webcam, solo en reuniones. El orden de compra debería seguir ese mismo criterio. Con la lista hecha, guarda los productos candidatos en una lista de deseos de Amazon y revisa sus fichas con calma antes del día 27: medidas, compatibilidad y quién lo vende y lo envía. Así, cuando llegue la oferta, solo tienes que decidir si el precio final te encaja, sin investigar con prisas. Si estás montando el puesto desde cero, empieza por nuestra [guía para montar un home office productivo](/blog/home-office-setup-productivo-guia).",
+      },
+      {
+        heading: "Silla ergonómica: la compra con más retorno si pasas muchas horas sentado",
+        body: "Si trabajas más de seis horas al día sentado, la silla es lo primero. Lo que marca la diferencia es poder ajustarla a tu cuerpo: altura, soporte lumbar, profundidad de asiento y reposabrazos. La HOLLUDLE reúne respaldo adaptativo, reposabrazos 4D, profundidad de asiento ajustable y reposacabezas 2D, y es la opción más completa del catálogo en gama media. La CLOUVOU es de malla transpirable, regula la profundidad del asiento, el lumbar y el reposacabezas, y soporta hasta 150 kg, aunque sus reposabrazos son 2D. Si buscas gama alta, la Secretlab Titan Evo lleva el lumbar integrado y ajustable en cuatro direcciones, pero exige elegir bien la talla según tu altura. Qué evitar: una silla sin soporte lumbar regulable ni profundidad de asiento si tus jornadas son largas. Tienes la comparativa completa en nuestra [guía de sillas ergonómicas](/blog/mejor-silla-ergonomica-home-office-2025) y todos los modelos en la [categoría de sillas](/tienda/sillas-ergonomicas).",
+        productSlug: "sihoo-m57-silla-ergonomica",
+      },
+      {
+        heading: "Escritorio elevable: cuándo compensa y qué comprobar",
+        body: "Un escritorio elevable te permite alternar entre trabajar sentado y de pie, y ajustar la mesa exactamente a tu altura, algo que una mesa fija no hace. Antes de comprar, revisa tres datos: el rango de altura, la carga máxima frente al peso real de tu equipo (monitores, brazo, portátil, altavoces) y si el tablero es de una pieza. El FLEXISPOT de 120 × 60 cm tiene tablero de una sola pieza, 4 memorias y un sistema anticolisión que detiene y hace retroceder la mesa si encuentra un obstáculo. Los ErGear van de 72 a 118 cm con 4 memorias y 80 kg de carga: el de 120 × 60 cm tiene el tablero de dos piezas con junta central, y el de 140 × 70 cm deja sitio para dos monitores. Más detalles en nuestra [guía de escritorios regulables](/blog/escritorio-regulable-altura-home-office).",
+        productSlug: "flexispot-escritorio-elevable-120x60-tablero-entero",
+      },
+      {
+        heading: "Monitor: nitidez de texto, USB-C y un soporte que suba y baje",
+        body: "Para trabajar con texto ocho horas al día, la resolución importa más que el tamaño. En 27 pulgadas, un 4K muestra el texto mucho más definido que un Full HD, y un QHD es el punto intermedio. El Dell S2725QC combina 4K, 120 Hz, altavoces y un USB-C que lleva imagen y carga al portátil con un solo cable. El Lenovo L27h-4A es QHD a 100 Hz, con USB-C, cuatro USB-A y un soporte que se inclina, gira, rota y regula en altura; conviene confirmar en su ficha la potencia de carga del USB-C si quieres usarlo como único cable. Una trampa habitual: no todos los USB-C de un monitor transmiten vídeo. El Dell UltraSharp U2724D, por ejemplo, tiene un USB-C de subida solo de datos. Si dudas entre resoluciones, lee [4K frente a Full HD para trabajar](/blog/monitor-4k-vs-full-hd-trabajo-remoto) y nuestra [comparativa de monitores](/blog/mejor-monitor-home-office-2025).",
+        productSlug: "dell-s2725qc-monitor-4k-usbc",
+      },
+      {
+        heading: "Brazo de monitor: poco gasto y mucho efecto en el cuello",
+        body: "Si tu monitor no sube lo suficiente, un brazo es probablemente la mejora más rentable de la lista. El Invision MX200 admite pantallas de 19 a 32 pulgadas con anclaje VESA 75 × 75 o 100 × 100 mm, se sujeta al borde de la mesa con abrazadera y permite subir, bajar, inclinar, girar, rotar y acercar la pantalla hasta dejar el borde superior a la altura de los ojos. Además libera el espacio de la peana. Antes de comprarlo, comprueba dos cosas: que tu monitor tenga anclaje VESA y que el borde de tu escritorio admita una abrazadera. Si sufres molestias en cuello o espalda, revisa también [las causas del dolor de espalda al trabajar en casa](/blog/dolor-espalda-trabajar-casa-soluciones).",
+        productSlug: "invision-mx200-brazo-monitor",
+      },
+      {
+        heading: "Teclado y ratón: lo que tocas todo el día",
+        body: "Son productos que se usan cada minuto de la jornada y que se aprovechan durante años. El Logitech MX Keys Mini es un teclado compacto sin bloque numérico, que deja más sitio al ratón, con retroiluminación que se enciende al acercar las manos, conexión a tres dispositivos y tecla para silenciar el micrófono; ojo, solo funciona por Bluetooth. El MX Master 4 mantiene la rueda MagSpeed y los clics silenciosos de la generación anterior y añade un panel háptico con accesos directos por aplicación; es solo para diestros. Si prefieres un teclado mecánico, el Keychron V6 MAX tiene distribución QWERTY en español y triple conexión. Qué evitar: un teclado con distribución US si escribes en español a diario y necesitas la ñ a mano. Más opciones en la [guía de teclados y ratones](/blog/mejor-teclado-raton-trabajo-remoto) y en la [categoría de periféricos](/tienda/perifericos).",
+        productSlug: "logitech-mx-keys-mini",
+      },
+      {
+        heading: "Iluminación: el escritorio y la cara son dos problemas distintos",
+        body: "Una barra de luz para monitor ilumina la mesa; una luz frontal ilumina tu cara en las videollamadas. No confundas una con otra. La Yeelight se coloca sobre el monitor, no refleja en la pantalla gracias a su óptica asimétrica, regula la temperatura de 2.700 a 6.500 K con un mando inalámbrico y es compatible con una webcam encima. Para la imagen en reuniones, la Logitech Litra Glow está pensada para un solo usuario en plano cercano y se controla por software, mientras que el Elgato Key Light Air es un panel más potente, con hasta 2.100 lúmenes, para quien graba contenido o quiere iluminar mejor la escena. Te lo explicamos con detalle en la [guía de iluminación para videollamadas](/blog/iluminacion-videollamadas-home-office).",
+        productSlug: "yeelight-barra-luz-monitor-mando",
+      },
+      {
+        heading: "Hub o dock: conectar el portátil con un solo cable",
+        body: "Si cada mañana conectas el portátil a monitor, red, cargador y periféricos, un hub o un dock te ahorra tiempo y cables. Lo primero es saber cuántos monitores vas a usar. Para uno, el Anker 555 da HDMI 4K a 60 Hz en portátiles con DisplayPort 1.4, Ethernet, lectores de tarjetas y carga pasante de hasta 85 W. Para un puesto con hasta tres pantallas, el UGREEN Revodok Pro 3121 ofrece dos HDMI 4K a 60 Hz y un DisplayPort 4K a 120 Hz, pero los MacBook con chip M base solo aprovechan una pantalla externa por USB-C. Qué evitar: comprar un hub con dos HDMI para un Mac esperando escritorio extendido; si usa MST, macOS duplicará la imagen. Lo detallamos en [cómo conectar dos monitores a un portátil](/blog/conectar-dos-monitores-portatil-guia) y en la [guía de hubs USB-C](/blog/mejor-hub-usb-c-portatil-2025); para el orden final del escritorio, mira [cómo organizar los cables](/blog/organizar-cables-home-office-guia).",
+        productSlug: "anker-555-hub-usbc-8en1",
+      },
+      {
+        heading: "Videollamadas: auriculares y webcam",
+        body: "Si pasas buena parte del día en reuniones, unos auriculares con buenos micrófonos mejoran tanto lo que oyes como lo que oyen los demás. Los Jabra Evolve2 55 pesan 130 g, tienen cancelación activa de ruido, dos micrófonos con supresión de ruido, certificación para Microsoft Teams y luz de ocupado; son supraaurales, así que aíslan menos que unos circumaurales. Si lo que buscas es concentración con música, mira la [guía de auriculares con cancelación de ruido](/blog/mejores-auriculares-cancelacion-ruido-trabajo-2025). En webcams, la UGREEN FineCam Lite graba en 4K a 30 fps con autoenfoque y tapa de privacidad, y la Logitech MX Brio suma 1080p a 60 fps y certificación para Teams, Zoom y Google Meet. Más opciones en la [guía de webcams](/blog/mejor-webcam-videollamadas-trabajo-remoto).",
+        productSlug: "jabra-evolve2-55-auriculares-inalambricos",
+      },
+      {
+        heading: "Qué evitar en Black Friday",
+        body: "Los errores más comunes se repiten cada año. Comprar algo solo porque lleva una etiqueta de descuento, sin que resuelva un problema de tu lista. No comprobar la compatibilidad: anclaje VESA del monitor, puertos y número de pantallas que admite tu portátil, o si tus programas funcionan en un portátil con Windows sobre ARM. No mirar quién vende y quién envía el producto, que afecta a los plazos de entrega y a cómo se gestiona una devolución. Y comprar lo más caro de cada categoría cuando un modelo intermedio cubre tu uso: los 120 Hz de un monitor 4K solo se aprovechan si tu ordenador puede moverlo a esa frecuencia. Si además estás buscando ideas para regalar, tienes nuestra [guía de regalos para quien teletrabaja](/blog/regalos-navidad-reyes-teletrabajo-2026).",
+      },
+    ],
+    comparison: {
+      headers: ["Necesidad", "Qué priorizar", "Opción del catálogo", "Error típico"],
+      rows: [
+        ["Dolor de espalda", "Lumbar y profundidad de asiento regulables", "HOLLUDLE / CLOUVOU", "Silla sin ajustes para jornadas largas"],
+        ["Alternar sentado y de pie", "Rango de altura y carga máxima", "FLEXISPOT 120 × 60 / ErGear", "No sumar el peso real del equipo"],
+        ["Texto poco nítido", "4K o QHD en 27\"", "Dell S2725QC / Lenovo L27h-4A", "Dar por hecho que el USB-C lleva vídeo"],
+        ["Cuello forzado", "Pantalla a la altura de los ojos", "Brazo Invision MX200", "Monitor sin anclaje VESA"],
+        ["Mesa oscura", "Luz sin reflejos en pantalla", "Yeelight", "Usarla para iluminar la cara"],
+        ["Demasiados cables", "Número de pantallas y carga", "Anker 555 / UGREEN Revodok Pro 3121", "Hub MST para escritorio extendido en Mac"],
+      ],
+    },
+    conclusion: "El Black Friday sale bien cuando llegas con la lista hecha. Si pasas muchas horas sentado, empieza por la silla y la altura del monitor, que es donde más se nota la mejora en el día a día. Después, lo que uses toda la jornada: teclado, ratón y, si te encaja, un escritorio elevable. Deja para el final lo que solo usas en reuniones. Prepara la lista antes del 27 de noviembre, comprueba compatibilidades y quién envía cada producto, y decide por lo que necesitas, no por el tamaño de la etiqueta de oferta. Tienes todo el equipamiento ordenado por categorías en la [tienda](/tienda).",
+    faqs: [
+      { q: "¿Cuándo es el Black Friday de 2026?", a: "El Black Friday de 2026 es el viernes 27 de noviembre y el Cyber Monday, el lunes 30 de noviembre. Muchas tiendas, Amazon incluida, suelen adelantar ofertas los días previos, así que conviene tener la lista preparada desde mediados de noviembre." },
+      { q: "¿Merece la pena esperar al Black Friday para comprar una silla ergonómica?", a: "Si ya tienes molestias de espalda trabajando, no compensa esperar semanas con dolor. Si tu silla actual es aceptable y la compra no corre prisa, preparar la elección con antelación y decidir en esas fechas es razonable. En ambos casos, lo importante es que la silla tenga los ajustes que necesitas: lumbar, profundidad de asiento y reposabrazos." },
+      { q: "¿Cómo sé si una oferta de Black Friday me interesa de verdad?", a: "Guarda los productos que te interesan en una lista de deseos unos días antes y fíjate en el precio que muestran. El día de la oferta, compara el precio final con lo que viste y pregúntate si el producto resuelve algo de tu lista. Revisa también quién lo vende y lo envía, porque cambia los plazos de entrega y la gestión de devoluciones." },
+      { q: "¿Qué es más importante para trabajar desde casa, el monitor o la silla?", a: "Si pasas muchas horas sentado, la silla, porque afecta a la postura durante toda la jornada. El monitor va justo después, y no solo por la resolución: colocarlo con el borde superior a la altura de los ojos es lo que evita forzar el cuello. Un brazo de monitor resuelve esto con poco gasto." },
+      { q: "¿Puedo devolver lo que compre en Black Friday si lo regalo en Navidad?", a: "Amazon suele ampliar el plazo de devolución de las compras hechas en la temporada navideña, pero las condiciones pueden cambiar cada año y varían si el producto lo vende un vendedor externo. Antes de comprar, consulta la política de devoluciones vigente en Amazon.es y el vendedor que aparece en la ficha." },
+    ],
+  },
+  "regalos-navidad-reyes-teletrabajo-2026": {
+    intro: "Regalar a alguien que trabaja desde casa tiene una ventaja: sabes en qué pasa ocho horas al día. Un buen regalo de Navidad o de Reyes para esa persona es algo que va a usar cada jornada y que resuelve una molestia concreta: la imagen oscura en las reuniones, el ruido de casa, el cuello cargado o un teclado incómodo. En esta guía tienes ideas ordenadas por perfil y por tamaño de regalo (un detalle, un regalo medio o uno grande para comprar entre varios), solo con productos que hemos revisado en nuestro catálogo.",
+    sections: [
+      {
+        heading: "Antes de elegir: tres preguntas que evitan el regalo que acaba en un cajón",
+        body: "Primero, ¿qué usa ya? Regalar un teclado a quien acaba de comprarse uno no tiene sentido; fíjate en su escritorio en la próxima videollamada o pregunta con disimulo. Segundo, ¿con qué equipo trabaja? Un Mac o un portátil Windows, cuántos puertos tiene y si usa monitor externo condicionan hubs, webcams y periféricos. Tercero, ¿es un regalo personal o de ajuste? Sillas y escritorios dependen de la altura y la forma de trabajar de cada uno, así que funcionan mejor como regalo conjunto en el que la persona elige el modelo. Si quieres una visión de conjunto del puesto, échale un vistazo a nuestro [setup de trabajo remoto](/blog/setup-trabajo-remoto-productividad-maxima).",
+      },
+      {
+        heading: "Para quien vive en videollamadas: una webcam que mejore la imagen",
+        body: "La cámara integrada de muchos portátiles se queda corta, y es un regalo que la persona nota desde la primera reunión. Como detalle, la UGREEN FineCam Lite graba en 4K a 30 fps, tiene autoenfoque, dos micrófonos con reducción de ruido y tapa de privacidad, y funciona sin controladores en Windows, macOS, Linux y Android. Como regalo medio, la Logitech MX Brio ofrece 1080p a 60 fps, tapa de privacidad física, conexión USB-C y certificación para Microsoft Teams, Zoom y Google Meet. Si no sabes qué sistema usa, la FineCam tiene la ventaja de funcionar sin controladores en los principales sistemas. Más modelos en la [guía de webcams para videollamadas](/blog/mejor-webcam-videollamadas-trabajo-remoto) y en la [categoría de webcams](/tienda/webcams).",
+        productSlug: "ugreen-finecam-lite-4k-webcam",
+      },
+      {
+        heading: "Luz para las reuniones: el detalle que más cambia la imagen",
+        body: "Una buena webcam con mala luz sigue dando una imagen pobre, y por eso una luz es de los regalos que mejor funcionan. La Logitech Litra Glow está pensada para videollamadas en plano cercano, con tecnología TrueSoft y soporte ajustable para monitor o trípode, y se controla por software sin tocar el dispositivo. El NEEWER NL-116AI es un panel de 9 pulgadas con temperatura y brillo regulables, batería integrada que también funciona enchufado por USB y mini trípode de escritorio. Los dos entran en la categoría de detalle. Si quieres entender por qué la luz importa tanto, lee la [guía de iluminación para videollamadas](/blog/iluminacion-videollamadas-home-office).",
+        productSlug: "logitech-litra-glow-luz-streaming",
+      },
+      {
+        heading: "Para concentrarse en una casa con ruido: auriculares",
+        body: "Niños, obras, vecinos o una pareja que también teletrabaja: el ruido es una de las quejas más repetidas de quien trabaja en casa. Como regalo grande, los Sony WH-1000XM6 tienen cancelación de ruido con procesador QN3 y 12 micrófonos, seis micrófonos con IA para llamadas, hasta 30 horas con cancelación activa, y se pliegan con estuche magnético. Como regalo medio, los Soundcore Space One ofrecen cancelación adaptativa, códec LDAC y hasta 40 horas de batería, aunque su micrófono no está pensado para llamadas profesionales. Si la persona se pasa el día en reuniones de Teams, los Jabra Evolve2 55 pesan 130 g, están certificados para Teams y tienen luz de ocupado. Los comparamos en la [guía de auriculares con cancelación de ruido](/blog/mejores-auriculares-cancelacion-ruido-trabajo-2025) y en el [análisis de los Soundcore Space One](/blog/soundcore-space-one-analisis).",
+        productSlug: "sony-wh-1000xm6-auriculares",
+      },
+      {
+        heading: "Teclado y ratón: el regalo que se usa todo el día",
+        body: "Es difícil equivocarse con un buen ratón. Como detalle, el Logitech Signature M650 tiene clics silenciosos, conexión por Bluetooth o receptor Logi Bolt y hasta 24 meses de autonomía con una pila AA. Como regalo medio, el MX Master 4 añade la rueda MagSpeed, rueda para el pulgar, un panel háptico con accesos directos por aplicación y conexión a tres dispositivos, aunque solo sirve para diestros y es grande para manos pequeñas. El teclado MX Keys Mini, compacto y con retroiluminación que se enciende al acercar las manos, completa la pareja. Si la persona escribe mucho, comprueba en la ficha la distribución del teclado antes de comprarlo. Más en la [guía de teclados y ratones](/blog/mejor-teclado-raton-trabajo-remoto).",
+        productSlug: "logitech-mx-master-4",
+      },
+      {
+        heading: "Ergonomía sin regalar una silla: brazo de monitor y luz de escritorio",
+        body: "Hay regalos de ergonomía que no dependen de la talla. El brazo de monitor Invision MX200 sube la pantalla hasta dejar el borde superior a la altura de los ojos, que es lo que evita forzar el cuello, y libera espacio en la mesa. Solo hay que comprobar que el monitor tenga anclaje VESA 75 o 100 y que la mesa admita una abrazadera. La barra de luz Yeelight se coloca sobre el monitor e ilumina el escritorio sin reflejos en la pantalla, con un mando inalámbrico para el brillo y la temperatura. Ambos son detalles útiles para quien trabaja con portátil sobre la mesa o con el monitor demasiado bajo. Si la persona tiene molestias, compártele [esta guía sobre el dolor de espalda al trabajar en casa](/blog/dolor-espalda-trabajar-casa-soluciones).",
+        productSlug: "invision-mx200-brazo-monitor",
+      },
+      {
+        heading: "Para quien emprende y graba contenido: un micrófono",
+        body: "Si la persona tiene un pódcast, graba formación o simplemente quiere sonar mejor que con el micrófono del portátil, un micrófono es un regalo muy agradecido. Como detalle, el FIFINE es un condensador USB cardioide con carcasa metálica que funciona sin drivers. Como regalo grande, el RØDE PodMic USB es un micrófono dinámico pensado para voz, se conecta por USB-C directamente al ordenador o por XLR a una interfaz, y tiene salida de auriculares sin latencia; es pesado, así que conviene que vaya con un brazo resistente. Los comparamos en la [guía de micrófonos USB](/blog/mejor-microfono-usb-podcast-streaming-2026) y tienes más modelos en la [categoría de micrófonos](/tienda/microfonos).",
+        productSlug: "rode-podmic-usb-microfono-xlr-usb",
+      },
+      {
+        heading: "Un regalo pequeño y práctico: un hub para el portátil",
+        body: "Muchos portátiles actuales tienen dos o tres puertos USB-C y poco más. El Anker 555 añade HDMI 4K a 60 Hz en portátiles con DisplayPort 1.4, Ethernet, dos USB-A, un USB-C de datos, lectores SD y microSD y carga pasante de hasta 85 W. Tiene una sola salida de vídeo, así que no sirve para dos monitores. Es un regalo útil para quien trabaja con portátil y monitor externo y está cansado de conectar y desconectar cables. Si la persona usa dos pantallas, mira antes [cómo conectar dos monitores a un portátil](/blog/conectar-dos-monitores-portatil-guia).",
+        productSlug: "anker-555-hub-usbc-8en1",
+      },
+      {
+        heading: "Regalo grande o entre varios: silla o escritorio elevable",
+        body: "Una silla ergonómica o un escritorio elevable son los regalos que más impacto tienen en el día a día de quien teletrabaja, y también los más personales. La HOLLUDLE, con reposabrazos 4D, profundidad de asiento ajustable y reposacabezas 2D, es la opción más completa de gama media del catálogo. El ErGear de 120 × 60 cm es un escritorio elevable de entrada, con altura de 72 a 118 cm y 4 memorias. Nuestra recomendación es regalar la idea y dejar que la persona elija el modelo y las medidas, porque la altura, el peso y el espacio disponible cambian la elección. Para ayudarle a decidir, tiene la [guía de sillas ergonómicas](/blog/mejor-silla-ergonomica-home-office-2025) y la de [escritorios regulables](/blog/escritorio-regulable-altura-home-office).",
+        productSlug: "sihoo-m57-silla-ergonomica",
+      },
+      {
+        heading: "Fechas, envío y devoluciones: Navidad, Reyes y Black Friday",
+        body: "Para Navidad (25 de diciembre) y Reyes (6 de enero), compra con margen: en diciembre los plazos de entrega pueden alargarse, sobre todo en productos que envía un vendedor externo en lugar de Amazon. Revisa en la ficha quién vende y quién envía cada artículo. Si quieres aprovechar el Black Friday (27 de noviembre) o el Cyber Monday (30 de noviembre) para adelantar los regalos, comprueba antes la política de devoluciones vigente: Amazon suele ampliar el plazo para las compras de la temporada navideña, pero las condiciones cambian y pueden ser distintas con vendedores externos. Si además estás pensando en mejorar tu propio puesto, tienes nuestra [guía de Black Friday para la oficina en casa](/blog/black-friday-oficina-en-casa-que-comprar-2026).",
+      },
+    ],
+    comparison: {
+      headers: ["Perfil", "Detalle", "Regalo medio", "Regalo grande"],
+      rows: [
+        ["Muchas videollamadas", "UGREEN FineCam Lite / Litra Glow", "Logitech MX Brio / Jabra Evolve2 55", "MX Brio + Litra Glow"],
+        ["Necesita concentrarse", "—", "Soundcore Space One", "Sony WH-1000XM6"],
+        ["Escribe todo el día", "Logitech Signature M650", "MX Master 4 / MX Keys Mini", "Pareja MX Keys Mini + MX Master 4"],
+        ["Cuello y vista cansados", "Brazo Invision MX200 / Yeelight", "Brazo + barra de luz", "Silla HOLLUDLE (entre varios)"],
+        ["Crea contenido", "FIFINE", "—", "RØDE PodMic USB"],
+        ["Trabaja con portátil", "Anker 555", "—", "Escritorio ErGear (entre varios)"],
+      ],
+    },
+    conclusion: "El mejor regalo para quien teletrabaja es el que resuelve una molestia que esa persona sufre a diario. Si no la conoces bien, apuesta por lo que no depende de la talla ni del equipo: una luz para videollamadas, un ratón silencioso o un brazo de monitor. Si conoces su escritorio, unos auriculares con cancelación de ruido o una webcam son regalos que se notan desde el primer día. Y si os juntáis varios, una buena silla o un escritorio elevable, mejor elegidos por la propia persona. Compra con margen antes del 25 de diciembre y del 6 de enero, y revisa quién envía cada producto. Tienes todo el catálogo ordenado en la [tienda](/tienda).",
+    faqs: [
+      { q: "¿Qué regalar a alguien que trabaja desde casa si no sé qué equipo tiene?", a: "Elige algo que no dependa del ordenador ni de la talla: una luz para videollamadas como la Logitech Litra Glow, una barra de luz para el monitor, un ratón como el Logitech Signature M650, que se conecta por Bluetooth o por receptor, o un brazo de monitor, comprobando antes que su pantalla tenga anclaje VESA." },
+      { q: "¿Es buena idea regalar una silla ergonómica?", a: "Sí, pero funciona mejor como regalo conjunto en el que la persona elige el modelo. La silla adecuada depende de la altura, el peso y las horas que pasa sentado, y no todas se ajustan igual. Si la compras tú, elige una con muchos ajustes, como profundidad de asiento y reposabrazos regulables, y comprueba la política de devoluciones." },
+      { q: "¿Cuándo comprar los regalos para que lleguen a tiempo para Navidad y Reyes?", a: "Con margen. En diciembre los plazos de entrega pueden alargarse, sobre todo si el producto lo envía un vendedor externo. Aprovechar el Black Friday (27 de noviembre) o el Cyber Monday (30 de noviembre) es una buena forma de adelantarse, siempre que revises antes las condiciones de devolución vigentes." },
+      { q: "¿Qué auriculares regalar para teletrabajar: cancelación de ruido o auriculares de oficina?", a: "Depende del uso. Para concentrarse con música en una casa ruidosa, unos auriculares con cancelación de ruido como los Sony WH-1000XM6 o los Soundcore Space One. Para quien pasa el día en reuniones de Teams, unos auriculares de oficina como los Jabra Evolve2 55, de 130 g, certificados para Teams y con luz de ocupado." },
+    ],
+  },
   "mejor-silla-ergonomica-home-office-2025": {
     intro: "Pasar 8 horas al día en una silla de mala calidad acaba generando dolor lumbar, cervical y una productividad mermada que no compensa el ahorro inicial. Esta guía compara las dos mejores sillas ergonómicas del catálogo para home office —la HOLLUDLE y la Ticova— en dos rangos de precio distintos, para que elijas según tus horas de uso y tu presupuesto.",
     sections: [
@@ -55,7 +220,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Ticova: el equilibrio calidad-precio",
-        body: "La Ticova es una de las sillas ergonómicas más vendidas de gama de entrada, y su argumento es la comodidad para reclinarse. Su respaldo alto de malla transpirable llega hasta 130° de reclinación, con soporte lumbar ajustable y reposabrazos 3D, prácticos para el día a día sin necesitar el ajuste de profundidad de un modelo 4D. Pesa 18 kg. A favor: la reclinación hasta 130°, los reposabrazos 3D y su precio contenido. En contra: el soporte lumbar no es tan avanzado como en la gama superior, la base es de plástico y no tiene reposacabezas ajustable en profundidad, así que si buscas máxima personalización postural se queda por detrás de la HOLLUDLE.",
+        body: "La Ticova es una silla ergonómica de gama de entrada, y su argumento es la comodidad para reclinarse. Su respaldo alto de malla transpirable llega hasta 130° de reclinación, con soporte lumbar ajustable y reposabrazos 3D, prácticos para el día a día sin necesitar el ajuste de profundidad de un modelo 4D. Pesa 18 kg. A favor: la reclinación hasta 130°, los reposabrazos 3D y su precio contenido. En contra: el soporte lumbar no es tan avanzado como en la gama superior, la base es de plástico y no tiene reposacabezas ajustable en profundidad, así que si buscas máxima personalización postural se queda por detrás de la HOLLUDLE.",
         productSlug: "hbada-silla-ergonomica-pro",
       },
       {
@@ -76,7 +241,7 @@ const articleContent: Record<string, {
     },
     conclusion: "Para jornadas de más de seis horas diarias, la HOLLUDLE se amortiza en salud y productividad gracias a su respaldo adaptativo y sus reposabrazos 4D: es la silla que mejor puedes configurar a tu cuerpo. Si buscas una silla cómoda para reclinarte, priorizas el precio y no necesitas el ajuste de profundidad de asiento, la Ticova es la compra más inteligente. Ninguna de las dos sustituye a las pausas activas cada hora, pero ambas eliminan el dolor postural que provoca una silla mala.",
     faqs: [
-      { q: "¿Vale la pena gastar más de 200€ en una silla de oficina?", a: "Si trabajas desde casa más de seis horas diarias, sí. El coste diario de una silla ergonómica de gama media usada durante cinco años es inferior al de un café. El coste de una consulta de fisioterapia por dolor lumbar crónico multiplica ese gasto varias veces, así que la silla correcta es una de las inversiones con mejor retorno de un home office." },
+      { q: "¿Vale la pena invertir en una silla de gama media o alta?", a: "Si trabajas desde casa más de seis horas diarias, sí. El coste diario de una silla ergonómica de gama media usada durante cinco años es inferior al de un café. El coste de una consulta de fisioterapia por dolor lumbar crónico multiplica ese gasto varias veces, así que la silla correcta es una de las inversiones con mejor retorno de un home office." },
       { q: "¿Cuánto dura una silla ergonómica de calidad?", a: "Con uso doméstico normal (un usuario, 8 horas al día), entre 8 y 15 años. En las sillas de malla, el tejido suele degradarse antes que la estructura metálica. La garantía es un buen indicador de calidad: una garantía muy corta en una silla cara es una señal de alerta sobre la confianza del propio fabricante en su producto." },
       { q: "¿Es mejor la silla de malla o la de tela?", a: "Para climas cálidos o personas que sudan mucho, la malla es más transpirable y mantiene la espalda fresca en verano. Para climas fríos, la tela o el cuero resultan más cómodos en invierno. Como contrapartida, la malla tiene menor vida útil que un buen tapizado de tela o cuero de calidad. Las dos sillas de esta guía son de malla, la opción más habitual en España." },
       { q: "¿Se puede montar una silla ergonómica sin ayuda?", a: "Sí, la mayoría se monta en 20-40 minutos siguiendo las instrucciones, y tanto la HOLLUDLE como la Ticova incluyen herramientas y manual. Conviene tener cerca a alguien para sostener el respaldo durante el momento de fijarlo al asiento, aunque no es imprescindible." },
@@ -84,7 +249,7 @@ const articleContent: Record<string, {
   },
 
   "escritorio-regulable-altura-home-office": {
-    intro: "Alternar entre sentado y de pie durante la jornada reduce el dolor lumbar, mejora la energía por la tarde y aumenta el gasto calórico diario de forma pasiva. Un escritorio regulable es la inversión de productividad con mayor impacto por euro gastado en un home office. Esta guía compara los dos escritorios eléctricos del catálogo, el FlexiSpot E7 Pro y el FlexiSpot EG1, para que elijas según tu espacio, tu setup y tu presupuesto.",
+    intro: "Alternar entre sentado y de pie durante la jornada reduce el dolor lumbar, mejora la energía por la tarde y aumenta el gasto calórico diario de forma pasiva. Un escritorio regulable es la inversión de productividad con mejor relación entre coste y beneficio en un home office. Esta guía compara los dos escritorios eléctricos del catálogo, el FlexiSpot E7 Pro y el FlexiSpot EG1, para que elijas según tu espacio, tu setup y tu presupuesto.",
     sections: [
       {
         heading: "Doble motor vs motor único: cuál elegir",
@@ -138,7 +303,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "El home office intermedio",
-        body: "El siguiente escalón es donde la mayoría de trabajadores remotos están cómodos sin haberse gastado de más. Aquí la pieza central es una buena silla ergonómica: la Ticova ofrece malla transpirable, reclinación hasta 130° y reposabrazos 3D, más que suficiente para una jornada estándar. Súmale un monitor de 27 pulgadas QHD, un teclado y un ratón inalámbricos y una webcam decente, y tienes un presupuesto total en el entorno de 600 a 900 euros para un puesto que cubre casi todo sin fricciones.",
+        body: "El siguiente escalón es donde la mayoría de trabajadores remotos están cómodos sin haberse gastado de más. Aquí la pieza central es una buena silla ergonómica: la Ticova ofrece malla transpirable, reclinación hasta 130° y reposabrazos 3D, más que suficiente para una jornada estándar. Súmale un monitor de 27 pulgadas QHD, un teclado y un ratón inalámbricos y una webcam decente, y tienes un puesto de gama media que cubre casi todo sin fricciones.",
         productSlug: "hbada-silla-ergonomica-pro",
       },
       {
@@ -148,21 +313,21 @@ const articleContent: Record<string, {
       },
       {
         heading: "El escritorio que corona el setup",
-        body: "La última pieza del home office completo es el escritorio regulable en altura, la mejora postural con mayor impacto a largo plazo. El FlexiSpot E7 Pro permite alternar entre trabajar sentado y de pie con doble motor y cuatro memorias de altura, y su tablero de 140×70 cm da espacio para el doble monitor. Con él, el presupuesto total del setup completo se sitúa entre 1.200 y 2.000 euros, según el resto de componentes que elijas.",
+        body: "La última pieza del home office completo es el escritorio regulable en altura, la mejora postural con mayor impacto a largo plazo. El FlexiSpot E7 Pro permite alternar entre trabajar sentado y de pie con doble motor y cuatro memorias de altura, y su tablero de 140×70 cm da espacio para el doble monitor. Con él, el setup completo pasa a la gama alta, con un coste final que depende del resto de componentes que elijas.",
         productSlug: "flexispot-e7-pro-escritorio-ajustable",
       },
     ],
     comparison: {
-      headers: ["Nivel", "Equipamiento clave", "Presupuesto aprox.", "Para quién"],
+      headers: ["Nivel", "Equipamiento clave", "Gama", "Para quién"],
       rows: [
-        ["Mínimo viable", "Silla básica + monitor + teclado y ratón", "300-500 €", "Empezar con lo esencial"],
-        ["Intermedio", "Ticova + monitor QHD + periféricos", "600-900 €", "La mayoría de trabajadores remotos"],
-        ["Completo", "HOLLUDLE + FlexiSpot E7 Pro + todo", "1.200-2.000 €", "Trabajo remoto a tiempo completo"],
+        ["Mínimo viable", "Silla básica + monitor + teclado y ratón", "Entrada", "Empezar con lo esencial"],
+        ["Intermedio", "Ticova + monitor QHD + periféricos", "Media", "La mayoría de trabajadores remotos"],
+        ["Completo", "HOLLUDLE + FlexiSpot E7 Pro + todo", "Alta", "Trabajo remoto a tiempo completo"],
       ],
     },
     conclusion: "No montes el home office completo desde el principio. Empieza por la silla y el monitor, trabaja así dos o tres meses, identifica qué te molesta más y añade lo siguiente. El equipamiento que realmente necesitas se hace obvio cuando llevas tiempo trabajando desde casa, y ese enfoque progresivo evita gastar en cosas que luego no usas.",
     faqs: [
-      { q: "¿Cuánto hay que gastar en un home office?", a: "El mínimo funcional está en 300-500 euros. El punto donde la mayoría de personas están cómodas sin haber gastado de más se sitúa entre 600 y 900 euros. Por encima de eso hay mejoras reales, pero con un retorno decreciente: cada euro extra aporta menos que el anterior una vez cubiertos la silla, el monitor y los periféricos." },
+      { q: "¿Cuánto hay que gastar en un home office?", a: "Depende de las horas que trabajes en casa. Un puesto de gama de entrada (silla básica, monitor y teclado y ratón) es el mínimo funcional, y uno de gama media es donde la mayoría de personas están cómodas sin haber gastado de más. Por encima hay mejoras reales, pero con un retorno decreciente una vez cubiertos la silla, el monitor y los periféricos." },
       { q: "¿Es mejor un monitor grande o dos monitores?", a: "Depende del tipo de trabajo. Para programar, diseñar o analizar datos, dos monitores suelen ser más productivos porque permiten tener varias fuentes a la vista. Para escritura, reuniones y trabajo enfocado, un monitor ultrawide o grande es suficiente y distrae menos. No hay una respuesta universal: depende de cuántas ventanas necesites ver a la vez." },
       { q: "¿Necesito dedicar una habitación entera al home office?", a: "No. Con un buen rincón de unos 2×2 metros, buena iluminación y la silla correcta se puede montar un home office productivo en casi cualquier espacio. La separación física del área de trabajo ayuda a la concentración y a desconectar al terminar, pero no es imprescindible para tener un puesto cómodo y funcional." },
       { q: "¿Se pueden deducir los gastos del home office en España?", a: "Sí, parcialmente, si eres autónomo o tienes actividad económica. La deducción se calcula en proporción al uso profesional del espacio y de los equipos, y hay que documentarla correctamente. Consulta con tu asesor fiscal la forma adecuada de justificarla, porque las reglas y los porcentajes admitidos dependen de tu situación concreta." },
@@ -282,15 +447,15 @@ const articleContent: Record<string, {
       },
       {
         heading: "Setup por niveles",
-        body: "Nivel 1, lo esencial (300-500 €): silla ergonómica básica, un monitor decente y teclado y ratón funcionales. Nivel 2, el equilibrio (600-900 €): silla ergonómica de calidad, monitor QHD y uno de los dos periféricos premium de Logitech. Nivel 3, el completo (más de 1.000 €): todo lo anterior, el segundo periférico premium y una buena iluminación para videollamadas. El salto que más se nota para la mayoría es el del nivel 1 al 2.",
+        body: "Nivel 1, lo esencial (gama de entrada): silla ergonómica básica, un monitor decente y teclado y ratón funcionales. Nivel 2, el equilibrio (gama media): silla ergonómica de calidad, monitor QHD y uno de los dos periféricos premium de Logitech. Nivel 3, el completo (gama alta): todo lo anterior, el segundo periférico premium y una buena iluminación para videollamadas. El salto que más se nota para la mayoría es el del nivel 1 al 2.",
       },
     ],
     comparison: {
-      headers: ["Nivel", "Foco de inversión", "Presupuesto aprox.", "Para quién"],
+      headers: ["Nivel", "Foco de inversión", "Gama", "Para quién"],
       rows: [
-        ["Esencial", "Silla + monitor + periféricos básicos", "300-500 €", "Empezar con lo esencial"],
-        ["Equilibrio", "Añade MX Keys o MX Master 3S", "600-900 €", "La mayoría de trabajadores remotos"],
-        ["Completo", "MX Keys + MX Master 3S + iluminación", "1.000 €+", "Trabajo remoto intensivo"],
+        ["Esencial", "Silla + monitor + periféricos básicos", "Entrada", "Empezar con lo esencial"],
+        ["Equilibrio", "Añade MX Keys o MX Master 3S", "Media", "La mayoría de trabajadores remotos"],
+        ["Completo", "MX Keys + MX Master 3S + iluminación", "Alta", "Trabajo remoto intensivo"],
       ],
     },
     sources: [
@@ -372,7 +537,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "¿Cuál elegir según tu perfil?",
-        body: "Si buscas concentración y también escuchas música, el Sony WH-1000XM5 es la mejor opción. Si haces muchas reuniones profesionales y la calidad de tu voz importa, el Jabra Evolve2 65 lo justifica. Y si tu entorno es tranquilo o el presupuesto manda, el JBL Tune 520BT cubre música y llamadas por una fracción del precio, aceptando que no cancela ruido de forma activa.",
+        body: "Si buscas concentración y también escuchas música, el Sony WH-1000XM5 es la mejor opción. Si haces muchas reuniones profesionales y la calidad de tu voz importa, el Jabra Evolve2 65 lo justifica. Y si tu entorno es tranquilo o el presupuesto manda, el JBL Tune 520BT cubre música y llamadas desde la gama de entrada, aceptando que no cancela ruido de forma activa.",
       },
     ],
     comparison: {
@@ -402,7 +567,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Logitech C920: el estándar de referencia",
-        body: "La Logitech C920 es la webcam más vendida del mundo, y con razón: graba en Full HD 1080p a 30 fps, corrige la luz de forma automática, tiene un campo de visión de 78° y dos micrófonos estéreo integrados. Es compatible con Windows, macOS y Chrome OS sin instalar nada, y el clip universal se adapta a monitores y portátiles. Cumple perfectamente su función a un precio razonable, y es la primera compra correcta para cualquier trabajador remoto sin webcam externa.",
+        body: "La Logitech C920 es una webcam de referencia, y con razón: graba en Full HD 1080p a 30 fps, corrige la luz de forma automática, tiene un campo de visión de 78° y dos micrófonos estéreo integrados. Es compatible con Windows, macOS y Chrome OS sin instalar nada, y el clip universal se adapta a monitores y portátiles. Cumple perfectamente su función a un precio razonable, y es la primera compra correcta para cualquier trabajador remoto sin webcam externa.",
         productSlug: "logitech-c920-hd-pro-webcam",
       },
       {
@@ -442,7 +607,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Comodidad para jornadas largas",
-        body: "Las almohadillas de espuma viscoelástica con tejido suave y el peso contenido de 250 g permiten llevarlos seis u ocho horas sin molestias, algo que confirman muchas de sus 6.500 reseñas (con una media de 4,7). Para un uso de home office, donde los llevas puestos gran parte de la jornada, la comodidad a largo plazo es tan importante como la calidad de la cancelación, y aquí los XM5 cumplen.",
+        body: "Las almohadillas de espuma viscoelástica con tejido suave y el peso contenido de 250 g permiten llevarlos seis u ocho horas sin molestias. Para un uso de home office, donde los llevas puestos gran parte de la jornada, la comodidad a largo plazo es tan importante como la calidad de la cancelación, y aquí los XM5 cumplen.",
       },
       {
         heading: "Lo que no tienen los XM5",
@@ -470,7 +635,7 @@ const articleContent: Record<string, {
         ["Mejor para", "Ruido intenso y música", "Presupuesto y entorno tranquilo"],
       ],
     },
-    conclusion: "Los Sony XM5 son los mejores auriculares de consumo con cancelación de ruido, y su precio se justifica si trabajas en entornos ruidosos y valoras la calidad de audio. Para un home office tranquilo con presupuesto ajustado, el JBL Tune 520BT cubre música y llamadas por una fracción del precio, aceptando que no cancela ruido de forma activa. La elección depende de cuánto ruido tengas que combatir.",
+    conclusion: "Los Sony XM5 son los mejores auriculares de consumo con cancelación de ruido, y su precio se justifica si trabajas en entornos ruidosos y valoras la calidad de audio. Para un home office tranquilo con presupuesto ajustado, el JBL Tune 520BT cubre música y llamadas desde la gama de entrada, aceptando que no cancela ruido de forma activa. La elección depende de cuánto ruido tengas que combatir.",
     faqs: [
       { q: "¿Los XM5 sirven para llamadas de trabajo?", a: "Sí. El micrófono con beamforming funciona bien en llamadas; no es tan profesional como el de un auricular certificado como el Jabra Evolve2 65, pero para reuniones de Teams o Zoom en un entorno relativamente silencioso la calidad es buena y suficiente." },
       { q: "¿Tienen modo transparencia?", a: "Sí. El modo transparencia permite escuchar el entorno sin quitártelos, útil para una conversación puntual, un anuncio en transporte o para estar atento a lo que ocurre alrededor sin interrumpir lo que estás escuchando." },
@@ -526,7 +691,7 @@ const articleContent: Record<string, {
   },
 
   "organizar-cables-home-office-guia": {
-    intro: "Los cables desordenados en un home office no son solo un problema estético: generan fricción mental constante y hacen perder tiempo buscando el cable correcto. Esta guía explica cómo gestionarlos de forma definitiva, con soluciones que van de los 5 a los 50 euros y que no dependen de ningún producto concreto.",
+    intro: "Los cables desordenados en un home office no son solo un problema estético: generan fricción mental constante y hacen perder tiempo buscando el cable correcto. Esta guía explica cómo gestionarlos de forma definitiva, con soluciones de gama de entrada que no dependen de ningún producto concreto.",
     sections: [
       {
         heading: "El problema real de los cables",
@@ -538,7 +703,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Agrupar y fijar los cables",
-        body: "Para los cables que quedan, tres soluciones baratas resuelven casi todo: bridas de velcro reutilizables para agrupar (5-8 €), canaletas adhesivas para fijar cables al borde del escritorio o a la pared (5-10 €) y una bandeja bajo el escritorio para ocultar el ladrón y el hub (15-25 €). Con esta combinación desaparece la mayor parte del desorden visible, y desenchufar o mover algo deja de ser una operación arriesgada.",
+        body: "Para los cables que quedan, tres soluciones baratas resuelven casi todo: bridas de velcro reutilizables para agrupar, canaletas adhesivas para fijar cables al borde del escritorio o a la pared y una bandeja bajo el escritorio para ocultar el ladrón y el hub. Con esta combinación desaparece la mayor parte del desorden visible, y desenchufar o mover algo deja de ser una operación arriesgada.",
       },
       {
         heading: "Liberar la superficie: soportes y elevadores",
@@ -550,12 +715,12 @@ const articleContent: Record<string, {
       },
     ],
     comparison: {
-      headers: ["Solución", "Coste aprox.", "Impacto", "Por dónde empezar"],
+      headers: ["Solución", "Gama", "Impacto", "Por dónde empezar"],
       rows: [
-        ["Hub USB-C", "30-50 €", "Alto — reduce el nº de cables", "Primera medida"],
-        ["Bridas de velcro", "5-8 €", "Medio — agrupa los existentes", "Inmediato"],
-        ["Canaletas / bandeja", "10-25 €", "Alto — oculta el desorden", "Si tienes espacio bajo la mesa"],
-        ["Soporte de portátil", "30-40 €", "Medio — libera superficie", "Si usas portátil + monitor"],
+        ["Hub USB-C", "Entrada", "Alto — reduce el nº de cables", "Primera medida"],
+        ["Bridas de velcro", "Entrada", "Medio — agrupa los existentes", "Inmediato"],
+        ["Canaletas / bandeja", "Entrada", "Alto — oculta el desorden", "Si tienes espacio bajo la mesa"],
+        ["Soporte de portátil", "Entrada", "Medio — libera superficie", "Si usas portátil + monitor"],
       ],
     },
     conclusion: "El mayor impacto viene de reducir cables (un hub USB-C) y de agrupar los que quedan (bridas de velcro). Empieza por ahí y añade canaletas, una bandeja o un soporte según necesites liberar más superficie. La organización de cables es de las inversiones más baratas de un home office, y su efecto sobre la sensación de orden y el tiempo que ahorras cada día es desproporcionadamente grande.",
@@ -626,7 +791,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Para audio con mezcla integrada",
-        body: "Si grabas tu voz y quieres poder mezclarla con el audio del sistema sin complicarte con hardware adicional, el Elgato Wave:3 (cardioide, software Wave Link) es una alternativa muy valorada al Blue Yeti que ocupa un espacio similar en el escritorio. Es una gran opción para quien empieza a crear contenido y quiere control de ganancia capacitivo y un antipop de doble capa integrado sin accesorios extra.",
+        body: "Si grabas tu voz y quieres poder mezclarla con el audio del sistema sin complicarte con hardware adicional, el Elgato Wave:3 (cardioide, software Wave Link) es una alternativa al Blue Yeti que ocupa un espacio similar en el escritorio. Es una gran opción para quien empieza a crear contenido y quiere control de ganancia capacitivo y un antipop de doble capa integrado sin accesorios extra.",
         productSlug: "elgato-wave3-microfono-condensador-usb",
       },
       {
@@ -987,11 +1152,11 @@ const articleContent: Record<string, {
 },
   "mejor-hub-usb-c-portatil-2025": {
   intro:
-    "El hub USB-C es probablemente el accesorio con mejor retorno por euro de todo el home office. Un MacBook Air M3 sale de fábrica con dos puertos USB-C y un jack de auriculares: con un hub de ocho puertos bien elegido sumas HDMI 4K, tres USB-A, lector de tarjetas SD, ethernet gigabit y carga del portátil a la vez, todo en un dispositivo del tamaño de una baraja de cartas. El problema es que la oferta es enorme y la diferencia entre un hub bueno y uno malo no se ve en la ficha técnica: se nota en la estabilidad, en si mantiene el monitor a 4K sin parpadeos y en si carga el portátil de verdad a la potencia anunciada. Esta guía aclara qué comprar, para qué perfil y qué evitar.",
+    "El hub USB-C es probablemente el accesorio con mejor relación entre coste y beneficio de todo el home office. Un MacBook Air M3 sale de fábrica con dos puertos USB-C y un jack de auriculares: con un hub de ocho puertos bien elegido sumas HDMI 4K, tres USB-A, lector de tarjetas SD, ethernet gigabit y carga del portátil a la vez, todo en un dispositivo del tamaño de una baraja de cartas. El problema es que la oferta es enorme y la diferencia entre un hub bueno y uno malo no se ve en la ficha técnica: se nota en la estabilidad, en si mantiene el monitor a 4K sin parpadeos y en si carga el portátil de verdad a la potencia anunciada. Esta guía aclara qué comprar, para qué perfil y qué evitar.",
   sections: [
     {
       heading: "Hub vs docking station: cuál necesitas",
-      body: "La diferencia práctica entre un hub y una docking station importa antes de buscar modelos. Un hub es compacto, sin fuente de alimentación propia y bus-powered: se alimenta del puerto del portátil, pesa menos de 200 gramos, cabe en una mochila y cuesta entre 30 y 90 euros. Ofrece 6 a 10 puertos y es suficiente para la mayoría de configuraciones de portátil con un monitor externo. Una docking station tiene fuente de alimentación propia, puede alimentar el portátil con 90-140 W y soportar dos o más monitores externos con total estabilidad. Cuesta entre 80 y 350 euros y está pensada para un escritorio fijo donde el portátil llega y se conecta a un solo cable. Para quien trabaja solo en casa, una docking de gama media es la inversión que elimina el cable-caos para siempre. Para quien trabaja también desde cafeterías, coworkings u oficinas del cliente, un hub portátil es imprescindible aunque tenga docking en casa.",
+      body: "La diferencia práctica entre un hub y una docking station importa antes de buscar modelos. Un hub es compacto, sin fuente de alimentación propia y bus-powered: se alimenta del puerto del portátil, pesa menos de 200 gramos, cabe en una mochila y suele estar en la gama de entrada. Ofrece 6 a 10 puertos y es suficiente para la mayoría de configuraciones de portátil con un monitor externo. Una docking station tiene fuente de alimentación propia, puede alimentar el portátil con 90-140 W y soportar dos o más monitores externos con total estabilidad. Va de la gama media a la alta y está pensada para un escritorio fijo donde el portátil llega y se conecta a un solo cable. Para quien trabaja solo en casa, una docking de gama media es la inversión que elimina el cable-caos para siempre. Para quien trabaja también desde cafeterías, coworkings u oficinas del cliente, un hub portátil es imprescindible aunque tenga docking en casa.",
     },
     {
       heading: "Los 5 mejores hubs USB-C en 2025",
@@ -1048,7 +1213,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "¿Para quién tiene sentido una silla de esta gama?",
-        body: "Una silla de esta gama de precio solo se justifica si vas a pasar muchas horas sentado durante varios años y quieres el soporte lumbar más avanzado disponible sin llegar a un sillón de oficina corporativo de 1.500€. Si tu jornada es de menos de 5-6 horas diarias, o llevas poco tiempo en teletrabajo y no sabes aún qué tipo de ajuste necesitas, hay opciones del catálogo bastante más económicas (como la HOLLUDLE o la Ticova) que cubren la mayoría de necesidades ergonómicas básicas por una fracción del precio.",
+        body: "Una silla de esta gama de precio solo se justifica si vas a pasar muchas horas sentado durante varios años y quieres el soporte lumbar más avanzado disponible sin llegar a un sillón de oficina corporativo de gama muy alta. Si tu jornada es de menos de 5-6 horas diarias, o llevas poco tiempo en teletrabajo y no sabes aún qué tipo de ajuste necesitas, hay opciones del catálogo bastante más económicas (como la HOLLUDLE o la Ticova) que cubren la mayoría de necesidades ergonómicas básicas desde una gama inferior.",
       },
       {
         heading: "Ergohuman Slim GEN2 vs Secretlab Titan EVO",
@@ -1066,10 +1231,10 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "La hjh OFFICE Ergohuman Slim GEN2 es una inversión que solo se justifica para quien pasa muchas horas sentado, valora el diseño Ergohuman clásico y quiere que su silla combine con un despacho tradicional antes que con un setup gaming. Para la mayoría de teletrabajadores, una opción de gama media del catálogo cubre las necesidades ergonómicas básicas por bastante menos dinero; esta silla es para quien ya sabe que necesita ese nivel de ajuste y está dispuesto a pagarlo.",
-    sources: [{ label: "Ficha de producto", url: "https://www.amazon.es/dp/B0C7H87W7X" }],
+    sources: [{ label: "Ficha de producto", url: amazonLink("B0C7H87W7X") }],
     faqs: [
       { q: "¿Qué significa que el soporte lumbar sea 'flexible' en vez de fijo?", a: "Un soporte lumbar fijo mantiene siempre la misma forma y posición. Uno flexible, como el de la familia Ergohuman, se adapta y cede ligeramente con el movimiento de la espalda al inclinarse o recolocarse, en lugar de imponer una única postura rígida durante toda la jornada." },
-      { q: "¿Merece la pena frente a una silla de 200€?", a: "Depende de tus horas de uso y de si ya has identificado necesidades ergonómicas específicas. Para una jornada de 8 horas diarias durante varios años, el coste diario de una silla de gama alta es muy bajo comparado con el de una consulta de fisioterapia. Para uso más ocasional, una silla de gama media cubre de sobra las necesidades básicas." },
+      { q: "¿Merece la pena frente a una silla de gama media?", a: "Depende de tus horas de uso y de si ya has identificado necesidades ergonómicas específicas. Para una jornada de 8 horas diarias durante varios años, el coste diario de una silla de gama alta es muy bajo comparado con el de una consulta de fisioterapia. Para uso más ocasional, una silla de gama media cubre de sobra las necesidades básicas." },
       { q: "¿Por qué el color de este modelo es verde?", a: "El ASIN verificado de este listado corresponde a la variante en malla verde. Si prefieres otro color, comprueba en la ficha de producto si hjh OFFICE ofrece otras variantes disponibles en el momento de tu compra." },
     ],
   },
@@ -1100,7 +1265,7 @@ const articleContent: Record<string, {
         ["Códec", "LDAC", "LDAC / AAC / SBC"],
       ],
     },
-    conclusion: "Los Soundcore Space One no son un Sony WH-1000XM5, pero tampoco cuestan lo mismo: por menos de un tercio del precio, ofrecen ANC adaptativa, audio LDAC y más autonomía, cubriendo de sobra las necesidades de concentración de la mayoría de teletrabajadores. El Sony sigue siendo superior en entornos muy ruidosos y en calidad de construcción, pero para un home office estándar, los Soundcore son la compra con mejor relación calidad-precio del catálogo en esta categoría.",
+    conclusion: "Los Soundcore Space One no son un Sony WH-1000XM5, pero tampoco juegan en la misma gama: desde la gama media ofrecen ANC adaptativa, audio LDAC y más autonomía, cubriendo de sobra las necesidades de concentración de la mayoría de teletrabajadores. El Sony sigue siendo superior en entornos muy ruidosos y en calidad de construcción, pero para un home office estándar, los Soundcore son la compra con mejor relación calidad-precio del catálogo en esta categoría.",
     faqs: [
       { q: "¿Qué significa ANC 'adaptativa'?", a: "Que el nivel de cancelación de ruido se ajusta automáticamente según el ruido detectado en el entorno, en lugar de aplicar siempre la misma intensidad fija. Esto evita la sensación de presión en los oídos que puede generar un ANC muy agresivo en entornos ya silenciosos." },
       { q: "¿Sirven para videollamadas de trabajo?", a: "El micrófono es correcto para llamadas ocasionales, pero no tienen la certificación oficial para plataformas UC (Teams, Zoom) que sí tiene un Jabra Evolve2. Para uso mixto de música, concentración y videollamadas ocasionales cumplen bien; para uso profesional intensivo de videollamadas, un headset certificado es más fiable." },
@@ -1239,7 +1404,7 @@ export default async function BlogPostPage({ params }: Props) {
     "@type": "Organization",
     name: "Equipo Editorial de Emprende Digital",
     url: "https://www.emprendedigital.es/sobre-nosotros",
-    description: "Equipo editorial de Emprende Digital (Mkt Web 360 SLU). Comparamos especificaciones, precios y opiniones verificadas antes de recomendar productos, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Emprende Digital (Mkt Web 360 SLU). Comparamos especificaciones y características antes de recomendar productos, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["productividad digital", "trabajo remoto", "herramientas SaaS", "ergonomía en oficina", "emprendimiento digital", "equipamiento para home office"],
   };
 
@@ -1335,7 +1500,7 @@ export default async function BlogPostPage({ params }: Props) {
               <p className="text-xs font-bold text-indigo-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
               <p className="text-gray-800 font-medium leading-relaxed">{post.excerpt}</p>
             </div>
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">{content.intro}</p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-8">{withInternalLinks(content.intro)}</p>
 
             {content.sections.map((section) => {
               const found = section.productSlug ? getProductBySlug(section.productSlug) : undefined;
@@ -1343,7 +1508,7 @@ export default async function BlogPostPage({ params }: Props) {
               return (
                 <section key={section.heading} className="mb-8">
                   <h2 className="text-xl font-extrabold text-gray-900 mb-3">{section.heading}</h2>
-                  <p className="text-gray-700 leading-relaxed">{section.body}</p>
+                  <p className="text-gray-700 leading-relaxed">{withInternalLinks(section.body)}</p>
                   {ctaProduct && (
                     <a
                       href={amazonLink(ctaProduct.asin)}
@@ -1388,12 +1553,12 @@ export default async function BlogPostPage({ params }: Props) {
 
             <section className="mb-8 bg-gray-50 border border-gray-200 rounded-xl p-5">
               <h2 className="text-lg font-extrabold text-gray-900 mb-3">Conclusión</h2>
-              <p className="text-gray-700 leading-relaxed">{content.conclusion}</p>
+              <p className="text-gray-700 leading-relaxed">{withInternalLinks(content.conclusion)}</p>
             </section>
             {content.sources && content.sources.length > 0 && (
               <div className="mt-2 mb-6 pt-3 border-t border-gray-100">
                 <p className="text-xs text-gray-400 font-medium mb-1">Referencias</p>
-                <ul className="space-y-0.5">{content.sources.map((src, i) => (<li key={i}><a href={src.url} target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">{src.label}</a></li>))}</ul>
+                <ul className="space-y-0.5">{content.sources.map((src, i) => (<li key={i}><a href={src.url} target="_blank" rel={src.url.includes("amazon.") ? "nofollow noopener noreferrer sponsored" : "noopener"} className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">{src.label}</a></li>))}</ul>
               </div>
             )}
 
