@@ -215,44 +215,92 @@ const articleContent: Record<string, {
     ],
   },
   "mejor-silla-ergonomica-home-office-2025": {
-    intro: "Pasar 8 horas al día en una silla de mala calidad acaba generando dolor lumbar, cervical y una productividad mermada que no compensa el ahorro inicial. Esta guía compara las dos mejores sillas ergonómicas del catálogo para home office —la HOLLUDLE y la Ticova— en dos rangos de precio distintos, para que elijas según tus horas de uso y tu presupuesto.",
+    intro: "Una silla ergonómica de escritorio es una silla de oficina que puedes ajustar a tu cuerpo: altura y profundidad del asiento, soporte lumbar en altura y profundidad, reposabrazos y un respaldo reclinable que se puede bloquear. Como recuerda el INSST en su NTP 1129, no existe una «silla ergonómica» universal, sino la que se adapta a la persona y a la tarea. Aquí tienes qué mirar en cada ajuste según el INSST y la norma UNE-EN 1335, cómo regularla paso a paso, cuándo compensa una silla gaming y una comparativa de las sillas de oficina ergonómicas del catálogo.",
     sections: [
       {
-        heading: "Los 5 criterios que definen una silla ergonómica real",
-        body: "Antes de mirar marcas conviene tener claros los cinco criterios que separan una silla ergonómica de una silla de oficina con marketing. Primero, soporte lumbar que acompañe la curvatura de la columna, mejor si es ajustable y no un simple cojín fijo. Segundo, altura del asiento regulable en un rango amplio (de unos 40 a 52 cm) para adaptar los pies al suelo. Tercero, reposabrazos ajustables en varios ejes, no fijos. Cuarto, un respaldo que reclina y acompaña el movimiento en lugar de mantenerte rígido a 90°. Y quinto, materiales transpirables si vas a pasar muchas horas sentado. No todas las sillas cumplen los cinco, y saber cuáles priorizas es lo que decide la compra.",
+        heading: "Nuestras recomendaciones rápidas",
+        body: "Presupuesto ajustado: la SONGMICS, con lumbar regulable en altura y profundidad, reposabrazos 4D y respaldo de 90° a 135°. Gama media de malla y la más completa en ajustes: la ProtoArc EC200 Pro, con profundidad de asiento, lumbar en dos direcciones y reposabrazos 4D. Respaldo alto con reposacabezas: la HOLLUDLE. Si te reclinas a menudo: la Ergotopia PureBack, con mecanismo sincronizado. Gama alta de marca: la Steelcase Series 2, con garantía limitada de por vida. Todas están en la [categoría de sillas de oficina ergonómicas](/tienda/sillas-ergonomicas) y la tabla del final resume sus ajustes.",
+        productSlug: "protoarc-ec200-pro-silla-malla-reposabrazos-4d",
       },
       {
-        heading: "HOLLUDLE: para quien pasa 8+ horas sentado",
-        body: "La HOLLUDLE es la opción más completa del catálogo y la que mejor cumple los cinco criterios. Su respaldo adaptativo de alto respaldo acompaña el movimiento del cuerpo en lugar de imponer una postura rígida, en vez de depender de un mecanismo lumbar independiente. Los reposabrazos 4D se mueven en altura, profundidad, anchura y ángulo, algo determinante para colocar los antebrazos a la altura correcta del teclado. Suma profundidad de asiento ajustable —para adaptar el respaldo a la longitud de tus piernas— y reposacabezas 2D regulable. A favor: el respaldo adaptativo, los reposabrazos 4D y la profundidad de asiento ajustable. En contra: el mecanismo de reclinación podría ser más suave, el montaje requiere cierto tiempo y no incluye reposapiés.",
+        heading: "Qué hace ergonómica a una silla de oficina",
+        body: "En un puesto con ordenador, el [Real Decreto 488/1997](https://www.boe.es/buscar/act.php?id=BOE-A-1997-8671) pide tres cosas a la silla: que sea estable y deje libertad de movimiento, que la altura del asiento sea regulable y que el respaldo sea reclinable y de altura ajustable. La guía técnica del INSST, que recoge la [NTP 1129](https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.129-criterios-ergonomicos-para-la-seleccion-de-sillas-de-oficina), añade un respaldo con una suave prominencia lumbar, profundidad de asiento regulable, mandos que se manejen sentado y no cambien solos, cinco puntos de apoyo y ruedas adecuadas al suelo. Esa es la lista mínima; el reposacabezas o unos reposabrazos 4D suman comodidad, pero no sustituyen a estos ajustes.",
+      },
+      {
+        heading: "Soporte lumbar ajustable: en altura y en profundidad",
+        body: "El soporte lumbar es la pieza que más se nota en una jornada larga. Según la NTP 1129, cuando parte del peso del cuerpo se transfiere al respaldo a la altura lumbar, la carga en esa zona de la columna es menor y se reduce la presión en los discos. Para que eso ocurra, el apoyo tiene que quedar justo en tu curva lumbar, y por eso importa que se regule en dos ejes: la NTP 1130 indica que el respaldo debe acercarse al cuerpo y ajustarse a la altura lumbar. Un lumbar fijo solo funciona si coincide con tu espalda; uno regulable en altura y profundidad, como el de la SONGMICS, la Ticova, la Hbada P5 o la ProtoArc EC200 Pro (6 cm en altura y 2 cm en profundidad), se adapta a más personas que un cojín suelto que se desplaza.",
+        productSlug: "songmics-silla-oficina-ergonomica-lumbar-4d",
+      },
+      {
+        heading: "Profundidad de asiento: el ajuste que más se olvida",
+        body: "La profundidad del asiento decide si puedes apoyar la espalda en el respaldo sin que el borde te presione detrás de las rodillas. La NTP 1130 da una referencia sencilla: sentado y con la espalda apoyada, deben quedar unos 5 cm libres entre el borde del asiento y la corva, más o menos un puño cerrado. La norma UNE-EN 1335-1, según recoge el INSST, recomienda una profundidad de asiento de entre 400 y 420 mm, y la NTP 1129 añade que, si la profundidad es fija, es más importante que la espalda quede bien apoyada que apoyar todo el muslo. En el catálogo regulan la profundidad la HOLLUDLE, la ProtoArc EC200 Pro (hasta 5 cm en 5 posiciones), la CLOUVOU, la Ergotopia PureBack y la Steelcase Series 2.",
         productSlug: "sihoo-m57-silla-ergonomica",
       },
       {
-        heading: "Ticova: el equilibrio calidad-precio",
-        body: "La Ticova es una silla ergonómica de gama de entrada, y su argumento es la comodidad para reclinarse. Su respaldo alto de malla transpirable llega hasta 130° de reclinación, con soporte lumbar ajustable y reposabrazos 3D, prácticos para el día a día sin necesitar el ajuste de profundidad de un modelo 4D. Pesa 18 kg. A favor: la reclinación hasta 130°, los reposabrazos 3D y su precio contenido. En contra: el soporte lumbar no es tan avanzado como en la gama superior, la base es de plástico y no tiene reposacabezas ajustable en profundidad, así que si buscas máxima personalización postural se queda por detrás de la HOLLUDLE.",
+        heading: "Reposabrazos 2D, 3D o 4D: qué significa cada letra",
+        body: "La «D» cuenta las direcciones en las que se mueve el reposabrazos: altura, avance y retroceso, desplazamiento lateral y giro. No hay una definición normalizada de cuáles entran en cada cifra, así que mira la ficha: la ProtoArc EC200 Pro detalla altura, avance, desplazamiento lateral y giro de hasta 30°, y la HOLLUDLE, movimiento a izquierda y derecha, altura, avance y giro de 15°. Lo importante es poder ponerlos a la altura correcta. La NTP 1130 indica que, con los hombros relajados y los codos a 90°, el reposabrazos debe quedar justo donde roza el codo, y que si no se puede regular es mejor retirarlo. La NTP 1129 añade que no deben impedir acercar la silla a la mesa.",
+      },
+      {
+        heading: "Mecanismo: basculante, sincronizado y bloqueo del respaldo",
+        body: "En un mecanismo basculante simple, asiento y respaldo se inclinan juntos, como una sola pieza. En uno sincronizado, el respaldo se reclina más que el asiento y ambos se mueven coordinados, de modo que la espalda sigue apoyada al cambiar de postura; es el que lleva la Ergotopia PureBack. La NTP 1129 recomienda que el respaldo se pueda fijar en varias posiciones, o al menos en tres, con mecanismo antirretorno, y que su tensión se adapte al peso del usuario en un intervalo de 44 a 105 kg. En la Steelcase Series 2, la basculación se activa con el peso de quien se sienta. Si alternas entre teclear erguido y leer reclinado, un buen bloqueo vale más que unos grados extra de reclinación.",
+        productSlug: "ergotopia-pureback-silla-mecanismo-sincronizado",
+      },
+      {
+        heading: "Malla o espuma: transpiración frente a acolchado",
+        body: "La NTP 1129 pide que asiento y respaldo sean de materiales transpirables y, en las mallas, que el respaldo tenga una tensión progresiva que dé apoyo real y no se limite a ceder. La malla es la opción más fresca en verano; la espuma es más cálida y mullida. Muchas sillas combinan respaldo de malla y asiento de espuma, como la SONGMICS, la Ergotopia PureBack o la Ticova, con 8,6 cm de espuma de alta densidad en el asiento. Si sudas mucho o trabajas en un ático, la ProtoArc EC200 Pro y la CLOUVOU llevan malla también en el asiento.",
         productSlug: "hbada-silla-ergonomica-pro",
       },
       {
-        heading: "¿Cuál elegir según tu perfil?",
-        body: "Si trabajas más de seis horas diarias y quieres configurar la silla a tu morfología exacta —reposabrazos 4D, profundidad de asiento ajustable y reposacabezas—, la HOLLUDLE es la compra correcta y la diferencia de precio se amortiza en confort a lo largo de los años. Si tus jornadas son más cortas, valoras poder reclinarte hasta 130° para las pausas y no necesitas ni reposacabezas en profundidad ni reposabrazos 4D, la Ticova entrega casi toda la comodidad por menos dinero. Un criterio práctico: cuanto más tiempo pases sentado y más específica sea tu postura, más valor tiene la capacidad de ajuste de la HOLLUDLE. Y si tu mesa es fija y no deja el teclado a la altura del codo, la silla sola no lo arregla: revisa nuestra [guía del escritorio elevable](/blog/escritorio-regulable-altura-home-office) para calcular la altura que necesitas y alternar entre sentado y de pie.",
+        heading: "Tu altura, tu peso y la altura de tu mesa",
+        body: "Las sillas que siguen la serie de normas UNE-EN 1335 están pensadas, según el INSST, para usuarios de entre 1,51 y 1,92 m y de menos de 110 kg. La silla de tipo A, la de mayor rango, regula la altura del asiento como mínimo entre 400 y 510 mm, y la norma recomienda un asiento de al menos 400 mm de ancho; el INSST advierte de que el percentil 95 de la población española mide 417 mm de anchura de cadera sentado, así que conviene un asiento algo más ancho que ese mínimo. Fuera de esos rangos, mira la carga máxima y la altura de usuario de cada ficha: la ProtoArc EC200 Pro está pensada para unos 163-185 cm, la SONGMICS admite hasta 195 cm y la Secretlab Titan Evo se vende en tallas. La mesa manda tanto como la silla: con una mesa fija, la NTP 1130 indica subir la silla hasta que los codos queden a la altura del tablero y, si los pies no llegan al suelo, usar un reposapiés (inclinable de 0° a 15° y de al menos 45 × 35 cm, según la guía técnica del INSST). La Hbada P5 trae uno retráctil integrado. Si puedes cambiar de mesa, un [escritorio elevable](/blog/escritorio-regulable-altura-home-office) ajusta la mesa a ti y no al revés.",
+        productSlug: "hbada-silla-ergonomica-malla-oficina",
+      },
+      {
+        heading: "Cómo ajustar tu silla ergonómica en 7 pasos",
+        body: "Estos pasos siguen la [NTP 1130 del INSST](https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.130-criterios-ergonomicos-para-regular-correctamente-la-silla-de-oficina-y-otras-sillas-alternativas). Uno: de pie delante de la silla, sube o baja el asiento hasta que quede justo por debajo de la rodilla. Dos: siéntate con los pies apoyados en el suelo. Tres: ajusta la profundidad hasta dejar unos 5 cm, un puño, entre el borde del asiento y la corva. Cuatro: acerca el respaldo al cuerpo y coloca el lumbar a la altura de tu curva lumbar. Cinco: con los hombros relajados y los codos a 90°, sube o baja los reposabrazos hasta que rocen el codo. Seis: inclina el respaldo o el asiento hasta que te resulte cómodo y, si la silla lo permite, bloquéalo o ajusta la tensión. Siete: revisa la mesa; si tienes que levantar los brazos para apoyar los antebrazos, la mesa está alta, así que sube la silla y añade un reposapiés. Lee las instrucciones del fabricante para saber dónde está cada mando y, por último, coloca el monitor de modo que la primera línea de texto no quede por encima de los ojos.",
+      },
+      {
+        heading: "Silla gaming o silla ergonómica de oficina",
+        body: "Muchas sillas gaming tienen forma de baquet, con laterales elevados y cojines sueltos para la zona lumbar y el cuello. Esa forma sujeta el cuerpo, pero limita los cambios de postura, y los cojines sueltos se desplazan. No todas son iguales: la Secretlab Titan Evo lleva el lumbar integrado en el respaldo y ajustable en cuatro direcciones, cojín cervical magnético, reposabrazos 4D metálicos y tres tallas; la Regular es para 170-189 cm y menos de 130 kg. Su ficha no indica ajuste de profundidad de asiento. Juzga cualquier silla, gaming o de oficina, por los ajustes de esta guía y no por la estética: para jornadas con mucho teclado suele encajar mejor una silla de oficina; si además juegas y te reclinas a menudo, una gaming bien elegida es válida.",
+        productSlug: "secretlab-titan-evo-2022-silla",
+      },
+      {
+        heading: "Gama alta: qué pagas en una silla de marca",
+        body: "En una silla de un fabricante de mobiliario de oficina pagas menos por la lista de ajustes, que una gama media ya puede tener, y más por los mecanismos, la durabilidad y la garantía. La Steelcase Series 2 regula la altura y la profundidad del asiento, el lumbar, los brazos y las posiciones del mecanismo, se fabrica en Francia y tiene garantía limitada de por vida. La hjh OFFICE Ergohuman Slim GEN2 es otra opción premium de malla con soporte lumbar flexible; la revisamos en nuestro [análisis de la Ergohuman Slim GEN2](/blog/hjh-office-ergohuman-slim-gen2-analisis). Compensa si vas a pasar muchas horas sentado durante años y valoras la garantía del fabricante; con un presupuesto limitado, una silla de gama media bien ajustada cubre lo esencial.",
+        productSlug: "steelcase-series-2-silla-ergonomica",
+      },
+      {
+        heading: "Errores frecuentes al elegir y usar una silla ergonómica",
+        body: "Elegir por el número de «D» de los reposabrazos sin mirar si el asiento regula la profundidad. Dejar el lumbar donde viene de fábrica. Subir la silla para llegar a la mesa y dejar los pies colgando. Llevar los reposabrazos más altos que la mesa, lo que impide acercarte y sube los hombros. Comprar sin mirar la carga máxima ni la altura de usuario. Usar una pelota de ejercicio o un asiento de rodillas como silla principal: la NTP 1130 no los considera alternativas adecuadas para un uso continuado, porque dificultan los cambios de postura. Y pensar que la silla lo resuelve todo: el INSST recuerda que alternar posturas no elimina la necesidad de pausas. Si ya tienes molestias, revisa [las causas del dolor de espalda al trabajar en casa](/blog/dolor-espalda-trabajar-casa-soluciones) y [cómo montar un home office productivo](/blog/home-office-setup-productivo-guia).",
       },
     ],
     comparison: {
-      headers: ["Criterio", "HOLLUDLE", "Ticova"],
+      headers: ["Silla", "Material", "Lumbar", "Profundidad de asiento", "Reposabrazos", "A destacar", "Vendedor"],
       rows: [
-        ["Respaldo", "Adaptativo, alto respaldo", "Malla, alto respaldo"],
-        ["Reposabrazos", "4D", "3D"],
-        ["Profundidad de asiento", "Ajustable", "No especificada"],
-        ["Reposacabezas", "2D regulable", "No ajustable en profundidad"],
-        ["Reclinación", "No especificada por el fabricante", "Hasta 130°"],
-        ["Mejor para", "Jornadas largas y personalización", "Equilibrio y reclinado cómodo"],
+        ["SONGMICS lumbar y 4D", "Respaldo de malla, asiento de espuma", "Altura y profundidad", "No", "4D", "Reposacabezas 2D, 90-135°, 150 kg", "Amazon"],
+        ["Ticova", "Respaldo de malla, asiento de espuma", "Altura y profundidad", "No indicada", "3D", "Reclina hasta 130°", "Amazon"],
+        ["HOLLUDLE", "Malla, respaldo adaptativo", "Regulable", "Sí", "4D", "Reposacabezas 2D, EN 1335", "Amazon"],
+        ["CLOUVOU", "Malla en asiento y respaldo", "Regulable", "Sí", "2D", "Reposacabezas 2D, 150 kg", "Tercero"],
+        ["Hbada P5", "Cojín elástico transpirable", "Altura y profundidad", "No indicada", "Regulables en altura", "Reposapiés integrado, 135°", "Amazon"],
+        ["ProtoArc EC200 Pro", "Malla en asiento y respaldo", "6 cm en altura, 2 cm en profundidad", "Sí, hasta 5 cm", "4D, giro de 30°", "EN 1335 y BIFMA, 163-185 cm", "Amazon"],
+        ["Ergotopia PureBack", "Respaldo de malla, asiento de espuma", "Dinámico", "Sí", "4D", "Mecanismo sincronizado", "Tercero"],
+        ["Secretlab Titan Evo (R)", "Tejido y espuma", "Integrado, 4 direcciones", "No indicada", "4D metálicos", "Tallas; R: 170-189 cm", "Tercero"],
+        ["Steelcase Series 2", "Respaldo de malla", "Regulable", "Sí", "Regulables", "Garantía limitada de por vida", "Amazon"],
+        ["hjh Ergohuman Slim GEN2", "Malla", "Flexible", "No indicada", "No indicado", "Gama premium", "Amazon"],
       ],
     },
-    conclusion: "Para jornadas de más de seis horas diarias, la HOLLUDLE se amortiza en salud y productividad gracias a su respaldo adaptativo y sus reposabrazos 4D: es la silla que mejor puedes configurar a tu cuerpo. Si buscas una silla cómoda para reclinarte, priorizas el precio y no necesitas el ajuste de profundidad de asiento, la Ticova es la compra más inteligente. Ninguna de las dos sustituye a las pausas activas cada hora, pero ambas eliminan el dolor postural que provoca una silla mala.",
+    conclusion: "La mejor silla ergonómica de escritorio es la que puedes ajustar a tu cuerpo y que de verdad ajustas: altura y profundidad del asiento, lumbar en altura y profundidad y reposabrazos a la altura del codo. Con eso claro, elige por presupuesto y uso, ajústala con los siete pasos de esta guía y no olvides las pausas. Tienes todos los modelos en la [tienda de sillas de oficina ergonómicas](/tienda/sillas-ergonomicas).",
+    sources: [
+      { label: "INSST — NTP 1129: Criterios ergonómicos para la selección de sillas de oficina", url: "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.129-criterios-ergonomicos-para-la-seleccion-de-sillas-de-oficina" },
+      { label: "INSST — NTP 1130: Criterios ergonómicos para regular correctamente la silla de oficina y otras sillas alternativas", url: "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.130-criterios-ergonomicos-para-regular-correctamente-la-silla-de-oficina-y-otras-sillas-alternativas" },
+      { label: "BOE — Real Decreto 488/1997, sobre trabajo con equipos que incluyen pantallas de visualización", url: "https://www.boe.es/buscar/act.php?id=BOE-A-1997-8671" },
+    ],
     faqs: [
-      { q: "¿Vale la pena invertir en una silla de gama media o alta?", a: "Si trabajas desde casa más de seis horas diarias, sí. El coste diario de una silla ergonómica de gama media usada durante cinco años es inferior al de un café. El coste de una consulta de fisioterapia por dolor lumbar crónico multiplica ese gasto varias veces, así que la silla correcta es una de las inversiones con mejor retorno de un home office." },
-      { q: "¿Cuánto dura una silla ergonómica de calidad?", a: "Con uso doméstico normal (un usuario, 8 horas al día), entre 8 y 15 años. En las sillas de malla, el tejido suele degradarse antes que la estructura metálica. La garantía es un buen indicador de calidad: una garantía muy corta en una silla cara es una señal de alerta sobre la confianza del propio fabricante en su producto." },
-      { q: "¿Es mejor la silla de malla o la de tela?", a: "Para climas cálidos o personas que sudan mucho, la malla es más transpirable y mantiene la espalda fresca en verano. Para climas fríos, la tela o el cuero resultan más cómodos en invierno. Como contrapartida, la malla tiene menor vida útil que un buen tapizado de tela o cuero de calidad. Las dos sillas de esta guía son de malla, la opción más habitual en España." },
-      { q: "¿Se puede montar una silla ergonómica sin ayuda?", a: "Sí, la mayoría se monta en 20-40 minutos siguiendo las instrucciones, y tanto la HOLLUDLE como la Ticova incluyen herramientas y manual. Conviene tener cerca a alguien para sostener el respaldo durante el momento de fijarlo al asiento, aunque no es imprescindible." },
+      { q: "¿Qué es una silla ergonómica de oficina?", a: "Una silla que se adapta a quien la usa: altura de asiento regulable, respaldo reclinable y de altura ajustable con apoyo lumbar y, idealmente, profundidad de asiento y reposabrazos regulables. Es lo que pide, como mínimo, el Real Decreto 488/1997 en los puestos con pantalla." },
+      { q: "¿A qué altura debe estar el asiento?", a: "De pie delante de la silla, justo por debajo de la rodilla, según la NTP 1130 del INSST; al sentarte, los pies deben apoyar en el suelo. La silla de tipo A de la norma UNE-EN 1335 regula como mínimo entre 400 y 510 mm." },
+      { q: "¿Es mejor una silla de malla o de espuma?", a: "La malla transpira mejor y es más fresca en verano; la espuma es más cálida y mullida. Muchas combinan respaldo de malla y asiento de espuma. Lo importante es que el respaldo dé apoyo real." },
+      { q: "¿Sirve una silla gaming para teletrabajar?", a: "Sí, si tiene lumbar integrado y ajustable y la talla correcta, como la Secretlab Titan Evo. Para jornadas de oficina largas suele encajar mejor una silla de oficina con profundidad de asiento regulable." },
+      { q: "¿Qué reposabrazos necesito, 3D o 4D?", a: "Los que puedas dejar a la altura del codo, con los hombros relajados y el brazo a 90°, sin que te impidan acercarte a la mesa. Los 4D añaden direcciones de ajuste, pero lo decisivo es la altura." },
     ],
   },
 
@@ -345,7 +393,7 @@ const articleContent: Record<string, {
     sections: [
       {
         heading: "El orden correcto de inversión",
-        body: "El error más común es empezar por lo llamativo en lugar de por lo que más impacta. El orden que prioriza el rendimiento real es este: primero la silla ergonómica, porque afecta directamente a la salud y a la concentración durante toda la jornada. Segundo, el monitor, que es el elemento que más horas miras. Tercero, la iluminación, que mejora tu imagen en videollamada y reduce la fatiga visual. Cuarto, teclado y ratón ergonómicos, por la salud de manos y muñecas. Quinto, el escritorio regulable, por la mejora postural a largo plazo. Y sexto, la organización y la gestión de cables. Este orden prioriza el impacto sobre la productividad, no la espectacularidad del montaje.",
+        body: "El error más común es empezar por lo llamativo en lugar de por lo que más impacta. El orden que prioriza el rendimiento real es este: primero la [silla ergonómica](/blog/mejor-silla-ergonomica-home-office-2025), porque afecta directamente a la salud y a la concentración durante toda la jornada. Segundo, el monitor, que es el elemento que más horas miras. Tercero, la iluminación, que mejora tu imagen en videollamada y reduce la fatiga visual. Cuarto, teclado y ratón ergonómicos, por la salud de manos y muñecas. Quinto, el escritorio regulable, por la mejora postural a largo plazo. Y sexto, la organización y la gestión de cables. Este orden prioriza el impacto sobre la productividad, no la espectacularidad del montaje.",
       },
       {
         heading: "El mínimo viable para empezar",
@@ -393,7 +441,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "La solución más impactante: la silla correcta",
-        body: "Un buen soporte lumbar es el elemento individual más importante para prevenir el dolor de espalda. No un cojín que se desplaza y pierde firmeza, sino un respaldo que acompaña la curvatura real de la columna. La HOLLUDLE, con su respaldo adaptativo, acompaña el movimiento del cuerpo en lugar de imponer una postura rígida, de modo que la zona lumbar queda apoyada de forma más natural. Sumado a los reposabrazos 4D y a la profundidad de asiento ajustable, que descargan los hombros y adaptan la silla a la longitud de tus piernas, es la solución que más problemas posturales resuelve de un solo cambio.",
+        body: "Un buen soporte lumbar es el elemento individual más importante para prevenir el dolor de espalda. No un cojín que se desplaza y pierde firmeza, sino un respaldo que acompaña la curvatura real de la columna. La HOLLUDLE, con su respaldo adaptativo, acompaña el movimiento del cuerpo en lugar de imponer una postura rígida, de modo que la zona lumbar queda apoyada de forma más natural. Sumado a los reposabrazos 4D y a la profundidad de asiento ajustable, que descargan los hombros y adaptan la silla a la longitud de tus piernas, es la solución que más problemas posturales resuelve de un solo cambio. Si estás eligiendo silla, tienes los ajustes que importan y cómo regularlos en nuestra [guía de la silla ergonómica de oficina](/blog/mejor-silla-ergonomica-home-office-2025).",
         productSlug: "sihoo-m57-silla-ergonomica",
       },
       {
@@ -1013,28 +1061,28 @@ const articleContent: Record<string, {
         productSlug: "dell-s2725qc-monitor-4k-usbc",
       },
       {
-        heading: "BenQ GW2790 — el mejor para protección ocular",
-        body: "Full HD 27\" con certificación Eyesafe (el estándar independiente más exigente en protección ocular), brillo automático adaptativo, altavoces integrados y panel IPS. Para quienes priorizan el confort visual en jornadas largas por encima de la resolución máxima.",
+        heading: "BenQ GW2790P — el mejor para protección ocular",
+        body: "Full HD 27\" a 120 Hz con certificación Eyesafe 2.0 y calificación TÜV Eye Comfort de 3 estrellas, sin parpadeo, con luz azul reducida y panel IPS con un 99 % de sRGB. Es la versión actual de la serie GW2790. Para quienes priorizan el confort visual en jornadas largas por encima de la resolución máxima; ten en cuenta que no tiene USB-C con carga.",
         productSlug: "benq-gw2790-monitor-eye-care",
       },
     ],
     comparison: {
-      headers: ["Criterio", "LG 27U730A-B", "Dell S2725QC", "BenQ GW2790"],
+      headers: ["Criterio", "LG 27U730A-B", "Dell S2725QC", "BenQ GW2790P"],
       rows: [
         ["Resolución", "4K UHD", "4K UHD", "Full HD"],
         ["Panel", "IPS", "IPS", "IPS"],
-        ["Frecuencia", "60Hz", "120Hz", "100Hz"],
+        ["Frecuencia", "60Hz", "120Hz", "120Hz"],
         ["USB-C carga", "Sí", "Sí", "No"],
-        ["Altavoces", "No", "Sí", "Sí"],
-        ["Eye-Care", "LG Eye Care", "Comfortview Plus TÜV", "Eyesafe certificado"],
+        ["Altavoces", "No", "Sí", "No indicados"],
+        ["Eye-Care", "LG Eye Care", "Comfortview Plus TÜV", "Eyesafe 2.0 + TÜV 3 estrellas"],
         ["Mejor para", "Texto y nitidez 4K", "Todo en uno home office", "Protección ocular máxima"],
       ],
     },
-    conclusion: "Para la mayoría de trabajadores remotos, el Dell S2725QC es la compra más completa: 4K, 120Hz, USB-C y altavoces integrados en un solo monitor. El LG es la opción si priorizas la nitidez 4K pura. El BenQ GW2790 es la elección correcta si las jornadas largas generan fatiga visual y priorizas la certificación de protección ocular independiente.",
+    conclusion: "Para la mayoría de trabajadores remotos, el Dell S2725QC es la compra más completa: 4K, 120Hz, USB-C y altavoces integrados en un solo monitor. El LG es la opción si priorizas la nitidez 4K pura. El BenQ GW2790P es la elección correcta si las jornadas largas generan fatiga visual y priorizas la certificación de protección ocular independiente.",
     faqs: [
       { q: "¿Merece la pena el 4K en un monitor de 27 pulgadas para trabajar?", a: "Sí, especialmente para trabajo con texto, código o diseño. La diferencia de nitidez respecto a Full HD es claramente visible en 27\". Para videoconferencias o trabajo con aplicaciones, Full HD es suficiente pero 4K mejora la experiencia general." },
       { q: "¿Necesito USB-C en el monitor si tengo un portátil moderno?", a: "Sí, es la feature que más comodidad aporta. Un cable USB-C transmite vídeo 4K y carga el portátil simultáneamente. Elimina el cargador del escritorio y reduce el caos de cables." },
-      { q: "¿Qué diferencia hay entre Flicker-Free y Eyesafe?", a: "Flicker-Free elimina el parpadeo del backlight LED. Eyesafe es una certificación independiente más completa que verifica que el espectro de luz emitido cumple estándares de salud ocular. BenQ GW2790 tiene ambas; es el más riguroso en protección ocular del catálogo." },
+      { q: "¿Qué diferencia hay entre Flicker-Free y Eyesafe?", a: "Flicker-Free elimina el parpadeo del backlight LED. Eyesafe es una certificación independiente más completa que verifica que el espectro de luz emitido cumple estándares de salud ocular. El BenQ GW2790P tiene ambas; es el más riguroso en protección ocular del catálogo." },
       { q: "¿Puedo conectar un Mac con estos monitores?", a: "Sí. Los tres son compatibles con Mac vía USB-C o HDMI/DisplayPort. El Dell S2725QC con USB-C funciona especialmente bien con MacBook Pro y Air: un cable para vídeo y carga." },
     ],
   },
@@ -1052,7 +1100,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Cuándo Full HD es suficiente",
-        body: "Full HD es suficiente si: el monitor tiene 24\" o menos, usas el monitor principalmente para videoconferencias y aplicaciones de gestión, o el presupuesto es el criterio principal. El BenQ GW2790 Full HD a menor precio con certificación Eyesafe es una elección legítima para quien prioriza el confort ocular sobre la resolución.",
+        body: "Full HD es suficiente si: el monitor tiene 24\" o menos, usas el monitor principalmente para videoconferencias y aplicaciones de gestión, o el presupuesto es el criterio principal. El BenQ GW2790P, Full HD a menor precio con certificación Eyesafe 2.0, es una elección legítima para quien prioriza el confort ocular sobre la resolución.",
         productSlug: "benq-gw2790-monitor-eye-care",
       },
       {
@@ -1062,7 +1110,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "La recomendación para la mayoría",
-        body: "Para un home office de 27\", el salto a 4K vale la pena si el presupuesto lo permite. El Dell S2725QC con 4K a 120Hz y USB-C es el monitor que mejor resuelve todas las necesidades de trabajo remoto en un solo producto. Si el presupuesto es ajustado o el monitor es de 24\", el BenQ GW2790 Full HD con Eyesafe es la opción más inteligente.",
+        body: "Para un home office de 27\", el salto a 4K vale la pena si el presupuesto lo permite. El Dell S2725QC con 4K a 120Hz y USB-C es el monitor que mejor resuelve todas las necesidades de trabajo remoto en un solo producto. Si el presupuesto es ajustado o el monitor es de 24\", el BenQ GW2790P Full HD con Eyesafe es la opción más inteligente.",
         productSlug: "lg-27u730-monitor-4k",
       },
     ],
@@ -1077,7 +1125,7 @@ const articleContent: Record<string, {
         ["Vale la pena en 27\"", "Solo con presupuesto limitado", "Sí, claramente"],
       ],
     },
-    conclusion: "En 27\", el 4K es la elección correcta si el presupuesto lo permite. La diferencia en nitidez de texto es real y reduce la fatiga visual en jornadas largas. Si el presupuesto no llega al 4K, el BenQ GW2790 Full HD con Eyesafe es mejor opción que un 4K barato con mala protección ocular.",
+    conclusion: "En 27\", el 4K es la elección correcta si el presupuesto lo permite. La diferencia en nitidez de texto es real y reduce la fatiga visual en jornadas largas. Si el presupuesto no llega al 4K, el BenQ GW2790P Full HD con Eyesafe es mejor opción que un 4K barato con mala protección ocular.",
     faqs: [
       { q: "¿Puede mi portátil mover un monitor 4K?", a: "Cualquier MacBook con chip M1 o superior sí. En Windows, cualquier portátil con tarjeta gráfica dedicada desde 2019-2020 también. Los portátiles de gama básica con gráficos integrados antiguos pueden tener limitaciones. Verifica que tu portátil tenga puerto USB-C con DisplayPort Alt Mode o HDMI 2.0." },
       { q: "¿A qué escala hay que poner un monitor 4K en Windows?", a: "125% es el punto de equilibrio óptimo en 27\": el texto se ve nítido y el contenido cabe bien en pantalla. Al 100% todo se ve muy pequeño. Al 150% pierdes parte de la ventaja de espacio del 4K. En macOS la escala HiDPI es automática y transparente." },

@@ -29,6 +29,10 @@ const categorySeo: Record<string, { title: string; description: string }> = {
     title: "Mesa escritorio elevable y convertidores",
     description: "Mesas de escritorio elevables eléctricas de 100×60 a 160×80 cm, de uno y dos motores, y un convertidor de sobremesa. Rango de altura, carga y memorias.",
   },
+  "sillas-ergonomicas": {
+    title: "Sillas de oficina ergonómicas: comparativa",
+    description: "Sillas de oficina ergonómicas con lumbar ajustable, profundidad de asiento y reposabrazos 3D/4D, de malla o espuma, de gama económica a Steelcase.",
+  },
 };
 
 const buyingGuides: Record<string, { title: string; paragraphs: string[] }> = {
@@ -81,11 +85,11 @@ const buyingGuides: Record<string, { title: string; paragraphs: string[] }> = {
     ],
   },
   "sillas-ergonomicas": {
-    title: "¿Cómo elegir la silla ergonómica correcta?",
+    title: "¿Cómo elegir una silla de oficina ergonómica?",
     paragraphs: [
-      "Los ajustes imprescindibles: altura del asiento, profundidad del asiento, soporte lumbar ajustable en altura y profundidad, y reposabrazos ajustables. Sin estos ajustes, una silla no puede adaptarse a tu cuerpo.",
-      "Para uso intensivo (8+ horas/día), apunta al menos a la gama media. En la gama de entrada es difícil encontrar una silla con todos los ajustes ergonómicos necesarios para jornadas largas.",
-      "El respaldo de malla transpirable es la mejor opción en climas mediterráneos y habitaciones que se calientan. El tapizado de cuero es más cálido y premium en apariencia pero retiene más el calor.",
+      "Los ajustes imprescindibles: altura del asiento, profundidad del asiento, soporte lumbar ajustable en altura y profundidad, y reposabrazos regulables. Sin estos ajustes, una silla no puede adaptarse a tu cuerpo.",
+      "Sentado con la espalda apoyada, deben quedar unos 5 cm (un puño) entre el borde del asiento y la parte trasera de la rodilla, y los reposabrazos deben rozar el codo con el brazo a 90°, como indica la NTP 1130 del INSST.",
+      "La malla transpira mejor y es más fresca en verano; la espuma es más cálida y mullida. Muchas sillas combinan respaldo de malla y asiento de espuma. Tienes la explicación completa en nuestra guía de la silla ergonómica.",
     ],
   },
   escritorios: {
@@ -113,7 +117,8 @@ const relatedArticles: Record<string, { title: string; href: string }[]> = {
   ],
   iluminacion: [{ title: "Iluminación para videollamadas: guía completa y mejores opciones", href: "/blog/iluminacion-videollamadas-home-office" }],
   "sillas-ergonomicas": [
-    { title: "Mejor silla ergonómica para home office — Comparativa completa", href: "/blog/mejor-silla-ergonomica-home-office-2025" },
+    { title: "Silla ergonómica de oficina: guía para elegirla y comparativa 2026", href: "/blog/mejor-silla-ergonomica-home-office-2025" },
+    { title: "Dolor de espalda trabajando desde casa: causas y soluciones", href: "/blog/dolor-espalda-trabajar-casa-soluciones" },
     { title: "hjh OFFICE Ergohuman Slim GEN2: análisis", href: "/blog/hjh-office-ergohuman-slim-gen2-analisis" },
   ],
   escritorios: [
