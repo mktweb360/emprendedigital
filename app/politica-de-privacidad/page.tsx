@@ -27,7 +27,8 @@ export default function PoliticaPrivacidadPage() {
         <ul>
           <li>
             <strong>Datos de uso:</strong> Información sobre cómo interactúas con el sitio web (páginas visitadas,
-            tiempo de permanencia, clics) a través de herramientas analíticas.
+            clics en enlaces a Amazon, navegador y dispositivo) a través de Google Analytics 4, con cookies solo si las
+            aceptas (ver apartado 5).
           </li>
           <li>
             <strong>Datos técnicos:</strong> Dirección IP, tipo de navegador, sistema operativo y proveedor de
@@ -42,8 +43,8 @@ export default function PoliticaPrivacidadPage() {
         <h2>3. Finalidad y base legal del tratamiento</h2>
         <ul>
           <li>
-            <strong>Análisis de uso:</strong> Para mejorar el contenido y la experiencia del sitio web. Base legal:
-            interés legítimo (Art. 6.1.f RGPD).
+            <strong>Análisis de uso:</strong> Para medir de forma agregada las visitas y mejorar el contenido del sitio
+            web. Base legal: consentimiento (Art. 6.1.a RGPD).
           </li>
           <li>
             <strong>Publicidad:</strong> Si aceptas las cookies de publicidad, usamos Google AdSense para mostrar
@@ -64,7 +65,39 @@ export default function PoliticaPrivacidadPage() {
           sitio o borrando las cookies de tu navegador.
         </p>
 
-        <h2>5. Google AdSense</h2>
+        <h2>5. Analítica web: Google Analytics 4</h2>
+        <p>
+          Usamos Google Analytics 4, un servicio de Google Ireland Limited, para medir de forma agregada las visitas, las
+          páginas vistas y los clics en los enlaces de afiliado a Amazon (registramos la URL del enlace y la página en la
+          que se pulsa), con el fin de saber qué contenidos resultan útiles y mejorarlos.
+        </p>
+        <ul>
+          <li>
+            <strong>Base legal:</strong> tu consentimiento (Art. 6.1.a RGPD), que das o rechazas en el mensaje de
+            consentimiento de Google y puedes retirar en cualquier momento desde «Preferencias de cookies» en el pie de
+            página.
+          </li>
+          <li>
+            <strong>Datos tratados:</strong> identificador online de la cookie de analítica, dirección IP (Google
+            Analytics 4 la trunca o anonimiza y no la almacena completa) y datos de navegación y del dispositivo
+            (páginas vistas, enlaces pulsados, navegador, sistema operativo y tipo de dispositivo).
+          </li>
+          <li>
+            <strong>Sin consentimiento:</strong> no se instalan cookies de analítica; Google Analytics solo recibe
+            señales sin cookies y sin identificadores persistentes.
+          </li>
+          <li>
+            <strong>Conservación:</strong> los datos de usuario y de eventos se conservan en Google Analytics hasta 14
+            meses.
+          </li>
+          <li>
+            <strong>Transferencias internacionales:</strong> los datos pueden ser tratados por Google LLC en EE. UU.; la
+            transferencia está amparada en el Marco de Privacidad de Datos UE-EE. UU. y en las cláusulas contractuales
+            tipo de la Comisión Europea.
+          </li>
+        </ul>
+
+        <h2>6. Google AdSense</h2>
         <p>
           Este sitio utiliza Google AdSense para mostrar publicidad. Google, como proveedor externo, usa cookies para
           mostrar anuncios basados en las visitas anteriores del usuario al sitio y a otros sitios web. Puedes
@@ -79,7 +112,7 @@ export default function PoliticaPrivacidadPage() {
           </a>.
         </p>
 
-        <h2>6. Derechos del usuario</h2>
+        <h2>7. Derechos del usuario</h2>
         <p>
           Como usuario, tienes los siguientes derechos sobre tus datos personales:
         </p>
@@ -100,14 +133,13 @@ export default function PoliticaPrivacidadPage() {
           presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).
         </p>
 
-        <h2>7. Conservación de datos</h2>
+        <h2>8. Conservación de datos</h2>
         <p>
-          Los datos de uso analítico se conservan durante el período necesario para los fines del análisis, con un
-          máximo de 26 meses. Los emails de contacto se conservan mientras sean necesarios para responder a tu
-          consulta o mientras exista una relación activa.
+          Los datos de uso analítico (Google Analytics 4) se conservan hasta 14 meses. Los emails de contacto se
+          conservan el tiempo necesario para responder y, después, durante los plazos legales de prescripción.
         </p>
 
-        <p className="text-gray-400 text-xs mt-8">Última actualización: junio 2025</p>
+        <p className="text-gray-400 text-xs mt-8">Última actualización: octubre de 2026</p>
       </div>
     </div>
   );

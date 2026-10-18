@@ -37,8 +37,8 @@ export default function PoliticaCookiesPage() {
         <h3>Cookies analíticas</h3>
         <p>
           Permiten cuantificar el número de usuarios y analizar el comportamiento de navegación, identificar las
-          páginas más visitadas y el flujo de contenidos. La información recogida es anónima y se usa para mejorar
-          el sitio web.
+          páginas más visitadas y el flujo de contenidos. La información se analiza de forma agregada y se usa para
+          mejorar el sitio web.
         </p>
         <table>
           <thead>
