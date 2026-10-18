@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(slug);
   if (!post) return {};
   return {
-    title: post.title,
+    title: post.seoTitle ?? post.title,
     description: post.excerpt,
     alternates: { canonical: `https://www.emprendedigital.es/blog/${slug}` },
     openGraph: { title: post.title, description: post.excerpt, type: "article", publishedTime: post.date },

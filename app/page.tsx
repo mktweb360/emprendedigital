@@ -6,7 +6,7 @@ import HeroBackground from "@/components/HeroBackground";
 import EmailCaptureSection from "@/components/EmailCaptureSection";
 
 export const metadata: Metadata = {
-  title: { absolute: "Emprende Digital — Herramientas y equipamiento para emprendedores digitales" },
+  title: { absolute: "Herramientas para emprendedores digitales | Emprende Digital" },
   description:
     "Guías de compra, análisis y comparativas de herramientas y equipamiento para emprendedores digitales, creadores de contenido y teletrabajadores.",
   alternates: { canonical: "https://www.emprendedigital.es" },

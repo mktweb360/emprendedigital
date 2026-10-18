@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aviso Legal",
+  title: "Aviso legal y datos del titular",
   description: "Aviso legal de Emprende Digital — Mkt Web 360 SLU (CIF B87679304).",
   alternates: { canonical: "https://www.emprendedigital.es/aviso-legal" },
 };
@@ -43,7 +43,12 @@ export default function AvisoLegalPage() {
         <p>
           Mkt Web 360 SLU no garantiza la exactitud, integridad o actualidad de la información contenida en el Sitio
           Web. Los precios y disponibilidad de los productos enlazados pueden variar. El usuario debe verificar la
-          información directamente en los sitios de venta antes de realizar cualquier compra.
+          información directamente en los sitios de venta antes de realizar cualquier compra. Si detectas un dato
+          incorrecto, puedes comunicárnoslo desde la{" "}
+          <a href="/contacto" className="text-indigo-600 hover:underline">
+            página de contacto
+          </a>
+          .
         </p>
 
         <h2>5. Programa de afiliados</h2>
@@ -51,7 +56,11 @@ export default function AvisoLegalPage() {
           Emprende Digital participa en programas de afiliación con distintos partners comerciales. Los enlaces a
           productos incluidos en este sitio son enlaces de afiliado, lo que significa que podemos recibir una comisión si
           realizas una compra tras hacer clic en dichos enlaces. El precio final para el comprador no varía. Consulta el
-          detalle de los programas de afiliación en los que participamos en nuestra política de privacidad.
+          detalle de los programas de afiliación en los que participamos en nuestra{" "}
+          <a href="/politica-de-privacidad" className="text-indigo-600 hover:underline">
+            política de privacidad
+          </a>
+          .
         </p>
 
         <h2>6. Ley aplicable y jurisdicción</h2>

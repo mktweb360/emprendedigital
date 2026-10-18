@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de Cookies",
+  title: "Política de cookies y cómo gestionarlas",
   description: "Política de cookies de Emprende Digital — qué cookies usamos y cómo gestionarlas.",
   alternates: { canonical: "https://www.emprendedigital.es/politica-de-cookies" },
 };
@@ -94,6 +94,17 @@ export default function PoliticaCookiesPage() {
           Podemos actualizar esta política de cookies periódicamente para reflejar cambios en las cookies que
           utilizamos o por otros motivos operativos, legales o reglamentarios. Te recomendamos revisar esta página
           regularmente para mantenerte informado.
+        </p>
+        <p>
+          Cómo tratamos los datos personales que se obtienen a través de las cookies se explica en la{" "}
+          <a href="/politica-de-privacidad" className="text-indigo-600 hover:underline">
+            Política de Privacidad
+          </a>
+          , y los datos del titular del sitio figuran en el{" "}
+          <a href="/aviso-legal" className="text-indigo-600 hover:underline">
+            Aviso Legal
+          </a>
+          .
         </p>
 
         <p className="text-gray-400 text-xs mt-8">Última actualización: octubre de 2026</p>

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { categories, getFeaturedProducts, getProductsByCategory } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "Tienda — Herramientas y equipamiento para emprendedores digitales",
+  title: "Tienda: equipamiento para home office",
   description:
     "Explora nuestra selección de portátiles, micrófonos, webcams, auriculares, sillas ergonómicas y más. Análisis detallados, comparativas y guías de compra independientes.",
   alternates: { canonical: "https://www.emprendedigital.es/tienda" },

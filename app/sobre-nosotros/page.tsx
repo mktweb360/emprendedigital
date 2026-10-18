@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Sobre Nosotros",
+  title: "Sobre nosotros: quiénes somos y cómo elegimos",
   description:
     "Somos el equipo editorial de Emprende Digital. Conoce cómo investigamos y comparamos herramientas de productividad y equipamiento para home office, y nuestra política de afiliación.",
   alternates: { canonical: "https://www.emprendedigital.es/sobre-nosotros" },

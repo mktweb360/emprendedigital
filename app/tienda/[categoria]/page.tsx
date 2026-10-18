@@ -15,7 +15,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!cat) return {};
   const seo = categorySeo[cat.slug];
   return {
-    title: seo?.title ?? `${cat.name}: guía de compra y comparativa`,
+    // Con el sufijo « | Emprende Digital» del layout el <title> final queda en ≤ 65 caracteres.
+    title: seo?.title ?? `${cat.name}: guía de compra`,
     description: seo?.description ?? `Los mejores ${cat.name.toLowerCase()} para emprendedores digitales y teletrabajadores. Análisis, comparativas y guías de compra independientes.`,
     alternates: { canonical: `https://www.emprendedigital.es/tienda/${cat.slug}` },
   };
@@ -25,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 // usan la plantilla genérica de generateMetadata.
 const categorySeo: Record<string, { title: string; description: string }> = {
   escritorios: {
-    title: "Mesa escritorio elevable: eléctricos y convertidores",
+    title: "Mesa escritorio elevable y convertidores",
     description: "Mesas de escritorio elevables eléctricas de 100×60 a 160×80 cm, de uno y dos motores, y un convertidor de sobremesa. Rango de altura, carga y memorias.",
   },
 };
@@ -98,12 +99,23 @@ const buyingGuides: Record<string, { title: string; paragraphs: string[] }> = {
 };
 
 const relatedArticles: Record<string, { title: string; href: string }[]> = {
+  portatiles: [
+    { title: "Mejor portátil para trabajar desde casa: Mac, Windows o Windows ARM", href: "/blog/mejor-portatil-trabajar-desde-casa-mac-windows-arm-2026" },
+    { title: "Cómo conectar dos monitores a un portátil", href: "/blog/conectar-dos-monitores-portatil-guia" },
+  ],
   perifericos: [{ title: "Mejor teclado y ratón para trabajo remoto — Comparativa", href: "/blog/mejor-teclado-raton-trabajo-remoto" }],
   microfonos: [{ title: "Mejor micrófono USB para podcast, streaming y videollamadas en 2026", href: "/blog/mejor-microfono-usb-podcast-streaming-2026" }],
   webcams: [{ title: "Mejor webcam para videollamadas de trabajo remoto", href: "/blog/mejor-webcam-videollamadas-trabajo-remoto" }],
-  auriculares: [{ title: "Mejores auriculares con cancelación de ruido para trabajar", href: "/blog/mejores-auriculares-cancelacion-ruido-trabajo-2025" }],
+  auriculares: [
+    { title: "Mejores auriculares con cancelación de ruido para trabajar", href: "/blog/mejores-auriculares-cancelacion-ruido-trabajo-2025" },
+    { title: "Sony WH-1000XM5: análisis y opinión", href: "/blog/sony-wh1000xm5-analisis-opinion" },
+    { title: "Soundcore Space One: la alternativa económica a los Sony WH-1000XM5", href: "/blog/soundcore-space-one-analisis" },
+  ],
   iluminacion: [{ title: "Iluminación para videollamadas: guía completa y mejores opciones", href: "/blog/iluminacion-videollamadas-home-office" }],
-  "sillas-ergonomicas": [{ title: "Mejor silla ergonómica para home office — Comparativa completa", href: "/blog/mejor-silla-ergonomica-home-office-2025" }],
+  "sillas-ergonomicas": [
+    { title: "Mejor silla ergonómica para home office — Comparativa completa", href: "/blog/mejor-silla-ergonomica-home-office-2025" },
+    { title: "hjh OFFICE Ergohuman Slim GEN2: análisis", href: "/blog/hjh-office-ergohuman-slim-gen2-analisis" },
+  ],
   escritorios: [
     { title: "Escritorio elevable eléctrico: guía de compra 2026 (altura, motores, tablero y comparativa)", href: "/blog/escritorio-regulable-altura-home-office" },
     { title: "Dolor de espalda trabajando desde casa: causas y soluciones", href: "/blog/dolor-espalda-trabajar-casa-soluciones" },

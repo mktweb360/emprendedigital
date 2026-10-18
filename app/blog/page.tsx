@@ -3,7 +3,7 @@ import Link from "next/link";
 import { posts } from "@/data/posts";
 
 export const metadata: Metadata = {
-  title: "Blog — Guías de compra y análisis de herramientas para emprendedores digitales",
+  title: "Blog: guías de compra para emprendedores",
   description:
     "Todos nuestros artículos sobre portátiles, micrófonos, webcams, auriculares, sillas ergonómicas y más. Comparativas y guías de compra actualizadas.",
   alternates: { canonical: "https://www.emprendedigital.es/blog" },

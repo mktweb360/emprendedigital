@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de Privacidad",
+  title: "Política de privacidad y protección de datos",
   description: "Política de privacidad de Emprende Digital — cómo recogemos, usamos y protegemos tus datos personales.",
   alternates: { canonical: "https://www.emprendedigital.es/politica-de-privacidad" },
 };
@@ -15,6 +15,11 @@ export default function PoliticaPrivacidadPage() {
         <p>
           <strong>Mkt Web 360 SLU</strong> (CIF B87679304), con email de contacto info@emprendedigital.es, es el
           responsable del tratamiento de los datos personales recogidos a través del sitio web www.emprendedigital.es.
+          Sus datos identificativos completos figuran en el{" "}
+          <a href="/aviso-legal" className="text-indigo-600 hover:underline">
+            Aviso Legal
+          </a>
+          .
         </p>
 
         <h2>2. Datos que recogemos</h2>
@@ -86,7 +91,12 @@ export default function PoliticaPrivacidadPage() {
           <li>Derecho a retirar el consentimiento en cualquier momento</li>
         </ul>
         <p>
-          Para ejercer estos derechos, puedes contactarnos en info@emprendedigital.es. También tienes derecho a
+          Para ejercer estos derechos, puedes contactarnos en info@emprendedigital.es (los datos de contacto están
+          también en la{" "}
+          <a href="/contacto" className="text-indigo-600 hover:underline">
+            página de contacto
+          </a>
+          ). También tienes derecho a
           presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).
         </p>
 

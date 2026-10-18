@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contacto",
+  title: "Contacto: dudas, sugerencias y correcciones",
   description: "Contacta con el equipo de Emprende Digital para consultas, correcciones o colaboraciones.",
   alternates: { canonical: "https://www.emprendedigital.es/contacto" },
 };
@@ -35,7 +36,7 @@ export default function ContactoPage() {
           <span className="text-2xl">⏰</span>
           <div>
             <strong className="block text-gray-900 text-sm">Tiempo de respuesta</strong>
-            <span className="text-gray-600 text-sm">Respondemos en 24–48 horas laborables</span>
+            <span className="text-gray-600 text-sm">Te respondemos por email</span>
           </div>
         </div>
       </div>
@@ -52,6 +53,62 @@ export default function ContactoPage() {
           consideramos valiosos para nuestros lectores.
         </p>
       </div>
+
+      <section className="mt-10 space-y-8 text-gray-700 leading-relaxed">
+        <div>
+          <h2 className="text-xl font-extrabold text-gray-900 mb-3">¿Para qué puedes escribirnos?</h2>
+          <ul className="list-disc pl-5 space-y-2">
+            <li>
+              <strong>Dudas sobre una guía o comparativa</strong> del{" "}
+              <Link href="/blog" className="text-indigo-600 hover:underline">blog</Link>: si no tienes claro qué
+              modelo encaja con tu uso, cuéntanos qué necesitas y te indicamos qué guía lo trata.
+            </li>
+            <li>
+              <strong>Sugerencias de productos o temas</strong> que te gustaría ver analizados en la web.
+            </li>
+            <li>
+              <strong>Errores detectados</strong>: un dato o una especificación incorrecta, un enlace que no funciona o
+              un producto que ya no está disponible. Indícanos la página y lo revisamos.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 className="text-xl font-extrabold text-gray-900 mb-3">Lo que no hacemos</h2>
+          <ul className="list-disc pl-5 space-y-2">
+            <li>
+              <strong>No vendemos directamente.</strong> Los productos de la{" "}
+              <Link href="/tienda" className="text-indigo-600 hover:underline">tienda</Link> se compran en Amazon.es,
+              así que los pedidos, envíos, devoluciones y garantías se gestionan con Amazon o con el vendedor de cada
+              producto, no con nosotros.
+            </li>
+            <li>
+              <strong>No respondemos consultas médicas.</strong> Nuestros contenidos sobre ergonomía y postura son
+              informativos; si tienes dolor o una lesión, consulta con un profesional sanitario.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 className="text-xl font-extrabold text-gray-900 mb-3">Cómo elegimos y actualizamos los productos</h2>
+          <p>
+            Antes de recomendar un producto comparamos sus especificaciones y características con las de sus
+            alternativas, y revisamos el catálogo para retirar o marcar los que dejan de estar disponibles. Explicamos
+            el proceso completo, y cómo funcionan los enlaces de afiliado, en{" "}
+            <Link href="/sobre-nosotros" className="text-indigo-600 hover:underline">Sobre nosotros</Link>.
+          </p>
+        </div>
+
+        <div>
+          <h2 className="text-xl font-extrabold text-gray-900 mb-3">Quién responde</h2>
+          <p>
+            Emprende Digital es un sitio de Mkt Web 360 SLU. Los datos completos del titular están en el{" "}
+            <Link href="/aviso-legal" className="text-indigo-600 hover:underline">Aviso Legal</Link>, y lo que
+            hacemos con los datos de tu mensaje se explica en la{" "}
+            <Link href="/politica-de-privacidad" className="text-indigo-600 hover:underline">Política de Privacidad</Link>.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
