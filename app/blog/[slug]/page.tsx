@@ -238,7 +238,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Reposabrazos 2D, 3D o 4D: qué significa cada letra",
-        body: "La «D» cuenta las direcciones en las que se mueve el reposabrazos: altura, avance y retroceso, desplazamiento lateral y giro. No hay una definición normalizada de cuáles entran en cada cifra, así que mira la ficha: la ProtoArc EC200 Pro detalla altura, avance, desplazamiento lateral y giro de hasta 30°, y la HOLLUDLE, movimiento a izquierda y derecha, altura, avance y giro de 15°. Lo importante es poder ponerlos a la altura correcta. La NTP 1130 indica que, con los hombros relajados y los codos a 90°, el reposabrazos debe quedar justo donde roza el codo, y que si no se puede regular es mejor retirarlo. La NTP 1129 añade que no deben impedir acercar la silla a la mesa.",
+        body: "La «D» cuenta las direcciones en las que se mueve el reposabrazos: altura, avance y retroceso, desplazamiento lateral y giro. No hay una definición normalizada de cuáles entran en cada cifra, así que mira la ficha: la ProtoArc EC200 Pro detalla altura, avance, desplazamiento lateral y giro de hasta 30°, y la HOLLUDLE, movimiento a izquierda y derecha, altura, avance y giro de 15°. Lo que más cuenta es la altura: la NTP 1130 indica que, con los hombros relajados y los codos a 90°, el reposabrazos debe quedar justo donde roza el codo, y que si no se puede regular es mejor retirarlo. La NTP 1129 añade que no deben impedir acercar la silla a la mesa.",
       },
       {
         heading: "Mecanismo: basculante, sincronizado y bloqueo del respaldo",
@@ -261,7 +261,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Silla gaming o silla ergonómica de oficina",
-        body: "Muchas sillas gaming tienen forma de baquet, con laterales elevados y cojines sueltos para la zona lumbar y el cuello. Esa forma sujeta el cuerpo, pero limita los cambios de postura, y los cojines sueltos se desplazan. No todas son iguales: la Secretlab Titan Evo lleva el lumbar integrado en el respaldo y ajustable en cuatro direcciones, cojín cervical magnético, reposabrazos 4D metálicos y tres tallas; la Regular es para 170-189 cm y menos de 130 kg. Su ficha no indica ajuste de profundidad de asiento. Juzga cualquier silla, gaming o de oficina, por los ajustes de esta guía y no por la estética: para jornadas con mucho teclado suele encajar mejor una silla de oficina; si además juegas y te reclinas a menudo, una gaming bien elegida es válida.",
+        body: "Muchas sillas gaming tienen forma de baquet, con laterales elevados y cojines sueltos para la zona lumbar y el cuello. Esa forma sujeta el cuerpo, pero limita los cambios de postura, y los cojines sueltos se desplazan. Hay excepciones: la Secretlab Titan Evo lleva el lumbar integrado en el respaldo y ajustable en cuatro direcciones, cojín cervical magnético, reposabrazos 4D metálicos y tres tallas; la Regular es para 170-189 cm y menos de 130 kg. Su ficha no indica ajuste de profundidad de asiento. Juzga cualquier silla, gaming o de oficina, por los ajustes de esta guía y no por la estética: para jornadas con mucho teclado suele encajar mejor una silla de oficina; si además juegas y te reclinas a menudo, una gaming bien elegida es válida.",
         productSlug: "secretlab-titan-evo-2022-silla",
       },
       {
@@ -289,7 +289,7 @@ const articleContent: Record<string, {
         ["hjh Ergohuman Slim GEN2", "Malla", "Flexible", "No indicada", "No indicado", "Gama premium", "Amazon"],
       ],
     },
-    conclusion: "La mejor silla ergonómica de escritorio es la que puedes ajustar a tu cuerpo y que de verdad ajustas: altura y profundidad del asiento, lumbar en altura y profundidad y reposabrazos a la altura del codo. Con eso claro, elige por presupuesto y uso, ajústala con los siete pasos de esta guía y no olvides las pausas. Tienes todos los modelos en la [tienda de sillas de oficina ergonómicas](/tienda/sillas-ergonomicas).",
+    conclusion: "Para elegir la mejor silla ergonómica de escritorio, comprueba primero que regule la altura y la profundidad del asiento, el lumbar en altura y profundidad y los reposabrazos hasta el codo. Después elige por presupuesto y uso, ajústala con los siete pasos de esta guía y haz pausas. Tienes todos los modelos en la [tienda de sillas de oficina ergonómicas](/tienda/sillas-ergonomicas).",
     sources: [
       { label: "INSST — NTP 1129: Criterios ergonómicos para la selección de sillas de oficina", url: "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.129-criterios-ergonomicos-para-la-seleccion-de-sillas-de-oficina" },
       { label: "INSST — NTP 1130: Criterios ergonómicos para regular correctamente la silla de oficina y otras sillas alternativas", url: "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.130-criterios-ergonomicos-para-regular-correctamente-la-silla-de-oficina-y-otras-sillas-alternativas" },
@@ -298,14 +298,14 @@ const articleContent: Record<string, {
     faqs: [
       { q: "¿Qué es una silla ergonómica de oficina?", a: "Una silla que se adapta a quien la usa: altura de asiento regulable, respaldo reclinable y de altura ajustable con apoyo lumbar y, idealmente, profundidad de asiento y reposabrazos regulables. Es lo que pide, como mínimo, el Real Decreto 488/1997 en los puestos con pantalla." },
       { q: "¿A qué altura debe estar el asiento?", a: "De pie delante de la silla, justo por debajo de la rodilla, según la NTP 1130 del INSST; al sentarte, los pies deben apoyar en el suelo. La silla de tipo A de la norma UNE-EN 1335 regula como mínimo entre 400 y 510 mm." },
-      { q: "¿Es mejor una silla de malla o de espuma?", a: "La malla transpira mejor y es más fresca en verano; la espuma es más cálida y mullida. Muchas combinan respaldo de malla y asiento de espuma. Lo importante es que el respaldo dé apoyo real." },
+      { q: "¿Es mejor una silla de malla o de espuma?", a: "La malla transpira mejor y es más fresca en verano; la espuma es más cálida y mullida. Muchas combinan respaldo de malla y asiento de espuma. En los dos casos, fíjate en que el respaldo dé apoyo." },
       { q: "¿Sirve una silla gaming para teletrabajar?", a: "Sí, si tiene lumbar integrado y ajustable y la talla correcta, como la Secretlab Titan Evo. Para jornadas de oficina largas suele encajar mejor una silla de oficina con profundidad de asiento regulable." },
       { q: "¿Qué reposabrazos necesito, 3D o 4D?", a: "Los que puedas dejar a la altura del codo, con los hombros relajados y el brazo a 90°, sin que te impidan acercarte a la mesa. Los 4D añaden direcciones de ajuste, pero lo decisivo es la altura." },
     ],
   },
 
   "escritorio-regulable-altura-home-office": {
-    intro: "Un escritorio elevable es una mesa cuya altura se ajusta, casi siempre con un motor eléctrico, para trabajar sentado o de pie y para dejar la superficie exactamente a la altura de tus codos. Su valor real no es «trabajar de pie», sino poder cambiar de postura a lo largo de la jornada y colocar el teclado donde tu cuerpo lo necesita, algo que una mesa fija no garantiza. Esta guía explica qué datos mirar antes de comprarlo, cómo calcular tu altura a partir del codo y qué modelos del catálogo encajan con cada caso.",
+    intro: "Un escritorio elevable es una mesa cuya altura se ajusta, casi siempre con un motor eléctrico, para trabajar sentado o de pie y para dejar la superficie a la altura de tus codos. Lo que aporta es la posibilidad de cambiar de postura a lo largo de la jornada y de colocar el teclado donde tu cuerpo lo necesita, algo que una mesa fija no garantiza. Esta guía explica qué datos mirar antes de comprarlo, cómo calcular tu altura a partir del codo y qué modelos del catálogo encajan con cada caso.",
     sections: [
       {
         heading: "Nuestras recomendaciones rápidas",
@@ -314,7 +314,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Escritorio elevable eléctrico o manual",
-        body: "El manual de manivela es el más barato y no necesita enchufe, pero pasar de sentado a de pie exige muchas vueltas, y la mesa acaba quedándose siempre a la misma altura. El neumático, con muelle de gas, es rápido y silencioso, pero admite poca carga y poco recorrido: es el sistema habitual de los convertidores de sobremesa. El eléctrico sube y baja con un botón y, si tiene memorias, cambia de postura en segundos sin pensar en la altura. Para alternar varias veces al día, el eléctrico es el que de verdad se usa; por eso todos los del catálogo lo son, salvo el convertidor Leitz.",
+        body: "El manual de manivela es el más barato y no necesita enchufe, pero pasar de sentado a de pie exige muchas vueltas, y la mesa acaba quedándose siempre a la misma altura. El neumático, con muelle de gas, es rápido y silencioso, pero admite poca carga y poco recorrido: es el sistema habitual de los convertidores de sobremesa. El eléctrico sube y baja con un botón y, si tiene memorias, cambia de postura en segundos sin pensar en la altura. Para alternar varias veces al día, el eléctrico es el que acaba usándose; por eso todos los del catálogo lo son, salvo el convertidor Leitz.",
       },
       {
         heading: "Un motor o dos motores: cuándo compensa el doble motor",
@@ -334,7 +334,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Tamaño del tablero: 120 × 60, 140 × 70 o 160 × 80 cm",
-        body: "El ancho decide cuántas pantallas caben y el fondo decide a qué distancia quedan de tus ojos. Un tablero de 120 × 60 cm sirve para un portátil y un monitor; dos monitores de 27 pulgadas, que ocupan juntos unos 120 cm de ancho, no caben con comodidad. Uno de 140 × 70 cm admite dos monitores de 24 pulgadas o uno grande con espacio para documentos. El de 160 × 80 cm es el que deja trabajar con dos pantallas de 27 pulgadas y aún tener sitio libre. El fondo importa más de lo que parece: con 60 cm el monitor queda cerca, y conviene un [brazo de monitor](/tienda/monitores/invision-mx200-brazo-monitor) para retrasarlo. Como referencia, la NTP 602 del INSST indica para tareas generales de oficina una superficie mínima aproximada de 80 × 120 cm. Antes de comprar, mide también el hueco: el tablero no puede chocar con radiadores, alféizares o estanterías al subir.",
+        body: "El ancho decide cuántas pantallas caben y el fondo decide a qué distancia quedan de tus ojos. Un tablero de 120 × 60 cm sirve para un portátil y un monitor; dos monitores de 27 pulgadas, que ocupan juntos unos 120 cm de ancho, no caben con comodidad. Uno de 140 × 70 cm admite dos monitores de 24 pulgadas o uno grande con espacio para documentos. El de 160 × 80 cm es el que deja trabajar con dos pantallas de 27 pulgadas y aún tener sitio libre. El fondo también cuenta: con 60 cm el monitor queda cerca, y conviene un [brazo de monitor](/tienda/monitores/invision-mx200-brazo-monitor) para retrasarlo. Como referencia, la NTP 602 del INSST indica para tareas generales de oficina una superficie mínima aproximada de 80 × 120 cm. Antes de comprar, mide también el hueco: el tablero no puede chocar con radiadores, alféizares o estanterías al subir.",
         productSlug: "ergear-escritorio-elevable-140x70",
       },
       {
@@ -348,7 +348,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Cómo usarlo bien: alternar, no estar de pie todo el día",
-        body: "Un escritorio elevable no es para pasar la jornada de pie, sino para no pasarla siempre en la misma postura. La [NTP 1130 del INSST](https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.130-criterios-ergonomicos-para-regular-correctamente-la-silla-de-oficina-y-otras-sillas-alternativas) señala el estatismo, los largos periodos en la misma postura, como uno de los principales problemas ergonómicos de la oficina; menciona las mesas regulables que permiten trabajar de pie o sentado y recuerda que alternar posturas no elimina la necesidad de pausas. La nota no fija minutos de pie por hora; lo sensato es empezar con periodos cortos, cambiar de postura cuando notes fatiga y aprovechar para estar de pie en llamadas o tareas de lectura. Cada vez que subas la mesa, revisa el monitor: según la NTP 602, la primera línea de la pantalla no debe quedar por encima de los ojos. De pie, usa calzado cómodo y valora una alfombrilla antifatiga. Y si ya tienes molestias, la mesa ayuda, pero no sustituye a [una buena silla](/blog/mejor-silla-ergonomica-home-office-2025) ni a revisar [las causas del dolor de espalda al trabajar en casa](/blog/dolor-espalda-trabajar-casa-soluciones).",
+        body: "Un escritorio elevable sirve para no pasar la jornada entera en la misma postura. La [NTP 1130 del INSST](https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.130-criterios-ergonomicos-para-regular-correctamente-la-silla-de-oficina-y-otras-sillas-alternativas) señala el estatismo, los largos periodos en la misma postura, como uno de los principales problemas ergonómicos de la oficina; menciona las mesas regulables que permiten trabajar de pie o sentado y recuerda que alternar posturas no elimina la necesidad de pausas. La nota no fija minutos de pie por hora; lo sensato es empezar con periodos cortos, cambiar de postura cuando notes fatiga y aprovechar para estar de pie en llamadas o tareas de lectura. Cada vez que subas la mesa, revisa el monitor: según la NTP 602, la primera línea de la pantalla no debe quedar por encima de los ojos. De pie, usa calzado cómodo y valora una alfombrilla antifatiga. Y si ya tienes molestias, la mesa ayuda, pero no sustituye a [una buena silla](/blog/mejor-silla-ergonomica-home-office-2025) ni a revisar [las causas del dolor de espalda al trabajar en casa](/blog/dolor-espalda-trabajar-casa-soluciones).",
       },
       {
         heading: "Elevador de sobremesa: la alternativa sin cambiar de mesa",
@@ -373,7 +373,7 @@ const articleContent: Record<string, {
         ["Leitz Ergo Cosy (convertidor)", "Neumático", "Sobre tu mesa", "70×35 cm", "16 kg", "No", "No aplica"],
       ],
     },
-    conclusion: "El mejor escritorio elevable es el que cubre tus dos alturas de codo, aguanta con margen el peso de tu equipo y tiene un tablero en el que caben tus pantallas a buena distancia. Mide primero, suma pesos después y solo entonces mira modelos. Y úsalo para alternar de postura y hacer pausas, no para estar de pie todo el día.",
+    conclusion: "El mejor escritorio elevable es el que cubre tus dos alturas de codo, aguanta con margen el peso de tu equipo y tiene un tablero en el que caben tus pantallas a buena distancia. Toma tus dos medidas de codo y suma el peso de tu equipo antes de mirar modelos; una vez montado, úsalo para alternar de postura y hacer pausas.",
     sources: [
       { label: "INSST — NTP 1130: Criterios ergonómicos para regular correctamente la silla de oficina y otras sillas alternativas", url: "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.130-criterios-ergonomicos-para-regular-correctamente-la-silla-de-oficina-y-otras-sillas-alternativas" },
       { label: "INSST — NTP 602: El diseño ergonómico del puesto de trabajo con pantallas de visualización: el equipo de trabajo", url: "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/17-serie-ntp-numeros-576-a-610-ano-2001/ntp-602-el-diseno-ergonomico-del-puesto-de-trabajo-con-pantallas-de-visualizacion-el-equipo-de-trabajo-2001" },

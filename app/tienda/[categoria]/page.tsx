@@ -87,7 +87,7 @@ const buyingGuides: Record<string, { title: string; paragraphs: string[] }> = {
   "sillas-ergonomicas": {
     title: "¿Cómo elegir una silla de oficina ergonómica?",
     paragraphs: [
-      "Los ajustes imprescindibles: altura del asiento, profundidad del asiento, soporte lumbar ajustable en altura y profundidad, y reposabrazos regulables. Sin estos ajustes, una silla no puede adaptarse a tu cuerpo.",
+      "Una silla de oficina ergonómica tiene que regular la altura del asiento, la profundidad del asiento, el soporte lumbar en altura y profundidad y los reposabrazos.",
       "Sentado con la espalda apoyada, deben quedar unos 5 cm (un puño) entre el borde del asiento y la parte trasera de la rodilla, y los reposabrazos deben rozar el codo con el brazo a 90°, como indica la NTP 1130 del INSST.",
       "La malla transpira mejor y es más fresca en verano; la espuma es más cálida y mullida. Muchas sillas combinan respaldo de malla y asiento de espuma. Tienes la explicación completa en nuestra guía de la silla ergonómica.",
     ],
@@ -97,7 +97,7 @@ const buyingGuides: Record<string, { title: string; paragraphs: string[] }> = {
     paragraphs: [
       "El rango de altura debe incluir tu altura de codo sentado y de pie: mide del suelo a la parte inferior del codo con los brazos a 90° y compara con la altura mínima y máxima de cada modelo.",
       "El doble motor suele admitir más carga y subir de forma más uniforme: en este catálogo, los modelos de un motor declaran unos 80 kg y el de doble motor, 100 kg. Con dos monitores, brazo o torre sobre la mesa, compensa.",
-      "Elige el tablero por tus pantallas: 120 × 60 cm para un monitor, 140 × 70 cm para dos de 24 pulgadas y 160 × 80 cm para dos de 27. Las memorias y el sistema anticolisión hacen que de verdad alternes de postura con seguridad.",
+      "Elige el tablero por tus pantallas: 120 × 60 cm para un monitor, 140 × 70 cm para dos de 24 pulgadas y 160 × 80 cm para dos de 27. Las memorias guardan tus alturas de sentado y de pie, y el sistema anticolisión detiene la mesa si encuentra un obstáculo.",
     ],
   },
 };

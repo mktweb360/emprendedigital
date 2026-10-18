@@ -49,7 +49,7 @@ export default function ContactoPage() {
           <a href="mailto:info@emprendedigital.es" className="text-indigo-600 hover:underline">
             info@emprendedigital.es
           </a>{" "}
-          indicando el asunto "Colaboración". Ten en cuenta que solo recomendamos productos que realmente
+          indicando el asunto "Colaboración". Solo recomendamos productos que
           consideramos valiosos para nuestros lectores.
         </p>
       </div>
@@ -92,7 +92,7 @@ export default function ContactoPage() {
         <div>
           <h2 className="text-xl font-extrabold text-gray-900 mb-3">Cómo elegimos y actualizamos los productos</h2>
           <p>
-            Antes de recomendar un producto comparamos sus especificaciones y características con las de sus
+            Antes de recomendar un producto comparamos sus especificaciones con las de sus
             alternativas, y revisamos el catálogo para retirar o marcar los que dejan de estar disponibles. Explicamos
             el proceso completo, y cómo funcionan los enlaces de afiliado, en{" "}
             <Link href="/sobre-nosotros" className="text-indigo-600 hover:underline">Sobre nosotros</Link>.
