@@ -22,7 +22,7 @@ export default function Footer() {
               <li><Link href="/blog/iluminacion-videollamadas-home-office" className="hover:text-indigo-400 transition-colors">Iluminación para streaming</Link></li>
               <li><Link href="/blog/mejor-silla-ergonomica-home-office-2025" className="hover:text-indigo-400 transition-colors">Sillas ergonómicas teletrabajo</Link></li>
               <li><Link href="/blog/mejor-teclado-raton-trabajo-remoto" className="hover:text-indigo-400 transition-colors">Teclados para trabajo remoto</Link></li>
-              <li><Link href="/blog/escritorio-regulable-altura-home-office" className="hover:text-indigo-400 transition-colors">Escritorios ajustables en altura</Link></li>
+              <li><Link href="/blog/escritorio-regulable-altura-home-office" className="hover:text-indigo-400 transition-colors">Escritorio elevable: guía de compra</Link></li>
             </ul>
           </div>
           <div>

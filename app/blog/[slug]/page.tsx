@@ -32,19 +32,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 // Enlaces internos dentro del texto con la sintaxis [texto](/ruta). Solo se convierten
-// rutas internas (que empiezan por "/"); los textos sin esa sintaxis se muestran igual que antes.
-const INTERNAL_LINK = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+// rutas internas (que empiezan por "/") y, para citar fuentes oficiales, URLs https externas
+// (se abren en pestaña nueva); los textos sin esa sintaxis se muestran igual que antes.
+const INTERNAL_LINK = /\[([^\]]+)\]\((\/[^)\s]*|https:\/\/[^)\s]+)\)/g;
 function withInternalLinks(text: string): ReactNode {
-  if (!text.includes("](/")) return text;
+  if (!text.includes("](/") && !text.includes("](https://")) return text;
   const out: ReactNode[] = [];
   let last = 0;
   for (const m of text.matchAll(INTERNAL_LINK)) {
     const i = m.index ?? 0;
     if (i > last) out.push(text.slice(last, i));
+    const cls = "text-indigo-700 font-semibold underline decoration-indigo-200 hover:decoration-indigo-700";
     out.push(
-      <Link key={i} href={m[2]} className="text-indigo-700 font-semibold underline decoration-indigo-200 hover:decoration-indigo-700">
-        {m[1]}
-      </Link>
+      m[2].startsWith("/") ? (
+        <Link key={i} href={m[2]} className={cls}>
+          {m[1]}
+        </Link>
+      ) : (
+        <a key={i} href={m[2]} target="_blank" rel="noopener" className={cls}>
+          {m[1]}
+        </a>
+      )
     );
     last = i + m[0].length;
   }
@@ -77,7 +85,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Escritorio elevable: cuándo compensa y qué comprobar",
-        body: "Un escritorio elevable te permite alternar entre trabajar sentado y de pie, y ajustar la mesa exactamente a tu altura, algo que una mesa fija no hace. Antes de comprar, revisa tres datos: el rango de altura, la carga máxima frente al peso real de tu equipo (monitores, brazo, portátil, altavoces) y si el tablero es de una pieza. El FLEXISPOT de 120 × 60 cm tiene tablero de una sola pieza, 4 memorias y un sistema anticolisión que detiene y hace retroceder la mesa si encuentra un obstáculo. Los ErGear van de 72 a 118 cm con 4 memorias y 80 kg de carga: el de 120 × 60 cm tiene el tablero de dos piezas con junta central, y el de 140 × 70 cm deja sitio para dos monitores. Más detalles en nuestra [guía de escritorios regulables](/blog/escritorio-regulable-altura-home-office).",
+        body: "Un escritorio elevable te permite alternar entre trabajar sentado y de pie, y ajustar la mesa exactamente a tu altura, algo que una mesa fija no hace. Antes de comprar, revisa tres datos: el rango de altura, la carga máxima frente al peso real de tu equipo (monitores, brazo, portátil, altavoces) y si el tablero es de una pieza. El FLEXISPOT de 120 × 60 cm tiene tablero de una sola pieza, 4 memorias y un sistema anticolisión que detiene y hace retroceder la mesa si encuentra un obstáculo. Los ErGear van de 72 a 118 cm con 4 memorias y 80 kg de carga: el de 120 × 60 cm tiene el tablero de dos piezas con junta central, y el de 140 × 70 cm deja sitio para dos monitores. Más detalles en nuestra [guía del escritorio elevable](/blog/escritorio-regulable-altura-home-office).",
         productSlug: "flexispot-escritorio-elevable-120x60-tablero-entero",
       },
       {
@@ -225,7 +233,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "¿Cuál elegir según tu perfil?",
-        body: "Si trabajas más de seis horas diarias y quieres configurar la silla a tu morfología exacta —reposabrazos 4D, profundidad de asiento ajustable y reposacabezas—, la HOLLUDLE es la compra correcta y la diferencia de precio se amortiza en confort a lo largo de los años. Si tus jornadas son más cortas, valoras poder reclinarte hasta 130° para las pausas y no necesitas ni reposacabezas en profundidad ni reposabrazos 4D, la Ticova entrega casi toda la comodidad por menos dinero. Un criterio práctico: cuanto más tiempo pases sentado y más específica sea tu postura, más valor tiene la capacidad de ajuste de la HOLLUDLE.",
+        body: "Si trabajas más de seis horas diarias y quieres configurar la silla a tu morfología exacta —reposabrazos 4D, profundidad de asiento ajustable y reposacabezas—, la HOLLUDLE es la compra correcta y la diferencia de precio se amortiza en confort a lo largo de los años. Si tus jornadas son más cortas, valoras poder reclinarte hasta 130° para las pausas y no necesitas ni reposacabezas en profundidad ni reposabrazos 4D, la Ticova entrega casi toda la comodidad por menos dinero. Un criterio práctico: cuanto más tiempo pases sentado y más específica sea tu postura, más valor tiene la capacidad de ajuste de la HOLLUDLE. Y si tu mesa es fija y no deja el teclado a la altura del codo, la silla sola no lo arregla: revisa nuestra [guía del escritorio elevable](/blog/escritorio-regulable-altura-home-office) para calcular la altura que necesitas y alternar entre sentado y de pie.",
       },
     ],
     comparison: {
@@ -249,44 +257,86 @@ const articleContent: Record<string, {
   },
 
   "escritorio-regulable-altura-home-office": {
-    intro: "Alternar entre sentado y de pie durante la jornada reduce el dolor lumbar, mejora la energía por la tarde y aumenta el gasto calórico diario de forma pasiva. Un escritorio regulable es la inversión de productividad con mejor relación entre coste y beneficio en un home office. Esta guía compara los dos escritorios eléctricos del catálogo, el FlexiSpot E7 Pro y el FlexiSpot EG1, para que elijas según tu espacio, tu setup y tu presupuesto.",
+    intro: "Un escritorio elevable es una mesa cuya altura se ajusta, casi siempre con un motor eléctrico, para trabajar sentado o de pie y para dejar la superficie exactamente a la altura de tus codos. Su valor real no es «trabajar de pie», sino poder cambiar de postura a lo largo de la jornada y colocar el teclado donde tu cuerpo lo necesita, algo que una mesa fija no garantiza. Esta guía explica qué datos mirar antes de comprarlo, cómo calcular tu altura a partir del codo y qué modelos del catálogo encajan con cada caso.",
     sections: [
       {
-        heading: "Doble motor vs motor único: cuál elegir",
-        body: "La diferencia técnica que más condiciona la compra es el número de motores. El E7 Pro monta doble motor sincronizado: sube y baja el tablero de forma más uniforme, con más estabilidad a altura máxima, menos ruido y una capacidad de carga muy superior (125 kg). El EG1 usa un motor único, más económico, con una carga máxima de 70 kg. En la práctica, el doble motor se nota sobre todo cuando cargas el escritorio con dos monitores y varios periféricos, o cuando lo subes a su máxima altura con peso encima. Para un setup de un solo monitor, el motor único cumple sin problema.",
+        heading: "Nuestras recomendaciones rápidas",
+        body: "Para dos monitores o un equipo pesado: el FLEXISPOT E1 Pro de 160 × 80 cm, con doble motor, 100 kg de carga y tablero entero de 25 mm. Para un puesto de un monitor con tablero sin junta: el FLEXISPOT de 120 × 60 cm con anticolisión. Para ganar superficie sin subir mucho de presupuesto: el ErGear de 140 × 70 cm. Para un rincón pequeño: el FEZIBO de 100 × 60 cm. Y si no quieres cambiar de mesa, el convertidor Leitz Ergo Cosy se coloca encima de la tuya. Todos están en la [categoría de escritorios elevables](/tienda/escritorios) y la tabla del final resume sus datos.",
+        productSlug: "flexispot-e1-pro-escritorio-elevable-160x80",
       },
       {
-        heading: "FlexiSpot E7 Pro: el más completo",
-        body: "El E7 Pro es el escritorio ajustable de referencia del catálogo. Su doble motor sincronizado mueve el tablero a 4 cm/s en un rango de 58 a 123 cm, soporta 125 kg y guarda cuatro alturas en memoria, de modo que pasar de sentado a de pie es cuestión de pulsar un botón. Incluye tablero de 140×70 cm en melamina de 18 mm, espacio de sobra para dos monitores, teclado y accesorios, y la garantía del motor es de cinco años. A favor: estabilidad, carga, cuatro memorias y garantía larga. En contra: su precio, que el montaje requiere dos personas por el peso, y que no incluye sistema de gestión de cables.",
-        productSlug: "flexispot-e7-pro-escritorio-ajustable",
+        heading: "Escritorio elevable eléctrico o manual",
+        body: "El manual de manivela es el más barato y no necesita enchufe, pero pasar de sentado a de pie exige muchas vueltas, y la mesa acaba quedándose siempre a la misma altura. El neumático, con muelle de gas, es rápido y silencioso, pero admite poca carga y poco recorrido: es el sistema habitual de los convertidores de sobremesa. El eléctrico sube y baja con un botón y, si tiene memorias, cambia de postura en segundos sin pensar en la altura. Para alternar varias veces al día, el eléctrico es el que de verdad se usa; por eso todos los del catálogo lo son, salvo el convertidor Leitz.",
       },
       {
-        heading: "FlexiSpot EG1: la entrada más económica",
-        body: "El EG1 es la puerta de entrada a los escritorios eléctricos: ofrece las ventajas de trabajar de pie sin la inversión del E7 Pro. Su motor único con detección de obstáculos regula la altura entre 71 y 121 cm, soporta 70 kg y guarda dos alturas en memoria. El tablero es de 120×60 cm, suficiente para un setup de un monitor, y es compatible con tableros de IKEA si más adelante quieres ampliarlo. La garantía del motor es de tres años. A favor: precio, marca reconocida y compatibilidad con tableros IKEA. En contra: con carga alta es algo menos estable que el E7 Pro, solo guarda dos memorias y el tablero es básico.",
-        productSlug: "flexispot-eg1-escritorio-ajustable",
+        heading: "Un motor o dos motores: cuándo compensa el doble motor",
+        body: "En un escritorio de un motor, el motor mueve una pata y una barra transmite el giro a la otra; en uno de doble motor cada pata tiene el suyo y la centralita los sincroniza. En general, el doble motor admite más carga y sube de forma más uniforme. En el catálogo se aprecia: los modelos de un motor de ErGear y FEZIBO declaran unos 80 kg, y el FLEXISPOT E1 Pro de doble motor, 100 kg. Regla práctica: un motor basta para un portátil y un monitor; con dos monitores, brazo, altavoces o torre encima, o con un tablero de 160 × 80 cm, el doble motor da margen.",
       },
       {
-        heading: "¿Cuál elegir según tu perfil?",
-        body: "Si cambias de postura varias veces al día, tienes un setup con dos monitores o quieres un escritorio que dure años sin quedarse corto, el E7 Pro es la elección: su doble motor y sus cuatro memorias marcan la diferencia en el uso diario. Si tu setup es de un solo monitor, el presupuesto manda y valoras poder reutilizar o ampliar el tablero con piezas de IKEA, el EG1 entrega el mismo concepto —alternar sentado y de pie— por menos de la mitad de precio. Un error común es comprar el modelo más barato para un setup pesado: si vas a cargar 25-30 kg de equipo, el margen del E7 Pro compensa.",
+        heading: "Rango de altura: cómo calcular la tuya a partir del codo",
+        body: "La altura correcta depende de tus codos más que de tu estatura. De pie, con el calzado que usas en casa, hombros relajados y codos doblados a 90°, mide desde el suelo hasta la parte inferior del codo: la superficie de la mesa debe quedar a esa altura o 2-3 cm por debajo, porque el teclado suma su grosor y buscas antebrazos horizontales y muñecas rectas. Sentado, haz lo mismo con la silla ya regulada (pies apoyados y muslos horizontales). Ejemplo práctico: si de pie mides 108 cm hasta el codo y sentado 70 cm, necesitas un escritorio que baje a unos 67-70 cm y suba al menos a 105-108 cm. Con esos dos números compara rangos: el E1 Pro va de 70 a 119 cm, los ErGear y el FEZIBO de 72 a 118 cm y el SONGMICS de 72 a 120 cm. Las personas altas deben fijarse sobre todo en la altura máxima y las bajas en la mínima: si la mesa no baja lo suficiente, sube la silla y apoya los pies en un reposapiés, que el [Real Decreto 488/1997](https://www.boe.es/buscar/act.php?id=BOE-A-1997-8671) obliga a facilitar en los puestos con pantalla a quien lo pida. Como referencia, la [NTP 602 del INSST](https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/17-serie-ntp-numeros-576-a-610-ano-2001/ntp-602-el-diseno-ergonomico-del-puesto-de-trabajo-con-pantallas-de-visualizacion-el-equipo-de-trabajo-2001) recomienda que una mesa regulable cubra desde el percentil 5 femenino hasta el 95 masculino.",
+      },
+      {
+        heading: "Estabilidad y bamboleo: lo que la ficha no cuenta",
+        body: "A máxima altura, cualquier escritorio elevable se mueve algo más que una mesa fija, porque las patas telescópicas tienen holgura entre tramos; se nota al teclear con fuerza y más si el monitor va en un brazo largo. Reducen el problema una estructura con pies anchos y travesaño, un tablero de una pieza (el ErGear de 120 × 60 cm, por ejemplo, tiene dos piezas con junta central) y un tablero grueso como el de 25 mm del E1 Pro. También ayuda lo que haces tú: nivela los pies sobre el suelo, reparte el peso hacia el centro, vuelve a apretar los tornillos después de la primera semana de uso y, si puedes, coloca la mesa cerca de la pared para evitar golpes.",
+      },
+      {
+        heading: "Carga máxima: suma el peso real de tu equipo",
+        body: "La carga máxima indica cuánto peso puede mover el sistema, no cuánto conviene ponerle a diario. Suma con las fichas de tus productos lo que irá encima: monitores con su pie o su brazo, portátil, dock, altavoces, lámpara y, si está sobre la mesa, la torre, más el apoyo de tus antebrazos. Si el total se acerca a la cifra declarada, sube de categoría: los 80 kg de un escritorio de un motor sobran para un puesto ligero, pero se quedan justos con dos monitores grandes y un brazo doble.",
+      },
+      {
+        heading: "Tamaño del tablero: 120 × 60, 140 × 70 o 160 × 80 cm",
+        body: "El ancho decide cuántas pantallas caben y el fondo decide a qué distancia quedan de tus ojos. Un tablero de 120 × 60 cm sirve para un portátil y un monitor; dos monitores de 27 pulgadas, que ocupan juntos unos 120 cm de ancho, no caben con comodidad. Uno de 140 × 70 cm admite dos monitores de 24 pulgadas o uno grande con espacio para documentos. El de 160 × 80 cm es el que deja trabajar con dos pantallas de 27 pulgadas y aún tener sitio libre. El fondo importa más de lo que parece: con 60 cm el monitor queda cerca, y conviene un [brazo de monitor](/tienda/monitores/invision-mx200-brazo-monitor) para retrasarlo. Como referencia, la NTP 602 del INSST indica para tareas generales de oficina una superficie mínima aproximada de 80 × 120 cm. Antes de comprar, mide también el hueco: el tablero no puede chocar con radiadores, alféizares o estanterías al subir.",
+        productSlug: "ergear-escritorio-elevable-140x70",
+      },
+      {
+        heading: "Memoria de posiciones y sistema anticolisión",
+        body: "Las memorias guardan tus alturas de sentado y de pie para recuperarlas con un botón: así cambiar de postura es un gesto de segundos. ErGear, SONGMICS y los dos FLEXISPOT guardan 4 posiciones; el FEZIBO incluye botones de memoria, aunque su ficha no dice cuántos. El sistema anticolisión, o antiatrapamiento, detiene la mesa y la hace retroceder si encuentra un obstáculo al moverse: lo tienen los FLEXISPOT y el FEZIBO, que retrocede unos 2 cm. Con niños, mascotas o una cajonera cerca, merece la pena exigirlo, aunque no sustituye a mirar debajo antes de bajar.",
+        productSlug: "flexispot-escritorio-elevable-120x60-tablero-entero",
+      },
+      {
+        heading: "Montaje: qué esperar y qué revisar",
+        body: "La mayoría llegan en una o dos cajas pesadas y se montan boca abajo: se coloca el tablero sobre el cartón del embalaje, se atornilla la estructura, se fijan las patas y la centralita y, por último, se le da la vuelta entre dos personas. ErGear indica que su modelo puede montarlo una sola persona, mientras que FEZIBO recomienda hacerlo entre dos; con el tablero de 160 × 80 cm del E1 Pro, dos personas son lo razonable. Al terminar, sube la mesa a su altura máxima y comprueba que ningún cable queda tenso: los cables deben llevar holgura para todo el recorrido, y una bandeja bajo el tablero lo hace mucho más fácil. Tienes ideas en nuestra [guía para organizar los cables del home office](/blog/organizar-cables-home-office-guia).",
+      },
+      {
+        heading: "Cómo usarlo bien: alternar, no estar de pie todo el día",
+        body: "Un escritorio elevable no es para pasar la jornada de pie, sino para no pasarla siempre en la misma postura. La [NTP 1130 del INSST](https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.130-criterios-ergonomicos-para-regular-correctamente-la-silla-de-oficina-y-otras-sillas-alternativas) señala el estatismo, los largos periodos en la misma postura, como uno de los principales problemas ergonómicos de la oficina; menciona las mesas regulables que permiten trabajar de pie o sentado y recuerda que alternar posturas no elimina la necesidad de pausas. La nota no fija minutos de pie por hora; lo sensato es empezar con periodos cortos, cambiar de postura cuando notes fatiga y aprovechar para estar de pie en llamadas o tareas de lectura. Cada vez que subas la mesa, revisa el monitor: según la NTP 602, la primera línea de la pantalla no debe quedar por encima de los ojos. De pie, usa calzado cómodo y valora una alfombrilla antifatiga. Y si ya tienes molestias, la mesa ayuda, pero no sustituye a [una buena silla](/blog/mejor-silla-ergonomica-home-office-2025) ni a revisar [las causas del dolor de espalda al trabajar en casa](/blog/dolor-espalda-trabajar-casa-soluciones).",
+      },
+      {
+        heading: "Elevador de sobremesa: la alternativa sin cambiar de mesa",
+        body: "Si te gusta tu mesa, vives de alquiler o solo quieres probar a trabajar de pie, un convertidor de sobremesa es lo más sencillo. El Leitz Ergo Cosy se coloca encima de la mesa, llega montado, no necesita enchufe y su mecanismo neumático sube en vertical, sin avanzar hacia ti. A cambio, la superficie es de 70 × 35 cm y admite 16 kg: sirve para un portátil y el ratón o para videollamadas de pie, no para dos monitores. Y la mesa de debajo sigue siendo fija, así que la altura de sentado no mejora.",
+        productSlug: "leitz-ergo-cosy-convertidor-escritorio",
+      },
+      {
+        heading: "Qué escritorio elevable elegir según tu caso",
+        body: "Dos monitores grandes o equipo pesado: FLEXISPOT E1 Pro de 160 × 80 cm, por doble motor, carga y tablero entero. Un monitor, sin junta central y con anticolisión: FLEXISPOT de 120 × 60 cm. Superficie con presupuesto contenido: ErGear de 140 × 70 cm o SONGMICS BALOK de 140 × 60 cm. Mínimo gasto: ErGear de 120 × 60 cm, asumiendo su tablero de dos piezas. Habitación pequeña o solo portátil: FEZIBO de 100 × 60 cm. Probar sin cambiar de mesa: Leitz Ergo Cosy. Los FlexiSpot E7 Pro y EG1 que recomendábamos antes ya no se venden en Amazon.es.",
+        productSlug: "fezibo-escritorio-elevable-100x60",
       },
     ],
     comparison: {
-      headers: ["Criterio", "FlexiSpot E7 Pro", "FlexiSpot EG1"],
+      headers: ["Modelo", "Motor", "Altura", "Tablero", "Carga máx.", "Memorias", "Anticolisión"],
       rows: [
-        ["Motor", "Doble sincronizado", "Único"],
-        ["Rango de altura", "58-123 cm", "71-121 cm"],
-        ["Carga máx.", "125 kg", "70 kg"],
-        ["Memoria de alturas", "4 posiciones", "2 posiciones"],
-        ["Tablero", "140×70 cm incluido", "120×60 cm"],
-        ["Garantía motor", "5 años", "3 años"],
+        ["FLEXISPOT E1 Pro 160×80", "Doble", "70-119 cm", "160×80 cm, una pieza, 25 mm", "100 kg", "4", "Sí, con retroceso"],
+        ["FLEXISPOT 120×60 tablero entero", "No indicado", "No indicada con claridad", "120×60 cm, una pieza", "No indicada", "4", "Sí, con retroceso"],
+        ["ErGear 140×70", "Uno", "72-118 cm", "140×70 cm", "80 kg", "4", "No indicado"],
+        ["ErGear 120×60", "Uno", "72-118 cm", "120×60 cm, dos piezas, 15 mm", "80 kg", "4", "No indicado"],
+        ["SONGMICS BALOK 140×60", "Uno", "72-120 cm", "140×60 cm", "No indicada", "4", "No indicado"],
+        ["FEZIBO 100×60", "Uno", "72-118 cm", "100×60 cm, 15 mm", "Unos 80 kg (176 lb)", "Sí (nº no indicado)", "Sí, retrocede 2 cm"],
+        ["Leitz Ergo Cosy (convertidor)", "Neumático", "Sobre tu mesa", "70×35 cm", "16 kg", "No", "No aplica"],
       ],
     },
-    conclusion: "El FlexiSpot E7 Pro es el mejor escritorio regulable del catálogo para uso intensivo: doble motor, 125 kg de carga y cuatro memorias justifican su precio si lo vas a usar años con un setup exigente. El EG1 es la puerta de entrada correcta para quien tiene un setup ligero y quiere empezar a trabajar de pie sin la inversión del E7 Pro. Los dos cumplen el objetivo esencial: sacarte de la silla varias veces al día.",
+    conclusion: "El mejor escritorio elevable es el que cubre tus dos alturas de codo, aguanta con margen el peso de tu equipo y tiene un tablero en el que caben tus pantallas a buena distancia. Mide primero, suma pesos después y solo entonces mira modelos. Y úsalo para alternar de postura y hacer pausas, no para estar de pie todo el día.",
+    sources: [
+      { label: "INSST — NTP 1130: Criterios ergonómicos para regular correctamente la silla de oficina y otras sillas alternativas", url: "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.130-criterios-ergonomicos-para-regular-correctamente-la-silla-de-oficina-y-otras-sillas-alternativas" },
+      { label: "INSST — NTP 602: El diseño ergonómico del puesto de trabajo con pantallas de visualización: el equipo de trabajo", url: "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/17-serie-ntp-numeros-576-a-610-ano-2001/ntp-602-el-diseno-ergonomico-del-puesto-de-trabajo-con-pantallas-de-visualizacion-el-equipo-de-trabajo-2001" },
+      { label: "BOE — Real Decreto 488/1997, sobre trabajo con equipos que incluyen pantallas de visualización", url: "https://www.boe.es/buscar/act.php?id=BOE-A-1997-8671" },
+    ],
     faqs: [
-      { q: "¿Cuánto tiempo al día hay que trabajar de pie?", a: "La recomendación general es alternar: unos 20-30 minutos de pie por cada hora sentado. Lo sensato es empezar con una o dos horas de pie al día e ir aumentando de forma progresiva. Estar de pie toda la jornada tampoco es ideal, porque genera su propia fatiga: la clave está en variar de postura, no en sustituir un extremo por otro." },
-      { q: "¿Necesito una alfombrilla antifatiga con el escritorio de pie?", a: "Es muy recomendable si vas a estar de pie más de 30 minutos seguidos. Una alfombrilla antifatiga reduce de forma notable la fatiga en piernas y pies al trabajar de pie, porque favorece pequeños movimientos musculares que mejoran la circulación. Es un complemento barato que marca la diferencia en la comodidad del modo de pie." },
-      { q: "¿El FlexiSpot E7 Pro hace mucho ruido al subir?", a: "El doble motor del E7 Pro es notablemente silencioso comparado con los escritorios de un solo pistón. En una oficina en casa el ruido es perfectamente tolerable y no interrumpe una videollamada, sobre todo teniendo en cuenta que el movimiento dura solo unos segundos." },
-      { q: "¿Se puede montar el escritorio solo?", a: "Sí, aunque es más cómodo con ayuda para colocar el tablero, sobre todo el de 140×70 cm del E7 Pro. El montaje completo lleva entre 45 y 90 minutos según el modelo. FlexiSpot ofrece instrucciones en vídeo en su web para acompañar el manual." },
+      { q: "¿Qué altura debe tener un escritorio elevable?", a: "La de tus codos. De pie y sentado, con los codos a 90°, mide del suelo a la parte inferior del codo: la mesa debe quedar a esa altura o 2-3 cm por debajo. Elige un modelo cuyo rango incluya tus dos medidas." },
+      { q: "¿Merece la pena un escritorio elevable de doble motor?", a: "Sí si vas a cargarlo: dos monitores, un brazo, altavoces o una torre, o un tablero grande de 160 × 80 cm. El doble motor suele admitir más peso y subir de forma más uniforme. Para un portátil y un monitor, un escritorio de un motor de unos 80 kg de carga es suficiente." },
+      { q: "¿Cuánto tiempo hay que trabajar de pie con un escritorio elevable?", a: "No hay una cifra oficial de minutos. El INSST identifica el estatismo como el problema y recuerda que alternar posturas no elimina las pausas. Lo razonable es empezar con periodos cortos de pie, cambiar cuando notes fatiga y no pasar la jornada entera de pie." },
+      { q: "¿Es suficiente un escritorio elevable de 120 × 60 cm?", a: "Para un portátil y un monitor, sí. Para dos monitores de 27 pulgadas, que ocupan unos 120 cm de ancho, se queda corto: mejor 140 × 70 o 160 × 80 cm." },
+      { q: "¿Escritorio elevable o elevador de sobremesa?", a: "El escritorio elevable ajusta toda la mesa, también para trabajar sentado, y admite más peso. El elevador de sobremesa, como el Leitz Ergo Cosy, se pone sobre tu mesa sin montaje, pero tiene una superficie pequeña (70 × 35 cm) y una carga de 16 kg." },
     ],
   },
 
@@ -353,7 +403,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Hábitos que complementan el equipamiento",
-        body: "El equipamiento correcto se potencia con hábitos correctos. La regla 20-20-20 (cada 20 minutos, mirar a 20 metros durante 20 segundos) descansa la vista y obliga a un microdescanso. Las pausas de cinco minutos cada hora para levantarse y moverte evitan que los músculos se agarroten. Ajustar el monitor para que su borde superior quede a la altura de los ojos elimina la inclinación cervical. Y colocar el teclado a la altura del codo, con los antebrazos apoyados, descarga hombros y muñecas. Ninguno cuesta dinero y juntos multiplican el efecto de una buena silla.",
+        body: "El equipamiento correcto se potencia con hábitos correctos. La regla 20-20-20 (cada 20 minutos, mirar a 20 metros durante 20 segundos) descansa la vista y obliga a un microdescanso. Las pausas de cinco minutos cada hora para levantarse y moverte evitan que los músculos se agarroten. Ajustar el monitor para que su borde superior quede a la altura de los ojos elimina la inclinación cervical. Y colocar el teclado a la altura del codo, con los antebrazos apoyados, descarga hombros y muñecas. Ninguno cuesta dinero y juntos multiplican el efecto de una buena silla. Si tu mesa fija no permite esa altura o pasas muchas horas sin cambiar de postura, un [escritorio elevable](/blog/escritorio-regulable-altura-home-office) te deja ajustar la altura exacta y alternar entre sentado y de pie.",
       },
       {
         heading: "Cuándo la silla no es suficiente",

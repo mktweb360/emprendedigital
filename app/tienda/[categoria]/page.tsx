@@ -13,12 +13,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { categoria } = await params;
   const cat = categories.find((c) => c.slug === categoria);
   if (!cat) return {};
+  const seo = categorySeo[cat.slug];
   return {
-    title: `${cat.name}: guía de compra y comparativa`,
-    description: `Los mejores ${cat.name.toLowerCase()} para emprendedores digitales y teletrabajadores. Análisis, comparativas y los mejores precios del mercado.`,
+    title: seo?.title ?? `${cat.name}: guía de compra y comparativa`,
+    description: seo?.description ?? `Los mejores ${cat.name.toLowerCase()} para emprendedores digitales y teletrabajadores. Análisis, comparativas y guías de compra independientes.`,
     alternates: { canonical: `https://www.emprendedigital.es/tienda/${cat.slug}` },
   };
 }
+
+// Title y description específicos por categoría (opcional). Las que no figuran aquí
+// usan la plantilla genérica de generateMetadata.
+const categorySeo: Record<string, { title: string; description: string }> = {
+  escritorios: {
+    title: "Mesa escritorio elevable: eléctricos y convertidores",
+    description: "Mesas de escritorio elevables eléctricas de 100×60 a 160×80 cm, de uno y dos motores, y un convertidor de sobremesa. Rango de altura, carga y memorias.",
+  },
+};
 
 const buyingGuides: Record<string, { title: string; paragraphs: string[] }> = {
   portatiles: {
@@ -78,11 +88,11 @@ const buyingGuides: Record<string, { title: string; paragraphs: string[] }> = {
     ],
   },
   escritorios: {
-    title: "¿Qué escritorio ajustable en altura elegir?",
+    title: "¿Qué mesa de escritorio elevable elegir?",
     paragraphs: [
-      "El doble motor ofrece más estabilidad, mayor capacidad de carga (100-125 kg vs 70 kg) y es más silencioso. Para setups con múltiples monitores, el doble motor es necesario.",
-      "El rango de altura debe cubrir tu posición sentada y de pie. Para la mayoría de adultos (165-185 cm), un rango de 60-125 cm es suficiente.",
-      "Las posiciones de memoria programables son una comodidad real: elimina el ajuste manual cada vez que cambias de postura y fomenta que realmente uses el modo de pie.",
+      "El rango de altura debe incluir tu altura de codo sentado y de pie: mide del suelo a la parte inferior del codo con los brazos a 90° y compara con la altura mínima y máxima de cada modelo.",
+      "El doble motor suele admitir más carga y subir de forma más uniforme: en este catálogo, los modelos de un motor declaran unos 80 kg y el de doble motor, 100 kg. Con dos monitores, brazo o torre sobre la mesa, compensa.",
+      "Elige el tablero por tus pantallas: 120 × 60 cm para un monitor, 140 × 70 cm para dos de 24 pulgadas y 160 × 80 cm para dos de 27. Las memorias y el sistema anticolisión hacen que de verdad alternes de postura con seguridad.",
     ],
   },
 };
@@ -94,7 +104,10 @@ const relatedArticles: Record<string, { title: string; href: string }[]> = {
   auriculares: [{ title: "Mejores auriculares con cancelación de ruido para trabajar", href: "/blog/mejores-auriculares-cancelacion-ruido-trabajo-2025" }],
   iluminacion: [{ title: "Iluminación para videollamadas: guía completa y mejores opciones", href: "/blog/iluminacion-videollamadas-home-office" }],
   "sillas-ergonomicas": [{ title: "Mejor silla ergonómica para home office — Comparativa completa", href: "/blog/mejor-silla-ergonomica-home-office-2025" }],
-  escritorios: [{ title: "Escritorio regulable en altura para home office: guía de compra", href: "/blog/escritorio-regulable-altura-home-office" }],
+  escritorios: [
+    { title: "Escritorio elevable eléctrico: guía de compra 2026 (altura, motores, tablero y comparativa)", href: "/blog/escritorio-regulable-altura-home-office" },
+    { title: "Dolor de espalda trabajando desde casa: causas y soluciones", href: "/blog/dolor-espalda-trabajar-casa-soluciones" },
+  ],
 };
 
 export default async function CategoriaPage({ params }: Props) {

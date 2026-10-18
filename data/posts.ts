@@ -88,15 +88,23 @@ export const posts: Post[] = [
   {
     slug: "escritorio-regulable-altura-home-office",
     image: "/images/blog/escritorio-regulable-altura-home-office.jpg",
-    title: "Escritorio regulable en altura para home office: guía de compra",
+    title: "Escritorio elevable eléctrico: guía de compra 2026",
     excerpt:
-      "Cómo elegir el mejor escritorio regulable en altura para trabajar desde casa: FlexiSpot E7 Pro vs FlexiSpot EG1. Comparativa por uso, presupuesto y espacio.",
+      "Cómo elegir un escritorio elevable: eléctrico o manual, uno o dos motores, altura según tu codo, estabilidad, carga, tamaño de tablero y comparativa.",
     date: "2025-07-03",
     category: "Home Office",
-    readTime: "9 min",
-    relatedProducts: ["flexispot-e7-pro-escritorio-ajustable", "flexispot-eg1-escritorio-ajustable"],
-    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "home-office-setup-productivo-guia", "organizar-cables-home-office-guia"],
-    categoryCta: { href: "/tienda/escritorios", text: "Ver escritorios ajustables →" },
+    readTime: "12 min",
+    relatedProducts: [
+      "flexispot-e1-pro-escritorio-elevable-160x80",
+      "flexispot-escritorio-elevable-120x60-tablero-entero",
+      "ergear-escritorio-elevable-140x70",
+      "ergear-escritorio-elevable-120x60",
+      "songmics-escritorio-electrico-balok",
+      "fezibo-escritorio-elevable-100x60",
+      "leitz-ergo-cosy-convertidor-escritorio",
+    ],
+    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "dolor-espalda-trabajar-casa-soluciones", "home-office-setup-productivo-guia", "organizar-cables-home-office-guia"],
+    categoryCta: { href: "/tienda/escritorios", text: "Ver escritorios elevables →" },
   },
   {
     slug: "home-office-setup-productivo-guia",
@@ -125,7 +133,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "8 min",
     relatedProducts: ["sihoo-m57-silla-ergonomica", "hbada-silla-ergonomica-pro"],
-    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "home-office-setup-productivo-guia", "hjh-office-ergohuman-slim-gen2-analisis"],
+    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "escritorio-regulable-altura-home-office", "home-office-setup-productivo-guia", "hjh-office-ergohuman-slim-gen2-analisis"],
     categoryCta: { href: "/tienda/sillas-ergonomicas", text: "Ver sillas ergonómicas →" },
   },
   {

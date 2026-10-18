@@ -5,7 +5,7 @@ import { categories, getFeaturedProducts, getProductsByCategory } from "@/data/p
 export const metadata: Metadata = {
   title: "Tienda — Herramientas y equipamiento para emprendedores digitales",
   description:
-    "Explora nuestra selección de portátiles, micrófonos, webcams, auriculares, sillas ergonómicas y más. Análisis detallados y los mejores precios del mercado.",
+    "Explora nuestra selección de portátiles, micrófonos, webcams, auriculares, sillas ergonómicas y más. Análisis detallados, comparativas y guías de compra independientes.",
   alternates: { canonical: "https://www.emprendedigital.es/tienda" },
   openGraph: {
     title: "Tienda — Herramientas para emprendedores digitales | Emprende Digital",
