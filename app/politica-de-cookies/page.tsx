@@ -40,6 +40,14 @@ export default function PoliticaCookiesPage() {
           páginas más visitadas y el flujo de contenidos. La información recogida es anónima y se usa para mejorar
           el sitio web.
         </p>
+        <table>
+          <thead>
+            <tr><th>Nombre</th><th>Finalidad</th><th>Duración</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><code>_ga</code>, <code>_ga_*</code></td><td>Medir de forma agregada las visitas y los clics a Amazon (Google Analytics 4; solo con consentimiento)</td><td>2 años</td></tr>
+          </tbody>
+        </table>
 
         <h3>Cookies publicitarias (Google AdSense)</h3>
         <p>
@@ -88,7 +96,7 @@ export default function PoliticaCookiesPage() {
           regularmente para mantenerte informado.
         </p>
 
-        <p className="text-gray-400 text-xs mt-8">Última actualización: junio 2025</p>
+        <p className="text-gray-400 text-xs mt-8">Última actualización: octubre de 2026</p>
       </div>
     </div>
   );
