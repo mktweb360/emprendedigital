@@ -6,7 +6,7 @@ import { amazonLink } from "@/lib/amazon";
 import { getPostBySlug } from "@/data/posts";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
-import { productTitle, relatedInCategory } from "@/lib/seo";
+import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
 
 type Props = { params: Promise<{ categoria: string; producto: string }> };
 
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: productTitle(product.name, "análisis y opiniones") },
+    title: { absolute: productTitleUnique(product, products, "análisis y opiniones") },
     description: `Análisis completo del ${product.name}: especificaciones, pros, contras, precio y comparativa con alternativas. ¿Vale la pena en 2025?`,
     alternates: { canonical: `https://www.emprendedigital.es/tienda/${product.categorySlug}/${product.slug}` },
   };
