@@ -9,7 +9,7 @@ const staticArticles: string[] = [];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
-    { url: BASE, changeFrequency: "weekly", priority: 1 },
+    { url: `${BASE}/`, changeFrequency: "weekly", priority: 1 },
     { url: `${BASE}/blog`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE}/tienda`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE}/sobre-nosotros`, changeFrequency: "monthly", priority: 0.5 },
