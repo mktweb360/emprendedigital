@@ -47,7 +47,7 @@ const buyingGuides: Record<string, { title: string; paragraphs: string[] }> = {
   perifericos: {
     title: "¿Qué teclado y ratón necesitas para trabajar en remoto?",
     paragraphs: [
-      "Los periféricos correctos mejoran la ergonomía y la productividad. Un buen teclado de membrana o mecánico reduce la fatiga en jornadas largas de escritura.",
+      "Los periféricos correctos mejoran la ergonomía y la productividad. Un buen teclado de membrana o mecánico reduce la fatiga en jornadas largas de escritura. Si eliges un mecánico, comprueba en la ficha que la distribución sea española (ISO-ES, con ñ) y evita los interruptores clicky si haces videollamadas.",
       "Para el ratón, el factor más importante es la comodidad en sesiones largas. Los ratones ergonómicos como el Logitech MX Master 3S tienen una curva pronunciada que reduce la tensión en la muñeca.",
       "La conectividad Bluetooth o el receptor USB unificador permiten usar los mismos periféricos con múltiples dispositivos, lo que es una ventaja si alternan entre portátil y ordenador de sobremesa.",
     ],
@@ -107,7 +107,10 @@ const relatedArticles: Record<string, { title: string; href: string }[]> = {
     { title: "Mejor portátil para trabajar desde casa: Mac, Windows o Windows ARM", href: "/blog/mejor-portatil-trabajar-desde-casa-mac-windows-arm-2026" },
     { title: "Cómo conectar dos monitores a un portátil", href: "/blog/conectar-dos-monitores-portatil-guia" },
   ],
-  perifericos: [{ title: "Mejor teclado y ratón para trabajo remoto — Comparativa", href: "/blog/mejor-teclado-raton-trabajo-remoto" }],
+  perifericos: [
+    { title: "Teclado mecánico para oficina y teletrabajo: cómo elegirlo y modelos con ñ", href: "/blog/mejores-teclados-mecanicos-trabajar-oficina" },
+    { title: "Mejor teclado y ratón para trabajo remoto — Comparativa", href: "/blog/mejor-teclado-raton-trabajo-remoto" },
+  ],
   microfonos: [{ title: "Mejor micrófono USB para podcast, streaming y videollamadas en 2026", href: "/blog/mejor-microfono-usb-podcast-streaming-2026" }],
   webcams: [{ title: "Mejor webcam para videollamadas de trabajo remoto", href: "/blog/mejor-webcam-videollamadas-trabajo-remoto" }],
   auriculares: [

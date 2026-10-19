@@ -15,6 +15,31 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "mejores-teclados-mecanicos-trabajar-oficina",
+    title: "Teclado mecánico para oficina y teletrabajo: cómo elegirlo y modelos con ñ",
+    seoTitle: "Mejores teclados mecánicos para trabajar en 2026",
+    excerpt:
+      "Cómo elegir un teclado mecánico para trabajar: switches silenciosos, formato 100 %, TKL, 75 % o 60 %, distribución ISO-ES con ñ, conexión y muñecas.",
+    date: "2026-10-19",
+    category: "Productividad",
+    readTime: "10 min",
+    relatedProducts: [
+      "keychron-v6-ultra-8k-teclado-mecanico-iso-es",
+      "keychron-k2-ultra-8k-teclado-mecanico-75-iso-es",
+      "logitech-g413-tkl-se-teclado-mecanico",
+      "razer-blackwidow-v4-x-teclado-mecanico-es",
+      "royal-kludge-rk61-teclado-mecanico-60",
+      "keychron-k2-pro-mecanico",
+    ],
+    relatedPosts: [
+      "mejor-teclado-raton-trabajo-remoto",
+      "mejor-silla-ergonomica-home-office-2025",
+      "escritorio-regulable-altura-home-office",
+      "dolor-espalda-trabajar-casa-soluciones",
+    ],
+    categoryCta: { href: "/tienda/perifericos", text: "Ver teclados y ratones →" },
+  },
+  {
     slug: "black-friday-oficina-en-casa-que-comprar-2026",
     title: "Black Friday 2026 para la oficina en casa: qué merece la pena comprar",
     seoTitle: "Black Friday 2026 oficina en casa: qué comprar",
@@ -164,7 +189,7 @@ export const posts: Post[] = [
     category: "Productividad",
     readTime: "8 min",
     relatedProducts: ["logitech-mx-keys-advanced-s", "logitech-mx-master-3s", "keychron-k2-pro-mecanico"],
-    relatedPosts: ["setup-trabajo-remoto-productividad-maxima", "herramientas-productividad-trabajo-remoto-2025", "monitor-4k-vs-full-hd-trabajo-remoto"],
+    relatedPosts: ["mejores-teclados-mecanicos-trabajar-oficina", "setup-trabajo-remoto-productividad-maxima", "herramientas-productividad-trabajo-remoto-2025", "monitor-4k-vs-full-hd-trabajo-remoto"],
     categoryCta: { href: "/tienda/perifericos", text: "Ver teclados y ratones →" },
   },
   {

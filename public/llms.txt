@@ -18,7 +18,7 @@ EmprendeDigital.es es un portal de análisis, comparativas y guías de compra es
 URL: https://www.emprendedigital.es/tienda
 Categorías disponibles con fichas de producto individuales:
 - Portátiles para trabajo remoto: https://www.emprendedigital.es/tienda/portatiles — Apple MacBook Air M3 13" 8GB 256GB, ASUS ZenBook 14 OLED UX3405CA-QD1481W Intel Core Ultra 7 255H, Lenovo Yoga Slim 7 Gen 10 Aura Edition 14" OLED Intel Core Ultra 7 258V, ASUS Vivobook 15 F1504VA Intel Core 5 16GB 1TB
-- Teclados y ratones: https://www.emprendedigital.es/tienda/perifericos — Logitech MX Keys S, Logitech MX Master 3S, Keychron V6 MAX, Razer Pro Type Ultra, Logitech Signature M650
+- Teclados y ratones: https://www.emprendedigital.es/tienda/perifericos — Logitech MX Keys S, Logitech MX Master 3S, Keychron V6 MAX, Razer Pro Type Ultra, Logitech Signature M650, teclados mecánicos con distribución española: Keychron V6 Ultra 8K ISO-ES, Keychron K2 Ultra 8K 75 % ISO-ES, Logitech G413 TKL SE, Razer BlackWidow V4 X ES, Royal Kludge RK61
 - Micrófonos para podcast: https://www.emprendedigital.es/tienda/microfonos — Blue Yeti, HyperX SoloCast, Elgato Wave:3, FIFINE
 - Webcams y cámaras: https://www.emprendedigital.es/tienda/webcams — Logitech C920 HD Pro, Logitech MX Brio Ultra HD 4K, AnkerWork PowerConf C200, Razer Kiyo Pro
 - Auriculares para trabajar: https://www.emprendedigital.es/tienda/auriculares — Sony WH-1000XM5, Jabra Evolve2 65, JBL Tune 520BT, Jabra Evolve2 40, Soundcore Space One
@@ -42,6 +42,7 @@ Categorías disponibles con fichas de producto individuales:
 - [Cómo conectar dos monitores a un portátil: guía para Windows y Mac](https://www.emprendedigital.es/blog/conectar-dos-monitores-portatil-guia) — HDMI + USB-C, dock Thunderbolt, hub MST o DisplayLink: qué funciona en cada sistema y qué comprobar antes de comprar
 
 ### Productividad
+- [Teclado mecánico para oficina y teletrabajo: cómo elegirlo y modelos con ñ](https://www.emprendedigital.es/blog/mejores-teclados-mecanicos-trabajar-oficina) — Switches lineales, táctiles y clicky y su ruido en videollamadas, formatos 100 %/TKL/75 %/60 %, distribución ISO-ES con ñ (RD 564/1993), conexión, ergonomía de muñeca según el INSST y el RD 488/1997, y comparativa de 6 teclados con distribución española
 - [Mejor teclado y ratón para trabajo remoto](https://www.emprendedigital.es/blog/mejor-teclado-raton-trabajo-remoto) — Logitech MX Keys Advanced S, MX Master 3S y Keychron K2 Pro, incluye el análisis a fondo del MX Keys
 - [Setup de trabajo remoto para máxima productividad](https://www.emprendedigital.es/blog/setup-trabajo-remoto-productividad-maxima) — Niveles de setup por presupuesto con productos reales
 - [Herramientas de productividad para trabajo remoto](https://www.emprendedigital.es/blog/herramientas-productividad-trabajo-remoto-2025) — Notion, Slack, herramientas de foco y automatización
