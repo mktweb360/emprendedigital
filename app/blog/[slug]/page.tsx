@@ -742,7 +742,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Cuándo añadir un micrófono externo",
-        body: "El micrófono integrado de la C920 es funcional, pero capta el ruido ambiente. Si tienes reuniones importantes frecuentes, una habitación con eco o haces formación y podcasting, un micrófono USB como el Blue Yeti mejora drásticamente la calidad de audio percibida, con cuatro patrones de captación y monitorización sin latencia. Si buscas algo más compacto con software de mezcla propio, el Elgato Wave:3 es una alternativa con antipop integrado y control de ganancia capacitivo.",
+        body: "El micrófono integrado de la C920 es funcional, pero capta el ruido ambiente. Si tienes reuniones importantes frecuentes, una habitación con eco o haces formación y podcasting, un micrófono USB como el Blue Yeti mejora drásticamente la calidad de audio percibida, con cuatro patrones de captación y monitorización sin latencia. Si buscas algo más compacto con software de mezcla propio, el Elgato Wave:3 MK.2 es una alternativa con antipop integrado, ajuste automático del nivel (Auto Gain) y protección contra la saturación (Clipguard 2.0).",
         productSlug: "blue-yeti-usb-microfono",
       },
     ],
@@ -754,11 +754,11 @@ const articleContent: Record<string, {
         ["Blue Yeti", "Audio profesional en reuniones y podcast", "Cuando el audio importa mucho"],
       ],
     },
-    conclusion: "La Logitech C920 es la primera compra correcta para cualquier trabajador remoto que no tenga webcam externa. Si produces contenido o necesitas 4K y certificación para las principales plataformas de videollamada, la MX Brio justifica el salto. Y una vez resuelta la imagen, el mayor impacto siguiente viene del audio: un micrófono USB como el Blue Yeti —o el Elgato Wave:3, con su software de mezcla Wave Link— eleva la calidad percibida en reuniones importantes.",
+    conclusion: "La Logitech C920 es la primera compra correcta para cualquier trabajador remoto que no tenga webcam externa. Si produces contenido o necesitas 4K y certificación para las principales plataformas de videollamada, la MX Brio justifica el salto. Y una vez resuelta la imagen, el mayor impacto siguiente viene del audio: un micrófono USB como el Blue Yeti —o el Elgato Wave:3 MK.2, con su software de mezcla Wave Link— eleva la calidad percibida en reuniones importantes.",
     faqs: [
       { q: "¿La C920 funciona sin drivers en Mac?", a: "Sí, es plug-and-play en macOS: no requiere software para funcionar. La aplicación Logitech Capture es opcional y solo sirve para ajustes avanzados como el encuadre o la exposición manual." },
       { q: "¿1080p es suficiente o necesito 4K?", a: "Para videollamadas de trabajo (Teams, Zoom, Meet), 1080p es más que suficiente, porque las plataformas comprimen el vídeo de todas formas. El 4K de la MX Brio aporta sobre todo en grabación y streaming, donde el archivo final conserva la resolución, no en la videollamada en sí." },
-      { q: "¿El Blue Yeti es demasiado sensible en una habitación con eco?", a: "Es un micrófono de condensador muy sensible que capta bien el ambiente, así que en habitaciones con eco puede necesitar un tratamiento acústico básico (alfombra, cortinas). Si buscas algo más sencillo con mezcla de audio integrada, el Elgato Wave:3 o el HyperX SoloCast son mejores para ese caso." },
+      { q: "¿El Blue Yeti es demasiado sensible en una habitación con eco?", a: "Es un micrófono de condensador muy sensible que capta bien el ambiente, así que en habitaciones con eco puede necesitar un tratamiento acústico básico (alfombra, cortinas). Si buscas algo más sencillo con mezcla de audio integrada, el Elgato Wave:3 MK.2 o el HyperX SoloCast son mejores para ese caso." },
       { q: "¿Se pueden usar la webcam y el micrófono a la vez?", a: "Sí, son dispositivos USB independientes. Puedes seleccionar la webcam para el vídeo y el micrófono USB para el audio en la configuración de Zoom, Teams o cualquier otra plataforma, sin conflicto entre ambos." },
     ],
   },
@@ -956,8 +956,8 @@ const articleContent: Record<string, {
       },
       {
         heading: "Para audio con mezcla integrada",
-        body: "Si grabas tu voz y quieres poder mezclarla con el audio del sistema sin complicarte con hardware adicional, el Elgato Wave:3 (cardioide, software Wave Link) es una alternativa al Blue Yeti que ocupa un espacio similar en el escritorio. Es una gran opción para quien empieza a crear contenido y quiere control de ganancia capacitivo y un antipop de doble capa integrado sin accesorios extra.",
-        productSlug: "elgato-wave3-microfono-condensador-usb",
+        body: "Si grabas tu voz y quieres poder mezclarla con el audio del sistema sin complicarte con hardware adicional, el Elgato Wave:3 MK.2 (USB-C, software Wave Link) es una alternativa al Blue Yeti que ocupa un espacio similar en el escritorio. Es una buena opción para quien empieza a crear contenido: ajusta solo el nivel de entrada (Auto Gain), evita que la voz se sature (Clipguard 2.0) y lleva el filtro antipop integrado.",
+        productSlug: "elgato-wave3-mk2-microfono-condensador-usb",
       },
       {
         heading: "Los errores más comunes al empezar",
@@ -1451,9 +1451,9 @@ const articleContent: Record<string, {
         productSlug: "blue-yeti-usb-microfono",
       },
       {
-        heading: "Elgato Wave:3: el más completo para streaming y podcast serio",
-        body: "El Elgato Wave:3 apunta a un usuario más exigente: streamers y creadores de podcast que quieren mezclar en directo el audio del micrófono con el del sistema (música, notificaciones, otros participantes de una llamada) sin hardware adicional. Su software Wave Link resuelve eso desde el propio ordenador, y el antipop de doble capa integrado en la rejilla reduce los sonidos explosivos de las consonantes oclusivas sin necesidad de comprar una pantalla antipop aparte. El control de ganancia es capacitivo, por lo que no genera el ruido de clic de un potenciómetro físico al tocarlo en mitad de una grabación.",
-        productSlug: "elgato-wave3-microfono-condensador-usb",
+        heading: "Elgato Wave:3 MK.2: el más completo para streaming y podcast serio",
+        body: "El Elgato Wave:3 MK.2, segunda versión del Wave:3, apunta a un usuario más exigente: streamers y creadores de podcast que quieren mezclar en directo el audio del micrófono con el del sistema (música, notificaciones, otros participantes de una llamada) sin hardware adicional. Su software Wave Link resuelve eso desde el propio ordenador y permite aplicar efectos con plugins VST. Añade dos ayudas que se notan al grabar: Clipguard 2.0, que evita que la voz se sature aunque subas el tono de golpe, y Auto Gain, que ajusta el nivel de entrada en segundos. Lleva filtro antipop interno, dial multifunción, silencio por toque, anillo LED con los niveles y salida de auriculares para escucharte en directo. Se conecta por USB-C.",
+        productSlug: "elgato-wave3-mk2-microfono-condensador-usb",
       },
       {
         heading: "HyperX SoloCast: el mejor equilibrio precio-calidad para reuniones",
@@ -1467,20 +1467,20 @@ const articleContent: Record<string, {
       },
       {
         heading: "¿Cuál elegir según tu uso?",
-        body: "Para reuniones de trabajo diarias sin más pretensiones, el HyperX SoloCast es la compra más sensata: resuelve el problema con un botón de silencio físico y sin curva de aprendizaje. Para quien empieza un podcast o un canal y quiere margen de mejora sin gastar mucho, el FIFINE permite probar el formato con una inversión mínima. Para streaming y podcast con producción más cuidada —mezcla de audio en directo, antipop integrado—, el Elgato Wave:3 es el que más se nota en la calidad final. Y si vas a grabar entrevistas presenciales o necesitas la máxima flexibilidad de patrones polares, el Blue Yeti es el único de los cuatro que lo permite.",
+        body: "Para reuniones de trabajo diarias sin más pretensiones, el HyperX SoloCast es la compra más sensata: resuelve el problema con un botón de silencio físico y sin curva de aprendizaje. Para quien empieza un podcast o un canal y quiere margen de mejora sin gastar mucho, el FIFINE permite probar el formato con una inversión mínima. Para streaming y podcast con producción más cuidada —mezcla de audio en directo, protección contra la saturación—, el Elgato Wave:3 MK.2 es el que más se nota en la calidad final. Y si vas a grabar entrevistas presenciales o necesitas la máxima flexibilidad de patrones polares, el Blue Yeti es el único de los cuatro que lo permite.",
       },
     ],
     comparison: {
-      headers: ["Criterio", "Blue Yeti", "Elgato Wave:3", "HyperX SoloCast", "FIFINE"],
+      headers: ["Criterio", "Blue Yeti", "Elgato Wave:3 MK.2", "HyperX SoloCast", "FIFINE"],
       rows: [
         ["Patrones polares", "4 (cardioide, bidir., omni, estéreo)", "1 (cardioide)", "1 (cardioide)", "1 (cardioide)"],
-        ["Monitorización auriculares", "Sí, sin latencia", "Vía software Wave Link", "No", "No"],
-        ["Control de ganancia", "Físico, en el cuerpo", "Capacitivo", "No", "No"],
-        ["Mute físico", "Sí", "No (vía software)", "Sí, tap-to-mute con LED", "No"],
+        ["Monitorización auriculares", "Sí, sin latencia", "Sí, conector integrado", "No", "No"],
+        ["Control de ganancia", "Físico, en el cuerpo", "Dial multifunción y Auto Gain", "No", "No"],
+        ["Mute físico", "Sí", "Sí, silencio por toque", "Sí, tap-to-mute con LED", "No"],
         ["Mejor para", "Versatilidad y entrevistas", "Streaming y podcast con mezcla", "Reuniones de trabajo diarias", "Empezar con presupuesto mínimo"],
       ],
     },
-    conclusion: "No existe un único \"mejor micrófono USB\": existe el más adecuado para lo que vas a grabar. Para reuniones de trabajo, el HyperX SoloCast resuelve el problema sin complicaciones. Para dar los primeros pasos en podcast o contenido con la mínima inversión, el FIFINE cumple. Para producción de streaming o podcast más cuidada, el Elgato Wave:3 añade herramientas que se notan en el resultado final. Y si necesitas grabar entrevistas o distintos formatos de audio, el Blue Yeti es el único con la versatilidad de patrones polares para hacerlo bien. En los cuatro casos, el salto de calidad frente al micrófono integrado de cualquier portátil es inmediato y se nota desde la primera grabación.",
+    conclusion: "No existe un único \"mejor micrófono USB\": existe el más adecuado para lo que vas a grabar. Para reuniones de trabajo, el HyperX SoloCast resuelve el problema sin complicaciones. Para dar los primeros pasos en podcast o contenido con la mínima inversión, el FIFINE cumple. Para producción de streaming o podcast más cuidada, el Elgato Wave:3 MK.2 añade herramientas que se notan en el resultado final. Y si necesitas grabar entrevistas o distintos formatos de audio, el Blue Yeti es el único con la versatilidad de patrones polares para hacerlo bien. En los cuatro casos, el salto de calidad frente al micrófono integrado de cualquier portátil es inmediato y se nota desde la primera grabación.",
     faqs: [
       { q: "¿Un micrófono USB es mejor que los auriculares con micrófono para videollamadas?", a: "Sí, de forma notable. Un micrófono de condensador USB colocado cerca de la boca capta la voz con mucha más claridad y menos ruido de fondo que el micrófono integrado de unos auriculares o de un portátil, que suele estar diseñado para llamadas telefónicas básicas, no para una calidad de audio profesional." },
       { q: "¿Se puede usar un micrófono USB con el móvil o la tablet?", a: "Depende del modelo y del conector del dispositivo. Los micrófonos con salida USB-C pueden conectarse directamente a móviles Android con USB-C compatibles con audio USB; en iPhone suele requerir un adaptador Lightning o USB-C a USB según el modelo. Conviene comprobar la compatibilidad específica del dispositivo antes de dar por hecho que funcionará." },
