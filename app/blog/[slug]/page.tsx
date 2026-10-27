@@ -71,6 +71,119 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "brazo-monitor-como-elegir": {
+    "intro": "Un brazo para monitor sujeta la pantalla a la mesa con una abrazadera y deja moverla en altura, profundidad e inclinación, algo que la peana de la mayoría de monitores no permite. Sirve para dos cosas: colocar la pantalla a la altura correcta y liberar espacio en la mesa. Esta guía explica qué comprobar antes de comprarlo (anclaje VESA, peso, pulgadas y tipo de mesa), si te conviene uno sencillo o doble y a qué altura poner la pantalla según el INSST, con una comparativa de los brazos del catálogo verificados en Amazon.es.",
+    "sections": [
+      {
+        "heading": "Nuestras recomendaciones rápidas",
+        "body": "Para un monitor normal de hasta 32 pulgadas: el HUANUO de un brazo, que admite de 2 a 9 kg, o el Invision MX200, de 19 a 32 pulgadas. Para dos pantallas: el HUANUO doble, con hasta 9 kg por monitor. Para un monitor grande, curvo o ultrawide: el BONTEC de 24 a 38 pulgadas y hasta 12 kg. Los cuatro usan VESA 75 o 100 y se fijan con abrazadera.",
+        "productSlug": "huanuo-brazo-monitor-13-32-9kg"
+      },
+      {
+        "heading": "Antes de comprar: tu monitor tiene que tener VESA",
+        "body": "VESA es el estándar de los cuatro agujeros roscados de la parte de atrás del monitor. Los brazos domésticos usan casi siempre VESA 75 × 75 o 100 × 100 mm, la distancia entre agujeros. Mira la parte trasera de tu monitor o su ficha técnica: si no tiene esos agujeros, necesitarás un adaptador del fabricante o no podrás usar un brazo. Algunos monitores con la peana integrada no lo admiten."
+      },
+      {
+        "heading": "Peso y pulgadas: el dato que más falla",
+        "body": "El muelle de gas de un brazo está pensado para un rango de peso. Si el monitor pesa más, la pantalla se va cayendo; si pesa muy poco, el brazo la empuja hacia arriba. Busca el peso del monitor sin la peana en su ficha y compáralo con el del brazo: el HUANUO admite de 2 a 9 kg, y el BONTEC hasta 12 kg. Las pulgadas importan menos que el peso, pero también marcan el límite: el BONTEC empieza en 24 pulgadas porque está pensado para pantallas grandes."
+      },
+      {
+        "heading": "Tu mesa: abrazadera, pasacables y grosor",
+        "body": "La mayoría se fijan con una abrazadera en C al borde de la mesa; algunos también por el agujero pasacables. Comprueba tres cosas: que el tablero tenga el grosor que admite el brazo (el HUANUO doble, por ejemplo, de 15 a 90 mm), que no haya un travesaño o un panel justo debajo del borde, y el material. HUANUO indica que su brazo doble no es para mesas de plástico ni de cristal. Si tu mesa es un [escritorio elevable](/blog/escritorio-regulable-altura-home-office), revisa que la abrazadera no choque con la estructura."
+      },
+      {
+        "heading": "A qué altura poner la pantalla",
+        "body": "Según la [NTP 602 del INSST](https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/17-serie-ntp-numeros-576-a-610-ano-2001/ntp-602-el-diseno-ergonomico-del-puesto-de-trabajo-con-pantallas-de-visualizacion-el-equipo-de-trabajo-2001), la primera línea de la pantalla no debe quedar por encima de los ojos: si tienes que levantar la barbilla para leer, está alta. El [Real Decreto 488/1997](https://www.boe.es/buscar/act.php?id=BOE-A-1997-8671) exige además que la pantalla se pueda orientar e inclinar con facilidad. Un brazo resuelve las dos cosas: sube o baja la pantalla hasta que el borde superior quede a la altura de los ojos o algo por debajo, acércala o aléjala hasta leer sin esfuerzo y dale una ligera inclinación hacia atrás. Si usas gafas progresivas, bájala un poco más. Si te duele el cuello al acabar la jornada, revisa también [las causas del dolor de espalda al trabajar en casa](/blog/dolor-espalda-trabajar-casa-soluciones)."
+      },
+      {
+        "heading": "Uno o dos monitores",
+        "body": "Con dos monitores, un brazo doble mantiene las dos pantallas a la misma altura con un solo anclaje y deja libre la mesa. Asegúrate de que tu portátil puede sacar imagen a dos pantallas antes de comprarlo: lo explicamos en [cómo conectar dos monitores a un portátil](/blog/conectar-dos-monitores-portatil-guia). El HUANUO doble admite dos pantallas de 13 a 32 pulgadas y hasta 9 kg cada una.",
+        "productSlug": "huanuo-brazo-doble-monitor-13-32-9kg"
+      },
+      {
+        "heading": "Invision MX200: el que ya teníamos en el catálogo",
+        "body": "Brazo con muelle de gas para pantallas de 19 a 32 pulgadas, VESA 75 o 100, con abrazadera y ajuste de altura, inclinación, giro, rotación y extensión. Es la alternativa directa al HUANUO de un brazo.",
+        "productSlug": "invision-mx200-brazo-monitor"
+      },
+      {
+        "heading": "Para monitores grandes, curvos o ultrawide: BONTEC 24-38\"",
+        "body": "Las pantallas de 34 pulgadas o más suelen pesar más de lo que admite un brazo básico. El BONTEC admite de 24 a 38 pulgadas y hasta 12 kg, incluidas curvas y ultrawide, con 48,5 cm de recorrido en altura y clips para los cables.",
+        "productSlug": "bontec-brazo-monitor-24-38-12kg"
+      },
+      {
+        "heading": "Montaje y errores frecuentes",
+        "body": "El error más habitual es no ajustar la tensión del muelle: casi todos los brazos vienen con una tensión de fábrica que hay que regular con una llave allen según el peso del monitor, y conviene hacerlo con el monitor ya puesto. El segundo, apretar la abrazadera sin protección: en tableros blandos, usa la pletina o la protección que incluya para no marcar la mesa. El tercero, dejar los cables justos: necesitan holgura para seguir a la pantalla en todo su recorrido, y para eso están los clips del brazo. Y el cuarto, comprar por pulgadas y no por peso, porque dos monitores de 27 pulgadas pueden pesar muy distinto."
+      }
+    ],
+    "comparison": {
+      "headers": [
+        "Brazo",
+        "Pantallas",
+        "Peso",
+        "VESA",
+        "Dato destacado"
+      ],
+      "rows": [
+        [
+          "HUANUO un brazo",
+          "13-32\"",
+          "2-9 kg",
+          "75 y 100",
+          "Hasta 39,6 cm sobre la mesa"
+        ],
+        [
+          "Invision MX200",
+          "19-32\"",
+          "Según ficha",
+          "75 y 100",
+          "Abrazadera; altura, inclinación, giro y extensión"
+        ],
+        [
+          "HUANUO doble",
+          "2 × 13-32\"",
+          "Hasta 9 kg por pantalla",
+          "75 y 100",
+          "Mesas de madera de 15-90 mm"
+        ],
+        [
+          "BONTEC 24-38\"",
+          "24-38\"",
+          "Hasta 12 kg",
+          "75 y 100",
+          "Curvos y ultrawide; 48,5 cm de recorrido"
+        ]
+      ]
+    },
+    "conclusion": "Antes que la marca, comprueba tres datos: que tu monitor tenga VESA 75 o 100, que su peso sin peana entre en el rango del brazo y que tu mesa admita la abrazadera. Con eso resuelto, el HUANUO de un brazo o el Invision MX200 cubren la mayoría de monitores de hasta 32 pulgadas, el HUANUO doble es la opción para dos pantallas y el BONTEC, para monitores grandes de hasta 12 kg. Y una vez montado, coloca la pantalla con la primera línea a la altura de los ojos o por debajo.",
+    "sources": [
+      {
+        "label": "INSST — NTP 602: El diseño ergonómico del puesto de trabajo con pantallas de visualización: el equipo de trabajo",
+        "url": "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/17-serie-ntp-numeros-576-a-610-ano-2001/ntp-602-el-diseno-ergonomico-del-puesto-de-trabajo-con-pantallas-de-visualizacion-el-equipo-de-trabajo-2001"
+      },
+      {
+        "label": "BOE — Real Decreto 488/1997, sobre trabajos con equipos que incluyen pantallas de visualización",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-8671"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cómo sé si mi monitor es compatible con un brazo?",
+        "a": "Mira si tiene cuatro agujeros roscados en la parte de atrás (anclaje VESA) y mide la distancia entre ellos: 75 × 75 o 100 × 100 mm es lo habitual. Después comprueba que el peso del monitor sin peana entra en el rango del brazo."
+      },
+      {
+        "q": "¿A qué altura debe estar el monitor?",
+        "a": "Según la NTP 602 del INSST, la primera línea de la pantalla no debe quedar por encima de los ojos. Con gafas progresivas, algo más baja."
+      },
+      {
+        "q": "¿Un brazo de monitor sirve en cualquier mesa?",
+        "a": "No. Necesita un tablero del grosor que indique el fabricante, sin travesaño justo debajo del borde y de un material resistente. Algunos fabricantes desaconsejan las mesas de cristal o de plástico."
+      },
+      {
+        "q": "¿Merece la pena un brazo doble?",
+        "a": "Si trabajas con dos monitores, sí: las mantiene a la misma altura con un solo anclaje y libera la mesa. Comprueba antes que tu ordenador puede sacar imagen a las dos pantallas."
+      }
+    ]
+  },
   "mejores-teclados-mecanicos-trabajar-oficina": {
     intro: "Un teclado mecánico tiene un interruptor independiente debajo de cada tecla, con su muelle y su recorrido, en lugar de la lámina de goma de un teclado de membrana. Para trabajar, eso da una pulsación más definida y teclas que se pueden cambiar, a cambio de más ruido y más altura, dos cosas que importan si haces videollamadas o pasas ocho horas escribiendo. Esta guía explica qué mirar para elegir un teclado mecánico para oficina o teletrabajo: el tipo de interruptor (switch), el formato, la distribución ISO-ES con ñ, la conexión y la postura de las muñecas, con lo que dicen el INSST y el Real Decreto 488/1997. Al final tienes una comparativa de los modelos con distribución española que hemos comprobado en Amazon.es.",
     sections: [

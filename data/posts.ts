@@ -15,6 +15,29 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "brazo-monitor-como-elegir",
+    title: "Brazo para monitor: cómo elegirlo según el peso, el tamaño y tu mesa",
+    seoTitle: "Brazo para monitor: cómo elegir el adecuado",
+    excerpt:
+      "Cómo elegir un brazo para monitor: VESA, peso y pulgadas que admite, abrazadera o pasacables, grosor de la mesa, uno o dos monitores y a qué altura colocar la pantalla según el INSST.",
+    date: "2026-10-27",
+    category: "Productividad",
+    readTime: "8 min",
+    relatedProducts: [
+      "huanuo-brazo-monitor-13-32-9kg",
+      "invision-mx200-brazo-monitor",
+      "huanuo-brazo-doble-monitor-13-32-9kg",
+      "bontec-brazo-monitor-24-38-12kg",
+    ],
+    relatedPosts: [
+      "mejor-monitor-home-office-2025",
+      "conectar-dos-monitores-portatil-guia",
+      "dolor-espalda-trabajar-casa-soluciones",
+      "escritorio-regulable-altura-home-office",
+    ],
+    categoryCta: { href: "/tienda/monitores", text: "Ver monitores y brazos →" },
+  },
+  {
     slug: "mejores-teclados-mecanicos-trabajar-oficina",
     title: "Teclado mecánico para oficina y teletrabajo: cómo elegirlo y modelos con ñ",
     seoTitle: "Mejores teclados mecánicos para trabajar en 2026",
