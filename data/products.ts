@@ -35,6 +35,43 @@ export const categories = [
 ];
 
 export const products: Product[] = [
+  // ALTAS 27/10/2026 — guía silla gaming o ergonómica
+  {
+    slug: "drift-dr175-silla-gaming-polipiel",
+    name: "DRIFT DR175 Silla Gaming de Polipiel con Cojines Lumbar y Cervical",
+    asin: "B093C7TL9J",
+    category: "Sillas ergonómicas",
+    categorySlug: "sillas-ergonomicas",
+    categoryName: "Sillas ergonómicas",
+    price: "Consultar precio",
+    priceMin: 159,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Silla gaming de polipiel con cojines lumbar y cervical, respaldo reclinable hasta 135°, reposabrazos 2D, pistón de clase 4 y mecanismo basculante.",
+    fullDescription: "Verificado en vivo en Amazon.es el 27/10/2026 (ASIN B093C7TL9J, vendida y enviada por Amazon; dato interno, no se muestra). Silla gaming de DRIFT tapizada en polipiel, con cojines lumbar y cervical sueltos, respaldo reclinable hasta 135° con bloqueo y mecanismo basculante de mariposa. Los reposabrazos se ajustan en dos direcciones (2D) y llevan acolchado de poliuretano. Pistón de gas de clase 4, ruedas de nailon y base de estrella. Mide 68 × 125-135 × 52 cm (ancho × alto × fondo).",
+    pros: ["Vendida y enviada por Amazon","Reclina hasta 135° con bloqueo","Pistón de gas de clase 4","Cojines lumbar y cervical incluidos"],
+    cons: ["El apoyo lumbar es un cojín suelto, no regulable","La ficha no indica ajuste de profundidad de asiento","Polipiel: transpira menos que la malla","Reposabrazos 2D"],
+    specs: {"Tapizado":"Polipiel","Lumbar":"Cojín suelto","Reclinación":"Hasta 135°","Reposabrazos":"2D","Pistón":"Clase 4","Medidas":"68 × 125-135 × 52 cm"},
+    relatedPosts: ["silla-gaming-o-ergonomica-teletrabajar", "mejor-silla-ergonomica-home-office-2025"],
+  },
+  {
+    slug: "acer-predator-rift-lite-silla-gaming",
+    name: "Acer Predator Rift Lite Essential Silla Gaming Ergonómica con Cojín Lumbar",
+    asin: "B0BSGVYQL2",
+    category: "Sillas ergonómicas",
+    categorySlug: "sillas-ergonomicas",
+    categoryName: "Sillas ergonómicas",
+    price: "Consultar precio",
+    priceMin: 199,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Silla gaming de espuma y malla con reposacabezas y cojín lumbar, mecanismo de inclinación ajustable, pistón de clase 3 y estructura para 150 kg.",
+    fullDescription: "Verificado en vivo en Amazon.es el 27/10/2026 (ASIN B0BSGVYQL2, modelo GP.GCR11.00Q, vendida y enviada por Amazon; dato interno, no se muestra). Silla gaming de Acer con cojines de espuma de poliuretano y malla transpirable, reposacabezas y cojín lumbar, y mecanismo de inclinación ajustable. Lleva pistón de gas de clase 3 y, según el fabricante, la estructura está homologada para usuarios de hasta 150 kg. Acer la presenta también para teletrabajo y estudio.",
+    pros: ["Vendida y enviada por Amazon","Combina espuma y malla transpirable","Estructura para usuarios de hasta 150 kg","Mecanismo de inclinación ajustable"],
+    cons: ["El lumbar es un cojín, no un soporte integrado regulable","La ficha no indica ajuste de profundidad de asiento","La ficha no detalla los ajustes de los reposabrazos"],
+    specs: {"Tapizado":"Espuma PU y malla","Lumbar":"Cojín","Reposacabezas":"Sí","Pistón":"Clase 3","Carga máx.":"150 kg (fabricante)"},
+    relatedPosts: ["silla-gaming-o-ergonomica-teletrabajar", "mejor-silla-ergonomica-home-office-2025"],
+  },
   // ALTAS 27/10/2026 — guía de brazo para monitor
   {
     slug: "huanuo-brazo-monitor-13-32-9kg",

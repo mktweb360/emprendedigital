@@ -71,6 +71,150 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "silla-gaming-o-ergonomica-teletrabajar": {
+    "intro": "Una silla gaming y una silla ergonómica de oficina pueden costar lo mismo y parecer igual de cómodas en la foto, pero no están pensadas para lo mismo. La gaming nace para sesiones largas de juego, con forma de baquet, cojines sueltos y mucha reclinación. La de oficina nace para trabajar delante de una pantalla, con ajustes que adaptan el asiento y el respaldo a tu cuerpo. Esta guía explica qué diferencias importan de verdad si vas a teletrabajar ocho horas, qué pide la normativa española para una silla de trabajo y qué modelos del catálogo encajan con cada caso. Si ya sabes que quieres una de oficina, tienes [la guía completa de sillas ergonómicas](/blog/mejor-silla-ergonomica-home-office-2025).",
+    "sections": [
+      {
+        "heading": "Qué pide la normativa para una silla de trabajo",
+        "body": "El [Real Decreto 488/1997](https://www.boe.es/buscar/act.php?id=BOE-A-1997-8671), que regula los puestos con pantalla, pide que el asiento sea estable, que dé libertad de movimiento y una postura confortable, que su altura sea regulable y que el respaldo sea reclinable y de altura ajustable. El INSST lo desarrolla en la [NTP 1129](https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.129-criterios-ergonomicos-para-la-seleccion-de-sillas-de-oficina), que añade la profundidad de asiento regulable, el apoyo lumbar y los reposabrazos ajustables como criterios para elegir. Cualquier silla, gaming o de oficina, se puede juzgar con esa lista."
+      },
+      {
+        "heading": "El apoyo lumbar: cojín suelto o soporte integrado",
+        "body": "Es la diferencia más clara. La mayoría de sillas gaming llevan un cojín lumbar suelto sujeto con cintas: se desplaza al moverte y no siempre queda a la altura de tu curva lumbar. Las sillas de oficina de gama media suelen integrar el soporte en el respaldo y regularlo en altura y, a veces, en profundidad, como la SONGMICS o la ProtoArc EC200 Pro. Hay excepciones: la Secretlab Titan Evo, que es gaming, lleva el lumbar integrado y ajustable en cuatro direcciones.",
+        "productSlug": "songmics-silla-oficina-ergonomica-lumbar-4d"
+      },
+      {
+        "heading": "La profundidad de asiento, el ajuste que casi nunca tiene una gaming",
+        "body": "La NTP 1130 del INSST recomienda dejar unos 5 cm, el ancho de un puño, entre el borde del asiento y la parte de atrás de la rodilla. Para conseguirlo con personas de distinta estatura, el asiento tiene que desplazarse adelante y atrás. Es un ajuste habitual en sillas de oficina, como la ProtoArc EC200 Pro, que lo regula hasta 5 cm, o la Steelcase Series 2. En las sillas gaming del catálogo, la ficha no lo indica. Si mides menos de 1,65 m o más de 1,85 m, este dato pesa más que cualquier otro.",
+        "productSlug": "protoarc-ec200-pro-silla-malla-reposabrazos-4d"
+      },
+      {
+        "heading": "Forma de baquet y laterales",
+        "body": "Muchas sillas gaming copian el asiento de un coche de carreras, con laterales elevados en el asiento y el respaldo. Sujetan el cuerpo cuando te reclinas, pero limitan los cambios de postura y pueden apretar si eres de complexión ancha. Para trabajar, el Real Decreto 488/1997 pide que el asiento dé libertad de movimientos, y cambiar de postura a lo largo de la jornada es más fácil en un asiento plano."
+      },
+      {
+        "heading": "Tapizado: polipiel, tejido o malla",
+        "body": "La polipiel es fácil de limpiar, pero es la que menos transpira: en verano y con muchas horas de uso se nota. El tejido transpira algo más. La malla es la más fresca y es la opción habitual en sillas de oficina; la Acer Predator Rift Lite la combina con espuma en una silla gaming. Si trabajas en una habitación calurosa, la malla en el respaldo marca la diferencia."
+      },
+      {
+        "heading": "Reclinación: lo que la gaming hace mejor",
+        "body": "Las sillas gaming reclinan mucho más que las de oficina. La DRIFT DR175 llega a 135° con bloqueo y la Secretlab Titan Evo, hasta 165° según el fabricante. Es útil para descansar o jugar con mando, pero para trabajar con teclado el respaldo va casi recto: la NTP 1130 indica inclinarlo hasta que resulte cómodo y mantener los codos a la altura de la mesa. Si solo vas a reclinarte en los descansos, el mecanismo basculante de una silla de oficina basta.",
+        "productSlug": "drift-dr175-silla-gaming-polipiel"
+      },
+      {
+        "heading": "Secretlab Titan Evo: la gaming que se acerca a una de oficina",
+        "body": "Lumbar integrado y ajustable en cuatro direcciones, cojín cervical magnético, reposabrazos 4D metálicos y tres tallas. La Regular está pensada para 170-189 cm y hasta 130 kg. La ficha no indica profundidad de asiento regulable. Es la opción si quieres una sola silla para jugar y trabajar y tu estatura encaja en una de sus tallas.",
+        "productSlug": "secretlab-titan-evo-2022-silla"
+      },
+      {
+        "heading": "DRIFT DR175 y Acer Predator Rift Lite: gaming de gama media",
+        "body": "Las dos las vende Amazon. La DRIFT DR175 es de polipiel, reclina hasta 135° con bloqueo y lleva cojines lumbar y cervical, reposabrazos 2D y pistón de clase 4. La Acer Predator Rift Lite combina espuma y malla, tiene reposacabezas, cojín lumbar e inclinación ajustable, y está homologada para 150 kg. En ninguna de las dos indica la ficha ajuste de profundidad de asiento, así que encajan mejor para jugar y teletrabajar algunas horas que para jornadas completas.",
+        "productSlug": "acer-predator-rift-lite-silla-gaming"
+      },
+      {
+        "heading": "Steelcase Series 2: la de oficina para muchos años",
+        "body": "Regula la altura y la profundidad del asiento, el lumbar, los brazos y las posiciones del mecanismo, se fabrica en Francia y tiene garantía limitada de por vida. Es la opción si vas a pasar muchas horas sentado durante años y prefieres pagar una vez.",
+        "productSlug": "steelcase-series-2-silla-ergonomica"
+      },
+      {
+        "heading": "Cuál elegir según tu uso",
+        "body": "Si teletrabajas la jornada completa y juegas poco, elige una silla de oficina con lumbar regulable y profundidad de asiento, como la ProtoArc EC200 Pro o la SONGMICS. Si juegas a menudo y trabajas algunas horas, una gaming bien elegida vale; la Secretlab Titan Evo es la que más ajustes de oficina reúne. Si juegas con mando y te reclinas mucho, la DRIFT DR175 o la Acer Predator Rift Lite. Y en todos los casos, ajústala bien: en [la guía de dolor de espalda al trabajar en casa](/blog/dolor-espalda-trabajar-casa-soluciones) explicamos qué más revisar, y en [la guía de brazos para monitor](/blog/brazo-monitor-como-elegir), cómo dejar la pantalla a la altura correcta."
+      }
+    ],
+    "comparison": {
+      "headers": [
+        "Silla",
+        "Tipo",
+        "Lumbar",
+        "Profundidad de asiento",
+        "Tapizado",
+        "Vendedor"
+      ],
+      "rows": [
+        [
+          "Secretlab Titan Evo (R)",
+          "Gaming",
+          "Integrado, 4 direcciones",
+          "No indicada",
+          "Tejido",
+          "Tercero"
+        ],
+        [
+          "DRIFT DR175",
+          "Gaming",
+          "Cojín suelto",
+          "No indicada",
+          "Polipiel",
+          "Amazon"
+        ],
+        [
+          "Acer Predator Rift Lite",
+          "Gaming",
+          "Cojín",
+          "No indicada",
+          "Espuma y malla",
+          "Amazon"
+        ],
+        [
+          "SONGMICS lumbar y 4D",
+          "Oficina",
+          "Altura y profundidad",
+          "No",
+          "Malla y espuma",
+          "Amazon"
+        ],
+        [
+          "ProtoArc EC200 Pro",
+          "Oficina",
+          "6 cm en altura, 2 cm en profundidad",
+          "Sí, hasta 5 cm",
+          "Malla",
+          "Amazon"
+        ],
+        [
+          "Steelcase Series 2",
+          "Oficina",
+          "Regulable",
+          "Sí",
+          "Malla",
+          "Amazon"
+        ]
+      ]
+    },
+    "conclusion": "Para trabajar ocho horas, lo que importa no es si la silla es gaming o de oficina, sino que regule la altura y la profundidad del asiento, el lumbar y los reposabrazos. Las sillas de oficina lo cumplen con más frecuencia; entre las gaming, la Secretlab Titan Evo es la que más se acerca. Si la usas sobre todo para jugar, una gaming de gama media como la DRIFT DR175 o la Acer Predator Rift Lite cumple. Tienes todas en la [tienda de sillas](/tienda/sillas-ergonomicas).",
+    "sources": [
+      {
+        "label": "BOE — Real Decreto 488/1997, sobre trabajos con equipos que incluyen pantallas de visualización",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-8671"
+      },
+      {
+        "label": "INSST — NTP 1129: Criterios ergonómicos para la selección de sillas de oficina",
+        "url": "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.129-criterios-ergonomicos-para-la-seleccion-de-sillas-de-oficina"
+      },
+      {
+        "label": "INSST — NTP 1130: Criterios ergonómicos para regular correctamente la silla de oficina y otras sillas alternativas",
+        "url": "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/32-serie-ntp-numeros-1101-a-1135-ano-2018/ntp-1.130-criterios-ergonomicos-para-regular-correctamente-la-silla-de-oficina-y-otras-sillas-alternativas"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Es mala una silla gaming para trabajar?",
+        "a": "No necesariamente. Depende de sus ajustes: si tiene lumbar integrado y regulable, altura de asiento, respaldo reclinable y reposabrazos ajustables, sirve. Muchas gaming llevan el lumbar en un cojín suelto y no regulan la profundidad del asiento, y eso pesa en jornadas largas."
+      },
+      {
+        "q": "¿Qué es mejor para la espalda, una silla gaming o una ergonómica?",
+        "a": "La que mejor se ajuste a tu cuerpo. Las sillas ergonómicas de oficina suelen regular la profundidad de asiento y el lumbar, dos ajustes que la NTP 1129 del INSST considera importantes y que muchas sillas gaming no tienen."
+      },
+      {
+        "q": "¿Cuántos grados debe reclinarse una silla para trabajar?",
+        "a": "Para teclear, el respaldo va casi recto y los codos a la altura de la mesa. La reclinación amplia de las sillas gaming sirve para descansar o jugar con mando."
+      },
+      {
+        "q": "¿La polipiel da calor?",
+        "a": "Sí, transpira menos que el tejido o la malla. Si pasas muchas horas sentado en una habitación calurosa, la malla en el respaldo es más fresca."
+      }
+    ]
+  },
   "brazo-monitor-como-elegir": {
     "intro": "Un brazo para monitor sujeta la pantalla a la mesa con una abrazadera y deja moverla en altura, profundidad e inclinación, algo que la peana de la mayoría de monitores no permite. Sirve para dos cosas: colocar la pantalla a la altura correcta y liberar espacio en la mesa. Esta guía explica qué comprobar antes de comprarlo (anclaje VESA, peso, pulgadas y tipo de mesa), si te conviene uno sencillo o doble y a qué altura poner la pantalla según el INSST, con una comparativa de los brazos del catálogo verificados en Amazon.es.",
     "sections": [

@@ -15,6 +15,31 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "silla-gaming-o-ergonomica-teletrabajar",
+    title: "Silla gaming o silla ergonómica para teletrabajar 8 horas: diferencias reales",
+    seoTitle: "Silla gaming o ergonómica: cuál es mejor",
+    excerpt:
+      "Silla gaming o silla ergonómica de oficina para trabajar muchas horas: qué cambia en el lumbar, la profundidad del asiento, el tapizado y la reclinación, qué pide el RD 488/1997 y qué silla elegir según tu uso.",
+    date: "2026-10-27",
+    category: "Home Office",
+    readTime: "8 min",
+    relatedProducts: [
+      "secretlab-titan-evo-2022-silla",
+      "drift-dr175-silla-gaming-polipiel",
+      "acer-predator-rift-lite-silla-gaming",
+      "songmics-silla-oficina-ergonomica-lumbar-4d",
+      "protoarc-ec200-pro-silla-malla-reposabrazos-4d",
+      "steelcase-series-2-silla-ergonomica",
+    ],
+    relatedPosts: [
+      "mejor-silla-ergonomica-home-office-2025",
+      "dolor-espalda-trabajar-casa-soluciones",
+      "escritorio-regulable-altura-home-office",
+      "brazo-monitor-como-elegir",
+    ],
+    categoryCta: { href: "/tienda/sillas-ergonomicas", text: "Ver sillas gaming y ergonómicas →" },
+  },
+  {
     slug: "brazo-monitor-como-elegir",
     title: "Brazo para monitor: cómo elegirlo según el peso, el tamaño y tu mesa",
     seoTitle: "Brazo para monitor: cómo elegir el adecuado",
