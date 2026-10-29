@@ -1574,15 +1574,15 @@ const articleContent: Record<string, {
 },
   "mejor-hub-usb-c-portatil-2025": {
   intro:
-    "El hub USB-C es probablemente el accesorio con mejor relación entre coste y beneficio de todo el home office. Un MacBook Air M3 sale de fábrica con dos puertos USB-C y un jack de auriculares: con un hub de ocho puertos bien elegido sumas HDMI 4K, tres USB-A, lector de tarjetas SD, ethernet gigabit y carga del portátil a la vez, todo en un dispositivo del tamaño de una baraja de cartas. El problema es que la oferta es enorme y la diferencia entre un hub bueno y uno malo no se ve en la ficha técnica: se nota en la estabilidad, en si mantiene el monitor a 4K sin parpadeos y en si carga el portátil de verdad a la potencia anunciada. Esta guía aclara qué comprar, para qué perfil y qué evitar.",
+    "El hub USB-C es probablemente el accesorio con mejor relación entre coste y beneficio de todo el home office. Un MacBook Air M3 sale de fábrica con dos puertos USB-C y un jack de auriculares: con un hub de ocho puertos bien elegido sumas HDMI 4K, USB-A, lector de tarjetas, ethernet gigabit y carga del portátil a la vez, todo en un dispositivo del tamaño de una baraja de cartas. El problema es que la oferta es enorme y la diferencia entre un hub bueno y uno malo no se ve en la ficha técnica: se nota en la estabilidad, en si mantiene el monitor a 4K sin parpadeos y en si carga el portátil de verdad a la potencia anunciada. Esta guía aclara qué comprar, para qué perfil y qué evitar.",
   sections: [
     {
       heading: "Hub vs docking station: cuál necesitas",
       body: "La diferencia práctica entre un hub y una docking station importa antes de buscar modelos. Un hub es compacto, sin fuente de alimentación propia y bus-powered: se alimenta del puerto del portátil, pesa menos de 200 gramos, cabe en una mochila y suele estar en la gama de entrada. Ofrece 6 a 10 puertos y es suficiente para la mayoría de configuraciones de portátil con un monitor externo. Una docking station tiene fuente de alimentación propia, puede alimentar el portátil con 90-140 W y soportar dos o más monitores externos con total estabilidad. Va de la gama media a la alta y está pensada para un escritorio fijo donde el portátil llega y se conecta a un solo cable. Para quien trabaja solo en casa, una docking de gama media es la inversión que elimina el cable-caos para siempre. Para quien trabaja también desde cafeterías, coworkings u oficinas del cliente, un hub portátil es imprescindible aunque tenga docking en casa.",
     },
     {
-      heading: "Los 5 mejores hubs USB-C en 2025",
-      body: "Anker 555 8-en-1: el mejor equilibrio calidad-precio del mercado. Entrega 100 W de Power Delivery para cargar el portátil, salida HDMI 4K a 30 Hz, tres puertos USB-A 3.0, USB-C de datos, lector SD y lector microSD. El chip de Anker gestiona bien la distribución de energía sin inestabilidades. Recomendado para la mayoría de usuarios.\n\nCalDigit TS4 Thunderbolt 4: la docking station de referencia para Mac. 18 puertos incluyendo dos salidas de vídeo para monitores 6K, tres puertos Thunderbolt 4, cinco USB-A, audio profesional y 98 W de carga. Para quien trabaja con un MacBook Pro y dos monitores en un escritorio fijo, es la inversión definitiva.\n\nBaseus 17-en-1: el hub más completo en precio medio. Añade ethernet gigabit, puerto VGA para proyectores de empresa, dos HDMI y hasta 100 W de PD. Útil si necesitas muchos puertos distintos sin gastar en una docking. La gestión térmica es correcta aunque el cuerpo plástico acumula más calor que el aluminio.\n\nUgreen Revodok 7-en-1: la opción compacta para viaje. Cuerpo de aluminio, un puerto HDMI 4K, dos USB-A 3.0, USB-C PD 100 W, lector SD y lector microSD. El tamaño es su principal ventaja: cabe en cualquier estuche de cable sin añadir peso notable.\n\nVAVA 8-en-1: destaca por la estabilidad de conexión en uso intensivo. Cuerpo de aluminio, HDMI 4K 30 Hz, tres USB-A 3.0, USB-C PD 100 W, ethernet gigabit y lector SD. Usuarios de MacBook valoran especialmente que no genera problemas de kernel panic, un punto débil común en hubs de baja calidad.",
+      heading: "Hubs y docks USB-C según tu puesto de trabajo",
+      body: "Anker 555 8-en-1, para un monitor: según la ficha, el HDMI da 4K a 60 Hz en portátiles con DisplayPort 1.4 y 4K a 30 Hz en los que tienen DisplayPort 1.2. Añade Ethernet, lectores SD y microSD, dos USB-A, un USB-C de datos y carga pasante de hasta 85 W. Tiene una sola salida de vídeo, así que no sirve para doble monitor.\n\nUGREEN Revodok 107 7-en-1, para viaje y uso compacto: HDMI 4K a 60 Hz, Ethernet gigabit, dos USB-A 3.0, carga PD de 100 W y lectores SD y microSD en un formato fácil de llevar. Con solo dos USB-A, si conectas muchos periféricos se queda justo.\n\nBaseus 12 en 1, para varias salidas de vídeo en Windows: dos HDMI y un DisplayPort, carga de 100 W, Ethernet gigabit y tres USB 3.0. Según el fabricante, el 4K a 60 Hz solo se alcanza con una pantalla; con varias, la resolución por pantalla baja, y en macOS las pantallas se duplican en lugar de extenderse.\n\nUGREEN Revodok Pro 3121, para tres pantallas en Windows: dos HDMI 4K a 60 Hz y un DisplayPort 4K a 120 Hz, Ethernet gigabit y carga de hasta 100 W. Los MacBook con chip M base solo aprovechan una pantalla externa y no es compatible con Linux.\n\nCalDigit TS4 Thunderbolt 4, para un escritorio fijo: 18 puertos y 98 W de carga con un solo cable. Según la ficha, en Windows admite dos monitores 4K a 60 Hz; en un Mac con M1 Pro o M1 Max, dos pantallas 6K a 60 Hz; y en el M1 original, una sola. Es la opción más cara y solo compensa en un escritorio fijo.",
     },
     {
       heading: "Qué puertos realmente necesitas",
@@ -1596,19 +1596,19 @@ const articleContent: Record<string, {
   comparison: {
     headers: ["Modelo", "Puertos", "Mejor para"],
     rows: [
-      ["Anker 555 8-en-1", "8 (HDMI, 3xUSB-A, SD, PD)", "Mayoría de usuarios, mejor relación calidad-precio"],
-      ["CalDigit TS4 TB4", "18 (2 monitores 6K, TB4, USB-A)", "Mac + 2 monitores en escritorio fijo"],
-      ["Baseus 17-en-1", "17 (HDMI, VGA, ethernet, PD)", "Máximo número de puertos, viajes de empresa"],
-      ["Ugreen Revodok 7-en-1", "7 (HDMI, 2xUSB-A, SD, PD)", "Viaje y movilidad, máxima portabilidad"],
-      ["VAVA 8-en-1", "8 (HDMI, 3xUSB-A, ethernet, SD)", "Estabilidad y usuarios de MacBook"],
+      ["Anker 555 8-en-1", "HDMI, Ethernet, SD y microSD, 2×USB-A, carga de 85 W", "Un monitor con un portátil con DisplayPort 1.4"],
+      ["UGREEN Revodok 107 7-en-1", "HDMI 4K 60 Hz, Ethernet, 2×USB-A, PD de 100 W", "Viaje y uso compacto"],
+      ["Baseus 12 en 1", "2×HDMI + DisplayPort, Ethernet, PD de 100 W", "Varias salidas de vídeo en Windows"],
+      ["UGREEN Revodok Pro 3121", "2×HDMI + DisplayPort, Ethernet, PD de 100 W", "Tres pantallas en Windows"],
+      ["CalDigit TS4 Thunderbolt 4", "18 puertos, carga de 98 W", "Escritorio fijo con Mac o Windows"],
     ],
   },
   conclusion:
-    "Para la mayoría de personas con un portátil y un monitor externo, el Anker 555 8-en-1 es la compra correcta: 100 W de carga, HDMI 4K, tres USB-A y lectores de tarjetas a un precio contenido. Si tienes un MacBook y trabajas siempre desde el mismo escritorio con dos monitores, la inversión en la CalDigit TS4 elimina todos los problemas de conexión de una vez. Para viajes frecuentes, el Ugreen Revodok aporta lo necesario en el menor tamaño posible. La clave antes de comprar: comprueba la potencia de carga que necesita tu portátil y si el hub que te interesa la alcanza; el resto de puertos son fáciles de comparar.",
+    "Para un portátil con un monitor externo, el Anker 555 cubre lo habitual si el portátil tiene DisplayPort 1.4; con DisplayPort 1.2 el 4K baja a 30 Hz. Para viajar, el UGREEN Revodok 107; para dos o tres pantallas en Windows, el Baseus 12 en 1 o el UGREEN Revodok Pro 3121; y para un escritorio fijo con Mac, la CalDigit TS4. Antes de comprar, comprueba la potencia de carga que necesita tu portátil y si el hub la alcanza; el resto de puertos son fáciles de comparar.",
   faqs: [
     {
       q: "¿Un hub USB-C ralentiza el portátil?",
-      a: "Un hub de calidad no ralentiza el portátil de ninguna manera perceptible. Los hubs baratos de mala calidad pueden generar inestabilidad en la conexión —el monitor parpadea, el periférico se desconecta— porque el controlador USB interno gestiona mal la distribución de energía. La solución es no comprar el hub más barato del mercado sin marca reconocida: marcas como Anker, Ugreen, Baseus o VAVA tienen un control de calidad suficiente para uso profesional.",
+      a: "Un hub de calidad no ralentiza el portátil de ninguna manera perceptible. Los hubs baratos de mala calidad pueden generar inestabilidad en la conexión —el monitor parpadea, el periférico se desconecta— porque el controlador USB interno gestiona mal la distribución de energía. La solución es no comprar el hub más barato del mercado sin marca reconocida y leer en la ficha la potencia de carga y las resoluciones que declara el fabricante.",
     },
     {
       q: "¿Puedo conectar dos monitores con un hub USB-C?",
