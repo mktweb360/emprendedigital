@@ -26,6 +26,18 @@ export default function BlogSidebar({ ctaHref, ctaText }: {
             </a>
           </div>
         )}
+        <div className="rounded-xl border border-gray-200 bg-white p-4 text-center">
+          <p className="text-[11px] uppercase tracking-wide text-gray-400 mb-1">Del equipo editor</p>
+          <p className="text-sm text-gray-700 mb-2">¿Quieres que tu web te traiga clientes?</p>
+          <a
+            href="https://www.mktweb360.com/?utm_source=emprendedigital&utm_medium=referral&utm_campaign=sidebar"
+            target="_blank"
+            rel="nofollow noopener"
+            className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 underline"
+          >
+            Conoce Mkt Web 360
+          </a>
+        </div>
       </div>
     </aside>
   );

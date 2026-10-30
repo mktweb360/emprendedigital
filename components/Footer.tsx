@@ -11,6 +11,18 @@ export default function Footer() {
             <p className="text-sm text-gray-400 leading-relaxed">
               Guías de compra y análisis de herramientas y equipamiento para emprendedores digitales, creadores de contenido y teletrabajadores.
             </p>
+            <p className="text-sm text-gray-400 leading-relaxed mt-3">
+              Edita{" "}
+              <a
+                href="https://www.mktweb360.com/?utm_source=emprendedigital&utm_medium=referral&utm_campaign=footer"
+                target="_blank"
+                rel="nofollow noopener"
+                className="text-indigo-300 hover:text-indigo-200 underline"
+              >
+                Mkt Web 360
+              </a>
+              , agencia de webs, SEO y marketing digital.
+            </p>
           </div>
           <div>
             <h3 className="text-white font-semibold mb-3">Artículos</h3>
