@@ -1,13 +1,14 @@
 import type { MetadataRoute } from "next";
 import { categories, products } from "@/data/products";
 import { posts } from "@/data/posts";
+import { DIRECTORIO_ACTIVO, getFichas } from "@/lib/directorio";
 
 const BASE = "https://www.emprendedigital.es";
 
 // Las landing pages estáticas antiguas se consolidaron en el blog con 301 (10/10/2026).
 const staticArticles: string[] = [];
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${BASE}/`, changeFrequency: "weekly", priority: 1 },
     { url: `${BASE}/blog`, changeFrequency: "weekly", priority: 0.9 },
@@ -47,5 +48,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...articlePages, ...categoryPages, ...productPages, ...blogPages];
+  // Directorio (apagado por defecto): solo las fichas que MktOS marca como indexables; la portada, con 5 o más fichas.
+  const fichas = DIRECTORIO_ACTIVO ? await getFichas() : [];
+  const directorioPages: MetadataRoute.Sitemap = [
+    ...(fichas.length >= 5 ? [{ url: `${BASE}/directorio`, changeFrequency: "weekly" as const, priority: 0.5 }] : []),
+    ...fichas.filter((f) => f.indexable).map((f) => ({ url: `${BASE}/directorio/${f.slug}`, lastModified: new Date(f.updatedAt), changeFrequency: "monthly" as const, priority: 0.4 })),
+  ];
+
+  return [...staticPages, ...articlePages, ...categoryPages, ...productPages, ...blogPages, ...directorioPages];
 }

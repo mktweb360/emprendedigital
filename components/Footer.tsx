@@ -1,5 +1,6 @@
 import Link from "next/link";
 import CookiePreferencesButton from "@/components/CookiePreferencesButton";
+import { DIRECTORIO_ACTIVO } from "@/lib/directorio";
 
 export default function Footer() {
   return (
@@ -30,6 +31,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link href="/sobre-nosotros" className="hover:text-indigo-400 transition-colors">Sobre nosotros</Link></li>
               <li><Link href="/contacto" className="hover:text-indigo-400 transition-colors">Contacto</Link></li>
+              {DIRECTORIO_ACTIVO && <li><Link href="/directorio" className="hover:text-indigo-400 transition-colors">Directorio de empresas</Link></li>}
               <li><Link href="/aviso-legal" className="hover:text-indigo-400 transition-colors">Aviso legal</Link></li>
               <li><Link href="/politica-de-privacidad" className="hover:text-indigo-400 transition-colors">Política de privacidad</Link></li>
               <li><Link href="/politica-de-cookies" className="hover:text-indigo-400 transition-colors">Política de cookies</Link></li>
