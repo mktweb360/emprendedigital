@@ -67,6 +67,25 @@ export async function getFichas(): Promise<Ficha[]> {
   }
 }
 
+export type EventoPayload = { kind: string; slug: string; path?: string; referrer?: string; clientIp: string; userAgent: string };
+
+/** Reenvía una visita o clic a MktOS (huella diaria allí). Sin configuración o con error, no hace nada. */
+export async function enviarEvento(p: EventoPayload): Promise<void> {
+  const c = config();
+  if (!c) return;
+  try {
+    await fetch(`${c.url}/api/webhooks/directory-event`, {
+      method: "POST",
+      headers: { "content-type": "application/json", "x-webhook-secret": c.secret },
+      body: JSON.stringify({ ...p, domain: DOMINIO }),
+      signal: AbortSignal.timeout(4000),
+      cache: "no-store",
+    });
+  } catch {
+    /* la medición es opcional */
+  }
+}
+
 export type AltaPayload = {
   name: string;
   contactName: string;

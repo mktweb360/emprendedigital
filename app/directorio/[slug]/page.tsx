@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { TrackedLink, TrackView } from "@/components/directorio/Track";
 import { BASE, DIRECTORIO_ACTIVO, getFichas } from "@/lib/directorio";
 
 export const revalidate = 3600;
@@ -38,6 +39,7 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
+      <TrackView slug={f.slug} />
       <p className="text-sm mb-4"><Link href="/directorio" className="text-indigo-600 hover:underline">← Directorio</Link></p>
       <div className="flex items-start gap-4 mb-4">
         {f.logoUrl && (
@@ -59,7 +61,7 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
           <ul className="space-y-3">
             {f.services.map((s, i) => (
               <li key={`${s.name}-${i}`} className="p-4 bg-gray-50 rounded-xl">
-                <strong className="block text-gray-900 text-sm">{s.url ? <a href={s.url} target="_blank" rel={rel} className="text-indigo-600 hover:underline">{s.name}</a> : s.name}</strong>
+                <strong className="block text-gray-900 text-sm">{s.url ? <TrackedLink kind="click_product" slug={f.slug} href={s.url} target="_blank" rel={rel} className="text-indigo-600 hover:underline">{s.name}</TrackedLink> : s.name}</strong>
                 {s.description && <span className="text-sm text-gray-600">{s.description}</span>}
               </li>
             ))}
@@ -68,9 +70,9 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
       )}
 
       <div className="flex flex-wrap gap-3 mb-8">
-        {f.websiteUrl && <a href={f.websiteUrl} target="_blank" rel={rel} className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm px-5 py-2.5 rounded-xl transition-colors">Visitar su web</a>}
-        {f.contactEmail && <a href={`mailto:${f.contactEmail}`} className="text-sm text-indigo-600 hover:underline self-center">{f.contactEmail}</a>}
-        {f.contactPhone && <a href={`tel:${f.contactPhone.replace(/[^+\d]/g, "")}`} className="text-sm text-indigo-600 hover:underline self-center">{f.contactPhone}</a>}
+        {f.websiteUrl && <TrackedLink kind="click_web" slug={f.slug} href={f.websiteUrl} target="_blank" rel={rel} className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm px-5 py-2.5 rounded-xl transition-colors">Visitar su web</TrackedLink>}
+        {f.contactEmail && <TrackedLink kind="click_email" slug={f.slug} href={`mailto:${f.contactEmail}`} className="text-sm text-indigo-600 hover:underline self-center">{f.contactEmail}</TrackedLink>}
+        {f.contactPhone && <TrackedLink kind="click_phone" slug={f.slug} href={`tel:${f.contactPhone.replace(/[^+\d]/g, "")}`} className="text-sm text-indigo-600 hover:underline self-center">{f.contactPhone}</TrackedLink>}
       </div>
 
       <p className="text-xs text-gray-500 border-t border-gray-100 pt-4">
