@@ -3,8 +3,8 @@ import type { MetadataRoute } from "next";
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      { userAgent: "*", allow: "/" },
-      { userAgent: "Googlebot", allow: "/" },
+      { userAgent: "*", allow: "/", disallow: "/directorio-empresa" },
+      { userAgent: "Googlebot", allow: "/", disallow: "/directorio-empresa" },
       { userAgent: "GPTBot", allow: "/" },
       { userAgent: "anthropic-ai", allow: "/" },
       { userAgent: "Claude-Web", allow: "/" },

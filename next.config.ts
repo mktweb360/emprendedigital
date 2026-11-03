@@ -20,6 +20,13 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  // Panel de las empresas del directorio: vive en MktOS, pero la empresa lo ve en este dominio (/directorio-empresa).
+  // Solo con el directorio activo y MKTOS_URL https; si no, esas rutas dan 404 como el resto del directorio.
+  async rewrites() {
+    const base = (process.env.MKTOS_URL ?? "").trim().replace(/\/+$/, "");
+    if (process.env.DIRECTORIO_ACTIVO !== "true" || !/^https:\/\/[a-z0-9.-]+$/i.test(base)) return [];
+    return [{ source: "/directorio-empresa/:path*", destination: `${base}/directorio-empresa/:path*` }];
+  },
   async redirects() {
     return [
       {
