@@ -137,6 +137,85 @@ const articleContent: Record<string, {
       }
     ]
   },
+  "setup-streaming-podcast-casa": {
+    "intro": "Montar un setup de streaming o de podcast en casa se reduce a cuatro compras: micrófono, cámara, luz y un sitio donde sujetarlos. El orden importa más que la marca. Esta guía recorre el catálogo de la web con las ventajas y los límites que declaran las fichas de cada producto, sin precios, y propone tres configuraciones según cuánto quieras invertir. Si solo vas a hacer videollamadas, mira antes la [guía de webcams](/blog/mejor-webcam-videollamadas-trabajo-remoto); si lo que buscas es solo audio, la [guía de micrófonos USB](/blog/mejor-microfono-usb-podcast-streaming-2026) entra más en detalle.",
+    "sections": [
+      {
+        "heading": "Qué comprar primero",
+        "body": "Nuestro criterio es empezar por el micrófono. Una imagen discreta se perdona mejor que una voz saturada o llena de eco de la habitación, y el micrófono es la pieza que más cambia al pasar de un portátil sin nada a un puesto de grabación. Después va la luz, que mejora cualquier cámara, y por último la cámara. Los micrófonos integrados de las webcams sirven para salir del paso: la ficha de la UGREEN FineCam Lite lo dice sin rodeos y recuerda que no sustituyen a un micrófono dedicado."
+      },
+      {
+        "heading": "Micrófono: dinámico, de condensador o USB",
+        "body": "Un micrófono dinámico capta sobre todo la voz cercana y recoge menos ruido de la habitación, algo útil en un despacho sin tratamiento acústico. El RØDE PodMic es dinámico, de cuerpo metálico, con soporte giratorio y filtro antipop integrados. Su versión XLR necesita una interfaz de audio o un mezclador, y es pesado, así que conviene un brazo resistente. El RØDE PodMic USB conserva el sonido y añade conexión USB-C directa al ordenador, además de la salida XLR por si más adelante quieres un mezclador; cuesta más que el modelo XLR.\n\nLos de condensador captan más detalle y más sonido de la sala. El Elgato Wave:3 MK.2 conecta por USB-C, añade Clipguard 2.0 contra la saturación y Auto Gain, y necesita la app Wave Link para sacarle partido. Para empezar con poco, el HyperX SoloCast (cardioide, con silencio por toque y soporte para brazo) y el FIFINE (carcasa metálica y sin control de ganancia en el cuerpo) cumplen; ninguno de los dos tiene monitorización de auriculares. El Blue Yeti ofrece cuatro patrones de captación y monitorización en tiempo real, pero ocupa bastante mesa y su soporte no es el más estable.",
+        "productSlug": "rode-podmic-usb-microfono-xlr-usb"
+      },
+      {
+        "heading": "Cámara: webcam 4K, 1080p a 60 fps o la cámara del portátil",
+        "body": "Para empezar, una webcam basta. La Logitech MX Brio llega a 4K y a 1080p a 60 fps, con tapa de privacidad física y USB-C; la ficha avisa de que el 4K real exige buena iluminación. La UGREEN FineCam Lite graba en 4K a 30 fps con autoenfoque, y la AnkerWork PowerConf C200 se queda en 2K con campo de visión ajustable. La Angetube lleva una luz anular integrada, útil en un despacho oscuro, aunque la ficha reconoce que esa luz es frontal y algo dura.\n\nLa Elgato Facecam 4K es la apuesta alta: 4K a 60 fps, sensor Sony STARVIS 2 y filtros de 49 mm. No lleva micrófono, así que necesitas uno aparte, y la ficha dice que solo rinde al máximo con buena luz. Por eso compensa solo si ya has resuelto el audio y la iluminación.",
+        "productSlug": "elgato-facecam-4k-webcam"
+      },
+      {
+        "heading": "Luz: el cambio más barato de notar",
+        "body": "Una luz frontal mejora cualquier cámara. El Elgato Key Light Air MK.2 da hasta 2.100 lúmenes con temperatura entre 2.900 y 7.000 K y controles táctiles; la ficha señala que con un solo foco la iluminación es limitada y que para una escena completa conviene comprar dos. La Logitech Litra Glow está pensada para un solo usuario en plano cercano y se maneja por software. El NEEWER NL-116AI es un panel de 9 pulgadas con hasta 600 lux a 0,5 m y batería para unos 90 minutos, y con un solo panel la luz puede quedar dura, así que mejor difuminarla o rebotarla.\n\nLa barra de luz para monitor de Yeelight es otra cosa: ilumina la mesa sin reflejos en la pantalla, pero no la cara, así que no sustituye a una luz frontal para grabar. Más ideas de colocación en la [guía de iluminación para videollamadas](/blog/iluminacion-videollamadas-home-office).",
+        "productSlug": "elgato-key-light-air"
+      },
+      {
+        "heading": "Tres configuraciones según cuánto quieras invertir",
+        "body": "No ponemos precios porque cambian a diario y no los escribimos a mano; las tres configuraciones están ordenadas de menos a más inversión. Puedes ir de una a otra cambiando una pieza cada vez, empezando siempre por el micrófono."
+      }
+    ],
+    "comparison": {
+      "headers": [
+        "Nivel",
+        "Micrófono",
+        "Cámara",
+        "Luz",
+        "Pensado para"
+      ],
+      "rows": [
+        [
+          "Para empezar",
+          "HyperX SoloCast o FIFINE",
+          "La webcam que ya tengas o la AnkerWork PowerConf C200",
+          "NEEWER NL-116AI",
+          "Probar sin gastar mucho: primeras emisiones o un podcast de prueba"
+        ],
+        [
+          "Intermedio",
+          "Elgato Wave:3 MK.2",
+          "UGREEN FineCam Lite 4K",
+          "Logitech Litra Glow",
+          "Emitir con regularidad con una voz limpia y una imagen cuidada"
+        ],
+        [
+          "Avanzado",
+          "RØDE PodMic USB (o PodMic XLR con interfaz)",
+          "Elgato Facecam 4K (con luz)",
+          "Elgato Key Light Air MK.2",
+          "Contenido de calidad estable y margen para crecer"
+        ]
+      ]
+    },
+    "conclusion": "Para empezar un canal o un podcast, compra primero el micrófono, luego la luz y deja la cámara para el final. Un dinámico como el RØDE PodMic USB da buena voz en una habitación sin tratar; un USB de condensador como el Elgato Wave:3 MK.2 o el HyperX SoloCast es más sencillo de montar. La cámara de gama alta solo se aprovecha con luz suficiente y un micrófono aparte. Comprueba siempre en la ficha de Amazon la disponibilidad y las condiciones del vendedor antes de comprar.",
+    "faqs": [
+      {
+        "q": "¿USB o XLR para empezar?",
+        "a": "USB, si quieres enchufar y grabar. El XLR necesita una interfaz de audio o un mezclador, como indica la ficha del RØDE PodMic XLR. Una buena vía intermedia es un micrófono con las dos conexiones, como el RØDE PodMic USB: hoy lo conectas por USB-C y más adelante puedes pasar a XLR."
+      },
+      {
+        "q": "¿Me sirve el micrófono de la webcam?",
+        "a": "Para una videollamada puntual, sí. Para emitir o grabar un podcast conviene uno dedicado: las fichas de webcams como la UGREEN FineCam Lite advierten de que sus micrófonos integrados no sustituyen a uno específico, y la Elgato Facecam 4K ni siquiera lleva."
+      },
+      {
+        "q": "¿Necesito una o dos luces?",
+        "a": "Con una luz frontal ya notas la diferencia. Elgato indica en la ficha del Key Light Air que, para iluminar la escena completa, conviene comprar dos. Si tu fondo está en penumbra, mejor una luz suave de frente que una potente y dura."
+      },
+      {
+        "q": "¿Compensa una webcam 4K?",
+        "a": "Solo si tienes luz suficiente. La ficha de la Logitech MX Brio avisa de que el 4K real exige buena iluminación, y muchas plataformas comprimen el vídeo de todos modos, así que antes de subir de cámara revisa la luz y el audio."
+      }
+    ]
+  },
   "silla-gaming-o-ergonomica-teletrabajar": {
     "intro": "Una silla gaming y una silla ergonómica de oficina pueden costar lo mismo y parecer igual de cómodas en la foto, pero no están pensadas para lo mismo. La gaming nace para sesiones largas de juego, con forma de baquet, cojines sueltos y mucha reclinación. La de oficina nace para trabajar delante de una pantalla, con ajustes que adaptan el asiento y el respaldo a tu cuerpo. Esta guía explica qué diferencias importan de verdad si vas a teletrabajar ocho horas, qué pide la normativa española para una silla de trabajo y qué modelos del catálogo encajan con cada caso. Si ya sabes que quieres una de oficina, tienes [la guía completa de sillas ergonómicas](/blog/mejor-silla-ergonomica-home-office-2025).",
     "sections": [

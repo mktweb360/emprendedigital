@@ -15,6 +15,33 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "setup-streaming-podcast-casa",
+    title: "Setup de streaming y podcast en casa: micrófono, cámara y luz, y qué comprar primero",
+    seoTitle: "Setup de streaming y podcast en casa",
+    excerpt:
+      "Cómo montar un setup de streaming o podcast en casa: micrófono dinámico, de condensador o USB, webcam, luz y tres configuraciones según tu inversión, con las ventajas y límites de cada ficha.",
+    date: "2026-10-30",
+    category: "Home Office",
+    readTime: "8 min",
+    relatedProducts: [
+      "rode-podmic-usb-microfono-xlr-usb",
+      "elgato-wave3-mk2-microfono-condensador-usb",
+      "hyperx-solocast-microfono",
+      "elgato-facecam-4k-webcam",
+      "ugreen-finecam-lite-4k-webcam",
+      "elgato-key-light-air",
+      "logitech-litra-glow-luz-streaming",
+      "neewer-nl-116ai-panel-led-escritorio",
+    ],
+    relatedPosts: [
+      "mejor-microfono-usb-podcast-streaming-2026",
+      "mejor-webcam-videollamadas-trabajo-remoto",
+      "iluminacion-videollamadas-home-office",
+      "brazo-monitor-como-elegir",
+    ],
+    categoryCta: { href: "/tienda/microfonos", text: "Ver micrófonos →" },
+  },
+  {
     slug: "web-que-genera-clientes-que-revisar",
     title: "Cómo hacer que tu web te traiga clientes y no solo visitas: qué revisar primero",
     seoTitle: "Cómo hacer que tu web genere clientes",
