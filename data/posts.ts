@@ -23,6 +23,7 @@ export const posts: Post[] = [
     date: "2026-10-30",
     category: "Home Office",
     readTime: "8 min",
+    image: "/images/blog/setup-streaming-podcast-casa.jpg",
     relatedProducts: [
       "rode-podmic-usb-microfono-xlr-usb",
       "elgato-wave3-mk2-microfono-condensador-usb",
@@ -49,6 +50,7 @@ export const posts: Post[] = [
     date: "2026-11-04",
     category: "Emprender Online",
     readTime: "7 min",
+    image: "/images/blog/web-que-genera-clientes-que-revisar.jpg",
     relatedPosts: [
       "como-empezar-negocio-online-desde-casa-2025",
       "mejor-hosting-web-emprendedores-2025",
