@@ -15,6 +15,20 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "web-que-genera-clientes-que-revisar",
+    title: "Cómo hacer que tu web te traiga clientes y no solo visitas: qué revisar primero",
+    seoTitle: "Cómo hacer que tu web genere clientes",
+    excerpt: "Lista de 8 comprobaciones para que tu web genere contactos y no solo visitas: acción clara, portada, páginas por servicio, formulario corto, medición, móvil y confianza.",
+    date: "2026-11-04",
+    category: "Emprender Online",
+    readTime: "7 min",
+    relatedPosts: [
+      "como-empezar-negocio-online-desde-casa-2025",
+      "mejor-hosting-web-emprendedores-2025",
+      "productividad-trabajando-desde-casa-habitos",
+    ],
+  },
+  {
     slug: "silla-gaming-o-ergonomica-teletrabajar",
     title: "Silla gaming o silla ergonómica para teletrabajar 8 horas: diferencias reales",
     seoTitle: "Silla gaming o ergonómica: cuál es mejor",

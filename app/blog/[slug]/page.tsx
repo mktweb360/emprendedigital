@@ -71,6 +71,72 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "web-que-genera-clientes-que-revisar": {
+    "intro": "Tener una web no es lo mismo que tener un canal de clientes. Muchos proyectos digitales reciben visitas y no consiguen ni un mensaje. En casi todos los casos el problema no es «hacer más SEO», sino que la web no está pensada para que alguien tome una decisión. Esta lista sirve para revisarlo en una tarde, sin gastar nada y sin ser técnico.",
+    "sections": [
+      {
+        "heading": "1. Qué quieres que haga quien llega",
+        "body": "Antes de tocar nada, escribe en una frase la acción que cuenta como éxito: pedir presupuesto, reservar una llamada, comprar, suscribirse. Si no puedes decirla en una frase, la web tampoco la dice. Cada página debería llevar a esa acción como mucho en dos clics."
+      },
+      {
+        "heading": "2. Que la portada diga qué haces, para quién y dónde",
+        "body": "Un visitante decide en pocos segundos si se queda. Comprueba que en lo primero que se ve aparece qué ofreces, a quién va dirigido y cómo contactar. Evita titulares que podrían valer para cualquier empresa. Si tu servicio es local, di la zona."
+      },
+      {
+        "heading": "3. Una página por servicio o producto",
+        "body": "Una página que lo cuenta todo no se entiende ni se posiciona. Cada servicio importante merece su propia página con una explicación clara, para quién es, cómo se trabaja y una llamada a la acción. Es lo que buscan los clientes cuando ya saben lo que necesitan."
+      },
+      {
+        "heading": "4. Formulario corto y teléfono visible",
+        "body": "Pide solo lo imprescindible: nombre, contacto y qué necesitan. Cada campo extra hace que alguien abandone. Si tienes teléfono, que se pueda tocar desde el móvil. Prueba tu propio formulario y comprueba que el mensaje llega de verdad a tu bandeja y no a spam."
+      },
+      {
+        "heading": "5. Mide lo importante",
+        "body": "Si no sabes cuántos mensajes o llamadas vienen de la web, no puedes mejorar. Con [Google Analytics](https://marketingplatform.google.com/about/analytics/) puedes registrar como evento el envío del formulario y los clics en el teléfono, y con [Search Console](https://search.google.com/search-console) ver qué búsquedas te traen visitas y en qué páginas. No hace falta más para empezar."
+      },
+      {
+        "heading": "6. Velocidad y móvil",
+        "body": "Abre tu web en el móvil con datos, no con wifi. Si tarda en cargar o hay que ampliar el texto para leerlo, estás perdiendo visitas. Google tiene herramientas gratuitas para medirlo, como PageSpeed Insights, y una [guía de inicio de SEO](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) que merece la pena leer una vez."
+      },
+      {
+        "heading": "7. Confianza",
+        "body": "Quien no te conoce busca señales: quién eres, dónde estás, opiniones reales y casos concretos. Pon tu nombre o el de tu empresa, tus datos de contacto y, si los tienes, reseñas verificables. No inventes testimonios ni cifras: pierden más de lo que ganan."
+      },
+      {
+        "heading": "8. Qué puedes hacer tú y qué conviene delegar",
+        "body": "Todo lo anterior se puede hacer por tu cuenta. Lo que suele pedir ayuda profesional es el trabajo técnico y continuo: estructura del sitio, SEO, publicidad de pago y medición bien montada. Si prefieres externalizarlo, en [Mkt Web 360](https://www.mktweb360.com/?utm_source=emprendedigital&utm_medium=referral&utm_campaign=articulo) trabajamos webs, SEO y campañas para negocios que quieren más contactos, y también editamos este blog. Sea cual sea tu elección, empieza por las preguntas de arriba: te servirán igual para valorar cualquier propuesta."
+      }
+    ],
+    "conclusion": "Para quedarte con lo esencial, comprueba siete cosas: que tienes definida la acción que quieres que haga el visitante, que la portada dice qué haces, para quién y dónde, que cada servicio tiene su página, que el formulario es corto y llega a tu bandeja, que mides formularios y llamadas, que la web es rápida y se lee bien en el móvil, y que hay datos reales de quién eres y señales de confianza. Si una de ellas falla, empieza por ahí antes de invertir en tráfico.",
+    "sources": [
+      {
+        "label": "Google — Guía de inicio de SEO",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      },
+      {
+        "label": "Google — Search Console",
+        "url": "https://search.google.com/search-console"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Por qué mi web tiene visitas pero no genera clientes?",
+        "a": "Lo más habitual es que no quede claro qué ofreces, para quién y qué debe hacer el visitante después. Revisa la portada, el formulario y si cada servicio tiene su propia página."
+      },
+      {
+        "q": "¿Hace falta un formulario largo para captar clientes?",
+        "a": "No. Pide solo nombre, contacto y qué necesitan. Cada campo extra hace que alguien abandone, y siempre puedes preguntar el resto cuando respondas."
+      },
+      {
+        "q": "¿Cómo sé cuántos contactos llegan desde la web?",
+        "a": "Registra como evento en Google Analytics el envío del formulario y los clics en el teléfono. Con Search Console verás además qué búsquedas llevan visitas a cada página."
+      },
+      {
+        "q": "¿Cuándo conviene contratar a una agencia?",
+        "a": "Cuando el trabajo técnico y continuo, como el SEO, la publicidad de pago o la medición, te quita tiempo del negocio. Aun así, conviene tener claras las preguntas de esta guía para valorar cualquier propuesta."
+      }
+    ]
+  },
   "silla-gaming-o-ergonomica-teletrabajar": {
     "intro": "Una silla gaming y una silla ergonómica de oficina pueden costar lo mismo y parecer igual de cómodas en la foto, pero no están pensadas para lo mismo. La gaming nace para sesiones largas de juego, con forma de baquet, cojines sueltos y mucha reclinación. La de oficina nace para trabajar delante de una pantalla, con ajustes que adaptan el asiento y el respaldo a tu cuerpo. Esta guía explica qué diferencias importan de verdad si vas a teletrabajar ocho horas, qué pide la normativa española para una silla de trabajo y qué modelos del catálogo encajan con cada caso. Si ya sabes que quieres una de oficina, tienes [la guía completa de sillas ergonómicas](/blog/mejor-silla-ergonomica-home-office-2025).",
     "sections": [
