@@ -71,6 +71,348 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "seguridad-teletrabajo-checklist-contrasenas-wifi-copias": {
+    "intro": "Cuando trabajas desde casa, tu salón pasa a ser la red de la empresa. No hay un departamento de informática detrás del router ni nadie que te recuerde actualizar el portátil, y un fallo tonto (la misma contraseña en cinco servicios, una copia que no existe) puede costarte documentos de clientes o semanas de trabajo. Esta checklist reúne las medidas que más pesan y que cualquiera puede aplicar en una tarde, apoyadas en lo que recomienda INCIBE, el Instituto Nacional de Ciberseguridad, y en su servicio para ciudadanos, la Oficina de Seguridad del Internauta. No hace falta ser técnico; sí conviene hacerlas en orden.",
+    "sections": [
+      {
+        "heading": "1. Una contraseña distinta para cada servicio",
+        "body": "El error más repetido es reciclar la misma clave en varias cuentas: si una web pequeña sufre una filtración, el atacante probará ese correo y esa clave en tu correo, en tu banco y en tu herramienta de trabajo. INCIBE lo lista como primero de los errores típicos con contraseñas, junto a las secuencias de teclado como «123456» o «qwerty», las expresiones hechas, las claves basadas en aficiones o equipos favoritos y los patrones previsibles del tipo «Perro26!» (mayúscula, minúsculas, un par de números y un símbolo al final). Apuntarlas en notas a la vista tampoco es buena idea. La forma realista de cumplirlo todo es un gestor de contraseñas: guarda las claves cifradas, genera claves aleatorias distintas para cada sitio y te avisa de las repetidas. Solo memorizas una contraseña maestra, que según INCIBE debe ser segura pero fácil de recordar para ti; una frase larga y propia funciona mejor que una palabra con símbolos. Empieza por las cuentas que abren todas las demás: tu correo principal, el almacenamiento en la nube y la banca."
+      },
+      {
+        "heading": "2. Doble factor en todo lo importante",
+        "body": "La verificación en dos pasos añade algo que posees a algo que sabes: además de la contraseña, un código temporal que llega por SMS o correo, que genera una aplicación de autenticación o que confirma una llave física. Si alguien consigue tu contraseña, todavía necesita ese segundo factor. INCIBE recomienda activarla en todas las cuentas que lo permitan y destaca el correo electrónico, las redes sociales, la mensajería, la banca, el almacenamiento en la nube y las tiendas online. Dos detalles que se olvidan: guarda los códigos de respaldo que algunos servicios te dan, en un sitio que no sea el mismo móvil, porque son tu salida si lo pierdes; y protege también el propio gestor de contraseñas con doble factor, algo que muchos gestores en línea permiten. Cada servicio lo configura de forma distinta, así que busca en sus ajustes la sección de seguridad."
+      },
+      {
+        "heading": "3. El router y la wifi de casa",
+        "body": "Tu wifi es la puerta de entrada de todos los dispositivos de la casa, incluido el portátil de trabajo. INCIBE y la OSI repasan los mismos puntos: cambia la contraseña de acceso al router, porque la de fábrica suele estar en una pegatina; cambia el nombre de la red para que no delate tu operadora ni el modelo; sustituye la clave wifi que trae por defecto por una robusta; y usa el cifrado más moderno que admita tu equipo. En su artículo de 2024, INCIBE explica que WPA2 se considera obsoleto por las vulnerabilidades descubiertas, como el ataque KRACK, y recomienda configurar WPA3 si el router lo admite (en la web del fabricante o buscando el modelo lo comprobarás); en su guía anterior de 2017 pedía WPA2-PSK, con modo mixto si algún dispositivo no es compatible, y advertía de que nunca debe usarse WEP. También aconseja desactivar WPS, el sistema de conexión por PIN de 8 dígitos que podría usarse para entrar en tu red. Para entrar al router, escribe su dirección (suele ser 192.168.1.1 o 192.168.0.1) en el navegador; si no conoces el usuario y la clave, mira la pegatina o pregunta a tu operadora. Si tienes visitas con frecuencia, algunos routers permiten una red de invitados separada, así que merece la pena mirar si el tuyo la incluye."
+      },
+      {
+        "heading": "4. VPN y wifis públicas",
+        "body": "Una VPN crea una conexión cifrada entre tu dispositivo y un servidor remoto. INCIBE la recomienda para conectarte desde redes públicas, como las de cafeterías o aeropuertos, y para acceder de forma segura a la red de una empresa cuando teletrabajas. Para el segundo caso, la VPN suele facilitarla tu empresa o cliente, y no tienes que elegir nada. Para el primero, INCIBE prefiere otra solución: no usar wifis públicas y compartir datos del móvil (tethering), y, si no queda más remedio, una VPN. En cualquier caso, evita operar con la banca o con datos confidenciales en una red pública. Si contratas una por tu cuenta, desconfía de las gratuitas: INCIBE advierte de que muchas recopilan y venden datos de usuarios, algunas usan protocolos de cifrado más débiles, pueden saturarse y vivir de publicidad invasiva. Revisa la política de no registro de datos, los protocolos de cifrado y la compatibilidad con tus dispositivos antes de decidir."
+      },
+      {
+        "heading": "5. Actualizaciones y dispositivos separados",
+        "body": "Los parches cierran fallos que los atacantes ya conocen, así que una política mínima es dejar activas las actualizaciones automáticas del sistema operativo, el navegador y las aplicaciones de trabajo, y reiniciar cuando te lo pidan. Todo software tiene un ciclo de vida y, cuando el fabricante deja de darle soporte, deja de recibir parches: si tu portátil o tu móvil ya no los reciben, es momento de sustituirlo. Instala las actualizaciones desde el propio programa o desde la web del fabricante, no desde ventanas emergentes que te piden actualizar. Si usas un dispositivo personal para trabajar, la guía de INCIBE para empresarios advierte de que los equipos de uso mixto deben entrar en una política de seguridad, porque sin ella quedan expuestos a incidentes. Una medida sencilla es separar perfiles de usuario: uno para el trabajo y otro para el ocio, con sus propias cuentas y extensiones del navegador."
+      },
+      {
+        "heading": "6. Copias de seguridad con la regla 3-2-1",
+        "body": "INCIBE resume una copia de seguridad fiable en tres condiciones: tres copias de la misma información, en dos dispositivos distintos, y una de ellas en un lugar diferente al resto (su ejemplo es un disco duro externo en casa de un familiar). Traducido a un autónomo: el original en tu ordenador, una copia en un disco externo y otra en un servicio en la nube o en otro lugar físico. La frecuencia la marca la importancia de la información y lo rápido que cambia; un archivo que modificas todos los días necesita una copia diaria, y uno que casi no tocas, una al mes. INCIBE no detalla cómo comprobar las copias, pero es una pauta de sentido común: una vez al trimestre, restaura un archivo cualquiera para confirmar que la copia se abre. Las copias que nunca se han probado son una esperanza, no una copia."
+      },
+      {
+        "heading": "7. Si algo sale mal",
+        "body": "Aunque apliques todo lo anterior, puede pasar: un correo que parecía legítimo, una clave filtrada, un equipo que se comporta raro. Cambia de inmediato la contraseña de la cuenta afectada desde un dispositivo de confianza, revisa los accesos recientes y activa el doble factor si no lo tenías. Si trabajas por cuenta ajena, avisa a tu empresa en cuanto lo sospeches; si eres autónomo, avisa a los clientes cuyos datos hayas podido exponer. INCIBE ofrece una línea gratuita y confidencial de ayuda en ciberseguridad, el 017, para ciudadanos y empresas. Para que la checklist no se quede en buenas intenciones, reserva noventa minutos: gestor y claves del correo en la primera media hora, doble factor en las cinco cuentas más importantes en la segunda y el router con la primera copia en la tercera. Para el resto del puesto, tienes [la guía de teletrabajo en España](/blog/trabajo-remoto-espana-guia-completa-2025), [las herramientas de productividad para el trabajo remoto](/blog/herramientas-productividad-trabajo-remoto-2025) y [cómo organizar un setup productivo en casa](/blog/home-office-setup-productivo-guia)."
+      }
+    ],
+    "conclusion": "Si solo vas a hacer una cosa hoy, instala un gestor de contraseñas y activa el doble factor en tu correo principal: es lo que más reduce el riesgo con menos esfuerzo. Después, dedica una tarde al router (clave, nombre, WPA3 o WPA2 y WPS desactivado) y programa una copia en un disco externo y otra fuera de casa. Y apunta en el calendario una revisión trimestral para comprobar que las copias se abren y que no queda ninguna cuenta importante sin segundo factor.",
+    "sources": [
+      {
+        "label": "INCIBE — Autenticación de dos factores",
+        "url": "https://www.incibe.es/ciudadania/tematicas/contrasenas-seguras/autenticacion-de-dos-factores"
+      },
+      {
+        "label": "INCIBE — Típicos errores que cometemos al usar nuestras contraseñas (2019)",
+        "url": "https://www.incibe.es/ciudadania/blog/tipicos-errores-que-cometemos-al-usar-nuestras-contrasenas-y-como"
+      },
+      {
+        "label": "INCIBE — Gestores de contraseñas: cómo funcionan (2021)",
+        "url": "https://www.incibe.es/ciudadania/blog/gestores-de-contrasenas-como-funcionan"
+      },
+      {
+        "label": "INCIBE — WPA3, el protocolo de seguridad a configurar en tu router (2024)",
+        "url": "https://www.incibe.es/ciudadania/blog/wpa3-el-protocolo-de-seguridad-configurar-en-tu-router"
+      },
+      {
+        "label": "INCIBE — Te refrescamos cómo proteger la red wifi de casa (2017)",
+        "url": "https://www.incibe.es/ciudadania/blog/te-refrescamos-como-proteger-la-red-wifi-de-casa"
+      },
+      {
+        "label": "INCIBE — VPN, gratis o de pago (2025)",
+        "url": "https://www.incibe.es/ciudadania/blog/gratis-o-de-pago-todo-lo-que-debes-saber-sobre-las-vpn"
+      },
+      {
+        "label": "INCIBE — Conéctate a tu empresa de forma segura desde cualquier sitio: VPN (2018)",
+        "url": "https://www.incibe.es/empresas/blog/conectate-tu-empresa-forma-segura-cualquier-sitio-vpn"
+      },
+      {
+        "label": "INCIBE — Ciberseguridad en el teletrabajo: guía para el empresario (2020)",
+        "url": "https://www.incibe.es/empresas/blog/ciberseguridad-el-teletrabajo-guia-aproximacion-el-empresario"
+      },
+      {
+        "label": "INCIBE — Una copia de seguridad a tiempo puede evitar un desastre (2023)",
+        "url": "https://www.incibe.es/ciudadania/blog/una-copia-de-seguridad-tiempo-puede-evitar-un-desastre"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Es suficiente una contraseña larga si no activo el doble factor?",
+        "a": "No del todo. Una contraseña larga y única dificulta que te la adivinen, pero no te protege si te la roban con un correo falso o una filtración. El doble factor añade una barrera que el atacante no tiene aunque conozca la clave."
+      },
+      {
+        "q": "¿Necesito una VPN para teletrabajar desde casa?",
+        "a": "Si tu empresa o cliente te exige una para acceder a sus sistemas, te la proporcionará. Para tu propia conexión doméstica no es imprescindible si el router está bien configurado. Es útil sobre todo cuando no queda más remedio que usar una wifi pública, y conviene evitar las gratuitas."
+      },
+      {
+        "q": "¿Cada cuánto debo hacer copia de seguridad?",
+        "a": "INCIBE deja la frecuencia a tu criterio, según la importancia de la información y la rapidez con que cambia. Lo que cambias cada día, copia diaria; lo que apenas tocas, mensual. Lo importante es automatizarla y probarla de vez en cuando."
+      },
+      {
+        "q": "¿Qué es lo primero que debo cambiar en el router?",
+        "a": "La contraseña de acceso al propio router y la clave de la wifi, ambas distintas de las de fábrica. Después, el nombre de la red, el cifrado (WPA3 si lo admite, WPA2 si no) y desactivar WPS."
+      }
+    ]
+  },
+  "montar-oficina-en-casa-5-pasos-ergonomia": {
+    "intro": "Montar una oficina en casa suele empezar por lo visible, la silla bonita o el monitor grande, y acabar en dolor de cuello o de espalda porque nadie midió nada. El orden importa más que el presupuesto: primero el sitio y la luz, después la mesa, la silla y la pantalla, y al final los accesorios. Esta guía sigue cinco pasos y se apoya en documentos del INSST (el Instituto Nacional de Seguridad y Salud en el Trabajo) y en el Real Decreto 488/1997, que fija los requisitos mínimos para trabajar con pantallas. Es una norma pensada para la relación entre empresa y plantilla; para organizar tu puesto sus criterios sirven de referencia técnica, y si teletrabajas por cuenta ajena, tu empresa o su servicio de prevención es quien debe orientarte en tu caso.",
+    "sections": [
+      {
+        "heading": "Paso 1: elige el sitio y resuelve la luz antes de comprar nada",
+        "body": "Busca un rincón donde puedas dejar el puesto montado y que no sea el sofá ni la cama. El anexo del Real Decreto 488/1997 pide espacio suficiente para cambiar de postura, una iluminación que evite deslumbramientos y reflejos en la pantalla, ventanas con cobertura regulable y poco ruido. En la práctica significa colocar la mesa de lado respecto a la ventana, no de frente ni de espaldas, porque de frente te deslumbra y de espaldas se refleja en el monitor, y tener cortina o estor para los momentos de sol directo. Comprueba también los enchufes: el propio INSST aconseja no conectar más de tres enchufes por toma, así que, si necesitas muchos, que sea con una regleta con protección y no con regletas encadenadas."
+      },
+      {
+        "heading": "Paso 2: la mesa y su espacio libre",
+        "body": "Una mesa de oficina cómoda necesita fondo y hueco para las piernas. La NTP 602 del INSST sitúa como referencia unos 80 × 120 cm para tareas generales de oficina, con 5 a 10 cm entre el teclado y el borde de la mesa, y un hueco bajo la mesa de al menos 60 cm de ancho por 65 a 70 cm de profundidad. Cuenta todo lo que tienes debajo (cajoneras, la torre del ordenador, un panel) porque se come ese espacio. Si tu mesa es más corta de fondo, la pantalla quedará demasiado cerca; en ese caso un brazo de monitor ayuda a ganar profundidad. Si trabajas muchas horas, un escritorio de altura regulable permite alternar sentado y de pie. En el catálogo, el ErGear 120 × 60 cm se regula de 72 a 118 cm y guarda 4 alturas, aunque con 60 cm de fondo queda por debajo de la referencia de la NTP, así que conviene mirarlo con la distancia a la pantalla en mente; en [esta guía de escritorios regulables](/blog/escritorio-regulable-altura-home-office) comparamos más opciones.",
+        "productSlug": "ergear-escritorio-elevable-120x60"
+      },
+      {
+        "heading": "Paso 3: la silla, que se ajuste a ti y no al revés",
+        "body": "El anexo del Real Decreto 488/1997 exige un asiento estable, con altura regulable y respaldo reclinable de inclinación ajustable, y menciona un reposapiés para quien lo desee. El INSST añade que la silla debe tener cinco apoyos en el suelo, el asiento con profundidad regulable para que el borde no presione las piernas, un respaldo con suave prominencia lumbar ajustable en altura e inclinación y ruedas adecuadas al suelo. Con esa lista en la mano, y como regla práctica habitual, el orden de ajuste es: altura del asiento hasta que tus pies apoyen en el suelo con las rodillas más o menos a 90°; profundidad para que quepan dos dedos entre el borde y la corva; lumbar en la curva baja de la espalda; reposabrazos para que los hombros queden relajados. Si los pies no llegan, usa un reposapiés. La ProtoArc EC200 Pro reúne varios de esos ajustes: profundidad de asiento de hasta 5 cm y lumbar regulable, aunque está pensada para estaturas de unos 163 a 185 cm. Hay más modelos en [nuestra comparativa de sillas ergonómicas](/blog/mejor-silla-ergonomica-home-office-2025).",
+        "productSlug": "protoarc-ec200-pro-silla-malla-reposabrazos-4d"
+      },
+      {
+        "heading": "Paso 4: pantalla y portátil a la altura y distancia correctas",
+        "body": "Con la silla ya regulada, ajusta la pantalla. Según la NTP 602, la primera línea de la pantalla no debe quedar por encima del nivel de los ojos, la zona de trabajo continuo se sitúa entre la horizontal y 60° por debajo de ella, y la preferida por los usuarios es la de 0° a 30°. El soporte del monitor debe girar y, según la NTP, inclinarse unos 15°. Un monitor de sobremesa suele quedar más bajo de lo recomendable, y un brazo con muelle de gas, como el Invision MX200 (19 a 32 pulgadas, VESA 75 o 100), lo sube sin libros ni cajas; si tienes dudas con el anclaje, el peso y las pulgadas, repásalas en [la guía de brazos para monitor](/blog/brazo-monitor-como-elegir). Un portátil junta pantalla y teclado, y eso obliga a elegir entre la altura del uno o la del otro; lo habitual es elevarlo o conectarlo a un monitor y usar teclado y ratón externos. En cuanto a la distancia, el INSST indica para pantallas de oficina una distancia entre 400 y 750 mm, nunca menos de 300 mm.",
+        "productSlug": "invision-mx200-brazo-monitor"
+      },
+      {
+        "heading": "Paso 5: luz de trabajo y una rutina de pausas",
+        "body": "A la luz del día hay que añadirle una luz artificial que ilumine el teclado y los papeles sin crear reflejos en la pantalla; el anexo del Real Decreto habla de evitar deslumbramientos y reflejos molestos. Una barra de luz sobre el monitor, como la Yeelight del catálogo, ilumina el escritorio sin proyectar sobre la pantalla, aunque no sirve para iluminarte la cara en videollamadas (para eso tienes [la guía de iluminación para videollamadas](/blog/iluminacion-videollamadas-home-office)). La mejor ergonomía del mundo no sustituye al movimiento: el propio Real Decreto contempla las pausas o la alternancia de tareas cuando hay riesgo por trabajo continuado con pantalla. Programa un recordatorio cada hora para levantarte, caminar un minuto y mirar un punto lejano. Si ya notas molestias, [esta guía sobre el dolor de espalda al trabajar en casa](/blog/dolor-espalda-trabajar-casa-soluciones) explica por dónde empezar.",
+        "productSlug": "yeelight-barra-luz-monitor-mando"
+      },
+      {
+        "heading": "Revisión final de diez minutos",
+        "body": "Siéntate como si fueras a trabajar y comprueba, en este orden, que los pies apoyan, que los codos quedan más o menos a la altura de la mesa, que quedan entre 5 y 10 cm entre el teclado y el borde de la mesa, que el borde superior de la pantalla no pasa de tus ojos y que no hay ningún reflejo en ella. Haz una foto lateral con el móvil: se ve enseguida si el cuello va adelantado. Y si algo no cuadra, cambia una sola cosa por vez y trabaja un par de días antes de tocar la siguiente."
+      }
+    ],
+    "conclusion": "Si tienes que ordenar el gasto, empieza por lo que decide la postura: una silla con regulación real y una pantalla a la altura de los ojos. Después añade la mesa regulable y la iluminación. Haz la revisión de diez minutos esta misma semana y anota en el calendario repetirla dentro de un mes, porque el cuerpo y el puesto cambian.",
+    "sources": [
+      {
+        "label": "BOE — Real Decreto 488/1997, sobre pantallas de visualización",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-8671"
+      },
+      {
+        "label": "INSST — NTP 602: el diseño ergonómico del puesto de trabajo con pantallas de visualización, el equipo de trabajo (2001)",
+        "url": "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/17-serie-ntp-numeros-576-a-610-ano-2001/ntp-602-el-diseno-ergonomico-del-puesto-de-trabajo-con-pantallas-de-visualizacion-el-equipo-de-trabajo-2001"
+      },
+      {
+        "label": "INSST — Preguntas técnicas frecuentes: diseño del puesto de trabajo",
+        "url": "https://www.insst.es/documentacion/material-tecnico/preguntas-tecnicas-frecuentes-gestion-prl/riesgos-ergonomicos/dise%C3%B1o-del-puesto-de-trabajo"
+      },
+      {
+        "label": "INSST — Preguntas técnicas frecuentes: trabajo con pantallas de visualización",
+        "url": "https://www.insst.es/documentacion/material-tecnico/preguntas-tecnicas-frecuentes-gestion-prl/riesgos-ergonomicos/trabajo-con-pantallas-de-visualizacion"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuánto espacio necesito para una oficina en casa?",
+        "a": "Lo que más condiciona es la mesa y el hueco libre. La NTP 602 del INSST toma como referencia unos 80 × 120 cm de superficie y un hueco para las piernas de al menos 60 cm de ancho por 65 a 70 cm de fondo. Más allá de la mesa, necesitas poder girar la silla y levantarte sin chocar."
+      },
+      {
+        "q": "¿Qué debo comprar primero?",
+        "a": "Silla y pantalla, porque determinan la postura. Una mesa que ya tienes puede servir; los accesorios, como la luz o el reposapiés, pueden esperar a ver si los necesitas."
+      },
+      {
+        "q": "¿Me sirve el portátil como única pantalla?",
+        "a": "Para ratos cortos, sí. Para jornadas largas conviene elevar el portátil o conectarlo a un monitor y usar teclado y ratón externos, porque con el portátil plano no puedes colocar a la vez bien la pantalla y las manos."
+      },
+      {
+        "q": "¿El Real Decreto 488/1997 me obliga a tener un puesto concreto en casa?",
+        "a": "Es una norma sobre las obligaciones de la empresa con quienes trabajan con pantallas, y esta guía no es asesoramiento legal. Sus requisitos técnicos sirven de referencia para cualquier puesto; si teletrabajas para una empresa, consulta con ella o con su servicio de prevención qué te corresponde."
+      }
+    ]
+  },
+  "tamano-monitor-distancia-24-27-32-pulgadas": {
+    "intro": "La pregunta habitual es cuántas pulgadas comprar, pero la que decide es otra: a qué distancia te sientas. Un monitor de 32 pulgadas es una gran compra a 80 centímetros y un mal ejemplo a 50, y uno de 24 que parecía pequeño en la tienda puede ser exactamente lo que cabe en una mesa de 60 centímetros de fondo. En esta guía convertimos las pulgadas en centímetros y en grados, con fórmulas que puedes repetir con tu propia mesa, y después vemos qué resolución tiene sentido en cada tamaño. Los rangos de distancia son los del INSST; los cálculos de ángulo y de píxeles son geométricos y están hechos para pantallas 16:9.",
+    "sections": [
+      {
+        "heading": "La distancia manda: qué dice el INSST",
+        "body": "El INSST indica que las pantallas de oficina habituales suelen requerir una distancia de visualización de 400 a 750 mm, y que en ningún caso debe estar a menos de 300 mm. La NTP 251, más antigua, considera aceptables distancias de 35 a 85 cm y pide que para tareas de oficina no baje de 40 cm. Sobre la altura, la pantalla debe verse en la zona comprendida entre la horizontal y 40° por debajo, y la primera línea no debe quedar sobre el nivel de los ojos, según la NTP 602. De ahí sale todo lo demás: si el borde superior está a la altura de los ojos, el borde inferior no debería bajar de 40°, y eso limita lo cerca que puedes sentarte de un monitor alto. El INSST ofrece además un calculador de distancia visual basado en la familia de normas ISO 9241, que expresan las recomendaciones como ángulo visual y dependen del tamaño de los caracteres, la tarea, la iluminación y la edad."
+      },
+      {
+        "heading": "De pulgadas a centímetros y grados",
+        "body": "Las fórmulas, para una pantalla 16:9 de D pulgadas: el ancho es D × 0,872 × 2,54 cm, la altura es D × 0,490 × 2,54 cm, el ángulo horizontal ocupado es 2 × arctan(ancho / 2 / distancia) y el ángulo del borde inferior, con el superior a la altura de los ojos, es arctan(altura / distancia). Despejando el límite de 40°, la distancia mínima es la altura de la pantalla multiplicada por 1,19. Para un 24 pulgadas, eso da 36 cm; para un 27, 40 cm; para un 32, 47 cm. Es el mínimo geométrico, no la distancia cómoda. La tabla siguiente reúne los datos de los tres tamaños comunes. Por ejemplo, a 70 cm un monitor de 27 pulgadas ocupa unos 46° de tu campo visual en horizontal, y uno de 32, unos 54°; a 60 cm, el de 32 llega a 61° y el borde de los lados te obliga a girar la cabeza para leer las esquinas."
+      },
+      {
+        "heading": "Resolución y nitidez: píxeles por pulgada",
+        "body": "Los píxeles por pulgada resultan de dividir la diagonal en píxeles entre la diagonal en pulgadas. En Full HD (1920 × 1080) un 24 tiene unos 92 ppi, un 27 unos 82 y un 32 unos 69; en QHD (2560 × 1440), 122, 109 y 92; y en 4K (3840 × 2160), 184, 163 y 138. No existe una cifra oficial a partir de la cual el texto sea cómodo, y depende de tu vista y de tu distancia: lo que sí se sabe es que más píxeles por pulgada dan caracteres más definidos y, a cambio, más pequeños si no se escala la interfaz. Por eso en 4K se usa el escalado del sistema (en Windows, en Configuración > Sistema > Pantalla > Escala), y entonces ganas nitidez, no espacio de trabajo. Si lo que buscas es más espacio de escritorio sin tocar el escalado, QHD en 27 pulgadas es el punto de partida más habitual, y Full HD en 27 deja el texto más grueso y los píxeles más visibles. La comparativa específica está en [monitor 4K frente a Full HD para trabajar](/blog/monitor-4k-vs-full-hd-trabajo-remoto)."
+      },
+      {
+        "heading": "24 pulgadas: mesas poco profundas y mucha lectura",
+        "body": "Con 53 cm de ancho y 30 de alto, un 24 se puede colocar a unos 50 o 60 cm sin salirse de los 40° y sin girar el cuello: a 60 cm ocupa unos 48° en horizontal. Es la opción lógica en una mesa de 60 cm de fondo o en un puesto con dos monitores en poco espacio. Su límite es el espacio de trabajo: en Full HD cabe una ventana a media pantalla y poco más. En el catálogo no hay un 24, y la ficha del ASUS VA27DQSB, un 27 pulgadas Full HD con base regulable en altura, muestra la alternativa: tamaño de sobra con resolución básica, en la que se notan los píxeles si te sientas cerca.",
+        "productSlug": "asus-va27dqsb-monitor-27-ajustable"
+      },
+      {
+        "heading": "27 pulgadas: el tamaño equilibrado para casi todos",
+        "body": "Mide 60 cm de ancho y 34 de alto. A 70 cm ocupa unos 46° y su borde inferior queda a 26° con el superior a la altura de los ojos, bien dentro de los límites; a 60 cm sube a 53° y 29°. Es el tamaño que mejor casa con mesas de 70 a 80 cm de fondo. En QHD, como el Lenovo L27h-4A (2560 × 1440, IPS, 100 Hz, USB-C y soporte regulable en altura, giro y rotación), tienes más espacio que en Full HD sin depender del escalado. En 4K, como el LG 27U730A-B (163 ppi según su ficha) o el Dell S2725QC (4K a 120 Hz con USB-C), el texto se ve muy definido a costa de escalar la interfaz; la ficha del Dell avisa de que aprovechar los 120 Hz exige un equipo que los mueva a 4K, algo que para ofimática no hace falta.",
+        "productSlug": "lenovo-l27h-4a-monitor-qhd-usb-c"
+      },
+      {
+        "heading": "32 pulgadas: solo si tienes profundidad y un brazo",
+        "body": "Con 71 cm de ancho y casi 40 de alto, un 32 pide sentarte a más de 47 cm solo para cumplir los 40° del borde inferior, y a 70 cm sigue ocupando 54° de tu visión: tendrás que girar la cabeza para ver los bordes. Compensa si tu mesa tiene 80 cm de fondo o más, si trabajas con hojas de cálculo, líneas de tiempo o varias ventanas, y si lo colocas en un brazo que permita llevarlo a tu altura y alejarlo: el peso y el anclaje VESA se repasan en [la guía de brazos para monitor](/blog/brazo-monitor-como-elegir). A este tamaño, Full HD queda corto (69 ppi) y la resolución recomendable es QHD como mínimo; en 4K, el escalado es casi obligatorio. No tenemos fichas de 32 pulgadas en el catálogo, y no recomendaremos ninguna sin comprobar sus datos."
+      },
+      {
+        "heading": "Dos monitores y la regla de las tres preguntas",
+        "body": "Si piensas poner dos pantallas, suma anchos: dos de 27 pulgadas ocupan unos 120 cm, y desde 70 cm de distancia el extremo exterior queda a unos 40° del frente si no los giras. Gíralos hacia ti y deja el principal justo delante. Antes de comprar el segundo, comprueba que tu portátil admite dos salidas, tal como explicamos en [cómo conectar dos monitores a un portátil](/blog/conectar-dos-monitores-portatil-guia). Para decidir tamaño y resolución sin dar vueltas, responde tres preguntas: cuántos centímetros hay entre tus ojos y la pantalla sentado de forma natural, qué resolución puede mover tu equipo y si lo que más haces es leer y escribir (prioriza ppi) o comparar ventanas (prioriza espacio). La respuesta casi siempre es 27 pulgadas en QHD o 4K, a no ser que tu mesa mande otra cosa."
+      }
+    ],
+    "comparison": {
+      "headers": [
+        "Tamaño (16:9)",
+        "Ancho × alto",
+        "Ángulo horizontal a 60 cm",
+        "Ángulo horizontal a 80 cm",
+        "Distancia mínima (borde inferior a 40°)"
+      ],
+      "rows": [
+        [
+          "24 pulgadas",
+          "53 × 30 cm",
+          "48°",
+          "37°",
+          "36 cm"
+        ],
+        [
+          "27 pulgadas",
+          "60 × 34 cm",
+          "53°",
+          "41°",
+          "40 cm"
+        ],
+        [
+          "32 pulgadas",
+          "71 × 40 cm",
+          "61°",
+          "48°",
+          "47 cm"
+        ]
+      ]
+    },
+    "conclusion": "Mide la distancia entre tus ojos y el lugar donde irá la pantalla, sentado de forma natural, y elige con la tabla: por debajo de 60 cm de fondo, 24 pulgadas; entre 60 y 80 cm, 27; y por encima, plantéate 32 con brazo. Después elige la resolución: QHD si buscas espacio, 4K si priorizas nitidez y aceptas escalar. Si ya tienes un monitor, haz la prueba con una cinta métrica antes de cambiarlo: quizá solo necesites alejarlo o subirlo.",
+    "sources": [
+      {
+        "label": "INSST — Preguntas técnicas frecuentes: trabajo con pantallas de visualización",
+        "url": "https://www.insst.es/documentacion/material-tecnico/preguntas-tecnicas-frecuentes-gestion-prl/riesgos-ergonomicos/trabajo-con-pantallas-de-visualizacion"
+      },
+      {
+        "label": "INSST — NTP 251: pantallas de visualización, medida de distancias y ángulos visuales (1990)",
+        "url": "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/7-serie-ntp-numeros-226-a-260-ano-1990/ntp-251-pantallas-de-visualizacion-medida-de-distancias-y-angulos-visuales"
+      },
+      {
+        "label": "INSST — Calculador: equipos con pantallas, distancia visual (2021)",
+        "url": "https://www.insst.es/documentacion/herramientas-de-prl/calculadores/equipos-con-pantallas-distancia-visual-2021"
+      },
+      {
+        "label": "INSST — NTP 602: el diseño ergonómico del puesto de trabajo con pantallas de visualización (2001)",
+        "url": "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/17-serie-ntp-numeros-576-a-610-ano-2001/ntp-602-el-diseno-ergonomico-del-puesto-de-trabajo-con-pantallas-de-visualizacion-el-equipo-de-trabajo-2001"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué tamaño de monitor es mejor para una mesa de 60 cm de fondo?",
+        "a": "Un 24 pulgadas es lo más cómodo: a 50 o 60 cm ocupa entre 48° y 56° en horizontal y su borde inferior se mantiene muy por encima del límite de 40°. Un 27 también cabe si lo pones lo más atrás posible, con la mesa libre de objetos delante."
+      },
+      {
+        "q": "¿Merece la pena un 4K en 27 pulgadas para trabajar?",
+        "a": "Si lees y escribes mucho, sí: a 163 ppi el texto sale muy definido. Tendrás que usar el escalado del sistema, así que no ganas espacio de escritorio; si lo que quieres es espacio, QHD en 27 es más directo."
+      },
+      {
+        "q": "¿A qué distancia tengo que sentarme de un monitor de 27 pulgadas?",
+        "a": "El INSST sitúa las pantallas de oficina entre 400 y 750 mm. Para un 27, el mínimo geométrico para que el borde inferior no pase de 40° es de unos 40 cm, y lo cómodo lo decide tu vista y el tamaño del texto: ajusta dentro del rango del INSST hasta que leas sin inclinarte."
+      },
+      {
+        "q": "¿Un 32 pulgadas es demasiado grande para teletrabajar?",
+        "a": "Depende de tu mesa. Con 80 cm de fondo o más y un brazo que lo acerque a tu altura funciona bien; con menos profundidad te obliga a girar la cabeza y a sentarte más lejos de lo cómodo para el texto."
+      }
+    ]
+  },
+  "herramientas-gratuitas-validar-idea-negocio-online": {
+    "intro": "Validar una idea no consiste en que a tus amigos les parezca buena. Consiste en comprobar, antes de invertir en web, stock o publicidad, que hay personas con ese problema, que lo buscan y que alguien está dispuesto a dejarte sus datos o a pagar. Para eso hay herramientas gratuitas que merecen la pena, siempre que se sepa qué mide cada una y qué no. Esta guía repasa seis, todas comprobadas en sus páginas oficiales el 4 de noviembre de 2026, con sus límites y con un plan de dos semanas para usarlas en orden. Las condiciones de los servicios cambian: confirma las actuales antes de depender de ellas.",
+    "sections": [
+      {
+        "heading": "1. Antes de abrir ninguna herramienta, escribe tu hipótesis",
+        "body": "Una hipótesis útil cabe en una frase con tres partes: quién tiene el problema, cuál es y cuánto está dispuesto a hacer por resolverlo. Por ejemplo: «Los autónomos de reformas de mi ciudad pierden presupuestos por contestar tarde y apuntarían su teléfono para recibir un aviso de nuevas peticiones». Fíjate en que incluye un comportamiento medible, apuntar el teléfono, y no una opinión. Define también el umbral con el que sabrás que merece seguir, por ejemplo diez conversaciones con personas del perfil y que tres dejen el contacto. Si no fijas el listón antes, cualquier resultado te parecerá bueno."
+      },
+      {
+        "heading": "2. Google Trends: ¿cuánto interés hay y cómo lo formulan?",
+        "body": "Google Trends muestra el interés de búsqueda de un tema en el tiempo y por región, a partir de una muestra anónima y agregada de búsquedas reales. Es relativo: cada punto se divide por el total de búsquedas de su región y periodo, y se escala de 0 a 100, así que no te dice cuántas personas buscan, sino si el interés sube, baja o es estacional y cómo se compara con otro término. Su ayuda oficial es clara en los límites: no es una encuesta científica, un pico no significa que algo sea «ganador», se añade ruido aleatorio para proteger la privacidad, que se nota más en búsquedas con poco interés, y los términos de muy poco volumen salen con valor 0. Úsalo para dos cosas: comparar dos formas de nombrar tu servicio y ver si el interés es estable o un pico pasajero. Si tu tema sale a cero, no significa que no exista; significa que Trends no tiene datos suficientes."
+      },
+      {
+        "heading": "3. Planificador de palabras clave: volúmenes y costes orientativos",
+        "body": "El Planificador de palabras clave de Google Ads sugiere palabras nuevas y estima las búsquedas mensuales y el coste de mostrar anuncios para ellas. Es la fuente más directa de volumen de búsqueda, con matices: Google indica en su ayuda que debes completar la configuración de una cuenta de Google Ads, con datos de facturación, para acceder a las funciones básicas; las palabras con muy poco volumen o consideradas sensibles no aparecen ni sirven para previsiones, y las previsiones se actualizan a diario con datos de los últimos 7 a 10 días ajustados por estacionalidad. Es decir: sirve para comparar tamaños entre ideas y para ver cómo habla la gente, pero no sustituye a hablar con clientes, y exige abrir una cuenta de anunciante. Si no quieres hacerlo, Trends y Search Console te dan una parte del cuadro."
+      },
+      {
+        "heading": "4. Formularios: Google Forms o Tally para preguntar a quien sí compraría",
+        "body": "Una encuesta corta enviada a diez o veinte personas del perfil vale más que cien opiniones de conocidos. Google Forms permite crear formularios y encuestas, guardar las respuestas en una hoja de cálculo de Google y verlas en gráficos. Tally, según su página de precios, ofrece formularios y respuestas ilimitados en el plan gratuito dentro de sus normas de uso razonable, incluidos pagos, firmas, lógica condicional y conexión con Google Sheets, Notion o Zapier; algunas funciones, como quitar su marca o usar un dominio propio, son de pago. Lo que importa es qué preguntes: cómo resuelven hoy el problema, cuánto tiempo o dinero les cuesta, qué han probado ya y cuándo fue la última vez que les pasó. Evita preguntar «¿te gustaría...?», porque casi todo el mundo contesta que sí; pregunta por hechos pasados. Termina siempre con una petición concreta, por ejemplo dejar un correo para recibir el piloto, y cuenta cuántos lo hacen."
+      },
+      {
+        "heading": "5. Una página mínima y tres cosas que medir",
+        "body": "Cuando tengas una hipótesis con señales, monta una página simple que explique la oferta y ofrezca una acción: reservar plaza, pedir aviso o escribirte. No hace falta una web completa; [la guía de qué revisar para que tu web genere clientes](/blog/web-que-genera-clientes-que-revisar) lista lo imprescindible, y si necesitas alojarla, [la comparativa de hosting para emprendedores](/blog/mejor-hosting-web-emprendedores-2025) te evita tropiezos. Mide solo tres cosas: visitas, clics en la acción y contactos recibidos. Google Search Console es un servicio gratuito que muestra con qué frecuencia aparece tu sitio en Google, qué búsquedas lo traen y cuántos clics recibe; y Google Analytics ofrece de forma gratuita las herramientas básicas para ver cómo interactúan los usuarios con tu web. Con ambos tendrás de dónde viene el interés y si se convierte, aunque con pocas visitas los porcentajes bailan: no saques conclusiones con 40 visitas."
+      },
+      {
+        "heading": "6. Los primeros clientes: personas, no herramientas",
+        "body": "Ninguna herramienta te traerá al primer cliente; lo hará una conversación. Haz una lista de veinte personas o negocios que encajen con tu hipótesis, escríbeles de forma individual con una propuesta concreta, mejor un piloto con plazas limitadas que un servicio genérico, y propón un precio o una reserva real. Un sí con dinero o con un compromiso vale más que cien «me interesa». Anota cada respuesta, incluidas las negativas y sus motivos, porque ahí suele estar el ajuste del mensaje o del precio. Cuando consigas los primeros, pídeles permiso para contar su caso, algo que alimenta la confianza de tu web. Si necesitas ordenar el trabajo mientras lo haces, [estos hábitos de productividad en casa](/blog/productividad-trabajando-desde-casa-habitos) te servirán, y la ruta general está en [cómo empezar un negocio online desde casa](/blog/como-empezar-negocio-online-desde-casa-2025)."
+      },
+      {
+        "heading": "Lo que estas herramientas no validan y un plan de dos semanas",
+        "body": "Trends y el Planificador miden búsquedas, no ganas de pagar; los formularios miden lo que dice quien contesta, que no siempre es lo que hará; y las analíticas con poco tráfico no permiten decidir con estadística. Por eso, el criterio final lo da el comportamiento: contactos, reservas, pagos. Un plan para dos semanas: en los días 1 y 2, la hipótesis y el listón; los días 3 y 4, Trends y el Planificador, con tres variantes de nombre; los días 5 a 7, formulario y envío a veinte personas; los días 8 a 10, página mínima con Analytics y Search Console; y los días 11 a 14, conversaciones directas con una oferta. Al final, compara con el listón del primer día y decide: seguir, cambiar el enfoque o parar, que también es un resultado barato."
+      }
+    ],
+    "conclusion": "Elige hoy una sola hipótesis y fija cuántos contactos necesitas para seguir. Después haz el recorrido en orden: busca el interés con Trends, mide el tamaño con el Planificador, pregunta con un formulario corto y comprueba el comportamiento con una página mínima y veinte conversaciones. Si al terminar las dos semanas el listón se cumple, invierte en la web completa; si no, has gastado tiempo y no dinero.",
+    "sources": [
+      {
+        "label": "Ayuda de Google Trends — Cómo funcionan los datos",
+        "url": "https://support.google.com/trends/answer/4365533?hl=es"
+      },
+      {
+        "label": "Ayuda de Google Ads — Planificador de palabras clave",
+        "url": "https://support.google.com/google-ads/answer/7337243?hl=es"
+      },
+      {
+        "label": "Ayuda de Google Docs — Google Forms",
+        "url": "https://support.google.com/docs/answer/6281888?hl=es"
+      },
+      {
+        "label": "Tally — Planes y funciones",
+        "url": "https://tally.so/pricing"
+      },
+      {
+        "label": "Ayuda de Search Console — Introducción",
+        "url": "https://support.google.com/webmasters/answer/9128668?hl=es"
+      },
+      {
+        "label": "Google Analytics — Plataforma de Google Marketing",
+        "url": "https://marketingplatform.google.com/about/analytics/"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Se puede validar una idea de negocio sin gastar dinero?",
+        "a": "Sí, hasta cierto punto. Con Trends, formularios, una página mínima y conversaciones directas puedes comprobar interés y disposición a dejar datos o reservar. Lo que no puedes comprobar sin gasto es el comportamiento de compra a gran escala, algo que viene después."
+      },
+      {
+        "q": "¿Cuántas personas tengo que entrevistar?",
+        "a": "No hay una cifra oficial. Fija tu propio listón antes de empezar, por ejemplo diez conversaciones con tres compromisos, y ajústalo según el tipo de cliente. Si nadie del perfil se interesa en las diez primeras, replantea la oferta antes de seguir."
+      },
+      {
+        "q": "¿Necesito una web para validar?",
+        "a": "No al principio: una encuesta y conversaciones bastan para las primeras señales. Una página mínima ayuda cuando ya tienes una oferta clara y quieres medir cuántos pasan a la acción."
+      },
+      {
+        "q": "¿Qué hago si Google Trends no muestra datos de mi idea?",
+        "a": "Significa que el volumen es demasiado bajo para que Trends lo muestre, no que no haya mercado. Prueba términos más generales, compara con el Planificador de palabras clave y confía más en las conversaciones con clientes."
+      }
+    ]
+  },
   "web-que-genera-clientes-que-revisar": {
     "intro": "Tener una web no es lo mismo que tener un canal de clientes. Muchos proyectos digitales reciben visitas y no consiguen ni un mensaje. En casi todos los casos el problema no es «hacer más SEO», sino que la web no está pensada para que alguien tome una decisión. Esta lista sirve para revisarlo en una tarde, sin gastar nada y sin ser técnico.",
     "sections": [
