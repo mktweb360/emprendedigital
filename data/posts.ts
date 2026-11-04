@@ -66,6 +66,7 @@ export const posts: Post[] = [
     date: "2026-10-27",
     category: "Home Office",
     readTime: "8 min",
+    image: "/images/blog/silla-gaming-o-ergonomica-teletrabajar.jpg",
     relatedProducts: [
       "secretlab-titan-evo-2022-silla",
       "drift-dr175-silla-gaming-polipiel",
@@ -91,6 +92,7 @@ export const posts: Post[] = [
     date: "2026-10-27",
     category: "Productividad",
     readTime: "8 min",
+    image: "/images/blog/brazo-monitor-como-elegir.jpg",
     relatedProducts: [
       "huanuo-brazo-monitor-13-32-9kg",
       "invision-mx200-brazo-monitor",
@@ -114,6 +116,7 @@ export const posts: Post[] = [
     date: "2026-10-19",
     category: "Productividad",
     readTime: "10 min",
+    image: "/images/blog/mejores-teclados-mecanicos-trabajar-oficina.jpg",
     relatedProducts: [
       "keychron-v6-ultra-8k-teclado-mecanico-iso-es",
       "keychron-k2-ultra-8k-teclado-mecanico-75-iso-es",
@@ -139,6 +142,7 @@ export const posts: Post[] = [
     date: "2026-10-13",
     category: "Home Office",
     readTime: "10 min",
+    image: "/images/blog/black-friday-oficina-en-casa-que-comprar-2026.jpg",
     relatedProducts: [
       "sihoo-m57-silla-ergonomica",
       "clouvou-silla-oficina-ergonomica-malla",
@@ -170,6 +174,7 @@ export const posts: Post[] = [
     date: "2026-10-13",
     category: "Home Office",
     readTime: "9 min",
+    image: "/images/blog/regalos-navidad-reyes-teletrabajo-2026.jpg",
     relatedProducts: [
       "ugreen-finecam-lite-4k-webcam",
       "logitech-brio-4k-webcam",
@@ -534,6 +539,7 @@ export const posts: Post[] = [
     date: "2026-09-07",
     category: "Home Office",
     readTime: "7 min",
+    image: "/images/blog/hjh-office-ergohuman-slim-gen2-analisis.jpg",
     relatedProducts: ["ergohuman-plus-silla-malla", "secretlab-titan-evo-2022-silla"],
     relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "dolor-espalda-trabajar-casa-soluciones"],
     categoryCta: { href: "/tienda/sillas-ergonomicas", text: "Ver sillas ergonómicas →" },
@@ -547,6 +553,7 @@ export const posts: Post[] = [
     date: "2026-09-07",
     category: "Home Office",
     readTime: "6 min",
+    image: "/images/blog/soundcore-space-one-analisis.jpg",
     relatedProducts: ["soundcore-space-one-auriculares", "sony-wh-1000xm5-auriculares"],
     relatedPosts: ["mejores-auriculares-cancelacion-ruido-trabajo-2025", "productividad-trabajando-desde-casa-habitos"],
     categoryCta: { href: "/tienda/auriculares", text: "Ver auriculares →" },
@@ -560,6 +567,7 @@ export const posts: Post[] = [
     date: "2026-09-17",
     category: "Emprender Online",
     readTime: "9 min",
+    image: "/images/blog/mejor-microfono-usb-podcast-streaming-2026.jpg",
     relatedProducts: [
       "blue-yeti-usb-microfono",
       "elgato-wave3-mk2-microfono-condensador-usb",
@@ -606,6 +614,7 @@ export const posts: Post[] = [
     date: "2026-10-13",
     category: "Home Office",
     readTime: "9 min",
+    image: "/images/blog/mejor-portatil-trabajar-desde-casa-mac-windows-arm-2026.jpg",
     relatedProducts: [
       "apple-macbook-air-m5-13",
       "apple-macbook-pro-m5-14",
