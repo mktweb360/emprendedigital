@@ -35,7 +35,11 @@ export type Ficha = {
   longDescription: string | null;
   websiteUrl: string | null;
   logoUrl: string | null;
-  services: Array<{ name: string; description?: string; url?: string }>;
+  /** Imagen de cabecera de la ficha (premium). Opcional: MktOS la enviará cuando exista el soporte; sin ella, la ficha no cambia. */
+  headerImageUrl?: string | null;
+  headerImageAlt?: string | null;
+  /** `imageUrl` e `imageAlt` por servicio o producto (premium), también opcionales. */
+  services: Array<{ name: string; description?: string; url?: string; imageUrl?: string | null; imageAlt?: string | null }>;
   indexable: boolean;
   plan: string;
   contactEmail: string | null;
