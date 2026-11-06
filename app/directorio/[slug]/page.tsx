@@ -42,6 +42,7 @@ function esquema(f: Ficha) {
   };
   if (f.websiteUrl) org.url = f.websiteUrl;
   if (f.logoUrl) org.logo = f.logoUrl;
+  if (f.headerImageUrl) org.image = f.headerImageUrl;
   if (f.shortDescription ?? f.longDescription) org.description = (f.shortDescription ?? f.longDescription)!.slice(0, 300);
   if (f.province) org.address = { "@type": "PostalAddress", addressRegion: f.province, addressCountry: "ES" };
   if (f.contactEmail) org.email = f.contactEmail;
@@ -99,7 +100,20 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
       </nav>
 
       <header className="rounded-2xl border border-gray-100 bg-white shadow-sm overflow-hidden mb-8">
-        <div className="h-2 bg-gradient-to-r from-indigo-600 to-violet-500" aria-hidden="true" />
+        {f.headerImageUrl ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={f.headerImageUrl}
+            alt={f.headerImageAlt?.trim() || `Imagen de cabecera de ${f.name}`}
+            width={1600}
+            height={500}
+            loading="eager"
+            referrerPolicy="no-referrer"
+            className="w-full aspect-[16/5] object-cover bg-gray-100"
+          />
+        ) : (
+          <div className="h-2 bg-gradient-to-r from-indigo-600 to-violet-500" aria-hidden="true" />
+        )}
         <div className="p-5 md:p-7 flex flex-col sm:flex-row sm:items-start gap-5">
           <Logo f={f} size={96} />
           <div className="min-w-0 flex-1">
@@ -146,7 +160,20 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
           <h2 id="servicios" className="text-xl font-extrabold text-gray-900 mb-3">Servicios y productos</h2>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {f.services.map((s, i) => (
-              <li key={`${s.name}-${i}`} className="p-4 bg-gray-50 border border-gray-100 rounded-xl">
+              <li key={`${s.name}-${i}`} className="bg-gray-50 border border-gray-100 rounded-xl overflow-hidden">
+                {s.imageUrl && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={s.imageUrl}
+                    alt={s.imageAlt?.trim() || `Imagen de ${s.name}`}
+                    width={800}
+                    height={450}
+                    loading="lazy"
+                    referrerPolicy="no-referrer"
+                    className="w-full aspect-[16/9] object-cover bg-gray-100"
+                  />
+                )}
+                <div className="p-4">
                 <strong className="block text-gray-900 text-sm">
                   {s.url ? (
                     <TrackedLink kind="click_product" slug={f.slug} href={s.url} target="_blank" rel={rel} className="text-indigo-700 hover:underline">
@@ -157,6 +184,7 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
                   )}
                 </strong>
                 {s.description && <span className="block text-sm text-gray-600 mt-1">{s.description}</span>}
+                </div>
               </li>
             ))}
           </ul>
