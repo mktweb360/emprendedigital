@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { BASE, DIRECTORIO_ACTIVO, getFichas } from "@/lib/directorio";
+import { Logo, InsigniaRevisada } from "@/components/directorio/Logo";
+import { BASE, DIRECTORIO_ACTIVO, getFichas, type Ficha } from "@/lib/directorio";
 
 export const revalidate = 3600;
 
@@ -17,13 +18,45 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
+function Tarjeta({ f }: { f: Ficha }) {
+  return (
+    <li>
+      <Link
+        href={`/directorio/${f.slug}`}
+        className="flex gap-4 p-4 h-full border border-gray-200 rounded-xl bg-white hover:border-indigo-200 hover:shadow-sm transition-all"
+      >
+        <Logo f={f} size={56} />
+        <span className="min-w-0 block">
+          <span className="block text-base font-bold text-gray-900 leading-snug">{f.name}</span>
+          <span className="block text-xs text-gray-500 mt-0.5">{[f.category, f.province].filter(Boolean).join(" · ")}</span>
+          {f.shortDescription && <span className="block text-sm text-gray-700 mt-2 line-clamp-3">{f.shortDescription}</span>}
+          <span className="inline-block mt-2"><InsigniaRevisada /></span>
+        </span>
+      </Link>
+    </li>
+  );
+}
+
 export default async function DirectorioPage() {
   if (!DIRECTORIO_ACTIVO) notFound();
   const fichas = await getFichas();
-  const categorias = [...new Set(fichas.map((f) => f.category).filter((c): c is string => !!c))].sort();
+  const porCategoria = new Map<string, Ficha[]>();
+  for (const f of fichas) {
+    const k = f.category ?? "Otras empresas";
+    porCategoria.set(k, [...(porCategoria.get(k) ?? []), f]);
+  }
+  const grupos = [...porCategoria.entries()].sort(([a], [b]) => a.localeCompare(b, "es"));
+  const agrupar = grupos.length > 1;
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
+      <nav aria-label="Migas de pan" className="text-sm text-gray-500 mb-6">
+        <ol className="flex items-center gap-1.5">
+          <li><Link href="/" className="hover:text-indigo-600">Inicio</Link></li>
+          <li aria-hidden="true">›</li>
+          <li aria-current="page" className="text-gray-700 font-medium">Directorio</li>
+        </ol>
+      </nav>
       <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">Directorio de empresas para emprender</h1>
       <p className="text-gray-600 mb-6 max-w-3xl">
         Agencias, herramientas y servicios para emprendedores digitales. Cada ficha la crea la propia empresa y la revisamos antes de publicarla;
@@ -37,21 +70,17 @@ export default async function DirectorioPage() {
 
       {fichas.length === 0 ? (
         <p className="p-6 bg-gray-50 rounded-xl text-gray-600 text-sm">Todavía no hay empresas publicadas. Sé de las primeras en aparecer.</p>
+      ) : agrupar ? (
+        <div className="space-y-10">
+          {grupos.map(([cat, lista]) => (
+            <section key={cat} aria-labelledby={`cat-${cat}`}>
+              <h2 id={`cat-${cat}`} className="text-xl font-extrabold text-gray-900 mb-4">{cat}</h2>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">{lista.map((f) => <Tarjeta key={f.slug} f={f} />)}</ul>
+            </section>
+          ))}
+        </div>
       ) : (
-        <>
-          {categorias.length > 1 && <p className="text-xs text-gray-500 mb-4">Categorías: {categorias.join(" · ")}</p>}
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {fichas.map((f) => (
-              <li key={f.slug} className="p-5 border border-gray-200 rounded-xl bg-white">
-                <h2 className="text-lg font-bold text-gray-900">
-                  <Link href={`/directorio/${f.slug}`} className="hover:text-indigo-600">{f.name}</Link>
-                </h2>
-                <p className="text-xs text-gray-500 mt-1">{[f.category, f.province].filter(Boolean).join(" · ")}</p>
-                {f.shortDescription && <p className="text-sm text-gray-700 mt-3 line-clamp-3">{f.shortDescription}</p>}
-              </li>
-            ))}
-          </ul>
-        </>
+        <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">{fichas.map((f) => <Tarjeta key={f.slug} f={f} />)}</ul>
       )}
     </div>
   );
