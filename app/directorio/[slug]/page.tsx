@@ -71,6 +71,57 @@ function esquema(f: Ficha) {
   };
 }
 
+type Servicio = Ficha["services"][number];
+
+const slugDe = (t: string) => t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 40) || "grupo";
+
+/** Servicios agrupados por categoría, en el orden en que aparece cada una; los que no la tienen van al final en «Otros servicios». */
+function agrupar(servicios: Servicio[]): Array<{ id: string; nombre: string; items: Servicio[] }> {
+  const orden: string[] = [];
+  const porNombre = new Map<string, Servicio[]>();
+  const sueltos: Servicio[] = [];
+  for (const s of servicios) {
+    const g = s.group?.trim();
+    if (!g) { sueltos.push(s); continue; }
+    if (!porNombre.has(g)) { porNombre.set(g, []); orden.push(g); }
+    porNombre.get(g)!.push(s);
+  }
+  const out = orden.map((n, i) => ({ id: `cat-${i + 1}-${slugDe(n)}`, nombre: n, items: porNombre.get(n)! }));
+  if (sueltos.length && out.length) out.push({ id: "cat-otros", nombre: "Otros servicios", items: sueltos });
+  return out;
+}
+
+function ServicioCard({ s, slug, rel }: { s: Servicio; slug: string; rel: string }) {
+  return (
+    <li className="bg-gray-50 border border-gray-100 rounded-xl overflow-hidden">
+      {s.imageUrl && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={s.imageUrl}
+          alt={s.imageAlt?.trim() || `Imagen de ${s.name}`}
+          width={800}
+          height={450}
+          loading="lazy"
+          referrerPolicy="no-referrer"
+          className="w-full aspect-[16/9] object-cover bg-gray-100"
+        />
+      )}
+      <div className="p-4">
+        <strong className="block text-gray-900 text-sm">
+          {s.url ? (
+            <TrackedLink kind="click_product" slug={slug} href={s.url} target="_blank" rel={rel} className="text-indigo-700 hover:underline">
+              {s.name}
+            </TrackedLink>
+          ) : (
+            s.name
+          )}
+        </strong>
+        {s.description && <span className="block text-sm text-gray-600 mt-1">{s.description}</span>}
+      </div>
+    </li>
+  );
+}
+
 export default async function FichaPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const f = await ficha(slug);
@@ -78,6 +129,9 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
   const rel = "ugc nofollow noopener noreferrer";
   const dominio = dominioDe(f.websiteUrl);
   const tieneContacto = !!(f.contactEmail || f.contactPhone);
+  const grupos = agrupar(f.services);
+  // El índice de categorías solo sale si hay al menos dos: con una sola, o ninguna, la lista plana es más clara.
+  const conCategorias = grupos.length >= 2;
   const parecidas = f.category
     ? (await getFichas()).filter((o) => o.slug !== f.slug && o.category === f.category).slice(0, 3)
     : [];
@@ -158,36 +212,33 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
       {f.services.length > 0 && (
         <section aria-labelledby="servicios" className="mb-8">
           <h2 id="servicios" className="text-xl font-extrabold text-gray-900 mb-3">Servicios y productos</h2>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {f.services.map((s, i) => (
-              <li key={`${s.name}-${i}`} className="bg-gray-50 border border-gray-100 rounded-xl overflow-hidden">
-                {s.imageUrl && (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={s.imageUrl}
-                    alt={s.imageAlt?.trim() || `Imagen de ${s.name}`}
-                    width={800}
-                    height={450}
-                    loading="lazy"
-                    referrerPolicy="no-referrer"
-                    className="w-full aspect-[16/9] object-cover bg-gray-100"
-                  />
-                )}
-                <div className="p-4">
-                <strong className="block text-gray-900 text-sm">
-                  {s.url ? (
-                    <TrackedLink kind="click_product" slug={f.slug} href={s.url} target="_blank" rel={rel} className="text-indigo-700 hover:underline">
-                      {s.name}
-                    </TrackedLink>
-                  ) : (
-                    s.name
-                  )}
-                </strong>
-                {s.description && <span className="block text-sm text-gray-600 mt-1">{s.description}</span>}
+          {conCategorias ? (
+            <>
+              <nav aria-label="Categorías de servicios" className="flex flex-wrap gap-2 mb-5">
+                {grupos.map((g) => (
+                  <a
+                    key={g.id}
+                    href={`#${g.id}`}
+                    className="text-sm font-semibold text-indigo-700 bg-indigo-50 hover:bg-indigo-100 rounded-full px-3.5 py-1.5 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600"
+                  >
+                    {g.nombre} <span className="text-indigo-400 font-normal">{g.items.length}</span>
+                  </a>
+                ))}
+              </nav>
+              {grupos.map((g) => (
+                <div key={g.id} id={g.id} role="group" aria-labelledby={`${g.id}-t`} className="mb-6 scroll-mt-20">
+                  <h3 id={`${g.id}-t`} className="text-base font-extrabold text-gray-900 mb-2">{g.nombre}</h3>
+                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {g.items.map((s, i) => <ServicioCard key={`${s.name}-${i}`} s={s} slug={f.slug} rel={rel} />)}
+                  </ul>
                 </div>
-              </li>
-            ))}
-          </ul>
+              ))}
+            </>
+          ) : (
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {f.services.map((s, i) => <ServicioCard key={`${s.name}-${i}`} s={s} slug={f.slug} rel={rel} />)}
+            </ul>
+          )}
         </section>
       )}
 
