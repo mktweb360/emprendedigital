@@ -39,7 +39,7 @@ export type Ficha = {
   headerImageUrl?: string | null;
   headerImageAlt?: string | null;
   /** `imageUrl` e `imageAlt` por servicio o producto (premium), también opcionales. */
-  services: Array<{ name: string; description?: string; url?: string; imageUrl?: string | null; imageAlt?: string | null }>;
+  services: Array<{ name: string; description?: string; url?: string; group?: string | null; imageUrl?: string | null; imageAlt?: string | null }>;
   indexable: boolean;
   plan: string;
   contactEmail: string | null;
