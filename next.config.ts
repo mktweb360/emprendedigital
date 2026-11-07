@@ -25,7 +25,12 @@ const nextConfig: NextConfig = {
   async rewrites() {
     const base = (process.env.MKTOS_URL ?? "").trim().replace(/\/+$/, "");
     if (process.env.DIRECTORIO_ACTIVO !== "true" || !/^https:\/\/[a-z0-9.-]+$/i.test(base)) return [];
-    return [{ source: "/directorio-empresa/:path*", destination: `${base}/directorio-empresa/:path*` }];
+    // Dos reglas y no «:path*»: con la raíz vacía el destino salía con barra final («/directorio-empresa/»), MktOS la quitaba con un
+    // 308 de ruta relativa y el navegador volvía a este dominio: bucle de redirecciones al entrar al panel tras el enlace de acceso.
+    return [
+      { source: "/directorio-empresa", destination: `${base}/directorio-empresa` },
+      { source: "/directorio-empresa/:path+", destination: `${base}/directorio-empresa/:path+` },
+    ];
   },
   async redirects() {
     return [
