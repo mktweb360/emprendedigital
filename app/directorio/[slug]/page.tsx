@@ -279,7 +279,8 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
       <p className="text-xs text-gray-500 border-t border-gray-100 pt-4">
         Esta ficha la ha creado la propia empresa y la hemos revisado antes de publicarla. Emprende Digital no garantiza la exactitud de sus datos ni recomienda
         sus servicios. Los enlaces a su web van marcados como contenido enviado por usuarios. ¿Es tu empresa?{" "}
-        <Link href="/directorio/alta" className="text-indigo-600 hover:underline">Añade la tuya gratis</Link>.
+        <a href="/directorio-empresa/acceso" rel="nofollow" className="text-indigo-600 hover:underline">Accede a tu ficha</a> o{" "}
+        <Link href="/directorio/alta" className="text-indigo-600 hover:underline">añade la tuya gratis</Link>.
       </p>
     </div>
   );
