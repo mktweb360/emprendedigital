@@ -23,6 +23,10 @@ export default function AltaPage() {
         El alta es gratuita. Creamos tu ficha con los datos que nos des y la revisamos antes de publicarla. El enlace a tu web se publica como
         contenido enviado por usuarios (no transmite autoridad en buscadores).
       </p>
+      <p className="text-sm text-gray-600 mb-8 -mt-4">
+        ¿Ya tienes ficha?{" "}
+        <a href="/directorio-empresa/acceso" rel="nofollow" className="text-indigo-600 hover:underline font-semibold">Accede a tu ficha</a>.
+      </p>
       <AltaForm categorias={CATEGORIAS} marketingTexto={MARKETING_TEXT} />
     </div>
   );

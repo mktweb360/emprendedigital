@@ -32,6 +32,8 @@ export default function Footer() {
               <li><Link href="/sobre-nosotros" className="hover:text-indigo-400 transition-colors">Sobre nosotros</Link></li>
               <li><Link href="/contacto" className="hover:text-indigo-400 transition-colors">Contacto</Link></li>
               {DIRECTORIO_ACTIVO && <li><Link href="/directorio" className="hover:text-indigo-400 transition-colors">Directorio de empresas</Link></li>}
+              {DIRECTORIO_ACTIVO && <li><Link href="/directorio/alta" className="hover:text-indigo-400 transition-colors">Añade tu empresa</Link></li>}
+              {DIRECTORIO_ACTIVO && <li><a href="/directorio-empresa/acceso" rel="nofollow" className="hover:text-indigo-400 transition-colors">Accede a tu ficha</a></li>}
               <li><Link href="/aviso-legal" className="hover:text-indigo-400 transition-colors">Aviso legal</Link></li>
               <li><Link href="/politica-de-privacidad" className="hover:text-indigo-400 transition-colors">Política de privacidad</Link></li>
               <li><Link href="/politica-de-cookies" className="hover:text-indigo-400 transition-colors">Política de cookies</Link></li>
