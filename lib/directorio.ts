@@ -39,7 +39,11 @@ export type Ficha = {
   headerImageUrl?: string | null;
   headerImageAlt?: string | null;
   /** `imageUrl` e `imageAlt` por servicio o producto (premium), también opcionales. */
-  services: Array<{ name: string; description?: string; url?: string; group?: string | null; imageUrl?: string | null; imageAlt?: string | null }>;
+  services: Array<{
+    name: string; description?: string; url?: string; group?: string | null; imageUrl?: string | null; imageAlt?: string | null;
+    /** Destacado por la empresa y oferta con fecha de fin opcional (AAAA-MM-DD). Solo plan Plus. */
+    featured?: boolean | null; offerText?: string | null; offerUntil?: string | null;
+  }>;
   indexable: boolean;
   plan: string;
   contactEmail: string | null;
@@ -51,6 +55,20 @@ function config() {
   const url = process.env.MKTOS_URL?.replace(/\/+$/, "");
   const secret = process.env.DIRECTORY_WEBHOOK_SECRET;
   return DIRECTORIO_ACTIVO && url && secret ? { url, secret } : null;
+}
+
+/**
+ * Red de seguridad: las fichas se prerrenderizan al desplegar y la verificación del blog (cumplimiento de Amazon Associates)
+ * bloquea el despliegue si una página lleva «€» o reclamos como «chollo» o «más vendido». MktOS ya los rechaza al guardar; si uno
+ * se colara, esa ficha se oculta (y se avisa en el registro) en lugar de romper el despliegue de todo el blog.
+ */
+const PROHIBIDO = /€|\d[\d.,]*\s?(euros?|eur)\b|chollo|más vendid[oa]s?|best ?seller|mejor(es)? precios?|precio más bajo|comparativa de precios/i;
+
+function fichaSegura(f: Ficha): boolean {
+  const textos = [f.name, f.shortDescription, f.longDescription, ...(f.services ?? []).flatMap((s) => [s.name, s.description, s.group, s.offerText, s.imageAlt])];
+  const ok = !PROHIBIDO.test(textos.filter(Boolean).join(" "));
+  if (!ok) console.warn(`[directorio] ficha «${f.slug}» oculta: lleva precios en euros o reclamos de precio`);
+  return ok;
 }
 
 /** Fichas activas. Cualquier fallo o la falta de configuración devuelve una lista vacía: el blog nunca se rompe por esto. */
@@ -65,7 +83,7 @@ export async function getFichas(): Promise<Ficha[]> {
     });
     if (!res.ok) return [];
     const json = (await res.json()) as { listings?: Ficha[] };
-    return Array.isArray(json.listings) ? json.listings : [];
+    return Array.isArray(json.listings) ? json.listings.filter(fichaSegura) : [];
   } catch {
     return [];
   }
