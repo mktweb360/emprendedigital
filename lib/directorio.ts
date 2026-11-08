@@ -38,6 +38,11 @@ export type Ficha = {
   /** Imagen de cabecera de la ficha (premium). Opcional: MktOS la enviará cuando exista el soporte; sin ella, la ficha no cambia. */
   headerImageUrl?: string | null;
   headerImageAlt?: string | null;
+  /** Cabecera premium (plan Plus): mensaje, botones y estilo sobre la imagen. El texto es de la empresa: se vuelve a validar al pintarlo. */
+  headerHero?: {
+    title?: string; subtitle?: string; btn1?: { text: string; url: string }; btn2?: { text: string; url: string };
+    font?: string; textColor?: string; accentColor?: string; btnColor?: string;
+  } | null;
   /** `imageUrl` e `imageAlt` por servicio o producto (premium), también opcionales. */
   services: Array<{
     name: string; description?: string; url?: string; group?: string | null; groupNote?: string | null; imageUrl?: string | null; imageAlt?: string | null;
@@ -65,7 +70,8 @@ function config() {
 const PROHIBIDO = /€|\d[\d.,]*\s?(euros?|eur)\b|chollo|más vendid[oa]s?|best ?seller|mejor(es)? precios?|precio más bajo|comparativa de precios/i;
 
 function fichaSegura(f: Ficha): boolean {
-  const textos = [f.name, f.shortDescription, f.longDescription, ...(f.services ?? []).flatMap((s) => [s.name, s.description, s.group, s.groupNote, s.offerText, s.imageAlt])];
+  const h = f.headerHero;
+  const textos = [f.name, f.shortDescription, f.longDescription, h?.title, h?.subtitle, h?.btn1?.text, h?.btn2?.text, ...(f.services ?? []).flatMap((s) => [s.name, s.description, s.group, s.groupNote, s.offerText, s.imageAlt])];
   const ok = !PROHIBIDO.test(textos.filter(Boolean).join(" "));
   if (!ok) console.warn(`[directorio] ficha «${f.slug}» oculta: lleva precios en euros o reclamos de precio`);
   return ok;
