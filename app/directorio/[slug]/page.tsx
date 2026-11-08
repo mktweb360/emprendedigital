@@ -6,6 +6,7 @@ import { Logo, InsigniaRevisada, dominioDe } from "@/components/directorio/Logo"
 import { DestacadosCarrusel, ServicioCard, ServiciosTabs, type Categoria, type ItemFicha } from "@/components/directorio/Servicios";
 import { CabeceraPremium } from "@/components/directorio/CabeceraPremium";
 import { FaqSeccion, NoticiasSeccion } from "@/components/directorio/FaqNoticias";
+import { RedesSociales, UbicacionSeccion } from "@/components/directorio/Ubicacion";
 import { TrackedLink, TrackView } from "@/components/directorio/Track";
 import { BASE, DIRECTORIO_ACTIVO, getFichas, type Ficha } from "@/lib/directorio";
 import { ofertaVigente } from "@/lib/ofertas";
@@ -49,6 +50,16 @@ function esquema(f: Ficha) {
   if (f.headerImageUrl) org.image = f.headerImageUrl;
   if (f.shortDescription ?? f.longDescription) org.description = (f.shortDescription ?? f.longDescription)!.slice(0, 300);
   if (f.province) org.address = { "@type": "PostalAddress", addressRegion: f.province, addressCountry: "ES" };
+  const b = f.business;
+  if (b && f.plan && f.plan !== "free") {
+    if (b.street || b.postal || b.city) {
+      org.address = { "@type": "PostalAddress", ...(b.street ? { streetAddress: b.street } : {}), ...(b.postal ? { postalCode: b.postal } : {}), ...(b.city ? { addressLocality: b.city } : {}), ...(f.province ? { addressRegion: f.province } : {}), addressCountry: "ES" };
+    }
+    if (b.legal_name) org.legalName = b.legal_name;
+    if (b.tax_id) org.taxID = b.tax_id;
+    const redes = Object.values(b.social ?? {}).filter((u): u is string => typeof u === "string" && /^https:\/\//.test(u));
+    if (redes.length) org.sameAs = redes;
+  }
   if (f.contactEmail) org.email = f.contactEmail;
   if (f.contactPhone) org.telephone = f.contactPhone;
   return {
@@ -126,6 +137,7 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
   if (!f) notFound();
   const rel = "ugc nofollow noopener noreferrer";
   const dominio = dominioDe(f.websiteUrl);
+  const pago = !!f.plan && f.plan !== "free";
   const tieneContacto = !!(f.contactEmail || f.contactPhone);
   const hoy = hoyMadrid();
   const items: ItemFicha[] = f.services.map((s: Servicio, i: number) => ({ ...s, i }));
@@ -204,6 +216,22 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
                 {dominio && <span className="text-sm text-gray-500">{dominio}</span>}
               </div>
             )}
+            {pago && (f.contactPhone || (f.business?.social && Object.keys(f.business.social).length > 0)) && (
+              <div className="mt-4 flex flex-wrap items-center gap-3">
+                {f.contactPhone && (
+                  <TrackedLink
+                    kind="click_phone"
+                    slug={f.slug}
+                    href={`tel:${f.contactPhone.replace(/[^+\d]/g, "")}`}
+                    className="inline-flex items-center gap-2 rounded-xl border border-indigo-200 bg-white px-5 py-2.5 text-base font-bold text-indigo-700 hover:bg-indigo-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600"
+                  >
+                    <svg aria-hidden="true" viewBox="0 0 20 20" width="16" height="16" fill="currentColor"><path d="M2 3.5A1.5 1.5 0 0 1 3.5 2h2.1a1 1 0 0 1 .97.76l.7 2.8a1 1 0 0 1-.27.95L5.8 7.7a11 11 0 0 0 6.5 6.5l1.2-1.2a1 1 0 0 1 .95-.27l2.8.7a1 1 0 0 1 .75.97v2.1A1.5 1.5 0 0 1 16.5 18C8.5 18 2 11.5 2 3.5z" /></svg>
+                    Llamar
+                  </TrackedLink>
+                )}
+                <RedesSociales social={f.business?.social} rel={rel} />
+              </div>
+            )}
           </div>
         </div>
       </header>
@@ -232,6 +260,8 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
 
       <FaqSeccion faqs={f.faqs ?? []} />
       <NoticiasSeccion news={f.news ?? []} slug={f.slug} rel={rel} />
+
+      {pago && f.business && <UbicacionSeccion nombre={f.name} negocio={f.business} telefono={f.contactPhone ?? null} rel={rel} />}
 
       {tieneContacto && (
         <section aria-labelledby="contacto" className="mb-8 max-w-3xl rounded-xl border border-indigo-100 bg-indigo-50/60 p-5">
