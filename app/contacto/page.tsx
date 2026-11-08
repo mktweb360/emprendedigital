@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { CONTACTO_EMAIL, TITULAR } from "@/lib/directorio";
+
 export const metadata: Metadata = {
   title: "Contacto: dudas, sugerencias y correcciones",
   description: "Contacta con el equipo de Emprende Digital para consultas, correcciones o colaboraciones.",
@@ -20,8 +22,8 @@ export default function ContactoPage() {
           <span className="text-2xl">📧</span>
           <div>
             <strong className="block text-gray-900 text-sm">Email general</strong>
-            <a href="mailto:info@emprendedigital.es" className="text-indigo-600 hover:underline text-sm">
-              info@emprendedigital.es
+            <a href={`mailto:${CONTACTO_EMAIL}`} className="text-indigo-600 hover:underline text-sm">
+              {CONTACTO_EMAIL}
             </a>
           </div>
         </div>
@@ -29,7 +31,7 @@ export default function ContactoPage() {
           <span className="text-2xl">🏢</span>
           <div>
             <strong className="block text-gray-900 text-sm">Empresa</strong>
-            <span className="text-gray-600 text-sm">Mkt Web 360 SLU — CIF B87679304</span>
+            <span className="text-gray-600 text-sm">{TITULAR.razon} — CIF {TITULAR.cif}</span>
           </div>
         </div>
         <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-xl">
@@ -46,8 +48,8 @@ export default function ContactoPage() {
         <p className="m-0 text-gray-700">
           Si tienes una marca o producto relacionado con el equipamiento para emprendedores digitales y quieres
           colaborar con Emprende Digital, puedes escribirnos a{" "}
-          <a href="mailto:info@emprendedigital.es" className="text-indigo-600 hover:underline">
-            info@emprendedigital.es
+          <a href={`mailto:${CONTACTO_EMAIL}`} className="text-indigo-600 hover:underline">
+            {CONTACTO_EMAIL}
           </a>{" "}
           indicando el asunto "Colaboración". Solo recomendamos productos que
           consideramos valiosos para nuestros lectores.
@@ -102,7 +104,7 @@ export default function ContactoPage() {
         <div>
           <h2 className="text-xl font-extrabold text-gray-900 mb-3">Quién responde</h2>
           <p>
-            Emprende Digital es un sitio de Mkt Web 360 SLU. Los datos completos del titular están en el{" "}
+            Emprende Digital es un sitio de {TITULAR.razon} Los datos completos del titular están en el{" "}
             <Link href="/aviso-legal" className="text-indigo-600 hover:underline">Aviso Legal</Link>, y lo que
             hacemos con los datos de tu mensaje se explica en la{" "}
             <Link href="/politica-de-privacidad" className="text-indigo-600 hover:underline">Política de Privacidad</Link>.

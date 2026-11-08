@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { Logo, InsigniaRevisada, dominioDe } from "@/components/directorio/Logo";
+import { Logo, InsigniaRevisada, dominioDe, esFichaEditor } from "@/components/directorio/Logo";
 import { DestacadosCarrusel, ServicioCard, ServiciosTabs, type Categoria, type ItemFicha } from "@/components/directorio/Servicios";
 import { CabeceraPremium } from "@/components/directorio/CabeceraPremium";
 import { FaqSeccion, NoticiasSeccion } from "@/components/directorio/FaqNoticias";
 import { RedesSociales, UbicacionSeccion } from "@/components/directorio/Ubicacion";
 import { TrackedLink, TrackView } from "@/components/directorio/Track";
-import { BASE, DIRECTORIO_ACTIVO, getFichas, type Ficha, redesFicha } from "@/lib/directorio";
+import { BASE, CONTACTO_EMAIL, DIRECTORIO_ACTIVO, TITULAR, getFichas, type Ficha, redesFicha } from "@/lib/directorio";
 import { ofertaVigente } from "@/lib/ofertas";
 
 export const revalidate = 3600;
@@ -135,9 +135,10 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
   const { slug } = await params;
   const f = await ficha(slug);
   if (!f) notFound();
-  const rel = "ugc nofollow noopener noreferrer";
-  const dominio = dominioDe(f.websiteUrl);
   const pago = !!f.plan && f.plan !== "free";
+  // Enlaces de pago: además de «ugc nofollow», «sponsored» (Google lo pide para enlaces patrocinados).
+  const rel = pago ? "sponsored ugc nofollow noopener noreferrer" : "ugc nofollow noopener noreferrer";
+  const dominio = dominioDe(f.websiteUrl);
   const tieneContacto = !!(f.contactEmail || f.contactPhone);
   const hoy = hoyMadrid();
   const items: ItemFicha[] = f.services.map((s: Servicio, i: number) => ({ ...s, i }));
@@ -194,6 +195,12 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
               {f.province && <span className="text-xs text-gray-600 bg-gray-100 rounded-full px-2.5 py-1">{f.province}</span>}
               <InsigniaRevisada />
             </div>
+            {esFichaEditor(f) && (
+              <p className="text-sm text-gray-600 mb-2 rounded-lg bg-amber-50 border border-amber-100 px-3 py-2 max-w-3xl">
+                <strong className="font-semibold text-gray-800">Ficha de la empresa editora de este sitio.</strong> Emprende Digital y este directorio los edita{" "}
+                {TITULAR.razon}; esta ficha es suya.
+              </p>
+            )}
             <h1 className="text-3xl font-extrabold text-gray-900 leading-tight">{f.name}</h1>
             {f.shortDescription && <p className="text-lg text-gray-700 mt-3 max-w-3xl">{f.shortDescription}</p>}
             {f.websiteUrl && (
@@ -298,10 +305,22 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
       )}
 
       <p className="text-xs text-gray-500 border-t border-gray-100 pt-4 max-w-3xl">
-        Esta ficha la ha creado la propia empresa y la hemos revisado antes de publicarla. Emprende Digital no garantiza la exactitud de sus datos ni recomienda
-        sus servicios. Los enlaces a su web van marcados como contenido enviado por usuarios. ¿Es tu empresa?{" "}
+        Esta ficha la ha creado la propia empresa. «Ficha revisada» significa que hemos comprobado que está completa y que cumple nuestras reglas de
+        contenido; no verificamos la identidad, la solvencia ni la calidad de la empresa, y no es una recomendación. Emprende Digital no garantiza la
+        exactitud de sus datos. Los enlaces a su web van marcados como contenido {pago ? "patrocinado y enviado por usuarios" : "enviado por usuarios"}.{" "}
+        <Link href="/directorio/condiciones" className="text-indigo-600 hover:underline">Condiciones del directorio</Link>. ¿Es tu empresa?{" "}
         <a href="/directorio-empresa/acceso" rel="nofollow" className="text-indigo-600 hover:underline">Accede a tu ficha</a> o{" "}
         <Link href="/directorio/alta" className="text-indigo-600 hover:underline">añade la tuya gratis</Link>.
+      </p>
+      <p className="text-xs text-gray-400 mt-2 max-w-3xl">
+        <a
+          href={`mailto:${CONTACTO_EMAIL}?subject=${encodeURIComponent(`Aviso sobre la ficha ${f.slug}`)}&body=${encodeURIComponent(`Ficha: ${BASE}/directorio/${f.slug}\n\nContenido concreto y motivo:\n\nMi nombre y correo:\n\nSi es un derecho mío (marca, imagen, autoría), cómo lo acredito:\n\nComunico este aviso de buena fe y lo que digo es exacto.`)}`}
+          rel="nofollow"
+          className="hover:text-indigo-600 hover:underline"
+        >
+          Avisar de un contenido
+        </a>{" "}
+        (ilegal o que vulnera tus derechos): respondemos en un máximo de 3 días laborables.
       </p>
     </div>
   );

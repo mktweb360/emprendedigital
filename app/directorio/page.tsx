@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { Logo, InsigniaRevisada } from "@/components/directorio/Logo";
+import { EtiquetaEditor, Logo, InsigniaRevisada, esFichaEditor } from "@/components/directorio/Logo";
 import { BASE, DIRECTORIO_ACTIVO, getFichas, type Ficha } from "@/lib/directorio";
 
 export const revalidate = 3600;
@@ -30,7 +30,10 @@ function Tarjeta({ f }: { f: Ficha }) {
           <span className="block text-base font-bold text-gray-900 leading-snug">{f.name}</span>
           <span className="block text-xs text-gray-500 mt-0.5">{[f.category, f.province].filter(Boolean).join(" · ")}</span>
           {f.shortDescription && <span className="block text-sm text-gray-700 mt-2 line-clamp-3">{f.shortDescription}</span>}
-          <span className="inline-block mt-2"><InsigniaRevisada /></span>
+          <span className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1">
+            <InsigniaRevisada />
+            {esFichaEditor(f) && <EtiquetaEditor />}
+          </span>
         </span>
       </Link>
     </li>
@@ -61,6 +64,11 @@ export default async function DirectorioPage() {
       <p className="text-gray-600 mb-6 max-w-3xl">
         Agencias, herramientas y servicios para emprendedores digitales. Cada ficha la crea la propia empresa y la revisamos antes de publicarla;
         los enlaces a sus webs van marcados como contenido enviado por usuarios.
+      </p>
+      <p className="text-sm text-gray-500 mb-6 max-w-3xl">
+        «Ficha revisada» significa que hemos comprobado que la ficha está completa y cumple nuestras reglas de contenido. No verificamos a la empresa ni
+        es una recomendación. El orden es alfabético y no se paga por posición.{" "}
+        <Link href="/directorio/condiciones" className="text-indigo-600 hover:underline">Condiciones del directorio</Link>.
       </p>
       <section aria-labelledby="para-empresas" className="mb-10 rounded-2xl border border-indigo-100 bg-indigo-50/60 p-5 md:p-6">
         <h2 id="para-empresas" className="text-base font-extrabold text-gray-900 mb-1">Para empresas</h2>

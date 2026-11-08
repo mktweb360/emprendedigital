@@ -4,6 +4,7 @@ import { getFeaturedProducts } from "@/data/products";
 import { getPostBySlug, posts } from "@/data/posts";
 import HeroBackground from "@/components/HeroBackground";
 import EmailCaptureSection from "@/components/EmailCaptureSection";
+import ProductThumb from "@/components/ProductThumb";
 
 export const metadata: Metadata = {
   title: { absolute: "Herramientas para emprendedores digitales | Emprende Digital" },
@@ -185,7 +186,9 @@ export default function HomePage() {
           <p className="text-gray-500 mb-8">Una selección de nuestro equipo editorial</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {featuredProducts.map((product) => (
-              <div key={product.slug} className="border border-gray-100 rounded-xl p-5 hover:shadow-md transition-all flex flex-col">
+              <div key={product.slug} className="border border-gray-100 rounded-xl overflow-hidden hover:shadow-md transition-all flex flex-col">
+                <ProductThumb product={product} />
+                <div className="p-5 flex flex-col flex-1">
                 <div className="flex items-start justify-between mb-2">
                   <span className="text-xs text-gray-600 uppercase tracking-wide">{product.categoryName}</span>
                   {product.badge && (
@@ -203,6 +206,7 @@ export default function HomePage() {
                   >
                     Ver análisis →
                   </Link>
+                </div>
                 </div>
               </div>
             ))}

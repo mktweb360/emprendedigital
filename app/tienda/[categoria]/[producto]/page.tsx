@@ -6,6 +6,7 @@ import { amazonLink } from "@/lib/amazon";
 import { getPostBySlug } from "@/data/posts";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
+import ProductThumb from "@/components/ProductThumb";
 import { productDescription, productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
 
 type Props = { params: Promise<{ categoria: string; producto: string }> };
@@ -98,7 +99,8 @@ export default async function ProductoPage({ params }: Props) {
     : null;
 
   return (
-    <>      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
 
       <div className="max-w-4xl mx-auto px-4 py-10">
@@ -270,8 +272,10 @@ export default async function ProductoPage({ params }: Props) {
                 <Link
                   key={p.slug}
                   href={`/tienda/${categoria}/${p.slug}`}
-                  className="border border-gray-100 rounded-xl p-4 hover:border-indigo-200 hover:shadow-md transition-all group"
+                  className="border border-gray-100 rounded-xl overflow-hidden hover:border-indigo-200 hover:shadow-md transition-all group"
                 >
+                  <ProductThumb product={p} />
+                  <div className="p-4">
                   {p.badge && (
                     <span className="inline-block text-xs font-bold text-orange-700 bg-orange-50 px-2 py-0.5 rounded-full mb-2">
                       {p.badge}
@@ -281,6 +285,7 @@ export default async function ProductoPage({ params }: Props) {
                     {p.name}
                   </h3>
                   <span className="text-xs text-indigo-600 font-semibold">Ver análisis →</span>
+                  </div>
                 </Link>
               ))}
             </div>

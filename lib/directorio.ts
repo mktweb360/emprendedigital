@@ -6,8 +6,27 @@ export const DIRECTORIO_ACTIVO = process.env.DIRECTORIO_ACTIVO === "true";
 export const DOMINIO = "emprendedigital.es";
 export const BASE = "https://www.emprendedigital.es";
 
-/** Versión del texto de condiciones que se guarda con cada alta. «borrador»: pendiente de revisión jurídica. */
-export const TERMS_VERSION = "2026-11-borrador";
+/**
+ * Versión del texto de condiciones que se guarda con cada alta (MktOS la recibe como `termsVersion`).
+ * Si cambian las condiciones: nueva versión aquí y copia del texto en legal/condiciones-directorio/<versión>.md.
+ */
+export const TERMS_VERSION = "2026-11-v1";
+export const TERMS_FECHA = "8 de noviembre de 2026";
+
+/**
+ * Correo de contacto del directorio y de las páginas legales. Mientras info@emprendedigital.es no reciba correo (sin MX),
+ * se usa el del titular. Cuando el buzón funcione, basta cambiar esta línea.
+ */
+export const CONTACTO_EMAIL = "info@mktweb360.com";
+
+/** Datos del titular (los mismos que el aviso legal de mktweb360.com). */
+export const TITULAR = {
+  razon: "MKTWEB360, S.L.U.",
+  cif: "B87679304",
+  domicilio: "Calle Chopo 98, 45215 El Viso de San Juan (Toledo)",
+  registro: "Registro Mercantil de Madrid, Tomo 35360, Folio 45, Sección 8, Hoja M-635651",
+  telefono: "+34 622 74 89 87",
+} as const;
 
 /** Texto exacto de la casilla opcional (se envía a MktOS como prueba de lo que vio la persona). */
 export const MARKETING_TEXT =
