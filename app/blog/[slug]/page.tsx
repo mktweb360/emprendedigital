@@ -9,6 +9,7 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import HostingBanner from "@/components/HostingBanner";
 import BlogSidebar from "@/components/BlogSidebar";
 import AdSenseAd from "@/components/AdSenseAd";
+import ProductThumb from "@/components/ProductThumb";
 
 // Categorías donde el hosting es una recomendación relevante para el lector.
 const HOSTING_BANNER_CATEGORIES = ["Emprender Online", "Trabajo Remoto"];
@@ -2538,7 +2539,9 @@ export default async function BlogPostPage({ params }: Props) {
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">Productos mencionados</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {relatedProducts.map((p) => p && (
-                <div key={p.slug} className="border border-gray-100 rounded-xl p-5 hover:shadow-md hover:border-indigo-200 transition-all group">
+                <div key={p.slug} className="border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:border-indigo-200 transition-all group">
+                  <ProductThumb product={p} />
+                  <div className="p-5">
                   {p.badge && (
                     <span className="inline-block text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full mb-3">
                       {p.badge}
@@ -2564,6 +2567,7 @@ export default async function BlogPostPage({ params }: Props) {
                       Ver precio →
                     </a>
                   </div>
+                </div>
                 </div>
               ))}
             </div>
