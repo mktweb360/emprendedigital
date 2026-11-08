@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { Logo, InsigniaRevisada, dominioDe } from "@/components/directorio/Logo";
 import { DestacadosCarrusel, ServicioCard, ServiciosTabs, type Categoria, type ItemFicha } from "@/components/directorio/Servicios";
+import { CabeceraPremium } from "@/components/directorio/CabeceraPremium";
 import { TrackedLink, TrackView } from "@/components/directorio/Track";
 import { BASE, DIRECTORIO_ACTIVO, getFichas, type Ficha } from "@/lib/directorio";
 import { ofertaVigente } from "@/lib/ofertas";
@@ -151,7 +152,9 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
       </nav>
 
       <header className="rounded-2xl border border-gray-100 bg-white shadow-sm overflow-hidden mb-8">
-        {f.headerImageUrl ? (
+        {f.headerHero && (f.headerHero.title || f.headerHero.subtitle || f.headerHero.btn1 || f.headerHero.btn2) ? (
+          <CabeceraPremium f={f} hero={f.headerHero} rel={rel} />
+        ) : f.headerImageUrl ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={f.headerImageUrl}
