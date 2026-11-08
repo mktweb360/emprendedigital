@@ -41,7 +41,7 @@ export type Ficha = {
   /** Ubicación y datos de la empresa (planes de pago): se vuelven a validar al pintarlos. */
   business?: {
     street?: string; postal?: string; city?: string; legal_name?: string; tax_id?: string; hours?: string; map?: boolean;
-    social?: { facebook?: string; instagram?: string; linkedin?: string; x?: string; tiktok?: string; youtube?: string };
+    social?: Array<{ net: string; url: string }> | Record<string, string>;
   } | null;
   /** Preguntas frecuentes y noticias de la empresa (plan Plus). Texto de la empresa: se vuelve a validar al pintarlo. */
   faqs?: Array<{ q: string; a: string }> | null;
@@ -170,4 +170,27 @@ export async function enviarAlta(p: AltaPayload): Promise<AltaResultado> {
   } catch {
     return { ok: false, error: "No hemos podido recibir tu solicitud. Inténtalo más tarde." };
   }
+}
+
+const DOMINIOS_RED: Record<string, string[]> = {
+  facebook: ["facebook.com", "fb.com"], instagram: ["instagram.com"], linkedin: ["linkedin.com"], x: ["x.com", "twitter.com"], tiktok: ["tiktok.com"], youtube: ["youtube.com", "youtu.be"],
+  pinterest: ["pinterest.com", "pin.it"], whatsapp: ["wa.me", "whatsapp.com"], telegram: ["t.me", "telegram.me"], threads: ["threads.net", "threads.com"], spotify: ["spotify.com"], other: [],
+};
+
+/** Redes sociales de la ficha ya validadas: acepta la lista [{net, url}] o el formato anterior {instagram: url}. Solo https y del dominio de cada red. */
+export function redesFicha(social: unknown): Array<{ net: string; url: string }> {
+  const items: Array<{ net: unknown; url: unknown }> = Array.isArray(social)
+    ? social.filter((x): x is Record<string, unknown> => !!x && typeof x === "object").map((x) => ({ net: x.net, url: x.url }))
+    : social && typeof social === "object" ? Object.entries(social as Record<string, unknown>).map(([net, url]) => ({ net, url })) : [];
+  const out: Array<{ net: string; url: string }> = [];
+  for (const it of items) {
+    if (out.length >= 20 || typeof it.net !== "string" || typeof it.url !== "string" || !Object.hasOwn(DOMINIOS_RED, it.net)) continue;
+    if (!/^https:\/\/[^\s"'<>]+$/i.test(it.url)) continue;
+    try {
+      const host = new URL(it.url).hostname.toLowerCase().replace(/^www\./, "");
+      const okHost = it.net === "other" || (it.net === "pinterest" && /^([a-z0-9-]+\.)*pinterest\.[a-z]{2,3}(\.[a-z]{2})?$/.test(host)) || DOMINIOS_RED[it.net].some((d) => host === d || host.endsWith(`.${d}`));
+      if (okHost && !out.some((o) => o.url === it.url)) out.push({ net: it.net, url: it.url });
+    } catch { /* enlace no válido: se descarta */ }
+  }
+  return out;
 }

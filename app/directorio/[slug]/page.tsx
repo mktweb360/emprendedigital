@@ -8,7 +8,7 @@ import { CabeceraPremium } from "@/components/directorio/CabeceraPremium";
 import { FaqSeccion, NoticiasSeccion } from "@/components/directorio/FaqNoticias";
 import { RedesSociales, UbicacionSeccion } from "@/components/directorio/Ubicacion";
 import { TrackedLink, TrackView } from "@/components/directorio/Track";
-import { BASE, DIRECTORIO_ACTIVO, getFichas, type Ficha } from "@/lib/directorio";
+import { BASE, DIRECTORIO_ACTIVO, getFichas, type Ficha, redesFicha } from "@/lib/directorio";
 import { ofertaVigente } from "@/lib/ofertas";
 
 export const revalidate = 3600;
@@ -57,7 +57,7 @@ function esquema(f: Ficha) {
     }
     if (b.legal_name) org.legalName = b.legal_name;
     if (b.tax_id) org.taxID = b.tax_id;
-    const redes = Object.values(b.social ?? {}).filter((u): u is string => typeof u === "string" && /^https:\/\//.test(u));
+    const redes = redesFicha(b.social).map((r) => r.url);
     if (redes.length) org.sameAs = redes;
   }
   if (f.contactEmail) org.email = f.contactEmail;
@@ -216,7 +216,7 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
                 {dominio && <span className="text-sm text-gray-500">{dominio}</span>}
               </div>
             )}
-            {pago && (f.contactPhone || (f.business?.social && Object.keys(f.business.social).length > 0)) && (
+            {pago && (f.contactPhone || redesFicha(f.business?.social).length > 0) && (
               <div className="mt-4 flex flex-wrap items-center gap-3">
                 {f.contactPhone && (
                   <TrackedLink
