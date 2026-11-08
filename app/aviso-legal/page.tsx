@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 
+import { CONTACTO_EMAIL, TITULAR } from "@/lib/directorio";
+
 export const metadata: Metadata = {
   title: "Aviso legal y datos del titular",
-  description: "Aviso legal de Emprende Digital — Mkt Web 360 SLU (CIF B87679304).",
+  description: "Aviso legal de Emprende Digital — MKTWEB360, S.L.U. (CIF B87679304).",
   alternates: { canonical: "https://www.emprendedigital.es/aviso-legal" },
 };
 
@@ -17,17 +19,20 @@ export default function AvisoLegalPage() {
           Información y de Comercio Electrónico (LSSICE), se informa que el titular del presente sitio web es:
         </p>
         <ul>
-          <li><strong>Denominación social:</strong> Mkt Web 360 SLU</li>
-          <li><strong>CIF:</strong> B87679304</li>
-          <li><strong>Domicilio social:</strong> España</li>
-          <li><strong>Email:</strong> info@emprendedigital.es</li>
+          <li><strong>Denominación social:</strong> {TITULAR.razon}</li>
+          <li><strong>Nombre comercial:</strong> MKTWEB</li>
+          <li><strong>CIF:</strong> {TITULAR.cif}</li>
+          <li><strong>Domicilio social:</strong> {TITULAR.domicilio}</li>
+          <li><strong>Datos registrales:</strong> {TITULAR.registro}</li>
+          <li><strong>Teléfono:</strong> {TITULAR.telefono}</li>
+          <li><strong>Email:</strong> {CONTACTO_EMAIL}</li>
           <li><strong>Sitio web:</strong> https://www.emprendedigital.es</li>
         </ul>
 
         <h2>2. Objeto</h2>
         <p>
           El presente Aviso Legal regula el acceso y la utilización del sitio web{" "}
-          <strong>www.emprendedigital.es</strong> (en adelante, el "Sitio Web"), titularidad de Mkt Web 360 SLU. El
+          <strong>www.emprendedigital.es</strong> (en adelante, el "Sitio Web"), titularidad de {TITULAR.razon}. El
           acceso al Sitio Web implica la aceptación expresa y sin reservas de todos los términos del presente Aviso
           Legal.
         </p>
@@ -35,13 +40,13 @@ export default function AvisoLegalPage() {
         <h2>3. Propiedad intelectual e industrial</h2>
         <p>
           Los contenidos del Sitio Web (textos, imágenes, gráficos, diseño, código fuente, etc.) son propiedad de
-          Mkt Web 360 SLU o de terceros que han autorizado su uso. Queda prohibida la reproducción, distribución,
+          {TITULAR.razon} o de terceros que han autorizado su uso. Queda prohibida la reproducción, distribución,
           comunicación pública y transformación de dichos contenidos sin autorización expresa del titular.
         </p>
 
         <h2>4. Exclusión de responsabilidad</h2>
         <p>
-          Mkt Web 360 SLU no garantiza la exactitud, integridad o actualidad de la información contenida en el Sitio
+          {TITULAR.razon} no garantiza la exactitud, integridad o actualidad de la información contenida en el Sitio
           Web. Los precios y disponibilidad de los productos enlazados pueden variar. El usuario debe verificar la
           información directamente en los sitios de venta antes de realizar cualquier compra. Si detectas un dato
           incorrecto, puedes comunicárnoslo desde la{" "}
@@ -63,14 +68,23 @@ export default function AvisoLegalPage() {
           .
         </p>
 
-        <h2>6. Ley aplicable y jurisdicción</h2>
+        <h2>6. Directorio de empresas</h2>
         <p>
-          Las relaciones establecidas entre Mkt Web 360 SLU y el usuario se regirán por la legislación española
+          El directorio de empresas de este sitio lo edita {TITULAR.razon}. Las fichas las redactan las propias empresas y
+          su publicación no implica recomendación ni aval. Las{" "}
+          <a href="/directorio/condiciones" className="text-indigo-600 hover:underline">condiciones del directorio</a>{" "}
+          explican qué revisamos, cómo avisar de un contenido y cómo darse de baja. La ficha de {TITULAR.razon} en el
+          directorio está identificada como ficha de la empresa editora.
+        </p>
+
+        <h2>7. Ley aplicable y jurisdicción</h2>
+        <p>
+          Las relaciones establecidas entre {TITULAR.razon} y el usuario se regirán por la legislación española
           vigente. Para la resolución de cualquier controversia, las partes se someten a los Juzgados y Tribunales
           españoles competentes.
         </p>
 
-        <p className="text-gray-400 text-xs mt-8">Última actualización: junio 2025</p>
+        <p className="text-gray-400 text-xs mt-8">Última actualización: 8 de noviembre de 2026</p>
       </div>
     </div>
   );

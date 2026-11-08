@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { BASE, CATEGORIAS, DIRECTORIO_ACTIVO, MARKETING_TEXT } from "@/lib/directorio";
+import { BASE, CATEGORIAS, CONTACTO_EMAIL, DIRECTORIO_ACTIVO, MARKETING_TEXT, TITULAR } from "@/lib/directorio";
 
 import AltaForm from "./AltaForm";
 
@@ -27,7 +27,7 @@ export default function AltaPage() {
         ¿Ya tienes ficha?{" "}
         <a href="/directorio-empresa/acceso" rel="nofollow" className="text-indigo-600 hover:underline font-semibold">Accede a tu ficha</a>.
       </p>
-      <AltaForm categorias={CATEGORIAS} marketingTexto={MARKETING_TEXT} />
+      <AltaForm categorias={CATEGORIAS} marketingTexto={MARKETING_TEXT} razon={TITULAR.razon} contactoEmail={CONTACTO_EMAIL} />
     </div>
   );
 }
