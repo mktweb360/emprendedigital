@@ -8,10 +8,13 @@ const BASE = "https://www.emprendedigital.es";
 // Las landing pages estáticas antiguas se consolidaron en el blog con 301 (10/10/2026).
 const staticArticles: string[] = [];
 
+// Última fecha real de publicación: lastmod honesto para la portada y el índice del blog.
+const ULTIMO_POST = new Date(posts.map((p) => p.date).sort().at(-1) as string);
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages: MetadataRoute.Sitemap = [
-    { url: `${BASE}/`, changeFrequency: "weekly", priority: 1 },
-    { url: `${BASE}/blog`, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE}/`, lastModified: ULTIMO_POST, changeFrequency: "weekly", priority: 1 },
+    { url: `${BASE}/blog`, lastModified: ULTIMO_POST, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE}/tienda`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE}/sobre-nosotros`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE}/contacto`, changeFrequency: "monthly", priority: 0.4 },

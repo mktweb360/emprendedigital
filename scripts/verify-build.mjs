@@ -62,6 +62,18 @@ else {
   const n = (readFileSync(sm, "utf8").match(/<loc>/g) || []).length;
   if (n < 10) errors.push(`sitemap.xml con solo ${n} URLs`);
 }
+// Redirecciones (08/11/2026): el sitemap no puede listar URLs que redirigen y ninguna redirección
+// puede apuntar a otra (cadenas 308→307→200 desperdician rastreo y retrasan la indexación).
+{
+  const cfg = readFileSync("next.config.ts", "utf8");
+  const reds = [...cfg.matchAll(/source:\s*"([^"]+)",\s*destination:\s*"([^"]+)"/g)].map((m) => [m[1], m[2]]);
+  const origenes = new Set(reds.map((r) => r[0]));
+  const locs = [...readFileSync(sm, "utf8").matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].replace("https://www.emprendedigital.es", "") || "/");
+  const enSitemap = locs.filter((l) => origenes.has(l));
+  if (enSitemap.length) errors.push(`el sitemap lista URLs que redirigen: ${enSitemap.join(", ")}`);
+  const cadenas = reds.filter(([, d]) => origenes.has(d));
+  if (cadenas.length) errors.push(`cadenas de redirección en next.config.ts: ${cadenas.map((r) => r.join(" → ")).join("; ")}`);
+}
 const rb = join(app, "robots.txt.body");
 if (!existsSync(rb)) errors.push("no se ha generado robots.txt");
 else {
