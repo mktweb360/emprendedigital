@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categories, getProductsByCategory } from "@/data/products";
+import ProductThumb from "@/components/ProductThumb";
 
 type Props = { params: Promise<{ categoria: string }> };
 
@@ -267,11 +268,14 @@ export default async function CategoriaPage({ params }: Props) {
 
             {/* Product grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 mb-8">
-              {catProducts.map((product) => (
+              {catProducts.map((product, idx) => (
                 <div
                   key={product.slug}
                   className="border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:border-indigo-200 transition-all group flex flex-col"
                 >
+                  <Link href={`/tienda/${cat.slug}/${product.slug}`} tabIndex={-1} aria-hidden="true" className="block">
+                    <ProductThumb product={product} priority={idx < 2} />
+                  </Link>
                   <div className="p-4 flex flex-col flex-1">
                     {product.badge && (
                       <span className="inline-block self-start text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full mb-2">
