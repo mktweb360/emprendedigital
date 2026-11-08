@@ -175,7 +175,7 @@ export default async function CategoriaPage({ params }: Props) {
 
       <div className="max-w-6xl mx-auto px-4 py-8">
         {/* Breadcrumb */}
-        <nav className="text-xs text-gray-400 mb-5 flex items-center gap-1">
+        <nav className="text-xs text-gray-600 mb-5 flex items-center gap-1">
           <Link href="/" className="hover:text-indigo-600 transition-colors">Inicio</Link>
           <span>›</span>
           <Link href="/tienda" className="hover:text-indigo-600 transition-colors">Tienda</Link>
@@ -235,7 +235,7 @@ export default async function CategoriaPage({ params }: Props) {
                         className={`text-xs rounded-full px-1.5 py-0.5 tabular-nums transition-colors ${
                           isActive
                             ? "bg-indigo-600 text-white"
-                            : "bg-gray-100 text-gray-400 group-hover:bg-indigo-100 group-hover:text-indigo-600"
+                            : "bg-gray-100 text-gray-600 group-hover:bg-indigo-100 group-hover:text-indigo-600"
                         }`}
                       >
                         {c.count}
@@ -278,7 +278,7 @@ export default async function CategoriaPage({ params }: Props) {
                   </Link>
                   <div className="p-4 flex flex-col flex-1">
                     {product.badge && (
-                      <span className="inline-block self-start text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full mb-2">
+                      <span className="inline-block self-start text-xs font-bold text-orange-700 bg-orange-50 px-2 py-0.5 rounded-full mb-2">
                         {product.badge}
                       </span>
                     )}
@@ -329,7 +329,7 @@ export default async function CategoriaPage({ params }: Props) {
             )}
 
             {/* Affiliate footnote */}
-            <p className="text-xs text-gray-400 mt-2 pl-3 border-l-2 border-gray-200">
+            <p className="text-xs text-gray-600 mt-2 pl-3 border-l-2 border-gray-200">
               Este sitio contiene enlaces de afiliado. Si compras a través de ellos recibimos una pequeña comisión, sin coste adicional para ti.
             </p>
           </main>

@@ -97,7 +97,7 @@ export default function BlogPage() {
                 </h2>
                 <p className="text-sm text-gray-500 leading-relaxed mb-2">{art.excerpt}</p>
                 <div className="flex items-center justify-between">
-                  <time className="text-xs text-gray-400">{art.date}</time>
+                  <time className="text-xs text-gray-600">{art.date}</time>
                   <span className="text-indigo-600 font-semibold text-sm whitespace-nowrap">
                     Leer →
                   </span>

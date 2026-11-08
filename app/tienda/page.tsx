@@ -80,7 +80,7 @@ export default function TiendaPage() {
                     <span className="flex-1 text-xs font-medium text-gray-700 group-hover:text-indigo-700 leading-snug">
                       {cat.name}
                     </span>
-                    <span className="text-xs text-gray-400 bg-gray-100 group-hover:bg-indigo-100 group-hover:text-indigo-600 rounded-full px-1.5 py-0.5 tabular-nums transition-colors">
+                    <span className="text-xs text-gray-600 bg-gray-100 group-hover:bg-indigo-100 group-hover:text-indigo-600 rounded-full px-1.5 py-0.5 tabular-nums transition-colors">
                       {cat.count}
                     </span>
                   </Link>
@@ -114,7 +114,7 @@ export default function TiendaPage() {
                         {product.categoryName}
                       </span>
                       {product.badge && (
-                        <span className="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full">
+                        <span className="text-xs font-bold text-orange-700 bg-orange-50 px-2 py-0.5 rounded-full">
                           {product.badge}
                         </span>
                       )}
@@ -135,7 +135,7 @@ export default function TiendaPage() {
               </div>
             </div>
 
-            <p className="text-xs text-gray-400 mt-6 pl-3 border-l-2 border-gray-200">
+            <p className="text-xs text-gray-600 mt-6 pl-3 border-l-2 border-gray-200">
               Este sitio contiene enlaces de afiliado. Si compras a través de ellos recibimos una pequeña comisión, sin coste adicional para ti.
             </p>
           </main>
