@@ -38,6 +38,11 @@ export type Ficha = {
   /** Imagen de cabecera de la ficha (premium). Opcional: MktOS la enviará cuando exista el soporte; sin ella, la ficha no cambia. */
   headerImageUrl?: string | null;
   headerImageAlt?: string | null;
+  /** Ubicación y datos de la empresa (planes de pago): se vuelven a validar al pintarlos. */
+  business?: {
+    street?: string; postal?: string; city?: string; legal_name?: string; tax_id?: string; hours?: string; map?: boolean;
+    social?: { facebook?: string; instagram?: string; linkedin?: string; x?: string; tiktok?: string; youtube?: string };
+  } | null;
   /** Preguntas frecuentes y noticias de la empresa (plan Plus). Texto de la empresa: se vuelve a validar al pintarlo. */
   faqs?: Array<{ q: string; a: string }> | null;
   news?: Array<{ title: string; date?: string; summary?: string; url?: string }> | null;
@@ -74,7 +79,8 @@ const PROHIBIDO = /€|\d[\d.,]*\s?(euros?|eur)\b|chollo|más vendid[oa]s?|best 
 
 function fichaSegura(f: Ficha): boolean {
   const h = f.headerHero;
-  const textos = [f.name, f.shortDescription, f.longDescription, h?.title, h?.subtitle, h?.btn1?.text, h?.btn2?.text, ...(f.faqs ?? []).flatMap((x) => [x.q, x.a]), ...(f.news ?? []).flatMap((x) => [x.title, x.summary]), ...(f.services ?? []).flatMap((s) => [s.name, s.description, s.group, s.groupNote, s.offerText, s.imageAlt])];
+  const b = f.business;
+  const textos = [f.name, f.shortDescription, f.longDescription, h?.title, h?.subtitle, h?.btn1?.text, h?.btn2?.text, b?.street, b?.city, b?.legal_name, b?.hours, ...(f.faqs ?? []).flatMap((x) => [x.q, x.a]), ...(f.news ?? []).flatMap((x) => [x.title, x.summary]), ...(f.services ?? []).flatMap((s) => [s.name, s.description, s.group, s.groupNote, s.offerText, s.imageAlt])];
   const ok = !PROHIBIDO.test(textos.filter(Boolean).join(" "));
   if (!ok) console.warn(`[directorio] ficha «${f.slug}» oculta: lleva precios en euros o reclamos de precio`);
   return ok;
