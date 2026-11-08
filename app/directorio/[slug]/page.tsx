@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Logo, InsigniaRevisada, dominioDe } from "@/components/directorio/Logo";
 import { DestacadosCarrusel, ServicioCard, ServiciosTabs, type Categoria, type ItemFicha } from "@/components/directorio/Servicios";
 import { CabeceraPremium } from "@/components/directorio/CabeceraPremium";
+import { FaqSeccion, NoticiasSeccion } from "@/components/directorio/FaqNoticias";
 import { TrackedLink, TrackView } from "@/components/directorio/Track";
 import { BASE, DIRECTORIO_ACTIVO, getFichas, type Ficha } from "@/lib/directorio";
 import { ofertaVigente } from "@/lib/ofertas";
@@ -62,6 +63,11 @@ function esquema(f: Ficha) {
         isPartOf: { "@type": "WebSite", name: "Emprende Digital", url: BASE },
         mainEntity: { "@id": `${url}#empresa` },
       },
+      ...(f.faqs?.length ? [{
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        mainEntity: f.faqs.map((x) => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })),
+      }] : []),
       {
         "@type": "BreadcrumbList",
         itemListElement: [
@@ -223,6 +229,9 @@ export default async function FichaPage({ params }: { params: Promise<{ slug: st
           )}
         </section>
       )}
+
+      <FaqSeccion faqs={f.faqs ?? []} />
+      <NoticiasSeccion news={f.news ?? []} slug={f.slug} rel={rel} />
 
       {tieneContacto && (
         <section aria-labelledby="contacto" className="mb-8 max-w-3xl rounded-xl border border-indigo-100 bg-indigo-50/60 p-5">
