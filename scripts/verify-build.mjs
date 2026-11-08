@@ -56,6 +56,19 @@ for (const p of pages) {
 const dup = [...titulos].filter(([, v]) => v.length > 1);
 if (dup.length) errors.push(`${dup.length} títulos duplicados, p. ej. «${dup[0][0]}» en ${dup[0][1].join(", ")}`);
 
+// Meta description de las fichas de producto: Google recorta a ~160 caracteres (SEO 08/11/2026: 78 de 81 pasaban).
+const descLargas = [];
+for (const p of pages) {
+  const ruta = p.slice(app.length).split("\\").join("/");
+  if (!/^\/tienda\/[^/]+\/[^/]+\.html$/.test(ruta)) continue;
+  const h = readFileSync(p, "utf8");
+  if (/<meta name="robots" content="[^"]*noindex/i.test(h)) continue;
+  const d = (h.match(/<meta name="description" content="([^"]*)"/) || [])[1];
+  if (!d) descLargas.push(ruta + " (sin description)");
+  else if (d.replace(/&quot;|&amp;|&#x27;/g, "x").length > 160) descLargas.push(ruta + " (" + d.length + ")");
+}
+if (descLargas.length) errors.push(`${descLargas.length} fichas con meta description vacía o de más de 160 caracteres, p. ej. ${descLargas.slice(0, 3).join(", ")}`);
+
 const sm = join(app, "sitemap.xml.body");
 if (!existsSync(sm)) errors.push("no se ha generado sitemap.xml");
 else {

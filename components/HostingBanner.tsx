@@ -61,7 +61,7 @@ export default function HostingBanner() {
           />
         </a>
       </div>
-      <p className="text-xs text-gray-400 text-center mt-3">
+      <p className="text-xs text-gray-600 text-center mt-3">
         Enlace de afiliado — si contratas a través de este enlace recibimos una comisión sin coste adicional para ti.
       </p>
     </div>

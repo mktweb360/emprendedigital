@@ -2431,7 +2431,7 @@ export default async function BlogPostPage({ params }: Props) {
             <span className="mx-2">›</span>
             <span className="text-indigo-200">{post.category}</span>
           </nav>
-          <span className="inline-block text-xs font-semibold bg-orange-500 px-2 py-0.5 rounded-full mb-3">{post.category}</span>
+          <span className="inline-block text-xs font-semibold bg-orange-700 px-2 py-0.5 rounded-full mb-3">{post.category}</span>
           <h1 className="text-2xl md:text-3xl font-extrabold mb-4 leading-tight">{post.title}</h1>
           <p className="text-indigo-100 mb-4">{post.excerpt}</p>
           <div className="flex items-center gap-4 text-sm text-indigo-300">
@@ -2480,7 +2480,7 @@ export default async function BlogPostPage({ params }: Props) {
                       href={amazonLink(ctaProduct.asin)}
                       target="_blank"
                       rel="nofollow sponsored noopener noreferrer"
-                      className="inline-block mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
+                      className="inline-block mt-4 bg-orange-700 hover:bg-orange-800 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
                     >
                       Ver {ctaProduct.name} →
                     </a>
@@ -2523,8 +2523,8 @@ export default async function BlogPostPage({ params }: Props) {
             </section>
             {content.sources && content.sources.length > 0 && (
               <div className="mt-2 mb-6 pt-3 border-t border-gray-100">
-                <p className="text-xs text-gray-400 font-medium mb-1">Referencias</p>
-                <ul className="space-y-0.5">{content.sources.map((src, i) => (<li key={i}><a href={src.url} target="_blank" rel={src.url.includes("amazon.") ? "nofollow noopener noreferrer sponsored" : "noopener"} className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">{src.label}</a></li>))}</ul>
+                <p className="text-xs text-gray-600 font-medium mb-1">Referencias</p>
+                <ul className="space-y-0.5">{content.sources.map((src, i) => (<li key={i}><a href={src.url} target="_blank" rel={src.url.includes("amazon.") ? "nofollow noopener noreferrer sponsored" : "noopener"} className="text-xs text-gray-600 hover:text-gray-500 underline transition-colors">{src.label}</a></li>))}</ul>
               </div>
             )}
 
@@ -2540,7 +2540,7 @@ export default async function BlogPostPage({ params }: Props) {
               {relatedProducts.map((p) => p && (
                 <div key={p.slug} className="border border-gray-100 rounded-xl p-5 hover:shadow-md hover:border-indigo-200 transition-all group">
                   {p.badge && (
-                    <span className="inline-block text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full mb-3">
+                    <span className="inline-block text-xs font-bold text-orange-700 bg-orange-50 px-2 py-0.5 rounded-full mb-3">
                       {p.badge}
                     </span>
                   )}
@@ -2559,7 +2559,7 @@ export default async function BlogPostPage({ params }: Props) {
                       href={amazonLink(p.asin)}
                       target="_blank"
                       rel="noopener noreferrer sponsored"
-                      className="flex-1 text-center text-xs font-bold text-white bg-orange-500 hover:bg-orange-600 rounded-lg py-2 transition-colors"
+                      className="flex-1 text-center text-xs font-bold text-white bg-orange-700 hover:bg-orange-800 rounded-lg py-2 transition-colors"
                     >
                       Ver precio →
                     </a>

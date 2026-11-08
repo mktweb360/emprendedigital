@@ -59,7 +59,7 @@ export default function OffersSlider({ slides, intervalMs = 4000 }: Props) {
 
           {/* Badge oferta destacada */}
           <div className="absolute top-4 right-4 z-20">
-            <span className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-md uppercase tracking-wide">
+            <span className="inline-block bg-orange-700 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-md uppercase tracking-wide">
               {slide.badge}
             </span>
           </div>

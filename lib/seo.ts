@@ -47,3 +47,33 @@ export function productTitleUnique(
   const corto = productTitle(base, suffix, max - propio.length - 1).slice(0, -(suffix.length + 2));
   return `${corto} ${propio}: ${suffix}`;
 }
+
+/** Nombre corto del producto (hasta el primer corte natural: « — », coma, paréntesis…). */
+export function shortProductName(name: string, max = 60): string {
+  let base = name.trim();
+  for (const c of CORTES) {
+    const i = base.indexOf(c);
+    if (i >= 18) base = base.slice(0, i);
+  }
+  if (base.length > max) {
+    base = base.slice(0, max);
+    const sp = base.lastIndexOf(" ");
+    if (sp > 15) base = base.slice(0, sp);
+  }
+  return base.replace(/[\s,;:–—-]+$/, "");
+}
+
+/**
+ * Meta description de la ficha de producto, de 155 caracteres como máximo (Google recorta a ~160).
+ * Propia de cada producto: nombre corto + su descripción corta, sin precios ni años fijos.
+ */
+export function productDescription(product: { name: string; shortDescription: string }, max = 155): string {
+  const lead = `Análisis del ${shortProductName(product.name)}: `;
+  const body = product.shortDescription.trim().replace(/\s+/g, " ");
+  const full = lead + body;
+  if (full.length <= max) return full;
+  let cut = full.slice(0, max - 1);
+  const sp = cut.lastIndexOf(" ");
+  if (sp > lead.length + 20) cut = cut.slice(0, sp);
+  return cut.replace(/[\s,;:–—.-]+$/, "").replace(/\s+(de|del|para|con|y|e|en|a|el|la|los|las|sin|por|o)$/i, "").trimEnd() + "…";
+}

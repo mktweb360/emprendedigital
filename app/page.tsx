@@ -135,7 +135,7 @@ export default function HomePage() {
             </Link>
             <Link
               href="/tienda/portatiles"
-              className="px-8 py-3 bg-orange-500 text-white font-bold rounded-xl hover:bg-orange-600 transition-colors text-lg"
+              className="px-8 py-3 bg-orange-700 text-white font-bold rounded-xl hover:bg-orange-600 transition-colors text-lg"
             >
               Ver portátiles →
             </Link>
@@ -187,9 +187,9 @@ export default function HomePage() {
             {featuredProducts.map((product) => (
               <div key={product.slug} className="border border-gray-100 rounded-xl p-5 hover:shadow-md transition-all flex flex-col">
                 <div className="flex items-start justify-between mb-2">
-                  <span className="text-xs text-gray-400 uppercase tracking-wide">{product.categoryName}</span>
+                  <span className="text-xs text-gray-600 uppercase tracking-wide">{product.categoryName}</span>
                   {product.badge && (
-                    <span className="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full">
+                    <span className="text-xs font-bold text-orange-700 bg-orange-50 px-2 py-0.5 rounded-full">
                       {product.badge}
                     </span>
                   )}
@@ -226,7 +226,7 @@ export default function HomePage() {
                 href={art.href}
                 className="border border-gray-100 rounded-xl p-6 hover:shadow-md hover:border-indigo-200 transition-all group"
               >
-                <time className="text-xs text-gray-400 mb-2 block">{art.date}</time>
+                <time className="text-xs text-gray-600 mb-2 block">{art.date}</time>
                 <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors leading-snug">
                   {art.title}
                 </h3>
@@ -244,7 +244,7 @@ export default function HomePage() {
                 <Link href={`/blog/${p.slug}`} className="text-indigo-600 hover:underline">
                   {p.title}
                 </Link>
-                <time className="ml-2 text-xs text-gray-400">{p.date}</time>
+                <time className="ml-2 text-xs text-gray-600">{p.date}</time>
               </li>
             ))}
           </ul>

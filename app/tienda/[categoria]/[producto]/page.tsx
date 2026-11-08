@@ -6,7 +6,7 @@ import { amazonLink } from "@/lib/amazon";
 import { getPostBySlug } from "@/data/posts";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
-import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
+import { productDescription, productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
 
 type Props = { params: Promise<{ categoria: string; producto: string }> };
 
@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return {};
   return {
     title: { absolute: productTitleUnique(product, products, "análisis y opiniones") },
-    description: `Análisis completo del ${product.name}: especificaciones, pros, contras, precio y comparativa con alternativas. ¿Vale la pena en 2025?`,
+    description: productDescription(product),
     alternates: { canonical: `https://www.emprendedigital.es/tienda/${product.categorySlug}/${product.slug}` },
   };
 }
@@ -102,7 +102,7 @@ export default async function ProductoPage({ params }: Props) {
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
 
       <div className="max-w-4xl mx-auto px-4 py-10">
-        <nav className="text-sm text-gray-400 mb-6">
+        <nav className="text-sm text-gray-600 mb-6">
           <Link href="/" className="hover:text-indigo-600">Inicio</Link>{" › "}
           <Link href="/tienda" className="hover:text-indigo-600">Tienda</Link>{" › "}
           <Link href={`/tienda/${categoria}`} className="hover:text-indigo-600">{cat?.name ?? categoria}</Link>{" › "}
@@ -114,7 +114,7 @@ export default async function ProductoPage({ params }: Props) {
             {product.categoryName}
           </span>
           {product.badge && (
-            <span className="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-full">
+            <span className="text-xs font-bold text-orange-700 bg-orange-50 px-2 py-1 rounded-full">
               {product.badge}
             </span>
           )}
@@ -147,7 +147,7 @@ export default async function ProductoPage({ params }: Props) {
             >
               🛒 Comprar ahora →
             </a>
-            <p className="text-xs text-gray-400 text-center mt-1">Se abrirá Enlace de afiliado</p>
+            <p className="text-xs text-gray-600 text-center mt-1">Se abrirá Enlace de afiliado</p>
           </div>
         </div>
 
@@ -213,7 +213,7 @@ export default async function ProductoPage({ params }: Props) {
               href={amazonLink(product.asin)}
               target="_blank"
               rel="noopener noreferrer sponsored"
-              className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors"
+              className="inline-block bg-orange-700 hover:bg-orange-800 text-white font-bold px-6 py-3 rounded-xl transition-colors"
             >
               🛒 Comprar ahora →
             </a>
@@ -273,7 +273,7 @@ export default async function ProductoPage({ params }: Props) {
                   className="border border-gray-100 rounded-xl p-4 hover:border-indigo-200 hover:shadow-md transition-all group"
                 >
                   {p.badge && (
-                    <span className="inline-block text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full mb-2">
+                    <span className="inline-block text-xs font-bold text-orange-700 bg-orange-50 px-2 py-0.5 rounded-full mb-2">
                       {p.badge}
                     </span>
                   )}

@@ -28,7 +28,7 @@ export default function AdSenseAd({ placement, className = "" }: { placement: Ad
 
   return (
     <aside aria-label="Publicidad" className={`mx-auto my-8 ${className}`} style={{ width: unit.width }}>
-      <p className="mb-1 text-center text-[11px] uppercase tracking-wide text-gray-400">Publicidad</p>
+      <p className="mb-1 text-center text-[11px] uppercase tracking-wide text-gray-600">Publicidad</p>
       <ins
         className="adsbygoogle"
         style={{ display: "inline-block", width: unit.width, height: unit.height }}
