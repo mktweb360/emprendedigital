@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getFeaturedProducts } from "@/data/products";
-import { getPostBySlug } from "@/data/posts";
+import { getPostBySlug, posts } from "@/data/posts";
 import HeroBackground from "@/components/HeroBackground";
 import EmailCaptureSection from "@/components/EmailCaptureSection";
 
@@ -86,6 +86,12 @@ const articles = featuredSlugs
   .map((slug) => getPostBySlug(slug))
   .filter((p): p is NonNullable<typeof p> => Boolean(p))
   .map((p) => ({ href: `/blog/${p.slug}`, title: p.title, excerpt: p.excerpt, date: p.date }));
+
+// Novedades: las guías más recientes que no están ya destacadas, para que Google las descubra desde la portada (08/11/2026).
+const latestPosts = [...posts]
+  .filter((p) => !featuredSlugs.includes(p.slug))
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, 8);
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -211,7 +217,7 @@ export default function HomePage() {
             Últimos artículos
           </h2>
           <p className="text-center text-gray-500 mb-10">
-            Análisis actualizados para emprendedores digitales en 2025
+            Guías y análisis actualizados para emprendedores digitales en 2026
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {articles.map((art) => (
@@ -231,6 +237,17 @@ export default function HomePage() {
               </Link>
             ))}
           </div>
+          <h3 className="mt-12 mb-4 text-xl font-bold text-gray-900">Novedades del blog</h3>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3">
+            {latestPosts.map((p) => (
+              <li key={p.slug}>
+                <Link href={`/blog/${p.slug}`} className="text-indigo-600 hover:underline">
+                  {p.title}
+                </Link>
+                <time className="ml-2 text-xs text-gray-400">{p.date}</time>
+              </li>
+            ))}
+          </ul>
           <div className="text-center mt-8">
             <Link
               href="/blog"

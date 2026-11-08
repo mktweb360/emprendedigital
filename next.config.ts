@@ -121,7 +121,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/tienda/microfonos/rode-nt-usb-mini-microfono",
-        destination: "/tienda/microfonos/elgato-wave3-microfono-condensador-usb",
+        destination: "/tienda/microfonos/elgato-wave3-mk2-microfono-condensador-usb",
         permanent: true,
       },
       {
