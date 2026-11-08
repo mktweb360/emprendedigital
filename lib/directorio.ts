@@ -40,7 +40,7 @@ export type Ficha = {
   headerImageAlt?: string | null;
   /** `imageUrl` e `imageAlt` por servicio o producto (premium), también opcionales. */
   services: Array<{
-    name: string; description?: string; url?: string; group?: string | null; imageUrl?: string | null; imageAlt?: string | null;
+    name: string; description?: string; url?: string; group?: string | null; groupNote?: string | null; imageUrl?: string | null; imageAlt?: string | null;
     /** Destacado por la empresa y oferta con fecha de fin opcional (AAAA-MM-DD). Solo plan Plus. */
     featured?: boolean | null; offerText?: string | null; offerUntil?: string | null;
   }>;
@@ -65,7 +65,7 @@ function config() {
 const PROHIBIDO = /€|\d[\d.,]*\s?(euros?|eur)\b|chollo|más vendid[oa]s?|best ?seller|mejor(es)? precios?|precio más bajo|comparativa de precios/i;
 
 function fichaSegura(f: Ficha): boolean {
-  const textos = [f.name, f.shortDescription, f.longDescription, ...(f.services ?? []).flatMap((s) => [s.name, s.description, s.group, s.offerText, s.imageAlt])];
+  const textos = [f.name, f.shortDescription, f.longDescription, ...(f.services ?? []).flatMap((s) => [s.name, s.description, s.group, s.groupNote, s.offerText, s.imageAlt])];
   const ok = !PROHIBIDO.test(textos.filter(Boolean).join(" "));
   if (!ok) console.warn(`[directorio] ficha «${f.slug}» oculta: lleva precios en euros o reclamos de precio`);
   return ok;
