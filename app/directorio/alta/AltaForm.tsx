@@ -8,7 +8,7 @@ import { enviarAltaAction, type AltaEstado } from "./actions";
 const campo = "w-full rounded-lg border border-gray-300 px-3 py-2 text-sm text-gray-900 focus:border-indigo-500 focus:outline-none";
 const etiqueta = "block text-sm font-semibold text-gray-800 mb-1";
 
-export default function AltaForm({ categorias, marketingTexto }: { categorias: readonly string[]; marketingTexto: string }) {
+export default function AltaForm({ categorias, marketingTexto, razon, contactoEmail }: { categorias: readonly string[]; marketingTexto: string; razon: string; contactoEmail: string }) {
   const [estado, accion, pendiente] = useActionState<AltaEstado, FormData>(enviarAltaAction, null);
 
   if (estado?.ok) {
@@ -54,7 +54,7 @@ export default function AltaForm({ categorias, marketingTexto }: { categorias: r
 
       <fieldset className="space-y-4">
         <legend className="text-lg font-extrabold text-gray-900 mb-2">Persona de contacto</legend>
-        <p className="text-xs text-gray-500">Estos datos son para que podamos escribirte. No se publican en la ficha.</p>
+        <p className="text-xs text-gray-500">Estos datos son para que podamos escribirte. Solo se publican si tú lo activas en tu panel.</p>
         <div><label className={etiqueta} htmlFor="contactName">Nombre *</label><input id="contactName" name="contactName" required maxLength={120} className={campo} /></div>
         <div><label className={etiqueta} htmlFor="contactEmail">Correo *</label><input id="contactEmail" name="contactEmail" type="email" required maxLength={200} className={campo} /></div>
         <div><label className={etiqueta} htmlFor="contactPhone">Teléfono</label><input id="contactPhone" name="contactPhone" type="tel" maxLength={40} className={campo} /></div>
@@ -74,6 +74,18 @@ export default function AltaForm({ categorias, marketingTexto }: { categorias: r
           <input type="checkbox" name="marketing" className="mt-1" />
           <span>{marketingTexto}</span>
         </label>
+      </div>
+
+      <div className="rounded-lg border border-gray-200 bg-gray-50 p-3 text-xs leading-relaxed text-gray-600">
+        <p>
+          <strong className="text-gray-800">Información básica sobre protección de datos.</strong> Responsable: {razon} Finalidad: gestionar tu
+          solicitud, revisar y publicar tu ficha, verificar tu correo y enviarte avisos de la ficha y un informe mensual de visitas y clics.
+          Base: aplicar tu solicitud y nuestro interés legítimo en informarte; las ofertas, solo si marcas la casilla. Destinatarios: proveedores
+          de alojamiento y de correo. Derechos: acceso, rectificación, supresión, oposición, limitación y portabilidad, escribiendo a{" "}
+          {contactoEmail}, y reclamación ante la Agencia Española de Protección de Datos. Más información en la{" "}
+          <Link href="/politica-de-privacidad#directorio" className="text-indigo-600 hover:underline" target="_blank">política de privacidad</Link>.
+        </p>
+        <p className="mt-2">Al enviar el formulario declaras que actúas en nombre de esta empresa y con fines profesionales.</p>
       </div>
 
       <button type="submit" disabled={pendiente} className="bg-indigo-600 hover:bg-indigo-700 disabled:opacity-60 text-white font-bold text-sm px-6 py-2.5 rounded-xl transition-colors">
