@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { categories, getFeaturedProducts, getProductsByCategory } from "@/data/products";
+import ProductThumb from "@/components/ProductThumb";
 
 export const metadata: Metadata = {
   title: "Tienda: equipamiento para home office",
@@ -100,12 +101,14 @@ export default function TiendaPage() {
             <div className="mb-2">
               <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">Productos destacados</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
-                {featured.map((product) => (
+                {featured.map((product, idx) => (
                   <Link
                     key={product.slug}
                     href={`/tienda/${product.categorySlug}/${product.slug}`}
-                    className="border border-gray-100 rounded-xl p-4 hover:shadow-md hover:border-indigo-200 transition-all group flex flex-col"
+                    className="border border-gray-100 rounded-xl overflow-hidden hover:shadow-md hover:border-indigo-200 transition-all group flex flex-col"
                   >
+                    <ProductThumb product={product} priority={idx < 2} />
+                    <div className="p-4 flex flex-col flex-1">
                     <div className="flex justify-between items-start mb-2">
                       <span className="text-xs font-medium text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">
                         {product.categoryName}
@@ -125,6 +128,7 @@ export default function TiendaPage() {
                       <span className="text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg px-3 py-1.5 transition-colors">
                         Ver análisis →
                       </span>
+                    </div>
                     </div>
                   </Link>
                 ))}
