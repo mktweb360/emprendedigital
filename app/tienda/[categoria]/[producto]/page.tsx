@@ -7,6 +7,7 @@ import { getPostBySlug } from "@/data/posts";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import ProductThumb from "@/components/ProductThumb";
+import { isFeaturedProduct } from "@/lib/indexable";
 import { productDescription, productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
 
 type Props = { params: Promise<{ categoria: string; producto: string }> };
@@ -20,7 +21,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: productTitleUnique(product, products, "análisis y opiniones") },
+    title: { absolute: productTitleUnique(product, products, "guía de compra") },
+    robots: isFeaturedProduct(product.slug) ? { index: true, follow: true } : { index: false, follow: true },
     description: productDescription(product),
     alternates: { canonical: `https://www.emprendedigital.es/tienda/${product.categorySlug}/${product.slug}` },
   };
@@ -154,7 +156,7 @@ export default async function ProductoPage({ params }: Props) {
         </div>
 
         <div className="prose">
-          <h2>Análisis completo — {product.name}</h2>
+          <h2>Ficha y características — {product.name}</h2>
           <p>{product.fullDescription}</p>
         </div>
 

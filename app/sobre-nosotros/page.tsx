@@ -10,11 +10,13 @@ export const metadata: Metadata = {
 
 const personSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Equipo Editorial de Emprende Digital",
+  "@type": "Person",
+  name: "José Marcos Galindo Sánchez",
+  jobTitle: "Editor responsable",
+  worksFor: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.mktweb360.com" },
   url: "https://www.emprendedigital.es/sobre-nosotros",
   description:
-    "Equipo editorial de Emprende Digital (Mkt Web 360 SLU). Comparamos especificaciones técnicas y características antes de recomendar herramientas de productividad y equipamiento para home office, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    "Editor responsable de Emprende Digital y fundador de Mkt Web 360 SLU, agencia de marketing digital (SEO, analítica y desarrollo web) con sede en El Viso de San Juan (Toledo). Compara especificaciones técnicas y fuentes citadas antes de recomendar herramientas y equipamiento, con apoyo de IA bajo revisión editorial.",
   knowsAbout: [
     "productividad digital",
     "trabajo remoto",
@@ -23,11 +25,6 @@ const personSchema = {
     "emprendimiento digital",
     "equipamiento para home office",
   ],
-  parentOrganization: {
-    "@type": "Organization",
-    name: "Emprende Digital",
-    url: "https://www.emprendedigital.es",
-  },
 };
 
 const orgSchema = {
@@ -42,7 +39,7 @@ const orgSchema = {
   },
   taxID: "B87679304",
   description:
-    "Portal especializado en herramientas de productividad digital, equipamiento para home office y recursos para emprendedores. Comparativas y análisis con criterio profesional.",
+    "Portal especializado en herramientas de productividad digital, equipamiento para home office y recursos para emprendedores. Comparativas basadas en especificaciones del fabricante y fuentes citadas.",
   foundingDate: "2024",
   areaServed: { "@type": "Country", name: "España" },
   knowsAbout: [
@@ -130,16 +127,16 @@ export default function SobreNosotrosPage() {
           <div className="flex flex-col sm:flex-row items-start gap-6 bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
             {/* Avatar */}
             <div className="shrink-0 w-20 h-20 rounded-full bg-indigo-600 flex items-center justify-center text-white text-2xl font-extrabold select-none">
-              ED
+              JG
             </div>
             <div className="flex-1">
-              <h2 className="text-xl font-extrabold text-gray-900 mb-0.5">Equipo Editorial de Emprende Digital</h2>
+              <h2 className="text-xl font-extrabold text-gray-900 mb-0.5">José Marcos Galindo Sánchez</h2>
               <p className="text-sm font-semibold text-indigo-600 mb-3">
-                Mkt Web 360 SLU
+                Editor responsable · Fundador de Mkt Web 360 SLU
               </p>
               <p className="text-gray-700 text-sm leading-relaxed mb-4">
-                Comparamos especificaciones técnicas y características antes de recomendar
-                cualquier herramienta o equipo. Usamos IA como apoyo en la investigación y redacción, siempre con
+                Mi trabajo diario es el marketing digital (SEO, analítica y desarrollo web); no pruebo personalmente cada producto. Aquí comparo especificaciones técnicas y características antes de recomendar
+                cualquier herramienta o equipo. Uso IA como apoyo en la investigación y redacción, siempre con
                 revisión editorial antes de publicar: nunca inventamos datos de producto ni experiencias de uso.
               </p>
               <div className="flex flex-wrap gap-2">

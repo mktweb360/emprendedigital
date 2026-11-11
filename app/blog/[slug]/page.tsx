@@ -2423,10 +2423,12 @@ export default async function BlogPostPage({ params }: Props) {
   const showHostingBanner = HOSTING_BANNER_CATEGORIES.includes(post.category);
 
   const AUTHOR = {
-    "@type": "Organization",
-    name: "Equipo Editorial de Emprende Digital",
+    "@type": "Person",
+    name: "José Marcos Galindo Sánchez",
+    jobTitle: "Editor responsable",
+    worksFor: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.mktweb360.com" },
     url: "https://www.emprendedigital.es/sobre-nosotros",
-    description: "Equipo editorial de Emprende Digital (Mkt Web 360 SLU). Comparamos especificaciones y características antes de recomendar productos, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Editor responsable de Emprende Digital y fundador de Mkt Web 360 SLU (agencia de marketing digital). Compara especificaciones y fuentes antes de recomendar productos, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["productividad digital", "trabajo remoto", "herramientas SaaS", "ergonomía en oficina", "emprendimiento digital", "equipamiento para home office"],
   };
 
@@ -2499,7 +2501,7 @@ export default async function BlogPostPage({ params }: Props) {
             <span>·</span>
             <span className="flex items-center gap-1 text-indigo-300">
               <span>✍️</span>
-              <Link href="/sobre-nosotros" className="font-medium text-indigo-200 hover:underline">Equipo Editorial de Emprende Digital</Link>
+              <Link href="/sobre-nosotros" className="font-medium text-indigo-200 hover:underline">José Marcos Galindo Sánchez · Editor responsable</Link>
             </span>
           </div>
         </div>
