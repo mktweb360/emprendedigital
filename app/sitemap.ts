@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { categories, products } from "@/data/products";
+import { isFeaturedProduct } from "@/lib/indexable";
 import { posts } from "@/data/posts";
 import { DIRECTORIO_ACTIVO, getFichas } from "@/lib/directorio";
 
@@ -37,7 +38,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  const productPages: MetadataRoute.Sitemap = products.filter((product) => !product.unavailable).map((product) => ({
+  const productPages: MetadataRoute.Sitemap = products.filter((product) => !product.unavailable && isFeaturedProduct(product.slug)).map((product) => ({
     url: `${BASE}/tienda/${product.categorySlug}/${product.slug}`,
    
     changeFrequency: "monthly",
