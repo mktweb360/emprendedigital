@@ -816,6 +816,61 @@ const articleContent: Record<string, {
       }
     ]
   },
+  "fatiga-visual-pantallas-trabajo-monitor-luz-pausas": {
+    intro: "Después de seis u ocho horas delante del ordenador, es habitual notar ojos secos, visión borrosa al mirar de lejos o dolor de cabeza. La Academia Estadounidense de Oftalmología (AAO) lo describe como fatiga visual digital y la compara con la que provoca cualquier trabajo de cerca, como leer o coser: incomoda, pero según la propia AAO usar pantallas no daña los ojos de forma permanente. La buena noticia es que casi todo lo que la agrava se puede corregir en casa: dónde pones el monitor, de dónde viene la luz y cada cuánto apartas la vista. Esta guía recorre esos ajustes con las cifras de fuentes oficiales y señala en qué punto un producto ayuda de verdad y en cuál no hace falta comprar nada.",
+    sections: [
+      {
+        heading: "Qué provoca la fatiga visual al trabajar con pantalla",
+        body: "Hay dos causas principales y las dos tienen arreglo. La primera es el parpadeo: según la AAO, una persona parpadea de media unas 15 veces por minuto, pero con el ordenador los estudios señalan que baja a entre 5 y 7. Menos parpadeos significan una película lagrimal que se renueva menos, y de ahí la sequedad y el escozor. La segunda es el esfuerzo de enfocar a corta distancia durante horas, sin los descansos que se dan solos al levantar la vista de un papel o de una conversación.\n\nA esas dos causas se suman los factores del entorno: un monitor mal colocado, reflejos de una ventana o una lámpara sobre la pantalla, o un brillo muy distinto al de la habitación. Son los que más fáciles resultan de corregir, porque dependen de cómo montas el puesto y no de ti. Si los síntomas persisten, la AAO aconseja acudir al oftalmólogo cuando los ojos siguen rojos, borrosos o llorosos, o si aparece dolor o sensibilidad a la luz.",
+      },
+      {
+        heading: "Distancia y altura: las cifras que conviene respetar",
+        body: "La AAO recomienda sentarse a unas 25 pulgadas de la pantalla, aproximadamente la longitud del brazo (unos 63 cm), y colocar la pantalla de modo que la mirada baje ligeramente, no recta ni hacia arriba. La guía de puestos con ordenador de la OSHA, la agencia de seguridad laboral de Estados Unidos, da un margen más amplio: entre 50 y 100 cm de distancia, con el borde superior de la pantalla a la altura de los ojos o algo por debajo, y sin que el monitor quede a más de 35 grados a izquierda o derecha de tu línea de visión. Si usas gafas bifocales, la OSHA indica bajar la pantalla más de lo habitual o usar lentes monofocales pensadas para el ordenador.\n\nComo criterio práctico propio, la prueba es sencilla: con la espalda apoyada y el brazo estirado, las yemas de los dedos deberían rozar la pantalla, y al mirar al frente no deberías elevar la barbilla ni inclinar la cabeza hacia delante. Si el texto te obliga a acercarte, sube el tamaño de letra antes de acercar el monitor.",
+      },
+      {
+        heading: "El monitor tiene que moverse para poder colocarlo",
+        body: "El Real Decreto 488/1997, que regula el trabajo con pantallas de visualización, exige en su anexo que la pantalla sea orientable e inclinable a voluntad. Muchos monitores económicos solo se inclinan, y su peana fija deja el borde superior por encima de los ojos con una mesa estándar. Hay dos soluciones. La primera es elegir un monitor con base regulable en altura, como el ASUS VA27DQSB, que según su ficha ajusta la altura y es Full HD de 27 pulgadas. La segunda es sujetar el monitor que ya tienes a un brazo, como el Invision MX200, que se fija a la mesa con abrazadera, admite pantallas de 19 a 32 pulgadas con anclaje VESA 75 o 100 y permite subir, bajar, inclinar, girar y acercar la pantalla. Antes de comprar un brazo comprueba que tu monitor tiene esos agujeros VESA y que el borde de la mesa admite la abrazadera.",
+        productSlug: "invision-mx200-brazo-monitor",
+      },
+      {
+        heading: "Luz y reflejos: el factor que más se pasa por alto",
+        body: "El mismo Real Decreto pide que la pantalla no tenga reflejos ni reverberaciones que molesten, que ninguna fuente de luz cause deslumbramiento directo y que las ventanas tengan una cobertura regulable para atenuar la luz del día. La OSHA concreta el punto más útil: colocar el monitor perpendicular a la ventana, de modo que la luz entre de lado y no por detrás de ti (reflejo en la pantalla) ni de frente (deslumbramiento). Si no puedes girar la mesa, una cortina o un estor que regules durante el día resuelve más que cualquier accesorio.\n\nLa AAO añade dos ajustes que cuestan cero: igualar el brillo de la pantalla al de la habitación, sin que parezca una ventana iluminada en una sala oscura ni un panel apagado a pleno día, y subir el contraste. También menciona los filtros antirreflejo mate para reducir deslumbramientos, útiles si no controlas las fuentes de luz. Para trabajar de noche, una lámpara que ilumine la mesa sin dar en la pantalla evita ese contraste brusco. La barra de luz Yeelight para monitor, por ejemplo, se engancha sobre la pantalla, tiene óptica asimétrica para no reflejar en ella y regula la temperatura de 2.700 a 6.500 K con mando; ilumina el escritorio, no tu cara, así que para videollamadas necesitarás otra luz frontal.",
+        productSlug: "yeelight-barra-luz-monitor-mando",
+      },
+      {
+        heading: "Pausas: qué dice la norma y qué es solo una regla popular",
+        body: "El artículo 3 del Real Decreto 488/1997 obliga al empresario a reducir la duración máxima del trabajo continuado en pantalla y, cuando no se pueda alternar con otras tareas, a establecer las pausas necesarias; los convenios colectivos pueden fijar su periodicidad y duración. La norma no da una cifra única, y se aplica a trabajadores por cuenta ajena: si eres autónomo, nadie te impone pausas, así que te las tienes que imponer tú.\n\nComo criterio práctico circula la regla 20-20-20: cada 20 minutos, mirar durante 20 segundos algo situado a unos 6 metros. Es una pauta popular, no una norma ni una recomendación de la AAO, cuya página sobre el tema sí aconseja levantar la vista de vez en cuando y enfocar un objeto lejano. Úsala como recordatorio, no como fórmula exacta. Lo que importa es romper el enfoque cercano y parpadear con ganas durante esos segundos, que es el hábito que corrige las dos causas principales.",
+      },
+      {
+        heading: "¿Sirve un monitor «eye care» o unas gafas de luz azul?",
+        body: "Un monitor con certificaciones de confort visual resuelve parte del problema: panel sin parpadeo (flicker-free), modo de luz azul reducida y buen control del brillo. El BenQ GW2790P, por ejemplo, declara en su ficha certificación Eyesafe 2.0 y TÜV Eye Comfort de 3 estrellas, es Full HD IPS de 27 pulgadas a 120 Hz y no tiene USB-C. Su densidad de píxeles es de unos 82 PPI, así que el texto se ve menos fino que en un 4K. Esas certificaciones son datos del fabricante y no sustituyen a la colocación, la luz ni las pausas.\n\nEn cuanto a las gafas, la AAO distingue las gafas para ordenador, lentes graduadas para distancia intermedia que puede recetar un óptico u oftalmólogo, de las gafas que bloquean luz azul, que no son lo mismo. Si necesitas corrección para trabajar con pantalla, el camino es una revisión, no un accesorio genérico. El Real Decreto 488/1997 reconoce además el derecho a un reconocimiento oftalmológico cuando la vigilancia de la salud lo hace necesario, y a dispositivos correctores especiales proporcionados por el empresario cuando los habituales no sirven.",
+        productSlug: "benq-gw2790-monitor-eye-care",
+      },
+    ],
+    comparison: {
+      headers: ["Síntoma o causa", "Ajuste gratuito", "Cuándo compensa comprar algo"],
+      rows: [
+        ["Ojos secos, escozor", "Parpadear de forma consciente; pausas; lágrimas artificiales, que la AAO menciona para la sequedad", "No hace falta producto; revisión si persiste"],
+        ["Cuello cargado, mirada hacia arriba", "Libros bajo la peana; bajar la silla", "Brazo de monitor o monitor con base regulable en altura"],
+        ["Reflejos en la pantalla", "Monitor perpendicular a la ventana; estor; bajar brillo", "Filtro mate o cambiar de monitor si el panel refleja mucho"],
+        ["Contraste brusco con la habitación", "Igualar brillo con la luz ambiente", "Barra de luz que ilumine la mesa sin dar en la pantalla"],
+        ["Molestias pese a todo lo anterior", "Revisión oftalmológica", "Gafas graduadas para ordenador, solo si las prescribe un profesional"],
+      ],
+    },
+    conclusion: "Empieza por lo gratuito: pantalla a la distancia de un brazo, borde superior a la altura de los ojos o por debajo, monitor perpendicular a la ventana, brillo igualado al de la sala y una pausa corta cada rato para mirar lejos y parpadear. Si tu monitor no se mueve, un brazo o una base regulable es la compra con más efecto sobre el cuello y la mirada; si tu problema son los reflejos o la luz de noche, empieza por la ventana y la lámpara. Y si las molestias continúan, la respuesta es una revisión, no más accesorios. Tienes los monitores en la [categoría de monitores](/tienda/monitores) y más ideas de montaje en la [guía del puesto de trabajo](/blog/home-office-setup-productivo-guia).",
+    sources: [
+      { label: "American Academy of Ophthalmology — Computers, Digital Devices, and Eye Strain", url: "https://www.aao.org/eye-health/tips-prevention/computer-usage" },
+      { label: "OSHA — Computer Workstations eTool: Monitors", url: "https://www.osha.gov/etools/computer-workstations/components/monitors" },
+      { label: "BOE — Real Decreto 488/1997, sobre trabajo con equipos que incluyen pantallas de visualización", url: "https://www.boe.es/buscar/act.php?id=BOE-A-1997-8671" },
+    ],
+    faqs: [
+      { q: "¿A qué distancia debe estar el monitor de los ojos?", a: "La AAO recomienda unas 25 pulgadas (alrededor de 63 cm), aproximadamente un brazo estirado. La OSHA admite entre 50 y 100 cm según el tamaño de la pantalla y de la letra." },
+      { q: "¿A qué altura debe estar la pantalla?", a: "Con el borde superior a la altura de los ojos o ligeramente por debajo, de modo que la mirada baje un poco. Es el criterio de la OSHA y coincide con el de la AAO, que habla de mirar ligeramente hacia abajo." },
+      { q: "¿Trabajar con pantallas daña la vista?", a: "Según la AAO, usar pantallas no causa daño permanente en los ojos, pero mirarlas durante mucho tiempo sin descansos puede provocar molestias como sequedad, visión borrosa o dolor. Si persisten, conviene una revisión oftalmológica." },
+      { q: "¿Es obligatorio hacer pausas trabajando con ordenador?", a: "Para trabajadores por cuenta ajena, el Real Decreto 488/1997 obliga al empresario a reducir el trabajo continuado en pantalla y a fijar pausas cuando no se pueda alternar tareas, sin una duración única. Los autónomos no están sometidos a esa obligación, pero les conviene aplicar la misma lógica." },
+      { q: "¿Merece la pena un monitor con certificación de confort visual?", a: "Puede ayudar con el parpadeo del panel y la luz azul, pero no sustituye a colocar bien el monitor, controlar los reflejos y hacer pausas. Valóralo como un extra si ya has corregido lo anterior." },
+    ],
+  },
   "mejores-teclados-mecanicos-trabajar-oficina": {
     intro: "Un teclado mecánico tiene un interruptor independiente debajo de cada tecla, con su muelle y su recorrido, en lugar de la lámina de goma de un teclado de membrana. Para trabajar, eso da una pulsación más definida y teclas que se pueden cambiar, a cambio de más ruido y más altura, dos cosas que importan si haces videollamadas o pasas ocho horas escribiendo. Esta guía explica qué mirar para elegir un teclado mecánico para oficina o teletrabajo: el tipo de interruptor (switch), el formato, la distribución ISO-ES con ñ, la conexión y la postura de las muñecas, con lo que dicen el INSST y el Real Decreto 488/1997. Al final tienes una comparativa de los modelos con distribución española que hemos comprobado en Amazon.es.",
     sections: [

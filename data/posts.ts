@@ -167,6 +167,29 @@ export const posts: Post[] = [
     categoryCta: { href: "/tienda/monitores", text: "Ver monitores y brazos →" },
   },
   {
+    slug: "fatiga-visual-pantallas-trabajo-monitor-luz-pausas",
+    title: "Fatiga visual por trabajar con pantallas: monitor, luz y pausas para reducirla",
+    seoTitle: "Fatiga visual con pantallas: cómo reducirla",
+    excerpt:
+      "Qué causa la fatiga visual al trabajar con ordenador y cómo reducirla: distancia y altura del monitor, reflejos de ventana, brillo, parpadeo y pausas. Con las referencias de la AAO, la OSHA y el Real Decreto 488/1997.",
+    date: "2026-10-25",
+    category: "Home Office",
+    readTime: "9 min",
+    relatedProducts: [
+      "benq-gw2790-monitor-eye-care",
+      "invision-mx200-brazo-monitor",
+      "yeelight-barra-luz-monitor-mando",
+      "asus-va27dqsb-monitor-27-ajustable",
+    ],
+    relatedPosts: [
+      "mejor-monitor-home-office-2025",
+      "monitor-4k-vs-full-hd-trabajo-remoto",
+      "home-office-setup-productivo-guia",
+      "dolor-espalda-trabajar-casa-soluciones",
+    ],
+    categoryCta: { href: "/tienda/monitores", text: "Ver monitores para home office →" },
+  },
+  {
     slug: "mejores-teclados-mecanicos-trabajar-oficina",
     title: "Teclado mecánico para oficina y teletrabajo: cómo elegirlo y modelos con ñ",
     seoTitle: "Mejores teclados mecánicos para trabajar en 2026",
