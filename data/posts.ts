@@ -19,6 +19,7 @@ export const posts: Post[] = [
     title: "Pasos legales para montar un negocio online en España: alta, Seguridad Social y web",
     seoTitle: "Pasos legales para montar un negocio online",
     excerpt: "Qué trámites hacer para montar un negocio online en España: alta censal (modelo 036), Seguridad Social, datos obligatorios en la web, protección de datos y cookies, con fuentes oficiales.",
+    image: "/images/blog/pasos-legales-montar-negocio-online-espana.jpg",
     date: "2026-11-11",
     category: "Emprender Online",
     readTime: "9 min",
