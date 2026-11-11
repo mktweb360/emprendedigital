@@ -1720,7 +1720,7 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "SiteGround", "Webempresa", "ProfesionalHosting"],
       rows: [
-        ["Precio de entrada", "Desde ~3,99 €/mes", "Desde ~3,95 €/mes", "Desde ~1,99 €/mes"],
+        ["Precio de entrada", "Varía según plan y oferta: consúltalo en su web", "Varía según plan y oferta: consúltalo en su web", "Varía según plan y oferta: consúltalo en su web"],
         ["Servidores en España", "Sí", "Sí", "Sí"],
         ["Soporte en español", "24/7 chat/ticket", "24/7 teléfono+chat", "Horario laboral"],
         ["SSL gratuito", "Sí", "Sí", "Sí"],
@@ -1894,7 +1894,7 @@ const articleContent: Record<string, {
       headers: ["Criterio", "SiteGround", "Webempresa", "ProfesionalHosting"],
       rows: [
         ["Velocidad WordPress", "Muy alta", "Alta", "Buena"],
-        ["Precio de entrada", "~3,99 €/mes", "~3,95 €/mes", "~1,99 €/mes"],
+        ["Precio de entrada", "Varía según plan y oferta: consúltalo en su web", "Varía según plan y oferta: consúltalo en su web", "Varía según plan y oferta: consúltalo en su web"],
         ["Precio de renovación", "Sube notablemente", "Predecible", "Sin sorpresas"],
         ["Soporte en español", "Chat 24/7", "Teléfono+chat 24/7", "Horario laboral"],
         ["Staging", "Sí", "Sí", "Según plan"],
@@ -2415,6 +2415,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   const content = articleContent[slug];
   const relatedProducts = post.relatedProducts?.map((s) => getProductBySlug(s)).filter((p) => p && !p.unavailable) ?? [];
+  const tieneEnlacesAfiliado = relatedProducts.length > 0 || (content?.sections ?? []).some((sec) => sec.productSlug);
   const relatedPosts = post.relatedPosts?.map((s) => getPostBySlug(s)).filter(Boolean) ?? [];
   const relatedSlugs = new Set([post.slug, ...relatedPosts.map((p) => p!.slug)]);
   const sameCategoryPosts = posts
@@ -2510,7 +2511,7 @@ export default async function BlogPostPage({ params }: Props) {
       <div className="max-w-6xl mx-auto px-4 py-10">
       <div className="lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 lg:items-start">
       <div>
-        {relatedProducts.length > 0 && <AffiliateDisclosure />}
+        {tieneEnlacesAfiliado && <AffiliateDisclosure />}
 
         {post.image && (
           <div className="mb-8 -mx-4 sm:-mx-6 overflow-hidden rounded-xl">
