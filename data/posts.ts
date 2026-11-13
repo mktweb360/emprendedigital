@@ -15,6 +15,22 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "pasos-legales-montar-negocio-online-espana",
+    title: "Pasos legales para montar un negocio online en España: alta, Seguridad Social y web",
+    seoTitle: "Pasos legales para montar un negocio online",
+    excerpt: "Qué trámites hacer para montar un negocio online en España: alta censal (modelo 036), Seguridad Social, datos obligatorios en la web, protección de datos y cookies, con fuentes oficiales.",
+    image: "/images/blog/pasos-legales-montar-negocio-online-espana.jpg",
+    date: "2026-11-11",
+    category: "Emprender Online",
+    readTime: "9 min",
+    relatedPosts: [
+      "como-empezar-negocio-online-desde-casa-2025",
+      "herramientas-gratuitas-validar-idea-negocio-online",
+      "web-que-genera-clientes-que-revisar",
+      "mejor-hosting-web-emprendedores-2025",
+    ],
+  },
+  {
     slug: "seguridad-teletrabajo-checklist-contrasenas-wifi-copias",
     title: "Seguridad al teletrabajar: checklist de contraseñas, doble factor, wifi y copias",
     seoTitle: "Checklist de seguridad para teletrabajar",

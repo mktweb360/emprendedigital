@@ -72,6 +72,121 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "pasos-legales-montar-negocio-online-espana": {
+    "intro": "Montar un negocio online parece cosa de una web y un producto, pero en España hay cuatro frentes que conviene tener claros antes de cobrar el primer euro: el alta en Hacienda, la situación ante la Seguridad Social, la información que tu web debe mostrar y el tratamiento de datos y cookies. Esta guía recoge lo que dicen las fuentes oficiales sobre cada uno, sin entrar en cifras que cambian cada año ni en cálculos fiscales que dependen de tu caso. Es información general y no sustituye el consejo de un gestor o asesor.",
+    "sections": [
+      {
+        "heading": "1. Cuándo empieza la obligación de darte de alta",
+        "body": "La Agencia Tributaria indica que la declaración censal de alta se presenta antes de iniciar la actividad. Y por «iniciar» no hay que entender solo cobrar: la Orden EHA/1274/2007 considera inicio de actividad el momento en que se realizan entregas o prestaciones de servicios, se adquieren bienes o servicios con la intención de empezar, se efectúan cobros o pagos o se contrata personal. Dicho de otro modo, comprar el dominio y el hosting para un proyecto que aún no vende es una cosa y empezar a operar es otra; si dudas en qué lado estás, consúltalo antes de dar el paso."
+      },
+      {
+        "heading": "2. El alta censal: modelo 036",
+        "body": "El trámite de alta ante Hacienda se hace con el modelo 036 de declaración censal, que se presenta en la sede electrónica de la Agencia Tributaria. Ahí declaras la actividad, el domicilio fiscal y los regímenes de IVA e IRPF que te corresponden. Una novedad práctica: el modelo 037 simplificado quedó suprimido por la Orden HAC/1526/2024 y desde el 3 de febrero de 2025 se usa el 036 para todos. Si más adelante cambian tus datos o dejas la actividad, también hay que comunicarlo con el mismo modelo, en el plazo de un mes."
+      },
+      {
+        "heading": "3. Seguridad Social: el régimen de autónomos",
+        "body": "Si vas a ejercer la actividad por cuenta propia de forma habitual, lo normal es el alta en el régimen de autónomos (RETA). Desde el sistema vigente, la cotización se calcula según los rendimientos netos que prevés obtener, repartidos en tramos, y puedes ajustar tu base hasta seis veces al año si tus ingresos reales cambian. Las cuantías de cada tramo se actualizan con frecuencia, así que no las encontrarás aquí: consulta la tabla vigente en la web de la Seguridad Social antes de decidir y, si es posible, contrástala con un gestor."
+      },
+      {
+        "heading": "4. Lo que tu web debe decir de ti",
+        "body": "La Ley 34/2002 de servicios de la sociedad de la información (LSSI) obliga a quien presta servicios por internet con carácter económico a mostrar de forma permanente, fácil y gratuita determinada información: nombre o denominación social, domicilio, correo electrónico, NIF y, si procede, los datos de inscripción registral. Si ofreces precios, deben indicar si incluyen impuestos. En la práctica esto se resuelve con un aviso legal visible desde todas las páginas, normalmente en el pie."
+      },
+      {
+        "heading": "5. Protección de datos y cookies",
+        "body": "En cuanto tu web recoge datos personales (un formulario de contacto, una suscripción) o usa cookies que no son estrictamente necesarias, entran en juego el RGPD y la LSSI. Con la política de privacidad informas de qué datos recoges, con qué finalidad y cómo ejercer los derechos; con la política de cookies, de qué cookies usas y para qué, y el aviso o panel de cookies permite aceptar, rechazar o configurar. La Agencia Española de Protección de Datos tiene una guía de cookies y la herramienta gratuita Facilita RGPD, pensada para autónomos y pymes que tratan datos de bajo riesgo."
+      },
+      {
+        "heading": "6. Lo que este artículo no resuelve",
+        "body": "Hay decisiones que dependen de tu situación y que no deberías tomar con una guía general: qué epígrafe del IAE corresponde a tu actividad, qué régimen de IVA e IRPF te conviene, cómo tributan tus ingresos concretos, si te compensa constituir una sociedad o si tienes bonificaciones aplicables. Una primera consulta con un gestor suele salir más barata que corregir después un alta mal hecha."
+      }
+    ],
+    "comparison": {
+      "headers": [
+        "Frente",
+        "Qué es",
+        "Dónde se gestiona"
+      ],
+      "rows": [
+        [
+          "Alta en Hacienda",
+          "Declaración censal (modelo 036), antes de iniciar la actividad",
+          "Sede electrónica de la Agencia Tributaria"
+        ],
+        [
+          "Seguridad Social",
+          "Alta en el régimen de autónomos y elección de base según rendimientos netos",
+          "Seguridad Social (tabla de cotización vigente)"
+        ],
+        [
+          "Información de la web",
+          "Datos de identificación del titular según el artículo 10 de la LSSI",
+          "En tu propia web (aviso legal)"
+        ],
+        [
+          "Datos y cookies",
+          "Política de privacidad, política de cookies y gestión del consentimiento",
+          "Tu web; guías y Facilita RGPD de la AEPD"
+        ]
+      ]
+    },
+    "conclusion": "El orden práctico es este: valida primero la idea con calma, consulta con un gestor qué alta y qué régimen te encajan, date de alta antes de empezar a operar, deja la web con su aviso legal, su política de privacidad y su gestión de cookies, y revisa cada cierto tiempo las cuantías de la Seguridad Social, que cambian. Hacerlo bien al principio cuesta poco; improvisarlo cuando ya hay ventas, bastante más.",
+    "sources": [
+      {
+        "label": "Agencia Tributaria: declaración censal de alta, modelo 036 (consultado el 11/11/2026)",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/procedimientos/G322.shtml"
+      },
+      {
+        "label": "Agencia Tributaria: modelo 036, presentación y supresión del modelo 037 (consultado el 11/11/2026)",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026/informacion-sobre-presentacion-modelos-no-periodicos/modelo-036.html"
+      },
+      {
+        "label": "BOE: Orden EHA/1274/2007, artículo 11, inicio de actividad (consultado el 11/11/2026)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-9508"
+      },
+      {
+        "label": "Seguridad Social: cotización de los trabajadores autónomos (consultado el 11/11/2026)",
+        "url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/CotizacionRecaudacionTrabajadores/10721/10724/1320/1322"
+      },
+      {
+        "label": "BOE: Ley 34/2002 de servicios de la sociedad de la información, artículo 10 (consultado el 11/11/2026)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758"
+      },
+      {
+        "label": "Ministerio de Transformación Digital: obligaciones y responsabilidades de la LSSI (consultado el 11/11/2026)",
+        "url": "https://lssi.mineco.gob.es/LA-LEY/ASPECTOS-BASICOS/Paginas/obligaciones-responsabilidades.aspx"
+      },
+      {
+        "label": "AEPD: guía sobre el uso de las cookies (consultado el 11/11/2026)",
+        "url": "https://www.aepd.es/guias/guia-cookies.pdf"
+      },
+      {
+        "label": "AEPD: protección de datos paso a paso para pymes y autónomos (consultado el 11/11/2026)",
+        "url": "https://www.aepd.es/infografias/ayuda-rgpd-pymes-autonomos.pdf"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo empezar a vender y darme de alta después?",
+        "a": "No es lo que indica la Agencia Tributaria: la declaración censal de alta se presenta antes de iniciar la actividad, y la Orden EHA/1274/2007 incluye entre los supuestos de inicio los cobros, los pagos y la contratación de personal, no solo la primera venta."
+      },
+      {
+        "q": "¿Qué modelo se usa para darse de alta en Hacienda?",
+        "a": "El modelo 036 de declaración censal. El modelo 037 quedó suprimido por la Orden HAC/1526/2024 y desde el 3 de febrero de 2025 se utiliza el 036 para todos los casos."
+      },
+      {
+        "q": "¿Cuánto tengo que cotizar como autónomo?",
+        "a": "Depende de tus rendimientos netos y del tramo que corresponda, y las cuantías se actualizan con frecuencia. Consulta la tabla vigente en la web de la Seguridad Social y, si puedes, contrástala con un gestor."
+      },
+      {
+        "q": "¿Mi web necesita aviso legal si solo tiene un blog?",
+        "a": "Si la web tiene finalidad económica, por ejemplo vender o monetizar con publicidad o afiliación, la LSSI exige mostrar los datos de identificación del titular. Si tienes dudas sobre tu caso concreto, pregúntalo a un asesor."
+      },
+      {
+        "q": "¿Necesito política de cookies si solo uso analítica?",
+        "a": "Las cookies de analítica no suelen considerarse estrictamente necesarias, así que la guía de la AEPD pide informar de ellas y gestionar el consentimiento. Revisa la guía para ver cómo aplicarlo a tu configuración."
+      }
+    ]
+  },
   "seguridad-teletrabajo-checklist-contrasenas-wifi-copias": {
     "intro": "Cuando trabajas desde casa, tu salón pasa a ser la red de la empresa. No hay un departamento de informática detrás del router ni nadie que te recuerde actualizar el portátil, y un fallo tonto (la misma contraseña en cinco servicios, una copia que no existe) puede costarte documentos de clientes o semanas de trabajo. Esta checklist reúne las medidas que más pesan y que cualquiera puede aplicar en una tarde, apoyadas en lo que recomienda INCIBE, el Instituto Nacional de Ciberseguridad, y en su servicio para ciudadanos, la Oficina de Seguridad del Internauta. No hace falta ser técnico; sí conviene hacerlas en orden.",
     "sections": [
