@@ -50,7 +50,7 @@ function withInternalLinks(text: string): ReactNode {
           {m[1]}
         </Link>
       ) : (
-        <a key={i} href={m[2]} target="_blank" rel="noopener" className={cls}>
+        <a key={i} href={m[2]} target="_blank" rel={m[2].includes("clk.tradedoubler.com") ? "sponsored noopener" : "noopener"} className={cls}>
           {m[1]}
         </a>
       )
@@ -1817,7 +1817,7 @@ const articleContent: Record<string, {
     sections: [
       {
         heading: "Los criterios que de verdad importan",
-        body: "Al elegir hosting, seis factores marcan la diferencia: velocidad en España (no en servidores de EE.UU.), soporte en español y en horario útil, precio de renovación (muchos servicios entran baratos y se disparan al renovar), certificado SSL incluido, backups automáticos diarios y un panel de control intuitivo. El error más común es fijarse solo en el precio de entrada: hay que calcular el coste a precio de renovación, que es el que pagarás la mayor parte del tiempo.",
+        body: "Al elegir hosting, seis factores marcan la diferencia: velocidad en España (no en servidores de EE.UU.), soporte en español y en horario útil, precio de renovación (muchos servicios entran baratos y se disparan al renovar), certificado SSL incluido, backups automáticos diarios y un panel de control intuitivo. El error más común es fijarse solo en el precio de entrada: hay que calcular el coste a precio de renovación, que es el que pagarás la mayor parte del tiempo. Si quieres valorar otra opción, [Hostinger](https://clk.tradedoubler.com/click?p=333674&a=3505848) también ofrece alojamiento web; aplica con ella los mismos seis criterios antes de decidir, sobre todo el precio de renovación y la ubicación de los servidores.",
       },
       {
         heading: "SiteGround: rendimiento y soporte para WordPress",
