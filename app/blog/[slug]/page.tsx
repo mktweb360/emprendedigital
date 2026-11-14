@@ -72,6 +72,118 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "verifactu-factura-electronica-fechas-autonomos": {
+    "intro": "Si facturas con un programa o una aplicación, Verifactu te afecta, y las fechas han cambiado tantas veces que es fácil perderse. A 14/11/2026 hay dos cosas que conviene separar: las fechas que están en vigor, fijadas por el Real Decreto-ley 15/2025, y un aplazamiento que Hacienda ha anunciado el 5 de octubre de 2026 pero que la Agencia Tributaria presenta como previsión. Esta guía explica qué dice cada fuente oficial, cómo encaja la factura electrónica entre empresas y autónomos, y qué puedes revisar ya sin esperar a que se aclare el calendario. Es información general y no sustituye el consejo de tu gestor o asesor.",
+    "sections": [
+      {
+        "heading": "Qué es Verifactu y a quién va dirigido",
+        "body": "Verifactu es la forma de llamar al Reglamento de sistemas informáticos de facturación (Real Decreto 1007/2023, de 5 de diciembre), que impone requisitos a los programas con los que se expiden facturas. La Agencia Tributaria explica que el objetivo es evitar o dificultar y detectar el fraude en ese proceso. En resumen, cada vez que se emite una factura el sistema debe generar un registro de facturación con medidas de seguridad, como una huella de sus datos y la referencia al registro anterior; ese registro se guarda (modalidad no VERI*FACTU) o se envía a la Agencia Tributaria (modalidad VERI*FACTU). El ámbito concreto tiene condiciones y exclusiones, por ejemplo quienes están obligados al Suministro Inmediato de Información (SII), así que conviene consultar las preguntas frecuentes de la Agencia Tributaria sobre ámbito de aplicación o preguntar a tu gestor."
+      },
+      {
+        "heading": "Fechas en vigor a 14/11/2026",
+        "body": "Según la nota informativa de la Agencia Tributaria, y de acuerdo con la modificación introducida por el Real Decreto-ley 15/2025, de 2 de diciembre, las entidades que presentan el Impuesto sobre Sociedades deben tener adaptados sus sistemas antes del 1 de enero de 2027, y el resto de obligados tributarios, antes del 1 de julio de 2027. Dentro de ese resto están los autónomos que facturan con un sistema informático. La misma nota explica que el periodo previo a cada fecha es un periodo de pruebas: se puede dejar de remitir registros de prueba con un sistema VERI*FACTU y usar otros sistemas para facturar hasta la fecha límite."
+      },
+      {
+        "heading": "Lo que Hacienda anunció el 5 de octubre de 2026",
+        "body": "El Ministerio de Hacienda publicó ese día una nota con la previsión de aplazar las obligaciones pendientes del Real Decreto 1007/2023 hasta octubre de 2028, para hacerlas coincidir con la obligatoriedad de la factura electrónica para empresarios y profesionales cuya facturación anual no supere los 8 millones de euros. La nota añade que, una vez aprobada esa alineación de calendarios, se abordará otra modificación centrada en la convergencia entre ambos sistemas. La sede de la Agencia Tributaria recoge la comunicación como previsión de ampliación del plazo. En las fuentes que hemos consultado no figura una norma publicada que la recoja, y alguna publicación especializada la da por aprobada, así que antes de tomar decisiones comprueba el BOE o pregúntalo a tu gestor: mientras no haya norma, las fechas legalmente vigentes siguen siendo las de 2027."
+      },
+      {
+        "heading": "Factura electrónica entre empresas: otro calendario",
+        "body": "La factura electrónica obligatoria entre empresarios y profesionales es una obligación distinta de Verifactu. Según el calendario publicado en el BOE el 5 de octubre de 2026 y recogido por varias publicaciones especializadas, la fecha es el 6 de octubre de 2027 para quienes facturan más de 8 millones de euros y el 6 de octubre de 2028 para el resto. Es esa segunda fecha, la de pymes y autónomos, la que Hacienda quiere que coincida con Verifactu. Contrasta las fechas exactas con el texto del BOE, porque aquí solo las resumimos."
+      },
+      {
+        "heading": "Qué revisar ahora si facturas desde un negocio online",
+        "body": "Tres comprobaciones sin coste. Primera: averigua con qué sistema emites facturas hoy (una aplicación, la plataforma de tu tienda, una hoja de cálculo) y si su proveedor ha anunciado la adaptación al reglamento. Segunda: pregunta a tu gestor si estás dentro del ámbito de aplicación y desde qué fecha, porque depende de tu forma jurídica y de cómo factures. Tercera: guarda copia de las facturas y de tus datos de facturación, que tendrás que poder migrar si cambias de programa. Si estás empezando, el resto de trámites iniciales están en la guía de [pasos legales para montar un negocio online](/blog/pasos-legales-montar-negocio-online-espana). Nuestra recomendación, que no es un dato oficial: planifica con las fechas vigentes y trata el aplazamiento como un margen extra, no como un hecho."
+      },
+      {
+        "heading": "Qué no sabemos todavía",
+        "body": "Falta saber si y cuándo se publicará la norma de aplazamiento, qué día concreto de octubre de 2028 sería, y cómo se concretará la convergencia entre Verifactu y la factura electrónica. Actualizaremos esta guía cuando haya texto publicado en el BOE."
+      }
+    ],
+    "comparison": {
+      "headers": [
+        "Obligación",
+        "Fecha vigente",
+        "Qué se ha anunciado"
+      ],
+      "rows": [
+        [
+          "Verifactu: sociedades (Impuesto sobre Sociedades)",
+          "Antes del 1 de enero de 2027",
+          "Hacienda prevé octubre de 2028; sin norma localizada"
+        ],
+        [
+          "Verifactu: resto de obligados, autónomos incluidos",
+          "Antes del 1 de julio de 2027",
+          "Hacienda prevé octubre de 2028; sin norma localizada"
+        ],
+        [
+          "Factura electrónica entre empresas: facturación superior a 8 M€",
+          "6 de octubre de 2027 (según el calendario del BOE de 5/10/2026)",
+          "Sin cambios anunciados"
+        ],
+        [
+          "Factura electrónica entre empresas: resto, autónomos incluidos",
+          "6 de octubre de 2028 (según el calendario del BOE de 5/10/2026)",
+          "Sin cambios anunciados"
+        ]
+      ]
+    },
+    "conclusion": "El resumen operativo es corto: las fechas legales de Verifactu siguen siendo el 1 de enero de 2027 para sociedades y el 1 de julio de 2027 para el resto, y Hacienda ha anunciado que prevé llevarlas a octubre de 2028 junto con la factura electrónica de pymes y autónomos, pero la Agencia Tributaria lo presenta como previsión. Entre tanto, lo útil es saber con qué sistema facturas, consultar a tu gestor si te afecta y revisar el BOE antes de asumir el aplazamiento. Esta guía es información general, no asesoramiento fiscal ni jurídico.",
+    "sources": [
+      {
+        "label": "Ministerio de Hacienda — Nota informativa de 5/10/2026: previsión de modificación de los plazos de aplicación de las obligaciones pendientes del Real Decreto 1007/2023 y convergencia con la factura electrónica (consultado el 14/11/2026)",
+        "url": "https://www.hacienda.gob.es/sgt/gabsehacienda/nota-informativa-verifactu.pdf"
+      },
+      {
+        "label": "Agencia Tributaria — Sistemas Informáticos de Facturación (SIF) y VERI*FACTU (consultado el 14/11/2026)",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/iva/sistemas-informaticos-facturacion-verifactu.html"
+      },
+      {
+        "label": "Agencia Tributaria — Nota informativa: ampliación del plazo de adaptación de los SIF, según el Real Decreto-ley 15/2025 (consultado el 14/11/2026)",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/iva/sistemas-informaticos-facturacion-verifactu/nota-informativa-ampliacion-plazo-adaptacion-facturacion.html"
+      },
+      {
+        "label": "Agencia Tributaria — Preguntas frecuentes sobre SIF y VERI*FACTU: ámbitos de aplicación (consultado el 14/11/2026)",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/iva/sistemas-informaticos-facturacion-verifactu/preguntas-frecuentes/cuestiones-generales-ambitos-aplicacion.html"
+      },
+      {
+        "label": "Agencia Tributaria — 5.12 VERI*FACTU, folleto de actividades económicas (consultado el 14/11/2026)",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/folleto-actividades-economicas/5-impuesto-sobre-valor-anadido/5_12-veri-factu.html"
+      },
+      {
+        "label": "BOE núm. 247, de 5 de octubre de 2026, disposición 20587 (consultado el 14/11/2026)",
+        "url": "https://www.boe.es/boe/dias/2026/10/05/pdfs/BOE-A-2026-20587.pdf"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuándo es obligatorio Verifactu?",
+        "a": "Según la Agencia Tributaria, y de acuerdo con el Real Decreto-ley 15/2025, antes del 1 de enero de 2027 para las entidades que presentan el Impuesto sobre Sociedades y antes del 1 de julio de 2027 para el resto de obligados. Esas son las fechas en vigor a 14/11/2026."
+      },
+      {
+        "q": "¿Se ha aplazado Verifactu a octubre de 2028?",
+        "a": "Hacienda anunció el 5 de octubre de 2026 que prevé aplazar las obligaciones pendientes hasta octubre de 2028. La sede de la Agencia Tributaria lo recoge como previsión. En las fuentes consultadas no figura una norma publicada, así que comprueba el BOE antes de darlo por hecho."
+      },
+      {
+        "q": "¿Verifactu y la factura electrónica son lo mismo?",
+        "a": "No. Verifactu fija requisitos para los programas que emiten facturas; la factura electrónica obligatoria entre empresarios y profesionales es otra obligación con su propio calendario. Hacienda quiere hacerlas coincidir en octubre de 2028 para pymes y autónomos."
+      },
+      {
+        "q": "¿Qué es el periodo de pruebas?",
+        "a": "Según la Agencia Tributaria, el periodo previo a cada fecha límite es un periodo de pruebas en el que se puede dejar de remitir registros de prueba con un sistema VERI*FACTU y utilizar otros sistemas para facturar hasta la fecha que corresponda."
+      },
+      {
+        "q": "¿Tengo que comunicar en el modelo 036 que uso VERI*FACTU?",
+        "a": "Según las preguntas frecuentes de la Agencia Tributaria, no es necesario comunicar en el modelo 036 que se van a remitir los registros de facturación mediante un sistema en modalidad VERI*FACTU."
+      },
+      {
+        "q": "¿Qué hago ahora si soy autónomo?",
+        "a": "Averigua con qué sistema facturas, pregunta a tu gestor si estás en el ámbito de aplicación y desde cuándo, y comprueba si tu proveedor de software ha anunciado la adaptación. No des por aprobado el aplazamiento hasta ver la norma."
+      }
+    ]
+  },
+
   "pasos-legales-montar-negocio-online-espana": {
     "intro": "Montar un negocio online parece cosa de una web y un producto, pero en España hay cuatro frentes que conviene tener claros antes de cobrar el primer euro: el alta en Hacienda, la situación ante la Seguridad Social, la información que tu web debe mostrar y el tratamiento de datos y cookies. Esta guía recoge lo que dicen las fuentes oficiales sobre cada uno, sin entrar en cifras que cambian cada año ni en cálculos fiscales que dependen de tu caso. Es información general y no sustituye el consejo de un gestor o asesor.",
     "sections": [
