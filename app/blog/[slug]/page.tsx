@@ -118,7 +118,7 @@ const articleContent: Record<string, {
           "Hacienda prevé octubre de 2028; sin norma localizada"
         ],
         [
-          "Factura electrónica entre empresas: facturación superior a 8 M€",
+          "Factura electrónica entre empresas: facturación superior a 8 millones de euros",
           "6 de octubre de 2027 (según el calendario del BOE de 5/10/2026)",
           "Sin cambios anunciados"
         ],
