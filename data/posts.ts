@@ -15,6 +15,22 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "verifactu-factura-electronica-fechas-autonomos",
+    title: "Verifactu y factura electrónica: fechas vigentes y aplazamiento anunciado para autónomos y sociedades",
+    seoTitle: "Verifactu y factura electrónica: fechas clave",
+    excerpt: "Qué fechas de Verifactu están en vigor, qué ha anunciado Hacienda para octubre de 2028, cómo encaja la factura electrónica y qué conviene revisar ahora, con fuentes oficiales.",
+    image: "/images/blog/verifactu-factura-electronica-fechas-autonomos.jpg",
+    date: "2026-11-14",
+    category: "Emprender Online",
+    readTime: "7 min",
+    relatedPosts: [
+      "pasos-legales-montar-negocio-online-espana",
+      "como-empezar-negocio-online-desde-casa-2025",
+      "web-que-genera-clientes-que-revisar",
+      "herramientas-gratuitas-validar-idea-negocio-online",
+    ],
+  },
+  {
     slug: "pasos-legales-montar-negocio-online-espana",
     title: "Pasos legales para montar un negocio online en España: alta, Seguridad Social y web",
     seoTitle: "Pasos legales para montar un negocio online",
@@ -28,6 +44,7 @@ export const posts: Post[] = [
       "herramientas-gratuitas-validar-idea-negocio-online",
       "web-que-genera-clientes-que-revisar",
       "mejor-hosting-web-emprendedores-2025",
+      "verifactu-factura-electronica-fechas-autonomos",
     ],
   },
   {
