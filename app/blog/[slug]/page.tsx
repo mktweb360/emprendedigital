@@ -10,6 +10,9 @@ import HostingBanner from "@/components/HostingBanner";
 import BlogSidebar from "@/components/BlogSidebar";
 import AdSenseAd from "@/components/AdSenseAd";
 import ProductThumb from "@/components/ProductThumb";
+import ArticleToc from "@/components/ArticleToc";
+import { anchorId } from "@/lib/anchors";
+import { pickPromo, promoUrl } from "@/lib/promo";
 
 // Categorías donde el hosting es una recomendación relevante para el lector.
 const HOSTING_BANNER_CATEGORIES = ["Emprender Online", "Trabajo Remoto"];
@@ -2644,6 +2647,16 @@ export default async function BlogPostPage({ params }: Props) {
   const relatedProducts = post.relatedProducts?.map((s) => getProductBySlug(s)).filter((p) => p && !p.unavailable) ?? [];
   const tieneEnlacesAfiliado = relatedProducts.length > 0 || (content?.sections ?? []).some((sec) => sec.productSlug);
   const relatedPosts = post.relatedPosts?.map((s) => getPostBySlug(s)).filter(Boolean) ?? [];
+  const toc = [
+    ...(content?.sections.map((sec) => ({ id: anchorId(sec.heading), label: sec.heading })) ?? []),
+    ...(content?.comparison ? [{ id: "comparativa", label: "Comparativa" }] : []),
+    ...(content ? [{ id: "conclusion", label: "Conclusión" }] : []),
+    ...(relatedProducts.length > 0 ? [{ id: "productos", label: "Productos mencionados" }] : []),
+    ...(content?.faqs && content.faqs.length > 0 ? [{ id: "faqs", label: "Preguntas frecuentes" }] : []),
+  ];
+  const promo = pickPromo(slug);
+  const promoHref = promoUrl(promo, "emprendedigital.es", slug);
+  const sidebarProducts = relatedProducts.map((p) => p && ({ slug: p.slug, name: p.name, href: `/tienda/${p.categorySlug}/${p.slug}`, image: p.image })).filter(Boolean) as { slug: string; name: string; href: string; image?: string }[];
   const relatedSlugs = new Set([post.slug, ...relatedPosts.map((p) => p!.slug)]);
   const sameCategoryPosts = posts
     .filter((p) => p.category === post.category && !relatedSlugs.has(p.slug))
@@ -2738,6 +2751,7 @@ export default async function BlogPostPage({ params }: Props) {
       <div className="max-w-6xl mx-auto px-4 py-10">
       <div className="lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 lg:items-start">
       <div>
+        <ArticleToc items={toc} variant="mobile" />
         {tieneEnlacesAfiliado && <AffiliateDisclosure />}
 
         {post.image && (
@@ -2758,7 +2772,7 @@ export default async function BlogPostPage({ params }: Props) {
               const found = section.productSlug ? getProductBySlug(section.productSlug) : undefined;
               const ctaProduct = found && !found.unavailable ? found : undefined;
               return (
-                <section key={section.heading} className="mb-8">
+                <section key={section.heading} id={anchorId(section.heading)} className="scroll-mt-24 mb-8">
                   <h2 className="text-xl font-extrabold text-gray-900 mb-3">{section.heading}</h2>
                   <p className="text-gray-700 leading-relaxed">{withInternalLinks(section.body)}</p>
                   {ctaProduct && (
@@ -2776,7 +2790,7 @@ export default async function BlogPostPage({ params }: Props) {
             })}
 
             {content.comparison && (
-              <section className="mb-8">
+              <section id="comparativa" className="scroll-mt-24 mb-8">
                 <h2 className="text-xl font-extrabold text-gray-900 mb-4">Comparativa</h2>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm border-collapse">
@@ -2803,7 +2817,7 @@ export default async function BlogPostPage({ params }: Props) {
               </section>
             )}
 
-            <section className="mb-8 bg-gray-50 border border-gray-200 rounded-xl p-5">
+            <section id="conclusion" className="scroll-mt-24 mb-8 bg-gray-50 border border-gray-200 rounded-xl p-5">
               <h2 className="text-lg font-extrabold text-gray-900 mb-3">Conclusión</h2>
               <p className="text-gray-700 leading-relaxed">{withInternalLinks(content.conclusion)}</p>
             </section>
@@ -2820,7 +2834,7 @@ export default async function BlogPostPage({ params }: Props) {
 
         <AdSenseAd placement="contenido" />
         {relatedProducts.length > 0 && (
-          <section className="mb-10">
+          <section id="productos" className="scroll-mt-24 mb-10">
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">Productos mencionados</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {relatedProducts.map((p) => p && (
@@ -2867,7 +2881,7 @@ export default async function BlogPostPage({ params }: Props) {
         )}
 
         {content?.faqs && content.faqs.length > 0 && (
-          <section className="mb-10">
+          <section id="faqs" className="scroll-mt-24 mb-10">
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">Preguntas frecuentes</h2>
             <div className="space-y-4">
               {content.faqs.map((faq) => (
@@ -2929,13 +2943,20 @@ export default async function BlogPostPage({ params }: Props) {
           </section>
         )}
 
+        <aside aria-label="Mkt Web 360" className="lg:hidden mb-8 rounded-xl border border-violet-100 bg-violet-50/60 p-4">
+          <p className="text-[11px] font-bold uppercase tracking-wide text-violet-700 mb-1">Mkt Web 360 · Nuestra agencia</p>
+          <p className="text-sm font-bold text-gray-900 mb-1">{promo.title}</p>
+          <p className="text-xs text-gray-600 leading-relaxed mb-3">{promo.text}</p>
+          <a href={promoHref} target="_blank" rel="noopener" className="text-sm font-semibold text-violet-700">{promo.cta} →</a>
+        </aside>
+
         <div className="border-t border-gray-200 pt-6">
           <Link href="/blog" className="text-indigo-700 hover:text-indigo-900 font-semibold text-sm">
             ← Volver al blog
           </Link>
         </div>
       </div>
-        <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
+        <BlogSidebar toc={toc} products={sidebarProducts} promo={promo} promoHref={promoHref} ctaHref="/tienda" ctaText="Ver más productos" />
       </div>
       </div>
     </>
