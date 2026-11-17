@@ -34,6 +34,16 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      { source: "/tienda/portatiles/apple-macbook-air-m3-13", destination: "/tienda/portatiles/apple-macbook-air-m5-13", permanent: true },
+      { source: "/tienda/portatiles/lenovo-thinkpad-x1-carbon-gen12", destination: "/tienda/portatiles/asus-zenbook-14-oled-ux3405", permanent: true },
+      { source: "/tienda/portatiles/hp-pavilion-plus-14-oled", destination: "/tienda/portatiles/hp-omnibook-5-14-oled-snapdragon", permanent: true },
+      { source: "/tienda/microfonos/elgato-wave3-microfono-condensador-usb", destination: "/tienda/microfonos/elgato-wave3-mk2-microfono-condensador-usb", permanent: true },
+      { source: "/tienda/escritorios/flexispot-e7-pro-escritorio-ajustable", destination: "/tienda/escritorios/flexispot-escritorio-elevable-120x60-tablero-entero", permanent: true },
+      { source: "/tienda/escritorios/flexispot-eg1-escritorio-ajustable", destination: "/tienda/escritorios/flexispot-escritorio-elevable-120x60-tablero-entero", permanent: true },
+      { source: "/tienda/hubs-docking/anker-powerexpand-13en1-docking", destination: "/tienda/hubs-docking", permanent: true },
+      { source: "/tienda/webcams/razer-kiyo-pro-webcam-streaming", destination: "/tienda/webcams/ugreen-finecam-lite-4k-webcam", permanent: true },
+      { source: "/tienda/hubs-docking/baseus-nomos-air-displaylink-12en1", destination: "/tienda/hubs-docking/baseus-docking-station-12en1", permanent: true },
+      { source: "/tienda/sillas-ergonomicas/protoarc-ec200-pro-silla-malla-reposabrazos-4d", destination: "/tienda/sillas-ergonomicas/sihoo-m57-silla-ergonomica", permanent: true },
       {
         source: "/mejores-portatiles-trabajo-remoto",
         destination: "/tienda/portatiles",
