@@ -100,6 +100,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/tienda/perifericos/logitech-c920-webcam-hd",
+        destination: "/tienda/webcams/logitech-c920-hd-pro-webcam",
+        permanent: true,
+      },
+      {
         source: "/tienda/webcams/logitech-c920-webcam-hd",
         destination: "/tienda/webcams/logitech-brio-4k-webcam",
         permanent: true,
