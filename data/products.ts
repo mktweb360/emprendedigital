@@ -364,7 +364,7 @@ export const products: Product[] = [
   {
     slug: "logitech-c270-hd-webcam-720p",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
-    name: "Logitech C270 Webcam HD 720p 30 fps con Micrófono",
+    name: "Logitech C270 Webcam HD 720p 30 fps",
     asin: "B01BGBJ8Y0",
     category: "Webcams",
     categorySlug: "webcams",
