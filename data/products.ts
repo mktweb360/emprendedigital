@@ -402,6 +402,26 @@ export const products: Product[] = [
     relatedPosts: ["mejor-webcam-videollamadas-trabajo-remoto", "iluminacion-videollamadas-home-office", "home-office-setup-productivo-guia"],
   },
   {
+    slug: "ugreen-webcam-1080p-30fps-usb-a",
+    // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
+    name: "UGREEN Webcam Full HD 1080P 30 fps USB-A",
+    asin: "B0C76ZD7KV",
+    category: "Webcams y cámaras",
+    categorySlug: "webcams",
+    categoryName: "Webcams y cámaras",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Webcam USB con sensor CMOS de 2 megapíxeles, 1080p a 30 fps, dos micrófonos omnidireccionales y foco fijo.",
+    fullDescription: "La webcam de UGREEN tiene un sensor CMOS de 2 megapíxeles y soporta 1080p a 30 fps. Según la ficha, incorpora dos micrófonos omnidireccionales con cancelación de ruido que captan el sonido hasta unos 3 m, es plug and play sin controladores en Windows, Linux, macOS y Android, y se puede fijar a la pantalla con un clip, apoyar en el escritorio o usar con trípode. Es de foco fijo.",
+    pros: ["1080p a 30 fps con sensor de 2 megapíxeles", "Dos micrófonos omnidireccionales con cancelación de ruido", "Plug and play, sin controladores, según la ficha", "Tres formas de instalarla: clip, escritorio o trípode"],
+    cons: ["Vendida por un tercero", "Foco fijo: no enfoca automáticamente", "No la hemos probado: la calidad real depende de la luz"],
+    specs: { "Marca": "UGREEN", "Resolución": "1080p a 30 fps", "Sensor": "CMOS de 2 megapíxeles", "Foco": "Fijo", "Conexión": "USB-A, plug and play" },
+    badge: "Full HD con foco fijo",
+    relatedPosts: ["mejor-webcam-videollamadas-trabajo-remoto", "iluminacion-videollamadas-home-office", "home-office-setup-productivo-guia"],
+  },
+  {
     slug: "logitech-c920-hd-pro-webcam",
     name: "Logitech C920 HD Pro Webcam Full HD 1080p 30fps",
     asin: "B006A2Q81M",
@@ -504,6 +524,26 @@ export const products: Product[] = [
   },
 
   // ILUMINACIÓN
+  {
+    slug: "neewer-basics-br60-aro-luz-videoconferencias",
+    // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
+    name: "NEEWER BR60 Aro de Luz 5 Pulgadas Videollamadas",
+    asin: "B0DCSHSSFF",
+    category: "Iluminación para streaming",
+    categorySlug: "iluminacion",
+    categoryName: "Iluminación para streaming",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Aro de luz de 5 pulgadas con clip y mini trípode de aleación de aluminio, pensado para videoconferencias.",
+    fullDescription: "El NEEWER BASICS BR60 es un aro de luz de 5 pulgadas para iluminar videollamadas. Según la ficha, forma parte de una línea sencilla de Neewer centrada en las funciones esenciales, incluye un clip y un mini trípode totalmente metálico, de aleación de aluminio, que soporta hasta 3 kg. La ficha no detalla aquí las prestaciones de luz; consúltalas antes de comprar.",
+    pros: ["Clip y mini trípode metálico incluidos", "El trípode soporta hasta 3 kg, según la ficha", "Tamaño compacto de 5 pulgadas", "Vendido y enviado por Amazon"],
+    cons: ["Un aro pequeño ilumina menos que un panel de luz mayor", "Hay que revisar en la ficha la temperatura de color y la potencia"],
+    specs: { "Marca": "NEEWER", "Modelo": "BR60", "Tamaño": "5 pulgadas", "Soporte": "Clip y mini trípode de aluminio, hasta 3 kg" },
+    badge: "Aro de luz compacto",
+    relatedPosts: ["mejor-webcam-videollamadas-trabajo-remoto", "iluminacion-videollamadas-home-office", "home-office-setup-productivo-guia"],
+  },
   {
     slug: "elgato-key-light-air",
     name: "Elgato Key Light Air MK.2 Panel LED para Streaming",
