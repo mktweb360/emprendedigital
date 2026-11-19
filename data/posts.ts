@@ -292,7 +292,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "10 min",
     relatedProducts: ["sihoo-m57-silla-ergonomica", "flexispot-escritorio-elevable-120x60-tablero-entero", "hbada-silla-ergonomica-pro"],
-    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "escritorio-regulable-altura-home-office", "setup-trabajo-remoto-productividad-maxima", "mejor-monitor-home-office-2025"],
+    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "escritorio-regulable-altura-home-office", "setup-trabajo-remoto-productividad-maxima", "mejor-monitor-home-office-2025", "montar-oficina-en-casa-5-pasos-ergonomia"],
     categoryCta: { href: "/tienda/sillas-ergonomicas", text: "Ver equipamiento home office →" },
   },
   {
@@ -306,7 +306,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "8 min",
     relatedProducts: ["sihoo-m57-silla-ergonomica", "hbada-silla-ergonomica-pro"],
-    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "escritorio-regulable-altura-home-office", "home-office-setup-productivo-guia", "hjh-office-ergohuman-slim-gen2-analisis"],
+    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "escritorio-regulable-altura-home-office", "home-office-setup-productivo-guia", "hjh-office-ergohuman-slim-gen2-analisis", "fatiga-visual-pantallas-trabajo-monitor-luz-pausas"],
     categoryCta: { href: "/tienda/sillas-ergonomicas", text: "Ver sillas ergonómicas →" },
   },
   {
@@ -348,7 +348,7 @@ export const posts: Post[] = [
     category: "Productividad",
     readTime: "8 min",
     relatedProducts: ["logitech-mx-keys-advanced-s", "logitech-mx-master-3s", "keychron-k2-pro-mecanico"],
-    relatedPosts: ["productividad-trabajando-desde-casa-habitos", "setup-trabajo-remoto-productividad-maxima", "trabajo-remoto-espana-guia-completa-2025"],
+    relatedPosts: ["productividad-trabajando-desde-casa-habitos", "setup-trabajo-remoto-productividad-maxima", "trabajo-remoto-espana-guia-completa-2025", "seguridad-teletrabajo-checklist-contrasenas-wifi-copias"],
     categoryCta: { href: "/tienda/perifericos", text: "Ver periféricos →" },
   },
   {
@@ -376,7 +376,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "7 min",
     relatedProducts: ["logitech-c920-hd-pro-webcam", "logitech-brio-4k-webcam", "blue-yeti-usb-microfono"],
-    relatedPosts: ["iluminacion-videollamadas-home-office", "mejores-auriculares-cancelacion-ruido-trabajo-2025", "setup-trabajo-remoto-productividad-maxima"],
+    relatedPosts: ["iluminacion-videollamadas-home-office", "mejores-auriculares-cancelacion-ruido-trabajo-2025", "setup-trabajo-remoto-productividad-maxima", "setup-streaming-podcast-casa"],
     categoryCta: { href: "/tienda/webcams", text: "Ver webcams →" },
   },
   {
@@ -404,7 +404,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "8 min",
     relatedProducts: ["elgato-key-light-air", "neewer-ring-light-18-pulgadas"],
-    relatedPosts: ["mejor-webcam-videollamadas-trabajo-remoto", "mejores-auriculares-cancelacion-ruido-trabajo-2025", "home-office-setup-productivo-guia"],
+    relatedPosts: ["mejor-webcam-videollamadas-trabajo-remoto", "mejores-auriculares-cancelacion-ruido-trabajo-2025", "home-office-setup-productivo-guia", "setup-streaming-podcast-casa"],
     categoryCta: { href: "/tienda/iluminacion", text: "Ver iluminación →" },
   },
   {
@@ -417,7 +417,7 @@ export const posts: Post[] = [
     date: "2025-07-17",
     category: "Home Office",
     readTime: "7 min",
-    relatedPosts: ["home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima", "escritorio-regulable-altura-home-office"],
+    relatedPosts: ["home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima", "escritorio-regulable-altura-home-office", "montar-oficina-en-casa-5-pasos-ergonomia"],
   },
   {
     slug: "mejor-hosting-web-emprendedores-2025",
@@ -442,7 +442,7 @@ export const posts: Post[] = [
     category: "Emprender Online",
     readTime: "10 min",
     relatedProducts: ["logitech-c920-hd-pro-webcam", "blue-yeti-usb-microfono", "elgato-wave3-mk2-microfono-condensador-usb"],
-    relatedPosts: ["mejor-hosting-web-emprendedores-2025", "hosting-wordpress-comparativa-espana-2025", "trabajo-remoto-espana-guia-completa-2025"],
+    relatedPosts: ["mejor-hosting-web-emprendedores-2025", "hosting-wordpress-comparativa-espana-2025", "trabajo-remoto-espana-guia-completa-2025", "pasos-legales-montar-negocio-online-espana", "herramientas-gratuitas-validar-idea-negocio-online", "verifactu-factura-electronica-fechas-autonomos"],
     categoryCta: { href: "/tienda/webcams", text: "Ver equipamiento para negocio online →" },
   },
   {
@@ -455,7 +455,7 @@ export const posts: Post[] = [
     date: "2025-07-20",
     category: "Trabajo Remoto",
     readTime: "9 min",
-    relatedPosts: ["productividad-trabajando-desde-casa-habitos", "home-office-setup-productivo-guia", "herramientas-productividad-trabajo-remoto-2025"],
+    relatedPosts: ["productividad-trabajando-desde-casa-habitos", "home-office-setup-productivo-guia", "herramientas-productividad-trabajo-remoto-2025", "seguridad-teletrabajo-checklist-contrasenas-wifi-copias"],
   },
   {
     slug: "productividad-trabajando-desde-casa-habitos",
@@ -494,7 +494,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "9 min",
     relatedProducts: ["lg-27u730-monitor-4k", "dell-s2725qc-monitor-4k-usbc", "benq-gw2790-monitor-eye-care"],
-    relatedPosts: ["home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima", "mejor-teclado-raton-trabajo-remoto"],
+    relatedPosts: ["home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima", "mejor-teclado-raton-trabajo-remoto", "tamano-monitor-distancia-24-27-32-pulgadas", "fatiga-visual-pantallas-trabajo-monitor-luz-pausas"],
     categoryCta: { href: "/tienda/monitores", text: "Ver monitores →" },
   },
   {
@@ -508,7 +508,7 @@ export const posts: Post[] = [
     category: "Productividad",
     readTime: "7 min",
     relatedProducts: ["lg-27u730-monitor-4k", "dell-s2725qc-monitor-4k-usbc", "benq-gw2790-monitor-eye-care"],
-    relatedPosts: ["mejor-monitor-home-office-2025", "home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima"],
+    relatedPosts: ["mejor-monitor-home-office-2025", "home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima", "tamano-monitor-distancia-24-27-32-pulgadas"],
     categoryCta: { href: "/tienda/monitores", text: "Ver monitores →" },
   },
   {
@@ -604,11 +604,7 @@ export const posts: Post[] = [
     readTime: "9 min",
     image: "/images/blog/mejor-microfono-usb-podcast-streaming-2026.jpg",
     relatedProducts: ["blue-yeti-usb-microfono", "elgato-wave3-mk2-microfono-condensador-usb", "hyperx-solocast-microfono", "fifine-microfono-usb-condensador"],
-    relatedPosts: [
-      "como-empezar-negocio-online-desde-casa-2025",
-      "mejor-webcam-videollamadas-trabajo-remoto",
-      "herramientas-ia-productividad-2025",
-    ],
+    relatedPosts: ["como-empezar-negocio-online-desde-casa-2025", "mejor-webcam-videollamadas-trabajo-remoto", "herramientas-ia-productividad-2025", "setup-streaming-podcast-casa"],
     categoryCta: { href: "/tienda/microfonos", text: "Ver micrófonos →" },
   },
   {
@@ -622,12 +618,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "9 min",
     relatedProducts: ["caldigit-ts4-thunderbolt-4-dock", "baseus-docking-station-12en1", "anker-powerexpand-8en1-doble-hdmi", "dell-s2725qc-monitor-4k-usbc"],
-    relatedPosts: [
-      "mejor-hub-usb-c-portatil-2025",
-      "mejor-monitor-home-office-2025",
-      "monitor-4k-vs-full-hd-trabajo-remoto",
-      "mejor-portatil-trabajar-desde-casa-mac-windows-arm-2026",
-    ],
+    relatedPosts: ["mejor-hub-usb-c-portatil-2025", "mejor-monitor-home-office-2025", "monitor-4k-vs-full-hd-trabajo-remoto", "mejor-portatil-trabajar-desde-casa-mac-windows-arm-2026", "tamano-monitor-distancia-24-27-32-pulgadas"],
     categoryCta: { href: "/tienda/hubs-docking", text: "Ver hubs y docking stations →" },
   },
   {
