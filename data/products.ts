@@ -219,6 +219,26 @@ export const products: Product[] = [
 
   // PERIFÉRICOS
   {
+    slug: "trust-verto-raton-vertical-ergonomico-cable",
+    // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Trust Verto Ratón Vertical Ergonómico con Cable",
+    asin: "B07FLZ3XSK",
+    category: "Teclados y ratones",
+    categorySlug: "perifericos",
+    categoryName: "Teclados y ratones",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Ratón vertical ergonómico con cable USB, planteado para reducir la tensión en la muñeca y el antebrazo.",
+    fullDescription: "Ratón vertical ergonómico de Trust con cable USB. Según la ficha, su forma vertical está pensada como solución a la tensión y las molestias que provoca el ratón convencional en la muñeca. Es una opción cableada, sin pilas ni conexión inalámbrica.",
+    pros: ["Forma vertical pensada para aliviar la tensión de la muñeca, según la ficha", "Con cable USB: sin pilas ni baterías", "Vendido y enviado por Amazon"],
+    cons: ["No lo hemos probado: la información procede de la ficha de Amazon", "Hay que acostumbrarse a la postura vertical y los primeros días se nota la diferencia", "El cable limita el movimiento frente a un ratón inalámbrico"],
+    specs: { "Marca": "Trust", "Modelo": "Verto", "Tipo": "Ratón vertical ergonómico", "Conexión": "Cable USB" },
+    badge: "Ergonómico y con cable",
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "montar-oficina-en-casa-5-pasos-ergonomia", "home-office-setup-productivo-guia"],
+  },
+  {
     slug: "logitech-mx-keys-advanced-s",
     name: "Logitech MX Keys S Teclado Inalámbrico",
     asin: "B07W6JPM9R",
@@ -279,6 +299,26 @@ export const products: Product[] = [
   },
 
   // MICRÓFONOS
+  {
+    slug: "razer-seiren-v3-mini-microfono-usb",
+    // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Razer Seiren V3 Mini Micrófono USB",
+    asin: "B0CMTQPWQ8",
+    category: "Micrófonos para podcast",
+    categorySlug: "microfonos",
+    categoryName: "Micrófonos para podcast",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Micrófono USB de condensador ultracompacto con patrón supercardioide, silencio táctil y amortiguador integrado.",
+    fullDescription: "Micrófono USB de condensador de Razer en formato ultracompacto. Según la ficha, lleva una cápsula de 14 mm, un patrón de captación supercardioide que aísla mejor la voz, un sensor Tap-to-Mute con indicador LED para silenciarlo al instante y un amortiguador incorporado para reducir el ruido. El soporte es inclinable, se puede desmontar para usarlo con brazo boom y funciona plug and play.",
+    pros: ["Cápsula de condensador de 14 mm y patrón supercardioide para aislar la voz", "Silencio táctil con indicador LED", "Soporte inclinable que se desmonta para brazo boom", "Plug and play por USB", "Vendido y enviado por Amazon"],
+    cons: ["No lo hemos probado: la información procede de la ficha de Amazon", "Un patrón supercardioide es más estrecho: hay que hablar bien de frente al micrófono", "Por tamaño y concepto está pensado para una sola voz, no para grabar varias personas con él"],
+    specs: { "Marca": "Razer", "Modelo": "Seiren V3 Mini", "Tipo": "Condensador USB", "Patrón": "Supercardioide", "Cápsula": "14 mm" },
+    badge: "Compacto con silencio táctil",
+    relatedPosts: ["mejor-microfono-usb-podcast-streaming-2026", "setup-streaming-podcast-casa", "home-office-setup-productivo-guia"],
+  },
   {
     slug: "blue-yeti-usb-microfono",
     name: "Logitech G Blue Yeti Micrófono USB para Grabación, Streaming y Podcast",
