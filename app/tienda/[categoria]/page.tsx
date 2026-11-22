@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categories, getProductsByCategory } from "@/data/products";
 import ProductThumb from "@/components/ProductThumb";
+import { posts } from "@/data/posts";
 
 type Props = { params: Promise<{ categoria: string }> };
 
@@ -138,7 +139,13 @@ export default async function CategoriaPage({ params }: Props) {
 
   const catProducts = getProductsByCategory(categoria);
   const guide = buyingGuides[categoria];
-  const related = relatedArticles[categoria] ?? [];
+  const relatedCurado = relatedArticles[categoria] ?? [];
+  const related = [
+    ...relatedCurado,
+    ...posts
+      .filter((p) => p.categoryCta?.href === `/tienda/${categoria}` && !relatedCurado.some((r) => r.href === `/blog/${p.slug}`))
+      .map((p) => ({ title: p.title, href: `/blog/${p.slug}` })),
+  ];
 
   const categoriesWithCount = categories.map((c) => ({
     ...c,
