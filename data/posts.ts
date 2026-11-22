@@ -63,6 +63,7 @@ export const posts: Post[] = [
   },
   {
     slug: "montar-oficina-en-casa-5-pasos-ergonomia",
+    categoryCta: { href: "/tienda/sillas-ergonomicas", text: "Ver sillas ergonómicas →" },
     title: "Cómo montar una oficina en casa en 5 pasos, con la ergonomía por delante",
     seoTitle: "Montar una oficina en casa en 5 pasos",
     excerpt: "Cinco pasos para montar una oficina en casa sin lesionarte: lugar y luz, mesa, silla, pantalla y portátil, y rutina de pausas, con los criterios del INSST y del Real Decreto 488/1997.",
@@ -78,6 +79,7 @@ export const posts: Post[] = [
   },
   {
     slug: "tamano-monitor-distancia-24-27-32-pulgadas",
+    categoryCta: { href: "/tienda/monitores", text: "Ver monitores para home office →" },
     title: "Qué tamaño de monitor elegir según tu distancia: 24, 27 o 32 pulgadas y resolución",
     seoTitle: "Monitor de 24, 27 o 32 pulgadas: cuál elegir",
     excerpt: "Elige entre un monitor de 24, 27 o 32 pulgadas según la distancia a tu mesa, con fórmulas de ángulo y distancia mínima, tabla de medidas y cuándo compensan Full HD, QHD o 4K.",
@@ -409,6 +411,7 @@ export const posts: Post[] = [
   },
   {
     slug: "organizar-cables-home-office-guia",
+    categoryCta: { href: "/tienda/escritorios", text: "Ver escritorios y mesas →" },
     image: "/images/blog/organizar-cables-home-office-guia.jpg",
     title: "Cómo organizar los cables del home office: guía práctica",
     seoTitle: "Cómo organizar los cables del home office",
@@ -447,6 +450,7 @@ export const posts: Post[] = [
   },
   {
     slug: "trabajo-remoto-espana-guia-completa-2025",
+    categoryCta: { href: "/tienda/portatiles", text: "Ver portátiles para trabajo remoto →" },
     image: "/images/blog/trabajo-remoto-espana-guia-completa-2025.jpg",
     title: "Trabajo remoto en España: guía completa para empleados y autónomos",
     seoTitle: "Trabajo remoto en España: empleados y autónomos",
