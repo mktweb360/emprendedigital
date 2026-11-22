@@ -1,7 +1,8 @@
-// Fichas de producto que se mantienen indexables (11/2026).
-// Criterio: las más citadas por las guías del blog (relatedProducts). El resto de fichas siguen
-// accesibles para el usuario, pero con noindex,follow y fuera del sitemap: Google AdSense evalúa
-// el sitio completo y las fichas plantilla de afiliado restaban valor al conjunto.
+// Fichas de producto indexables (revisado 22/11/2026).
+// Criterio: ficha viva (sin `unavailable`), citada al menos por un artículo del blog y con contenido propio
+// (descripción de 300 caracteres o más, 3 ventajas o más y 2 contras o más). Las 15 primeras son las ya
+// indexables antes de esta revisión. El resto de fichas siguen accesibles con noindex,follow y fuera del
+// sitemap. Si Google AdSense vuelve a señalar contenido de poco valor, se reduce esta lista.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "sihoo-m57-silla-ergonomica",
   "invision-mx200-brazo-monitor",
@@ -18,6 +19,56 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "rode-podmic-usb-microfono-xlr-usb",
   "hyperx-solocast-microfono",
   "ugreen-finecam-lite-4k-webcam",
+  "drift-dr175-silla-gaming-polipiel",
+  "acer-predator-rift-lite-silla-gaming",
+  "huanuo-brazo-monitor-13-32-9kg",
+  "huanuo-brazo-doble-monitor-13-32-9kg",
+  "logitech-c920-hd-pro-webcam",
+  "logitech-brio-4k-webcam",
+  "jabra-evolve2-55-auriculares",
+  "jbl-tune-510bt-auriculares",
+  "elgato-key-light-air",
+  "logitech-litra-glow-luz-streaming",
+  "neewer-ring-light-18-pulgadas",
+  "lg-27u730-monitor-4k",
+  "ergohuman-plus-silla-malla",
+  "hbada-silla-ergonomica-malla-oficina",
+  "ugreen-revodok-hub-usbc-10en1",
+  "fifine-microfono-usb-condensador",
+  "soundcore-space-one-auriculares",
+  "songmics-escritorio-electrico-balok",
+  "asus-va27dqsb-monitor-27-ajustable",
+  "baseus-docking-station-12en1",
+  "logitech-m650-raton-inalambrico-silencioso",
+  "caldigit-ts4-thunderbolt-4-dock",
+  "anker-powerexpand-8en1-doble-hdmi",
+  "anker-555-hub-usbc-8en1",
+  "apple-macbook-air-m5-13",
+  "asus-zenbook-a14-oled-snapdragon",
+  "hp-omnibook-5-14-oled-snapdragon",
+  "logitech-mx-master-4",
+  "sony-wh-1000xm6-auriculares",
+  "ergear-escritorio-elevable-120x60",
+  "flexispot-escritorio-elevable-120x60-tablero-entero",
+  "elgato-facecam-4k-webcam",
+  "neewer-nl-116ai-panel-led-escritorio",
+  "yeelight-barra-luz-monitor-mando",
+  "apple-macbook-pro-m5-14",
+  "logitech-mx-keys-mini",
+  "clouvou-silla-oficina-ergonomica-malla",
+  "songmics-silla-oficina-ergonomica-lumbar-4d",
+  "ergotopia-pureback-silla-mecanismo-sincronizado",
+  "steelcase-series-2-silla-ergonomica",
+  "lenovo-l27h-4a-monitor-qhd-usb-c",
+  "jabra-evolve2-55-auriculares-inalambricos",
+  "flexispot-e1-pro-escritorio-elevable-160x80",
+  "fezibo-escritorio-elevable-100x60",
+  "leitz-ergo-cosy-convertidor-escritorio",
+  "keychron-v6-ultra-8k-teclado-mecanico-iso-es",
+  "keychron-k2-ultra-8k-teclado-mecanico-75-iso-es",
+  "logitech-g413-tkl-se-teclado-mecanico",
+  "razer-blackwidow-v4-x-teclado-mecanico-es",
+  "royal-kludge-rk61-teclado-mecanico-60",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
