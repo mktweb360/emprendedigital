@@ -406,8 +406,8 @@ const articleContent: Record<string, {
       },
       {
         "heading": "Paso 3: la silla, que se ajuste a ti y no al revés",
-        "body": "El anexo del Real Decreto 488/1997 exige un asiento estable, con altura regulable y respaldo reclinable de inclinación ajustable, y menciona un reposapiés para quien lo desee. El INSST añade que la silla debe tener cinco apoyos en el suelo, el asiento con profundidad regulable para que el borde no presione las piernas, un respaldo con suave prominencia lumbar ajustable en altura e inclinación y ruedas adecuadas al suelo. Con esa lista en la mano, y como regla práctica habitual, el orden de ajuste es: altura del asiento hasta que tus pies apoyen en el suelo con las rodillas más o menos a 90°; profundidad para que quepan dos dedos entre el borde y la corva; lumbar en la curva baja de la espalda; reposabrazos para que los hombros queden relajados. Si los pies no llegan, usa un reposapiés. La ProtoArc EC200 Pro reúne varios de esos ajustes: profundidad de asiento de hasta 5 cm y lumbar regulable, aunque está pensada para estaturas de unos 163 a 185 cm. Hay más modelos en [nuestra comparativa de sillas ergonómicas](/blog/mejor-silla-ergonomica-home-office-2025).",
-        "productSlug": "protoarc-ec200-pro-silla-malla-reposabrazos-4d"
+        "body": "El anexo del Real Decreto 488/1997 exige un asiento estable, con altura regulable y respaldo reclinable de inclinación ajustable, y menciona un reposapiés para quien lo desee. El INSST añade que la silla debe tener cinco apoyos en el suelo, el asiento con profundidad regulable para que el borde no presione las piernas, un respaldo con suave prominencia lumbar ajustable en altura e inclinación y ruedas adecuadas al suelo. Con esa lista en la mano, y como regla práctica habitual, el orden de ajuste es: altura del asiento hasta que tus pies apoyen en el suelo con las rodillas más o menos a 90°; profundidad para que quepan dos dedos entre el borde y la corva; lumbar en la curva baja de la espalda; reposabrazos para que los hombros queden relajados. Si los pies no llegan, usa un reposapiés. La HOLLUDLE reúne varios de esos ajustes: profundidad de asiento ajustable, soporte lumbar regulable y reposabrazos 4D. Hay más modelos en [nuestra comparativa de sillas ergonómicas](/blog/mejor-silla-ergonomica-home-office-2025).",
+        "productSlug": "sihoo-m57-silla-ergonomica"
       },
       {
         "heading": "Paso 4: pantalla y portátil a la altura y distancia correctas",
@@ -798,13 +798,13 @@ const articleContent: Record<string, {
       },
       {
         "heading": "El apoyo lumbar: cojín suelto o soporte integrado",
-        "body": "Es la diferencia más clara. La mayoría de sillas gaming llevan un cojín lumbar suelto sujeto con cintas: se desplaza al moverte y no siempre queda a la altura de tu curva lumbar. Las sillas de oficina de gama media suelen integrar el soporte en el respaldo y regularlo en altura y, a veces, en profundidad, como la SONGMICS o la ProtoArc EC200 Pro. Hay excepciones: la Secretlab Titan Evo, que es gaming, lleva el lumbar integrado y ajustable en cuatro direcciones.",
+        "body": "Es la diferencia más clara. La mayoría de sillas gaming llevan un cojín lumbar suelto sujeto con cintas: se desplaza al moverte y no siempre queda a la altura de tu curva lumbar. Las sillas de oficina de gama media suelen integrar el soporte en el respaldo y regularlo en altura y, a veces, en profundidad, como la SONGMICS o la Ticova. Hay excepciones: la Secretlab Titan Evo, que es gaming, lleva el lumbar integrado y ajustable en cuatro direcciones.",
         "productSlug": "songmics-silla-oficina-ergonomica-lumbar-4d"
       },
       {
         "heading": "La profundidad de asiento, el ajuste que casi nunca tiene una gaming",
-        "body": "La NTP 1130 del INSST recomienda dejar unos 5 cm, el ancho de un puño, entre el borde del asiento y la parte de atrás de la rodilla. Para conseguirlo con personas de distinta estatura, el asiento tiene que desplazarse adelante y atrás. Es un ajuste habitual en sillas de oficina, como la ProtoArc EC200 Pro, que lo regula hasta 5 cm, o la Steelcase Series 2. En las sillas gaming del catálogo, la ficha no lo indica. Si mides menos de 1,65 m o más de 1,85 m, este dato pesa más que cualquier otro.",
-        "productSlug": "protoarc-ec200-pro-silla-malla-reposabrazos-4d"
+        "body": "La NTP 1130 del INSST recomienda dejar unos 5 cm, el ancho de un puño, entre el borde del asiento y la parte de atrás de la rodilla. Para conseguirlo con personas de distinta estatura, el asiento tiene que desplazarse adelante y atrás. Es un ajuste habitual en sillas de oficina, como la HOLLUDLE, con la profundidad de asiento ajustable, o la Steelcase Series 2. En las sillas gaming del catálogo, la ficha no lo indica. Si mides menos de 1,65 m o más de 1,85 m, este dato pesa más que cualquier otro.",
+        "productSlug": "sihoo-m57-silla-ergonomica"
       },
       {
         "heading": "Forma de baquet y laterales",
@@ -836,7 +836,7 @@ const articleContent: Record<string, {
       },
       {
         "heading": "Cuál elegir según tu uso",
-        "body": "Si teletrabajas la jornada completa y juegas poco, elige una silla de oficina con lumbar regulable y profundidad de asiento, como la ProtoArc EC200 Pro o la SONGMICS. Si juegas a menudo y trabajas algunas horas, una gaming bien elegida vale; la Secretlab Titan Evo es la que más ajustes de oficina reúne. Si juegas con mando y te reclinas mucho, la DRIFT DR175 o la Acer Predator Rift Lite. Y en todos los casos, ajústala bien: en [la guía de dolor de espalda al trabajar en casa](/blog/dolor-espalda-trabajar-casa-soluciones) explicamos qué más revisar, y en [la guía de brazos para monitor](/blog/brazo-monitor-como-elegir), cómo dejar la pantalla a la altura correcta."
+        "body": "Si teletrabajas la jornada completa y juegas poco, elige una silla de oficina con lumbar regulable y profundidad de asiento, como la HOLLUDLE o la SONGMICS. Si juegas a menudo y trabajas algunas horas, una gaming bien elegida vale; la Secretlab Titan Evo es la que más ajustes de oficina reúne. Si juegas con mando y te reclinas mucho, la DRIFT DR175 o la Acer Predator Rift Lite. Y en todos los casos, ajústala bien: en [la guía de dolor de espalda al trabajar en casa](/blog/dolor-espalda-trabajar-casa-soluciones) explicamos qué más revisar, y en [la guía de brazos para monitor](/blog/brazo-monitor-como-elegir), cómo dejar la pantalla a la altura correcta."
       }
     ],
     "comparison": {
@@ -879,14 +879,6 @@ const articleContent: Record<string, {
           "Altura y profundidad",
           "No",
           "Malla y espuma",
-          "Amazon"
-        ],
-        [
-          "ProtoArc EC200 Pro",
-          "Oficina",
-          "6 cm en altura, 2 cm en profundidad",
-          "Sí, hasta 5 cm",
-          "Malla",
           "Amazon"
         ],
         [
@@ -1316,8 +1308,8 @@ const articleContent: Record<string, {
     sections: [
       {
         heading: "Nuestras recomendaciones rápidas",
-        body: "Presupuesto ajustado: la SONGMICS, con lumbar regulable en altura y profundidad, reposabrazos 4D y respaldo de 90° a 135°. Gama media de malla y la más completa en ajustes: la ProtoArc EC200 Pro, con profundidad de asiento, lumbar en dos direcciones y reposabrazos 4D. Respaldo alto con reposacabezas: la HOLLUDLE. Si te reclinas a menudo: la Ergotopia PureBack, con mecanismo sincronizado. Gama alta de marca: la Steelcase Series 2, con garantía limitada de por vida. Todas están en la [categoría de sillas de oficina ergonómicas](/tienda/sillas-ergonomicas) y la tabla del final resume sus ajustes.",
-        productSlug: "protoarc-ec200-pro-silla-malla-reposabrazos-4d",
+        body: "Presupuesto ajustado: la SONGMICS, con lumbar regulable en altura y profundidad, reposabrazos 4D y respaldo de 90° a 135°. Gama media y la más completa en ajustes: la HOLLUDLE, con respaldo adaptativo, profundidad de asiento ajustable, reposabrazos 4D y reposacabezas 2D. Si te reclinas a menudo: la Ergotopia PureBack, con mecanismo sincronizado. Gama alta de marca: la Steelcase Series 2, con garantía limitada de por vida. Todas están en la [categoría de sillas de oficina ergonómicas](/tienda/sillas-ergonomicas) y la tabla del final resume sus ajustes.",
+        productSlug: "sihoo-m57-silla-ergonomica",
       },
       {
         heading: "Qué hace ergonómica a una silla de oficina",
@@ -1325,17 +1317,17 @@ const articleContent: Record<string, {
       },
       {
         heading: "Soporte lumbar ajustable: en altura y en profundidad",
-        body: "El soporte lumbar es la pieza que más se nota en una jornada larga. Según la NTP 1129, cuando parte del peso del cuerpo se transfiere al respaldo a la altura lumbar, la carga en esa zona de la columna es menor y se reduce la presión en los discos. Para que eso ocurra, el apoyo tiene que quedar justo en tu curva lumbar, y por eso importa que se regule en dos ejes: la NTP 1130 indica que el respaldo debe acercarse al cuerpo y ajustarse a la altura lumbar. Un lumbar fijo solo funciona si coincide con tu espalda; uno regulable en altura y profundidad, como el de la SONGMICS, la Ticova, la Hbada P5 o la ProtoArc EC200 Pro (6 cm en altura y 2 cm en profundidad), se adapta a más personas que un cojín suelto que se desplaza.",
+        body: "El soporte lumbar es la pieza que más se nota en una jornada larga. Según la NTP 1129, cuando parte del peso del cuerpo se transfiere al respaldo a la altura lumbar, la carga en esa zona de la columna es menor y se reduce la presión en los discos. Para que eso ocurra, el apoyo tiene que quedar justo en tu curva lumbar, y por eso importa que se regule en dos ejes: la NTP 1130 indica que el respaldo debe acercarse al cuerpo y ajustarse a la altura lumbar. Un lumbar fijo solo funciona si coincide con tu espalda; uno regulable en altura y profundidad, como el de la SONGMICS, la Ticova, la Hbada P5 o la HOLLUDLE, se adapta a más personas que un cojín suelto que se desplaza.",
         productSlug: "songmics-silla-oficina-ergonomica-lumbar-4d",
       },
       {
         heading: "Profundidad de asiento: el ajuste que más se olvida",
-        body: "La profundidad del asiento decide si puedes apoyar la espalda en el respaldo sin que el borde te presione detrás de las rodillas. La NTP 1130 da una referencia sencilla: sentado y con la espalda apoyada, deben quedar unos 5 cm libres entre el borde del asiento y la corva, más o menos un puño cerrado. La norma UNE-EN 1335-1, según recoge el INSST, recomienda una profundidad de asiento de entre 400 y 420 mm, y la NTP 1129 añade que, si la profundidad es fija, es más importante que la espalda quede bien apoyada que apoyar todo el muslo. En el catálogo regulan la profundidad la HOLLUDLE, la ProtoArc EC200 Pro (hasta 5 cm en 5 posiciones), la CLOUVOU, la Ergotopia PureBack y la Steelcase Series 2.",
+        body: "La profundidad del asiento decide si puedes apoyar la espalda en el respaldo sin que el borde te presione detrás de las rodillas. La NTP 1130 da una referencia sencilla: sentado y con la espalda apoyada, deben quedar unos 5 cm libres entre el borde del asiento y la corva, más o menos un puño cerrado. La norma UNE-EN 1335-1, según recoge el INSST, recomienda una profundidad de asiento de entre 400 y 420 mm, y la NTP 1129 añade que, si la profundidad es fija, es más importante que la espalda quede bien apoyada que apoyar todo el muslo. En el catálogo regulan la profundidad la HOLLUDLE, la CLOUVOU, la Ergotopia PureBack y la Steelcase Series 2.",
         productSlug: "sihoo-m57-silla-ergonomica",
       },
       {
         heading: "Reposabrazos 2D, 3D o 4D: qué significa cada letra",
-        body: "La «D» cuenta las direcciones en las que se mueve el reposabrazos: altura, avance y retroceso, desplazamiento lateral y giro. No hay una definición normalizada de cuáles entran en cada cifra, así que mira la ficha: la ProtoArc EC200 Pro detalla altura, avance, desplazamiento lateral y giro de hasta 30°, y la HOLLUDLE, movimiento a izquierda y derecha, altura, avance y giro de 15°. Lo que más cuenta es la altura: la NTP 1130 indica que, con los hombros relajados y los codos a 90°, el reposabrazos debe quedar justo donde roza el codo, y que si no se puede regular es mejor retirarlo. La NTP 1129 añade que no deben impedir acercar la silla a la mesa.",
+        body: "La «D» cuenta las direcciones en las que se mueve el reposabrazos: altura, avance y retroceso, desplazamiento lateral y giro. No hay una definición normalizada de cuáles entran en cada cifra, así que mira la ficha: la HOLLUDLE detalla movimiento a izquierda y derecha, altura, avance y giro de 15°. Lo que más cuenta es la altura: la NTP 1130 indica que, con los hombros relajados y los codos a 90°, el reposabrazos debe quedar justo donde roza el codo, y que si no se puede regular es mejor retirarlo. La NTP 1129 añade que no deben impedir acercar la silla a la mesa.",
       },
       {
         heading: "Mecanismo: basculante, sincronizado y bloqueo del respaldo",
@@ -1344,12 +1336,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "Malla o espuma: transpiración frente a acolchado",
-        body: "La NTP 1129 pide que asiento y respaldo sean de materiales transpirables y, en las mallas, que el respaldo tenga una tensión progresiva que dé apoyo real y no se limite a ceder. La malla es la opción más fresca en verano; la espuma es más cálida y mullida. Muchas sillas combinan respaldo de malla y asiento de espuma, como la SONGMICS, la Ergotopia PureBack o la Ticova, con 8,6 cm de espuma de alta densidad en el asiento. Si sudas mucho o trabajas en un ático, la ProtoArc EC200 Pro y la CLOUVOU llevan malla también en el asiento.",
+        body: "La NTP 1129 pide que asiento y respaldo sean de materiales transpirables y, en las mallas, que el respaldo tenga una tensión progresiva que dé apoyo real y no se limite a ceder. La malla es la opción más fresca en verano; la espuma es más cálida y mullida. Muchas sillas combinan respaldo de malla y asiento de espuma, como la SONGMICS, la Ergotopia PureBack o la Ticova, con 8,6 cm de espuma de alta densidad en el asiento. Si sudas mucho o trabajas en un ático, la CLOUVOU lleva malla también en el asiento.",
         productSlug: "hbada-silla-ergonomica-pro",
       },
       {
         heading: "Tu altura, tu peso y la altura de tu mesa",
-        body: "Las sillas que siguen la serie de normas UNE-EN 1335 están pensadas, según el INSST, para usuarios de entre 1,51 y 1,92 m y de menos de 110 kg. La silla de tipo A, la de mayor rango, regula la altura del asiento como mínimo entre 400 y 510 mm, y la norma recomienda un asiento de al menos 400 mm de ancho; el INSST advierte de que el percentil 95 de la población española mide 417 mm de anchura de cadera sentado, así que conviene un asiento algo más ancho que ese mínimo. Fuera de esos rangos, mira la carga máxima y la altura de usuario de cada ficha: la ProtoArc EC200 Pro está pensada para unos 163-185 cm, la SONGMICS admite hasta 195 cm y la Secretlab Titan Evo se vende en tallas. La mesa manda tanto como la silla: con una mesa fija, la NTP 1130 indica subir la silla hasta que los codos queden a la altura del tablero y, si los pies no llegan al suelo, usar un reposapiés (inclinable de 0° a 15° y de al menos 45 × 35 cm, según la guía técnica del INSST). La Hbada P5 trae uno retráctil integrado. Si puedes cambiar de mesa, un [escritorio elevable](/blog/escritorio-regulable-altura-home-office) ajusta la mesa a ti y no al revés. Si escribes con un teclado mecánico, que es más alto que uno de membrana, ten en cuenta también su grosor: lo explicamos en la [guía del teclado mecánico para trabajar](/blog/mejores-teclados-mecanicos-trabajar-oficina).",
+        body: "Las sillas que siguen la serie de normas UNE-EN 1335 están pensadas, según el INSST, para usuarios de entre 1,51 y 1,92 m y de menos de 110 kg. La silla de tipo A, la de mayor rango, regula la altura del asiento como mínimo entre 400 y 510 mm, y la norma recomienda un asiento de al menos 400 mm de ancho; el INSST advierte de que el percentil 95 de la población española mide 417 mm de anchura de cadera sentado, así que conviene un asiento algo más ancho que ese mínimo. Fuera de esos rangos, mira la carga máxima y la altura de usuario de cada ficha: la SONGMICS admite hasta 195 cm y la Secretlab Titan Evo se vende en tallas. La mesa manda tanto como la silla: con una mesa fija, la NTP 1130 indica subir la silla hasta que los codos queden a la altura del tablero y, si los pies no llegan al suelo, usar un reposapiés (inclinable de 0° a 15° y de al menos 45 × 35 cm, según la guía técnica del INSST). La Hbada P5 trae uno retráctil integrado. Si puedes cambiar de mesa, un [escritorio elevable](/blog/escritorio-regulable-altura-home-office) ajusta la mesa a ti y no al revés. Si escribes con un teclado mecánico, que es más alto que uno de membrana, ten en cuenta también su grosor: lo explicamos en la [guía del teclado mecánico para trabajar](/blog/mejores-teclados-mecanicos-trabajar-oficina).",
         productSlug: "hbada-silla-ergonomica-malla-oficina",
       },
       {
@@ -1379,7 +1371,6 @@ const articleContent: Record<string, {
         ["HOLLUDLE", "Malla, respaldo adaptativo", "Regulable", "Sí", "4D", "Reposacabezas 2D, EN 1335", "Amazon"],
         ["CLOUVOU", "Malla en asiento y respaldo", "Regulable", "Sí", "2D", "Reposacabezas 2D, 150 kg", "Tercero"],
         ["Hbada P5", "Cojín elástico transpirable", "Altura y profundidad", "No indicada", "Regulables en altura", "Reposapiés integrado, 135°", "Amazon"],
-        ["ProtoArc EC200 Pro", "Malla en asiento y respaldo", "6 cm en altura, 2 cm en profundidad", "Sí, hasta 5 cm", "4D, giro de 30°", "EN 1335 y BIFMA, 163-185 cm", "Amazon"],
         ["Ergotopia PureBack", "Respaldo de malla, asiento de espuma", "Dinámico", "Sí", "4D", "Mecanismo sincronizado", "Tercero"],
         ["Secretlab Titan Evo (R)", "Tejido y espuma", "Integrado, 4 direcciones", "No indicada", "4D metálicos", "Tallas; R: 170-189 cm", "Tercero"],
         ["Steelcase Series 2", "Respaldo de malla", "Regulable", "Sí", "Regulables", "Garantía limitada de por vida", "Amazon"],
@@ -1509,7 +1500,7 @@ const articleContent: Record<string, {
       {
         heading: "El escritorio que corona el setup",
         body: "La última pieza del home office completo es el escritorio regulable en altura, la mejora postural con mayor impacto a largo plazo. El FlexiSpot E7 Pro permite alternar entre trabajar sentado y de pie con doble motor y cuatro memorias de altura, y su tablero de 140×70 cm da espacio para el doble monitor. Con él, el setup completo pasa a la gama alta, con un coste final que depende del resto de componentes que elijas.",
-        productSlug: "flexispot-e7-pro-escritorio-ajustable",
+        productSlug: "flexispot-escritorio-elevable-120x60-tablero-entero",
       },
     ],
     comparison: {
@@ -2544,7 +2535,7 @@ const articleContent: Record<string, {
       {
         heading: "MacBook Air M1, M2 o M3 con la tapa abierta: DisplayLink",
         body: "Es el caso más frecuente y el que más confusión genera. Si tu MacBook solo admite un monitor externo, la única forma de sumar un segundo es DisplayLink. El Baseus Nomos Air 12 en 1 está pensado para ello: dos HDMI, dos DisplayPort, USB-C y USB-A de 10 Gb/s, Ethernet gigabit y carga de 100 W. El fabricante avisa de que hay que instalar el controlador DisplayLink antes de extender la pantalla, y su título indica resolución 2K para las pantallas extendidas. Conviene conocer la contrapartida en macOS: DisplayLink necesita el permiso de grabación de pantalla, lo que desactiva en todo el sistema la reproducción de contenido protegido con HDCP. Para trabajar no supone ningún problema; para ver plataformas de streaming en esas pantallas, sí.",
-        productSlug: "baseus-nomos-air-displaylink-12en1",
+        productSlug: "baseus-docking-station-12en1",
       },
       {
         heading: "Ojo con la letra pequeña: 4K en una pantalla no es 4K en dos",
