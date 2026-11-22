@@ -1499,7 +1499,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "El escritorio que corona el setup",
-        body: "La última pieza del home office completo es el escritorio regulable en altura, la mejora postural con mayor impacto a largo plazo. El FlexiSpot E7 Pro permite alternar entre trabajar sentado y de pie con doble motor y cuatro memorias de altura, y su tablero de 140×70 cm da espacio para el doble monitor. Con él, el setup completo pasa a la gama alta, con un coste final que depende del resto de componentes que elijas.",
+        body: "La última pieza del home office completo es el escritorio regulable en altura, la mejora postural con mayor impacto a largo plazo. El escritorio elevable FLEXISPOT de 120 × 60 cm permite alternar entre trabajar sentado y de pie, con 4 memorias de altura, sistema anticolisión y tablero de una sola pieza. Con él, el setup completo suma la mejora postural más duradera, con un coste final que depende del resto de componentes que elijas.",
         productSlug: "flexispot-escritorio-elevable-120x60-tablero-entero",
       },
     ],
@@ -1508,7 +1508,7 @@ const articleContent: Record<string, {
       rows: [
         ["Mínimo viable", "Silla básica + monitor + teclado y ratón", "Entrada", "Empezar con lo esencial"],
         ["Intermedio", "Ticova + monitor QHD + periféricos", "Media", "La mayoría de trabajadores remotos"],
-        ["Completo", "HOLLUDLE + FlexiSpot E7 Pro + todo", "Alta", "Trabajo remoto a tiempo completo"],
+        ["Completo", "HOLLUDLE + FLEXISPOT 120 × 60 cm + todo", "Alta", "Trabajo remoto a tiempo completo"],
       ],
     },
     conclusion: "No montes el home office completo desde el principio. Empieza por la silla y el monitor, trabaja así dos o tres meses, identifica qué te molesta más y añade lo siguiente. El equipamiento que realmente necesitas se hace obvio cuando llevas tiempo trabajando desde casa, y ese enfoque progresivo evita gastar en cosas que luego no usas.",
