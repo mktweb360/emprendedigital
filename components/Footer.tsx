@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
         <div className="border-t border-gray-700 pt-6">
           <p className="text-xs text-gray-500 mb-2">
-            <strong>Divulgación de afiliados:</strong> emprendedigital.es participa en el Programa de Afiliados de Amazon EU, un programa de publicidad para afiliados diseñado para ofrecer a sitios web un modo de obtener comisiones por publicidad, publicitando e incluyendo enlaces a Amazon.es.
+            <strong>Divulgación de afiliados:</strong> emprendedigital.es participa en el Programa de Afiliados de Amazon EU, un programa de publicidad para afiliados diseñado para ofrecer a sitios web un modo de obtener comisiones por publicidad, publicitando e incluyendo enlaces a Amazon.es. En calidad de Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables.
           </p>
           <p className="text-xs text-gray-500">
             © {new Date().getFullYear()} Emprende Digital — emprendedigital.es | MKTWEB360, S.L.U., CIF B87679304
