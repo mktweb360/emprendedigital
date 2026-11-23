@@ -1,8 +1,8 @@
-// Fichas de producto indexables (revisado 22/11/2026).
-// Criterio: ficha viva (sin `unavailable`), citada al menos por un artículo del blog y con contenido propio
-// (descripción de 300 caracteres o más, 3 ventajas o más y 2 contras o más). Las 15 primeras son las ya
-// indexables antes de esta revisión. El resto de fichas siguen accesibles con noindex,follow y fuera del
-// sitemap. Si Google AdSense vuelve a señalar contenido de poco valor, se reduce esta lista.
+// Fichas de producto indexables (revisado 23/11/2026, decisión de José: sin indexación no hay tráfico).
+// Criterio: ficha viva (sin `unavailable`) y con contenido propio (descripción de 300 caracteres o más,
+// 3 ventajas o más y 2 contras o más). Ya no hace falta que un artículo la cite. Las fichas retiradas
+// redirigen con 301 a una página permanente. Si Google AdSense vuelve a señalar contenido de poco valor,
+// se reduce esta lista. Lista generada: al añadir una ficha nueva que cumpla el criterio, hay que sumarla aquí.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "sihoo-m57-silla-ergonomica",
   "invision-mx200-brazo-monitor",
@@ -69,6 +69,23 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "logitech-g413-tkl-se-teclado-mecanico",
   "razer-blackwidow-v4-x-teclado-mecanico-es",
   "royal-kludge-rk61-teclado-mecanico-60",
+  "asus-zenbook-14-oled-ux3405",
+  "razer-seiren-v3-mini-microfono-usb",
+  "logitech-c270-hd-webcam-720p",
+  "ugreen-webcam-1080p-30fps-usb-a",
+  "neewer-basics-br60-aro-luz-videoconferencias",
+  "samsung-s27a600-monitor-27-qhd",
+  "dell-ultrasharp-u2722d-monitor-27",
+  "jabra-evolve2-40-auriculares-oficina",
+  "anker-hub-usbc-5en1-ethernet",
+  "razer-pro-type-ultra-teclado-mecanico",
+  "ankerwork-powerconf-c200-webcam",
+  "songmics-silla-ergonomica-obg22b",
+  "rode-podmic-microfono-dinamico-xlr",
+  "angetube-webcam-4k-con-luz-anular",
+  "ugreen-revodok-pro-3121-docking-triple-pantalla",
+  "philips-24e1n1100a-monitor-24-ips-120hz",
+  "philips-27e2n1500l-monitor-27-qhd-ips",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
