@@ -220,6 +220,7 @@ export const products: Product[] = [
   // PERIFÉRICOS
   {
     slug: "trust-verto-raton-vertical-ergonomico-cable",
+    image: "/images/products/trust-verto-raton-vertical-ergonomico-cable.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Trust Verto Ratón Vertical Ergonómico con Cable",
     asin: "B07FLZ3XSK",
@@ -301,6 +302,7 @@ export const products: Product[] = [
   // MICRÓFONOS
   {
     slug: "razer-seiren-v3-mini-microfono-usb",
+    image: "/images/products/razer-seiren-v3-mini-microfono-usb.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Razer Seiren V3 Mini Micrófono USB",
     asin: "B0CMTQPWQ8",
@@ -403,6 +405,7 @@ export const products: Product[] = [
   // WEBCAMS
   {
     slug: "logitech-c270-hd-webcam-720p",
+    image: "/images/products/logitech-c270-hd-webcam-720p.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
     name: "Logitech C270 Webcam HD 720p 30 fps",
     asin: "B01BGBJ8Y0",
@@ -423,6 +426,7 @@ export const products: Product[] = [
   },
   {
     slug: "emeet-c960-webcam-1080p-dos-microfonos",
+    image: "/images/products/emeet-c960-webcam-1080p-dos-microfonos.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
     name: "EMEET C960 Webcam 1080P con Dos Micrófonos",
     asin: "B0002HAHUY",
@@ -443,6 +447,7 @@ export const products: Product[] = [
   },
   {
     slug: "ugreen-webcam-1080p-30fps-usb-a",
+    image: "/images/products/ugreen-webcam-1080p-30fps-usb-a.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
     name: "UGREEN Webcam Full HD 1080P 30 fps USB-A",
     asin: "B0C76ZD7KV",
@@ -566,6 +571,7 @@ export const products: Product[] = [
   // ILUMINACIÓN
   {
     slug: "neewer-basics-br60-aro-luz-videoconferencias",
+    image: "/images/products/neewer-basics-br60-aro-luz-videoconferencias.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
     name: "NEEWER BR60 Aro de Luz 5 Pulgadas Videollamadas",
     asin: "B0DCSHSSFF",
@@ -1615,6 +1621,7 @@ export const products: Product[] = [
   },
   {
     slug: "clouvou-silla-oficina-ergonomica-malla",
+    image: "/images/products/clouvou-silla-oficina-ergonomica-malla.jpg",
     name: "CLOUVOU Silla de Oficina Ergonómica de Malla con Soporte Lumbar y Reposacabezas 2D",
     asin: "B0FR981Z25",
     category: "Sillas ergonómicas",
@@ -1678,6 +1685,7 @@ export const products: Product[] = [
   },
   {
     slug: "ergotopia-pureback-silla-mecanismo-sincronizado",
+    image: "/images/products/ergotopia-pureback-silla-mecanismo-sincronizado.jpg",
     name: "Ergotopia PureBack Silla Ergonómica con Mecanismo Sincronizado y Reposabrazos 4D",
     asin: "B0DTKNMS89",
     category: "Sillas ergonómicas",
@@ -1989,6 +1997,7 @@ export const products: Product[] = [
   },
   {
     slug: "philips-24e1n1100a-monitor-24-ips-120hz",
+    image: "/images/products/philips-24e1n1100a-monitor-24-ips-120hz.jpg",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo, vendido y enviado por Amazon; aparece entre los más vendidos de Monitores. Datos solo de la ficha de Amazon.
     name: "PHILIPS 24E1N1100A Monitor 24 Pulgadas IPS 120 Hz",
     asin: "B0CX9CT3ZF",
@@ -2008,6 +2017,7 @@ export const products: Product[] = [
   },
   {
     slug: "philips-27e2n1500l-monitor-27-qhd-ips",
+    image: "/images/products/philips-27e2n1500l-monitor-27-qhd-ips.jpg",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo, vendido y enviado por Amazon; aparece entre los más vendidos de Monitores. Datos solo de la ficha de Amazon.
     name: "PHILIPS 27E2N1500L Monitor 27 Pulgadas QHD IPS 75 Hz HDR10",
     asin: "B0F9YSJJG2",
