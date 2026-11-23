@@ -4,6 +4,9 @@
 // redirigen con 301 a una página permanente. Si Google AdSense vuelve a señalar contenido de poco valor,
 // se reduce esta lista. Lista generada: al añadir una ficha nueva que cumpla el criterio, hay que sumarla aquí.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
+  "arzopa-monitor-portatil-16-qhd-180hz",
+  "lg-32u721sa-smart-monitor-4k-32",
+  "logitech-m185-raton-inalambrico",
   "sihoo-m57-silla-ergonomica",
   "invision-mx200-brazo-monitor",
   "dell-s2725qc-monitor-4k-usbc",
