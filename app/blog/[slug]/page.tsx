@@ -2599,7 +2599,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "El camino Intel: la ruta de menor riesgo si dependes de software Windows específico",
-        body: "Si tu trabajo depende de un programa antiguo o muy específico, un portátil Windows con procesador x86 elimina la duda de compatibilidad. En el catálogo, el ASUS ZenBook 14 OLED UX3405CA monta un Intel Core Ultra 7 255H con gráficos Arc 140T, 16 GB de RAM, 512 GB de SSD y pantalla OLED WUXGA de 14 pulgadas. Es una vía razonable, aunque conviene revisar su ficha completa en Amazon.es antes de decidir. En cualquier pantalla OLED conviene además evitar dejar elementos estáticos fijos durante horas, por el riesgo de retención de imagen a largo plazo.",
+        body: "Si tu trabajo depende de un programa antiguo o muy específico, un portátil Windows con procesador x86 elimina la duda de compatibilidad. En el catálogo, el ASUS ZenBook 14 OLED UX3405CA monta un Intel Core Ultra 7 255H con gráficos Arc 140T, 16 GB de RAM, 512 GB de SSD y pantalla OLED WUXGA de 14 pulgadas. Es una vía razonable, aunque conviene revisar su ficha completa en Amazon.es antes de decidir. En cualquier pantalla OLED conviene además evitar dejar elementos estáticos fijos durante horas, por el riesgo de retención de imagen a largo plazo. Si prefieres comparar en una tienda de informática española, [PCbox](https://clk.tradedoubler.com/click?p=341632&a=3505848) tiene una categoría de portátiles profesionales; aplica allí los mismos criterios de RAM, almacenamiento y puertos que en el resto de la guía.",
       },
       {
         heading: "Lo que casi nadie comprueba: RAM, almacenamiento y puertos",
