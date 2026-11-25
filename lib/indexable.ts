@@ -89,6 +89,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "ugreen-revodok-pro-3121-docking-triple-pantalla",
   "philips-24e1n1100a-monitor-24-ips-120hz",
   "philips-27e2n1500l-monitor-27-qhd-ips",
+  "fellowes-everyday-elevador-portatil-17-pulgadas",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
