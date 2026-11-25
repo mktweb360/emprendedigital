@@ -2102,6 +2102,25 @@ export const products: Product[] = [
     relatedPosts: ["montar-oficina-en-casa-5-pasos-ergonomia", "home-office-setup-productivo-guia"],
   },
   {
+    slug: "amazon-basics-hub-dock-usb-32-10gbps-3-usb-a-1-usb-c",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Hub Dock USB 3.2/3.1 de 10 Gbps, USB-C a 1 USB-C y 3 USB-A",
+    asin: "B0CG53LVZB",
+    category: "Hubs y docking stations",
+    categorySlug: "hubs-docking",
+    categoryName: "Hubs y docking stations",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Hub de 5 puertos con conexión USB-C al portátil, tres USB-A y un USB-C para periféricos, a 10 Gbps y compatible con Windows y Mac.",
+    fullDescription: "Hub dock de Amazon Basics con cinco puertos: un USB-C ascendente para conectarlo al portátil y, para periféricos, tres USB-A y un USB-C. Según la ficha de Amazon, los puertos descendentes ofrecen hasta 10 Gbps, es compatible con hosts Thunderbolt 3, funciona con Mac y Windows sin controladores e incluye indicadores LED de conexión y carga. Su diseño es compacto y delgado. La ficha avisa de que el puerto USB solo admite transferencia de datos y de que conviene comprobar la fuente de alimentación del equipo anfitrión. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Cuatro puertos descendentes a 10 Gbps", "Funciona con Windows y Mac sin controladores", "Diseño compacto y delgado, con indicadores LED"],
+    cons: ["No tiene salida de vídeo ni red: no sustituye a una docking station completa", "La ficha avisa de que el puerto USB solo transfiere datos", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Puertos": "1 USB-C ascendente, 3 USB-A y 1 USB-C descendentes", "Velocidad": "10 Gbps", "Compatibilidad": "Windows y Mac, hosts Thunderbolt 3", "Instalación": "Plug and play, sin controladores", "Vendido por": "Amazon" },
+    relatedPosts: ["home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima"],
+  },
+  {
     slug: "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Regleta de 3 Tomas con Protección contra Sobretensiones y 3 USB, cable de 1,5 m",

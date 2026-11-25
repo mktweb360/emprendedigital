@@ -118,7 +118,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "8 min",
     image: "/images/blog/setup-streaming-podcast-casa.jpg",
-    relatedProducts: ["rode-podmic-usb-microfono-xlr-usb", "elgato-wave3-mk2-microfono-condensador-usb", "hyperx-solocast-microfono", "elgato-facecam-4k-webcam", "ugreen-finecam-lite-4k-webcam", "elgato-key-light-air", "logitech-litra-glow-luz-streaming", "neewer-nl-116ai-panel-led-escritorio", "fellowes-everyday-elevador-portatil-17-pulgadas", "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb"],
+    relatedProducts: ["rode-podmic-usb-microfono-xlr-usb", "elgato-wave3-mk2-microfono-condensador-usb", "hyperx-solocast-microfono", "elgato-facecam-4k-webcam", "ugreen-finecam-lite-4k-webcam", "elgato-key-light-air", "logitech-litra-glow-luz-streaming", "neewer-nl-116ai-panel-led-escritorio", "fellowes-everyday-elevador-portatil-17-pulgadas", "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb", "amazon-basics-hub-dock-usb-32-10gbps-3-usb-a-1-usb-c"],
     relatedPosts: [
       "mejor-microfono-usb-podcast-streaming-2026",
       "mejor-webcam-videollamadas-trabajo-remoto",
@@ -293,7 +293,7 @@ export const posts: Post[] = [
     date: "2025-07-05",
     category: "Home Office",
     readTime: "10 min",
-    relatedProducts: ["sihoo-m57-silla-ergonomica", "flexispot-escritorio-elevable-120x60-tablero-entero", "hbada-silla-ergonomica-pro", "fellowes-everyday-elevador-portatil-17-pulgadas", "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb"],
+    relatedProducts: ["sihoo-m57-silla-ergonomica", "flexispot-escritorio-elevable-120x60-tablero-entero", "hbada-silla-ergonomica-pro", "fellowes-everyday-elevador-portatil-17-pulgadas", "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb", "amazon-basics-hub-dock-usb-32-10gbps-3-usb-a-1-usb-c"],
     relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "escritorio-regulable-altura-home-office", "setup-trabajo-remoto-productividad-maxima", "mejor-monitor-home-office-2025", "montar-oficina-en-casa-5-pasos-ergonomia"],
     categoryCta: { href: "/tienda/sillas-ergonomicas", text: "Ver equipamiento home office →" },
   },

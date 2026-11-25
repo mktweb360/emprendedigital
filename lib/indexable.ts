@@ -92,6 +92,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "philips-27e2n1500l-monitor-27-qhd-ips",
   "fellowes-everyday-elevador-portatil-17-pulgadas",
   "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb",
+  "amazon-basics-hub-dock-usb-32-10gbps-3-usb-a-1-usb-c",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
