@@ -405,7 +405,7 @@ export const posts: Post[] = [
     date: "2025-07-16",
     category: "Home Office",
     readTime: "8 min",
-    relatedProducts: ["elgato-key-light-air", "neewer-ring-light-18-pulgadas"],
+    relatedProducts: ["elgato-key-light-air", "neewer-ring-light-18-pulgadas", "amazon-basics-soporte-movil-ajustable-aluminio"],
     relatedPosts: ["mejor-webcam-videollamadas-trabajo-remoto", "mejores-auriculares-cancelacion-ruido-trabajo-2025", "home-office-setup-productivo-guia", "setup-streaming-podcast-casa"],
     categoryCta: { href: "/tienda/iluminacion", text: "Ver iluminación →" },
   },
@@ -420,6 +420,7 @@ export const posts: Post[] = [
     date: "2025-07-17",
     category: "Home Office",
     readTime: "7 min",
+    relatedProducts: ["amazon-basics-soporte-movil-ajustable-aluminio"],
     relatedPosts: ["home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima", "escritorio-regulable-altura-home-office", "montar-oficina-en-casa-5-pasos-ergonomia"],
   },
   {

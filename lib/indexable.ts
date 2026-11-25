@@ -93,6 +93,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "fellowes-everyday-elevador-portatil-17-pulgadas",
   "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb",
   "amazon-basics-hub-dock-usb-32-10gbps-3-usb-a-1-usb-c",
+  "amazon-basics-soporte-movil-ajustable-aluminio",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
