@@ -2102,6 +2102,25 @@ export const products: Product[] = [
     relatedPosts: ["montar-oficina-en-casa-5-pasos-ergonomia", "home-office-setup-productivo-guia"],
   },
   {
+    slug: "amazon-basics-soporte-movil-ajustable-aluminio",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Soporte ajustable para teléfono móvil, aluminio negro",
+    asin: "B07DHH95V1",
+    category: "Escritorios",
+    categorySlug: "escritorios",
+    categoryName: "Escritorios y mesas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Soporte de sobremesa para el móvil, de aluminio, ajustable hasta 270 grados, en vertical u horizontal, para dispositivos de 10 a 20 cm.",
+    fullDescription: "Soporte de sobremesa de Amazon Basics para dejar el móvil a la vista mientras trabajas, en videollamadas o con las notificaciones a mano. Según la ficha de Amazon, tiene carcasa de aluminio con acabado negro, admite dispositivos de entre 10 y 20 cm, se ajusta hasta 270 grados y mantiene el teléfono en posición vertical u horizontal. Lleva almohadillas de goma para que no resbale y un orificio para el cable de carga. Mide 8,4 x 7,62 x 10,67 cm. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Carcasa de aluminio con almohadillas de goma antideslizantes", "Ajustable hasta 270 grados, en vertical u horizontal", "Orificio para el cable de carga"],
+    cons: ["Solo admite dispositivos de entre 10 y 20 cm: no sirve para tablets grandes", "No tiene brazo ni altura regulable: el móvil queda a poca altura sobre la mesa", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Material": "Aluminio, acabado negro", "Dispositivos": "De 10 a 20 cm", "Ajuste": "Hasta 270 grados, vertical u horizontal", "Medidas": "8,4 x 7,62 x 10,67 cm", "Vendido por": "Amazon" },
+    relatedPosts: ["organizar-cables-home-office-guia", "iluminacion-videollamadas-home-office"],
+  },
+  {
     slug: "amazon-basics-hub-dock-usb-32-10gbps-3-usb-a-1-usb-c",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Hub Dock USB 3.2/3.1 de 10 Gbps, USB-C a 1 USB-C y 3 USB-A",
