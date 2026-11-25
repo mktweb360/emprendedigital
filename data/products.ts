@@ -2082,6 +2082,25 @@ export const products: Product[] = [
     specs: {"Marca": "Logitech", "Modelo": "M185", "Conexión": "Inalámbrica 2,4 GHz con receptor USB", "Alcance según la ficha": "Hasta 10 m", "Alimentación": "Pila AA incluida", "Compatibilidad": "Windows y Mac"},
     relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "montar-oficina-en-casa-5-pasos-ergonomia"],
   },
+  {
+    slug: "fellowes-everyday-elevador-portatil-17-pulgadas",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Fellowes Everyday Elevador para Portátil, ajustable hasta 17 pulgadas y 4 kg",
+    asin: "B0F4FFXRRP",
+    category: "Escritorios",
+    categorySlug: "escritorios",
+    categoryName: "Escritorios y mesas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Soporte plegable que eleva el portátil a una altura más ergonómica: ajuste de altura y ángulo de 26 a 45°, para portátiles de hasta 17 pulgadas y 4 kg.",
+    fullDescription: "Elevador plegable para portátil de Fellowes, pensado para subir la pantalla a una posición de visualización más ergonómica. Según la ficha de Amazon, admite portátiles de hasta 17 pulgadas y 4 kg, permite varios ajustes de altura (entre 13,5 y 20,5 cm) y ángulos de 26 a 45°, y lleva un tope frontal suave y pies de goma para que el equipo no se deslice. Su diseño ventilado y plegable lo hace fácil de guardar o llevar. La propia ficha recomienda usarlo siempre con teclado y ratón externos. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Admite portátiles de hasta 17 pulgadas y 4 kg", "Ajuste de altura y de ángulo (26-45°)", "Plegable, con pies de goma y tope frontal"],
+    cons: ["Exige teclado y ratón externos para trabajar con comodidad, como indica la ficha", "El título habla de 7 alturas y la descripción de 4 ajustes: conviene comprobarlo antes de comprar", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: {"Marca": "Fellowes", "Modelo": "Everyday", "Portátil máximo": "17 pulgadas y 4 kg", "Altura": "13,5 a 20,5 cm, según la ficha", "Ángulo": "26 a 45°", "Formato": "Plegable", "Vendido por": "Amazon"},
+    relatedPosts: ["montar-oficina-en-casa-5-pasos-ergonomia", "home-office-setup-productivo-guia"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
