@@ -2101,6 +2101,25 @@ export const products: Product[] = [
     specs: {"Marca": "Fellowes", "Modelo": "Everyday", "Portátil máximo": "17 pulgadas y 4 kg", "Altura": "13,5 a 20,5 cm, según la ficha", "Ángulo": "26 a 45°", "Formato": "Plegable", "Vendido por": "Amazon"},
     relatedPosts: ["montar-oficina-en-casa-5-pasos-ergonomia", "home-office-setup-productivo-guia"],
   },
+  {
+    slug: "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Regleta de 3 Tomas con Protección contra Sobretensiones y 3 USB, cable de 1,5 m",
+    asin: "B0BKZBF6LD",
+    category: "Hubs y docking stations",
+    categorySlug: "hubs-docking",
+    categoryName: "Hubs y docking stations",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Regleta de 3 tomas de corriente con protección contra sobretensiones de 1050 julios y tres puertos USB (1 USB-C de 20 W y 2 USB-A de 12 W), con cable trenzado de 1,5 m.",
+    fullDescription: "Regleta de Amazon Basics con tres tomas de corriente (4000 W en total, 250 V y 16 A) y protección contra sobretensiones de 1050 julios. Según la ficha de Amazon, añade tres puertos USB: uno USB-C de carga rápida de 20 W y dos USB-A de 12 W, de modo que se pueden cargar hasta seis dispositivos a la vez. Incluye cable trenzado de 1,5 m, puerta de seguridad y protecciones contra sobretemperatura, sobrecorriente y sobretensión. Es un protector sencillo para conectar portátil, monitor y cargadores en el puesto de trabajo. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Protección contra sobretensiones de 1050 julios", "3 tomas de corriente y 3 puertos USB (1 USB-C de 20 W)", "Cable trenzado de 1,5 m"],
+    cons: ["Solo 3 tomas: justa si hay portátil, monitor y otros equipos", "El USB-A ofrece 12 W, una carga más lenta", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: {"Marca": "Amazon Basics", "Tomas de corriente": "3", "Puertos USB": "1 USB-C (20 W) y 2 USB-A (12 W)", "Potencia máxima": "4000 W (250 V / 16 A)", "Protección": "Sobretensiones, 1050 J", "Cable": "1,5 m trenzado", "Color": "Blanco"},
+    relatedPosts: ["home-office-setup-productivo-guia", "montar-oficina-en-casa-5-pasos-ergonomia"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
