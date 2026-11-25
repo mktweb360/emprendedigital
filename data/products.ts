@@ -2120,6 +2120,25 @@ export const products: Product[] = [
     specs: {"Marca": "Amazon Basics", "Tomas de corriente": "3", "Puertos USB": "1 USB-C (20 W) y 2 USB-A (12 W)", "Potencia máxima": "4000 W (250 V / 16 A)", "Protección": "Sobretensiones, 1050 J", "Cable": "1,5 m trenzado", "Color": "Blanco"},
     relatedPosts: ["home-office-setup-productivo-guia", "montar-oficina-en-casa-5-pasos-ergonomia"],
   },
+  {
+    slug: "ergosolid-f80-brazo-monitor-17-32-9kg",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "ErgoSolid F80 Soporte de escritorio para monitor de 17 a 32 pulgadas, brazo neumático, grafito",
+    asin: "B091D2CKC7",
+    category: "Monitores",
+    categorySlug: "monitores",
+    categoryName: "Monitores para Home Office",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Brazo neumático para un monitor de 17 a 32 pulgadas y de 2 a 9 kg, con VESA 75 × 75 y 100 × 100 mm, rotación de 360° y fijación por abrazadera u ojal.",
+    fullDescription: "Brazo de escritorio ErgoSolid F80 en color grafito, para un monitor de 17 a 32 pulgadas y de 2 a 9 kg con anclaje VESA 75 × 75 o 100 × 100 mm. Según la ficha de Amazon, el sistema de resortes neumáticos permite colocar la pantalla con un solo gesto, la pantalla rota 360° y se inclina en cualquier dirección, y se fija a la mesa con abrazadera o en un ojal del tablero. Incluye el material de montaje. La ficha no detalla en el resumen la altura máxima ni el grosor de mesa admitido, así que conviene comprobarlos en Amazon con tu escritorio antes de comprarlo. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Admite de 2 a 9 kg y de 17 a 32 pulgadas", "VESA 75 × 75 y 100 × 100 mm", "Abrazadera u ojal, con material de montaje incluido"],
+    cons: ["La ficha no da en el resumen la altura máxima ni el grosor de mesa admitido", "Para un monitor de más de 9 kg hay que ir a otro modelo", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "ErgoSolid", "Modelo": "F80", "Pantallas": "17-32\"", "Peso por pantalla": "2-9 kg", "VESA": "75 × 75 y 100 × 100 mm", "Rotación": "360°", "Vendido por": "Amazon" },
+    relatedPosts: ["brazo-monitor-como-elegir", "mejor-monitor-home-office-2025"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
