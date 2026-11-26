@@ -277,6 +277,25 @@ export const products: Product[] = [
     relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
+    slug: "amazon-basics-raton-inalambrico-ergonomico-dpi-ajustable",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Ratón inalámbrico ergonómico con DPI ajustable, negro",
+    asin: "B0787D6SGQ",
+    category: "Teclados y ratones",
+    categorySlug: "perifericos",
+    categoryName: "Teclados y ratones",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Ratón inalámbrico compacto de 2,4 GHz con sensor láser, 5 niveles de DPI (600 a 3600), botones laterales de pulgar y laterales de goma.",
+    fullDescription: "Ratón inalámbrico compacto de Amazon Basics con sensibilidad ajustable. Según la ficha de Amazon, ofrece cinco niveles de DPI (600, 1000, 1600, 2400 y 3600), sensor láser que funciona en la mayoría de superficies, incluido el vidrio, rueda metálica con clic y botones de pulgar para avanzar y retroceder al navegar. Se conecta por 2,4 GHz con un receptor USB y un alcance de 10 m, con cifrado AES-128, y funciona con una pila AA incluida. Tiene forma ergonómica con laterales de goma, mide 10,4 x 7,4 x 3,8 cm y la ficha indica compatibilidad con Windows 7, 8 y 10. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "DPI ajustable en cinco niveles", "Botones de pulgar para navegar adelante y atrás", "Pila AA incluida y laterales de goma"],
+    cons: ["Tamaño compacto: puede quedarse pequeño para manos grandes", "Conexión por receptor USB, sin Bluetooth", "La ficha cita Windows 7, 8 y 10: no indica Windows 11 ni Mac", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Conexión": "2,4 GHz con receptor USB, 10 m de alcance", "Sensor": "Láser", "DPI": "600, 1000, 1600, 2400 y 3600", "Alimentación": "1 pila AA incluida", "Medidas": "10,4 x 7,4 x 3,8 cm", "Compatibilidad": "Windows 7, 8 y 10, según la ficha", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "setup-trabajo-remoto-productividad-maxima"],
+  },
+  {
     slug: "amazon-basics-teclado-cable-usb-base-fina-espanol",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Teclado con cable USB y base fina, diseño español, negro mate",
