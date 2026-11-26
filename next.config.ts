@@ -34,6 +34,8 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      { source: "/tienda/portatiles/apple-macbook-pro-m5-14", destination: "/tienda/portatiles/apple-macbook-air-m5-13", permanent: true },
+      { source: "/tienda/monitores/philips-27e2n1500l-monitor-27-qhd-ips", destination: "/tienda/monitores/samsung-s27a600-monitor-27-qhd", permanent: true },
       { source: "/tienda/portatiles/apple-macbook-air-m3-13", destination: "/tienda/portatiles/apple-macbook-air-m5-13", permanent: true },
       { source: "/tienda/portatiles/lenovo-thinkpad-x1-carbon-gen12", destination: "/tienda/portatiles/asus-zenbook-14-oled-ux3405", permanent: true },
       { source: "/tienda/portatiles/hp-pavilion-plus-14-oled", destination: "/tienda/portatiles/hp-omnibook-5-14-oled-snapdragon", permanent: true },

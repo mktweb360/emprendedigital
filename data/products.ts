@@ -1628,6 +1628,7 @@ export const products: Product[] = [
   },
   {
     slug: "apple-macbook-pro-m5-14",
+    unavailable: "2026-11-26",
     name: "Apple MacBook Pro 14,2\" con Chip M5, 16 GB y 1 TB SSD",
     asin: "B0FWD1L5SV",
     image: "/images/products/apple-macbook-pro-m5-14.jpg",
@@ -2065,6 +2066,7 @@ export const products: Product[] = [
   },
   {
     slug: "philips-27e2n1500l-monitor-27-qhd-ips",
+    unavailable: "2026-11-26",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo, vendido y enviado por Amazon; aparece entre los más vendidos de Monitores. Datos solo de la ficha de Amazon.
     name: "PHILIPS 27E2N1500L Monitor 27 Pulgadas QHD IPS 75 Hz HDR10",
     asin: "B0F9YSJJG2",
