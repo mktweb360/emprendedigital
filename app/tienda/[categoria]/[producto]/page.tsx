@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { products, getProductsByCategory, getProductBySlug, categories } from "@/data/products";
 import { amazonLink } from "@/lib/amazon";
+import { syncedImage } from "@/lib/amazon-sync";
 import { getPostBySlug } from "@/data/posts";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
@@ -136,7 +137,7 @@ export default async function ProductoPage({ params }: Props) {
 
         <div className="rounded-2xl overflow-hidden bg-gray-100 mb-6">
           <img
-            src={product.image ?? `/images/products/${product.categorySlug}.jpg`}
+            src={product.image ?? syncedImage(product.asin) ?? `/images/products/${product.categorySlug}.jpg`}
             alt={product.name}
             className="w-full h-64 object-cover"
             loading="eager"
