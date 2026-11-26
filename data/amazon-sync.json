@@ -1,5 +1,1137 @@
 {
- "generatedAt": null,
+ "generatedAt": "2026-11-26",
  "marketplace": "www.amazon.es",
- "items": {}
+ "items": {
+  "B0002HAHUY": {
+   "status": "ok",
+   "title": "EMEET Webcam 1080P con Micrófono C960 Cámara Web de Transmisión de 2 Micrófonos con Cubierta de Privacidad, Vista de 90°, Webcam USB Plug & Play para Llamadas/Conferencias, Zoom/Skype/Youtube",
+   "image": "https://m.media-amazon.com/images/I/41ut0ssERPL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "eMeetDirect ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B002VA464S": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B00552K0GM": {
+   "status": "ok",
+   "title": "Logitech M185 Ratón Inalámbrico, 2.4GHz con Mini Receptor USB | Batería de 12 Meses, Seguimiento Óptico con Resolución de 1000 dpi, Ambidiestro, Compatible con PC, Mac, Portátil - Gris",
+   "image": "https://m.media-amazon.com/images/I/31U-r5U5hoL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B005EJH6Z4": {
+   "status": "ok",
+   "title": "Amazon Basics Ratón inalámbrico con receptor USB nano, color negro",
+   "image": "https://m.media-amazon.com/images/I/31kNCxYk7DL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B006A2Q81M": {
+   "status": "ok",
+   "title": "Logitech C920 HD Pro Webcam 1080p, para PC, Negro | Webcam con micrófono, iluminación HD, 1080p/30 fps, Skype/Hangouts/FaceTime, Mac/Android/Chromebook, Teams/Google Meet/Zoom",
+   "image": "https://m.media-amazon.com/images/I/41BDRjuWuvL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00UTBFWNU": {
+   "status": "ok",
+   "title": "SONGMICS Silla de Escritorio Ergonómica Silla de Oficina Altura Ajustable | Altura Ajustable, 70 x 70 x (112-122) cm, Negro Tinta, OBG22B",
+   "image": "https://m.media-amazon.com/images/I/41IO3AUtDML._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B01BGBJ8Y0": {
+   "status": "ok",
+   "title": "Webcam HD Logitech C270, 720p/30fps, Micro con Reducción de Ruido - Negro | Llamadas de vídeo panorámicas, Corrección automática de luz, Clip universal, USB, PC/Mac/Portátil/Chromebook",
+   "image": "https://m.media-amazon.com/images/I/31t43eeYL3L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07DHH95V1": {
+   "status": "ok",
+   "title": "Amazon Basics Soporte ajustable para teléfono móvil, suelto, Individual, Negro",
+   "image": "https://m.media-amazon.com/images/I/41XICz1+FUL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07FLZ3XSK": {
+   "status": "ok",
+   "title": "Trust Verto Ratón Vertical Ergonómico con Cable USB, Negro | 1000/1600 dpi, Iluminación LED, Sensor Óptico para PC, Ordenador, Laptop, Desktop, Mac",
+   "image": "https://m.media-amazon.com/images/I/31fDR-q4A0L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07MSCRCVK": {
+   "status": "ok",
+   "title": "RØDE PodMic Micrófono dinámico de calidad de radiodifusión con soporte giratorio integrado para podcasting, streaming, gaming y grabación de voz, XLR (Negro)",
+   "image": "https://m.media-amazon.com/images/I/41onC+bLofL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 1 en stock."
+   },
+   "merchant": "Amazon Segunda mano",
+   "checkedAt": "2026-11-26"
+  },
+  "B07T4HQS2N": {
+   "status": "ok",
+   "title": "HUANUO Soporte Monitor Escritorio para Pantallas 13-32 Pulgadas, Brazo Monitor hasta 9 kg, Monitor Arm Ergonómico con Inclinación, Giro y Rotación 360°, Altura Regulable, VESA 75x75/100x100",
+   "image": "https://m.media-amazon.com/images/I/41G9q7haMML._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "BSQ Technology EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B07W4DHLWV": {
+   "status": "ok",
+   "title": "Logitech MX Brio Ultra HD Webcam 4k para PC, Streaming | 1080p a 60 FPS, 2 micrófonos reductores de ruido, USB-C, tapa, compatible con Microsoft Teams, Zoom, Google Meet - Grafito",
+   "image": "https://m.media-amazon.com/images/I/31W5Qsl3Q9L._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 1 a 3 meses"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07W4DHXC8": {
+   "status": "ok",
+   "title": "Logitech for Creators Litra Glow LED Luz Streaming Premium con TrueSoft | Iluminación de ordenador para videoconferencias, reuniones con Zoom, con soporte ajustable y app para PC/Mac - Grafito",
+   "image": "https://m.media-amazon.com/images/I/21QjDpgbJjL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 1 a 3 meses"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07W5JKHFZ": {
+   "status": "ok",
+   "title": "Logitech MX Master 3S - Ratón Inalámbrico con Desplazamiento - Gris oscuro | Rápido, Ergo, 8K DPI, Funciona sobre Cristal, Clics Silenciosos, USB-C, Bluetooth, Windows, Linux, Chrome",
+   "image": "https://m.media-amazon.com/images/I/317ttDkXKeL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 3 en stock."
+   },
+   "merchant": "ONARRES",
+   "checkedAt": "2026-11-26"
+  },
+  "B07W5JKWTF": {
+   "status": "ok",
+   "title": "Logitech MX Keys Mini Teclado Inalámbrico Minimalista | Compacto, Bluetooth, Retroiluminado, USB-C, Mac/iOS/Windows/Linux/Android, Metal, QWERTY Español - Gris oscuro",
+   "image": "https://m.media-amazon.com/images/I/41WwoYH4usL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07W6G822T": {
+   "status": "ok",
+   "title": "Logitech Ratón Inalámbrico M650 Signature - Gris | Para manos pequeñas y medianas, Batería de 2 años, clics silenciosos, botones personalizables, Bluetooth, multidispositivo",
+   "image": "https://m.media-amazon.com/images/I/31aXYAH5j2L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07W6JPM9R": {
+   "status": "ok",
+   "title": "Logitech MX Keys S Teclado inalámbrico (Gris) | Perfil Bajo, Escritura Fluida, Teclas Programables, Iluminación, Bluetooth, USB C, Windows, Linux, Chrome, Mac, QWERTY ESP",
+   "image": "https://m.media-amazon.com/images/I/419vyveIuyL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07W7KMK4W": {
+   "status": "ok",
+   "title": "Teclado Gaming Mecánico Logitech G413 TKL SE, QWERTY Español - Negro | Compacto, Retroiluminado, Interruptores Táctiles, Anti-Ghosting, USB con Cable, Compatible con Windows y macOS",
+   "image": "https://m.media-amazon.com/images/I/31P2UYfjn1L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07ZNGT8K4": {
+   "status": "ok",
+   "title": "HUANUO Soporte Monitor Doble, Brazo Monitor de Escritorio para Pantallas de 13 a 32 Pulgadas, Ajuste de Altura con Inclinación, Giratorio, Rotar, VESA 75 & 100 mm, Carga Máxima 9kg",
+   "image": "https://m.media-amazon.com/images/I/41pZ+llHrzL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "BSQ Technology EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B086DZ1H39": {
+   "status": "ok",
+   "title": "Jabra Evolve2 40 Auriculares Estéreo con Cancelación de Ruido y Tecnología de Llamada con Tres Micrófonos - Certificados para plataformas UC - Cable USB-A - Negro",
+   "image": "https://m.media-amazon.com/images/I/313Nq5O4RwL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "TELECOM Store",
+   "checkedAt": "2026-11-26"
+  },
+  "B086L72XSR": {
+   "status": "ok",
+   "title": "Jabra Evolve2 65 Auriculares Inalámbricos Estéreo PC con Cancelación de Ruido - Certificados para plataformas UC - Batería de Larga Duración - Adaptador Bluetooth USB-C - Negro",
+   "image": "https://m.media-amazon.com/images/I/31TGhu16mUL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0874M3KW4": {
+   "status": "ok",
+   "title": "Anker PowerExpand Adaptador USB C 8 en 1 con 2 HDMI 4K | 100W Power Delivery, Ethernet 1 Gbps, 2 puertos USB 3.0 y lector SD microSD para MacBook Pro",
+   "image": "https://m.media-amazon.com/images/I/41jaFGKHJgL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AnkerDirect ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B087QZVQJX": {
+   "status": "ok",
+   "title": "Anker 555 Hub USB C 8 en 1, 100W, HDMI 4K 60Hz, 10Gbps | USB C, 2 puertos USB A, Ethernet, lector microSD y SD, para MacBook Pro y más",
+   "image": "https://m.media-amazon.com/images/I/41fGFEsawXL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AnkerDirect ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B088HHWC47": {
+   "status": "ok",
+   "title": "Elgato Wave:3, micrófono condensador USB prémium | Streaming, podcasts, juegos, oficina en casa, software mezclador gratis, plugins, antidistorsión, Mac, PC",
+   "image": "https://m.media-amazon.com/images/I/31p+apOTAiL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "ESSEBI SHOP",
+   "checkedAt": "2026-11-26"
+  },
+  "B08C6JFNHQ": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B08FDR3HJ8": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B08GM4GRLL": {
+   "status": "ok",
+   "title": "Anker PowerExpand 13-en-1 USB-C estación de Acoplamiento para Ordenadores portátiles USB-C, portátil de Carga con 85W, 18W para los teléfonos Inteligentes, 4K HDMI, 1 Gbps Ethernet, Audio, USB",
+   "image": "https://m.media-amazon.com/images/I/31Qke0VoWhL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B08GQ2TXFC": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B08KFL3SFV": {
+   "status": "ok",
+   "title": "HyperX SoloCast – Micrófono de condensador USB para juegos, para PC, PS4 y Mac, sensor de silenciamiento con un toque, patrón polar cardioide, juegos, streaming, podcasts, Twitch, YouTube, Discord",
+   "image": "https://m.media-amazon.com/images/I/31bLH8AlWwL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon US",
+   "checkedAt": "2026-11-26"
+  },
+  "B08PKBZ428": {
+   "status": "ok",
+   "title": "Razer Kiyo Pro - Cámara de transmisión USB con sensor de luz de alto rendimiento y soporte (cámara web, video Full HD 1080p, 60 FPS, HDR, lente gran angular, software de transmisión abierta) Negro",
+   "image": "https://m.media-amazon.com/images/I/419aiUttUNL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B091D2CKC7": {
+   "status": "ok",
+   "title": "ErgoSolid F80 Soporte de Escritorio para Monitor de 17 a 32 Pulgadas, Brazo Articulado Neumático, VESA 75x75/100x100, Peso de 2 a 9 kg, Rotación 360°, Grafito",
+   "image": "https://m.media-amazon.com/images/I/31RDIuHozfL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B093C7TL9J": {
+   "status": "ok",
+   "title": "DRIFT GAMING DR175 - Silla Gaming Profesional, polipiel, reposabrazos ajustables 2D, pistón clase 4, giratoria, mecanismo de mariposa, cojín lumbar y cervical, color negro/blanco/azul",
+   "image": "https://m.media-amazon.com/images/I/21O6u0+PZiL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 2 a 5 meses"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B093FKT9BF": {
+   "status": "ok",
+   "title": "UGREEN Revodok Hub USB C Ethernet Gigabit 7 en 1 Docking Station | HDMI 4K 60Hz, RJ45 1000Mbps, Lector de Tarjetas SD TF, 5Gbps, PD 100W, Compatible con MacBook iPad Pro Air iPhone 18 Pro Max",
+   "image": "https://m.media-amazon.com/images/I/41phbQ0sXKL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "UGREEN GROUP LIMITED UK",
+   "checkedAt": "2026-11-26"
+  },
+  "B09581LH8X": {
+   "status": "ok",
+   "title": "Steelcase Silla ergonómica de Oficina: Series 2, Soporte Lumbar | Nube tormenta, Brazos 4D, Ruedas para todo tipo de suelos, materiales premium, hasta 150 kg y 190 cm, comodidad del asiento",
+   "image": "https://m.media-amazon.com/images/I/41L0sJGs5ZL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0963ZH7L7": {
+   "status": "ok",
+   "title": "Leitz 65330085 – Convertidor Escritorio Ergo Cosy",
+   "image": "https://m.media-amazon.com/images/I/31btZV7IAbL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B09963RQ6Y": {
+   "status": "ok",
+   "title": "Invision Soporte Monitor Brazo para Pantallas 19-32 Pulgadas, VESA 75/100mm, Abrazadera Escritorio Soporte, Ajuste de Altura con Inclinación, Giratorio, Rotar, Capacidad Carga 2-9kg MX200 Brazo Único",
+   "image": "https://m.media-amazon.com/images/I/41rKIAMc6lL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Invision Tecnología (España)",
+   "checkedAt": "2026-11-26"
+  },
+  "B099ZTMGYQ": {
+   "status": "ok",
+   "title": "FEZIBO Escritorio Eléctrico de Pie - 100 * 60 cm Mesa Altura Ajustable con Tablero, Pies en T de Acero, Sistema Anticolisión, Panel Control con Funciones Memoria",
+   "image": "https://m.media-amazon.com/images/I/41ll2OSrrxL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "YNV Supplies",
+   "checkedAt": "2026-11-26"
+  },
+  "B09BHJRZZB": {
+   "status": "ok",
+   "title": "FIFINE Micrófono USB, PC Micrófono de Metal de Condensador para Grabación en Ordenadores, Estudio de Grabación de Cardioide, Voice Overs, Transmisión en Streaming y Videos - Trabajando en Línea",
+   "image": "https://m.media-amazon.com/images/I/41B3APV5amL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Salcar GmbH",
+   "checkedAt": "2026-11-26"
+  },
+  "B09BJQQBSB": {
+   "status": "ok",
+   "title": "ASUS Zenbook 14 OLED UX3405CA-QD1481W - Ordenador Portátil 14\" WUXGA (Intel Core Ultra 7 255H, 16GB RAM, 512GB SSD, ARC 140T, Windows 11 Home) Niebla Plateada - Teclado QWERTY español",
+   "image": "https://m.media-amazon.com/images/I/31WVpfimCFL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 6 a 7 meses"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B09DQ4SWFS": {
+   "status": "ok",
+   "title": "Razer Pro Type Ultra - Teclado Mecánico Inalámbrico para Máxima Productividad (Interruptores Lineales, Almohadilla de Piel Sintética, Multidispositivo, Bluetooth) QWERTY US Teclado | Blanco",
+   "image": "https://m.media-amazon.com/images/I/4116u09YLzL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B09GK8LBWS": {
+   "status": "ok",
+   "title": "CalDigit Base TS4 Thunderbolt 4-18 Puertos, Carga de 98 W, 3 Thunderbolt 4 de 40 GB/s, 5 USB-A, 3 USB-C (10 GB/s), 2.5 GbE, Pantallas Individuales de 8K o Dobles 6K 60Hz, Mac, PC, Chrome Compatible",
+   "image": "https://m.media-amazon.com/images/I/31DKJ3K5cUL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon US",
+   "checkedAt": "2026-11-26"
+  },
+  "B09GNPLXMZ": {
+   "status": "ok",
+   "title": "Ticova Silla de Oficina Ergonómica - Silla Escritorio Respaldo Alto con Soporte Lumbar Ajustable, Reposacabezas y Reposabrazos 3D - 130°Silla de Computadora Silla de Malla Mecedora",
+   "image": "https://m.media-amazon.com/images/I/41abyFNuCTL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Ticova",
+   "checkedAt": "2026-11-26"
+  },
+  "B09J7ZQXY9": {
+   "status": "ok",
+   "title": "Baseus Docking Station USB C 4K@60Hz Dual HDMI + DP, Hub 12 en 1 Adaptador USB C con 2HDMI, DP, 100W PD, 3* USB3.0, USB C, Gigabit Ethernet, SD/TF, 3,5mm para MacBook/DELL/HP/Surface/Steam Deck",
+   "image": "https://m.media-amazon.com/images/I/31bymLiTybL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B09JKF733K": {
+   "status": "ok",
+   "title": "RK ROYAL KLUDGE RK61 Teclado Inalambrico, Español Teclado Mecánico Gaming 60% RGB Bluetooth/USB-C/2.4Ghz Interruptor Marrón Hot Swap Compatible con MacBook/iPad/iOS/Mac OX/Windows PC Tableta, Blanco",
+   "image": "https://m.media-amazon.com/images/I/41yQCqQg93L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "RK ROYAL KLUDGE OFFICIAL Store",
+   "checkedAt": "2026-11-26"
+  },
+  "B09MFMTMPD": {
+   "status": "ok",
+   "title": "AnkerWork PowerConf C200 Webcam USB 2K para portátil | Cámara de PC con micros con cancelación de ruido IA, campo de visión ajustable y tapa de privacidad",
+   "image": "https://m.media-amazon.com/images/I/31LQ07xu1BL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AnkerDirect ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B09Q5V9G5P": {
+   "status": "ok",
+   "title": "Anker 565 Hub USB C 11 en 1 con HDMI 4K y DisplayPort | USB C y USB A de 10 Gbps, 100 W, 2 USB 2.0, Ethernet, AUX, microSD y SD",
+   "image": "https://m.media-amazon.com/images/I/31j9gHhrD5L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AnkerDirect ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B09Y2MYL5C": {
+   "status": "ok",
+   "title": "Sony WH-1000XM5 Auriculares Premium inalambricos con cancelación de Ruido | Auriculares de diadema, bluetooth, Llamadas nítidas, Hi-Res, 30 Horas de batería, Estuche rígido, iOS & Android - Negro",
+   "image": "https://m.media-amazon.com/images/I/21m0YJkUsyL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0B3RH59X8": {
+   "status": "ok",
+   "title": "Silla Gaming Secretlab TITAN Evo Black3 - Tejido, Negro, Ergonómica | Soporte Lumbar, Reclinable, Cojín Magnético, Estándar (hasta 130 kg), Reposabrazos 4D",
+   "image": "https://m.media-amazon.com/images/I/4101jYACXcL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Secretlab EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BKZBF6LD": {
+   "status": "ok",
+   "title": "Amazon Basics regleta con 3 Tomas y protección contra sobretensiones, 3 Puertos USB (1 USB-C, 2 USB-A), Cable de 1,5m, 1050 J, Color Blanco",
+   "image": "https://m.media-amazon.com/images/I/311n89AQzbL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BLMCLK15": {
+   "status": "ok",
+   "title": "HOLLUDLE Silla de Oficina Ergonómica con Respaldo Adaptativo, Silla de Escritorio de Alto Respaldo con Reposabrazos 4D, Profundidad de Asiento Ajustable, Soporte Lumbar y Reposacabezas 2D, Negro",
+   "image": "https://m.media-amazon.com/images/I/41Y2yB4ivrL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Holludle",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BQM4TKF7": {
+   "status": "ok",
+   "title": "RODE PodMic USB Micrófono dinámico de radiodifusión con conectividad XLR y USB, micrófono cardioide para podcasting, streaming y creación de contenido (Negro)",
+   "image": "https://m.media-amazon.com/images/I/41kxPeJ-lKL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BS1QX776": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BSGVYQL2": {
+   "status": "ok",
+   "title": "Acer Predator Rift Lite Essential, Silla Gaming Ergonómica con Cojín Lumbar | para Gaming, Teletrabajo y Estudio, Reposabrazos y Cojín Lumbar, Pistón de Gas Clase 3, Homologación Hasta 150kg",
+   "image": "https://m.media-amazon.com/images/I/31DpQt0e+8L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 4 en stock."
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BXDQS4BD": {
+   "status": "ok",
+   "title": "UGREEN Revodok Pro 210 Hub USB C 10 en 1 Docking Station Dual Pantalla | 2 HDMI, Único 8K30Hz, Doble 4K60Hz, Ethernet Gigabit, Carga PD 100W, 5Gbps, 3A1C, SD TF, Compatible con MacBook Pro Air",
+   "image": "https://m.media-amazon.com/images/I/41l5s9a2u2L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "UGREEN GROUP LIMITED UK",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BYWMLVG1": {
+   "status": "ok",
+   "title": "JBL Auriculares Tune 520 BT, inálambricos por Bluetooth, 57 horas de reproducción con JBL Pure Bass, plegables, negro",
+   "image": "https://m.media-amazon.com/images/I/31Xlx2sHvlL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C6KFZC9Z": {
+   "status": "ok",
+   "title": "Anker soundcore Space One Auriculares Bluetooth ANC Adaptativa, LDAC, 40H | Reducción de Voz Humana 2X más Fuerte y Control por App",
+   "image": "https://m.media-amazon.com/images/I/31RagWqV0VL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AnkerDirect ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C6MTPKQ1": {
+   "status": "ok",
+   "title": "Razer BlackWidow V4 X - Teclado mecánico Gaming (Switches mecánicos Amarillos, 6 Teclas Macro dedicadas, Teclas de ABS de Doble inyección, Chroma RGB) QWERTY Teclado ES | Negro",
+   "image": "https://m.media-amazon.com/images/I/41l4YQhOwzL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C76ZD7KV": {
+   "status": "ok",
+   "title": "UGREEN Webcam Full HD 1080P 30FPS USB A PC Cámara Foco Fijo | 2 Micrófono Incorporado 90°Ángulo de Visión para Windows MacOS Linux Soporta Youtube Streaming Video Calling Zoom(Gris)",
+   "image": "https://m.media-amazon.com/images/I/31CJ3-gWsEL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "UGREEN GROUP LIMITED UK",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C7H87W7X": {
+   "status": "ok",
+   "title": "hjh OFFICE Silla de Oficina ergonómica ERGOHUMAN Slim GEN2 Diseño Original, Silla giratoria con Soporte Lumbar Flexible, Malla Verde",
+   "image": "https://m.media-amazon.com/images/I/41cXuoSc3xL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 5 en stock."
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CG53LVZB": {
+   "status": "ok",
+   "title": "Amazon Basics Hub Dock de USB 3.2/3.1, 2.ª Gen., 10 GB/s, USB C a 1 USB C / 3 USB A, Compatible con Windows/Mac, Plata, Negro",
+   "image": "https://m.media-amazon.com/images/I/41Hse2eCKaL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CH7RBQQ7": {
+   "status": "ok",
+   "title": "Hbada P5 Silla de Oficina ergonómica con Soporte Lumbar Ajustable, cojín elástico Transpirable, reposabrazos Ajustables y reposacabezas, Reposapiés Integrado, Negro (Aluminium, Negro)",
+   "image": "https://m.media-amazon.com/images/I/41k90vceC+L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "HbadaDirect",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CL9XVY7M": {
+   "status": "ok",
+   "title": "NEEWER Aro Luz Profesional con Soporte y Movil Soporte, 18Inch Ultrafino, 45W 2900K-7000K TLCI98, Obturador Remoto y App Control, Iluminación Más Suave para Maquillaje en Vivo TikTok,RP18B Pro Negro",
+   "image": "https://m.media-amazon.com/images/I/410cyMmrBrL._SL500_.jpg",
+   "availability": {
+    "type": "UNAVAILABLE",
+    "message": " Temporalmente sin stock."
+   },
+   "merchant": "QiHuichang",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CMTQPWQ8": {
+   "status": "ok",
+   "title": "Razer Seiren V3 Mini - Micrófono USB ultracompacto - micrófono de condensador de 14mm (patrón de captación supercardioide, sensor Tap-to-Mute con indicador LED, amortiguador incorporado) Negro",
+   "image": "https://m.media-amazon.com/images/I/31XLjtbZDRL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CMXGDK5S": {
+   "status": "ok",
+   "title": "Dell U2724D UltraSharp 27\" QHD (2560x1440) Monitor, 120Hz, IPS Black, 5ms, 98% DCI-P3, 2x USB-C, 2x DisplayPort, HDMI, 3x USB, 3 Años de Garantía, Plata",
+   "image": "https://m.media-amazon.com/images/I/411+l+bbTHL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CSYQWWTZ": {
+   "status": "ok",
+   "title": "Amazon Basics Teclado con Cable USB y Base Fina, diseño español, Negro Mate",
+   "image": "https://m.media-amazon.com/images/I/41nrRdHv6sL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CV4VM2TR": {
+   "status": "ok",
+   "title": "SONGMICS Escritorio Eléctrico, 60 x 140 x (72-120) cm | Ajustable sin Escalonamiento, Memoria con 4 Alturas, Tablero Empalmado, Negro, Colección BALOK LSD134B01",
+   "image": "https://m.media-amazon.com/images/I/41UiDpEk-IL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CX242NL1": {
+   "status": "ok",
+   "title": "Apple 2024 MacBook Air de 13 Pulgadas con Chip M3 de Apple: Pantalla Liquid Retina de 13,6 Pulgadas, 8 GB de Memoria unificada, SSD de 256 GB, cámara FaceTime HD a 1080p, Touch ID, Blanco Estrella",
+   "image": "https://m.media-amazon.com/images/I/41GOLb+qMkL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0CX9CT3ZF": {
+   "status": "ok",
+   "title": "PHILIPS 24E1N1100A Monitor 24 Pulgadas 120Hz Panel IPS, 4ms GtG, Altavoces, (1920x1080 HDMI 1x 1.4) Negro",
+   "image": "https://m.media-amazon.com/images/I/317qQpMmgbL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D3F6JTQY": {
+   "status": "ok",
+   "title": "Samsung Monitor ViewFinity S7 S70D UHD 34\" con 60Hz y Modo Eye Saver | 60Hz, Tiempo de respuesta de 5ms, 16:9 y Flicker Free",
+   "image": "https://m.media-amazon.com/images/I/41EOlADEQdL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 4 en stock."
+   },
+   "merchant": "Office Partner GmbH_1",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D9MGDDHD": {
+   "status": "ok",
+   "title": "ErGear Escritorio Elevable Eléctrico, 120x60cm, Blanco | Ajuste Eléctrico 72-118cm, 4 Memorias, 80kg, <55dB, Estable, Ganchos y Pasacables, Tablero Ensamblado.",
+   "image": "https://m.media-amazon.com/images/I/41aakPNPdAL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "BSQ Technology EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D9W57M4Y": {
+   "status": "ok",
+   "title": "NEEWER NL-116AI 9\" Panel de Luz LED de Video,Iluminación Trípode Escritorio | Luz Suave DSLR Regulable, Mini Soporte, Puertos USB-C, 3200K-5600K CRI95+ para Fotografía de Estudio, Video y Streaming",
+   "image": "https://m.media-amazon.com/images/I/41wECnw8o6L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DCSHSSFF": {
+   "status": "ok",
+   "title": "NEEWER BASICS BR60 5\" Aro de Luz para Iluminación Videoconferencias, Clip | Kit de Trípode de Escritorio, Aro de Luz para Monitor, Portátil, Zoom, Videollamadas, Streaming, Trabajo, Aprendizaje, Video",
+   "image": "https://m.media-amazon.com/images/I/41otloNJCyL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DF84JPCW": {
+   "status": "ok",
+   "title": "Lenovo L27h-4A - Monitor QHD 27\" (IPS, 4 Lados Ultrafinos, HDMI - DP - USB-C, 16:9, Tasa de Refresco 100 Hz, Tiempo Respuesta 1ms, Montaje VESA 100 mm, Ajuste Inclinación/Altura/Pivote/Giro) - Gris",
+   "image": "https://m.media-amazon.com/images/I/41kbs7EI0aL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DRP1F6R7": {
+   "status": "ok",
+   "title": "UGREEN Revodok Pro 3121 Hub USB C 12 en 1 Docking Station Pantalla Triple | 10Gbps, Doble HDMI 4K60Hz, 1 DisplayPort 4K120Hz, USB Multipuerto 2A2C, Ethernet Gigabit, PD 100W Carga, SD TF, Audio 3.5mm",
+   "image": "https://m.media-amazon.com/images/I/41niEYxsnwL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "UGREEN GROUP LIMITED UK",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DT9MMZTL": {
+   "status": "ok",
+   "title": "UGREEN FineCam Lite 4K Webcam 30FPS Ultra HD USB Webcam Enfoque Automático | Azul Plug and Play para Windows MacOS Linux Streaming Youtube Skype Call Video Zoom Videoconferencia",
+   "image": "https://m.media-amazon.com/images/I/41IITU33cVL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "UGREEN GROUP LIMITED UK",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DTKNMS89": {
+   "status": "ok",
+   "title": "Ergotopia PureBack silla de escritorio ergonómica, silla de oficina | Giratoria y cómoda para ordenador, soporte lumbar ajustable, reposabrazos 4D, respaldo de malla, carga 125 kg, negra",
+   "image": "https://m.media-amazon.com/images/I/41x3kWPl5DL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Ergotopia GmbH",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DVCGC5MW": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DVZG36J8": {
+   "status": "ok",
+   "title": "Elgato Facecam 4K, cámara web de estudio 4K60 | Control tipo DSLR, efectos cinematográficos, filtros de objetivo 49 mm, HDR, sin compresión, USB-C, PC y Mac",
+   "image": "https://m.media-amazon.com/images/I/31AxBrFts8L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DWS3R3XP": {
+   "status": "ok",
+   "title": "Amazon Basics Ratón inalámbrico Vertical para portátil y Ordenador de Escritorio, 6 Botones, para diestros, Apto para Palmas de tamaño Mediano a Grande, Negro",
+   "image": "https://m.media-amazon.com/images/I/31warME3HnL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0F29RSLHP": {
+   "status": "ok",
+   "title": "DELL 27 Plus USB-C Monitor - S2725QC, 4K UHD (3840x2160), 120Hz, IPS, 4ms, AMD FreeSync Premium, 99% sRGB, Ajuste de Altura, Altavoces Integrados, 2 USB-C, 2 HDMI, 2 USB, 3 Años de Garantía",
+   "image": "https://m.media-amazon.com/images/I/41Bi4XlCRlL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0F2TT8Q7M": {
+   "status": "ok",
+   "title": "Sony WH-1000XM6 Auriculares de Lujo inalambricos con cancelación de Ruido | Auriculares de diadema, Bluetooth, Hi-Res, diseño Plegable, Estuche Resistente, 30 Horas de batería , iOS & Android – Negro",
+   "image": "https://m.media-amazon.com/images/I/21D9aJPgz-L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0F4FFXRRP": {
+   "status": "ok",
+   "title": "Fellowes Elevador para Portátil Everyday – Soporte Ajustable con 7 Alturas para Escritorio, Hogar u Oficina – hasta 17\", 4 kg Máx. – Negro",
+   "image": "https://m.media-amazon.com/images/I/41iGvU0f9hL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0F99B78JN": {
+   "status": "ok",
+   "title": "ASUS Vivobook 15 F1504VA-BQ128W - Ordenador Portátil 15.6\" Full HD (Windows 11 Home,Intel Core 5 120U, 16GB RAM, 1TB SSD, Graphics,) Azul Tranquilo - Teclado QWERTY español",
+   "image": "https://m.media-amazon.com/images/I/31fP7nWrX7L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0F9YSJJG2": {
+   "status": "ok",
+   "title": "PHILIPS 27E2N1500L Monitor 27 Pulgadas 75Hz Panel IPS, 4ms GtG, HDR10, (2560x1440 HDMI 1x 1.4 DP 1x 1.4) Negro",
+   "image": "https://m.media-amazon.com/images/I/41MWo7utmKL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0FG2T2R69": {
+   "status": "ok",
+   "title": "FLEXISPOT Escritorio Elevable Eléctrico 120x60, Tablero Entero, 4 Memorias | Mesa Elevable Altura Ajustable, organizador de cables, anticolisión con retroceso y 4 memorias, garantía de 5 años, Negro",
+   "image": "https://m.media-amazon.com/images/I/31RfZIa-MmL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "FLEXISPOT GmbH",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FHHSZ8WM": {
+   "status": "ok",
+   "title": "Logitech MX Master 4, ratón inalámbrico ergonómico | Respuesta háptica avanzada, desplazamiento ultrarrápido, carga USB-C, Bluetooth, Windows, macos - Negro",
+   "image": "https://m.media-amazon.com/images/I/31M9FP-EHlL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FJ1XMX24": {
+   "status": "ok",
+   "title": "ARZOPA Monitor Portátil 16,1\" 2.5K QHD 180Hz, IPS 100% sRGB HDR10, USB-C y Mini HDMI, Pantalla Externa para Trabajo, Gaming y Viajes, Compatible con PC, Mac, PS5, Xbox y Switch - Z3FC Gris",
+   "image": "https://m.media-amazon.com/images/I/41P9hXGRgZL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "ARZOPA Official Store",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FJD3TXG4": {
+   "status": "ok",
+   "title": "BONTEC Soporte para Monitor 24-38 Pulgadas, Brazo Individual A Gas hasta 12 Kg, VESA 75x75 100x100, Rotación 360°, Altura E Inclinación Ajustable, Soporte De Escritorio Y Mesa con Gestión De Cables",
+   "image": "https://m.media-amazon.com/images/I/41gMOTEi5pL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "bracketsales123",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FKBRLWNW": {
+   "status": "ok",
+   "title": "LG Monitor Ultrafine 27U730A-B - 27'', UHD(3840 x 2160), IPS, Negro | altura ajustable, HDR10, -, DCI-P3 90%, UHD 4K (3840 x 2160), HDMI 2, altavoces 5W x2",
+   "image": "https://m.media-amazon.com/images/I/41uaDKYhfgL._SL500_.jpg",
+   "availability": {
+    "type": "AVAILABLE_DATE",
+    "message": ""
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FMJXV225": {
+   "status": "ok",
+   "title": "ErGear Escritorio Elevable Eléctrico, 140x70cm, Blanco | Ajuste Eléctrico 72-118cm, 4 Memorias, Carga 80kg, <45dB, Marco Acero Estable, Gancho y Tablero Ensamblado.",
+   "image": "https://m.media-amazon.com/images/I/41YeF6EpuHL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "BSQ Technology EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FMK8854W": {
+   "status": "ok",
+   "title": "SONGMICS Silla de Oficina Ergonómica, Soporte Lumbar, Carga 150 kg | Silla de Escritorio de Malla, Reposacabezas Ajustables, Negro Tinta, Colección KIME OBN067BH01",
+   "image": "https://m.media-amazon.com/images/I/41qyc7jEkxL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FN549BVL": {
+   "status": "ok",
+   "title": "LG 32U721SA-W - Smart Monitor, Panel VA, 4K Ultra HD, 60 Hz, 32\" | Resolución 3840x2160, Formato 16:9, HDR10, Brillo 250 cd/m², DCI-P3 90%, USB-C 65W, 2 HDMI 2.0 y AirPlay 2, Blanco",
+   "image": "https://m.media-amazon.com/images/I/41BqPSQh1eL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FR981Z25": {
+   "status": "ok",
+   "title": "CLOUVOU Silla de Oficina Ergonomica con Ruedas [GANADORA DE PUREBAS] Negro | Soporte Lumbar ajustable, Comoda, para Hogar y Oficina en Casa, Respaldo de malla, Silla Ergonomica Escritorio",
+   "image": "https://m.media-amazon.com/images/I/51d4nfAAxeL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "CleverSeat",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FRS49HT6": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FWD1L5SV": {
+   "status": "ok",
+   "title": "Apple MacBook Pro Portátil de 14,2\" con M5,CPU de 10 núcleos y GPU de 10 núcleos: Creado para Apple Intelligence, Pantalla Liquid Retina XDR y 16 GB de Memoria unificada, 1TB; Negro Espacial",
+   "image": "https://m.media-amazon.com/images/I/21INVVstcZL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0G1KCG8DX": {
+   "status": "ok",
+   "title": "Keychron V6 MAX Teclado Mecánico Gaming Inalámbrico, 2.4 GHz/Bluetooth/Cable, Distribución QWERTY Español, Programable QMK, Compatible con Mac, Windows y Linux, Interruptores Gateron Jupiter Marrones",
+   "image": "https://m.media-amazon.com/images/I/41WAzywtFOL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Keychron Spain",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GGXPFW9X": {
+   "status": "ok",
+   "title": "Yeelight Lámpara Monitor con Control Remoto Inalámbrico 40cm, Luz Monitor 250LM Protección Ocular, Barra de Luz LED USB para Oficina y Gaming, Monitor Light Bar Regulable, Screenbar Antireflejos",
+   "image": "https://m.media-amazon.com/images/I/41q2gliDgTL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Yeelight Global",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GGYLFHPS": {
+   "status": "ok",
+   "title": "Elgato Wave:3 MK.2, micrófono condensador USB | Streaming y podcasting, procesador Wave FX, DSP integrado, Clipguard 2.0, plugins VST, PC y Mac",
+   "image": "https://m.media-amazon.com/images/I/31s5b5k5jxL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GHZYPL69": {
+   "status": "ok",
+   "title": "Lenovo Yoga Slim 7 Gen 10 – Ordenador Portátil IA Aura Edition - 14'' OLED (Intel Core Ultra 7 258V, Intel AI Boost 47 Tops, 32GB RAM, 1TB SSD, Win11 Home, Wi-Fi7, Copilot+ PC) QWERTY Español, Gris",
+   "image": "https://m.media-amazon.com/images/I/41T5U19wdRL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0GR1L94FB": {
+   "status": "ok",
+   "title": "Apple MacBook Air de 13,6 Pulgadas con Chip M5: Pantalla Liquid Retina, CPU de 10 núcleos, GPU de 10 núcleos, 16 GB de Memoria unificada, 1 TB de SSD, Wi-Fi 7,Teclado español; Azul Cielo",
+   "image": "https://m.media-amazon.com/images/I/41yOZKd9XqL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GT9F3TZ5": {
+   "status": "ok",
+   "title": "ProtoArc EC200 Pro Silla Ergonomica Escritorio de Malla con Reposabrazos 4D | Silla Oficina con Profundidad de Asiento Ajustable, Soporte Lumbar Ajustable y Reposacabezas 3D, Negra",
+   "image": "https://m.media-amazon.com/images/I/41ezBh2FORL._SL500_.jpg",
+   "availability": {
+    "type": "UNAVAILABLE",
+    "message": " Temporalmente sin stock."
+   },
+   "merchant": "ProtoArc - Official",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GTPSD1J4": {
+   "status": "ok",
+   "title": "FLEXISPOT E1 Pro Escritorio Elevable Eléctrico 160x80cm con Tablero Entero | Mesa Elevable Altura Ajustable, 2 Motores, 100kg Capacidad, 4 Memorias, Anticolisión, Garantía 5 Años, Mousse+blanco",
+   "image": "https://m.media-amazon.com/images/I/41Q4rIiEPLL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "FLEXISPOT GmbH",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GX9SBSDK": {
+   "status": "ok",
+   "title": "Keychron V6 Ultra 8K Teclado Mecánico Inalámbrico, ISO-ES Layout, 8000 Hz, ZMK/Launcher, 2,4 GHz/Bluetooth 5.3, Teclas PBT, Interruptores Silk Pom Banana, Teclado Español para Windows, macOS y Linux",
+   "image": "https://m.media-amazon.com/images/I/41m2pJNvGXL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Keychron Spain",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GYDFGCCQ": {
+   "status": "ok",
+   "title": "Elgato Key Light Air MK.2, panel LED de 15\" | Hasta 2.100 lúmenes, espectro completo 2.900–7.000 K, controles táctiles, USB-C, Wi-Fi, compatible con MagSafe y Stream Deck",
+   "image": "https://m.media-amazon.com/images/I/21Rdbtd9VKL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GYQ9SJT7": {
+   "status": "ok",
+   "title": "HP OmniBook 5 Ordenador Portátil 14” OLED, Snapdragon X, 16GB, 512SSD | 14-he0000nsx , AI PC, hasta 34h batería, Windows 11, QWERTY Español, Plata, Sin Cargador Incluido",
+   "image": "https://m.media-amazon.com/images/I/41cE2TwUh9L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GYR3Z4CR": {
+   "status": "ok",
+   "title": "Angetube Webcam 4K con Luz,Cámara de Streaming con Micrófono para PC y Mac | 4K@30FPS, Enfoque PDAF Automático,1080P@60FPS,USB-A/C,tapa privacidad,cámara PC/portátil,compatible Zoom, Teams, Twitch",
+   "image": "https://m.media-amazon.com/images/I/41W4WNBweCL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Angetube Factory Store",
+   "checkedAt": "2026-11-26"
+  },
+  "B0H5JNDS8T": {
+   "status": "ok",
+   "title": "Keychron K2 Ultra 8K Teclado Mecánico Inalámbrico 75% ISO-ES, Apex Red | Tres modos: 8K tanto por cable como a 2,4 GHz, más conexión Bluetooth. Hasta 760 h, Hot-Swap, RGB, formato 75% & marco CNC",
+   "image": "https://m.media-amazon.com/images/I/414zUr5fB5L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Keychron Spain",
+   "checkedAt": "2026-11-26"
+  },
+  "B0HDTY4YYZ": {
+   "status": "ok",
+   "title": "BenQ GW2790P 27\" 1080p FHD 120Hz IPS Monitor Eye-Care | 1920x1080, Visual Optimizer, Flicker-free, Low Blue Light, marco ultra fino, certificado por TÜV, Eye-CareU",
+   "image": "https://m.media-amazon.com/images/I/41NhQ9kk5zL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  }
+ }
 }
