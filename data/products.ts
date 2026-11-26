@@ -2335,6 +2335,26 @@ export const products: Product[] = [
     specs: { "Marca": "ErgoSolid", "Modelo": "F80", "Pantallas": "17-32\"", "Peso por pantalla": "2-9 kg", "VESA": "75 × 75 y 100 × 100 mm", "Rotación": "360°", "Vendido por": "Amazon" },
     relatedPosts: ["brazo-monitor-como-elegir", "mejor-monitor-home-office-2025"],
   },
+  {
+    slug: "ngs-footnest-reposapies-ergonomico-ajustable",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "NGS Footnest Reposapiés ergonómico ajustable 0°-15° antideslizante",
+    asin: "B08G1KBM88",
+    image: "https://m.media-amazon.com/images/I/51-LmMCoscL._SL500_.jpg",
+    category: "Sillas ergonómicas",
+    categorySlug: "sillas-ergonomicas",
+    categoryName: "Sillas ergonómicas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Reposapiés de escritorio con altura ajustable, inclinación de 0° a 15° sin herramientas, plataforma de 44,8 x 33,5 cm con superficie texturizada y patas de goma antideslizantes.",
+    fullDescription: "Reposapiés para colocar bajo el escritorio de NGS. Según la ficha de Amazon, la altura y la inclinación, de 0° a 15°, se ajustan con una ligera presión del pie y sin herramientas, ni tornillos ni tuercas. La plataforma mide 44,8 x 33,5 cm, tiene una superficie texturizada con efecto masajeador y se limpia con un paño húmedo. Las patas de goma antideslizante lo fijan sobre parqué, tarima o baldosa sin marcar el suelo, y la estructura es de poliestireno de alto impacto. Llega listo para usar, sin montaje. Puede resultar útil si, con la silla a la altura de la mesa, los pies no llegan bien al suelo. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Altura e inclinación de 0° a 15° ajustables sin herramientas", "Patas de goma antideslizantes que no marcan el suelo, según la ficha", "Plataforma de 44,8 x 33,5 cm para apoyar ambos pies con libertad", "Sin montaje"],
+    cons: ["Es de plástico (poliestireno): no es un reposapiés de madera ni de gran peso", "La superficie texturizada puede resultar incómoda si trabajas con calcetines finos o sin ellos", "No sustituye a ajustar bien la silla y la mesa: es un complemento", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "NGS", "Modelo": "Footnest", "Plataforma": "44,8 x 33,5 cm", "Inclinación": "0° a 15°", "Altura": "Ajustable sin herramientas", "Material": "Poliestireno de alto impacto", "Base": "Patas de goma antideslizantes", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "montar-oficina-en-casa-5-pasos-ergonomia"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {

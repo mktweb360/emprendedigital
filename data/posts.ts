@@ -265,7 +265,7 @@ export const posts: Post[] = [
     date: "2025-07-01",
     category: "Home Office",
     readTime: "11 min",
-    relatedProducts: ["songmics-silla-oficina-ergonomica-lumbar-4d", "sihoo-m57-silla-ergonomica", "hbada-silla-ergonomica-pro", "ergotopia-pureback-silla-mecanismo-sincronizado", "hbada-silla-ergonomica-malla-oficina", "steelcase-series-2-silla-ergonomica", "secretlab-titan-evo-2022-silla"],
+    relatedProducts: ["songmics-silla-oficina-ergonomica-lumbar-4d", "sihoo-m57-silla-ergonomica", "hbada-silla-ergonomica-pro", "ergotopia-pureback-silla-mecanismo-sincronizado", "hbada-silla-ergonomica-malla-oficina", "steelcase-series-2-silla-ergonomica", "secretlab-titan-evo-2022-silla", "ngs-footnest-reposapies-ergonomico-ajustable"],
     relatedPosts: ["dolor-espalda-trabajar-casa-soluciones", "home-office-setup-productivo-guia", "escritorio-regulable-altura-home-office", "hjh-office-ergohuman-slim-gen2-analisis"],
     categoryCta: { href: "/tienda/sillas-ergonomicas", text: "Ver todas las sillas de oficina ergonómicas →" },
   },
