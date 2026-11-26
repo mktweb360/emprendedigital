@@ -2355,6 +2355,26 @@ export const products: Product[] = [
     specs: { "Marca": "NGS", "Modelo": "Footnest", "Plataforma": "44,8 x 33,5 cm", "Inclinación": "0° a 15°", "Altura": "Ajustable sin herramientas", "Material": "Poliestireno de alto impacto", "Base": "Patas de goma antideslizantes", "Vendido por": "Amazon" },
     relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "montar-oficina-en-casa-5-pasos-ergonomia"],
   },
+  {
+    slug: "focusrite-scarlett-solo-4a-gen-interfaz-audio-usb-c",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Focusrite Scarlett Solo 4.ª generación Interfaz de audio USB-C",
+    asin: "B0C5JSHP7M",
+    image: "https://m.media-amazon.com/images/I/61wOuqJprgL._SL500_.jpg",
+    category: "Micrófonos",
+    categorySlug: "microfonos",
+    categoryName: "Micrófonos para podcast",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Interfaz de audio USB-C de Focusrite para conectar un micrófono y una guitarra, con conversores de 120 dB de rango dinámico, modo Air y software de producción incluido.",
+    fullDescription: "Interfaz de audio USB-C de Focusrite, cuarta generación de la Scarlett Solo. Según la ficha de Amazon, permite conectar un micrófono y una guitarra, y sus conversores ofrecen 120 dB de rango dinámico. El modo Air añade presencia a voces y guitarras en la grabación. Incluye Pro Tools Intro+ para Focusrite, Ableton Live Lite, Cubase LE y Hitmaker Expansion, un paquete de efectos, instrumentos de software y herramientas de masterización, y un inicio rápido guiado. Mide 14,3 x 9,6 x 4,55 cm y pesa unos 408 g. Es la opción habitual para quien quiere usar un micrófono XLR en lugar de uno USB. La ficha no detalla el número exacto de entradas, la alimentación fantasma ni las salidas: conviene comprobarlo en Amazon o en el fabricante. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Permite usar un micrófono XLR y una guitarra, según la ficha", "Conversores con 120 dB de rango dinámico y modo Air para voces", "Incluye software de grabación y producción (Pro Tools Intro+, Ableton Live Lite, Cubase LE)", "Compacta: 14,3 x 9,6 x 4,55 cm"],
+    cons: ["Necesitas comprar aparte el micrófono y el cable XLR", "La ficha no detalla entradas, alimentación fantasma ni salidas", "Para solo grabar voz sin complicaciones, un micrófono USB es más sencillo", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Focusrite", "Modelo": "Scarlett Solo 4.ª gen", "Conexión": "USB-C", "Rango dinámico": "120 dB", "Modo": "Air", "Software incluido": "Pro Tools Intro+, Ableton Live Lite, Cubase LE, Hitmaker Expansion", "Medidas": "14,3 x 9,6 x 4,55 cm", "Peso": "408 g", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-microfono-usb-podcast-streaming-2026", "setup-streaming-podcast-casa"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
