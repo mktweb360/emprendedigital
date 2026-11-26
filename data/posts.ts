@@ -608,7 +608,7 @@ export const posts: Post[] = [
     category: "Emprender Online",
     readTime: "9 min",
     image: "/images/blog/mejor-microfono-usb-podcast-streaming-2026.jpg",
-    relatedProducts: ["blue-yeti-usb-microfono", "elgato-wave3-mk2-microfono-condensador-usb", "hyperx-solocast-microfono", "fifine-microfono-usb-condensador", "focusrite-scarlett-solo-4a-gen-interfaz-audio-usb-c"],
+    relatedProducts: ["blue-yeti-usb-microfono", "elgato-wave3-mk2-microfono-condensador-usb", "hyperx-solocast-microfono", "fifine-microfono-usb-condensador", "focusrite-scarlett-solo-4a-gen-interfaz-audio-usb-c", "behringer-umc22-interfaz-audio-usb-2x2"],
     relatedPosts: ["como-empezar-negocio-online-desde-casa-2025", "mejor-webcam-videollamadas-trabajo-remoto", "herramientas-ia-productividad-2025", "setup-streaming-podcast-casa"],
     categoryCta: { href: "/tienda/microfonos", text: "Ver micrófonos →" },
   },
