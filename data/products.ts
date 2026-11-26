@@ -337,6 +337,25 @@ export const products: Product[] = [
     relatedPosts: ["mejor-teclado-raton-trabajo-remoto"],
   },
   {
+    slug: "amazon-basics-alfombrilla-extendida-90x43",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Alfombrilla de ratón extendida, 90 x 43 cm, negro",
+    asin: "B06X19FLTC",
+    category: "Teclados y ratones",
+    categorySlug: "perifericos",
+    categoryName: "Teclados y ratones",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Alfombrilla extendida de 90 x 43 cm para ratón y teclado, de tela, con base de goma antideslizante y apta para lavadora.",
+    fullDescription: "Alfombrilla de ratón de gran tamaño de Amazon Basics, pensada según la ficha de Amazon para jugar, para trabajo gráfico o para quien pasa muchas horas ante el ordenador. Tiene superficie de tela para un deslizamiento suave y precisión, una base gruesa recubierta de goma que la mantiene en su sitio, es lavable a máquina y cubre a la vez el teclado y el ratón. Mide 90,17 x 42,88 x 0,33 cm y pesa unos 653 g. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Cubre teclado y ratón a la vez", "Base de goma que evita que se mueva", "Lavable a máquina"],
+    cons: ["Con 90 cm de ancho necesita un escritorio amplio", "La ficha no indica compatibilidad con sensores concretos", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Medidas": "90,17 x 42,88 x 0,33 cm", "Peso": "653 g", "Superficie": "Tela", "Base": "Goma antideslizante", "Lavado": "A máquina", "Modelo": "SBD88WD", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto"],
+  },
+  {
     slug: "amazon-basics-teclado-cable-usb-base-fina-espanol",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Teclado con cable USB y base fina, diseño español, negro mate",

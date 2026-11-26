@@ -321,7 +321,7 @@ export const posts: Post[] = [
     date: "2025-07-09",
     category: "Productividad",
     readTime: "8 min",
-    relatedProducts: ["logitech-mx-keys-advanced-s", "logitech-mx-master-3s", "keychron-k2-pro-mecanico", "amazon-basics-raton-vertical-inalambrico-6-botones", "amazon-basics-raton-inalambrico-receptor-nano-3-botones", "amazon-basics-teclado-cable-usb-base-fina-espanol", "amazon-basics-raton-inalambrico-ergonomico-dpi-ajustable", "amazon-basics-raton-cable-usb-silencioso-3-botones", "amazon-basics-alfombrilla-raton-reposamunecas-gel-20x25"],
+    relatedProducts: ["logitech-mx-keys-advanced-s", "logitech-mx-master-3s", "keychron-k2-pro-mecanico", "amazon-basics-raton-vertical-inalambrico-6-botones", "amazon-basics-raton-inalambrico-receptor-nano-3-botones", "amazon-basics-teclado-cable-usb-base-fina-espanol", "amazon-basics-raton-inalambrico-ergonomico-dpi-ajustable", "amazon-basics-raton-cable-usb-silencioso-3-botones", "amazon-basics-alfombrilla-raton-reposamunecas-gel-20x25", "amazon-basics-alfombrilla-extendida-90x43"],
     relatedPosts: ["mejores-teclados-mecanicos-trabajar-oficina", "setup-trabajo-remoto-productividad-maxima", "herramientas-productividad-trabajo-remoto-2025", "monitor-4k-vs-full-hd-trabajo-remoto"],
     categoryCta: { href: "/tienda/perifericos", text: "Ver teclados y ratones →" },
   },

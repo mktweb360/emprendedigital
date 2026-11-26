@@ -12,6 +12,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "amazon-basics-raton-inalambrico-ergonomico-dpi-ajustable",
   "amazon-basics-raton-cable-usb-silencioso-3-botones",
   "amazon-basics-alfombrilla-raton-reposamunecas-gel-20x25",
+  "amazon-basics-alfombrilla-extendida-90x43",
   "amazon-basics-teclado-cable-usb-base-fina-espanol",
   "sihoo-m57-silla-ergonomica",
   "invision-mx200-brazo-monitor",
