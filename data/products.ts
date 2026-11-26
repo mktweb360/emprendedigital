@@ -2197,6 +2197,25 @@ export const products: Product[] = [
     relatedPosts: ["montar-oficina-en-casa-5-pasos-ergonomia", "home-office-setup-productivo-guia"],
   },
   {
+    slug: "amazon-basics-soporte-portatil-ventilado-7-niveles",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Soporte ergonómico ventilado para portátil, 7 niveles, de 10 a 17,3 pulgadas, negro",
+    asin: "B09WNFVB87",
+    category: "Escritorios",
+    categorySlug: "escritorios",
+    categoryName: "Escritorios y mesas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Soporte de malla de acero con 7 niveles de altura y ángulo para portátiles de 10 a 17,3 pulgadas, con almohadillas antideslizantes y diseño ventilado.",
+    fullDescription: "Soporte para portátil de Amazon Basics que eleva la pantalla para mejorar la postura al verla. Según la ficha de Amazon, tiene 7 niveles de ajuste de altura y ángulo, admite portátiles de 10 a 17,3 pulgadas y su estructura de malla de acero deja pasar el aire para ayudar a evitar el sobrecalentamiento, con almohadillas antideslizantes para que el equipo no se mueva. La propia ficha lo plantea para ver la pantalla y escribir de forma básica y recomienda usar un teclado externo en sesiones largas, colocar el portátil centrado y apoyarlo en una superficie plana y estable. Mide 33 x 28,7 x 18,5 cm y pesa 900 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "7 niveles de ajuste de altura y ángulo", "Malla de acero ventilada con almohadillas antideslizantes", "Para portátiles de 10 a 17,3 pulgadas"],
+    cons: ["La ficha lo plantea para escritura básica: para trabajar muchas horas necesitas teclado y ratón externos", "La estabilidad puede variar con portátiles grandes y pesados, según la propia ficha", "La ficha no indica un peso máximo del portátil", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Portátiles": "De 10 a 17,3 pulgadas", "Ajuste": "7 niveles de altura y ángulo", "Material": "Malla de acero", "Medidas": "33 x 28,7 x 18,5 cm", "Peso": "900 g", "Vendido por": "Amazon" },
+    relatedPosts: ["montar-oficina-en-casa-5-pasos-ergonomia", "home-office-setup-productivo-guia"],
+  },
+  {
     slug: "amazon-basics-soporte-movil-ajustable-aluminio",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Soporte ajustable para teléfono móvil, aluminio negro",
