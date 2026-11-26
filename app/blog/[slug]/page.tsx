@@ -2771,14 +2771,19 @@ export default async function BlogPostPage({ params }: Props) {
                   <h2 className="text-xl font-extrabold text-gray-900 mb-3">{section.heading}</h2>
                   <p className="text-gray-700 leading-relaxed">{withInternalLinks(section.body)}</p>
                   {ctaProduct && (
-                    <a
-                      href={amazonLink(ctaProduct.asin)}
-                      target="_blank"
-                      rel="nofollow sponsored noopener noreferrer"
-                      className="inline-block mt-4 bg-orange-700 hover:bg-orange-800 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
-                    >
-                      Ver {ctaProduct.name} →
-                    </a>
+                    <div className="mt-4 flex items-center gap-3 rounded-xl border border-gray-100 bg-white p-2.5 shadow-sm">
+                      <div className="w-24 shrink-0 overflow-hidden rounded-lg">
+                        <ProductThumb product={ctaProduct} />
+                      </div>
+                      <a
+                        href={amazonLink(ctaProduct.asin)}
+                        target="_blank"
+                        rel="nofollow sponsored noopener noreferrer"
+                        className="inline-block bg-orange-700 hover:bg-orange-800 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
+                      >
+                        Ver {ctaProduct.name} →
+                      </a>
+                    </div>
                   )}
                 </section>
               );
