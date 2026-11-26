@@ -2375,6 +2375,26 @@ export const products: Product[] = [
     specs: { "Marca": "Focusrite", "Modelo": "Scarlett Solo 4.ª gen", "Conexión": "USB-C", "Rango dinámico": "120 dB", "Modo": "Air", "Software incluido": "Pro Tools Intro+, Ableton Live Lite, Cubase LE, Hitmaker Expansion", "Medidas": "14,3 x 9,6 x 4,55 cm", "Peso": "408 g", "Vendido por": "Amazon" },
     relatedPosts: ["mejor-microfono-usb-podcast-streaming-2026", "setup-streaming-podcast-casa"],
   },
+  {
+    slug: "behringer-umc22-interfaz-audio-usb-2x2",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Behringer UMC22 Interfaz de audio USB 2x2 con previo de micrófono MIDAS",
+    asin: "B00FFIGZF6",
+    image: "https://m.media-amazon.com/images/I/513a-ChwMML._SL500_.jpg",
+    category: "Micrófonos",
+    categorySlug: "microfonos",
+    categoryName: "Micrófonos para podcast",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Interfaz de audio USB 2x2 de Behringer con previo de micrófono diseñado por MIDAS, alimentación fantasma de +48 V, entrada combo XLR/TRS, monitorización directa y salida de auriculares.",
+    fullDescription: "Interfaz de audio USB 2x2 de Behringer para grabar en casa. Según la ficha de Amazon, trabaja con controladores de audio USB estándar plug-and-play y admite hasta 48 kHz de resolución. Incorpora un previo de micrófono diseñado por MIDAS con alimentación fantasma de +48 V, una entrada combo XLR/TRS para micrófonos e instrumentos, monitorización directa y una única salida de auriculares. Es compatible con macOS y Windows; la ficha indica que, para grabación avanzada en Windows y enrutamiento en un programa de producción, se recomienda el controlador ASIO4ALL, y que la disponibilidad de controladores depende del sistema operativo y del programa. Mide 24,4 x 15,6 x 8,8 cm y pesa unos 454 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Alimentación fantasma de +48 V para micrófonos de condensador", "Entrada combo XLR/TRS para micrófono o instrumento", "Monitorización directa y salida de auriculares", "Compatible con macOS y Windows"],
+    cons: ["Resolución de hasta 48 kHz, suficiente para voz pero limitada para producción musical exigente", "Una sola salida de auriculares", "En Windows puede requerir el controlador ASIO4ALL para grabación avanzada, según la ficha", "Necesitas comprar aparte el micrófono y el cable XLR", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Behringer", "Modelo": "UMC22", "Canales": "2x2", "Resolución": "Hasta 48 kHz", "Previo": "MIDAS con +48 V", "Entrada": "Combo XLR/TRS", "Salida": "Auriculares", "Medidas": "24,4 x 15,6 x 8,8 cm", "Peso": "454 g", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-microfono-usb-podcast-streaming-2026", "setup-streaming-podcast-casa"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
