@@ -315,6 +315,25 @@ export const products: Product[] = [
     relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
+    slug: "amazon-basics-alfombrilla-raton-reposamunecas-gel-20x25",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Alfombrilla de ratón con reposamuñecas de gel, 20 x 25 cm, negro",
+    asin: "B06X3W3TM4",
+    category: "Teclados y ratones",
+    categorySlug: "perifericos",
+    categoryName: "Teclados y ratones",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Alfombrilla compacta de 20 x 25 cm con reposamuñecas relleno de gel, superficie de tejido para un deslizamiento suave y base de goma antideslizante.",
+    fullDescription: "Alfombrilla de ratón de Amazon Basics con un reposamuñecas relleno de gel que, según la ficha de Amazon, se adapta a la muñeca y ayuda a reducir la presión y a dar apoyo y comodidad. La superficie es de tejido para que el ratón se deslice con suavidad y la base gruesa de goma mantiene la alfombrilla en su sitio. Es de tamaño compacto y mide 25,7 x 20,7 x 2,1 cm con un peso de 195 g. No la hemos probado: la información procede de la ficha de Amazon, y un reposamuñecas no sustituye a una postura y unas pausas adecuadas.",
+    pros: ["Vendida y enviada por Amazon", "Reposamuñecas relleno de gel", "Base gruesa de goma que evita que se mueva", "Tamaño compacto: cabe en casi cualquier escritorio"],
+    cons: ["Es pequeña: con ratones que necesitan mucho recorrido se queda corta", "La ficha no indica qué tipo de sensor de ratón es compatible", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Medidas": "25,73 x 20,65 x 2,11 cm", "Peso": "195 g", "Superficie": "Tejido", "Base": "Goma antideslizante", "Apoyo": "Reposamuñecas de gel", "Modelo": "SBD089WD", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto"],
+  },
+  {
     slug: "amazon-basics-teclado-cable-usb-base-fina-espanol",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Teclado con cable USB y base fina, diseño español, negro mate",
