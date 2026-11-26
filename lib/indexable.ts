@@ -8,6 +8,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "lg-32u721sa-smart-monitor-4k-32",
   "logitech-m185-raton-inalambrico",
   "amazon-basics-raton-vertical-inalambrico-6-botones",
+  "amazon-basics-raton-inalambrico-receptor-nano-3-botones",
   "sihoo-m57-silla-ergonomica",
   "invision-mx200-brazo-monitor",
   "dell-s2725qc-monitor-4k-usbc",
