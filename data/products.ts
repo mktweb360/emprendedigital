@@ -296,6 +296,25 @@ export const products: Product[] = [
     relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
+    slug: "amazon-basics-raton-cable-usb-silencioso-3-botones",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Ratón con cable USB, 3 botones y clics silenciosos, negro",
+    asin: "B08P6FXKP9",
+    category: "Teclados y ratones",
+    categorySlug: "perifericos",
+    categoryName: "Teclados y ratones",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Ratón óptico con cable USB de tamaño completo, 3 botones, clics izquierdo y derecho silenciosos y sensibilidad de 1000 ppp.",
+    fullDescription: "Ratón óptico con cable de Amazon Basics, de tamaño completo y agarre ergonómico. Según la ficha de Amazon, tiene tres botones (izquierdo, derecho y rueda con botón central), los clics izquierdo y derecho son silenciosos, una sensibilidad de 1000 ppp y es compatible con Windows (incluido Windows 10) y Mac OS. Se enchufa y funciona, sin pilas ni receptor. Si el ordenador solo tiene puertos USB-C hace falta un adaptador de USB-C a USB-A, que no viene incluido. Mide unos 11,5 x 6,1 x 4 cm y pesa 82 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Clics izquierdo y derecho silenciosos, útiles en reuniones o en espacios compartidos", "Sin pilas ni receptor: se enchufa y funciona", "Compatible con Windows y Mac OS, según la ficha"],
+    cons: ["Lleva cable: menos libertad de movimiento que uno inalámbrico", "Solo USB-A: con un portátil solo con USB-C hace falta un adaptador no incluido", "Un único nivel de sensibilidad (1000 ppp), según la ficha", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "MDH-B01", "Conexión": "Cable USB-A", "Botones": "3, con clics silenciosos", "Sensibilidad": "1000 ppp", "Medidas": "11,5 x 6,1 x 4 cm", "Peso": "82 g", "Compatibilidad": "Windows y Mac OS, según la ficha", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "setup-trabajo-remoto-productividad-maxima"],
+  },
+  {
     slug: "amazon-basics-teclado-cable-usb-base-fina-espanol",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Teclado con cable USB y base fina, diseño español, negro mate",
