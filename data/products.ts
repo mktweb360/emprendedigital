@@ -278,6 +278,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-raton-inalambrico-ergonomico-dpi-ajustable",
+    image: "https://m.media-amazon.com/images/I/61zntkiLcuL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Ratón inalámbrico ergonómico con DPI ajustable, negro",
     asin: "B0787D6SGQ",
@@ -297,6 +298,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-raton-cable-usb-silencioso-3-botones",
+    image: "https://m.media-amazon.com/images/I/718VRyryjVS._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Ratón con cable USB, 3 botones y clics silenciosos, negro",
     asin: "B08P6FXKP9",
@@ -316,6 +318,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-alfombrilla-raton-reposamunecas-gel-20x25",
+    image: "https://m.media-amazon.com/images/I/71mbxPIMl1S._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Alfombrilla de ratón con reposamuñecas de gel, 20 x 25 cm, negro",
     asin: "B06X3W3TM4",
@@ -2219,6 +2222,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-soporte-portatil-ventilado-7-niveles",
+    image: "https://m.media-amazon.com/images/I/81EK-Nq9nEL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Soporte ergonómico ventilado para portátil, 7 niveles, de 10 a 17,3 pulgadas, negro",
     asin: "B09WNFVB87",
