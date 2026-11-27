@@ -2337,6 +2337,26 @@ export const products: Product[] = [
     relatedPosts: ["home-office-setup-productivo-guia", "montar-oficina-en-casa-5-pasos-ergonomia"],
   },
   {
+    slug: "amazon-basics-funda-portatil-15-156-pulgadas-gris",
+    image: "https://m.media-amazon.com/images/I/81e4QPFbgZS._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Funda para portátiles de 15 a 15,6 pulgadas, gris",
+    asin: "B01EFMI9YC",
+    category: "Portátiles",
+    categorySlug: "portatiles",
+    categoryName: "Portátiles para trabajo remoto",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Funda ultrafina de Amazon Basics para portátiles y ultrabooks de 15 a 15,6 pulgadas, con tapa moldeada y apertura superior.",
+    fullDescription: "Funda de Amazon Basics para portátiles y ultrabooks con pantalla de 15 a 15,6 pulgadas, en color gris y modelo NC1303154H. Según la ficha de Amazon, tiene un diseño ultrafino para usarla sola o guardarla en una bolsa y una tapa moldeada con apertura superior para acceder rápido al equipo. Pesa 254 g. La ficha recoge dos juegos de medidas distintos, 42 x 31,5 x 2 cm en la descripción y 39,6 x 30,5 x 2 cm en los datos del producto, y recomienda comprobar que las dimensiones del portátil coincidan con las internas de la funda. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Diseño ultrafino que apenas añade volumen", "Tapa moldeada con apertura superior para acceso rápido", "Se puede usar sola o dentro de una mochila o bolsa", "Vendida y enviada por Amazon"],
+    cons: ["La ficha da dos juegos de medidas distintos: conviene medir tu portátil y comprobar la medida interna antes de comprar", "La ficha no detalla el material ni el nivel de protección ante golpes", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "NC1303154H", "Portátiles": "De 15 a 15,6\"", "Peso": "254 g", "Color": "Gris", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-portatil-trabajar-desde-casa-mac-windows-arm-2026"],
+  },
+  {
     slug: "amazon-basics-canaleta-cables-escritorio-238-cm-blanca",
     image: "https://m.media-amazon.com/images/I/61aoc8DEfXL._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.

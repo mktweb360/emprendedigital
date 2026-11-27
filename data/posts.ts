@@ -636,7 +636,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "9 min",
     image: "/images/blog/mejor-portatil-trabajar-desde-casa-mac-windows-arm-2026.jpg",
-    relatedProducts: ["apple-macbook-air-m5-13", "apple-macbook-pro-m5-14", "asus-zenbook-a14-oled-snapdragon", "hp-omnibook-5-14-oled-snapdragon", "amazon-basics-funda-portatil-14-pulgadas-negra"],
+    relatedProducts: ["apple-macbook-air-m5-13", "apple-macbook-pro-m5-14", "asus-zenbook-a14-oled-snapdragon", "hp-omnibook-5-14-oled-snapdragon", "amazon-basics-funda-portatil-14-pulgadas-negra", "amazon-basics-funda-portatil-15-156-pulgadas-gris"],
     relatedPosts: [
       "mejor-hub-usb-c-portatil-2025",
       "conectar-dos-monitores-portatil-guia",
