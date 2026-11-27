@@ -2337,6 +2337,26 @@ export const products: Product[] = [
     relatedPosts: ["home-office-setup-productivo-guia", "montar-oficina-en-casa-5-pasos-ergonomia"],
   },
   {
+    slug: "amazon-basics-canaleta-cables-escritorio-238-cm-blanca",
+    image: "https://m.media-amazon.com/images/I/61aoc8DEfXL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Organizador de cables para debajo del escritorio, 238,8 cm, blanco",
+    asin: "B0G8JJZTXW",
+    category: "Escritorios",
+    categorySlug: "escritorios",
+    categoryName: "Escritorios y mesas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Seis canaletas de PVC de 40 cm y 238,8 cm en total para ocultar cables bajo el escritorio o detrás de un televisor, con cinta adhesiva o tornillos.",
+    fullDescription: "Canaleta organizadora de cables de Amazon Basics en color blanco, modelo DS09-KT6PC-2414. Según la ficha de Amazon, incluye seis canales de PVC de 40 cm que suman 238,8 cm, con una sección de 23,8 mm de ancho por 11,9 mm de alto, pensados para ocultar cables de TV, HDMI, Ethernet y alimentación. Se monta con cinta adhesiva en superficies limpias, secas y lisas o con tornillos y tacos en superficies rugosas, techos o papel pintado. El acabado es mate, se puede pintar y las tapas de los extremos son a presión. La propia ficha avisa de que no es apta para cables de alta tensión ni para cables que generen calor. Pesa 430 g. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Seis canales de 40 cm cortables a medida, 238,8 cm en total", "Se monta con cinta adhesiva o con tornillos y tacos", "Acabado mate que se puede pintar", "Sección de 23,8 x 11,9 mm para varios cables finos", "Vendida y enviada por Amazon"],
+    cons: ["No es apta para cables de alta tensión ni para cables que generen calor, según la ficha", "La cinta adhesiva solo sirve en superficies limpias, secas y lisas: en superficies rugosas hay que atornillar", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "DS09-KT6PC-2414", "Longitud total": "238,8 cm (6 canales de 40 cm)", "Sección": "23,8 x 11,9 mm", "Material": "PVC", "Color": "Blanco", "Peso": "430 g", "Vendido por": "Amazon" },
+    relatedPosts: ["organizar-cables-home-office-guia"],
+  },
+  {
     slug: "amazon-basics-caja-organizadora-cables-grande-blanca",
     image: "https://m.media-amazon.com/images/I/51B-Ca4dcoL._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
