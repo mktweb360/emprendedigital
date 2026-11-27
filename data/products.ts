@@ -2357,6 +2357,26 @@ export const products: Product[] = [
     relatedPosts: ["mejor-portatil-trabajar-desde-casa-mac-windows-arm-2026"],
   },
   {
+    slug: "amazon-basics-funda-portatil-133-pulgadas-azul-marino",
+    image: "https://m.media-amazon.com/images/I/81JVA4B3GtL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Funda para portátiles de 13,3 pulgadas, azul marino",
+    asin: "B011J4C66G",
+    category: "Portátiles",
+    categorySlug: "portatiles",
+    categoryName: "Portátiles para trabajo remoto",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Funda de neopreno de Amazon Basics para portátiles de hasta 13,3 pulgadas, con cierre de cremallera superior y diseño delgado.",
+    fullDescription: "Funda de neopreno de Amazon Basics para portátiles de hasta 13,3 pulgadas, en azul marino y modelo NC1506164F1. Según la ficha de Amazon, tiene cierre de cremallera en la parte superior, un diseño delgado para llevarla sola o dentro de una bolsa y una construcción de neopreno que se ajusta al equipo. Las dimensiones internas son 30,7 x 22,8 x 1,8 cm y las externas 33,5 x 24,9 x 2 cm. Pesa 180 g. La ficha recomienda comprobar las medidas del portátil para asegurarse de que cabe. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Cierre de cremallera en la parte superior", "Neopreno que se ajusta al portátil", "Diseño delgado: se puede usar sola o dentro de una bolsa", "Vendida y enviada por Amazon"],
+    cons: ["Hay que comparar las medidas internas con las de tu portátil antes de comprar", "La ficha no detalla el nivel de protección ante golpes", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "NC1506164F1", "Portátiles": "Hasta 13,3\"", "Medidas internas": "30,7 x 22,8 x 1,8 cm", "Material": "Neopreno", "Peso": "180 g", "Color": "Azul marino", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-portatil-trabajar-desde-casa-mac-windows-arm-2026"],
+  },
+  {
     slug: "amazon-basics-canaleta-cables-escritorio-238-cm-blanca",
     image: "https://m.media-amazon.com/images/I/61aoc8DEfXL._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
