@@ -2337,6 +2337,26 @@ export const products: Product[] = [
     relatedPosts: ["home-office-setup-productivo-guia", "montar-oficina-en-casa-5-pasos-ergonomia"],
   },
   {
+    slug: "amazon-basics-funda-portatil-14-pulgadas-negra",
+    image: "https://m.media-amazon.com/images/I/71vYTtpjq9L._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Funda para portátiles de hasta 14 pulgadas, negra",
+    asin: "B00CD8AFFW",
+    category: "Portátiles",
+    categorySlug: "portatiles",
+    categoryName: "Portátiles para trabajo remoto",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Funda ajustada y delgada de Amazon Basics para portátiles y ultrabooks de hasta 14 pulgadas, con acceso rápido desde arriba.",
+    fullDescription: "Funda protectora de Amazon Basics para portátiles y ultrabooks de hasta 14 pulgadas de diagonal. Según la ficha de Amazon, es una cubierta ajustada con acceso fácil y rápido desde arriba y un diseño delgado, pensado para llevarla en la mano o dentro de otra bolsa. Las dimensiones interiores son 35,3 x 1,5 x 26,3 cm, las exteriores 38 x 28 x 2 cm y pesa 230 g. Es el modelo NC1303153, en color negro. Conviene comparar las medidas interiores con las de tu portátil antes de comprarla. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Diseño delgado y ajustado, que apenas añade volumen", "Acceso rápido al portátil desde arriba", "Solo 230 g de peso", "Medidas interiores de 35,3 x 1,5 x 26,3 cm, fáciles de contrastar con tu equipo", "Vendida y enviada por Amazon"],
+    cons: ["Es una funda ajustada, sin asa ni espacio para cargador, según la descripción de la ficha", "La ficha no detalla el material ni el nivel de protección ante golpes", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "NC1303153", "Portátiles": "Hasta 14\"", "Medidas interiores": "35,3 x 1,5 x 26,3 cm", "Peso": "230 g", "Color": "Negro", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-portatil-trabajar-desde-casa-mac-windows-arm-2026"],
+  },
+  {
     slug: "amazon-basics-brazo-dual-monitor-neumatico-15-27",
     image: "https://m.media-amazon.com/images/I/51rjLRmBqKL._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
