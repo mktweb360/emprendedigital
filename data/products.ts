@@ -2337,6 +2337,26 @@ export const products: Product[] = [
     relatedPosts: ["home-office-setup-productivo-guia", "montar-oficina-en-casa-5-pasos-ergonomia"],
   },
   {
+    slug: "amazon-basics-caja-organizadora-cables-grande-blanca",
+    image: "https://m.media-amazon.com/images/I/51B-Ca4dcoL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Caja organizadora de cables, tamaño grande, blanca",
+    asin: "B0BFWGLVLX",
+    category: "Escritorios",
+    categorySlug: "escritorios",
+    categoryName: "Escritorios y mesas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Caja de ABS y PS de 390 x 155 x 125 mm con tres entradas, ventilación y tapa transparente para ocultar regletas y cables.",
+    fullDescription: "Caja organizadora de cables de Amazon Basics en tamaño grande y color blanco, modelo CCU-01. Según la ficha de Amazon, mide 390 x 155 x 125 mm, está fabricada en ABS y PS y pesa 681 g. Tiene tres puntos de entrada y salida para los cables, agujeros de ventilación para disipar el calor, una cubierta transparente que permite ver, enchufar y desenchufar el interruptor, y cuatro patas antideslizantes en la base. Sirve para guardar una regleta o un alimentador y mantener los cables recogidos. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Tres puntos de entrada y salida para los cables", "Cubierta transparente: se ve y se maneja el interruptor sin abrirla", "Agujeros de ventilación para disipar el calor, según la ficha", "Cuatro patas antideslizantes", "Vendida y enviada por Amazon"],
+    cons: ["Con 390 x 155 x 125 mm ocupa sitio: conviene medir antes la regleta que vas a guardar", "La ficha no concreta qué regletas caben, así que hay que comparar medidas", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "CCU-01", "Medidas": "390 x 155 x 125 mm", "Material": "ABS y PS", "Peso": "681 g", "Color": "Blanco", "Entradas de cable": "3", "Vendido por": "Amazon" },
+    relatedPosts: ["organizar-cables-home-office-guia"],
+  },
+  {
     slug: "amazon-basics-funda-portatil-14-pulgadas-negra",
     image: "https://m.media-amazon.com/images/I/71vYTtpjq9L._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
