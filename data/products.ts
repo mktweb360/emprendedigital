@@ -356,6 +356,26 @@ export const products: Product[] = [
     relatedPosts: ["mejor-teclado-raton-trabajo-remoto"],
   },
   {
+    slug: "logitech-mk270-combo-teclado-raton-inalambrico",
+    image: "https://m.media-amazon.com/images/I/61a14rKCeCL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Logitech MK270 Combo de teclado y ratón inalámbrico",
+    asin: "B00CHHDY66",
+    category: "Teclados y ratones",
+    categorySlug: "perifericos",
+    categoryName: "Teclados y ratones",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Combo inalámbrico de teclado de tamaño completo y ratón con un único receptor USB, con alcance de hasta 10 m según Logitech.",
+    fullDescription: "Combo de teclado y ratón inalámbricos de Logitech. Según la ficha de Amazon, un receptor USB ofrece conexión inalámbrica con un alcance de hasta 10 m; el teclado es de tamaño completo, con teclado numérico, teclas F y flechas, teclas silenciosas de perfil bajo, diseño resistente a derrames y patas basculantes ajustables en altura. Incluye 8 teclas de acceso rápido multimedia y, según el fabricante, las pilas duran hasta 36 meses en el teclado y 12 en el ratón. En la caja vienen el teclado, el ratón, el receptor y las pilas. Pesa unos 420 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Un solo receptor USB para teclado y ratón", "Teclado de tamaño completo con teclado numérico", "Pilas incluidas; duración de hasta 36 y 12 meses según Logitech"],
+    cons: ["Es un combo básico: sin retroiluminación ni conexión Bluetooth, según la ficha", "Ocupa un puerto USB para el receptor", "La ficha indica distribución QWERTY pero no confirma si es la española con la Ñ: conviene comprobarlo", "La ficha da datos de compatibilidad poco coherentes entre Windows y Linux: confirma tu sistema antes de comprar", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Logitech", "Modelo": "MK270", "Conexión": "Inalámbrica con receptor USB, hasta 10 m", "Distribución": "QWERTY", "Pilas": "Incluidas", "Peso": "420 g", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto"],
+  },
+  {
     slug: "amazon-basics-teclado-cable-usb-base-fina-espanol",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Teclado con cable USB y base fina, diseño español, negro mate",
