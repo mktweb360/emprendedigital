@@ -118,7 +118,7 @@ export const posts: Post[] = [
     category: "Home Office",
     readTime: "8 min",
     image: "/images/blog/setup-streaming-podcast-casa.jpg",
-    relatedProducts: ["rode-podmic-usb-microfono-xlr-usb", "elgato-wave3-mk2-microfono-condensador-usb", "hyperx-solocast-microfono", "elgato-facecam-4k-webcam", "ugreen-finecam-lite-4k-webcam", "elgato-key-light-air", "logitech-litra-glow-luz-streaming", "neewer-nl-116ai-panel-led-escritorio", "fellowes-everyday-elevador-portatil-17-pulgadas", "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb", "amazon-basics-hub-dock-usb-32-10gbps-3-usb-a-1-usb-c"],
+    relatedProducts: ["rode-podmic-usb-microfono-xlr-usb", "elgato-wave3-mk2-microfono-condensador-usb", "hyperx-solocast-microfono", "elgato-facecam-4k-webcam", "ugreen-finecam-lite-4k-webcam", "elgato-key-light-air", "logitech-litra-glow-luz-streaming", "neewer-nl-116ai-panel-led-escritorio", "fellowes-everyday-elevador-portatil-17-pulgadas", "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb", "amazon-basics-hub-dock-usb-32-10gbps-3-usb-a-1-usb-c", "adam-audio-d3v-monitores-sobremesa-usb-c"],
     relatedPosts: [
       "mejor-microfono-usb-podcast-streaming-2026",
       "mejor-webcam-videollamadas-trabajo-remoto",
