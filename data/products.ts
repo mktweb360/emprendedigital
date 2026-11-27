@@ -2337,6 +2337,26 @@ export const products: Product[] = [
     relatedPosts: ["home-office-setup-productivo-guia", "montar-oficina-en-casa-5-pasos-ergonomia"],
   },
   {
+    slug: "amazon-basics-brazo-dual-monitor-neumatico-15-27",
+    image: "https://m.media-amazon.com/images/I/51rjLRmBqKL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Soporte de escritorio con brazo dual para monitor, resorte neumático, 15 a 27 pulgadas",
+    asin: "B0CQXPGNCH",
+    category: "Monitores",
+    categorySlug: "monitores",
+    categoryName: "Monitores para Home Office",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Soporte de doble brazo con resorte neumático para dos monitores de 15 a 27 pulgadas y de 2 a 7 kg cada uno, con VESA 75 × 75 y 100 × 100 mm.",
+    fullDescription: "Soporte de escritorio de Amazon Basics con dos brazos independientes y resorte neumático, para dos monitores de 15 a 27 pulgadas. Según la ficha de Amazon, cada brazo admite de 2 a 7 kg y tiene ajuste de tensión propio, y los patrones VESA compatibles son 75 × 75 y 100 × 100 mm. Se fija con abrazadera en C o con pasacables a escritorios de entre 1 y 10,2 cm de grosor e incluye el kit de montaje. La ficha indica que los brazos vienen preconfigurados para más peso y que las bisagras pueden notarse rígidas al sacarlo de la caja, por lo que hay que ajustar la tensión de cada brazo al peso de su monitor. Mide 88,9 x 10,8 x 45,72 cm y pesa 3,18 kg. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Dos brazos con tensión independiente para dos monitores", "De 2 a 7 kg por brazo y de 15 a 27 pulgadas, según la ficha", "VESA 75 × 75 y 100 × 100 mm", "Abrazadera en C o pasacables para escritorios de 1 a 10,2 cm de grosor, con kit de montaje", "Vendido y enviado por Amazon"],
+    cons: ["Cada brazo tiene un límite de 7 kg: los monitores grandes o pesados quedan fuera", "Hay que ajustar la tensión de cada brazo según el peso del monitor, y la ficha avisa de que los brazos vienen preconfigurados para más peso", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "DS-MADDBE", "Pantallas": "2 de 15 a 27\"", "Peso por pantalla": "2-7 kg", "VESA": "75 × 75 y 100 × 100 mm", "Grosor de mesa": "1-10,2 cm", "Vendido por": "Amazon" },
+    relatedPosts: ["brazo-monitor-como-elegir", "mejor-monitor-home-office-2025"],
+  },
+  {
     slug: "ergosolid-f80-brazo-monitor-17-32-9kg",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "ErgoSolid F80 Soporte de escritorio para monitor de 17 a 32 pulgadas, brazo neumático, grafito",
