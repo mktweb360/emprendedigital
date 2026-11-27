@@ -38,6 +38,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "acer-predator-rift-lite-silla-gaming",
   "huanuo-brazo-monitor-13-32-9kg",
   "amazon-basics-funda-portatil-15-156-pulgadas-gris",
+  "amazon-basics-funda-portatil-133-pulgadas-azul-marino",
   "amazon-basics-canaleta-cables-escritorio-238-cm-blanca",
   "amazon-basics-caja-organizadora-cables-grande-blanca",
   "amazon-basics-funda-portatil-14-pulgadas-negra",
