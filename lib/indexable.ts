@@ -4,6 +4,7 @@
 // redirigen con 301 a una página permanente. Si Google AdSense vuelve a señalar contenido de poco valor,
 // se reduce esta lista. Lista generada: al añadir una ficha nueva que cumpla el criterio, hay que sumarla aquí.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
+  "adam-audio-d3v-monitores-sobremesa-usb-c",
   "behringer-umc22-interfaz-audio-usb-2x2",
   "focusrite-scarlett-solo-4a-gen-interfaz-audio-usb-c",
   "ngs-footnest-reposapies-ergonomico-ajustable",

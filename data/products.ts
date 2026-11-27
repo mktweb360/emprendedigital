@@ -2395,6 +2395,26 @@ export const products: Product[] = [
     specs: { "Marca": "Behringer", "Modelo": "UMC22", "Canales": "2x2", "Resolución": "Hasta 48 kHz", "Previo": "MIDAS con +48 V", "Entrada": "Combo XLR/TRS", "Salida": "Auriculares", "Medidas": "24,4 x 15,6 x 8,8 cm", "Peso": "454 g", "Vendido por": "Amazon" },
     relatedPosts: ["mejor-microfono-usb-podcast-streaming-2026", "setup-streaming-podcast-casa"],
   },
+  {
+    slug: "adam-audio-d3v-monitores-sobremesa-usb-c",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "ADAM Audio D3V Sistema de monitorización de sobremesa activo con USB-C (par, negro)",
+    asin: "B0D9QFR4R1",
+    image: "https://m.media-amazon.com/images/I/81vXE1E217L._SL500_.jpg",
+    category: "Micrófonos",
+    categorySlug: "microfonos",
+    categoryName: "Micrófonos para podcast",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Par de monitores de sobremesa activos con conexión USB-C directa, woofers de aluminio de 3,5\", amplificadores de 80 W, tweeter de cinta D-ART y salida de auriculares frontal.",
+    fullDescription: "Par de monitores de estudio activos de sobremesa de ADAM Audio. Según la ficha de Amazon, se conectan directamente al ordenador por USB-C y están pensados para compositores, productores y aficionados a la música. Cada monitor lleva un woofer de aluminio de 3,5 pulgadas con imanes de ferrita accionado por un amplificador de 80 W, y radiadores pasivos dobles que permiten llegar hasta los 45 Hz. El tweeter es un D-ART de cinta de 1,5 pulgadas. La placa trasera del altavoz izquierdo tiene entradas balanceadas de 1/4 de pulgada e interruptores DSP para compensar los problemas acústicos de la colocación; el panel frontal incluye conector de auriculares y dial de volumen. Incluye soportes desmontables con una inclinación de 15° hacia los oídos del oyente y un orificio roscado de 3/8 de pulgada en la base para un soporte de micrófono. Mide 15 x 11,5 x 20 cm y pesa 5,5 kg el par. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendidos y enviados por Amazon", "Conexión USB-C directa al ordenador, según la ficha", "Entradas balanceadas de 1/4 de pulgada e interruptores DSP para ajustar la colocación", "Conector de auriculares y dial de volumen en el panel frontal", "Soportes inclinados 15° hacia el oyente"],
+    cons: ["Cuestan más que unos altavoces de ordenador comunes: están pensados para producción de audio", "Para ver una película o jugar, no aportan ventaja sobre unos altavoces normales", "Con 3,5 pulgadas de woofer, los graves llegan hasta 45 Hz según la ficha: no sustituyen a un subwoofer", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "ADAM Audio", "Modelo": "D3V", "Conexión": "USB-C y entradas balanceadas de 1/4\"", "Woofer": "Aluminio, 3,5\"", "Amplificador": "80 W por monitor", "Tweeter": "D-ART de cinta, 1,5\"", "Respuesta en graves": "Hasta 45 Hz", "Medidas": "15 x 11,5 x 20 cm", "Peso": "5,5 kg (par)", "Vendido por": "Amazon" },
+    relatedPosts: ["setup-streaming-podcast-casa", "mejor-microfono-usb-podcast-streaming-2026"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
