@@ -19,6 +19,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "amazon-basics-alfombrilla-extendida-90x43",
   "logitech-mk270-combo-teclado-raton-inalambrico",
   "logitech-signature-slim-solar-plus-teclado-inalambrico-grafito",
+  "logitech-mx-keys-s-combo-teclado-raton-inalambricos-grafito",
   "amazon-basics-teclado-cable-usb-base-fina-espanol",
   "sihoo-m57-silla-ergonomica",
   "invision-mx200-brazo-monitor",
