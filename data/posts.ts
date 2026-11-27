@@ -420,7 +420,7 @@ export const posts: Post[] = [
     date: "2025-07-17",
     category: "Home Office",
     readTime: "7 min",
-    relatedProducts: ["amazon-basics-soporte-movil-ajustable-aluminio"],
+    relatedProducts: ["amazon-basics-soporte-movil-ajustable-aluminio", "amazon-basics-caja-organizadora-cables-grande-blanca"],
     relatedPosts: ["home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima", "escritorio-regulable-altura-home-office", "montar-oficina-en-casa-5-pasos-ergonomia"],
   },
   {
