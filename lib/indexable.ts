@@ -37,6 +37,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "drift-dr175-silla-gaming-polipiel",
   "acer-predator-rift-lite-silla-gaming",
   "huanuo-brazo-monitor-13-32-9kg",
+  "amazon-basics-brazo-dual-monitor-neumatico-15-27",
   "ergosolid-f80-brazo-monitor-17-32-9kg",
   "huanuo-brazo-doble-monitor-13-32-9kg",
   "logitech-c920-hd-pro-webcam",
