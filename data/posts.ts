@@ -293,7 +293,7 @@ export const posts: Post[] = [
     date: "2025-07-05",
     category: "Home Office",
     readTime: "10 min",
-    relatedProducts: ["sihoo-m57-silla-ergonomica", "flexispot-escritorio-elevable-120x60-tablero-entero", "hbada-silla-ergonomica-pro", "fellowes-everyday-elevador-portatil-17-pulgadas", "amazon-basics-soporte-portatil-ventilado-7-niveles", "amazon-basics-soporte-portatil-aluminio-plegable-13-15", "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb", "amazon-basics-hub-dock-usb-32-10gbps-3-usb-a-1-usb-c"],
+    relatedProducts: ["sihoo-m57-silla-ergonomica", "flexispot-escritorio-elevable-120x60-tablero-entero", "hbada-silla-ergonomica-pro", "fellowes-everyday-elevador-portatil-17-pulgadas", "amazon-basics-soporte-portatil-ventilado-7-niveles", "amazon-basics-soporte-portatil-aluminio-plegable-13-15", "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb", "amazon-basics-hub-dock-usb-32-10gbps-3-usb-a-1-usb-c", "amazon-basics-hub-usb-a-10-puertos-65w"],
     relatedPosts: ["mejor-silla-ergonomica-home-office-2025", "escritorio-regulable-altura-home-office", "setup-trabajo-remoto-productividad-maxima", "mejor-monitor-home-office-2025", "montar-oficina-en-casa-5-pasos-ergonomia"],
     categoryCta: { href: "/tienda/sillas-ergonomicas", text: "Ver equipamiento home office →" },
   },

@@ -2399,6 +2399,27 @@ export const products: Product[] = [
     relatedPosts: ["home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
+    slug: "amazon-basics-hub-usb-a-10-puertos-65w",
+    image: "https://m.media-amazon.com/images/I/71pN-e1hNnS._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Hub USB-A 3.1 de 10 puertos con adaptador, 65 W",
+    asin: "B076YRSWGW",
+    category: "Hubs y docking stations",
+    categorySlug: "hubs-docking",
+    categoryName: "Hubs y docking stations",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Hub con alimentación propia de 10 puertos USB-A: siete de datos a 5 Gbps y tres de carga rápida de hasta 2,4 A.",
+    fullDescription: "Hub USB-A de Amazon Basics con diez puertos. Según la ficha de Amazon, siete son USB 3.1 con transferencia de datos de hasta 5 Gbps y los otros tres son de carga rápida, de hasta 2,4 A con dispositivos compatibles con BC 1.2, que también sirven para datos. Incluye un adaptador de corriente de 65 W (20 V y 3,25 A), es compatible con USB 3.1, 3.0 y 2.0, funciona con Mac OS y Windows 10 sin software ni instalación y se vende en negro o plateado. Mide 14,5 x 4,4 x 2,3 cm y pesa unos 104 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Diez puertos USB-A para conectar muchos periféricos a la vez", "Alimentación propia con adaptador de 65 W, según la ficha", "Tres puertos de carga rápida de hasta 2,4 A", "Sin software ni instalación"],
+    cons: ["Es un hub USB-A: un portátil que solo tenga USB-C necesita un adaptador", "No tiene salida de vídeo ni red: no sustituye a una docking station", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Puertos": "10 USB-A: 7 de datos y 3 de carga rápida", "Velocidad de datos": "Hasta 5 Gbps", "Alimentación": "Adaptador de 65 W (20 V / 3,25 A)", "Medidas": "14,5 x 4,4 x 2,3 cm", "Peso": "104 g", "Vendido por": "Amazon" },
+    badge: "10 puertos USB-A",
+    relatedPosts: ["home-office-setup-productivo-guia"],
+  },
+  {
     slug: "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Regleta de 3 Tomas con Protección contra Sobretensiones y 3 USB, cable de 1,5 m",

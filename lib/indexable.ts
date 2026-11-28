@@ -116,6 +116,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "amazon-basics-soporte-portatil-aluminio-plegable-13-15",
   "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb",
   "amazon-basics-hub-dock-usb-32-10gbps-3-usb-a-1-usb-c",
+  "amazon-basics-hub-usb-a-10-puertos-65w",
   "amazon-basics-soporte-movil-ajustable-aluminio",
 ]);
 
