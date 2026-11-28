@@ -46,6 +46,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "amazon-basics-caja-organizadora-cables-grande-blanca",
   "amazon-basics-funda-portatil-14-pulgadas-negra",
   "amazon-basics-brazo-dual-monitor-neumatico-15-27",
+  "amazon-basics-brazo-monitor-individual-32-10kg",
   "ergosolid-f80-brazo-monitor-17-32-9kg",
   "huanuo-brazo-doble-monitor-13-32-9kg",
   "logitech-c920-hd-pro-webcam",

@@ -2620,6 +2620,26 @@ export const products: Product[] = [
     relatedPosts: ["brazo-monitor-como-elegir", "mejor-monitor-home-office-2025"],
   },
   {
+    slug: "amazon-basics-brazo-monitor-individual-32-10kg",
+    image: "https://m.media-amazon.com/images/I/41w7-3HjDvL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Brazo para un solo monitor de hasta 32 pulgadas y 10 kg, VESA 75 y 100",
+    asin: "B0CQXL5S4T",
+    category: "Monitores",
+    categorySlug: "monitores",
+    categoryName: "Monitores para Home Office",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Soporte de escritorio con brazo ajustable para un monitor de hasta 32 pulgadas (38 ultrapanorámico) y 10 kg, con tensión regulable y VESA 75 × 75 y 100 × 100 mm.",
+    fullDescription: "Soporte de escritorio de Amazon Basics con un brazo ajustable para un solo monitor. Según la ficha de Amazon, admite monitores de hasta 32 pulgadas (38 pulgadas si son ultrapanorámicos) y hasta 10 kg, con tensión ajustable según el peso, y es compatible con patrones VESA de 75 × 75 y 100 × 100 mm. Se fija con abrazadera en C o con pasacables a escritorios de entre 1 y 10,8 cm de grosor. Ofrece inclinación de -45° a +90°, giro de ±90° y rotación de 360°. Mide 49,53 x 9,53 x 43,43 cm y pesa 2,72 kg. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Hasta 32 pulgadas y 10 kg, según la ficha", "Inclinación, giro y rotación de 360°", "Abrazadera en C o pasacables para escritorios de 1 a 10,8 cm de grosor"],
+    cons: ["Es para un solo monitor: para dos hay que mirar la versión dual", "Hay que ajustar la tensión según el peso del monitor, y puede requerir ajustar las bisagras antes de usarlo", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Pantallas": "1 de hasta 32\" (38\" ultrapanorámico)", "Peso máximo": "10 kg", "VESA": "75 × 75 y 100 × 100 mm", "Grosor de mesa": "1-10,8 cm", "Peso del soporte": "2,72 kg", "Vendido por": "Amazon" },
+    relatedPosts: ["brazo-monitor-como-elegir"],
+  },
+  {
     slug: "ergosolid-f80-brazo-monitor-17-32-9kg",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "ErgoSolid F80 Soporte de escritorio para monitor de 17 a 32 pulgadas, brazo neumático, grafito",
