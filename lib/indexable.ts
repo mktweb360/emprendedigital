@@ -22,6 +22,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "logitech-signature-slim-solar-plus-teclado-inalambrico-grafito",
   "logitech-mx-keys-s-combo-teclado-raton-inalambricos-grafito",
   "amazon-basics-teclado-cable-usb-base-fina-espanol",
+  "amazon-basics-combo-teclado-raton-inalambricos-md023",
   "sihoo-m57-silla-ergonomica",
   "invision-mx200-brazo-monitor",
   "dell-s2725qc-monitor-4k-usbc",
