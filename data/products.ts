@@ -415,6 +415,26 @@ export const products: Product[] = [
     relatedPosts: ["mejor-teclado-raton-trabajo-remoto", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
+    slug: "amazon-basics-combo-teclado-raton-inalambricos-md023",
+    image: "https://m.media-amazon.com/images/I/61KQoTZdt4L._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Combo de teclado y ratón inalámbricos de tamaño completo, receptor USB 2,4 GHz",
+    asin: "B0D7D8QNGZ",
+    category: "Teclados y ratones",
+    categorySlug: "perifericos",
+    categoryName: "Teclados y ratones",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Combo inalámbrico de teclado español de tamaño completo y ratón, negro, con un único receptor USB de 2,4 GHz y pilas incluidas.",
+    fullDescription: "Combo de teclado y ratón inalámbricos de Amazon Basics, con teclado estándar en español y tamaño completo, en color negro. Según la ficha de Amazon, ambos se conectan con un único receptor USB de 2,4 GHz que se guarda en el compartimento de la pila del ratón, la instalación es de conectar y usar sin software y es compatible con Windows 2000, XP, Vista, 7, 8 y 10/11. El ratón funciona con una pila AA y el teclado con dos pilas AAA, y todas van incluidas. Mide 45 x 21 x 4,4 cm y pesa 570 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Un solo receptor USB para teclado y ratón", "Conectar y usar, sin software, según la ficha", "Pilas incluidas"],
+    cons: ["No es Bluetooth: ocupa un puerto USB con el receptor", "La ficha indica compatibilidad con Windows y no menciona macOS", "Funciona con pilas, sin batería recargable", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "MD023", "Conexión": "Receptor USB 2,4 GHz", "Distribución": "Español, tamaño completo", "Pilas": "1 AA (ratón) y 2 AAA (teclado), incluidas", "Medidas": "45 x 21 x 4,4 cm", "Peso": "570 g", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto"],
+  },
+  {
     slug: "logitech-signature-slim-solar-plus-teclado-inalambrico-grafito",
     image: "https://m.media-amazon.com/images/I/61HZ9c9FxXL._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
