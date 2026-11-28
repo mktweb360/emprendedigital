@@ -420,7 +420,7 @@ export const posts: Post[] = [
     date: "2025-07-17",
     category: "Home Office",
     readTime: "7 min",
-    relatedProducts: ["amazon-basics-soporte-movil-ajustable-aluminio", "amazon-basics-caja-organizadora-cables-grande-blanca", "amazon-basics-canaleta-cables-escritorio-238-cm-blanca"],
+    relatedProducts: ["amazon-basics-soporte-movil-ajustable-aluminio", "amazon-basics-caja-organizadora-cables-grande-blanca", "amazon-basics-canaleta-cables-escritorio-238-cm-blanca", "amazon-basics-cable-usb-c-a-usb-c-60w-1-8m"],
     relatedPosts: ["home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima", "escritorio-regulable-altura-home-office", "montar-oficina-en-casa-5-pasos-ergonomia"],
   },
   {

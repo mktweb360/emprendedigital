@@ -124,6 +124,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "amazon-basics-hub-dock-usb-32-10gbps-3-usb-a-1-usb-c",
   "startech-dock-usb4-universal-doble-4k-144hz-100w",
   "startech-adaptador-usb-c-hdmi-4k-60hz-hdr10",
+  "amazon-basics-cable-usb-c-a-usb-c-60w-1-8m",
   "amazon-basics-hub-usb-a-10-puertos-65w",
   "amazon-basics-soporte-movil-ajustable-aluminio",
 ]);

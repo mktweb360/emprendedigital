@@ -2500,6 +2500,26 @@ export const products: Product[] = [
     relatedPosts: ["conectar-dos-monitores-portatil-guia"],
   },
   {
+    slug: "amazon-basics-cable-usb-c-a-usb-c-60w-1-8m",
+    image: "https://m.media-amazon.com/images/I/61gk0fSRYlL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Cable USB-C a USB-C 60 W, 1,8 m",
+    asin: "B01GGKZ2SC",
+    category: "Hubs y docking stations",
+    categorySlug: "hubs-docking",
+    categoryName: "Hubs y docking stations",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cable USB-C a USB-C de 1,8 m con carga de hasta 60 W y datos a 480 Mbps, certificado USB-IF.",
+    fullDescription: "Cable USB-C a USB-C de Amazon Basics de 1,8 m. Según la ficha de Amazon, admite carga de hasta 60 W (20 V y 3 A) y transferencia de datos de hasta 480 Mbps (USB 2.0), y cuenta con certificación USB-IF y un año de garantía limitada de Amazon Basics. Sirve para cargar portátiles, tabletas y móviles con USB-C, o para sincronizar archivos. Al ser un cable USB 2.0, no es el indicado para conectar monitores ni discos rápidos. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Carga de hasta 60 W (20 V y 3 A), según la ficha", "Longitud de 1,8 m para llegar del enchufe a la mesa", "Certificación USB-IF y un año de garantía limitada"],
+    cons: ["Datos a 480 Mbps (USB 2.0): no sirve para vídeo ni para discos rápidos", "Carga de hasta 60 W: los portátiles que piden más potencia irán más lentos", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "L6LUC026-CS-R", "Conectores": "USB-C a USB-C", "Longitud": "1,8 m", "Carga": "Hasta 60 W (20 V, 3 A)", "Datos": "Hasta 480 Mbps (USB 2.0)", "Garantía": "1 año limitada", "Vendido por": "Amazon" },
+    relatedPosts: ["organizar-cables-home-office-guia"],
+  },
+  {
     slug: "amazon-basics-hub-usb-a-10-puertos-65w",
     image: "https://m.media-amazon.com/images/I/71pN-e1hNnS._SL500_.jpg",
     // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
