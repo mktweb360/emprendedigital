@@ -2480,6 +2480,26 @@ export const products: Product[] = [
     relatedPosts: ["conectar-dos-monitores-portatil-guia"],
   },
   {
+    slug: "startech-adaptador-usb-c-hdmi-4k-60hz-hdr10",
+    image: "https://m.media-amazon.com/images/I/71SqFsjJkdL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "StarTech Adaptador USB-C a HDMI 2.0, 4K 60 Hz, HDR10",
+    asin: "B09G76LM5V",
+    category: "Hubs y docking stations",
+    categorySlug: "hubs-docking",
+    categoryName: "Hubs y docking stations",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Adaptador compacto de USB-C a HDMI 2.0 para conectar un monitor o televisor a 4K y 60 Hz con HDR10, sin software.",
+    fullDescription: "Adaptador de StarTech.com de USB-C a HDMI 2.0. Según la ficha de Amazon, admite vídeo 4K a 60 Hz (3840 x 2160 y 4096 x 2160) y 1080p, con color 4:4:4, HDR10, audio de 2 canales y HDCP 2.2. Funciona con dispositivos USB-C con modo alternativo DisplayPort o Thunderbolt 3 y es independiente del sistema operativo, por lo que sirve para conectar un monitor, un televisor o un proyector HDMI al portátil. Mide 4,32 x 2,29 x 1,02 cm y pesa 18 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "4K a 60 Hz con HDR10, según la ficha", "Muy pequeño: 4,32 x 2,29 x 1,02 cm y 18 g", "Independiente del sistema operativo, según la ficha"],
+    cons: ["Solo funciona con puertos USB-C con modo alternativo DisplayPort o Thunderbolt 3", "No carga el portátil ni añade puertos: solo saca vídeo por HDMI", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "StarTech.com", "Modelo": "USBC-HDMI-CDP2HD4K60", "Entrada": "USB-C (modo alternativo DP o Thunderbolt 3)", "Salida": "HDMI 2.0", "Resolución": "4K a 60 Hz", "HDR": "HDR10", "Medidas": "4,32 x 2,29 x 1,02 cm", "Peso": "18 g", "Vendido por": "Amazon" },
+    relatedPosts: ["conectar-dos-monitores-portatil-guia"],
+  },
+  {
     slug: "amazon-basics-hub-usb-a-10-puertos-65w",
     image: "https://m.media-amazon.com/images/I/71pN-e1hNnS._SL500_.jpg",
     // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
