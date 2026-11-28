@@ -112,6 +112,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "philips-24e1n1100a-monitor-24-ips-120hz",
   "philips-27e2n1500l-monitor-27-qhd-ips",
   "fellowes-everyday-elevador-portatil-17-pulgadas",
+  "amazon-basics-elevador-monitor-3-niveles-10kg",
   "amazon-basics-soporte-portatil-ventilado-7-niveles",
   "amazon-basics-soporte-portatil-aluminio-plegable-13-15",
   "amazon-basics-regleta-3-tomas-proteccion-sobretensiones-usb",

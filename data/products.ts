@@ -2321,6 +2321,27 @@ export const products: Product[] = [
     relatedPosts: ["montar-oficina-en-casa-5-pasos-ergonomia", "home-office-setup-productivo-guia"],
   },
   {
+    slug: "amazon-basics-elevador-monitor-3-niveles-10kg",
+    image: "https://m.media-amazon.com/images/I/51e81e4tJ1L._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Elevador para monitor de 3 niveles, hasta 10 kg",
+    asin: "B00X4SCCFG",
+    category: "Escritorios",
+    categorySlug: "escritorios",
+    categoryName: "Escritorios y mesas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Elevador de plástico ABS para monitor o portátil con tres alturas (7,3, 10,7 y 12,2 cm) y espacio de almacenamiento debajo.",
+    fullDescription: "Elevador para monitor de Amazon Basics con diseño apilable de tres niveles. Según la ficha de Amazon, se puede dejar a 7,3, 10,7 o 12,2 cm de altura con patas desmontables, está hecho de plástico ABS y soporta hasta 10 kg, por lo que sirve para monitores estándar, portátiles y equipos de oficina pequeños, pero no para aparatos de gran tamaño ni para un uso intenso. La superficie superior mide unos 29,5 x 27,9 cm y es algo más estrecha en los lados, y deja un hueco debajo para guardar objetos. Las patas son antideslizantes. Pesa 1,16 kg y su número de modelo es DHMSA. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Tres alturas: 7,3, 10,7 y 12,2 cm", "Hueco inferior para guardar teclado u objetos pequeños", "Patas antideslizantes y estructura de ABS ligera"],
+    cons: ["Soporta hasta 10 kg: no vale para monitores grandes ni pesados", "La altura máxima de 12,2 cm puede quedarse corta si buscas poner el monitor a la altura de los ojos", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "DHMSA", "Alturas": "7,3, 10,7 y 12,2 cm", "Carga máxima": "10 kg", "Material": "Plástico ABS", "Peso": "1,16 kg", "Vendido por": "Amazon" },
+    badge: "3 alturas, hasta 10 kg",
+    relatedPosts: ["home-office-setup-productivo-guia"],
+  },
+  {
     slug: "amazon-basics-soporte-portatil-ventilado-7-niveles",
     image: "https://m.media-amazon.com/images/I/81EK-Nq9nEL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
