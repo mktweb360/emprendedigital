@@ -2440,6 +2440,26 @@ export const products: Product[] = [
     relatedPosts: ["home-office-setup-productivo-guia", "setup-trabajo-remoto-productividad-maxima"],
   },
   {
+    slug: "startech-dock-usb4-universal-doble-4k-144hz-100w",
+    image: "https://m.media-amazon.com/images/I/71m3bDGSVHL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "StarTech Dock USB4 Universal, 4K 144 Hz doble u 8K 60 Hz, 100 W, 2,5 GbE",
+    asin: "B0GXBGL68W",
+    category: "Hubs y docking stations",
+    categorySlug: "hubs-docking",
+    categoryName: "Hubs y docking stations",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Dock USB4 con DisplayPort para dos monitores 4K a 144 Hz o uno 8K a 60 Hz, carga de 100 W y red de 2,5 GbE por una sola conexión.",
+    fullDescription: "Dock USB4 de StarTech.com pensado, según la ficha de Amazon, para estandarizar la conexión en equipos Mac y Windows sin controladores. Admite hasta dos pantallas 4K a 144 Hz o una 8K a 60 Hz por DisplayPort, con carga de 100 W y red de 2,5 GbE desde una sola conexión USB4 o Thunderbolt 4/5. La ficha cita también arranque PXE y Wake-on-LAN para la gestión de equipos, ranuras de bloqueo integradas y montaje en superficie o VESA, que se venden por separado. Mide 19 x 8 x 2,85 cm y pesa 332 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Hasta dos pantallas 4K a 144 Hz o una 8K a 60 Hz, según la ficha", "Carga de 100 W y red de 2,5 GbE por un solo cable", "Sin controladores en macOS y Windows, según la ficha"],
+    cons: ["Requiere un portátil con USB4 o Thunderbolt 4/5 para aprovechar sus prestaciones", "La ficha no detalla el recuento de puertos USB que incluye", "Es un dock orientado a equipos de empresa: puede ser más de lo que necesita un puesto individual", "El soporte de montaje VESA o de superficie se vende por separado", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "StarTech.com", "Modelo": "208UE-USB4-DOCK", "Conexión": "USB4 / Thunderbolt 4/5", "Pantallas": "2 x 4K a 144 Hz o 1 x 8K a 60 Hz (DisplayPort)", "Carga": "100 W", "Red": "2,5 GbE", "Medidas": "19 x 8 x 2,85 cm", "Peso": "332 g", "Vendido por": "Amazon" },
+    relatedPosts: ["conectar-dos-monitores-portatil-guia"],
+  },
+  {
     slug: "amazon-basics-hub-usb-a-10-puertos-65w",
     image: "https://m.media-amazon.com/images/I/71pN-e1hNnS._SL500_.jpg",
     // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.

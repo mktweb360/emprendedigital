@@ -622,7 +622,7 @@ export const posts: Post[] = [
     date: "2026-09-29",
     category: "Home Office",
     readTime: "9 min",
-    relatedProducts: ["caldigit-ts4-thunderbolt-4-dock", "baseus-docking-station-12en1", "anker-powerexpand-8en1-doble-hdmi", "dell-s2725qc-monitor-4k-usbc"],
+    relatedProducts: ["startech-dock-usb4-universal-doble-4k-144hz-100w", "caldigit-ts4-thunderbolt-4-dock", "baseus-docking-station-12en1", "anker-powerexpand-8en1-doble-hdmi", "dell-s2725qc-monitor-4k-usbc"],
     relatedPosts: ["mejor-hub-usb-c-portatil-2025", "mejor-monitor-home-office-2025", "monitor-4k-vs-full-hd-trabajo-remoto", "mejor-portatil-trabajar-desde-casa-mac-windows-arm-2026", "tamano-monitor-distancia-24-27-32-pulgadas"],
     categoryCta: { href: "/tienda/hubs-docking", text: "Ver hubs y docking stations →" },
   },
