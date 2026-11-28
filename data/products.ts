@@ -2320,6 +2320,26 @@ export const products: Product[] = [
     relatedPosts: ["montar-oficina-en-casa-5-pasos-ergonomia", "home-office-setup-productivo-guia"],
   },
   {
+    slug: "amazon-basics-soporte-portatil-aluminio-plegable-13-15",
+    image: "https://m.media-amazon.com/images/I/61Tjgn0T1kL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Soporte plegable de aluminio para portátil de 13 a 15 pulgadas, negro",
+    asin: "B07GFF82DP",
+    category: "Escritorios",
+    categorySlug: "escritorios",
+    categoryName: "Escritorios y mesas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Soporte plegable de aluminio para portátiles de 13 a 15 pulgadas, con almohadillas de goma y pliegue plano para guardarlo o transportarlo.",
+    fullDescription: "Soporte para portátil de Amazon Basics, de aluminio ligero, pensado para portátiles con pantalla de 33 cm (13 pulgadas) a 38 cm (15 pulgadas). Según la ficha de Amazon, incluye almohadillas de goma para mantener el ordenador en su sitio, patas de goma para evitar deslizamientos y un mecanismo de pliegue que recoge la patilla por la parte inferior para guardarlo o transportarlo plano. También permite una circulación adicional de aire para ayudar a ventilar los componentes. Mide unos 24,3 x 20,1 x 0,4 cm plegado y pesa unos 307 g; su número de modelo es NCS201-B. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Aluminio ligero, de unos 307 g", "Se pliega plano para guardarlo o llevarlo en la mochila", "Almohadillas y patas de goma contra deslizamientos"],
+    cons: ["Pensado para portátiles de 13 a 15 pulgadas, según la ficha", "Eleva la pantalla, pero para trabajar muchas horas necesitas teclado y ratón externos", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "NCS201-B", "Portátiles": "De 13 a 15 pulgadas", "Material": "Aluminio", "Medidas plegado": "24,3 x 20,1 x 0,4 cm", "Peso": "307 g", "Vendido por": "Amazon" },
+    relatedPosts: ["montar-oficina-en-casa-5-pasos-ergonomia", "home-office-setup-productivo-guia"],
+  },
+  {
     slug: "amazon-basics-soporte-movil-ajustable-aluminio",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Soporte ajustable para teléfono móvil, aluminio negro",
