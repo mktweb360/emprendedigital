@@ -171,7 +171,7 @@ export const posts: Post[] = [
     category: "Productividad",
     readTime: "8 min",
     image: "/images/blog/brazo-monitor-como-elegir.jpg",
-    relatedProducts: ["huanuo-brazo-monitor-13-32-9kg", "invision-mx200-brazo-monitor", "huanuo-brazo-doble-monitor-13-32-9kg", "bontec-brazo-monitor-24-38-12kg", "ergosolid-f80-brazo-monitor-17-32-9kg", "amazon-basics-brazo-dual-monitor-neumatico-15-27", "amazon-basics-brazo-monitor-individual-32-10kg"],
+    relatedProducts: ["huanuo-brazo-monitor-13-32-9kg", "invision-mx200-brazo-monitor", "huanuo-brazo-doble-monitor-13-32-9kg", "bontec-brazo-monitor-24-38-12kg", "ergosolid-f80-brazo-monitor-17-32-9kg", "amazon-basics-brazo-dual-monitor-neumatico-15-27", "amazon-basics-brazo-monitor-individual-32-10kg", "amazon-basics-brazo-dual-monitor-32-10kg-por-brazo"],
     relatedPosts: [
       "mejor-monitor-home-office-2025",
       "conectar-dos-monitores-portatil-guia",
