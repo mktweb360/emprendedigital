@@ -377,7 +377,7 @@ export const posts: Post[] = [
     date: "2025-07-14",
     category: "Home Office",
     readTime: "7 min",
-    relatedProducts: ["logitech-c920-hd-pro-webcam", "logitech-brio-4k-webcam", "blue-yeti-usb-microfono"],
+    relatedProducts: ["logitech-c920-hd-pro-webcam", "logitech-c920s-pro-hd-webcam-1080p-tapa-privacidad", "logitech-brio-4k-webcam", "blue-yeti-usb-microfono"],
     relatedPosts: ["iluminacion-videollamadas-home-office", "mejores-auriculares-cancelacion-ruido-trabajo-2025", "setup-trabajo-remoto-productividad-maxima", "setup-streaming-podcast-casa"],
     categoryCta: { href: "/tienda/webcams", text: "Ver webcams →" },
   },
