@@ -17,6 +17,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "amazon-basics-raton-cable-usb-silencioso-3-botones",
   "amazon-basics-alfombrilla-raton-reposamunecas-gel-20x25",
   "amazon-basics-alfombrilla-extendida-90x43",
+  "amazon-basics-alfombrilla-raton-gaming-31x27",
   "logitech-mk270-combo-teclado-raton-inalambrico",
   "logitech-signature-slim-solar-plus-teclado-inalambrico-grafito",
   "logitech-mx-keys-s-combo-teclado-raton-inalambricos-grafito",

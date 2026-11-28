@@ -356,6 +356,26 @@ export const products: Product[] = [
     relatedPosts: ["mejor-teclado-raton-trabajo-remoto"],
   },
   {
+    slug: "amazon-basics-alfombrilla-raton-gaming-31x27",
+    image: "https://m.media-amazon.com/images/I/71o2ghrFt3L._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Alfombrilla de ratón para videojuegos, estándar, negro",
+    asin: "B06X3W3YQD",
+    category: "Teclados y ratones",
+    categorySlug: "perifericos",
+    categoryName: "Teclados y ratones",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Alfombrilla rectangular de 31,5 x 26,9 cm con superficie de tejido y base de goma, lavable a mano.",
+    fullDescription: "Alfombrilla de ratón estándar de Amazon Basics, pensada según la ficha de Amazon para jugadores, diseñadores gráficos o cualquiera que use un ratón. La superficie es de tejido para que el ratón se deslice con suavidad, la base gruesa de goma la mantiene en su sitio y se puede lavar a mano. Mide 31,5 x 26,92 x 0,23 cm. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Base de goma que evita que se mueva", "Superficie de tejido para un deslizamiento suave", "Se lava a mano"],
+    cons: ["Es de tamaño estándar: no cubre ratón y teclado a la vez", "La ficha no indica compatibilidad con sensores concretos", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Medidas": "31,5 x 26,92 x 0,23 cm", "Superficie": "Tejido", "Base": "Goma", "Lavado": "A mano", "Vendido por": "Amazon" },
+    relatedPosts: ["mejor-teclado-raton-trabajo-remoto"],
+  },
+  {
     slug: "logitech-mk270-combo-teclado-raton-inalambrico",
     image: "https://m.media-amazon.com/images/I/61a14rKCeCL._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
