@@ -48,6 +48,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "ergosolid-f80-brazo-monitor-17-32-9kg",
   "huanuo-brazo-doble-monitor-13-32-9kg",
   "logitech-c920-hd-pro-webcam",
+  "logitech-c920s-pro-hd-webcam-1080p-tapa-privacidad",
   "logitech-brio-4k-webcam",
   "jabra-evolve2-55-auriculares",
   "jbl-tune-510bt-auriculares",
