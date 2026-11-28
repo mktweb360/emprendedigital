@@ -2480,6 +2480,26 @@ export const products: Product[] = [
     relatedPosts: ["home-office-setup-productivo-guia", "montar-oficina-en-casa-5-pasos-ergonomia"],
   },
   {
+    slug: "amazon-basics-regleta-2-tomas-usb-c-20w-cable-1-57m",
+    image: "https://m.media-amazon.com/images/I/51yxBLi2U2L._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Regleta de 2 tomas con 2 USB-C de 20 W y 1 USB-A, cable de 1,57 m",
+    asin: "B0DW3DBQ2S",
+    category: "Hubs y docking stations",
+    categorySlug: "hubs-docking",
+    categoryName: "Hubs y docking stations",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Regleta compacta que convierte una toma en dos tomas de corriente, con dos puertos USB-C de 20 W como máximo, un USB-A de 12 W y cable de 1,57 m.",
+    fullDescription: "Regleta compacta de Amazon Basics que, según la ficha de Amazon, convierte una toma en dos tomas de corriente alterna y añade dos puertos USB-C y un USB-A. Cada USB-C ofrece 20 W como máximo y el USB-A, 12 W, aunque cuando se usan varios puertos USB a la vez comparten 20 W en total. Declara protección de 8 puntos, entre ellas contra sobrecalentamiento, sobretensión, sobrecorriente y cortocircuito, obturadores de seguridad, patas de goma antideslizantes y orificios para montaje en pared. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Dos puertos USB-C de 20 W y un USB-A", "Protección de 8 puntos y obturadores de seguridad, según la ficha", "Patas antideslizantes y orificios para montaje en pared"],
+    cons: ["Solo 2 tomas de corriente", "Con varios puertos USB en uso, comparten 20 W en total", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "ASPD-20EXA-D00", "Tomas de corriente": "2", "Puertos USB": "2 USB-C (20 W máx. cada uno) y 1 USB-A (12 W)", "Cable": "1,57 m", "Medidas del paquete": "24,1 x 11,3 x 5,2 cm", "Vendido por": "Amazon" },
+    relatedPosts: ["home-office-setup-productivo-guia"],
+  },
+  {
     slug: "amazon-basics-funda-portatil-15-156-pulgadas-gris",
     image: "https://m.media-amazon.com/images/I/81e4QPFbgZS._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
